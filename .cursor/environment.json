@@ -1,0 +1,17 @@
+{
+  "name": "naver-chatbot",
+  "install": "pip install --user -r requirements.txt",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "python3 -m uvicorn app.main:app --host=0.0.0.0 --port=8000",
+      "description": "FastAPI dev server for the Naver chatbot callback (http://localhost:8000, interactive docs at /docs)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web server",
+      "port": 8000
+    }
+  ]
+}
