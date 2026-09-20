@@ -1,0 +1,1367 @@
+{
+  "as_of": "2026-09-20",
+  "n": 80,
+  "total_pool": 88,
+  "targets": [
+    {
+      "id": "nat_f6b466b24b05",
+      "name": "가나동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강동구",
+      "address": "서울특별시 강동구 고덕로98길 101 (상일동, 강동리엔파크11단지)",
+      "phone": "02-441-8588",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B0%80%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B0%95%EB%8F%99%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B0%80%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_effdb5b1bb0a",
+      "name": "강남25시동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "address": "서울특별시 강남구 학동로 235 (논현동)",
+      "phone": "0507-1430-8576",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B0%95%EB%82%A825%EC%8B%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B0%95%EB%82%A8%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B0%95%EB%82%A825%EC%8B%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_c22c6ba3d164",
+      "name": "강동동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강동구",
+      "address": "서울특별시 강동구 양재대로 1532 (길동)",
+      "phone": "02-472-7343",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B0%95%EB%8F%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B0%95%EB%8F%99%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B0%95%EB%8F%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_8d47167e3f0b",
+      "name": "강북동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 종암로21길 65-8 (종암동)",
+      "phone": "02-924-4555",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B0%95%EB%B6%81%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%B1%EB%B6%81%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B0%95%EB%B6%81%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_ffa7030af6a3",
+      "name": "강이랑아지랑",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "address": "서울특별시 송파구 오금로31길 14 (방이동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B0%95%EC%9D%B4%EB%9E%91%EC%95%84%EC%A7%80%EB%9E%91+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B0%95%EC%9D%B4%EB%9E%91%EC%95%84%EC%A7%80%EB%9E%91+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_5eaf28bf3575",
+      "name": "고려동물병원",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "address": "서울특별시 노원구 덕릉로 738 (상계동)",
+      "phone": "02-3391-0075",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B3%A0%EB%A0%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B3%A0%EB%A0%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_1c35ac5c78cd",
+      "name": "공항동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 개화동로27가길 27 (방화동)",
+      "phone": "0507-1485-8520",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B3%B5%ED%95%AD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B3%B5%ED%95%AD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_599db2df0d50",
+      "name": "그린동물병원",
+      "sido": "서울특별시",
+      "sigungu": "금천구",
+      "address": "서울특별시 금천구 독산로 272 (독산동)",
+      "phone": "02-856-4113",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%A6%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B7%B8%EB%A6%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_21754ca4b430",
+      "name": "금강동물병원",
+      "sido": "서울특별시",
+      "sigungu": "용산구",
+      "address": "서울특별시 용산구 이촌로 300 (이촌동)",
+      "phone": "02-798-7512",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B8%88%EA%B0%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B8%88%EA%B0%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_69d4ad2d3a1f",
+      "name": "김정복동물병원",
+      "sido": "서울특별시",
+      "sigungu": "은평구",
+      "address": "서울특별시 은평구 통일로 879-1 (갈현동)",
+      "phone": "02-357-8538",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B9%80%EC%A0%95%EB%B3%B5%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B9%80%EC%A0%95%EB%B3%B5%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_aa2ff610fb07",
+      "name": "노아동물병원",
+      "sido": "서울특별시",
+      "sigungu": "금천구",
+      "address": "서울특별시 금천구 금하로 745 (시흥동)",
+      "phone": "02-805-4758",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%85%B8%EC%95%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%85%B8%EC%95%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_6d9cb30fd982",
+      "name": "녹번동물병원",
+      "sido": "서울특별시",
+      "sigungu": "은평구",
+      "address": "서울특별시 은평구 통일로 697 (녹번동)",
+      "phone": "02-354-4110",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%85%B9%EB%B2%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%85%B9%EB%B2%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_bf485c2d1d0e",
+      "name": "뉴욕동물병원",
+      "sido": "서울특별시",
+      "sigungu": "마포구",
+      "address": "서울특별시 마포구 양화로11길 68 (서교동)",
+      "phone": "02-333-9558",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%89%B4%EC%9A%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%89%B4%EC%9A%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_9d97a24fd239",
+      "name": "당고개동물병원",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "address": "서울특별시 노원구 덕릉로 810-1 (상계동)",
+      "phone": "02-932-7582",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8B%B9%EA%B3%A0%EA%B0%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8B%B9%EA%B3%A0%EA%B0%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_640966b1214e",
+      "name": "더독동물병원",
+      "sido": "서울특별시",
+      "sigungu": "은평구",
+      "address": "서울특별시 은평구 서오릉로 140 (대조동)",
+      "phone": "02-383-7337",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8D%94%EB%8F%85%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8D%94%EB%8F%85%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_bbab8fab5d13",
+      "name": "도그플러스 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "중랑구",
+      "address": "서울특별시 중랑구 신내로 201 (신내동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8F%84%EA%B7%B8%ED%94%8C%EB%9F%AC%EC%8A%A4+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8F%84%EA%B7%B8%ED%94%8C%EB%9F%AC%EC%8A%A4+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_6132935e3bcd",
+      "name": "도담동물병원",
+      "sido": "서울특별시",
+      "sigungu": "도봉구",
+      "address": "서울특별시 도봉구 도봉로 875-9 (도봉동)",
+      "phone": "02-955-8400",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8F%84%EB%8B%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8F%84%EB%8B%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_73a4b879128c",
+      "name": "동물은내친구",
+      "sido": "서울특별시",
+      "sigungu": "동작구",
+      "address": "서울특별시 동작구 사당로 252 (사당동)",
+      "phone": "02-582-7708",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8F%99%EB%AC%BC%EC%9D%80%EB%82%B4%EC%B9%9C%EA%B5%AC+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8F%99%EB%AC%BC%EC%9D%80%EB%82%B4%EC%B9%9C%EA%B5%AC+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_1b00ad6cf42d",
+      "name": "동서울동물병원",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "address": "서울특별시 광진구 아차산로 493 (광장동)",
+      "phone": "02-444-7533",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8F%99%EC%84%9C%EC%9A%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8F%99%EC%84%9C%EC%9A%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_134b135aaaea",
+      "name": "두리동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "address": "서울특별시 송파구 성내천로 229 (마천동)",
+      "phone": "02-449-8575",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%91%90%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%91%90%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_61b58f54363b",
+      "name": "드림동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 동소문로15길 74-1 (동소문동6가, 로뎀나무)",
+      "phone": "02-928-7581",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_8fa2cda3db91",
+      "name": "디아크동물병원",
+      "sido": "서울특별시",
+      "sigungu": "동대문구",
+      "address": "서울특별시 동대문구 홍릉로 64-1 (청량리동)",
+      "phone": "02-960-7501",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%94%94%EC%95%84%ED%81%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%94%94%EC%95%84%ED%81%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_ebbe03461a23",
+      "name": "디엔씨동물병원",
+      "sido": "서울특별시",
+      "sigungu": "마포구",
+      "address": "서울특별시 마포구 신촌로 154 (노고산동)",
+      "phone": "02-717-7571",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%94%94%EC%97%94%EC%94%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%94%94%EC%97%94%EC%94%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_516f0e0d765a",
+      "name": "리즈 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "양천구",
+      "address": "서울특별시 양천구 목동중앙로 43 (목동, 목동 글로리파크)",
+      "phone": "02-2062-1110",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%A6%AC%EC%A6%88+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%A6%AC%EC%A6%88+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_f9dca57eccd0",
+      "name": "마로동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 동소문로44길 43 (하월곡동, 성북힐스테이트)",
+      "phone": "02-6014-8275",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%A7%88%EB%A1%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%A7%88%EB%A1%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_2d68828203c1",
+      "name": "면목동물병원",
+      "sido": "서울특별시",
+      "sigungu": "중랑구",
+      "address": "서울특별시 중랑구 사가정로 363-2 (면목동)",
+      "phone": "02-437-7579",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%A9%B4%EB%AA%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%A9%B4%EB%AA%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_b4c2652a3814",
+      "name": "미래동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 강서로18길 45 (화곡동)",
+      "phone": "02-2608-0234",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%AF%B8%EB%9E%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%AF%B8%EB%9E%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_c7eb43024a7c",
+      "name": "미소동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 종암로5길 91 (종암동)",
+      "phone": "02-929-1212",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%AF%B8%EC%86%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%AF%B8%EC%86%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_0f8614d36d62",
+      "name": "보노보노 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강북구",
+      "address": "서울특별시 강북구 삼양로 336-15 (수유동)",
+      "phone": "0507-1412-5525",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_48aa04b744e1",
+      "name": "보라매동물병원",
+      "sido": "서울특별시",
+      "sigungu": "관악구",
+      "address": "서울특별시 관악구 봉천로 239 (봉천동)",
+      "phone": "02-885-2130",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%9D%BC%EB%A7%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B4%EB%9D%BC%EB%A7%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_7eb06ebd92cd",
+      "name": "보람동물병원",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "address": "서울특별시 광진구 군자로 84-1 (군자동)",
+      "phone": "02-465-7582",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%9E%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B4%EB%9E%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_f71c40100083",
+      "name": "보람동물병원",
+      "sido": "서울특별시",
+      "sigungu": "중랑구",
+      "address": "서울특별시 중랑구 면목로 269 (면목동)",
+      "phone": "02-434-5465",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%9E%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B4%EB%9E%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_fa58a05f4b45",
+      "name": "봉식동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강북구",
+      "address": "서울특별시 강북구 삼양로181길 252 (우이동)",
+      "phone": "02-983-7000",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B4%89%EC%8B%9D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B4%89%EC%8B%9D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_f35280ae19a3",
+      "name": "브라운동물병원",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "address": "서울특별시 노원구 동일로203가길 29 (중계동, 브라운스톤중계)",
+      "phone": "02-6224-3858",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B8%8C%EB%9D%BC%EC%9A%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B8%8C%EB%9D%BC%EC%9A%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_0559274f907e",
+      "name": "비비펫동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 화랑로32길 91 (석관동, 상록캐스빌)",
+      "phone": "02-912-0028",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B9%84%EB%B9%84%ED%8E%AB%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B9%84%EB%B9%84%ED%8E%AB%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_36b52e011d03",
+      "name": "빛가온동물병원",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "address": "서울특별시 서대문구 통일로 375 (홍제동)",
+      "phone": "02-736-5834",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B9%9B%EA%B0%80%EC%98%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B9%9B%EA%B0%80%EC%98%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_749eda61b53d",
+      "name": "삼양동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강북구",
+      "address": "서울특별시 강북구 삼양로 190 (미아동)",
+      "phone": "02-989-9552",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%82%BC%EC%96%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%82%BC%EC%96%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_fd2da91ca775",
+      "name": "서울허브동물병원",
+      "sido": "서울특별시",
+      "sigungu": "관악구",
+      "address": "서울특별시 관악구 남부순환로 1811 (봉천동)",
+      "phone": "02-875-7579",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%ED%97%88%EB%B8%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%ED%97%88%EB%B8%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_ef8b4a3b713b",
+      "name": "세인트필립동물병원",
+      "sido": "서울특별시",
+      "sigungu": "동작구",
+      "address": "서울특별시 동작구 남부순환로267길 5 (사당동, 최신빌라)",
+      "phone": "0507-1372-7709",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%B8%EC%9D%B8%ED%8A%B8%ED%95%84%EB%A6%BD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%84%B8%EC%9D%B8%ED%8A%B8%ED%95%84%EB%A6%BD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_954b2b82fd2c",
+      "name": "세종동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강동구",
+      "address": "서울특별시 강동구 구천면로 237-5 (천호동)",
+      "phone": "02-484-8414",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%B8%EC%A2%85%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%84%B8%EC%A2%85%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_12141e9fcdd8",
+      "name": "수동물병원",
+      "sido": "서울특별시",
+      "sigungu": "서초구",
+      "address": "서울특별시 서초구 방배중앙로 149 (방배동)",
+      "phone": "02-534-9773",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%88%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_bb4eebec2b71",
+      "name": "숲속동물병원",
+      "sido": "서울특별시",
+      "sigungu": "중랑구",
+      "address": "서울특별시 중랑구 겸재로 207 (면목동)",
+      "phone": "02-492-9303",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%B2%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%88%B2%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_542df04b91ee",
+      "name": "스마일동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 수명로 74 (내발산동)",
+      "phone": "02-2667-5666",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%8A%A4%EB%A7%88%EC%9D%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%8A%A4%EB%A7%88%EC%9D%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_553915e85610",
+      "name": "시온동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 까치산로 74 (화곡동)",
+      "phone": "02-2692-9290",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%9C%EC%98%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%8B%9C%EC%98%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_e7b179f68af7",
+      "name": "신천동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "address": "서울특별시 송파구 석촌호수로 108 (잠실동)",
+      "phone": "02-420-0975",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%EC%B2%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%8B%A0%EC%B2%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_24a929e74b3d",
+      "name": "신풍동물병원",
+      "sido": "서울특별시",
+      "sigungu": "영등포구",
+      "address": "서울특별시 영등포구 신길로 70 (신길동)",
+      "phone": "02-835-7572",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%ED%92%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%8B%A0%ED%92%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_a1a47cd8ae2e",
+      "name": "씨밀레동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "address": "서울특별시 송파구 올림픽로47길 20 (풍납동)",
+      "phone": "02-470-7905",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%94%A8%EB%B0%80%EB%A0%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%94%A8%EB%B0%80%EB%A0%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_3e713ffa0043",
+      "name": "오주동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "address": "서울특별시 송파구 마천로 264 (거여동)",
+      "phone": "02-443-8083",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%A4%EC%A3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%98%A4%EC%A3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_613a4b06c15b",
+      "name": "올바른동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강동구",
+      "address": "서울특별시 강동구 올림픽로 787 (암사동)",
+      "phone": "0507-1421-1661",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%AC%EB%B0%94%EB%A5%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%98%AC%EB%B0%94%EB%A5%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_1b7c537885fc",
+      "name": "올케어동물영상센터",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 공항대로 335 (등촌동)",
+      "phone": "02-3665-7579",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%AC%EC%BC%80%EC%96%B4%EB%8F%99%EB%AC%BC%EC%98%81%EC%83%81%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%98%AC%EC%BC%80%EC%96%B4%EB%8F%99%EB%AC%BC%EC%98%81%EC%83%81%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_8bd96b2f2429",
+      "name": "와이즈동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "address": "서울특별시 강남구 강남대로128길 34-3 (논현동)",
+      "phone": "02-515-8276",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%99%80%EC%9D%B4%EC%A6%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%99%80%EC%9D%B4%EC%A6%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_70a15fb49fee",
+      "name": "우리집동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "address": "서울특별시 강남구 남부순환로 2737 (도곡동)",
+      "phone": "02-572-9300",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EC%A7%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9A%B0%EB%A6%AC%EC%A7%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_46678e25b439",
+      "name": "우면동물병원",
+      "sido": "서울특별시",
+      "sigungu": "서초구",
+      "address": "서울특별시 서초구 바우뫼로7길 8 (우면동)",
+      "phone": "02-578-7572",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A9%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9A%B0%EB%A9%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_f365a2d1aee2",
+      "name": "우장동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 화곡로68길 143 (등촌동)",
+      "phone": "02-2602-7582",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%9E%A5%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9A%B0%EC%9E%A5%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_1c4e3a6c0563",
+      "name": "응암동물병원",
+      "sido": "서울특별시",
+      "sigungu": "은평구",
+      "address": "서울특별시 은평구 응암로 261-4 (응암동)",
+      "phone": "02-387-6920",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%91%EC%95%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9D%91%EC%95%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_582d5d6d06d1",
+      "name": "이리온 양재점",
+      "sido": "서울특별시",
+      "sigungu": "서초구",
+      "address": "서울특별시 서초구 매헌로8길 16 (양재동)",
+      "phone": "02-577-6125",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EB%A6%AC%EC%98%A8+%EC%96%91%EC%9E%AC%EC%A0%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9D%B4%EB%A6%AC%EC%98%A8+%EC%96%91%EC%9E%AC%EC%A0%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_5d41da437903",
+      "name": "이재풍동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "address": "서울특별시 송파구 오금로35길 44 (오금동)",
+      "phone": "02-404-6123",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%9E%AC%ED%92%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9D%B4%EC%9E%AC%ED%92%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_24436ff64b85",
+      "name": "자연동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "address": "서울특별시 강남구 개포로 260 (개포동)",
+      "phone": "02-576-8275",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9E%90%EC%97%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9E%90%EC%97%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_1706eb9b6f9a",
+      "name": "조정연동물병원",
+      "sido": "서울특별시",
+      "sigungu": "금천구",
+      "address": "서울특별시 금천구 금하로 679 (시흥동)",
+      "phone": "02-806-1541",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%A1%B0%EC%A0%95%EC%97%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%A1%B0%EC%A0%95%EC%97%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_a253fe5d6cc5",
+      "name": "좋아요동물병원",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "address": "서울특별시 중구 다산로36길 83 (신당동)",
+      "phone": "0507-1404-6675",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%A2%8B%EC%95%84%EC%9A%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%A2%8B%EC%95%84%EC%9A%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_e6515d77eed0",
+      "name": "퍼피즌동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "address": "서울특별시 강남구 선릉로 636 (삼성동)",
+      "phone": "02-541-2651",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%8D%BC%ED%94%BC%EC%A6%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%8D%BC%ED%94%BC%EC%A6%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_d00066281e49",
+      "name": "펫가든동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "address": "서울특별시 송파구 중대로 80 (문정동)",
+      "phone": "02-400-0075",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%8E%AB%EA%B0%80%EB%93%A0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%8E%AB%EA%B0%80%EB%93%A0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_6b4aa103bd55",
+      "name": "하나동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 금낭화로 109 (방화동)",
+      "phone": "02-2666-6075",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%98%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%98%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_2c0963a98a74",
+      "name": "한강동물병원",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "address": "서울특별시 노원구 노원로34길 76 (상계동)",
+      "phone": "02-935-7588",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EA%B0%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EA%B0%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_a6a21527e685",
+      "name": "한마음동물병원",
+      "sido": "서울특별시",
+      "sigungu": "은평구",
+      "address": "서울특별시 은평구 갈현로 35-1 (신사동)",
+      "phone": "02-355-7931",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EB%A7%88%EC%9D%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EB%A7%88%EC%9D%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_2c7d1ca718da",
+      "name": "한사랑동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 성북로 27 (성북동1가)",
+      "phone": "02-743-7582",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%82%AC%EB%9E%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EC%82%AC%EB%9E%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_6471960d2627",
+      "name": "함께하는동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "address": "서울특별시 성동구 독서당로 200 (옥수동)",
+      "phone": "02-2299-3283",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_5b7aaf50f757",
+      "name": "햇살동물병원",
+      "sido": "서울특별시",
+      "sigungu": "양천구",
+      "address": "서울특별시 양천구 월정로46길 12 (신월동)",
+      "phone": "02-2690-5673",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%96%87%EC%82%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%96%87%EC%82%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_2fd8ca564dd4",
+      "name": "허브동물병원",
+      "sido": "서울특별시",
+      "sigungu": "구로구",
+      "address": "서울특별시 구로구 구일로10길 27 (구로동)",
+      "phone": "02-6734-7500",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%97%88%EB%B8%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%97%88%EB%B8%8C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_36e1c10d81f4",
+      "name": "호동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강북구",
+      "address": "서울특별시 강북구 월계로7길 53 (미아동)",
+      "phone": "02-988-6543",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%98%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%98%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_94a6bf033f1f",
+      "name": "홍제동물병원",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "address": "서울특별시 서대문구 통일로 463 (홍제동)",
+      "phone": "02-396-5525",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%99%8D%EC%A0%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%99%8D%EC%A0%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_89124ed43338",
+      "name": "황동물병원",
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "address": "서울특별시 중구 퇴계로 254-1 (묵정동)",
+      "phone": "02-2278-0075",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%99%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%99%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_41b17e92d7c5",
+      "name": "황하동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강서구",
+      "address": "서울특별시 강서구 금낭화로24길 52-1 (방화동, 치현태청타운빌리지)",
+      "phone": "02-2664-7773",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%99%A9%ED%95%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%99%A9%ED%95%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_bfe97e87a4fc",
+      "name": "효창동물병원",
+      "sido": "서울특별시",
+      "sigungu": "용산구",
+      "address": "서울특별시 용산구 백범로 293 (효창동)",
+      "phone": "02-711-4527",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%9A%A8%EC%B0%BD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%9A%A8%EC%B0%BD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_b699222c7a76",
+      "name": "견공본가",
+      "sido": "서울특별시",
+      "sigungu": "성동구",
+      "address": "서울특별시 성동구 무학로 8-2 (도선동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B2%AC%EA%B3%B5%EB%B3%B8%EA%B0%80+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B2%AC%EA%B3%B5%EB%B3%B8%EA%B0%80+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_5eda0c122caf",
+      "name": "파티마동물병원",
+      "sido": "서울특별시",
+      "sigungu": "마포구",
+      "address": "서울특별시 마포구 신촌로24길 24 (노고산동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%8C%8C%ED%8B%B0%EB%A7%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%8C%8C%ED%8B%B0%EB%A7%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_ec2a093e51ac",
+      "name": "미아동동물병원",
+      "sido": "서울특별시",
+      "sigungu": "강북구",
+      "address": "서울특별시 강북구 도봉로 110-1 (미아동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%AF%B8%EC%95%84%EB%8F%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%AF%B8%EC%95%84%EB%8F%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_316fca9016f0",
+      "name": "달래동물병원",
+      "sido": "서울특별시",
+      "sigungu": "용산구",
+      "address": "서울특별시 용산구 한남대로20길 7 (한남동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8B%AC%EB%9E%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_0e041815eb7c",
+      "name": "인왕동물병원",
+      "sido": "서울특별시",
+      "sigungu": "서대문구",
+      "address": "서울특별시 서대문구 통일로 405 (홍제동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B8%EC%99%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9D%B8%EC%99%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    },
+    {
+      "id": "nat_51efa7097330",
+      "name": "튼튼동물병원",
+      "sido": "서울특별시",
+      "sigungu": "은평구",
+      "address": "서울특별시 은평구 진흥로7길 17 (역촌동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%8A%BC%ED%8A%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%8A%BC%ED%8A%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "일반진료",
+        "예방접종"
+      ],
+      "care_level": "neighborhood"
+    }
+  ]
+}
