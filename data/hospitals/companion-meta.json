@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4182,
-  "excluded_n": 229,
+  "n": 4183,
+  "excluded_n": 219,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -217,7 +217,6 @@
     "YS동물병원",
     "운암동물병원",
     "고려동물병원",
-    "보람동물병원",
     "마이펫동물의료센타",
     "한국동물임상연구소",
     "로얄벳성수점동물병원",
@@ -228,8 +227,8 @@
   ],
   "stats": {
     "with_homepage": 1930,
-    "with_hours": 3254,
-    "with_phone": 3951,
+    "with_hours": 3255,
+    "with_phone": 3952,
     "hours_24h_yes": 225
   },
   "care_level_taxonomy": {
@@ -997,12 +996,6 @@
         "excluded_at": "2026-09-20T11:45:29Z"
       },
       {
-        "id": "nat_fc2841e6fda6",
-        "name": "보람동물병원",
-        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
-        "excluded_at": "2026-09-20T11:45:29Z"
-      },
-      {
         "id": "nat_525c0eb5efac",
         "name": "마이펫동물의료센타",
         "reason": "CLOSED: 강남 삼성로573 mypet-119 폐업 표기. Place는 동일전화 펫코도니아(언주로627)·YT/IG만→CLOSED_EXCLUDE",
@@ -1542,6 +1535,19 @@
         "exclude_closed": 4,
         "exclude_large_animal": 0,
         "missing_id": 0
+      },
+      "agent_final_sync": {
+        "at": "2026-09-20T11:58:19Z",
+        "source": "cursor/place-neigh-gwangju-ac30@final",
+        "agent_bc": "bc-154a6e23-5bd8-5cb6-bad1-03c965d59f61",
+        "patch_stats": {
+          "homepage_set": 0,
+          "hours_set": 0,
+          "phone_set": 0,
+          "boram_restored": 1,
+          "hours_cleaned": 0
+        },
+        "note": "Adopted agent final jsonl; patched empty homepage/hours; restored 보람 (Place hit overturned early CLOSED checkpoint)"
       }
     },
     "seoul_neigh_wave4": {

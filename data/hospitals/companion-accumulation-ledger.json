@@ -7741,5 +7741,19 @@
       ],
       "source_branch": "cursor/place-neigh-seoul-wave4-ac30"
     }
+  ],
+  "wave_actions": [
+    {
+      "action": "sync_gwangju_agent_final",
+      "at": "2026-09-20T11:58:19Z",
+      "agent": "bc-154a6e23-5bd8-5cb6-bad1-03c965d59f61",
+      "stats": {
+        "homepage_set": 0,
+        "hours_set": 0,
+        "phone_set": 0,
+        "boram_restored": 1,
+        "hours_cleaned": 0
+      }
+    }
   ]
 }
