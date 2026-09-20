@@ -1235,7 +1235,7 @@
         "weekday_hours": "09:00–21:00",
         "weekend_hours": null,
         "night_hours": "21:00–09:00",
-        "hours_note": "일반 09–21 / 야간 21–09 / 응급 365일 24시간",
+        "hours_note": "일반 09–21 / 야간 21–09. 365일 24시간 응급. CT=GE Lightspeed RT16.",
         "name_has_24h_token": true,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -1368,12 +1368,12 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT GE Lightspeed RT",
-          "model": "GE Lightspeed RT",
+          "item": "GE Lightspeed RT16",
+          "model": "GE Lightspeed RT16",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "suwonamc.co.kr 종양센터 시설",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "suwonamc.co.kr CT보유 섹션 모델명 명시",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
@@ -1475,9 +1475,7 @@
         "MRI는 공식 페이지에서 확인 못 함"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -2815,12 +2813,12 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "partial",
+        "hours_24h": "yes",
         "emergency": "yes",
         "weekday_hours": "10:00–20:00",
         "weekend_hours": "토 10:00–18:00",
-        "night_hours": "주중 20:00–10:00 / 토 18:00–10:00",
-        "hours_note": "일·공휴 응급 / 24시간 연중무휴. 주간 월–금 10–20, 토 10–18.",
+        "night_hours": "20:00–10:00",
+        "hours_note": "네트워크 공통: 평일 주간 10–20 / 야간 20–10, 토 주간 10–18 / 야간 18–10. 일·공휴 응급 / 연중무휴 24시. 포항 054-612-2475.",
         "name_has_24h_token": true,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -2946,12 +2944,12 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "128채널 CT",
-          "model": "128ch",
+          "item": "160채널 CT",
+          "model": "160채널",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "메디소비자뉴스 포항점 개원",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "eumamc.com: 전 지점 1.5T MRI · 160채널 CT 도입",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
@@ -2960,9 +2958,9 @@
           "item": "1.5T MRI",
           "model": "1.5T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "같은 기사",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "eumamc.com: 전 지점 1.5T MRI · 160채널 CT 도입",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
@@ -3016,9 +3014,7 @@
         "수원 본과 대구 본을 같은 병원으로 묶지 않음."
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "network_branches": [
@@ -4150,12 +4146,12 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "partial",
+        "hours_24h": "yes",
         "emergency": "yes",
         "weekday_hours": "10:00–20:00",
         "weekend_hours": null,
-        "night_hours": "20:00–00:00 / 06:00–10:00",
-        "hours_note": "주간 10–20, 야간 20–24·06–10, 심야 00–06. 주말·공휴 연중무휴.",
+        "night_hours": "20:00–10:00 (심야 00–06 포함)",
+        "hours_note": "주간 10–20 / 야간 20–24·06–10 / 심야 00–06. 주말·공휴 연중무휴. 02-457-0075. 3F응급실·영상진단 센터 운영(모델명 미게시).",
         "name_has_24h_token": true,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -4393,49 +4389,44 @@
         "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "09:00–18:00",
-        "weekend_hours": "토 휴무 · 일 휴무",
-        "night_hours": null,
-        "hours_note": "분과 예약 진료 + 응급의료센터 24시간(기존 프로필과 일치).",
+        "weekend_hours": "토·일·공휴 휴진(정규)",
+        "night_hours": "24시간 응급",
+        "hours_note": "정규 09–18 예약제, 토·일·공휴 휴진. 응급의료센터 2019.1~ 24시간 체계(위급 시 휴일 무관, 30% 할증). 접수 02-880-8661~8666.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일)",
         "by_day": {
           "mon": {
             "status": "open",
             "open": "09:00",
-            "close": "18:00",
-            "raw": "월 09:00 - 18:00"
+            "close": "18:00"
           },
           "tue": {
             "status": "open",
             "open": "09:00",
-            "close": "18:00",
-            "raw": "화 09:00 - 18:00"
+            "close": "18:00"
           },
           "wed": {
             "status": "open",
             "open": "09:00",
-            "close": "18:00",
-            "raw": "수 09:00 - 18:00"
+            "close": "18:00"
           },
           "thu": {
             "status": "open",
             "open": "09:00",
-            "close": "18:00",
-            "raw": "목 09:00 - 18:00"
+            "close": "18:00"
           },
           "fri": {
             "status": "open",
             "open": "09:00",
-            "close": "18:00",
-            "raw": "금 09:00 - 18:00"
+            "close": "18:00"
           },
           "sat": {
             "status": "closed",
-            "raw": "토 정기휴무 (매주 토요일)"
+            "raw": "휴진(정규)/응급가능"
           },
           "sun": {
             "status": "closed",
-            "raw": "일 정기휴무 (매주 일요일)"
+            "raw": "휴진(정규)/응급가능"
           }
         },
         "breaks": [],
@@ -4711,7 +4702,13 @@
         "lng": 126.9481583,
         "hours_source": "hospital_website",
         "website_sources": [
-          "https://vmth.snu.ac.kr/"
+          "https://vmth.snu.ac.kr/",
+          "https://vmth.snu.ac.kr/treat/consultationTime.do",
+          "https://vmth.snu.ac.kr/subject/emergencyMedicine.do"
+        ],
+        "alt_phones": [
+          "02-880-8661",
+          "02-880-8662"
         ]
       },
       "species_scope": [
@@ -4739,7 +4736,7 @@
         "weekday_hours": "09:00–17:30",
         "weekend_hours": null,
         "night_hours": null,
-        "hours_note": "평일 09:00–17:30 예약진료. 분과: 내과·외과·안과·영상·임상병리·응급중환자.",
+        "hours_note": "평일 09:00–17:30 예약진료(사이트 푸터). CT·MRI 검사의뢰서 양식 제공. 분과: 내과·외과·안과·영상의학과·임상병리·응급중환자의학. 원무 02-450-3664.",
         "name_has_24h_token": false,
         "hours_source": "hospital_website"
       },
@@ -5035,7 +5032,7 @@
         "weekday_hours": "10:00–20:00",
         "weekend_hours": null,
         "night_hours": "20:00–10:00",
-        "hours_note": "24시간(일반 10–20, 응급 20–익일 10). 월–일 동일. 공식사이트 namc.co.kr",
+        "hours_note": "월–일 동일. 일반 10–20 / 응급 20–익일10. 노원 02-919-0075, 강북점 02-984-0075. CT·MRI 공식 표기.",
         "name_has_24h_token": false,
         "hours_source": "hospital_website"
       },
@@ -5201,10 +5198,10 @@
           "item": "CT",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "namc.co.kr",
+          "evidence": "namc.co.kr: CT·MRI 등 최신의료장비 구축",
           "as_of": "2026-09-20",
           "publisher": null,
-          "model": "CT"
+          "model": null
         },
         {
           "kind": "mri",
@@ -5212,10 +5209,10 @@
           "item": "MRI",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "namc.co.kr",
+          "evidence": "namc.co.kr: CT·MRI 등 최신의료장비 구축",
           "as_of": "2026-09-20",
           "publisher": null,
-          "model": "MRI"
+          "model": null
         },
         {
           "kind": "underwater_treadmill",
@@ -5304,7 +5301,11 @@
         "website_sources": [
           "https://www.namc.co.kr/"
         ],
-        "notes": "N동물의료센터 노원점. 강북점 02-984-0075. 고양이병원·암센터 노원점."
+        "notes": "N동물의료센터 노원점. 강북점 02-984-0075. 고양이병원·암센터 노원점.",
+        "network_branches": [
+          "노원점",
+          "강북점"
+        ]
       },
       "species_scope": [
         "dog",
@@ -6375,7 +6376,7 @@
       "name": "충북대학교 동물병원",
       "sido": "충청북도",
       "sigungu": "청주시",
-      "phone": "043-261-3220",
+      "phone": "043-261-2602",
       "address": "충북 청주시 서원구 충대로 1",
       "role": "university",
       "role_label": "대학동물병원",
@@ -6387,9 +6388,9 @@
         "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "09:00–18:00",
-        "weekend_hours": "토 09:00–13:00 · 일 휴무",
-        "night_hours": "24시간",
-        "hours_note": "정규 평일 09–18 / 응급 365일 24시간 (사이트)",
+        "weekend_hours": "토 09:00–13:00 · 일·공휴 휴진",
+        "night_hours": "24시간 응급",
+        "hours_note": "정규: 평일 09–18, 토 09–13, 일·공휴 휴진. 응급진료 365일 24시간. 예약/상담 043-261-2602·2609. 영상: X-ray·초음파·CT·MRI, 핵의학(방사성동위원소).",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 09:00 - 13:00 | 일 정기휴무 (매주 일요일)",
         "by_day": {
@@ -6557,10 +6558,10 @@
           "kind": "ct",
           "label": "CT",
           "item": "CT",
-          "model": "CT",
+          "model": null,
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "cbuanimal.co.kr 영상의학과: X-ray·초음파·CT·MRI",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -6568,10 +6569,10 @@
           "kind": "mri",
           "label": "MRI",
           "item": "MRI",
-          "model": "MRI",
+          "model": null,
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "cbuanimal.co.kr 영상의학과",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -6605,6 +6606,17 @@
           "status": "installed",
           "evidence_level": "self_claimed",
           "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "petct",
+          "label": "PET-CT",
+          "item": "핵의학/방사성동위원소",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "cbuanimal.co.kr 핵의학과 소개",
           "as_of": "2026-09-20",
           "publisher": null
         }

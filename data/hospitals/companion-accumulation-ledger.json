@@ -1,6 +1,6 @@
 {
   "title": "강아지·고양이 병원 정보 축적 장부",
-  "as_of": "2026-09-20T01:53:09Z",
+  "as_of": "2026-09-20T01:54:54Z",
   "species_scope": [
     "dog",
     "cat"
@@ -1142,12 +1142,12 @@
           "고양이 특화"
         ],
         "equipment": [
+          "GE Lightspeed RT16 CT",
           "C-arm",
-          "CT",
-          "ICU",
-          "X-ray",
           "내시경",
-          "초음파"
+          "초음파",
+          "X-ray",
+          "ICU"
         ],
         "services": [
           "종양항암센터",
@@ -1297,11 +1297,37 @@
           ],
           "source": "hospital_website",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "GE Lightspeed RT16 CT",
+            "C-arm",
+            "내시경",
+            "초음파",
+            "X-ray",
+            "ICU"
+          ],
+          "source": "hospital_website",
+          "note": "CT 모델명 공식",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–21:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "night_hours",
+          "value": "21:00–09:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b5-본-동물의료센터",
@@ -2325,7 +2351,7 @@
         "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "10:00–20:00",
-        "night_hours": "주중 20:00–10:00 / 토 18:00–10:00",
+        "night_hours": "20:00–10:00",
         "hours_note": "일·공휴 응급 / 24시간 연중무휴. 주간 월–금 10–20, 토 10–18.",
         "departments": [
           "응급",
@@ -2340,8 +2366,8 @@
           "중재시술(최소침습)"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "1.5T MRI",
+          "160ch CT"
         ],
         "services": [
           "슬개골·디스크·TPLO·종양수술",
@@ -2482,11 +2508,33 @@
           ],
           "source": "hospital_website",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "1.5T MRI",
+            "160ch CT"
+          ],
+          "source": "hospital_website",
+          "note": "전 지점 표준 장비",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–20:00",
+          "source": "hospital_website",
+          "note": "포항 포함 네트워크",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "night_hours",
+          "value": "20:00–10:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b10-본-동물메디컬센터-외과동물병원",
@@ -3539,10 +3587,10 @@
         "phone": "02-457-0075",
         "address": "서울특별시 강동구 천호대로 1171, 지하1층,2층,3층 (길동)",
         "homepage": "http://RoyalAMCGD.com",
-        "hours_24h": "partial",
+        "hours_24h": "yes",
         "emergency": "yes",
         "weekday_hours": "10:00–20:00",
-        "night_hours": "20:00–00:00 / 06:00–10:00",
+        "night_hours": "20:00–10:00",
         "hours_note": "주간 10–20, 야간 20–24·06–10, 심야 00–06. 주말·공휴 연중무휴.",
         "departments": [
           "응급",
@@ -3711,6 +3759,34 @@
           ],
           "source": "hospital_website",
           "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–20:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "night_hours",
+          "value": "20:00–10:00",
+          "source": "hospital_website",
+          "note": "심야 00–06 별도",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "연중무휴",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "phone",
+          "value": "02-457-0075",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
         }
       ],
       "open_questions": [
@@ -3733,7 +3809,7 @@
         "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "09:00–18:00",
-        "hours_note": "분과 예약 진료 + 응급의료센터 24시간(기존 프로필과 일치).",
+        "hours_note": "정규 09–18 예약제, 토·일·공휴 휴진. 응급의료센터 2019.1~ 24시간 체계(위급 시 휴일 무관, 30% 할증). 접수 02-880-8661~8666.",
         "departments": [
           "영상(CT/MRI)",
           "일반외과",
@@ -3761,12 +3837,9 @@
           "초음파"
         ],
         "services": [
-          "24시간 응급(2019~)",
-          "내과·외과·영상·응급 분과",
-          "CT",
-          "MRI",
-          "초음파",
-          "X-ray"
+          "응급의료센터",
+          "헌혈프로그램",
+          "지역병원 의뢰"
         ],
         "role": "대학동물병원",
         "lat": 37.46628571,
@@ -3908,6 +3981,52 @@
           "source": "hospital_website",
           "note": "",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://vmth.snu.ac.kr/",
+          "source": "hospital_website",
+          "note": "응급의료센터 메뉴 존재",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "phone",
+          "value": "02-880-8661",
+          "source": "hospital_website",
+          "note": "8661·8662",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "services",
+          "value": [
+            "응급의료센터",
+            "헌혈프로그램",
+            "지역병원 의뢰"
+          ],
+          "source": "hospital_website",
+          "note": "시간표는 하위페이지 추가 확인 필요",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "예약제",
+          "at": "2026-09-20T01:55:17Z"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "2019.1~ 24시간 응급체계",
+          "at": "2026-09-20T01:55:17Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "정규 주간+24시 응급",
+          "at": "2026-09-20T01:55:17Z"
         }
       ],
       "open_questions": [
@@ -3933,14 +4052,12 @@
         "weekday_hours": "09:00–17:30",
         "hours_note": "평일 09:00–17:30 예약진료. 분과: 내과·외과·안과·영상·임상병리·응급중환자.",
         "departments": [
-          "영상(CT/MRI)",
-          "응급",
           "내과",
-          "일반외과",
+          "외과",
           "안과",
           "영상의학과",
-          "임상병리",
-          "응급중환자"
+          "임상병리과",
+          "응급중환자의학과"
         ],
         "equipment": [
           "CT",
@@ -4075,6 +4192,44 @@
           ],
           "source": "hospital_website",
           "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–17:30",
+          "source": "hospital_website",
+          "note": "예약진료",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "내과",
+            "외과",
+            "안과",
+            "영상의학과",
+            "임상병리과",
+            "응급중환자의학과"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "hospital_website",
+          "note": "CT/MRI 검사의뢰서 양식",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "phone",
+          "value": "02-450-3664",
+          "source": "hospital_website",
+          "note": "원무행정실",
+          "at": "2026-09-20T01:54:54Z"
         }
       ],
       "open_questions": [
@@ -4249,10 +4404,8 @@
         "equipment": [
           "CT",
           "MRI",
-          "X-ray",
           "고압산소",
-          "수중런닝/수중보행",
-          "초음파"
+          "수중런닝"
         ],
         "services": [
           "중증환자 케어센터",
@@ -4392,6 +4545,42 @@
           ],
           "source": "hospital_website",
           "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–20:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "night_hours",
+          "value": "20:00–10:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "고압산소",
+            "수중런닝"
+          ],
+          "source": "hospital_website",
+          "note": "CT/MRI·재활 공식",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "species_scope",
+          "value": [
+            "dog",
+            "cat"
+          ],
+          "source": "hospital_website",
+          "note": "노원점 고양이병원/전용층",
+          "at": "2026-09-20T01:54:54Z"
         }
       ],
       "open_questions": [
@@ -5455,7 +5644,7 @@
       ],
       "status": "verified_draft",
       "verified_fields": {
-        "phone": "043-261-3220",
+        "phone": "043-261-2602",
         "address": "충북 청주시 서원구 충대로 1",
         "homepage": "http://www.cbuanimal.co.kr/",
         "hours_24h": "partial",
@@ -5478,7 +5667,7 @@
         "equipment": [
           "CT",
           "MRI",
-          "PET-CT",
+          "PET/핵의학",
           "X-ray",
           "초음파"
         ],
@@ -5636,6 +5825,40 @@
           "source": "hospital_website",
           "note": "",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "365일 24시간 응급 재확인",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "토 09–13",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "phone",
+          "value": "043-261-2602",
+          "source": "hospital_website",
+          "note": "2602·2609",
+          "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "PET/핵의학",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:54:54Z"
         }
       ],
       "open_questions": [
@@ -5645,28 +5868,32 @@
   ],
   "last_batch_reviews": [
     {
-      "name": "경상국립대학교수의과대학부속동물병원",
-      "note": "응급=없음 확정, 공식 영상의학과 CT(2ch)·MRI(0.4T) 증거 축적, 예약전화 055-772-1111"
+      "name": "24시 포항 이음동물의료센터",
+      "note": "공식 1.5T MRI·160ch CT, 주간10–20/야간20–10 재확인"
     },
     {
-      "name": "본 동물메디컬센터 외과동물병원",
-      "note": "달서=응급없음(주간), 수성=24시 네트워크 재확인, 공식 MRI/CT 모델명 축적"
+      "name": "권앤정 24시수원동물메디컬센터",
+      "note": "GE Lightspeed RT16 CT 모델 확정, 일반09–21/야간21–09"
     },
     {
-      "name": "충남대학교 수의과대학 부속동물병원",
-      "note": "응급=없음 확정, 평일 10–18 재확인, stale_source·전화 경고 해제"
+      "name": "노원N동물의료센터",
+      "note": "일반10–20/응급20–10, CT·MRI·고양이병원 공식 재확인"
     },
     {
-      "name": "제주대학교 수의과대학 부설동물병원",
-      "note": "공식 vethospital.jejunu.ac.kr 확인: 평일09–18·주말휴진, 야간응급 없음, 전화 3380/3384"
+      "name": "충북대학교 동물병원",
+      "note": "정규+24시응급·핵의학/CT/MRI 공식 재확인"
     },
     {
-      "name": "24시노아동물메디컬센터",
-      "note": "공식 사이트 연중무휴 24시간·전화 재확인"
+      "name": "건국대학교 부속 동물병원",
+      "note": "평일09–17:30·분과·CT/MRI의뢰 확인. 야간응급시간은 미명시"
     },
     {
-      "name": "뉴로동물의료센터24시",
-      "note": "주간10–21/야간21–09·365일·주소 재확인"
+      "name": "24시 로얄동물메디컬센터 강동",
+      "note": "주간10–20·야간/심야 구간·연중무휴 재확인"
+    },
+    {
+      "name": "서울대학교 수의과대학 동물병원",
+      "note": "정규 09–18 예약제 + 24시 응급의료센터(2019~) 공식 확인"
     }
   ],
   "progress": {
@@ -5674,7 +5901,7 @@
     "by_status": {
       "verified_draft": 32
     },
-    "reviewed_this_batch": 6,
-    "emergency_unknown_remaining": 0
+    "reviewed_this_batch": 7,
+    "equipment_gap_remaining": 28
   }
 }
