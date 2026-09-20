@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4268,
-  "excluded_n": 143,
+  "n": 4258,
+  "excluded_n": 153,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -146,12 +146,22 @@
     "한샘애견동물병원",
     "한샘동물병원",
     "천성가축약품병원",
-    "천안축협동물병원"
+    "천안축협동물병원",
+    "늘봄동물병원",
+    "박영학동물병원",
+    "성주동물병원",
+    "다원동물병원",
+    "문경축협 동물병원",
+    "동양축산",
+    "범방동물병원",
+    "의성축협 동물병원",
+    "성심동물병원",
+    "선산중앙동물병원"
   ],
   "stats": {
     "with_homepage": 1923,
-    "with_hours": 3215,
-    "with_phone": 3983,
+    "with_hours": 3216,
+    "with_phone": 3982,
     "hours_24h_yes": 221
   },
   "care_level_taxonomy": {
@@ -162,7 +172,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3554,
+    "neighborhood": 3544,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -449,6 +459,66 @@
         "name": "천안축협동물병원",
         "reason": "LARGE_ANIMAL: 천안 영성 미나릿길4 Place hit(전화·주소일치). 천안축협=축산업협동조합 부설 → LARGE_ANIMAL_ONLY_EXCLUDE",
         "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_7b50df7f41ac",
+        "name": "늘봄동물병원",
+        "reason": "CLOSED: 경산 하양읍 대학로305길51-13 mypet-119 폐업 표기; 당근 '사라짐·중산메디컬 합병' → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_bfb5d3a0663b",
+        "name": "박영학동물병원",
+        "reason": "CLOSED: 상주 복룡3길48 Place 주소일치·디렉터리전화054-531-9930이나 MarketBiz 영업상태 폐업 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_5e7da52b5d4f",
+        "name": "성주동물병원",
+        "reason": "LARGE_ANIMAL: 타깃 성주읍 시장길47·전화054-933-0400; 검색은 동일주소 성주가축병원만 노출(반려 Place 미확인) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_008ec571041a",
+        "name": "다원동물병원",
+        "reason": "LARGE_ANIMAL: 경산 와촌면 동강길26 Place 주소일치하나 동일주소가 든든한우 동물병원으로도 등재(한우/대동물) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_f5bf8285176a",
+        "name": "문경축협 동물병원",
+        "reason": "LARGE_ANIMAL: 문경 축협(축산농협) 동물병원 — 대동물/가축 중심. Place 중앙로166 전화일치하나 호계면 본원 혼재 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_fe4669d790ff",
+        "name": "동양축산",
+        "reason": "LARGE_ANIMAL: 상호 동양축산(감포) — 축산/대동물 사업 → LARGE_ANIMAL_ONLY_EXCLUDE (Place 반려병원 패널 불필요)",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_dbbbf23d541f",
+        "name": "범방동물병원",
+        "reason": "CLOSED: 구미 선산읍 남문로5길5 주소·전화일치하나 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_033a54cb55a0",
+        "name": "의성축협 동물병원",
+        "reason": "LARGE_ANIMAL: 의성축협(축산농협) 동물병원 — 구제역백신·가축 중심 → LARGE_ANIMAL_ONLY_EXCLUDE (모선길20 Place전화일치)",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_401c779d4170",
+        "name": "성심동물병원",
+        "reason": "LARGE_ANIMAL: 타깃 원효로186·전화일치하나 해당주소는 가축인공수정소; 반려 Place는 탑동 서라벌대로322-14 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_cb1160ba1073",
+        "name": "선산중앙동물병원",
+        "reason": "CLOSED: 구미 선산읍 남문로3길 1 주소일치; mypet-119 등 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
       }
     ],
     "primary_nohp_local": {
@@ -684,6 +754,30 @@
         "ambiguous_skip": 3,
         "exclude_closed": 5,
         "homepage_set": 2
+      }
+    },
+    "gyeongbuk_neigh_wave1": {
+      "n": 100,
+      "hit": 85,
+      "no_hit": 4,
+      "ambiguous": 1,
+      "closed_exclude": 4,
+      "large_animal_exclude": 6,
+      "homepages_reported": 0,
+      "hours_reported": 23,
+      "merged_at": "2026-09-20T09:17:55Z",
+      "source_branch": "cursor/place-neigh-gyeongbuk-ac30",
+      "merge_stats": {
+        "hit_applied": 85,
+        "homepage_set": 0,
+        "phone_set": 7,
+        "hours_set": 4,
+        "dept_merged": 1,
+        "no_hit": 4,
+        "ambiguous_skip": 1,
+        "exclude_closed": 4,
+        "exclude_large_animal": 6,
+        "missing_id": 0
       }
     }
   },

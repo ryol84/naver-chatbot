@@ -7082,6 +7082,75 @@
         }
       ],
       "source_branch": "cursor/place-neigh-chungnam-ac30"
+    },
+    {
+      "ts": "2026-09-20T09:17:55Z",
+      "action": "merge_place_neigh_gyeongbuk_wave1",
+      "stats": {
+        "hit_applied": 85,
+        "homepage_set": 0,
+        "phone_set": 7,
+        "hours_set": 4,
+        "dept_merged": 1,
+        "no_hit": 4,
+        "ambiguous_skip": 1,
+        "exclude_closed": 4,
+        "exclude_large_animal": 6,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_7b50df7f41ac",
+          "name": "늘봄동물병원",
+          "reason": "CLOSED: 경산 하양읍 대학로305길51-13 mypet-119 폐업 표기; 당근 '사라짐·중산메디컬 합병' → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_bfb5d3a0663b",
+          "name": "박영학동물병원",
+          "reason": "CLOSED: 상주 복룡3길48 Place 주소일치·디렉터리전화054-531-9930이나 MarketBiz 영업상태 폐업 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_5e7da52b5d4f",
+          "name": "성주동물병원",
+          "reason": "LARGE_ANIMAL: 타깃 성주읍 시장길47·전화054-933-0400; 검색은 동일주소 성주가축병원만 노출(반려 Place 미확인) → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_008ec571041a",
+          "name": "다원동물병원",
+          "reason": "LARGE_ANIMAL: 경산 와촌면 동강길26 Place 주소일치하나 동일주소가 든든한우 동물병원으로도 등재(한우/대동물) → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_f5bf8285176a",
+          "name": "문경축협 동물병원",
+          "reason": "LARGE_ANIMAL: 문경 축협(축산농협) 동물병원 — 대동물/가축 중심. Place 중앙로166 전화일치하나 호계면 본원 혼재 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_fe4669d790ff",
+          "name": "동양축산",
+          "reason": "LARGE_ANIMAL: 상호 동양축산(감포) — 축산/대동물 사업 → LARGE_ANIMAL_ONLY_EXCLUDE (Place 반려병원 패널 불필요)"
+        },
+        {
+          "id": "nat_dbbbf23d541f",
+          "name": "범방동물병원",
+          "reason": "CLOSED: 구미 선산읍 남문로5길5 주소·전화일치하나 mypet-119 폐업 표기 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_033a54cb55a0",
+          "name": "의성축협 동물병원",
+          "reason": "LARGE_ANIMAL: 의성축협(축산농협) 동물병원 — 구제역백신·가축 중심 → LARGE_ANIMAL_ONLY_EXCLUDE (모선길20 Place전화일치)"
+        },
+        {
+          "id": "nat_401c779d4170",
+          "name": "성심동물병원",
+          "reason": "LARGE_ANIMAL: 타깃 원효로186·전화일치하나 해당주소는 가축인공수정소; 반려 Place는 탑동 서라벌대로322-14 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_cb1160ba1073",
+          "name": "선산중앙동물병원",
+          "reason": "CLOSED: 구미 선산읍 남문로3길 1 주소일치; mypet-119 등 폐업 표기 → CLOSED_EXCLUDE"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gyeongbuk-ac30"
     }
   ]
 }

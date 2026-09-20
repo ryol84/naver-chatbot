@@ -88,36 +88,41 @@ def recompute_stats(rows: list[dict]) -> dict:
     }
 
 
-def write_csv(rows: list[dict]) -> None:
-    fields = [
-        "id",
-        "name",
-        "care_level",
-        "care_level_ko",
-        "sido",
-        "sigungu",
-        "address",
-        "phone",
-        "homepage",
-        "has_homepage",
-        "hours_24h",
-        "weekday_hours",
-        "weekend_hours",
-        "lat",
-        "lng",
-        "departments",
-        "place_search_url",
-        "daum_map_url",
-    ]
-    with COMPANION_CSV.open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
-        w.writeheader()
-        for r in rows:
-            row = {k: r.get(k) for k in fields}
-            deps = r.get("departments")
-            if isinstance(deps, list):
-                row["departments"] = "|".join(deps)
-            w.writerow(row)
+def write_csv(rows_by_id: dict[str, dict], remove_ids: set[str]) -> None:
+    """Patch existing CSV (CRLF) to avoid wholesale rewrites."""
+    import io
+
+    raw = COMPANION_CSV.read_bytes()
+    nl = "\r\n" if b"\r\n" in raw[:800] else "\n"
+    text = raw.decode()
+    rdr = csv.DictReader(io.StringIO(text))
+    fields = list(rdr.fieldnames or [])
+    out: list[dict] = []
+    for row in rdr:
+        hid = row.get("id")
+        if not hid or hid in remove_ids:
+            continue
+        j = rows_by_id.get(hid)
+        if not j:
+            continue
+        phone = j.get("phone") or ""
+        if phone and (row.get("phone") or "") != phone:
+            row["phone"] = phone
+        hp = j.get("homepage") or ""
+        if hp and (row.get("homepage") or "") != hp:
+            row["homepage"] = hp
+            row["has_homepage"] = "True"
+        deps = j.get("departments")
+        if isinstance(deps, list):
+            row["departments"] = "|".join(deps)
+        if j.get("place_search_url"):
+            row["place_search_url"] = j["place_search_url"]
+        out.append(row)
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=fields, extrasaction="ignore", lineterminator=nl)
+    w.writeheader()
+    w.writerows(out)
+    COMPANION_CSV.write_bytes(buf.getvalue().encode())
 
 
 def main() -> None:
