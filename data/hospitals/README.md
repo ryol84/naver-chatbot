@@ -6,13 +6,13 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4250곳
+## companion 4240곳
 | 등급 | 수 |
 |------|----|
 | 대학 | 12 |
 | 2차 | 499 |
 | 1차 | 182 |
-| 일반 동네 | 3536 |
+| 일반 동네 | 3526 |
 | 재활·한방 | 21 |
 
 ### Place 보강
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- Jeonnam neighborhood wave1: 100 (hit 84 / ambiguous 6 / CLOSED 5 / LARGE_ANIMAL 5); homepage 0 / hours 14
 - Gyeonggi neighborhood wave2: 100 (hit 85 / no_hit 6 / ambiguous 1 / CLOSED 8); homepage 2 (덕소·애플펫) / hours 41
 - Gyeongbuk neighborhood wave1: 100 (hit 85 / no_hit 4 / ambiguous 1 / CLOSED 4 / LARGE_ANIMAL 6); homepage 0 / hours 23; phone +7
 - Chungnam neighborhood wave1: 92 (hit 74 / no_hit 4 / ambiguous 3 / CLOSED 5 / LARGE_ANIMAL 6); homepage 2 / hours 22

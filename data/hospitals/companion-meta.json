@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4250,
-  "excluded_n": 161,
+  "n": 4240,
+  "excluded_n": 171,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -163,12 +163,22 @@
     "금정동물병원",
     "중앙동물병원",
     "가평동물병원",
-    "한서동물병원"
+    "한서동물병원",
+    "다나동물병원",
+    "담양축협동물병원",
+    "백수동물병원",
+    "산들동물병원가축약품",
+    "영광축협동물병원",
+    "온누리동물병원",
+    "쿨펫동물병원여수점",
+    "함평축협동물병원",
+    "호남동물병원",
+    "소담동물병원"
   ],
   "stats": {
     "with_homepage": 1925,
-    "with_hours": 3216,
-    "with_phone": 3982,
+    "with_hours": 3217,
+    "with_phone": 3977,
     "hours_24h_yes": 221
   },
   "care_level_taxonomy": {
@@ -179,7 +189,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3536,
+    "neighborhood": 3526,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -574,6 +584,66 @@
         "name": "한서동물병원",
         "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 여주 세종로517번길21-2 한서동물병원 폐업",
         "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_5301eba6d299",
+        "name": "다나동물병원",
+        "reason": "LARGE_ANIMAL: 영암읍 Place는 영암로1552; 가축인공수정·반려동물진료 안함 표기 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_8c5101894a73",
+        "name": "담양축협동물병원",
+        "reason": "LARGE_ANIMAL: 담양군 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 담양군 담양읍 삼거리길 8-6",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_4eeab8e3f5c6",
+        "name": "백수동물병원",
+        "reason": "CLOSED: 영광 백수읍 백수로10길27 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_c503a2dc2ec8",
+        "name": "산들동물병원가축약품",
+        "reason": "LARGE_ANIMAL: 순천시 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 순천시 서면 죽평아랫돔길 8",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_e83b22221327",
+        "name": "영광축협동물병원",
+        "reason": "LARGE_ANIMAL: 영광군 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 영광군 영광읍 옥당로 115-14",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_f3ebe26bbe0a",
+        "name": "온누리동물병원",
+        "reason": "CLOSED: 광양 중마중앙로83 mypet-119·비즈노 폐업 확인 → CLOSED_EXCLUDE (순천 동명과 혼동 주의)",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_980c471f2d8c",
+        "name": "쿨펫동물병원여수점",
+        "reason": "CLOSED: 여수 국포1로36 mypet-119 폐업 표기(국동 롯데마트) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_a03697980cc4",
+        "name": "함평축협동물병원",
+        "reason": "LARGE_ANIMAL: 함평군 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 함평군 학교면 함장로 1202-118",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_56835d11e6bc",
+        "name": "호남동물병원",
+        "reason": "CLOSED: 보성 벌교읍 채동선로208-1 mypet-119 폐업 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_74cc5c467345",
+        "name": "소담동물병원",
+        "reason": "CLOSED: 구례읍 중앙로11 mypet-119 폐업 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
       }
     ],
     "primary_nohp_local": {
@@ -856,6 +926,30 @@
         "ambiguous_skip": 1,
         "exclude_closed": 8,
         "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "jeonnam_neigh_wave1": {
+      "n": 100,
+      "hit": 84,
+      "no_hit": 0,
+      "ambiguous": 6,
+      "closed_exclude": 5,
+      "large_animal_exclude": 5,
+      "homepages_reported": 0,
+      "hours_reported": 14,
+      "merged_at": "2026-09-20T09:27:28Z",
+      "source_branch": "cursor/place-neigh-jeonnam-ac30",
+      "merge_stats": {
+        "hit_applied": 84,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 2,
+        "dept_merged": 0,
+        "no_hit": 0,
+        "ambiguous_skip": 6,
+        "exclude_closed": 5,
+        "exclude_large_animal": 5,
         "missing_id": 0
       }
     }
