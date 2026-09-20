@@ -137,5 +137,17 @@
     "university": 17,
     "rehab_specialty": 21
   },
-  "enrichment_note": "사이트 없으면 place_search_url(네이버)·daum_map_url(카카오맵)로 확인. 공개 상세(site-hospitals)는 병원별 사이트/플레이스 검증."
+  "enrichment_note": "사이트 없으면 place_search_url(네이버)·daum_map_url(카카오맵)로 확인. 공개 상세(site-hospitals)는 병원별 사이트/플레이스 검증.",
+  "place_enrichment": {
+    "batch_hits": 40,
+    "homepages_from_place": 6,
+    "phones_from_place": 3,
+    "default_departments_applied": 4300,
+    "place_dept_merged": 40,
+    "still_need_place": 2907,
+    "note": "Naver bulk HTTP 403 after ~40; continued via WebFetch for key 2차. Neighborhood uses Place/Daum URL + default depts."
+  },
+  "with_homepage": 1897,
+  "with_departments": 4300,
+  "sec_missing_homepage": 37
 }

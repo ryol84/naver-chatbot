@@ -6714,6 +6714,26 @@
   ],
   "last_batch_reviews": [
     {
+      "name": "_place_batch",
+      "note": "Place 히트 40곳 병합. 홈페이지+6. 전 병원 과목 기본값+Place키워드."
+    },
+    {
+      "name": "연수동물메디컬센터",
+      "note": "Place→https://ysamc.co.kr/ · 24시·CT"
+    },
+    {
+      "name": "가양동물의료센터",
+      "note": "Place→http://gayangamc.co.kr · 고양이 ISFM"
+    },
+    {
+      "name": "플러스동물메디컬센터",
+      "note": "Place→http://plusamc.kr"
+    },
+    {
+      "name": "24시스마일동물의료센터",
+      "note": "Place 연중무휴·전화 확인, 독립사이트 미표기"
+    },
+    {
       "name": "광명 24 아이디동물의료센터",
       "note": "네이버플레이스→공식사이트 https://www.24idamc.com/ · 64ch CT·분과센터 · 2차 · 갭해소"
     },
@@ -6724,10 +6744,6 @@
     {
       "name": "_taxonomy",
       "note": "companion 4300곳 care_level 분류: {'neighborhood': 3590, 'secondary': 480, 'primary': 192, 'university': 17, 'rehab_specialty': 21}"
-    },
-    {
-      "name": "_method",
-      "note": "사이트 없으면 네이버플레이스·카카오맵 URL 부여. 1차/2차/동네/대학/재활 구분"
     }
   ],
   "progress": {
@@ -6745,6 +6761,9 @@
       "primary": 190,
       "university": 17,
       "rehab_specialty": 21
-    }
+    },
+    "companion_place_hits": 40,
+    "companion_need_place": 2907,
+    "companion_with_departments": 4300
   }
 }
