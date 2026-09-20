@@ -7476,6 +7476,85 @@
         }
       ],
       "source_branch": "cursor/place-neigh-chungbuk-ac30"
+    },
+    {
+      "ts": "2026-09-20T09:49:10Z",
+      "action": "merge_place_neigh_gangwon_wave1",
+      "stats": {
+        "hit_applied": 86,
+        "homepage_set": 1,
+        "phone_set": 1,
+        "hours_set": 2,
+        "dept_merged": 3,
+        "no_hit": 2,
+        "ambiguous_skip": 0,
+        "exclude_closed": 5,
+        "exclude_large_animal": 7,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_9797bcb008b3",
+          "name": "고성축협 동물병원",
+          "reason": "LARGE_ANIMAL: 강원 고성군 간성읍 건봉사로 6-72 Place hit(전화·주소). 고성군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_c1d411fc195b",
+          "name": "예임양계병원",
+          "reason": "LARGE_ANIMAL: 강원 횡성군 횡성읍 읍하로61번길 11 Place hit(전화·주소). 횡성군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_00851c5fb11a",
+          "name": "용천동물병원",
+          "reason": "CLOSED: 강원 홍천군 화촌면 성산로 150-2 Place hit(주소·명칭 매칭); 홈없음 → CLOSED_EXCLUDE(폐업 표기)"
+        },
+        {
+          "id": "nat_8a2fb4089a7f",
+          "name": "우사랑동물병원",
+          "reason": "LARGE_ANIMAL: 강원 원주시 문막읍 문막시장1길 82 Place hit(전화·주소). 원주시 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_53759d33cc01",
+          "name": "원주축협문막지점동물병원",
+          "reason": "LARGE_ANIMAL: 원주시 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함/미확정"
+        },
+        {
+          "id": "nat_2d9aac3d45b3",
+          "name": "축협동물병원",
+          "reason": "LARGE_ANIMAL: 강릉시 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함/미확정"
+        },
+        {
+          "id": "nat_91d7ebd5c87a",
+          "name": "플러스동물병원",
+          "reason": "CLOSED: 강원 원주시 문막읍 문막시장1길 36 Place hit(주소·명칭 매칭); 홈없음 → CLOSED_EXCLUDE(폐업 표기)"
+        },
+        {
+          "id": "nat_7f9773a12749",
+          "name": "홍천축협동물병원",
+          "reason": "LARGE_ANIMAL: 강원 홍천군 홍천읍 꽃뫼로 82 Place hit(전화·주소). 홍천군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_91ddecf81eec",
+          "name": "횡성축협동물병원",
+          "reason": "LARGE_ANIMAL: 횡성군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함/미확정"
+        },
+        {
+          "id": "nat_15503d3a6266",
+          "name": "태백동물병원",
+          "reason": "CLOSED: 태백시 Place 패널 미노출; 디렉터리 주소 일치·전화 일치 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_9267e14dcb59",
+          "name": "하나동물병원",
+          "reason": "CLOSED: 양양군 Place 패널 미노출; 디렉터리 주소 일치 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_dbd1cc1d3646",
+          "name": "다나동물병원",
+          "reason": "CLOSED: 원주시 Place 패널 미노출; 디렉터리 주소 일치·전화 일치 → CLOSED_EXCLUDE"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gangwon-ac30"
     }
   ]
 }
