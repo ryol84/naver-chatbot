@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4157,
-  "excluded_n": 245,
+  "n": 4154,
+  "excluded_n": 248,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -248,12 +248,15 @@
     "국립축산과학원동물병원",
     "라임동물약품병원",
     "대한동물병원약품",
-    "양하무역산업동물병원"
+    "양하무역산업동물병원",
+    "한우사랑동물병원",
+    "피그헬스동물병원",
+    "유일동물병원"
   ],
   "stats": {
-    "with_homepage": 1924,
-    "with_hours": 3303,
-    "with_phone": 3942,
+    "with_homepage": 1925,
+    "with_hours": 3317,
+    "with_phone": 3945,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -264,7 +267,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3443,
+    "neighborhood": 3440,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -1217,6 +1220,24 @@
         "name": "양하무역산업동물병원",
         "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
         "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_ecd9491c6b8a",
+        "name": "한우사랑동물병원",
+        "reason": "LARGE_ANIMAL: 공주 의당 의당로323-2는 가축인공수정소(한우사랑) 등록·상호 한우사랑 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 반려병원 패널 없음",
+        "excluded_at": "2026-09-20T12:49:20Z"
+      },
+      {
+        "id": "nat_1f524da9f488",
+        "name": "피그헬스동물병원",
+        "reason": "LARGE_ANIMAL: 논산 연무 득안대로467 Place hit(전화·주소일치)이나 피그헬스=돼지/산업동물 계열 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T12:49:20Z"
+      },
+      {
+        "id": "nat_6e34ffd5ffff",
+        "name": "유일동물병원",
+        "reason": "LARGE_ANIMAL: 천안 동남 풍세로614 Place hit(전화·주소일치)이나 상호 유일동물병원(산업동물 출장진료 전문)·유일사슴목장 주소 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T12:49:20Z"
       }
     ],
     "primary_nohp_local": {
@@ -1874,9 +1895,57 @@
         "exclude_large_animal": 8,
         "missing_id": 0
       }
+    },
+    "chungnam_neigh_wave2": {
+      "n": 20,
+      "hit": 15,
+      "no_hit": 2,
+      "ambiguous": 0,
+      "closed_exclude": 0,
+      "large_animal_exclude": 3,
+      "homepages_reported": 0,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T12:49:20Z",
+      "source_branch": "cursor/place-neigh-chungnam-misc-ac30",
+      "merge_stats": {
+        "hit_applied": 15,
+        "homepage_set": 0,
+        "phone_set": 4,
+        "hours_set": 3,
+        "dept_merged": 3,
+        "no_hit": 2,
+        "ambiguous_skip": 0,
+        "exclude_closed": 0,
+        "exclude_large_animal": 3,
+        "missing_id": 0
+      }
+    },
+    "misc_neigh_residual": {
+      "n": 31,
+      "hit": 31,
+      "no_hit": 0,
+      "ambiguous": 0,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 7,
+      "hours_reported": 11,
+      "merged_at": "2026-09-20T12:49:20Z",
+      "source_branch": "cursor/place-neigh-chungnam-misc-ac30",
+      "merge_stats": {
+        "hit_applied": 31,
+        "homepage_set": 1,
+        "phone_set": 1,
+        "hours_set": 11,
+        "dept_merged": 0,
+        "no_hit": 0,
+        "ambiguous_skip": 0,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1924,
+  "with_homepage": 1925,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
