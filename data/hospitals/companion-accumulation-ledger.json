@@ -7779,6 +7779,80 @@
         }
       ],
       "source_branch": "cursor/place-neigh-gyeongbuk-w2-ac30"
+    },
+    {
+      "ts": "2026-09-20T12:06:59Z",
+      "action": "merge_place_neigh_gyeonggi_wave3",
+      "stats": {
+        "hit_applied": 86,
+        "homepage_set": 1,
+        "phone_set": 1,
+        "hours_set": 27,
+        "dept_merged": 2,
+        "no_hit": 3,
+        "ambiguous_skip": 0,
+        "exclude_closed": 11,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_128e0f3afc13",
+          "name": "경서동물병원약품",
+          "reason": "CLOSED: mypet-119 경서동물병원 폐업(덕양 중앙로 136 화전) 타깃 주소 계열; 현 Place 중앙로170은 별도 엔트리로 봄"
+        },
+        {
+          "id": "nat_e984697c4b47",
+          "name": "미사랑동물병원",
+          "reason": "CLOSED: mypet-119 폐업(미사강변중앙로 189); 하남 Place 미노출·서울 강동 동명 우세"
+        },
+        {
+          "id": "nat_4d426b404373",
+          "name": "분당동물병원",
+          "reason": "CLOSED: mypet-119 분당동물병원 폐업(양현로 126 이매동) 주소일치; Place 동명 혼재"
+        },
+        {
+          "id": "nat_f6ed3163fba1",
+          "name": "어정동물병원",
+          "reason": "CLOSED: mypet-119·비즈노 폐업(어정로/중동); Place panel 미노출"
+        },
+        {
+          "id": "nat_ce59a4eaf19e",
+          "name": "오동물병원",
+          "reason": "CLOSED: mypet-119 폐업(영통 매영로/매탄 삼성2차 상가); Place 미매칭"
+        },
+        {
+          "id": "nat_3f90b19d0f97",
+          "name": "위즈펫동물병원",
+          "reason": "CLOSED: mypet-119 위즈펫 풍산점 폐업(무궁화로 237) 주소일치; Place 동명 혼재"
+        },
+        {
+          "id": "nat_4ea6556c7f8a",
+          "name": "위즈펫동물병원 일산점",
+          "reason": "CLOSED: mypet-119 위즈펫 일산장항점 폐업(중앙로1275번길 64 홈플러스) 주소일치"
+        },
+        {
+          "id": "nat_9846f1727c21",
+          "name": "정다운동물종합병원",
+          "reason": "CLOSED: mypet-119 정다운종합동물병원 폐업(수지로112번길 11) 주소일치; Place 미노출"
+        },
+        {
+          "id": "nat_54c077a20064",
+          "name": "중앙동물종합병원",
+          "reason": "CLOSED: mypet-119·꾸다체크 폐업(팔달로 163-1, 폐업일 2024-05-31) 주소·전화일치"
+        },
+        {
+          "id": "nat_246dbb2691a6",
+          "name": "쿨펫동물병원 동탄점",
+          "reason": "CLOSED: mypet-119 폐업(동탄중앙로 376)·화성시 직권말소 공고; Place 미노출"
+        },
+        {
+          "id": "nat_b4a5bc95db58",
+          "name": "펫사랑동물병원",
+          "reason": "CLOSED: mypet-119 폐업(영신로 29 지제동 이마트); 경기도 Place 미매칭·타지역 동명"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gyeonggi-w3-ac30"
     }
   ],
   "wave_actions": [
