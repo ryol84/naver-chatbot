@@ -16,7 +16,7 @@
 | 재활·한방 | 21 |
 
 ### Place 보강
-- 홈페이지 보유: 1942곳
+- 홈페이지 보유: 1943곳
 - 2차 무홈페이지 잔여: 37곳 (Place/Daum URL·전화·과목은 대부분 확보)
 - 전 병원 departments 채움
 - 1차 Place depth (로컬 11+클라우드 진행): 영업시간·전화·주소교정(검단→인천)
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+Neigh final wave1 100: Place enrich merge
 Neigh final wave3 56: Place enrich merge
 Neigh final wave2 100: Place enrich merge
 Primary nohp final 113: Place enrich merge

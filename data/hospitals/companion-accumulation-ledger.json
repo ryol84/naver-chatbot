@@ -8209,6 +8209,24 @@
         }
       ],
       "source_branch": "cursor/place-neigh-final-w3-ac30"
+    },
+    {
+      "ts": "2026-09-20T14:32:37Z",
+      "action": "merge_place_neigh_final_wave1",
+      "stats": {
+        "hit_applied": 80,
+        "homepage_set": 1,
+        "phone_set": 10,
+        "hours_set": 7,
+        "dept_merged": 0,
+        "no_hit": 20,
+        "ambiguous_skip": 0,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [],
+      "source_branch": "cursor/place-neigh-final-w1-ac30"
     }
   ],
   "wave_actions": [

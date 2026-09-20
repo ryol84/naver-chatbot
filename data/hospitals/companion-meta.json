@@ -268,9 +268,9 @@
     "누리동물병원"
   ],
   "stats": {
-    "with_homepage": 1942,
-    "with_hours": 3315,
-    "with_phone": 3947,
+    "with_homepage": 1943,
+    "with_hours": 3322,
+    "with_phone": 3957,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -2197,9 +2197,33 @@
         "exclude_large_animal": 3,
         "missing_id": 0
       }
+    },
+    "neigh_final_wave1": {
+      "n": 100,
+      "hit": 80,
+      "no_hit": 20,
+      "ambiguous": 0,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 3,
+      "hours_reported": 11,
+      "merged_at": "2026-09-20T14:32:37Z",
+      "source_branch": "cursor/place-neigh-final-w1-ac30",
+      "merge_stats": {
+        "hit_applied": 80,
+        "homepage_set": 1,
+        "phone_set": 10,
+        "hours_set": 7,
+        "dept_merged": 0,
+        "no_hit": 20,
+        "ambiguous_skip": 0,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1942,
+  "with_homepage": 1943,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
