@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4138,
-  "excluded_n": 264,
+  "n": 4137,
+  "excluded_n": 265,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -265,12 +265,13 @@
     "아쿠아메드수산질병관리원",
     "엘리자베스동물병원",
     "대구축산 동물병원",
-    "누리동물병원"
+    "누리동물병원",
+    "모라동물병원"
   ],
   "stats": {
     "with_homepage": 1947,
     "with_hours": 3324,
-    "with_phone": 3957,
+    "with_phone": 3959,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -281,7 +282,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3427,
+    "neighborhood": 3426,
     "secondary": 498,
     "primary": 180,
     "university": 12,
@@ -1348,6 +1349,12 @@
         "name": "누리동물병원",
         "reason": "CLOSED: CLOSED_EXCLUDE: 평택 송탄로202 누리동물병원 공공데이터 폐업(2019-08-05); 동일주소 한호가축병원 잔존; Place 누리 미노출",
         "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_3163a74f2f0c",
+        "name": "모라동물병원",
+        "reason": "CLOSED: 사상 백양대로957 hospitalk 폐업(2025-06-01). Kakao Place에 모라동물병원 카드 없음(동일주소 타업종). CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T15:12:25Z"
       }
     ],
     "primary_nohp_local": {
@@ -2292,6 +2299,30 @@
         "exclude_closed": 0,
         "exclude_large_animal": 0,
         "missing_id": 1
+      }
+    },
+    "neigh_final_wave4": {
+      "n": 54,
+      "hit": 10,
+      "no_hit": 39,
+      "ambiguous": 4,
+      "closed_exclude": 1,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T15:12:25Z",
+      "source_branch": "cursor/place-neigh-final-w4-ac30",
+      "merge_stats": {
+        "hit_applied": 10,
+        "homepage_set": 0,
+        "phone_set": 3,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 39,
+        "ambiguous_skip": 4,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
       }
     }
   },

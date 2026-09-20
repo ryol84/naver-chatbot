@@ -6,13 +6,13 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4138곳
+## companion 4137곳
 | 등급 | 수 |
 |------|----|
 | 대학 | 12 |
 | 2차 | 498 |
 | 1차 | 180 |
-| 일반 동네 | 3427 |
+| 일반 동네 | 3426 |
 | 재활·한방 | 21 |
 
 ### Place 보강
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+Neigh final wave4 54: Place enrich merge
 Primary hours final 25: Place enrich merge
 Special final 7: Place enrich merge
 Secondary final 36: Place enrich merge
