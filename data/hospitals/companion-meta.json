@@ -122,5 +122,20 @@
     "with_hours": 3115,
     "with_phone": 3962,
     "hours_24h_yes": 178
-  }
+  },
+  "care_level_taxonomy": {
+    "university": "대학동물병원",
+    "secondary": "2차 의료센터 (메디컬·동물의료센터·분과/영상 거점)",
+    "primary": "1차 진료 (종합·24시 일반 등 1차 중심)",
+    "neighborhood": "일반 동네병원",
+    "rehab_specialty": "재활·한방 특화"
+  },
+  "care_level_counts": {
+    "neighborhood": 3576,
+    "secondary": 496,
+    "primary": 190,
+    "university": 17,
+    "rehab_specialty": 21
+  },
+  "enrichment_note": "사이트 없으면 place_search_url(네이버)·daum_map_url(카카오맵)로 확인. 공개 상세(site-hospitals)는 병원별 사이트/플레이스 검증."
 }

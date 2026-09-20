@@ -94,12 +94,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EB%B0%94%EB%8D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EB%B0%94%EB%8D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "gwangju-gonggam",
@@ -193,12 +196,15 @@
         "lat": 35.19049835,
         "lng": 126.8180313,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B3%B5%EA%B0%90%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B3%B5%EA%B0%90%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-24시김승현외과동물메디컬센터",
@@ -210,7 +216,7 @@
       "address": "전남광주통합특별시 남구 대남대로 388 (월산동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -286,12 +292,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C%EA%B9%80%EC%8A%B9%ED%98%84%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C%EA%B9%80%EC%8A%B9%ED%98%84%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b16-24시블루밍동물병원",
@@ -301,9 +310,9 @@
       "sigungu": "북구",
       "phone": "062-416-7975",
       "address": "전남광주통합특별시 북구 대자로 36, MVG#78 304,305,306호 (운암동)",
-      "role": "secondary",
-      "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "role": "primary",
+      "role_label": "1차 진료",
+      "care_level": "primary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -371,12 +380,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C%EB%B8%94%EB%A3%A8%EB%B0%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C%EB%B8%94%EB%A3%A8%EB%B0%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "1차 진료"
     },
     {
       "id": "b16-24시언제나동물병원",
@@ -386,9 +398,9 @@
       "sigungu": "북구",
       "phone": "062-571-0011",
       "address": "전남광주통합특별시 북구 하백로5번길 1 (매곡동)",
-      "role": "secondary",
-      "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "role": "neighborhood",
+      "role_label": "일반 동네병원",
+      "care_level": "neighborhood",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -532,12 +544,15 @@
         "lat": 35.18812943,
         "lng": 126.8905334,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C%EC%96%B8%EC%A0%9C%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C%EC%96%B8%EC%A0%9C%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "일반 동네병원"
     },
     {
       "id": "b15-e-동물-메디컬-센터",
@@ -549,7 +564,7 @@
       "address": "전남광주통합특별시 무안군 삼향읍 남악2로74번가길 4-11",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -614,12 +629,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=e-%EB%8F%99%EB%AC%BC+%EB%A9%94%EB%94%94%EC%BB%AC+%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=e-%EB%8F%99%EB%AC%BC+%EB%A9%94%EB%94%94%EC%BB%AC+%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-광양동물메디컬센터",
@@ -631,7 +649,7 @@
       "address": "전남광주통합특별시 광양시 사동로 70, 1층, 2층 (중동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -690,12 +708,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B4%91%EC%96%91%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B4%91%EC%96%91%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-광주24시스카이동물메디컬센터",
@@ -707,7 +728,7 @@
       "address": "전남광주통합특별시 서구 상무대로 879, 두왕빌딩 3,4,5층 (쌍촌동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -773,12 +794,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B4%91%EC%A3%BC24%EC%8B%9C%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B4%91%EC%A3%BC24%EC%8B%9C%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-광주동물메디컬센터",
@@ -790,7 +814,7 @@
       "address": "전남광주통합특별시 광산구 북문대로420번길 206 (신창동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -863,12 +887,15 @@
         "lat": 35.19018555,
         "lng": 126.8579636,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B4%91%EC%A3%BC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B4%91%EC%A3%BC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b16-늘사랑-양한방-동물병원",
@@ -878,9 +905,9 @@
       "sigungu": "여수시",
       "phone": "061-686-0275",
       "address": "전남광주통합특별시 여수시 무선로 179 (선원동)",
-      "role": "specialty",
-      "role_label": "특화",
-      "care_level": "unknown",
+      "role": "rehab_specialty",
+      "role_label": "재활 특화",
+      "care_level": "rehab_specialty",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1025,12 +1052,15 @@
         "lat": 34.77626801,
         "lng": 127.6526184,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%8A%98%EC%82%AC%EB%9E%91+%EC%96%91%ED%95%9C%EB%B0%A9+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%8A%98%EC%82%AC%EB%9E%91+%EC%96%91%ED%95%9C%EB%B0%A9+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "재활 특화"
     },
     {
       "id": "b15-더블리스동물의료센터",
@@ -1042,7 +1072,7 @@
       "address": "전남광주통합특별시 여수시 시청로 15, 1층 101호 (학동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1107,12 +1137,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%8D%94%EB%B8%94%EB%A6%AC%EC%8A%A4%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%8D%94%EB%B8%94%EB%A6%AC%EC%8A%A4%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-더엘동물의료센터",
@@ -1124,7 +1157,7 @@
       "address": "전남광주통합특별시 북구 서하로 319-1, 1층 (오치동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1183,12 +1216,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%8D%94%EC%97%98%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%8D%94%EC%97%98%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-바른동물의료센터",
@@ -1200,7 +1236,7 @@
       "address": "전남광주통합특별시 무안군 삼향읍 남악로 234, 트리폴리앙프라자  C동 2층 203호",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1265,12 +1301,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B0%94%EB%A5%B8%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B0%94%EB%A5%B8%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-봉선아이동물메디컬센터",
@@ -1282,7 +1321,7 @@
       "address": "전남광주통합특별시 남구 봉선로 77(봉선동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1341,12 +1380,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B4%89%EC%84%A0%EC%95%84%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B4%89%EC%84%A0%EC%95%84%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-블루밍동물의료센터",
@@ -1358,7 +1400,7 @@
       "address": "전남광주통합특별시 북구 대자로 36, MVG#78 202호 (운암동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1415,12 +1457,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B8%94%EB%A3%A8%EB%B0%8D%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B8%94%EB%A3%A8%EB%B0%8D%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-비타동물의료센터",
@@ -1432,7 +1477,7 @@
       "address": "전남광주통합특별시 남구 봉선로 21, 1층 (봉선동, 우리덕이)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1572,12 +1617,15 @@
         "lat": 35.13129425,
         "lng": 126.9033127,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B9%84%ED%83%80%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B9%84%ED%83%80%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-빛고을동물의료센터",
@@ -1589,7 +1637,7 @@
       "address": "전남광주통합특별시 북구 중문로 74 (우산동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1722,12 +1770,15 @@
         "lat": 35.17910385,
         "lng": 126.9206467,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B9%9B%EA%B3%A0%EC%9D%84%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B9%9B%EA%B3%A0%EC%9D%84%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b16-아나푸게안과동물병원",
@@ -1737,9 +1788,9 @@
       "sigungu": "북구",
       "phone": "062-524-3663",
       "address": "전남광주통합특별시 북구 설죽로 191 (용봉동)",
-      "role": "specialty",
-      "role_label": "특화",
-      "care_level": "unknown",
+      "role": "neighborhood",
+      "role_label": "일반 동네병원",
+      "care_level": "neighborhood",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -1879,12 +1930,15 @@
         "lat": 35.17685318,
         "lng": 126.8967667,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%82%98%ED%91%B8%EA%B2%8C%EC%95%88%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%95%84%EB%82%98%ED%91%B8%EA%B2%8C%EC%95%88%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "일반 동네병원"
     },
     {
       "id": "b16-이룸외과동물병원",
@@ -1894,9 +1948,9 @@
       "sigungu": "남구",
       "phone": "062-714-1755",
       "address": "전남광주통합특별시 남구 금화로 376 (주월동)",
-      "role": "specialty",
-      "role_label": "특화",
-      "care_level": "unknown",
+      "role": "neighborhood",
+      "role_label": "일반 동네병원",
+      "care_level": "neighborhood",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -2010,12 +2064,15 @@
         "lat": 35.14125443,
         "lng": 126.8869095,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EB%A3%B8%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%9D%B4%EB%A3%B8%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "일반 동네병원"
     },
     {
       "id": "b15-전남동물의료센터",
@@ -2027,7 +2084,7 @@
       "address": "전남광주통합특별시 나주시 빛가람로 746 (빛가람동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -2142,12 +2199,15 @@
         "lat": 35.02077866,
         "lng": 126.793335,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%84%EB%82%A8%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%A0%84%EB%82%A8%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b15-진도개메디컬센터",
@@ -2159,7 +2219,7 @@
       "address": "전남광주통합특별시 진도군 진도읍 성죽골길 30",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -2218,12 +2278,15 @@
         "lat": 34.48236084,
         "lng": 126.2785645,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%A7%84%EB%8F%84%EA%B0%9C%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%A7%84%EB%8F%84%EA%B0%9C%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b16-진월24동물병원",
@@ -2233,9 +2296,9 @@
       "sigungu": "남구",
       "phone": null,
       "address": "전남광주통합특별시 남구 서문대로678번길 7, 202호 (진월동, 대주아파트)",
-      "role": "secondary",
-      "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "role": "neighborhood",
+      "role_label": "일반 동네병원",
+      "care_level": "neighborhood",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -2315,12 +2378,15 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%A7%84%EC%9B%9424%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%A7%84%EC%9B%9424%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "일반 동네병원"
     },
     {
       "id": "b15-한결동물의료센터",
@@ -2332,7 +2398,7 @@
       "address": "전남광주통합특별시 서구 풍암순환로188번길 15 (풍암동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
-      "care_level": "unknown",
+      "care_level": "secondary",
       "visibility": "hold",
       "publishable": false,
       "not_general_hospital": false,
@@ -2397,12 +2463,15 @@
         "lat": 35.12791824,
         "lng": 126.8832092,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EA%B2%B0%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EA%B2%B0%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     }
   ],
   "dropped_non_companion": [

@@ -57,7 +57,11 @@
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9B%90%EC%A3%BC24%EC%8B%9C%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9B%90%EC%A3%BC24%EC%8B%9C%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84"
     },
     {
       "id": "amc-goyang-drdog",
@@ -72,7 +76,7 @@
         "cat"
       ],
       "homepage": "https://blog.naver.com/drdogamc",
-      "website_status": "blog_only_no_independent_site",
+      "website_status": "blog_only",
       "lat": 37.67064667,
       "lng": 126.7810211,
       "hours_24h": "yes",
@@ -99,7 +103,11 @@
       ],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 19
+      "evidence_count": 19,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=Dr.dog%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=Dr.dog%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-24시-다시-봄-동물의료센터",
@@ -141,7 +149,11 @@
         "https://www.rebom-amc.com/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 15
+      "evidence_count": 15,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EB%8B%A4%EC%8B%9C+%EB%B4%84+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EB%8B%A4%EC%8B%9C+%EB%B4%84+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-광명-24-아이디동물의료센터",
@@ -155,8 +167,8 @@
         "dog",
         "cat"
       ],
-      "homepage": "https://blog.naver.com/idamc870",
-      "website_status": "blog_only_no_independent_site",
+      "homepage": "https://www.24idamc.com/",
+      "website_status": "official_found",
       "lat": 37.47605515,
       "lng": 126.8659668,
       "hours_24h": "yes",
@@ -171,18 +183,20 @@
         "최소침습"
       ],
       "equipment": [
-        "CT",
+        "64ch CT",
         "MGB FENCER Ⅲ 복강경"
       ],
       "services": [],
       "strength": "광명 24시. CT·복강경은 데일리개원.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B4%91%EB%AA%85+24+%EC%95%84%EC%9D%B4%EB%94%94%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B4%91%EB%AA%85+24+%EC%95%84%EC%9D%B4%EB%94%94%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-에프엠-FM-동물메디컬센터-김포점",
@@ -241,7 +255,11 @@
         "http://fmamc.kr/fmamc/clinic2/06"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%97%90%ED%94%84%EC%97%A0%28FM%29%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B9%80%ED%8F%AC%EC%A0%90+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%97%90%ED%94%84%EC%97%A0%28FM%29%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B9%80%ED%8F%AC%EC%A0%90+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-부천24시SKY동물메디컬센터",
@@ -290,7 +308,11 @@
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 17
+      "evidence_count": 17,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B6%80%EC%B2%9C24%EC%8B%9CSKY%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B6%80%EC%B2%9C24%EC%8B%9CSKY%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-비엔동물전문의료센터",
@@ -333,7 +355,11 @@
         "https://bienamc.com/ic/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 16
+      "evidence_count": 16,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B9%84%EC%97%94%EB%8F%99%EB%AC%BC%EC%A0%84%EB%AC%B8%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B9%84%EC%97%94%EB%8F%99%EB%AC%BC%EC%A0%84%EB%AC%B8%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-권앤정-24시수원동물메디컬센터",
@@ -393,7 +419,11 @@
         "https://suwonamc.co.kr/main"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B6%8C%EC%95%A4%EC%A0%95+24%EC%8B%9C%EC%88%98%EC%9B%90%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B6%8C%EC%95%A4%EC%A0%95+24%EC%8B%9C%EC%88%98%EC%9B%90%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-본-동물의료센터",
@@ -436,7 +466,11 @@
       "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 14
+      "evidence_count": 14,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b5-수원-스카이-동물메디컬센터",
@@ -489,7 +523,11 @@
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 20
+      "evidence_count": 20,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EC%9B%90+%EC%8A%A4%EC%B9%B4%EC%9D%B4+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%88%98%EC%9B%90+%EC%8A%A4%EC%B9%B4%EC%9D%B4+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b6-24시-온누리동물메디컬센터",
@@ -532,7 +570,11 @@
       "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 15
+      "evidence_count": 15,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EC%98%A8%EB%88%84%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EC%98%A8%EB%88%84%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "b6-24시-사람앤동물메디컬센터",
@@ -580,7 +622,11 @@
       "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 14
+      "evidence_count": 14,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EC%82%AC%EB%9E%8C%EC%95%A4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EC%82%AC%EB%9E%8C%EC%95%A4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84"
     },
     {
       "id": "univ-gnu-vmth",
@@ -634,7 +680,11 @@
         "http://gamc.gnu.ac.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 22
+      "evidence_count": 22,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B2%BD%EC%83%81%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B2%BD%EC%83%81%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84"
     },
     {
       "id": "b9-수동물메디컬센터",
@@ -676,7 +726,11 @@
         "https://www.sooamc.com/department/radiology.php"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 16
+      "evidence_count": 16,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%88%98%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84"
     },
     {
       "id": "b10-24시-포항-이음동물의료센터",
@@ -729,7 +783,11 @@
         "http://www.eumamc.com/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%ED%8F%AC%ED%95%AD+%EC%9D%B4%EC%9D%8C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%ED%8F%AC%ED%95%AD+%EC%9D%B4%EC%9D%8C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84"
     },
     {
       "id": "b10-본-동물메디컬센터-외과동물병원",
@@ -785,7 +843,11 @@
         "http://www.boneamc.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 21
+      "evidence_count": 21,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C"
     },
     {
       "id": "univ-knu-daegu",
@@ -830,7 +892,11 @@
         "https://knuvmth.co.kr/?page_id=10"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C"
     },
     {
       "id": "univ-cnu-vmth",
@@ -881,7 +947,11 @@
         "https://cnuah.cnu.ac.kr"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 22
+      "evidence_count": 22,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%B6%A9%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%B6%A9%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C"
     },
     {
       "id": "b12-뉴로동물의료센터24시",
@@ -932,7 +1002,11 @@
         "https://neuroacc.com/62"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 20
+      "evidence_count": 20,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%89%B4%EB%A1%9C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B024%EC%8B%9C+%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%89%B4%EB%A1%9C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B024%EC%8B%9C+%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
     },
     {
       "id": "rehab-vip-sinsagyeong",
@@ -989,7 +1063,11 @@
         "https://www.animalrehab.co.kr/%EC%9D%B4%EC%9A%A9%EC%95%88%EB%82%B4"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 21
+      "evidence_count": 21,
+      "care_level": "rehab_specialty",
+      "care_level_ko": "재활 특화",
+      "place_search_url": "https://search.naver.com/search.naver?query=VIP%EB%8F%99%EB%AC%BC%ED%95%9C%EB%B0%A9%EC%9E%AC%ED%99%9C%EC%9D%98%ED%95%99%EC%84%BC%ED%84%B0+by+Dr.%EC%8B%A0%EC%82%AC%EA%B2%BD+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=VIP%EB%8F%99%EB%AC%BC%ED%95%9C%EB%B0%A9%EC%9E%AC%ED%99%9C%EC%9D%98%ED%95%99%EC%84%BC%ED%84%B0+by+Dr.%EC%8B%A0%EC%82%AC%EA%B2%BD+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "b12-24시-로얄동물메디컬센터-강동",
@@ -1047,7 +1125,11 @@
         "https://royalamcgd.com/partner/seoul/html/content02.php"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 22
+      "evidence_count": 22,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EB%A1%9C%EC%96%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EB%8F%99+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EB%A1%9C%EC%96%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EB%8F%99+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "univ-snu-vmth",
@@ -1112,7 +1194,11 @@
         "https://vmth.snu.ac.kr/subject/emergencyMedicine.do"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 21
+      "evidence_count": 21,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "univ-konkuk-vmth",
@@ -1162,7 +1248,11 @@
         "http://vmth.konkuk.ac.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 19
+      "evidence_count": 19,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EB%B6%80%EC%86%8D+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EB%B6%80%EC%86%8D+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "univ-snu-checkup-gwangjin",
@@ -1207,7 +1297,11 @@
       "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 15
+      "evidence_count": 15,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90%EB%8F%99%EB%AC%BC%EA%B2%80%EC%A7%84%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90%EB%8F%99%EB%AC%BC%EA%B2%80%EC%A7%84%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "b14-노원N동물의료센터",
@@ -1266,7 +1360,11 @@
         "https://www.namc.co.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%85%B8%EC%9B%90N%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%85%B8%EC%9B%90N%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "rehab-hangeoleumdeo",
@@ -1323,7 +1421,11 @@
         "http://www.onepawaway.co.kr"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 19
+      "evidence_count": 19,
+      "care_level": "rehab_specialty",
+      "care_level_ko": "재활 특화",
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EA%B1%B8%EC%9D%8C%EB%8D%94+%EC%9E%AC%ED%99%9C%ED%95%9C%EB%B0%A9+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EA%B1%B8%EC%9D%8C%EB%8D%94+%EC%9E%AC%ED%99%9C%ED%95%9C%EB%B0%A9+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "b14-24시월드펫동물메디컬센터",
@@ -1366,7 +1468,11 @@
         "https://24worldpet.com/medical-equipment/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 17
+      "evidence_count": 17,
+      "care_level": "secondary",
+      "care_level_ko": "2차 의료센터",
+      "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C%EC%9B%94%EB%93%9C%ED%8E%AB%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C%EC%9B%94%EB%93%9C%ED%8E%AB%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "gwangju-noah",
@@ -1413,7 +1519,11 @@
         "http://noahamc.co.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 19
+      "evidence_count": 19,
+      "care_level": "secondary_with_rehab_room",
+      "care_level_ko": "2차(+재활실)",
+      "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C%EB%85%B8%EC%95%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C%EB%85%B8%EC%95%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "univ-jnu-vmth",
@@ -1460,7 +1570,11 @@
         "https://cnuvmth.jnu.ac.kr/sites/cnuvmth/index.do"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 18,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%84%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%A0%84%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C"
     },
     {
       "id": "univ-jbnu-jamc",
@@ -1511,7 +1625,11 @@
         "https://jamc.jbnu.ac.kr/jamc/8492/subview.do"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 17
+      "evidence_count": 17,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%84%EB%B6%81%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%A0%84%EB%B6%81%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84"
     },
     {
       "id": "univ-jeju-vmth",
@@ -1557,7 +1675,11 @@
         "http://vethospital.jejunu.ac.kr/vethospital/guide/medical.htm"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 20
+      "evidence_count": 20,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%9C%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84"
     },
     {
       "id": "univ-cbnu-cheongju",
@@ -1610,7 +1732,11 @@
         "http://www.cbuanimal.co.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 22
+      "evidence_count": 22,
+      "care_level": "university",
+      "care_level_ko": "대학동물병원",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%B6%A9%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%B6%A9%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84"
     }
   ]
 }

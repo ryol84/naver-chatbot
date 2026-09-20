@@ -1,7 +1,7 @@
 {
   "title": "사이트용 강아지·고양이 병원 상세",
   "as_of": "2026-09-20",
-  "rule": "소동물(개·고양이)만. 말전문·축산·야생 제외. verify public + 전국CSV + 사이트.",
+  "rule": "소동물(개·고양이)만. 말전문·축산·야생 제외. 사이트→없으면 네이버플레이스/카카오맵. care_level: 대학|2차|1차|일반동네|재활.",
   "schema_version": "2.1-companion",
   "sources": [
     {
@@ -20,9 +20,16 @@
   ],
   "counts": {
     "public_ready": 32,
-    "with_homepage": 27,
+    "with_homepage": 32,
     "with_website_scrape": 18,
-    "companion_nationwide": 4300
+    "companion_nationwide": 4300,
+    "companion_by_care_level": {
+      "neighborhood": 3576,
+      "secondary": 496,
+      "primary": 190,
+      "university": 17,
+      "rehab_specialty": 21
+    }
   },
   "hospitals": [
     {
@@ -227,12 +234,17 @@
         "website_sources": [
           "http://www.skyamg.com"
         ],
-        "network": "SKY동물메디컬센터"
+        "network": "SKY동물메디컬센터",
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%9B%90%EC%A3%BC24%EC%8B%9C%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%9B%90%EC%A3%BC24%EC%8B%9C%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+        "place_homepage": "https://wj.skyamg.com",
+        "place_phone": "0507-1366-9975"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "amc-goyang-drdog",
@@ -284,11 +296,47 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "내시경"
+        },
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "네이버플레이스/블로그"
+        },
+        {
+          "code": "surgery",
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "네이버플레이스/블로그"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "네이버플레이스/블로그"
+        },
+        {
+          "code": "internal",
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "네이버플레이스/블로그"
         }
       ],
       "department_labels": [
         "영상(CT/MRI)",
-        "최소침습"
+        "최소침습",
+        "응급",
+        "외과",
+        "영상(CT)",
+        "내과"
       ],
       "services": [
         "분과 진료(2017 탐방)"
@@ -362,13 +410,19 @@
           "https://blog.naver.com/drdogamc",
           "instagram:@drdog_amc24"
         ],
-        "website_search_note": "블로그 소개에 홈페이지 drdogamc.com 표기되나 DNS 미해석(도메인 미활성). Wayback 없음. 공식채널은 https://blog.naver.com/drdogamc · Instagram @drdog_amc24. CT 모델명 미공개.",
-        "claimed_homepage_dead": "http://drdogamc.com"
+        "website_search_note": "네이버플레이스: 홈페이지=블로그, 24시간·연중무휴, 전화 0507-1497-0339. drdogamc.com DNS 미활성. CT 모델명 미공개. 1차+2차 표방(블로그).",
+        "claimed_homepage_dead": "http://drdogamc.com",
+        "place_search_url": "https://search.naver.com/search.naver?query=Dr.dog%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=Dr.dog%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_phone": "0507-1497-0339",
+        "place_hours_hint": "24h",
+        "place_homepage": "https://blog.naver.com/drdogamc"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-24시-다시-봄-동물의료센터",
@@ -485,12 +539,17 @@
         "website_sources": [
           "https://www.rebom-amc.com/"
         ],
-        "website_status": "official_found"
+        "website_status": "official_found",
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EB%8B%A4%EC%8B%9C+%EB%B4%84+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EB%8B%A4%EC%8B%9C+%EB%B4%84+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "https://blog.naver.com/rebomamc",
+        "place_phone": "0507-1366-7975"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-광명-24-아이디동물의료센터",
@@ -532,30 +591,129 @@
           "label": "응급",
           "available": "yes",
           "role": "available",
-          "evidence_level": "reported",
-          "evidence": "데일리개원 24시"
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
         },
         {
           "code": "imaging",
-          "label": "영상(CT/MRI)",
+          "label": "영상(CT)",
           "available": "yes",
           "role": "available",
-          "evidence_level": "reported",
-          "evidence": "CT"
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
         },
         {
-          "code": "minimally_invasive",
-          "label": "최소침습",
+          "code": "surgery",
+          "label": "외과",
           "available": "yes",
           "role": "available",
-          "evidence_level": "reported",
-          "evidence": "복강경"
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "ortho",
+          "label": "정형·신경외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "oncology",
+          "label": "종양외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "ophthalmology",
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "dentistry",
+          "label": "치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "laparoscope",
+          "label": "복강경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "endoscopy",
+          "label": "내시경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "internal",
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "cardio",
+          "label": "심장순환기",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "derm",
+          "label": "피부과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "icu",
+          "label": "중환자",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
+        },
+        {
+          "code": "chemo",
+          "label": "항암",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com"
         }
       ],
       "department_labels": [
         "응급",
-        "영상(CT/MRI)",
-        "최소침습"
+        "영상(CT)",
+        "외과",
+        "정형·신경외과",
+        "종양외과",
+        "안과",
+        "치과",
+        "복강경",
+        "내시경",
+        "내과",
+        "심장순환기",
+        "피부과",
+        "중환자",
+        "항암"
       ],
       "services": [],
       "focus_conditions": [
@@ -566,22 +724,22 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "64채널 멀티슬라이스 CT",
+          "model": "64-Channel Multi-Slice CT",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리개원: 광명 최초 CT 도입(2021), 모델명 미게시",
+          "evidence_level": "self_claimed",
+          "evidence": "24idamc.com/radiology/ct: 최첨단 64채널 CT · 0.5mm slice",
           "as_of": "2026-09-20",
-          "publisher": "dailygaewon"
+          "publisher": null
         },
         {
           "kind": "laparoscope",
           "label": "복강경",
-          "item": "MGB FENCER Ⅲ 4-in-1",
+          "item": "복강경(광명 최초 도입)",
           "model": "MGB FENCER Ⅲ",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리개원 클리닉탐방",
+          "evidence": "공식사이트 최소침습+데일리개원 MGB FENCER Ⅲ",
           "as_of": "2026-09-20",
           "publisher": "dailygaewon"
         }
@@ -597,7 +755,10 @@
       "verification_grade": "A",
       "verification_score": 97,
       "sources": [
-        "데일리개원 2025-09 광명24아이디"
+        "데일리개원 2025-09 광명24아이디",
+        "https://www.24idamc.com/",
+        "네이버플레이스(홈페이지 24idamc.com)",
+        "데일리개원 광명24아이디 탐방"
       ],
       "does_not_confirmed": [],
       "issues": [
@@ -607,30 +768,37 @@
           "msg": "상호 24시인데 마스터 night 토큰과 불일치"
         }
       ],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": 95,
         "nationwide_id": "nat_ce50d10a7d8a",
-        "homepage": "https://blog.naver.com/idamc870",
+        "homepage": "https://www.24idamc.com/",
         "lat": 37.47605515,
         "lng": 126.8659668,
         "hours_source": "nationwide_csv",
-        "website_sources": [],
-        "website_status": "blog_only_no_independent_site",
+        "website_sources": [
+          "https://www.24idamc.com/",
+          "https://www.24idamc.com/radiology/ct",
+          "https://www.24idamc.com/minimally-invasive/laparoscope"
+        ],
+        "website_status": "official_found",
         "social_channels": [
           "https://blog.naver.com/idamc870",
           "https://pf.kakao.com/_xbygMG"
         ],
-        "website_search_note": "재검색·데일리개원 전문: CT 도입(2021) 사실만 확인, 제조사·모델·채널 미기재. 복강경 MGB FENCER Ⅲ은 확인. 공식채널 블로그·카카오만."
+        "website_search_note": "네이버플레이스에서 공식사이트 https://www.24idamc.com/ 확인. 64채널 CT·복강경·분과센터.",
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B4%91%EB%AA%85+24+%EC%95%84%EC%9D%B4%EB%94%94%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B4%91%EB%AA%85+24+%EC%95%84%EC%9D%B4%EB%94%94%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "https://www.24idamc.com/",
+        "place_phone": "02-6952-2475"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-에프엠-FM-동물메디컬센터-김포점",
@@ -855,12 +1023,16 @@
           "http://fmamc.kr/",
           "http://fmamc.kr/fmamc/clinic1/01_1",
           "http://fmamc.kr/fmamc/clinic2/06"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%97%90%ED%94%84%EC%97%A0%28FM%29%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B9%80%ED%8F%AC%EC%A0%90+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%97%90%ED%94%84%EC%97%A0%28FM%29%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B9%80%ED%8F%AC%EC%A0%90+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_phone": "031-982-7587"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-부천24시SKY동물메디컬센터",
@@ -1069,12 +1241,17 @@
         "website_sources": [
           "http://www.skyamg.com"
         ],
-        "network": "SKY동물메디컬센터"
+        "network": "SKY동물메디컬센터",
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B6%80%EC%B2%9C24%EC%8B%9CSKY%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B6%80%EC%B2%9C24%EC%8B%9CSKY%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "https://www.instagram.com/skyamc_bc/",
+        "place_phone": "032-323-7579"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-비엔동물전문의료센터",
@@ -1222,12 +1399,17 @@
         "website_sources": [
           "https://bienamc.com/",
           "https://bienamc.com/ic/"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B9%84%EC%97%94%EB%8F%99%EB%AC%BC%EC%A0%84%EB%AC%B8%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B9%84%EC%97%94%EB%8F%99%EB%AC%BC%EC%A0%84%EB%AC%B8%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "https://bienamc.com",
+        "place_phone": "032-345-7559"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-권앤정-24시수원동물메디컬센터",
@@ -1501,12 +1683,17 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "https://suwonamc.co.kr/main"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B6%8C%EC%95%A4%EC%A0%95+24%EC%8B%9C%EC%88%98%EC%9B%90%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B6%8C%EC%95%A4%EC%A0%95+24%EC%8B%9C%EC%88%98%EC%9B%90%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "https://ader.naver.com/v1/0rRxhYvHaUStHnICK6O828yoajNQEvQb9Gk9lO9trEAZTQLy5S4xnrHyFv1RS6LT--OlDzTkJbQdu3sndKDCqTg8ixqgnqsQEtAvSEKTxoBu-7nh4wX1gSZIc4VeN0WEwVRKJB9z4oWfCDk0aZipNpt3TMpuiiWwoBLz6fHCq0RGE2WIhPGEuXaL53xXx7CPPM7TYSYY9lPBTdZWyjOhn_e1qnqcraCbYFidPKE7vwFoVTNHKmD53XWKoDA3OmipFb-ncjlIYrJUce7bzwBJNs45QtTBQAxh_06ZWwCRaKcjQ21f6hT6xhShoUHNok2tBhgNKsqUg7R0clxYZTphaZsN9Ph8oXScQlZPcdSleV61yodGeuMN8swZGJx-bcJ-UXurhPjbbm5aOAeTfRPUzts3HHcqECUGOuyKaH45aEs8kXlOIJQyBs1pu4TzP8SrF3X4YdbiAHFNZvyOdJRD9S1tKw70MboPZQsvPdSM0tvWWXSBjIiLi9mz-vbfBqSOdIgkQe0kn7YLOXNN0nHuwkmWUzl4NDSKuKjMnVRtn6qMCF5fkOJp5VvlDq_Va5j5mX31Mh-HHA9KCRKAz6QT68HTMddxd4-amQPJ52_c3cG9XstPsEQo7D2acLmoiYTI?c=naver.search.pc.plsearch&t=0",
+        "place_phone": "0507-1321-0121"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-본-동물의료센터",
@@ -1692,12 +1879,17 @@
         "lat": 37.29541397,
         "lng": 127.0098114,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "https://ader.naver.com/v1/ReMfSAYdbFpAsj7o63atb2-cI-hbJf_IVrI9hXgOrZ6SaV1WxO43hrobr2QoUkEiFjB7VWpingDnQOLw7FqxTQJAVwHl-1ravpUAnvlL0dG2uvzJCmFQdYiD8pGG7J9Q-HfTlVg3uupBrZpI32ILfGbGpzxq6OL_nW-hiHYLRvJ-LxjAmNKmpB_r9e53KcF6gEVdyuwuWNCTLpxDvdWRrN80L5OhesQkuGrgJtkC6lxU_g_l9KzIsHrFKyXF0_XM8CjfRJDDX9MFU4-GW0tma4wNp6TLfs41T1x9-H2Byc4UBULMrdE39VTuZs8yac4lR1EwGYqZQSp1oEo4z95QHFbFpbU7IUwJEaDNOrhl2DWECMvm24tEVUG2Xvv58HCFguIbbjbNJZjLCPmwsGlf_25ZyxT6I5KvCaQvkFdEo3c19iI9EU-RKa3nKGB-2YTzDERiwOEkk5S9nC5cCfgCTYd9VuO7lIIBnfdqMmj708o7F7DLJpPd0Al5jMWPNkVjGKX-sD8qZQv60jzeM5hbjX4XgEAUVD8ciqhQboGHAxw=?c=naver.search.pc.plsearch&t=0",
+        "place_phone": "031-248-8275"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b5-수원-스카이-동물메디컬센터",
@@ -1911,12 +2103,17 @@
           "http://www.skyamg.com"
         ],
         "network": "SKY동물메디컬센터",
-        "website_status": "official_found"
+        "website_status": "official_found",
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EC%9B%90+%EC%8A%A4%EC%B9%B4%EC%9D%B4+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%88%98%EC%9B%90+%EC%8A%A4%EC%B9%B4%EC%9D%B4+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "https://swskyamc.com",
+        "place_phone": "0507-1492-5775"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b6-24시-온누리동물메디컬센터",
@@ -2115,12 +2312,17 @@
         "website_search_note": "공식사이트 http://www.24onnuri.com/ 존재·CUPID 쿠키벽. 공식블로그 https://blog.naver.com/petdoctor7500 에서 3.0T MRI·128ch MDCT 확인. 이전 CT: GE Revolution ACT SVCT.",
         "social_channels": [
           "https://blog.naver.com/petdoctor7500"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EC%98%A8%EB%88%84%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EC%98%A8%EB%88%84%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "http://www.24onnuri.com/",
+        "place_phone": "031-487-7500"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b6-24시-사람앤동물메디컬센터",
@@ -2382,12 +2584,17 @@
         "lat": 37.31268311,
         "lng": 127.0797424,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EC%82%AC%EB%9E%8C%EC%95%A4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EC%82%AC%EB%9E%8C%EC%95%A4%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+        "place_homepage": "http://www.snamc.co.kr/",
+        "place_phone": "031-262-0306"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "univ-gnu-vmth",
@@ -2656,13 +2863,17 @@
         "website_sources": [
           "http://gamc.gnu.ac.kr/"
         ],
-        "reservation_phone": "055-772-1111"
+        "reservation_phone": "055-772-1111",
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B2%BD%EC%83%81%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B2%BD%EC%83%81%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+        "place_phone": "055-772-2324"
       },
       "species_scope": [
         "dog",
         "cat"
       ],
-      "site_notes": "대학 동물의료원. 소동물 중심 + 특수동물 클리닉 병기. 축산 전용 아님."
+      "site_notes": "대학 동물의료원. 소동물 중심 + 특수동물 클리닉 병기. 축산 전용 아님.",
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "b9-수동물메디컬센터",
@@ -2849,12 +3060,17 @@
         "website_sources": [
           "https://www.sooamc.com/",
           "https://www.sooamc.com/department/radiology.php"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%88%98%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+        "place_homepage": "https://xn--2q1bjxg9ir0ar3tukb666cvee.com",
+        "place_phone": "055-924-1000"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b10-24시-포항-이음동물의료센터",
@@ -3090,12 +3306,17 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://www.eumamc.com/"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%ED%8F%AC%ED%95%AD+%EC%9D%B4%EC%9D%8C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%ED%8F%AC%ED%95%AD+%EC%9D%B4%EC%9D%8C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84",
+        "place_homepage": "https://www.eumamc.com/",
+        "place_phone": "0507-1308-2475"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "b10-본-동물메디컬센터-외과동물병원",
@@ -3354,7 +3575,11 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://www.boneamc.com"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%B3%B8+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%99%B8%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+        "place_homepage": "https://www.instagram.com/boneamc/",
+        "place_phone": "053-634-7582"
       },
       "species_scope": [
         "dog",
@@ -3364,7 +3589,8 @@
         "달서본원(주간)",
         "24시수성점",
         "건강검진영상센터"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "univ-knu-daegu",
@@ -3493,12 +3719,17 @@
         "website_status": "linked",
         "social_channels": [
           "https://blog.naver.com/knuvmth"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+        "place_homepage": "https://blog.naver.com/knuvmth",
+        "place_phone": "0507-1309-6898"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "univ-cnu-vmth",
@@ -3767,12 +3998,15 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "https://cnuah.cnu.ac.kr"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%B6%A9%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%B6%A9%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "b12-뉴로동물의료센터24시",
@@ -3935,12 +4169,17 @@
           "https://neuroamc.com",
           "https://neuroamc.com/radiology",
           "https://neuroacc.com/62"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%89%B4%EB%A1%9C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B024%EC%8B%9C+%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%89%B4%EB%A1%9C%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B024%EC%8B%9C+%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+        "place_homepage": "https://blog.naver.com/neuroamc24",
+        "place_phone": "051-711-8253"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "rehab-vip-sinsagyeong",
@@ -4206,12 +4445,17 @@
           "https://www.animalrehab.co.kr/%EC%9D%B4%EC%9A%A9%EC%95%88%EB%82%B4"
         ],
         "alt_phone": "02-6952-7524",
-        "website_status": "official_found"
+        "website_status": "official_found",
+        "place_search_url": "https://search.naver.com/search.naver?query=VIP%EB%8F%99%EB%AC%BC%ED%95%9C%EB%B0%A9%EC%9E%AC%ED%99%9C%EC%9D%98%ED%95%99%EC%84%BC%ED%84%B0+by+Dr.%EC%8B%A0%EC%82%AC%EA%B2%BD+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=VIP%EB%8F%99%EB%AC%BC%ED%95%9C%EB%B0%A9%EC%9E%AC%ED%99%9C%EC%9D%98%ED%95%99%EC%84%BC%ED%84%B0+by+Dr.%EC%8B%A0%EC%82%AC%EA%B2%BD+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "http://pf.kakao.com/_llRVG/chat",
+        "place_phone": "02-6952-7524"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "재활 특화"
     },
     {
       "id": "b12-24시-로얄동물메디컬센터-강동",
@@ -4446,12 +4690,17 @@
           "https://royalamcgd.com/",
           "https://royalamcgd.com/partner/seoul/html/content02.php"
         ],
-        "website_status": "verified"
+        "website_status": "verified",
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EB%A1%9C%EC%96%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EB%8F%99+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EB%A1%9C%EC%96%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EB%8F%99+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "http://RoyalAMCGD.com",
+        "place_phone": "02-457-0075"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "univ-snu-vmth",
@@ -4789,12 +5038,17 @@
         "alt_phones": [
           "02-880-8661",
           "02-880-8662"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "https://vmth.snu.ac.kr/index.do",
+        "place_phone": "02-880-8661"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "univ-konkuk-vmth",
@@ -4960,12 +5214,17 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://vmth.konkuk.ac.kr/"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EB%B6%80%EC%86%8D+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EB%B6%80%EC%86%8D+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "http://vmth.konkuk.ac.kr/",
+        "place_phone": "02-450-3664"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "univ-snu-checkup-gwangjin",
@@ -5082,12 +5341,17 @@
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": []
+        "website_sources": [],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90%EB%8F%99%EB%AC%BC%EA%B2%80%EC%A7%84%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90%EB%8F%99%EB%AC%BC%EA%B2%80%EC%A7%84%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "https://animalhealthcare.kr/",
+        "place_phone": "02-6930-5747"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "b14-노원N동물의료센터",
@@ -5380,12 +5644,17 @@
         "network_branches": [
           "노원점",
           "강북점"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EB%85%B8%EC%9B%90N%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EB%85%B8%EC%9B%90N%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "https://www.namc.co.kr/",
+        "place_phone": "02-919-0075"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "rehab-hangeoleumdeo",
@@ -5632,12 +5901,17 @@
         "website_sources": [
           "http://www.onepawaway.co.kr"
         ],
-        "alt_phone": "0507-1341-5009"
+        "alt_phone": "0507-1341-5009",
+        "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EA%B1%B8%EC%9D%8C%EB%8D%94+%EC%9E%AC%ED%99%9C%ED%95%9C%EB%B0%A9+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EA%B1%B8%EC%9D%8C%EB%8D%94+%EC%9E%AC%ED%99%9C%ED%95%9C%EB%B0%A9+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "http://www.onepawaway.co.kr",
+        "place_phone": "0507-1341-5009"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "재활 특화"
     },
     {
       "id": "b14-24시월드펫동물메디컬센터",
@@ -5811,12 +6085,17 @@
           "https://24worldpet.com/",
           "https://24worldpet.com/medical-equipment/"
         ],
-        "alt_phone": "0507-1312-7584"
+        "alt_phone": "0507-1312-7584",
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C%EC%9B%94%EB%93%9C%ED%8E%AB%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C%EC%9B%94%EB%93%9C%ED%8E%AB%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "http://24worldpet.com/",
+        "place_phone": "0507-1312-7584"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차 의료센터"
     },
     {
       "id": "gwangju-noah",
@@ -5956,12 +6235,17 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://noahamc.co.kr/"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C%EB%85%B8%EC%95%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C%EB%85%B8%EC%95%84%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "http://www.noahamc.co.kr",
+        "place_phone": "062-222-0075"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "2차(+재활실)"
     },
     {
       "id": "univ-jnu-vmth",
@@ -6105,12 +6389,17 @@
           "https://cnuvmth.jnu.ac.kr/",
           "https://cnuvmth.jnu.ac.kr/sites/cnuvmth/index.do"
         ],
-        "notes": "전국CSV: 전남대학교 광주캠퍼스동물병원, 전화 062-530-2882 | 전화 062-530-2882 (전국CSV 광주캠퍼스동물병원)"
+        "notes": "전국CSV: 전남대학교 광주캠퍼스동물병원, 전화 062-530-2882 | 전화 062-530-2882 (전국CSV 광주캠퍼스동물병원)",
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%84%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%A0%84%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC%ED%86%B5%ED%95%A9%ED%8A%B9%EB%B3%84%EC%8B%9C",
+        "place_homepage": "https://cnuvmth.jnu.ac.kr",
+        "place_phone": "062-530-2882"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "univ-jbnu-jamc",
@@ -6336,7 +6625,10 @@
         "website_sources": [
           "https://jamc.jbnu.ac.kr/jamc/index.do",
           "https://jamc.jbnu.ac.kr/jamc/8492/subview.do"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%84%EB%B6%81%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%A0%84%EB%B6%81%EB%8F%99%EB%AC%BC%EC%9D%98%EB%A3%8C%EC%84%BC%ED%84%B0+%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+        "place_phone": "063-850-0970"
       },
       "species_scope": [
         "dog",
@@ -6344,7 +6636,8 @@
       ],
       "site_notes": [
         "대학병원: 반려·특수·대동물 영상 가능. 공개목록은 dog/cat 진료 포함으로 유지."
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "univ-jeju-vmth",
@@ -6512,12 +6805,16 @@
         "alt_phones": [
           "064-754-3380",
           "064-754-3384"
-        ]
+        ],
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%9C%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EB%B6%80%EC%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+        "place_phone": "064-754-3381"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     },
     {
       "id": "univ-cbnu-cheongju",
@@ -6802,16 +7099,28 @@
         "website_sources": [
           "http://www.cbuanimal.co.kr/"
         ],
-        "alt_phone": "043-261-2602"
+        "alt_phone": "043-261-2602",
+        "place_search_url": "https://search.naver.com/search.naver?query=%EC%B6%A9%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84",
+        "daum_map_url": "https://map.kakao.com/?q=%EC%B6%A9%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84",
+        "place_homepage": "https://www.instagram.com/cbnu_vth/",
+        "place_phone": "043-261-2602"
       },
       "species_scope": [
         "dog",
         "cat"
-      ]
+      ],
+      "care_level_ko": "대학동물병원"
     }
   ],
   "species_scope": [
     "dog",
     "cat"
-  ]
+  ],
+  "care_level_taxonomy": {
+    "university": "대학동물병원",
+    "secondary": "2차 의료센터 (메디컬·동물의료센터·분과/영상 거점)",
+    "primary": "1차 진료 (종합·24시 일반 등 1차 중심)",
+    "neighborhood": "일반 동네병원",
+    "rehab_specialty": "재활·한방 특화"
+  }
 }
