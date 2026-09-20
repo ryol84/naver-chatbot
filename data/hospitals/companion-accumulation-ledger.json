@@ -1,0 +1,5680 @@
+{
+  "title": "강아지·고양이 병원 정보 축적 장부",
+  "as_of": "2026-09-20T01:53:09Z",
+  "species_scope": [
+    "dog",
+    "cat"
+  ],
+  "method": "hospital-by-hospital verification; append-only evidence log",
+  "hospitals": [
+    {
+      "id": "amc-wonju-sky",
+      "name": "원주24시스카이동물메디컬센터",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "033-813-9975",
+        "address": "강원 원주시 서원대로 502 골드프라자",
+        "homepage": "https://wj.skyamg.com",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "내과",
+          "피부과",
+          "외과",
+          "치과",
+          "재활",
+          "영상의학과",
+          "안과",
+          "건강검진",
+          "심장"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "services": [
+          "24시",
+          "CT",
+          "MRI(지점·그룹 보도)"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.3249588,
+        "lng": 127.9583206,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "033-813-9975",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "강원 원주시 서원대로 502 골드프라자",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://wj.skyamg.com",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "내과",
+            "피부과",
+            "외과",
+            "치과",
+            "재활",
+            "영상의학과",
+            "안과",
+            "건강검진",
+            "심장"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "24시",
+            "CT",
+            "MRI(지점·그룹 보도)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.3249588,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.9583206,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.skyamg.com"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "amc-goyang-drdog",
+      "name": "Dr.dog동물의료센터",
+      "sido": "경기도",
+      "sigungu": "고양시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "031-932-0075",
+        "address": "고양시 일산동구 일산로394번길 5-9",
+        "homepage": "https://blog.naver.com/drdogamc",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "성예사 09:30–22:00 표기. 24시 여부는 2017 확장 이후 재확인",
+        "departments": [
+          "영상(CT/MRI)",
+          "최소침습"
+        ],
+        "equipment": [
+          "CT",
+          "내시경"
+        ],
+        "services": [
+          "분과 진료(2017 탐방)"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.67064667,
+        "lng": 126.7810211,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "031-932-0075",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "고양시 일산동구 일산로394번길 5-9",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/drdogamc",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "성예사 09:30–22:00 표기. 24시 여부는 2017 확장 이후 재확인",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "최소침습"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "내시경"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "분과 진료(2017 탐방)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.67064667,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.7810211,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "Dr.DOG 매일 00–24",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/drdogamc",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-24시-다시-봄-동물의료센터",
+      "name": "24시 다시 봄 동물의료센터",
+      "sido": "경기도",
+      "sigungu": "광명시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-6954-7975",
+        "address": "경기도 광명시 소하로109번길 13-8, 광장프라자 2층 (소하동)",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "24시간 365일(공식)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)"
+        ],
+        "equipment": [
+          "CT",
+          "X-ray",
+          "초음파"
+        ],
+        "role": "2차 의료센터",
+        "homepage": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-6954-7975",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 광명시 소하로109번길 13-8, 광장프라자 2층 (소하동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시간 365일(공식)",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-광명-24-아이디동물의료센터",
+      "name": "광명 24 아이디동물의료센터",
+      "sido": "경기도",
+      "sigungu": "광명시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-6952-2475",
+        "address": "경기도 광명시 오리로 870, 서희스타힐스빌딩 2층 (철산동)",
+        "homepage": "https://blog.naver.com/idamc870",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "24시 주간7·야간4 로테(기사)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "최소침습"
+        ],
+        "equipment": [
+          "CT",
+          "복강경"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.47605515,
+        "lng": 126.8659668,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-6952-2475",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 광명시 오리로 870, 서희스타힐스빌딩 2층 (철산동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/idamc870",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시 주간7·야간4 로테(기사)",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "최소침습"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "복강경"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.47605515,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.8659668,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "매일 00:00 - 24:00",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-에프엠-FM-동물메디컬센터-김포점",
+      "name": "에프엠(FM)동물메디컬센터 김포점",
+      "sido": "경기도",
+      "sigungu": "김포시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "031-982-7587",
+        "address": "경기도 김포시 김포한강1로 77-5, 2층 (장기동)",
+        "homepage": "http://fmamc.kr/",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "21:00–09:00",
+        "hours_note": "주간 09–21 야간 21–09(병원 블로그)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "심장",
+          "신장",
+          "종양",
+          "외과",
+          "신경",
+          "정형외과",
+          "영상"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "초음파"
+        ],
+        "services": [
+          "옥서스 산소처치",
+          "무균 양압 수술실",
+          "영상센터",
+          "심장&신장센터",
+          "종양&항암센터",
+          "수술전문센터",
+          "슬개골클리닉"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.64519119,
+        "lng": 126.668869,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "031-982-7587",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 김포시 김포한강1로 77-5, 2층 (장기동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://fmamc.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "21:00–09:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "주간 09–21 야간 21–09(병원 블로그)",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "심장",
+            "신장",
+            "종양",
+            "외과",
+            "신경",
+            "정형외과",
+            "영상"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "옥서스 산소처치",
+            "무균 양압 수술실",
+            "영상센터",
+            "심장&신장센터",
+            "종양&항암센터",
+            "수술전문센터",
+            "슬개골클리닉"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.64519119,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.668869,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://fmamc.kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-부천24시SKY동물메디컬센터",
+      "name": "부천24시SKY동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "032-323-7579",
+        "address": "경기도 부천시 원미구 길주로 234, 힐스테이트 중동 203동 2001, 2007호 (중동)",
+        "homepage": "http://www.skyamg.com",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "내과",
+          "피부과",
+          "외과",
+          "치과",
+          "재활",
+          "영상의학과",
+          "안과",
+          "건강검진",
+          "심장"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.50340271,
+        "lng": 126.7682037,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "032-323-7579",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 부천시 원미구 길주로 234, 힐스테이트 중동 203동 2001, 2007호 (중동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.skyamg.com",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "내과",
+            "피부과",
+            "외과",
+            "치과",
+            "재활",
+            "영상의학과",
+            "안과",
+            "건강검진",
+            "심장"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.50340271,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.7682037,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.skyamg.com"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-비엔동물전문의료센터",
+      "name": "비엔동물전문의료센터",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "032-345-7559",
+        "address": "경기도 부천시 소사구 경인로 475, 정인빌딩 (괴안동)",
+        "homepage": "http://24bien.com",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "24시. 플레이스 휴게 10:00-10:30·13:00-14:30",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "안과",
+          "치과"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.48314285,
+        "lng": 126.8084106,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "032-345-7559",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 부천시 소사구 경인로 475, 정인빌딩 (괴안동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://24bien.com",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시. 플레이스 휴게 10:00-10:30·13:00-14:30",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "안과",
+            "치과"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.48314285,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.8084106,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-권앤정-24시수원동물메디컬센터",
+      "name": "권앤정 24시수원동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "031-202-0119",
+        "address": "경기도 수원시 영통구 덕영대로 1509, 1,2(일부)층 (영통동)",
+        "homepage": "https://suwonamc.co.kr/main",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:00–21:00",
+        "night_hours": "21:00–09:00",
+        "hours_note": "일반 09–21 / 야간 21–09 / 응급 365일 24시간",
+        "departments": [
+          "응급",
+          "종양",
+          "영상(CT/MRI)",
+          "외과",
+          "정형외과",
+          "신경",
+          "내과",
+          "심장",
+          "영상의학과",
+          "임상병리",
+          "고양이 특화"
+        ],
+        "equipment": [
+          "C-arm",
+          "CT",
+          "ICU",
+          "X-ray",
+          "내시경",
+          "초음파"
+        ],
+        "services": [
+          "종양항암센터",
+          "영상·내시경센터",
+          "골관절센터",
+          "24시 응급진료센터",
+          "고양이 전문클리닉(ISFM Gold)",
+          "동물외과병원"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.24614334,
+        "lng": 127.055954,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "031-202-0119",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 수원시 영통구 덕영대로 1509, 1,2(일부)층 (영통동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://suwonamc.co.kr/main",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–21:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "21:00–09:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "일반 09–21 / 야간 21–09 / 응급 365일 24시간",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "종양",
+            "영상(CT/MRI)",
+            "외과",
+            "정형외과",
+            "신경",
+            "내과",
+            "심장",
+            "영상의학과",
+            "임상병리",
+            "고양이 특화"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "C-arm",
+            "CT",
+            "ICU",
+            "X-ray",
+            "내시경",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "종양항암센터",
+            "영상·내시경센터",
+            "골관절센터",
+            "24시 응급진료센터",
+            "고양이 전문클리닉(ISFM Gold)",
+            "동물외과병원"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.24614334,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.055954,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "https://suwonamc.co.kr/main"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-본-동물의료센터",
+      "name": "본 동물의료센터",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "031-248-8275",
+        "address": "경기도 수원시 장안구 경수대로 937, 블루버드 빌딩 (송죽동)",
+        "homepage": "https://bonamc.co.kr/",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "그 외 24시 응급",
+        "hours_note": "외래 주중 09:30–19 주말 09:30–17, 그 외 24시 응급(네이버예약)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "정형외과",
+          "신경",
+          "최소침습",
+          "종양",
+          "재활"
+        ],
+        "equipment": [
+          "C-arm",
+          "CT",
+          "MRI",
+          "내시경"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.29541397,
+        "lng": 127.0098114,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "031-248-8275",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 수원시 장안구 경수대로 937, 블루버드 빌딩 (송죽동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://bonamc.co.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "그 외 24시 응급",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "외래 주중 09:30–19 주말 09:30–17, 그 외 24시 응급(네이버예약)",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "정형외과",
+            "신경",
+            "최소침습",
+            "종양",
+            "재활"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "C-arm",
+            "CT",
+            "MRI",
+            "내시경"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.29541397,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.0098114,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b5-수원-스카이-동물메디컬센터",
+      "name": "수원 스카이 동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "031-895-5775",
+        "address": "경기도 수원시 팔달구 인계로 91, 2,3층 (인계동)",
+        "homepage": "https://blog.naver.com/skyamg_sw",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "내과",
+          "피부과",
+          "외과",
+          "치과",
+          "재활",
+          "영상의학과",
+          "안과",
+          "건강검진",
+          "심장"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.26860428,
+        "lng": 127.0277786,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "031-895-5775",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 수원시 팔달구 인계로 91, 2,3층 (인계동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/skyamg_sw",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "내과",
+            "피부과",
+            "외과",
+            "치과",
+            "재활",
+            "영상의학과",
+            "안과",
+            "건강검진",
+            "심장"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.26860428,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.0277786,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.skyamg.com"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b6-24시-온누리동물메디컬센터",
+      "name": "24시 온누리동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "031-487-7500",
+        "address": "경기도 안산시 단원구 안산천서로 23, 중앙하이츠빌 3층 (고잔동)",
+        "homepage": "http://www.24onnuri.com/",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "24시(카카오 00-24)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "신경",
+          "내과"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "초음파"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.31915665,
+        "lng": 126.8298798,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "031-487-7500",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 안산시 단원구 안산천서로 23, 중앙하이츠빌 3층 (고잔동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.24onnuri.com/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시(카카오 00-24)",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "신경",
+            "내과"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.31915665,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.8298798,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b6-24시-사람앤동물메디컬센터",
+      "name": "24시 사람앤동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "031-262-0306",
+        "address": "경기도 용인시 수지구 포은대로 317, 24시 사람앤동물메디컬센터 (풍덕천동)",
+        "homepage": "http://www.snamc.co.kr/",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "22:00–09:00",
+        "hours_note": "주간 09:30-22 야간응급 22-09 (병원 블로그)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "종양",
+          "투석",
+          "정형외과",
+          "신경",
+          "안과",
+          "치과",
+          "재활",
+          "고양이 특화",
+          "최소침습"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "내시경",
+          "초음파"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.31268311,
+        "lng": 127.0797424,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "031-262-0306",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경기도 용인시 수지구 포은대로 317, 24시 사람앤동물메디컬센터 (풍덕천동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.snamc.co.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "22:00–09:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "주간 09:30-22 야간응급 22-09 (병원 블로그)",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "종양",
+            "투석",
+            "정형외과",
+            "신경",
+            "안과",
+            "치과",
+            "재활",
+            "고양이 특화",
+            "최소침습"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "내시경",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.31268311,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.0797424,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-gnu-vmth",
+      "name": "경상국립대학교수의과대학부속동물병원",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "055-772-2324",
+        "address": "경상남도 진주시 (마스터 기준)",
+        "homepage": "http://gamc.gnu.ac.kr/",
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "09:00–18:00",
+        "hours_note": "평일 접수 오전 09–11/진료 09–12, 오후 접수 13–16/진료 13–18. 주말·공휴 휴무. 야간·응급 진료 안내 없음(공식 사이트). 예약문의 055-772-1111.",
+        "departments": [
+          "내과",
+          "외과",
+          "산과",
+          "영상의학과",
+          "안과",
+          "진단검사의학",
+          "피부과",
+          "특수동물"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "내시경",
+          "초음파"
+        ],
+        "services": [
+          "CT",
+          "X-ray",
+          "초음파",
+          "수술·중환자 시설(공식 층별안내)"
+        ],
+        "role": "대학동물병원",
+        "lat": 35.15671539,
+        "lng": 128.0980072,
+        "weekend_hours": "휴무",
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ],
+        "phone_reservation": "055-772-1111"
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "055-772-2324",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경상남도 진주시 (마스터 기준)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://gamc.gnu.ac.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "unknown",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "unknown",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "진료시간안내는 사이트 진료안내 메뉴 확인",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "내과",
+            "외과",
+            "산과",
+            "영상의학과",
+            "안과",
+            "진단검사의학",
+            "피부과",
+            "특수동물"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "X-ray",
+            "내시경",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "CT",
+            "X-ray",
+            "초음파",
+            "수술·중환자 시설(공식 층별안내)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 35.15671539,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 128.0980072,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://gamc.gnu.ac.kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "평일 09–18, 주말 휴무",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "weekend_hours",
+          "value": "휴무",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "내과",
+            "외과",
+            "산과",
+            "영상의학과",
+            "안과",
+            "진단검사의학",
+            "피부과",
+            "특수동물"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "phone",
+          "value": "055-772-2324",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "공식 진료시간만 명시, 야간/응급 없음",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT(2ch)",
+            "MRI(0.4T)",
+            "초음파",
+            "X-ray",
+            "내시경"
+          ],
+          "source": "hospital_website",
+          "note": "영상의학과 페이지 보유 장비 명시",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "phone_reservation",
+          "value": "055-772-1111",
+          "source": "hospital_website",
+          "note": "예약문의",
+          "at": "2026-09-20T01:53:09Z"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "b9-수동물메디컬센터",
+      "name": "수동물메디컬센터",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "055-924-1000",
+        "address": "경상남도 진주시 진주대로 624 (가좌동)",
+        "homepage": "https://blog.naver.com/jsooamc",
+        "hours_24h": "no",
+        "emergency": "yes",
+        "weekday_hours": "09:00–18:30",
+        "night_hours": "24시간",
+        "hours_note": "24시(뉴스1)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)"
+        ],
+        "equipment": [
+          "MRI"
+        ],
+        "role": "2차 의료센터",
+        "lat": 35.16239929,
+        "lng": 128.1068115,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "055-924-1000",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경상남도 진주시 진주대로 624 (가좌동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/jsooamc",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:30",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시(뉴스1)",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 35.16239929,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 128.1068115,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b10-24시-포항-이음동물의료센터",
+      "name": "24시 포항 이음동물의료센터",
+      "sido": "경상북도",
+      "sigungu": "포항시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "054-612-2475",
+        "address": "경상북도 포항시 남구 효성로93번길 4(효자동)",
+        "homepage": "http://www.eumamc.com/",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–20:00",
+        "night_hours": "주중 20:00–10:00 / 토 18:00–10:00",
+        "hours_note": "일·공휴 응급 / 24시간 연중무휴. 주간 월–금 10–20, 토 10–18.",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "정형외과",
+          "신경",
+          "안과",
+          "심장",
+          "고난도수술",
+          "난치성내과",
+          "영상의학",
+          "중재시술(최소침습)"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "services": [
+          "슬개골·디스크·TPLO·종양수술",
+          "심장병·신부전",
+          "MRI/CT 정밀영상",
+          "기관스텐트·SUB 등 중재"
+        ],
+        "role": "2차 의료센터",
+        "lat": 36.00627136,
+        "lng": 129.3441315,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "054-612-2475",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "경상북도 포항시 남구 효성로93번길 4(효자동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.eumamc.com/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–20:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "주중 20:00–10:00 / 토 18:00–10:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "일·공휴 응급 / 24시간 연중무휴. 주간 월–금 10–20, 토 10–18.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "정형외과",
+            "신경",
+            "안과",
+            "심장",
+            "고난도수술",
+            "난치성내과",
+            "영상의학",
+            "중재시술(최소침습)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "슬개골·디스크·TPLO·종양수술",
+            "심장병·신부전",
+            "MRI/CT 정밀영상",
+            "기관스텐트·SUB 등 중재"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 36.00627136,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 129.3441315,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.eumamc.com/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b10-본-동물메디컬센터-외과동물병원",
+      "name": "본 동물메디컬센터 외과동물병원",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "053-634-7582",
+        "address": "대구광역시 달서구 월곡로 330-1, 1,2,3층 (상인동)",
+        "homepage": "http://www.boneamc.com",
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "09:00–20:00",
+        "night_hours": null,
+        "hours_note": "달서본원(외과) 주간 09–20(점심 12–13). 야간·24시 응급은 동일 네트워크 24시수성점(20–09, 연중무휴). 대표 053-634-7582 내선1=달서 / 내선2=수성.",
+        "departments": [
+          "영상(CT/MRI)",
+          "신경",
+          "종양",
+          "응급",
+          "중재시술",
+          "최소침습",
+          "영상",
+          "중증응급",
+          "정형외과"
+        ],
+        "equipment": [
+          "MRI",
+          "CT",
+          "C-arm",
+          "초음파"
+        ],
+        "services": [
+          "TACE",
+          "ECT",
+          "초음파유도 심혈관중재(PDA)",
+          "BESS 척추내시경",
+          "THR",
+          "슬개골 인공활차구"
+        ],
+        "role": "2차 의료센터",
+        "lat": 35.85942459,
+        "lng": 128.6411285,
+        "network_branches": [
+          "달서본원(주간)",
+          "24시수성점",
+          "건강검진영상센터"
+        ],
+        "species_scope": [
+          "dog",
+          "cat"
+        ],
+        "network_24h_branch": "24시수성점 20:00–09:00 연중무휴"
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "053-634-7582",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "대구광역시 달서구 월곡로 330-1, 1,2,3층 (상인동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.boneamc.com",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "unknown",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–20:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "달서본원 주간 09–20(점심 12–13). 24시는 수성점(야간 20–09).",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "신경",
+            "종양",
+            "응급",
+            "중재시술",
+            "최소침습",
+            "영상",
+            "중증응급",
+            "정형외과"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "C-arm",
+            "CT",
+            "ICU",
+            "MRI",
+            "인공호흡기",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "TACE",
+            "ECT",
+            "초음파유도 심혈관중재(PDA)",
+            "BESS 척추내시경",
+            "THR",
+            "슬개골 인공활차구"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 35.85942459,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 128.6411285,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.boneamc.com"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "달서본원 주간; 수성점 24시",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "network_branches",
+          "value": [
+            "달서본원(주간)",
+            "24시수성점",
+            "건강검진영상센터"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "달서본원 주간만; 24시응급은 수성점",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–20:00",
+          "source": "hospital_website",
+          "note": "달서본원",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "network_24h_branch",
+          "value": "24시수성점 20:00–09:00 연중무휴",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Philips Ingenia 1.5T MRI",
+            "TOSHIBA Aquilion CX 128 CT",
+            "DSA C-arm",
+            "초음파"
+          ],
+          "source": "hospital_website",
+          "note": "공식 사이트 모델명",
+          "at": "2026-09-20T01:53:09Z"
+        }
+      ],
+      "open_questions": []
+    },
+    {
+      "id": "univ-knu-daegu",
+      "name": "경북대학교 수의과대학 부속동물병원",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "053-950-6898",
+        "address": "대구광역시 북구 대학로 80",
+        "homepage": "https://blog.naver.com/knuvmth",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
+        "departments": [
+          "영상(CT/MRI)",
+          "응급"
+        ],
+        "equipment": [
+          "MRI",
+          "인공호흡기"
+        ],
+        "services": [
+          "MRI",
+          "응급중환자",
+          "내과·외과·영상"
+        ],
+        "role": "대학동물병원",
+        "lat": 35.88909912,
+        "lng": 128.6143188,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "053-950-6898",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "대구광역시 북구 대학로 80",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/knuvmth",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "응급"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "MRI",
+            "인공호흡기"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "MRI",
+            "응급중환자",
+            "내과·외과·영상"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 35.88909912,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 128.6143188,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-cnu-vmth",
+      "name": "충남대학교 수의과대학 부속동물병원",
+      "sido": "대전광역시",
+      "sigungu": "유성구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "042-821-6704",
+        "address": "대전광역시 유성구 (마스터 기준)",
+        "homepage": "https://cnuah.cnu.ac.kr",
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "10:00–18:00",
+        "hours_note": "평일 10–18(점심 13–14). 토·일·공휴 휴진. 야간·응급 진료 안내 없음(cnuah.cnu.ac.kr). 전화 042-821-6704.",
+        "departments": [
+          "내과",
+          "외과",
+          "산과",
+          "영상의학과",
+          "진단검사의학과"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "심장초음파"
+        ],
+        "services": [
+          "내과 분과",
+          "응급처치(진료시간 중 on-call)",
+          "초음파"
+        ],
+        "role": "대학동물병원",
+        "lat": 36.36832809,
+        "lng": 127.3416595,
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "042-821-6704",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "대전광역시 유성구 (마스터 기준)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://cnuah.cnu.ac.kr",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "unknown",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–18:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "평일 10–18 (사이트). 전화 042-821-6704",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "심장",
+            "영상(CT/MRI)",
+            "내과",
+            "외과",
+            "피부과",
+            "산과",
+            "진단검사의학",
+            "영상의학과"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "심장초음파",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "내과 분과",
+            "응급처치(진료시간 중 on-call)",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 36.36832809,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.3416595,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "https://cnuah.cnu.ac.kr"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "평일 10–18",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "심장초음파",
+            "초음파"
+          ],
+          "source": "hospital_website",
+          "note": "CT/MRI/초음파/X-ray실",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "평일만, 주말휴진, 응급안내 없음",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–18:00",
+          "source": "hospital_website",
+          "note": "점심 13–14",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "내과",
+            "외과",
+            "산과",
+            "영상의학과",
+            "진단검사의학과"
+          ],
+          "source": "hospital_website",
+          "note": "교수진 진료과 재확인",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "심장초음파"
+          ],
+          "source": "hospital_website",
+          "note": "영상의학과 소개: CT·MRI·X-ray",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "phone",
+          "value": "042-821-6704",
+          "source": "hospital_website",
+          "note": "stale 경고 해제용 재확인",
+          "at": "2026-09-20T01:53:09Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b12-뉴로동물의료센터24시",
+      "name": "뉴로동물의료센터24시",
+      "sido": "부산광역시",
+      "sigungu": "연제구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "051-711-8253",
+        "address": "부산 연제구 중앙대로 1084 진도빌딩 2-3층",
+        "homepage": "https://neuroamc.com",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–21:00",
+        "night_hours": "21:00–09:00",
+        "hours_note": "주간 10–21 / 야간 21–09. 21시 이후 야간진료비. 면회 12–18. 예약제. 365일.",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "신경",
+          "종양",
+          "재활",
+          "2차 중증"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "services": [
+          "365일 24시간",
+          "예약 진료",
+          "카카오 문의",
+          "면회"
+        ],
+        "role": "2차 의료센터",
+        "lat": 35.1844368,
+        "lng": 129.0808868,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "051-711-8253",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "부산광역시 연제구 중앙대로 1084, 진도사옥 2~3층 (연산동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://neuroamc.com",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–21:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "21:00–09:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "주간 10–21 / 야간 21–09. 21시 이후 야간진료비. 면회 12–18. 예약제. 365일.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "신경",
+            "종양",
+            "재활",
+            "2차 중증"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "365일 24시간",
+            "예약 진료",
+            "카카오 문의",
+            "면회"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 35.1844368,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 129.0808868,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "https://neuroamc.com"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–21:00",
+          "source": "hospital_website",
+          "note": "재확인",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "night_hours",
+          "value": "21:00–09:00",
+          "source": "hospital_website",
+          "note": "야간진료비 부과",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "365일 24시간",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "address",
+          "value": "부산 연제구 중앙대로 1084 진도빌딩 2-3층",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:53:09Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "rehab-vip-sinsagyeong",
+      "name": "VIP동물한방재활의학센터 by Dr.신사경",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-511-7522",
+        "address": "서울 강남구 삼성로133길 7 베디베로스퀘어 7층",
+        "homepage": "http://pf.kakao.com/_llRVG/chat",
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "10:00–19:00",
+        "hours_note": "재활특화 센터(by Dr.신사경). VIP 그룹 내 한방재활의학센터.",
+        "departments": [
+          "재활",
+          "영상(CT/MRI)",
+          "한방"
+        ],
+        "equipment": [
+          "X-ray",
+          "고압산소",
+          "수중런닝/수중보행"
+        ],
+        "services": [
+          "침·전침",
+          "추나",
+          "한약·음식치료",
+          "수중런닝(소형/대형 분리실 보도)",
+          "레이저",
+          "체외충격파",
+          "고압산소",
+          "초음파치료",
+          "운동치료",
+          "관절·콜라겐 주사",
+          "한방재활"
+        ],
+        "role": "재활 특화",
+        "lat": 37.51947021,
+        "lng": 127.0489883,
+        "alt_phone": "02-6952-7524",
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-511-7522",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울 강남구 삼성로133길 7 베디베로스퀘어 7층",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://pf.kakao.com/_llRVG/chat",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "unknown",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–19:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "재활특화 센터(by Dr.신사경). VIP 그룹 내 한방재활의학센터.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "재활",
+            "영상(CT/MRI)",
+            "한방"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "X-ray",
+            "고압산소",
+            "수중런닝/수중보행"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "침·전침",
+            "추나",
+            "한약·음식치료",
+            "수중런닝(소형/대형 분리실 보도)",
+            "레이저",
+            "체외충격파",
+            "고압산소",
+            "초음파치료",
+            "운동치료",
+            "관절·콜라겐 주사",
+            "한방재활"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "재활 특화",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.51947021,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.0489883,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.vipah.co.kr/",
+            "https://www.vipah.co.kr/kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "nationwide_csv",
+          "note": "VIP한방재활 월–일 10–19",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–19:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "role_rehab_specialty",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "alt_phone",
+          "value": "02-6952-7524",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b12-24시-로얄동물메디컬센터-강동",
+      "name": "24시 로얄동물메디컬센터 강동",
+      "sido": "서울특별시",
+      "sigungu": "강동구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-457-0075",
+        "address": "서울특별시 강동구 천호대로 1171, 지하1층,2층,3층 (길동)",
+        "homepage": "http://RoyalAMCGD.com",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–20:00",
+        "night_hours": "20:00–00:00 / 06:00–10:00",
+        "hours_note": "주간 10–20, 야간 20–24·06–10, 심야 00–06. 주말·공휴 연중무휴.",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "일반외과",
+          "안과",
+          "심장",
+          "신경",
+          "치과",
+          "재활",
+          "내과",
+          "외과",
+          "영상"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "초음파"
+        ],
+        "services": [
+          "백내장수술",
+          "영상진단",
+          "신경계",
+          "심장혈관",
+          "외과수술",
+          "재활한방",
+          "3F응급실"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.53412628,
+        "lng": 127.1414032,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-457-0075",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울특별시 강동구 천호대로 1171, 지하1층,2층,3층 (길동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://RoyalAMCGD.com",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–20:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "20:00–00:00 / 06:00–10:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "주간 10–20, 야간 20–24·06–10, 심야 00–06. 주말·공휴 연중무휴.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "일반외과",
+            "안과",
+            "심장",
+            "신경",
+            "치과",
+            "재활",
+            "내과",
+            "외과",
+            "영상"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "백내장수술",
+            "영상진단",
+            "신경계",
+            "심장혈관",
+            "외과수술",
+            "재활한방",
+            "3F응급실"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.53412628,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.1414032,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://RoyalAMCGD.com"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-snu-vmth",
+      "name": "서울대학교 수의과대학 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "관악구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-880-8661",
+        "address": "서울특별시 관악구 관악로 1 (신림동, 서울대학교)",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:00–18:00",
+        "hours_note": "분과 예약 진료 + 응급의료센터 24시간(기존 프로필과 일치).",
+        "departments": [
+          "영상(CT/MRI)",
+          "일반외과",
+          "정형외과",
+          "신경",
+          "종양",
+          "응급",
+          "내과",
+          "정형·신경외과",
+          "안과·치과",
+          "피부과",
+          "응급의학과",
+          "영상의학과·방사선종양",
+          "임상병리",
+          "마취통증",
+          "영양",
+          "야생/특수",
+          "산과",
+          "대동물"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "초음파"
+        ],
+        "services": [
+          "24시간 응급(2019~)",
+          "내과·외과·영상·응급 분과",
+          "CT",
+          "MRI",
+          "초음파",
+          "X-ray"
+        ],
+        "role": "대학동물병원",
+        "lat": 37.46628571,
+        "lng": 126.9481583,
+        "homepage": "https://vmth.snu.ac.kr/",
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-880-8661",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울특별시 관악구 관악로 1 (신림동, 서울대학교)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "분과 예약 진료 + 응급의료센터 24시간(기존 프로필과 일치).",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "일반외과",
+            "정형외과",
+            "신경",
+            "종양",
+            "응급",
+            "내과",
+            "정형·신경외과",
+            "안과·치과",
+            "피부과",
+            "응급의학과",
+            "영상의학과·방사선종양",
+            "임상병리",
+            "마취통증",
+            "영양",
+            "야생/특수",
+            "산과",
+            "대동물"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "24시간 응급(2019~)",
+            "내과·외과·영상·응급 분과",
+            "CT",
+            "MRI",
+            "초음파",
+            "X-ray"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.46628571,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.9481583,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "https://vmth.snu.ac.kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://vmth.snu.ac.kr/",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-konkuk-vmth",
+      "name": "건국대학교 부속 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-450-3664",
+        "address": "서울특별시 광진구 능동로 120 (화양동)",
+        "homepage": "http://vmth.konkuk.ac.kr/",
+        "hours_24h": "no",
+        "emergency": "yes",
+        "weekday_hours": "09:00–17:30",
+        "hours_note": "평일 09:00–17:30 예약진료. 분과: 내과·외과·안과·영상·임상병리·응급중환자.",
+        "departments": [
+          "영상(CT/MRI)",
+          "응급",
+          "내과",
+          "일반외과",
+          "안과",
+          "영상의학과",
+          "임상병리",
+          "응급중환자"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "services": [
+          "CT 의뢰 촬영",
+          "MRI 의뢰 촬영",
+          "분과 진료"
+        ],
+        "role": "대학동물병원",
+        "lat": 37.53918457,
+        "lng": 127.0747147,
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-450-3664",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울특별시 광진구 능동로 120 (화양동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://vmth.konkuk.ac.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–17:30",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "평일 09:00–17:30 예약진료. 분과: 내과·외과·안과·영상·임상병리·응급중환자.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "응급",
+            "내과",
+            "일반외과",
+            "안과",
+            "영상의학과",
+            "임상병리",
+            "응급중환자"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "CT 의뢰 촬영",
+            "MRI 의뢰 촬영",
+            "분과 진료"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.53918457,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.0747147,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://vmth.konkuk.ac.kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-snu-checkup-gwangjin",
+      "name": "서울대학교동물검진센터",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-6930-5747",
+        "address": "서울특별시 광진구 구의강변로 46, 금성빌딩",
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "08:00–17:00",
+        "hours_note": "월–금 08–17, 토일·공휴 휴진",
+        "equipment": [
+          "X-ray",
+          "초음파"
+        ],
+        "services": [
+          "엑스선",
+          "초음파",
+          "혈액"
+        ],
+        "role": "대학동물병원",
+        "departments": [
+          "건강검진",
+          "영상(X-ray/초음파)",
+          "임상병리"
+        ],
+        "homepage": null,
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-6930-5747",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울특별시 광진구 구의강변로 46, 금성빌딩",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "08:00–17:00",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "월–금 08–17, 토일·공휴 휴진",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "X-ray",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "엑스선",
+            "초음파",
+            "혈액"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "건강검진",
+            "영상(X-ray/초음파)",
+            "임상병리"
+          ],
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "profile",
+          "note": "월–금 08–17, 토일·공휴 휴진",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b14-노원N동물의료센터",
+      "name": "노원N동물의료센터",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-919-0075",
+        "address": "서울시 노원구 노원로 408",
+        "homepage": "https://www.namc.co.kr/",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–20:00",
+        "night_hours": "20:00–10:00",
+        "hours_note": "24시간(일반 10–20, 응급 20–익일 10). 월–일 동일. 공식사이트 namc.co.kr",
+        "departments": [
+          "영상(CT/MRI)",
+          "응급",
+          "재활",
+          "투석",
+          "고양이 특화",
+          "정형외과",
+          "중증케어",
+          "인터벤션",
+          "최소침습",
+          "종양",
+          "줄기세포"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "고압산소",
+          "수중런닝/수중보행",
+          "초음파"
+        ],
+        "services": [
+          "중증환자 케어센터",
+          "재활센터",
+          "인터벤션 센터",
+          "최소침습 센터",
+          "관절 센터",
+          "암센터",
+          "줄기세포 치료",
+          "투석센터 CRRT",
+          "고양이병원"
+        ],
+        "role": "2차 의료센터",
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-919-0075",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울시 노원구 노원로 408",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://www.namc.co.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–20:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "20:00–10:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시간(일반 10–20, 응급 20–익일 10). 월–일 동일. 공식사이트 namc.co.kr",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "응급",
+            "재활",
+            "투석",
+            "고양이 특화",
+            "정형외과",
+            "중증케어",
+            "인터벤션",
+            "최소침습",
+            "종양",
+            "줄기세포"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "고압산소",
+            "수중런닝/수중보행",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "중증환자 케어센터",
+            "재활센터",
+            "인터벤션 센터",
+            "최소침습 센터",
+            "관절 센터",
+            "암센터",
+            "줄기세포 치료",
+            "투석센터 CRRT",
+            "고양이병원"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "https://www.namc.co.kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "rehab-hangeoleumdeo",
+      "name": "한걸음더 재활한방 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-423-2088",
+        "address": "서울 송파구 백제고분로 294 1층",
+        "homepage": "http://www.onepawaway.co.kr",
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "10:00–19:00",
+        "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제. (사이트+CSV 일치)",
+        "departments": [
+          "재활",
+          "한방"
+        ],
+        "equipment": [
+          "고압산소",
+          "수중런닝/수중보행"
+        ],
+        "services": [
+          "침",
+          "재생치료(PRP/엑소좀 등 병원 제공)",
+          "체외충격파",
+          "레이저",
+          "수중보행",
+          "고압산소",
+          "전기치료",
+          "운동치료",
+          "약침",
+          "한약",
+          "추나",
+          "ESWT",
+          "PRP"
+        ],
+        "role": "재활 특화",
+        "lat": 37.50243759,
+        "lng": 127.0993347,
+        "alt_phone": "0507-1341-5009",
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-423-2088",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울 송파구 백제고분로 294 1층",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.onepawaway.co.kr",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–19:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제.",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "재활",
+            "한방"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "고압산소",
+            "수중런닝/수중보행"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "침",
+            "재생치료(PRP/엑소좀 등 병원 제공)",
+            "체외충격파",
+            "레이저",
+            "수중보행",
+            "고압산소",
+            "전기치료",
+            "운동치료",
+            "약침",
+            "한약",
+            "추나",
+            "ESWT",
+            "PRP"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "재활 특화",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.50243759,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.0993347,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.onepawaway.co.kr"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제. (사이트+CSV 일치)",
+          "source": "hospital_website+nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "alt_phone",
+          "value": "0507-1341-5009",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "b14-24시월드펫동물메디컬센터",
+      "name": "24시월드펫동물메디컬센터",
+      "sido": "서울특별시",
+      "sigungu": "양천구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "02-2698-7582",
+        "address": "서울특별시 양천구 신월로 208(신월동)",
+        "homepage": "https://월드펫amc.com/",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "24시. 영상센터 365일",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "신경"
+        ],
+        "equipment": [
+          "C-arm",
+          "CT",
+          "X-ray"
+        ],
+        "role": "2차 의료센터",
+        "lat": 37.5205307,
+        "lng": 126.8453827,
+        "alt_phone": "0507-1312-7584",
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "02-2698-7582",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "서울특별시 양천구 신월로 208(신월동)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://월드펫amc.com/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시. 영상센터 365일",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "신경"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "C-arm",
+            "CT",
+            "X-ray"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차 의료센터",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 37.5205307,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.8453827,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "매일 00:00–24:00",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "alt_phone",
+          "value": "0507-1312-7584",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "gwangju-noah",
+      "name": "24시노아동물메디컬센터",
+      "sido": "전남광주통합특별시",
+      "sigungu": "동구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "062-222-0075",
+        "address": "광주 동구 독립로 292",
+        "homepage": "http://noahamc.co.kr/",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "연중무휴 24시간 (공식 사이트)",
+        "departments": [
+          "응급",
+          "영상(CT/MRI)",
+          "정형외과",
+          "영상"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "services": [
+          "24시 응급",
+          "정형·신경 수술 표방",
+          "MRI/CT 촬영",
+          "레이저 재활 수준"
+        ],
+        "role": "2차(+재활실)",
+        "lat": 35.15679932,
+        "lng": 126.9131317,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "062-222-0075",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "광주 동구 독립로 292",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://noahamc.co.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "연중무휴 24시간 (공식 사이트)",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "응급",
+            "영상(CT/MRI)",
+            "정형외과",
+            "영상"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "24시 응급",
+            "정형·신경 수술 표방",
+            "MRI/CT 촬영",
+            "레이저 재활 수준"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "2차(+재활실)",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 35.15679932,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.9131317,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://noahamc.co.kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "연중무휴 24시간·062-222-0075 재확인",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "24시간 응급 문구 재확인",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "64ch CT",
+            "MRI(운영 시사)"
+          ],
+          "source": "dailyvet+newsworker",
+          "note": "64채널 CT 명시; MRI는 관련 마취기 기증 맥락",
+          "at": "2026-09-20T01:53:28Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-jnu-vmth",
+      "name": "전남대학교 동물병원",
+      "sido": "전남광주통합특별시",
+      "sigungu": "북구",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "062-530-2882",
+        "address": "광주광역시 북구 용봉로 45 (용봉동) / 전남대학교",
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "24시 응급 2025-05-07 개소.",
+        "departments": [
+          "영상(CT/MRI)",
+          "응급",
+          "내과",
+          "외과",
+          "분과진료"
+        ],
+        "equipment": [
+          "MRI"
+        ],
+        "services": [
+          "24시 응급의료센터(2025-05 개소)",
+          "분과 진료",
+          "MRI 도입 기사"
+        ],
+        "role": "대학동물병원",
+        "homepage": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "062-530-2882",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "광주광역시 북구 용봉로 45 (용봉동) / 전남대학교",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "00:00–24:00",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시 응급 2025-05-07 개소.",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "24시 응급의료센터(2025-05 개소)",
+            "분과 진료",
+            "MRI 도입 기사"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "phone",
+          "value": "062-530-2882",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "응급",
+            "내과",
+            "외과",
+            "분과진료"
+          ],
+          "source": "profile+news",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-jbnu-jamc",
+      "name": "전북동물의료센터",
+      "sido": "전북특별자치도",
+      "sigungu": "익산시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "063-850-0970",
+        "address": "전북특별자치도 익산시 고봉로 79 전북대학교 특성화캠퍼스",
+        "homepage": "https://jamc.jbnu.ac.kr",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:00–18:00",
+        "night_hours": "24시간",
+        "hours_note": "국립대 중 24시 응급 운영 그룹에 포함(헬스조선 2025-05 정리).",
+        "departments": [
+          "영상(CT/MRI)",
+          "응급"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "심장초음파",
+          "초음파"
+        ],
+        "services": [
+          "CT",
+          "MRI",
+          "X-ray",
+          "초음파",
+          "응급진료",
+          "분과. 예방접종은 공식 비용페이지에서 안 함"
+        ],
+        "role": "대학동물병원",
+        "lat": 35.94245529,
+        "lng": 126.9599075,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "063-850-0970",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "전북특별자치도 익산시 고봉로 79 전북대학교 특성화캠퍼스",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "https://jamc.jbnu.ac.kr",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "국립대 중 24시 응급 운영 그룹에 포함(헬스조선 2025-05 정리).",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "응급"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "심장초음파",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "CT",
+            "MRI",
+            "X-ray",
+            "초음파",
+            "응급진료",
+            "분과. 예방접종은 공식 비용페이지에서 안 함"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 35.94245529,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.9599075,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-jeju-vmth",
+      "name": "제주대학교 수의과대학 부설동물병원",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "064-754-3380",
+        "address": "제주특별자치도 제주시 제주대학로 102",
+        "hours_24h": "no",
+        "emergency": "no",
+        "hours_note": "공식 진료안내: 평일 09–18(점심 12–13), 토·일·공휴 휴진, 접수마감 17:00. 예약 없이 내원 시 주간 응급진료(할증) 처리되나 야간 24시 응급은 없음. 예약 064-754-3380·3384.",
+        "departments": [
+          "영상(CT/MRI)",
+          "내과",
+          "외과"
+        ],
+        "equipment": [
+          "CT",
+          "MRI"
+        ],
+        "services": [
+          "MRI",
+          "CT",
+          "분과"
+        ],
+        "role": "대학동물병원",
+        "lat": 33.44697571,
+        "lng": 126.5626984,
+        "weekday_hours": "09:00–18:00",
+        "homepage": "http://vethospital.jejunu.ac.kr/",
+        "night_hours": null,
+        "species_scope": [
+          "dog",
+          "cat"
+        ],
+        "weekend_hours": "휴진"
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "064-754-3381",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "제주특별자치도 제주시 제주대학로 102",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "unknown",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "unknown",
+          "source": "inferred",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "24시 미확인.",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "MRI",
+            "CT",
+            "분과"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 33.44697571,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 126.5626984,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "no",
+          "source": "nationwide_csv",
+          "note": "월–금 09–18 (주소 오류로 좌표 제외)",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "phone",
+          "value": "064-754-3381",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "homepage",
+          "value": "http://vethospital.jejunu.ac.kr/",
+          "source": "hospital_website",
+          "note": "수의학과 사이트와 별도 병원 공식 URL",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "emergency",
+          "value": "no",
+          "source": "hospital_website",
+          "note": "야간24시 없음. 주간 무예약 내원=응급할증 처리",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "점심 12–13, 접수마감 17:00",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "weekend_hours",
+          "value": "휴진",
+          "source": "hospital_website",
+          "note": "토·일·공휴",
+          "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "phone",
+          "value": "064-754-3380",
+          "source": "hospital_website",
+          "note": "3380·3384 (기존 3381은 인허가 번호로 보임)",
+          "at": "2026-09-20T01:53:09Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    },
+    {
+      "id": "univ-cbnu-cheongju",
+      "name": "충북대학교 동물병원",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "status": "verified_draft",
+      "verified_fields": {
+        "phone": "043-261-3220",
+        "address": "충북 청주시 서원구 충대로 1",
+        "homepage": "http://www.cbuanimal.co.kr/",
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:00–18:00",
+        "night_hours": "24시간",
+        "hours_note": "정규 평일 09–18 / 응급 365일 24시간 (사이트)",
+        "departments": [
+          "영상(CT/MRI)",
+          "내과/피부",
+          "정형/외상/신경외과·재활",
+          "연부조직/종양외과",
+          "안과/치과",
+          "산과",
+          "핵의학",
+          "영상의학과",
+          "진단검사의학",
+          "응급"
+        ],
+        "equipment": [
+          "CT",
+          "MRI",
+          "PET-CT",
+          "X-ray",
+          "초음파"
+        ],
+        "services": [
+          "PET-CT",
+          "분과 진료",
+          "지역 병원 임상병리 수탁"
+        ],
+        "role": "대학동물병원",
+        "lat": 36.63004303,
+        "lng": 127.4550781,
+        "species_scope": [
+          "dog",
+          "cat"
+        ]
+      },
+      "evidence_log": [
+        {
+          "field": "phone",
+          "value": "043-261-3220",
+          "source": "profile+nationwide/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "address",
+          "value": "충북 청주시 서원구 충대로 1",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.cbuanimal.co.kr/",
+          "source": "nationwide_csv/website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "night_hours",
+          "value": "24시간",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_note",
+          "value": "정규 평일 09–18 / 응급 365일 24시간 (사이트)",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "departments",
+          "value": [
+            "영상(CT/MRI)",
+            "내과/피부",
+            "정형/외상/신경외과·재활",
+            "연부조직/종양외과",
+            "안과/치과",
+            "산과",
+            "핵의학",
+            "영상의학과",
+            "진단검사의학",
+            "응급"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "PET-CT",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "services",
+          "value": [
+            "PET-CT",
+            "분과 진료",
+            "지역 병원 임상병리 수탁"
+          ],
+          "source": "profile+website",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "role",
+          "value": "대학동물병원",
+          "source": "profile",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lat",
+          "value": 36.63004303,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "lng",
+          "value": 127.4550781,
+          "source": "nationwide_csv",
+          "note": "",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "_sources",
+          "value": [
+            "http://www.cbuanimal.co.kr/"
+          ],
+          "source": "hospital_website",
+          "at": "2026-09-20"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "정규 평일 + 365일 24시 응급",
+          "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:50:48Z"
+        }
+      ],
+      "open_questions": [
+        "no_official_equipment_proof"
+      ]
+    }
+  ],
+  "last_batch_reviews": [
+    {
+      "name": "경상국립대학교수의과대학부속동물병원",
+      "note": "응급=없음 확정, 공식 영상의학과 CT(2ch)·MRI(0.4T) 증거 축적, 예약전화 055-772-1111"
+    },
+    {
+      "name": "본 동물메디컬센터 외과동물병원",
+      "note": "달서=응급없음(주간), 수성=24시 네트워크 재확인, 공식 MRI/CT 모델명 축적"
+    },
+    {
+      "name": "충남대학교 수의과대학 부속동물병원",
+      "note": "응급=없음 확정, 평일 10–18 재확인, stale_source·전화 경고 해제"
+    },
+    {
+      "name": "제주대학교 수의과대학 부설동물병원",
+      "note": "공식 vethospital.jejunu.ac.kr 확인: 평일09–18·주말휴진, 야간응급 없음, 전화 3380/3384"
+    },
+    {
+      "name": "24시노아동물메디컬센터",
+      "note": "공식 사이트 연중무휴 24시간·전화 재확인"
+    },
+    {
+      "name": "뉴로동물의료센터24시",
+      "note": "주간10–21/야간21–09·365일·주소 재확인"
+    }
+  ],
+  "progress": {
+    "total": 32,
+    "by_status": {
+      "verified_draft": 32
+    },
+    "reviewed_this_batch": 6,
+    "emergency_unknown_remaining": 0
+  }
+}

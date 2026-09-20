@@ -1,7 +1,7 @@
 {
-  "title": "사이트 추가 후보(보강 포함, public 게이트 미통과)",
+  "title": "사이트 추가 후보 (강아지·고양이만)",
   "as_of": "2026-09-20",
-  "n": 24,
+  "n": 23,
   "hospitals": [
     {
       "id": "gwangju-baden",
@@ -95,7 +95,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "gwangju-gonggam",
@@ -190,7 +194,11 @@
         "lng": 126.8180313,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-24시김승현외과동물메디컬센터",
@@ -279,7 +287,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b16-24시블루밍동물병원",
@@ -360,7 +372,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b16-24시언제나동물병원",
@@ -517,7 +533,11 @@
         "lng": 126.8905334,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-e-동물-메디컬-센터",
@@ -595,7 +615,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-광양동물메디컬센터",
@@ -667,7 +691,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-광주24시스카이동물메디컬센터",
@@ -746,7 +774,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-광주동물메디컬센터",
@@ -832,79 +864,11 @@
         "lng": 126.8579636,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
-    },
-    {
-      "id": "b15-국립공원공단-국립공원야생생물보전원-야생동물의료센터",
-      "master_id": "5840000_584000001020080001",
-      "name": "국립공원공단 국립공원야생생물보전원 야생동물의료센터",
-      "sido": "전남광주통합특별시",
-      "sigungu": "구례군",
-      "phone": "061-783-9585",
-      "address": "전남광주통합특별시 구례군 마산면 화엄사로 402-31",
-      "role": "secondary",
-      "role_label": "2차 의료센터",
-      "care_level": "unknown",
-      "visibility": "hold",
-      "publishable": false,
-      "not_general_hospital": false,
-      "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
-        "night_hours": null,
-        "hours_note": null,
-        "name_has_24h_token": false
       },
-      "departments": [],
-      "department_labels": [],
-      "services": [],
-      "focus_conditions": [],
-      "equipment": [],
-      "equipment_summary": [],
-      "credentials": null,
-      "strength_plain": "인허가. 1차/2차 미확인.",
-      "avoid_hype": true,
-      "confidence": "low",
-      "verification_grade": "B",
-      "verification_score": 74,
-      "sources": [
-        "인허가 마스터"
-      ],
-      "does_not_confirmed": [
-        "검사·중증 분과 미확인"
-      ],
-      "issues": [
-        {
-          "sev": "error",
-          "code": "no_equipment",
-          "msg": "확인된 장비 없음"
-        },
-        {
-          "sev": "warn",
-          "code": "sources_weak",
-          "msg": "출처가 인허가/자가 홍보뿐"
-        }
-      ],
-      "site_gaps": [
-        "departments_sparse",
-        "emergency_unconfirmed",
-        "equipment_missing",
-        "hours_note_missing",
-        "hours_unconfirmed"
-      ],
-      "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19",
-      "enrichment": {
-        "nationwide_match_score": null,
-        "nationwide_id": null,
-        "homepage": null,
-        "lat": null,
-        "lng": null,
-        "hours_source": null,
-        "website_sources": []
-      }
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b16-늘사랑-양한방-동물병원",
@@ -1062,7 +1026,11 @@
         "lng": 127.6526184,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-더블리스동물의료센터",
@@ -1140,7 +1108,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-더엘동물의료센터",
@@ -1212,7 +1184,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-바른동물의료센터",
@@ -1290,7 +1266,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-봉선아이동물메디컬센터",
@@ -1362,7 +1342,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-블루밍동물의료센터",
@@ -1432,7 +1416,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-비타동물의료센터",
@@ -1585,7 +1573,11 @@
         "lng": 126.9033127,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-빛고을동물의료센터",
@@ -1731,7 +1723,11 @@
         "lng": 126.9206467,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b16-아나푸게안과동물병원",
@@ -1884,7 +1880,11 @@
         "lng": 126.8967667,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b16-이룸외과동물병원",
@@ -2011,7 +2011,11 @@
         "lng": 126.8869095,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-전남동물의료센터",
@@ -2139,7 +2143,11 @@
         "lng": 126.793335,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-진도개메디컬센터",
@@ -2211,7 +2219,11 @@
         "lng": 126.2785645,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b16-진월24동물병원",
@@ -2304,7 +2316,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b15-한결동물의료센터",
@@ -2382,7 +2398,14 @@
         "lng": 126.8832092,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     }
+  ],
+  "dropped_non_companion": [
+    "국립공원공단 국립공원야생생물보전원 야생동물의료센터"
   ]
 }

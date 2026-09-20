@@ -1,8 +1,8 @@
 {
-  "title": "사이트용 동물병원 상세(정규화+전국CSV+홈페이지 보강)",
+  "title": "사이트용 강아지·고양이 병원 상세",
   "as_of": "2026-09-20",
-  "rule": "homepage-public 기본 노출. 전국 CSV 영업시간·홈페이지·좌표 병합. 사이트 수집은 self_claimed로 표기. 전화 재확인 권장.",
-  "schema_version": "2.0",
+  "rule": "소동물(개·고양이)만. 말전문·축산·야생 제외. verify public + 전국CSV + 사이트.",
+  "schema_version": "2.1-companion",
   "sources": [
     {
       "id": "homepage-public",
@@ -19,10 +19,10 @@
     }
   ],
   "counts": {
-    "public_ready": 33,
-    "with_homepage": 26,
-    "with_website_scrape": 17,
-    "nationwide_total": 4411
+    "public_ready": 32,
+    "with_homepage": 27,
+    "with_website_scrape": 18,
+    "companion_nationwide": 4300
   },
   "hospitals": [
     {
@@ -229,7 +229,11 @@
         "website_sources": [
           "http://www.skyamg.com"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "amc-goyang-drdog",
@@ -251,7 +255,7 @@
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "성예사 09:30–22:00 표기. 24시 여부는 2017 확장 이후 재확인",
+        "hours_note": "전국CSV: 매일 00:00–24:00 (동물의료센터Dr.DOG). 이전 성예사 09:30–22 표기는 구정보 가능.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -341,8 +345,7 @@
         }
       ],
       "site_gaps": [
-        "no_official_equipment_proof",
-        "stale_source"
+        "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
@@ -353,8 +356,13 @@
         "lat": 37.67064667,
         "lng": 126.7810211,
         "hours_source": "nationwide_csv",
-        "website_sources": []
-      }
+        "website_sources": [],
+        "alt_phone": "0507-1497-0339"
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-24시-다시-봄-동물의료센터",
@@ -470,7 +478,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-광명-24-아이디동물의료센터",
@@ -588,7 +600,6 @@
         }
       ],
       "site_gaps": [
-        "hours_token_gap",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
@@ -601,7 +612,11 @@
         "lng": 126.8659668,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-에프엠-FM-동물메디컬센터-김포점",
@@ -827,7 +842,11 @@
         "website_sources": [
           "http://fmamc.kr/"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-부천24시SKY동물메디컬센터",
@@ -1038,7 +1057,11 @@
         "website_sources": [
           "http://www.skyamg.com"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-비엔동물전문의료센터",
@@ -1186,7 +1209,11 @@
         "lng": 126.8084106,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-권앤정-24시수원동물메디컬센터",
@@ -1463,7 +1490,11 @@
         "website_sources": [
           "https://suwonamc.co.kr/main"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-본-동물의료센터",
@@ -1652,7 +1683,11 @@
         "lng": 127.0098114,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b5-수원-스카이-동물메디컬센터",
@@ -1864,7 +1899,11 @@
         "website_sources": [
           "http://www.skyamg.com"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b6-24시-온누리동물메디컬센터",
@@ -2042,7 +2081,11 @@
         "lng": 126.8298798,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b6-24시-사람앤동물메디컬센터",
@@ -2307,7 +2350,11 @@
         "lng": 127.0797424,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-gnu-vmth",
@@ -2324,12 +2371,12 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
+        "hours_24h": "no",
+        "emergency": "no",
         "weekday_hours": "09:00–18:00",
-        "weekend_hours": "토 휴무 · 일 휴무",
+        "weekend_hours": "토·일·공휴 휴무",
         "night_hours": null,
-        "hours_note": "진료시간안내는 사이트 진료안내 메뉴 확인",
+        "hours_note": "평일 접수 오전 09–11/진료 09–12, 오후 접수 13–16/진료 13–18. 주말·공휴 휴무. 야간·응급 진료 안내 없음(공식 사이트). 예약문의 055-772-1111.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일) | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간",
         "by_day": {
@@ -2491,12 +2538,12 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT실",
-          "model": null,
+          "item": "2채널 CT",
+          "model": "2채널",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "gnu.ac.kr 수의대 부속동물병원 시설안내 1층 CT실",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "gamc.gnu.ac.kr 영상의학과: 2채널 컴퓨터단층촬영기기",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
@@ -2531,6 +2578,17 @@
           "evidence": "gnu.ac.kr 시설안내 소화기내시경실",
           "as_of": "2026-09-19",
           "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "0.4T 자기공명영상장치",
+          "model": "0.4T",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "gamc.gnu.ac.kr 영상의학과: 2채널 CT + 0.4T MRI 보유 명시",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -2552,10 +2610,7 @@
         "동물의료원(gamc)과 인허가 분리 가능. 같은 캠퍼스 개칭 여부 전화 확인"
       ],
       "issues": [],
-      "site_gaps": [
-        "emergency_unconfirmed",
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -2567,8 +2622,14 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://gamc.gnu.ac.kr/"
-        ]
-      }
+        ],
+        "reservation_phone": "055-772-1111"
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "site_notes": "대학 동물의료원. 소동물 중심 + 특수동물 클리닉 병기. 축산 전용 아님."
     },
     {
       "id": "b9-수동물메디컬센터",
@@ -2733,7 +2794,11 @@
         "lng": 128.1068115,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b10-24시-포항-이음동물의료센터",
@@ -2972,7 +3037,11 @@
         "website_sources": [
           "http://www.eumamc.com/"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b10-본-동물메디컬센터-외과동물병원",
@@ -2990,11 +3059,11 @@
       "not_general_hospital": false,
       "hours": {
         "hours_24h": "no",
-        "emergency": "unknown",
+        "emergency": "no",
         "weekday_hours": "09:00–20:00",
         "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "달서본원 주간 09–20(점심 12–13). 24시는 수성점(야간 20–09).",
+        "night_hours": null,
+        "hours_note": "달서본원(외과) 주간 09–20(점심 12–13). 야간·24시 응급은 동일 네트워크 24시수성점(20–09, 연중무휴). 대표 053-634-7582 내선1=달서 / 내선2=수성.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -3109,35 +3178,24 @@
       ],
       "equipment": [
         {
-          "kind": "other",
-          "label": "기타",
-          "item": "Philips Ingenia 1.5T",
-          "model": "1.5T",
-          "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "매일신문+공식",
-          "as_of": "2026-09-19",
-          "publisher": null
-        },
-        {
-          "kind": "other",
-          "label": "기타",
-          "item": "TOSHIBA Aquilion CX 128",
-          "model": "64ch 128slice",
-          "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "같은 매일신문·공식",
-          "as_of": "2026-09-19",
-          "publisher": null
-        },
-        {
           "kind": "mri",
           "label": "MRI",
           "item": "Philips Ingenia 1.5T",
-          "model": "Philips Ingenia 1.5T",
+          "model": "1.5T",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "boneamc.com 공식 장비 섹션(모델명 명시)",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "TOSHIBA Aquilion CX 128",
+          "model": "64ch 128slice",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "boneamc.com 공식 장비 섹션(모델명 명시)",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -3148,7 +3206,7 @@
           "model": "TOSHIBA Aquilion CX 128 (64ch 128slice)",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "boneamc.com 공식 장비 섹션(모델명 명시)",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -3159,7 +3217,7 @@
           "model": "GENORAY OSCAR15 DSA C-arm",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "boneamc.com 공식 장비 섹션(모델명 명시)",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -3170,7 +3228,7 @@
           "model": "Canon Aplio i800 / HITACHI ARIETTA 850",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "boneamc.com 공식 장비 섹션(모델명 명시)",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -3230,10 +3288,7 @@
         "수원 본과 대구 본을 같은 병원으로 묶지 않음."
       ],
       "issues": [],
-      "site_gaps": [
-        "emergency_unconfirmed",
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -3246,7 +3301,16 @@
         "website_sources": [
           "http://www.boneamc.com"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ],
+      "network_branches": [
+        "달서본원(주간)",
+        "24시수성점",
+        "건강검진영상센터"
+      ]
     },
     {
       "id": "univ-knu-daegu",
@@ -3360,7 +3424,11 @@
         "lng": 128.6143188,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-cnu-vmth",
@@ -3378,11 +3446,11 @@
       "not_general_hospital": false,
       "hours": {
         "hours_24h": "no",
-        "emergency": "unknown",
+        "emergency": "no",
         "weekday_hours": "10:00–18:00",
         "weekend_hours": "토 휴무 · 일 휴무",
         "night_hours": null,
-        "hours_note": "평일 10–18 (사이트). 전화 042-821-6704",
+        "hours_note": "평일 10–18(점심 13–14). 토·일·공휴 휴진. 야간·응급 진료 안내 없음(cnuah.cnu.ac.kr). 전화 042-821-6704.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 10:00 - 18:00 | 화 10:00 - 18:00 | 수 10:00 - 18:00 | 목 10:00 - 18:00 | 금 10:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일) | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간",
         "by_day": {
@@ -3616,21 +3684,9 @@
       "does_not_confirmed": [
         "공식 내과 페이지는 진료시간 중 on-call. 24시 상시로 단정하지 않음"
       ],
-      "issues": [
-        {
-          "sev": "warn",
-          "code": "phone_missing",
-          "msg": "전화 없음"
-        },
-        {
-          "sev": "warn",
-          "code": "stale_source",
-          "msg": "2023년 이전 출처: 데일리벳 2021 초음파 기증"
-        }
-      ],
+      "issues": [],
       "site_gaps": [
-        "no_official_equipment_proof",
-        "stale_source"
+        "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
@@ -3644,7 +3700,11 @@
         "website_sources": [
           "https://cnuah.cnu.ac.kr"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b12-뉴로동물의료센터24시",
@@ -3808,7 +3868,11 @@
         "website_sources": [
           "https://neuroamc.com"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "rehab-vip-sinsagyeong",
@@ -3825,12 +3889,12 @@
       "publishable": true,
       "not_general_hospital": true,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "no",
         "weekday_hours": "10:00–19:00",
-        "weekend_hours": "토 10:00–19:00 · 일 10:00–19:00",
+        "weekend_hours": "토·일 10:00–19:00",
         "night_hours": null,
-        "hours_note": "재활특화 센터(by Dr.신사경). VIP 그룹 내 한방재활의학센터.",
+        "hours_note": "월–일 10:00–19:00 (전국CSV). 재활특화, 응급센터 아님.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 10:00 - 19:00 | 화 10:00 - 19:00 | 수 10:00 - 19:00 | 목 10:00 - 19:00 | 금 10:00 - 19:00 | 토 10:00 - 19:00 | 일 10:00 - 19:00 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간",
         "by_day": {
@@ -3914,7 +3978,7 @@
             "raw": "13:00 - 14:00 휴게시간"
           }
         ],
-        "hours_source": "hospital_website"
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -4059,12 +4123,17 @@
         "homepage": "http://pf.kakao.com/_llRVG/chat",
         "lat": 37.51947021,
         "lng": 127.0489883,
-        "hours_source": "hospital_website",
+        "hours_source": "nationwide_csv",
         "website_sources": [
           "http://www.vipah.co.kr/",
           "https://www.vipah.co.kr/kr/"
-        ]
-      }
+        ],
+        "alt_phone": "02-6952-7524"
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b12-24시-로얄동물메디컬센터-강동",
@@ -4300,7 +4369,11 @@
         "website_sources": [
           "http://RoyalAMCGD.com"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-snu-vmth",
@@ -4633,14 +4706,18 @@
       "enrichment": {
         "nationwide_match_score": 75,
         "nationwide_id": "nat_37e4ab0de71a",
-        "homepage": null,
+        "homepage": "https://vmth.snu.ac.kr/",
         "lat": 37.46628571,
         "lng": 126.9481583,
         "hours_source": "hospital_website",
         "website_sources": [
           "https://vmth.snu.ac.kr/"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-konkuk-vmth",
@@ -4809,7 +4886,11 @@
         "website_sources": [
           "http://vmth.konkuk.ac.kr/"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-snu-checkup-gwangjin",
@@ -4834,8 +4915,37 @@
         "hours_note": "월–금 08–17, 토일·공휴 휴진",
         "name_has_24h_token": false
       },
-      "departments": [],
-      "department_labels": [],
+      "departments": [
+        {
+          "code": null,
+          "label": "건강검진",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "profile strength checkup"
+        },
+        {
+          "code": null,
+          "label": "영상(X-ray/초음파)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "profile strength checkup"
+        },
+        {
+          "code": null,
+          "label": "임상병리",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "profile strength checkup"
+        }
+      ],
+      "department_labels": [
+        "건강검진",
+        "영상(X-ray/초음파)",
+        "임상병리"
+      ],
       "services": [
         "엑스선",
         "초음파",
@@ -4887,7 +4997,6 @@
       ],
       "issues": [],
       "site_gaps": [
-        "departments_sparse",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
@@ -4900,7 +5009,11 @@
         "lng": null,
         "hours_source": null,
         "website_sources": []
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b14-노원N동물의료센터",
@@ -5192,7 +5305,11 @@
           "https://www.namc.co.kr/"
         ],
         "notes": "N동물의료센터 노원점. 강북점 02-984-0075. 고양이병원·암센터 노원점."
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "rehab-hangeoleumdeo",
@@ -5214,7 +5331,7 @@
         "weekday_hours": "10:00–19:00",
         "weekend_hours": "일·월 휴진",
         "night_hours": null,
-        "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제.",
+        "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제. (사이트+CSV 일치)",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 정기휴무 (매주 월요일) | 화 10:00 - 19:00 | 수 10:00 - 19:00 | 목 10:00 - 19:00 | 금 10:00 - 19:00 | 토 10:00 - 19:00 | 일 정기휴무 (매주 일요일) | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감",
         "by_day": {
@@ -5284,7 +5401,7 @@
             "raw": "13:00 - 14:00 휴게시간"
           }
         ],
-        "hours_source": "hospital_website"
+        "hours_source": "hospital_website+nationwide_csv"
       },
       "departments": [
         {
@@ -5396,8 +5513,13 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://www.onepawaway.co.kr"
-        ]
-      }
+        ],
+        "alt_phone": "0507-1341-5009"
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "b14-24시월드펫동물메디컬센터",
@@ -5419,7 +5541,7 @@
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "24시. 영상센터 365일",
+        "hours_note": "24시. 영상센터 365일 | 전국CSV 매일 00–24",
         "name_has_24h_token": true,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -5431,7 +5553,7 @@
           }
         },
         "breaks": [],
-        "hours_source": "nationwide_csv"
+        "hours_source": "nationwide_csv+profile"
       },
       "departments": [
         {
@@ -5547,8 +5669,13 @@
         "lat": 37.5205307,
         "lng": 126.8453827,
         "hours_source": "nationwide_csv",
-        "website_sources": []
-      }
+        "website_sources": [],
+        "alt_phone": "0507-1312-7584"
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "gwangju-noah",
@@ -5648,12 +5775,12 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": "64ch (병원 소개, 미검증)",
+          "item": "64채널 CT",
+          "model": "64채널",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리벳 우치동물원 협약: 마모셋 CT·호랑이 CT. 64채널 기종은 병원 소개",
-          "as_of": "2026-09-19",
+          "evidence": "데일리벳: 노아AMC 64채널 CT 보유 언급 (초음파 기증 기사)",
+          "as_of": "2026-09-20",
           "publisher": "dailyvet"
         }
       ],
@@ -5691,7 +5818,11 @@
         "website_sources": [
           "http://noahamc.co.kr/"
         ]
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-jnu-vmth",
@@ -5724,10 +5855,46 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "MRI"
+        },
+        {
+          "code": null,
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "articles+profile"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "articles+profile"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "articles+profile"
+        },
+        {
+          "code": null,
+          "label": "분과진료",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "articles+profile"
         }
       ],
       "department_labels": [
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과",
+        "분과진료"
       ],
       "services": [
         "24시 응급의료센터(2025-05 개소)",
@@ -5790,8 +5957,12 @@
         "lng": null,
         "hours_source": null,
         "website_sources": [],
-        "notes": "전국CSV: 전남대학교 광주캠퍼스동물병원, 전화 062-530-2882"
-      }
+        "notes": "전국CSV: 전남대학교 광주캠퍼스동물병원, 전화 062-530-2882 | 전화 062-530-2882 (전국CSV 광주캠퍼스동물병원)"
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-jbnu-jamc",
@@ -6017,112 +6188,11 @@
         "lng": 126.9599075,
         "hours_source": "nationwide_csv",
         "website_sources": []
-      }
-    },
-    {
-      "id": "univ-jeju-equine",
-      "master_id": "6510000_651000001020170006",
-      "name": "제주대학교 말전문동물병원",
-      "sido": "제주특별자치도",
-      "sigungu": "제주시",
-      "phone": "064-725-0175",
-      "address": "제주특별자치도 제주시 (마스터 기준)",
-      "role": "university",
-      "role_label": "대학동물병원",
-      "care_level": "university",
-      "visibility": "public",
-      "publishable": true,
-      "not_general_hospital": false,
-      "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
-        "night_hours": null,
-        "hours_note": "미확인.",
-        "name_has_24h_token": false
       },
-      "departments": [
-        {
-          "code": "equine",
-          "label": "말(대동물)",
-          "available": "yes",
-          "role": "primary_strength",
-          "evidence_level": "reported",
-          "evidence": "말 전용 CT"
-        },
-        {
-          "code": "imaging",
-          "label": "영상(CT/MRI)",
-          "available": "yes",
-          "role": "available",
-          "evidence_level": "reported",
-          "evidence": "장비 행에서 유도"
-        }
-      ],
-      "department_labels": [
-        "말(대동물)",
-        "영상(CT/MRI)"
-      ],
-      "services": [
-        "말 전용 CT"
-      ],
-      "focus_conditions": [
-        "말 임상",
-        "대동물 영상"
-      ],
-      "equipment": [
-        {
-          "kind": "ct",
-          "label": "CT",
-          "item": "Canon Aquilion Lightning 16ch 말 전용 CT",
-          "model": "16ch · Aquilion · Canon",
-          "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "미디어피아 2020 제주대 말전문동물병원 말 전용 CT 도입",
-          "as_of": "2026-09-19",
-          "publisher": null
-        }
-      ],
-      "equipment_summary": [
-        "CT"
-      ],
-      "credentials": "제주대 말전문동물병원.",
-      "strength_plain": "말 전용 CT 기사 확인. 소동물 MRI와 장소·인허가 다름.",
-      "avoid_hype": "'국내 최초' 본문 제외. 도입 사실만.",
-      "confidence": "medium",
-      "verification_grade": "A",
-      "verification_score": 96,
-      "sources": [
-        "미디어피아 2020-09 말 전용 CT"
-      ],
-      "does_not_confirmed": [
-        "소동물 부설병원과 인허가 분리"
-      ],
-      "issues": [
-        {
-          "sev": "warn",
-          "code": "stale_source",
-          "msg": "2023년 이전 출처: 미디어피아 2020-09 말 전용 CT"
-        }
-      ],
-      "site_gaps": [
-        "emergency_unconfirmed",
-        "hours_unconfirmed",
-        "no_official_equipment_proof",
-        "stale_source"
-      ],
-      "source_file": "homepage-public",
-      "as_of": "2026-09-19",
-      "enrichment": {
-        "nationwide_match_score": 200,
-        "nationwide_id": "nat_cdc24d09ad3d",
-        "homepage": null,
-        "lat": 33.44697571,
-        "lng": 126.5626984,
-        "hours_source": null,
-        "website_sources": []
-      }
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-jeju-vmth",
@@ -6130,7 +6200,7 @@
       "name": "제주대학교 수의과대학 부설동물병원",
       "sido": "제주특별자치도",
       "sigungu": "제주시",
-      "phone": "064-754-3381",
+      "phone": "064-754-3380",
       "address": "제주특별자치도 제주시 제주대학로 102",
       "role": "university",
       "role_label": "대학동물병원",
@@ -6139,13 +6209,56 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "09:00–18:00",
+        "weekend_hours": "토·일·공휴 휴진",
         "night_hours": null,
-        "hours_note": "24시 미확인.",
-        "name_has_24h_token": false
+        "hours_note": "공식 진료안내: 평일 09–18(점심 12–13), 토·일·공휴 휴진, 접수마감 17:00. 예약 없이 내원 시 주간 응급진료(할증) 처리되나 야간 24시 응급은 없음. 예약 064-754-3380·3384.",
+        "name_has_24h_token": false,
+        "hours_source": "hospital_website",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "sat": {
+            "status": "closed",
+            "raw": "휴진"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "휴진"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "점심시간 12:00∼13:00"
+          }
+        ]
       },
       "departments": [
         {
@@ -6155,10 +6268,28 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "MRI/CT"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "existing profile / typical univ"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "existing profile / typical univ"
         }
       ],
       "department_labels": [
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "내과",
+        "외과"
       ],
       "services": [
         "MRI",
@@ -6212,8 +6343,6 @@
       ],
       "issues": [],
       "site_gaps": [
-        "emergency_unconfirmed",
-        "hours_unconfirmed",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
@@ -6221,12 +6350,24 @@
       "enrichment": {
         "nationwide_match_score": 200,
         "nationwide_id": "nat_cdc24d09ad3d",
-        "homepage": null,
+        "homepage": "http://vethospital.jejunu.ac.kr/",
         "lat": 33.44697571,
         "lng": 126.5626984,
-        "hours_source": null,
-        "website_sources": []
-      }
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://vethospital.jejunu.ac.kr/",
+          "http://vethospital.jejunu.ac.kr/vethospital/guide/medical.htm"
+        ],
+        "geo_warning": "nationwide CSV geocoded to Busan incorrectly",
+        "alt_phones": [
+          "064-754-3380",
+          "064-754-3384"
+        ]
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     },
     {
       "id": "univ-cbnu-cheongju",
@@ -6503,7 +6644,15 @@
           "http://www.cbuanimal.co.kr/"
         ],
         "alt_phone": "043-261-2602"
-      }
+      },
+      "species_scope": [
+        "dog",
+        "cat"
+      ]
     }
+  ],
+  "species_scope": [
+    "dog",
+    "cat"
   ]
 }
