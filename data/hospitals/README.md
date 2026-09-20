@@ -22,3 +22,8 @@
 - 1차 Place depth (로컬 11+클라우드 진행): 영업시간·전화·주소교정(검단→인천)
 - 대학: 서울대·건국·전남대 공식 VMTH 홈페이지 확보
 - 2차 hours fill: 해밀(휴게/공휴일) 등
+
+### Place waves (merged)
+- special (대학·재활): 14 — 제주대·탑스 홈페이지 추가
+- secondary hours fill: 6
+- Seoul neighborhood wave1: 80 (hit 67 / no_hit 11 / ambiguous 2)

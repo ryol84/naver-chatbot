@@ -118,9 +118,9 @@
     "제주대학교말전문동물병원"
   ],
   "stats": {
-    "with_homepage": 1904,
-    "with_hours": 3126,
-    "with_phone": 3966,
+    "with_homepage": 1909,
+    "with_hours": 3155,
+    "with_phone": 3972,
     "hours_24h_yes": 208
   },
   "care_level_taxonomy": {
@@ -166,9 +166,44 @@
     "secondary_hours_fill_local": {
       "n": 3,
       "at": "2026-09-20T03:35:00Z"
+    },
+    "special_wave": {
+      "n": 14,
+      "hit": 13,
+      "homepages": 6,
+      "merged_at": "2026-09-20T03:44:53Z",
+      "university_still_no_homepage": 5,
+      "rehab_still_no_homepage": 3,
+      "source_branch": "cursor/place-special-neigh-ac30"
+    },
+    "secondary_hours_fill": {
+      "n": 6,
+      "merged_at": "2026-09-20T03:44:53Z",
+      "source_branch": "cursor/place-special-neigh-ac30"
+    },
+    "neigh_seoul_wave1": {
+      "n": 80,
+      "hit": 67,
+      "no_hit": 11,
+      "ambiguous": 2,
+      "homepages": 3,
+      "merged_at": "2026-09-20T03:44:53Z",
+      "seoul_neigh_still_no_hours": 86,
+      "source_branch": "cursor/place-special-neigh-ac30"
+    },
+    "merge_stats": {
+      "applied": 100,
+      "homepage_set": 5,
+      "phone_set": 6,
+      "hours_set": 29,
+      "dept_merged": 9,
+      "skipped_no_id": 0,
+      "hit": 86,
+      "no_hit": 11,
+      "ambiguous": 3
     }
   },
-  "with_homepage": 1904,
+  "with_homepage": 1909,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
