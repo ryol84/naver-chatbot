@@ -1,0 +1,3410 @@
+[
+  {
+    "id": "nat_726164a278a1",
+    "name": "송파스마일동물병원",
+    "sido": "울산",
+    "sigungu": "남구",
+    "address": "울산 남구 대공원로 138-1 1층",
+    "phone": "02-448-7588",
+    "homepage": "https://blog.naver.com/drdnc",
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%86%A1%ED%8C%8C%EC%8A%A4%EB%A7%88%EC%9D%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9A%B8%EC%82%B0",
+    "query": "송파스마일동물병원 남구",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_1fe3155e5a75",
+    "name": "수동물병원",
+    "sido": "충청남도",
+    "sigungu": "아산시",
+    "address": "충청남도 아산시 영인면 영인로 45",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "수동물병원 아산시",
+    "kakao_top": [
+      {
+        "id": "991880636",
+        "name": "수동물병원",
+        "phone": "010-6473-6520",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_07ef1900e2cd",
+    "name": "수동물병원",
+    "sido": "충청남도",
+    "sigungu": "부여군",
+    "address": "충청남도 부여군 부여읍 나성로 83",
+    "phone": "041-832-7359",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "수동물병원 부여군",
+    "kakao_top": [
+      {
+        "id": "1768317263",
+        "name": "수동물병원",
+        "phone": "041-832-7359",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_c150c42d33a1",
+    "name": "수선동물병원",
+    "sido": "경상남도",
+    "sigungu": "거창군",
+    "address": "경상남도 거창군 거창읍 수남로 2213",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%88%98%EC%84%A0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "수선동물병원 거창군",
+    "kakao_top": [
+      {
+        "id": "1318485515",
+        "name": "수선동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_aeb4e68d6dd8",
+    "name": "승원동물병원",
+    "sido": "경상남도",
+    "sigungu": "통영시",
+    "address": "경상남도 통영시 산양읍 산양중앙로 233",
+    "phone": "055-649-9054",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8A%B9%EC%9B%90%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "승원동물병원 통영시",
+    "kakao_top": [
+      {
+        "id": "10532418",
+        "name": "승원동물병원",
+        "phone": "055-649-9054",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_d2d0e1757627",
+    "name": "신개금동물병원",
+    "sido": "부산광역시",
+    "sigungu": "부산진구",
+    "address": "부산광역시 부산진구 복지로21번길 47 (개금동, 성동 하이빌)",
+    "phone": "051-254-3375",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%EA%B0%9C%EA%B8%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "신개금동물병원 복지로21번길 47",
+    "kakao_top": [
+      {
+        "id": "606974879",
+        "name": "성동하이빌",
+        "phone": null,
+        "category": "빌라,주택",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_025f992d1e48",
+    "name": "신동동물병원",
+    "sido": "충청남도",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 공주대학로 23-44 (신관동)",
+    "phone": "041-857-9414",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%EB%8F%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "신동동물병원 공주시",
+    "kakao_top": [
+      {
+        "id": "10521803",
+        "name": "신동동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_f147cf30a16f",
+    "name": "신세계동물병원",
+    "sido": "인천광역시",
+    "sigungu": "남동구",
+    "address": "인천광역시 남동구 백범로 203 (만수동)",
+    "phone": "032-468-7533",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "신세계동물병원 남동구",
+    "kakao_top": [
+      {
+        "id": "16484431",
+        "name": "신세계동물병원",
+        "phone": "032-468-7533",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "1499095535",
+        "name": "신세계동물병원",
+        "phone": "032-614-7588",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_0aae571d497f",
+    "name": "신영재동물병원",
+    "sido": "인천광역시",
+    "sigungu": "계양구",
+    "address": "인천광역시 계양구 장제로 923 (병방동)",
+    "phone": "032-552-0075",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%EC%98%81%EC%9E%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "신영재동물병원 계양구",
+    "kakao_top": [
+      {
+        "id": "26080563",
+        "name": "신영재동물병원",
+        "phone": "032-552-0075",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "105374840",
+        "name": "신영재동물병원",
+        "phone": "032-552-0075",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_09d5ec3f8a11",
+    "name": "신통방통동물병원",
+    "sido": "인천광역시",
+    "sigungu": "계양구",
+    "address": "인천광역시 계양구 계양대로 96 (작전동)",
+    "phone": "032-552-3369",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%ED%86%B5%EB%B0%A9%ED%86%B5%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "신통방통동물병원 계양대로 96",
+    "kakao_top": [
+      {
+        "id": "280355314",
+        "name": "신통방통동물병원",
+        "phone": "032-552-3369",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "213486908",
+        "name": "소녀폰 인천작전역점",
+        "phone": "010-4833-9132",
+        "category": "전자제품판매",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "9447571",
+        "name": "청운약국",
+        "phone": "032-555-8400",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "16338070",
+        "name": "명인김밥천국 작전점",
+        "phone": "032-544-3004",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "18532728",
+        "name": "바나바헤어샵",
+        "phone": "032-551-3533",
+        "category": "미용실",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "693438918",
+        "name": "세무법인 춘추",
+        "phone": null,
+        "category": "세무사사무소",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "917759705",
+        "name": "하리 아쉬탕가 요가",
+        "phone": "032-548-0038",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "652394001",
+        "name": "나르지오 작전점",
+        "phone": null,
+        "category": "패션잡화점",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 13
+  },
+  {
+    "id": "nat_6dac45ff75fb",
+    "name": "신현동물병원",
+    "sido": "경상남도",
+    "sigungu": "거제시",
+    "address": "경상남도 거제시 거제중앙로 1830-1 (고현동)",
+    "phone": "055-636-8272",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%ED%98%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "신현동물병원 거제시",
+    "kakao_top": [
+      {
+        "id": "9901887",
+        "name": "신현동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_2fc36297aa40",
+    "name": "신흥동물병원",
+    "sido": "충청남도",
+    "sigungu": "홍성군",
+    "address": "충청남도 홍성군 광천읍 광천로 333",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%A0%ED%9D%A5%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "신흥동물병원 홍성군",
+    "kakao_top": [
+      {
+        "id": "15283657",
+        "name": "신흥동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_db62aecd2733",
+    "name": "심동물병원",
+    "sido": "충청남도",
+    "sigungu": "부여군",
+    "address": "충청남도 부여군 규암면 계백로 76 (금강타운)",
+    "phone": "041-833-5882",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%8B%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "심동물병원 부여군",
+    "kakao_top": [
+      {
+        "id": "18881765",
+        "name": "심동물병원",
+        "phone": "041-833-5882",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_6db35ae153e3",
+    "name": "아림동물병원",
+    "sido": "경상남도",
+    "sigungu": "거창군",
+    "address": "경상남도 거창군 거창읍 수남로 2287",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": "월 10:00 - 18:00 | 화 10:00 - 18:00 | 수 10:00 - 18:00 | 목 10:00 - 18:00 | 금 10:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일)",
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%A6%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "아림동물병원 거창군",
+    "kakao_top": [
+      {
+        "id": "885070299",
+        "name": "아림동물병원",
+        "phone": "010-8006-5750",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_17bb19ab6a1f",
+    "name": "아프리카동물병원",
+    "sido": "인천광역시",
+    "sigungu": "연수구",
+    "address": "인천광역시 연수구 비류대로 194 (옥련동)",
+    "phone": "032-833-7575",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "아프리카동물병원 연수구",
+    "kakao_top": [
+      {
+        "id": "16709850",
+        "name": "아프리카동물병원",
+        "phone": "032-833-7575",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_f418a3a9d2c2",
+    "name": "안민동물병원",
+    "sido": "경기도",
+    "sigungu": "양주시",
+    "address": "경기도 양주시 은현면 은현로 73-8",
+    "phone": "031-859-0087",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%95%88%EB%AF%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EA%B8%B0%EB%8F%84",
+    "query": "안민동물병원 양주시",
+    "kakao_top": [
+      {
+        "id": "9265907",
+        "name": "안민동물병원",
+        "phone": "031-859-0087",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_77e5b15ad82d",
+    "name": "양지동물병원",
+    "sido": "부산광역시",
+    "sigungu": "연제구",
+    "address": "부산광역시 연제구 월드컵대로114번길 1 (연산동)",
+    "phone": "051-867-5595",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%96%91%EC%A7%80%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "양지동물병원 월드컵대로114번길 1",
+    "kakao_top": [
+      {
+        "id": "16315941",
+        "name": "양지종합동물병원",
+        "phone": "051-867-5595",
+        "category": "동물병원",
+        "score": 11,
+        "match_notes": [
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "36529498",
+        "name": "쌍둥이돼지국밥",
+        "phone": "051-863-3939",
+        "category": "국밥",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_4b03f32ecbc6",
+    "name": "엔젤동물병원",
+    "sido": "전남",
+    "sigungu": "여수시",
+    "address": "전남 여수시 충무로 73 개뭉치",
+    "phone": "02-977-0275",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%97%94%EC%A0%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%A0%84%EB%82%A8",
+    "query": "엔젤동물병원 여수시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_c8f86b38dde5",
+    "name": "연산동물병원",
+    "sido": "충청남도",
+    "sigungu": "논산시",
+    "address": "충청남도 논산시 벌곡면 대둔로 825-6",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%97%B0%EC%82%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "연산동물병원 논산시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_935d5436ff7c",
+    "name": "예동물병원",
+    "sido": "인천광역시",
+    "sigungu": "서구",
+    "address": "인천광역시 서구 완정로65번안길 70 (왕길동)",
+    "phone": "032-563-1575",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "예동물병원 서구",
+    "kakao_top": [
+      {
+        "id": "722759824",
+        "name": "예동물병원",
+        "phone": "032-362-8111",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_ddc147d534e0",
+    "name": "예산동물병원",
+    "sido": "충청남도",
+    "sigungu": "예산군",
+    "address": "충청남도 예산군 예산읍 역전로 51",
+    "phone": "041-332-5895",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%88%EC%82%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "예산동물병원 역전로 51",
+    "kakao_top": [
+      {
+        "id": "11188045",
+        "name": "예산동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_1904da8b36e0",
+    "name": "오산동물병원",
+    "sido": "경기도",
+    "sigungu": "오산시",
+    "address": "경기도 오산시 성호대로 108 (원동)",
+    "phone": "031-377-7582",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%A4%EC%82%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EA%B8%B0%EB%8F%84",
+    "query": "오산동물병원 성호대로 108",
+    "kakao_top": [
+      {
+        "id": "10626041",
+        "name": "오산동물병원",
+        "phone": "031-377-7582",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "899553103",
+        "name": "두툼한만원초밥",
+        "phone": "031-377-5811",
+        "category": "초밥,롤",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "10637054",
+        "name": "예스치과의원",
+        "phone": "031-376-2804",
+        "category": "치과",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1462671192",
+        "name": "행복사진관",
+        "phone": "031-378-5347",
+        "category": "사진관,포토스튜디오",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1604368183",
+        "name": "진치과기공소",
+        "phone": null,
+        "category": "의료보조기구",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "5332162",
+        "name": "더골드",
+        "phone": "010-3663-5357",
+        "category": "보석,귀금속",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1758757318",
+        "name": "힐링캠프여행사",
+        "phone": "031-378-4224",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "26431910",
+        "name": "홀릭전자담배 오산원동점",
+        "phone": null,
+        "category": "담배",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 9
+  },
+  {
+    "id": "nat_b1966fee02ea",
+    "name": "온누리동물병원",
+    "sido": "대구광역시",
+    "sigungu": "달서구",
+    "address": "대구광역시 달서구 달구벌대로 1220 (이곡동)",
+    "phone": "053-584-2757",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%A8%EB%88%84%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "온누리동물병원 달서구",
+    "kakao_top": [
+      {
+        "id": "14578796",
+        "name": "온누리동물병원",
+        "phone": "053-584-2757",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_1ca0e05d81f8",
+    "name": "용문동물병원",
+    "sido": "경기도",
+    "sigungu": "양평군",
+    "address": "경기도 양평군 용문면 용문로 353",
+    "phone": "031-773-3176",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%A9%EB%AC%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EA%B8%B0%EB%8F%84",
+    "query": "용문동물병원 양평군",
+    "kakao_top": [
+      {
+        "id": "10625991",
+        "name": "용문동물병원",
+        "phone": "031-773-3176",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "322962580",
+        "name": "용문조아동물병원",
+        "phone": "031-771-7585",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "238441529",
+        "name": "이장석동물병원",
+        "phone": "031-773-7582",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "515167358",
+        "name": "양동진동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 4
+  },
+  {
+    "id": "nat_9361a5862a78",
+    "name": "우리동물병원",
+    "sido": "부산광역시",
+    "sigungu": "해운대구",
+    "address": "부산광역시 해운대구 선수촌로 101-1 (반여동)",
+    "phone": "051-528-7581",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "우리동물병원 해운대구",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_dac20b4c2c30",
+    "name": "우리동물병원",
+    "sido": "인천광역시",
+    "sigungu": "서구",
+    "address": "인천광역시 서구 서곶로 349 (연희동)",
+    "phone": "032-566-0075",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "우리동물병원 서구",
+    "kakao_top": [
+      {
+        "id": "1258548482",
+        "name": "대전우리동물의료센터",
+        "phone": "042-222-1117",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_87091a8ad00c",
+    "name": "우리동물병원",
+    "sido": "전라남도",
+    "sigungu": "여수시",
+    "address": "전라남도 여수시 여서1로 91 (여서동)",
+    "phone": "061-653-4031",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84",
+    "query": "우리동물병원 여서1로 91",
+    "kakao_top": [
+      {
+        "id": "13546285",
+        "name": "여서약국",
+        "phone": "061-654-8228",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "11250142",
+        "name": "김광중내과의원",
+        "phone": "061-653-4293",
+        "category": "내과",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "542650704",
+        "name": "둥이헤어",
+        "phone": null,
+        "category": "미용실",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1729495101",
+        "name": "여수영광교회 해방치유센터",
+        "phone": "061-642-2750",
+        "category": "기독교",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "21276912",
+        "name": "VIP",
+        "phone": "061-652-0701",
+        "category": "유흥주점",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 5
+  },
+  {
+    "id": "nat_14c442dbc269",
+    "name": "우리동물병원",
+    "sido": "경기도",
+    "sigungu": "연천군",
+    "address": "경기도 연천군 연천읍 현문로5번길 3",
+    "phone": "031-834-7233",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EA%B8%B0%EB%8F%84",
+    "query": "우리동물병원 현문로5번길 3",
+    "kakao_top": [
+      {
+        "id": "27498825",
+        "name": "GS25 연천통현점",
+        "phone": null,
+        "category": "GS25",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1333155125",
+        "name": "행운복권",
+        "phone": null,
+        "category": "복권",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "9256879",
+        "name": "연천세기축산",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1496631057",
+        "name": "GS25 연천통현점 ATM",
+        "phone": null,
+        "category": "은행",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 4
+  },
+  {
+    "id": "nat_d9394c7d48ad",
+    "name": "우리동물병원",
+    "sido": "경상남도",
+    "sigungu": "거창군",
+    "address": "경상남도 거창군 거창읍 거함대로5길 71",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "우리동물병원 거함대로5길 71",
+    "kakao_top": [
+      {
+        "id": "1022097773",
+        "name": "우리동물병원",
+        "phone": "010-3832-7525",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      },
+      {
+        "id": "9289795",
+        "name": "왕우렁쌈밥",
+        "phone": "055-945-3042",
+        "category": "쌈밥",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "75068302",
+        "name": "우리농인증원",
+        "phone": "055-941-0828",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "264425979",
+        "name": "거창군보훈회관",
+        "phone": null,
+        "category": "국무총리직속기관",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1544965864",
+        "name": "경남매일뉴스",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "182008862",
+        "name": "DBInc 거창지점",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 6
+  },
+  {
+    "id": "nat_f320da7c0e84",
+    "name": "우리동물병원",
+    "sido": "경상남도",
+    "sigungu": "진주시",
+    "address": "경상남도 진주시 신안로 165 (이현동)",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "우리동물병원 진주시",
+    "kakao_top": [
+      {
+        "id": "1819639649",
+        "name": "우리동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_dda6af518686",
+    "name": "우리동물병원",
+    "sido": "경상남도",
+    "sigungu": "사천시",
+    "address": "경상남도 사천시 곤양면 서삼로 22-1",
+    "phone": "055-852-3488",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "우리동물병원 사천시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_099d1a43678e",
+    "name": "우리들 동물병원",
+    "sido": "경상남도",
+    "sigungu": "거제시",
+    "address": "경상남도 거제시 고현로 107 (고현동)",
+    "phone": "055-635-7682",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EB%93%A4%20%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "우리들 동물병원 거제시",
+    "kakao_top": [
+      {
+        "id": "9896298",
+        "name": "우리들동물병원",
+        "phone": "055-635-7682",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_7bc5657cb7b5",
+    "name": "우성동물병원",
+    "sido": "대구광역시",
+    "sigungu": "군위군",
+    "address": "대구광역시 군위군 군위읍 중앙1길 17",
+    "phone": "054-382-1359",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%84%B1%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "우성동물병원 군위군",
+    "kakao_top": [
+      {
+        "id": "1893961840",
+        "name": "우성동물병원",
+        "phone": "054-382-1359",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_532647e95f82",
+    "name": "우신동물병원",
+    "sido": "충청남도",
+    "sigungu": "금산군",
+    "address": "충청남도 금산군 금산읍 오리정1길 45",
+    "phone": "041-753-8128",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%8B%A0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "우신동물병원 금산군",
+    "kakao_top": [
+      {
+        "id": "12467745",
+        "name": "우신동물병원",
+        "phone": "041-753-8128",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_9b3a1e28baf9",
+    "name": "우원동물병원",
+    "sido": "경남",
+    "sigungu": "창원시",
+    "address": "경남 창원시 진해구 안골로 148-14",
+    "phone": "0507-1322-0270",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%9B%90%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EB%82%A8",
+    "query": "우원동물병원 창원시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_9d6f5380a513",
+    "name": "우진동물병원",
+    "sido": "부산광역시",
+    "sigungu": "부산진구",
+    "address": "부산광역시 부산진구 동평로 115-1 (부암동)",
+    "phone": "051-865-1782",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%A7%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "우진동물병원 부산진구",
+    "kakao_top": [
+      {
+        "id": "42701997",
+        "name": "우진동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_0df0fa49783b",
+    "name": "웅상동물병원",
+    "sido": "경상남도",
+    "sigungu": "양산시",
+    "address": "경상남도 양산시 덕계로 66 (덕계동)",
+    "phone": "055-366-0300",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9B%85%EC%83%81%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "웅상동물병원 양산시",
+    "kakao_top": [
+      {
+        "id": "9931993",
+        "name": "웅상동물병원",
+        "phone": "055-366-0300",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "9344353",
+        "name": "프랜드동물병원",
+        "phone": "055-364-7585",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_59fd8bea6b63",
+    "name": "원당동물병원",
+    "sido": "인천광역시",
+    "sigungu": "서구",
+    "address": "인천광역시 서구 원당대로 852 (당하동)",
+    "phone": "032-566-7588",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9B%90%EB%8B%B9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "원당동물병원 원당대로 852",
+    "kakao_top": [
+      {
+        "id": "8466692",
+        "name": "원당동물병원",
+        "phone": "032-566-7588",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "17943396",
+        "name": "IBK기업은행 인천원당",
+        "phone": null,
+        "category": "은행",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "582015313",
+        "name": "나이스가이 원당점",
+        "phone": "032-565-2073",
+        "category": "미용실",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "23182964",
+        "name": "으랏차차스시야 검단점",
+        "phone": "032-567-8774",
+        "category": "초밥,롤",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "20950737",
+        "name": "미야미",
+        "phone": null,
+        "category": "돈까스,우동",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "17061715",
+        "name": "김희형탁구클럽",
+        "phone": null,
+        "category": "탁구장",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1075332295",
+        "name": "다돌봄방문요양센터",
+        "phone": "032-566-9950",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1414253615",
+        "name": "풍성한건설",
+        "phone": null,
+        "category": "시공업체",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 15
+  },
+  {
+    "id": "nat_d0da03bd8e74",
+    "name": "웰니스동물병원 수완점",
+    "sido": "경북",
+    "sigungu": "구미시",
+    "address": "경북 구미시 오태1길 46 1층",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": "월 10:00 - 20:00 | 화 10:00 - 20:00 | 수 10:00 - 20:00 | 목 10:00 - 20:00 | 금 10:00 - 20:00 | 토 10:00 - 20:00 | 일 10:00 - 20:00 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간",
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9B%B0%EB%8B%88%EC%8A%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%88%98%EC%99%84%EC%A0%90%20%EA%B2%BD%EB%B6%81",
+    "query": "웰니스동물병원 수완점 오태1길 46",
+    "kakao_top": [
+      {
+        "id": "910872861",
+        "name": "민다방",
+        "phone": "010-8717-4745",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_a7bc888f5843",
+    "name": "웰빙동물병원",
+    "sido": "부산",
+    "sigungu": "중구",
+    "address": "부산 중구 흑교로35번길 5 1층",
+    "phone": "055-262-1209",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9B%B0%EB%B9%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0",
+    "query": "웰빙동물병원 중구",
+    "kakao_top": [
+      {
+        "id": "10458221",
+        "name": "웰빙비비펫동물병원",
+        "phone": "02-912-0018",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_33f602a719b1",
+    "name": "위즈펫",
+    "sido": "인천광역시",
+    "sigungu": "서구",
+    "address": "인천광역시 서구 중봉대로 587 (청라동)",
+    "phone": "032-585-6270",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9C%84%EC%A6%88%ED%8E%AB%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "위즈펫 서구",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_2c5ade3bc4da",
+    "name": "yourpet",
+    "sido": "경기도",
+    "sigungu": "수원시",
+    "address": "경기도 수원시 장안구 장안로320번길 29 (파장동, 윤희네하숙)",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": "월 10:00 - 16:00 | 화 10:00 - 16:00 | 수 10:00 - 16:00 | 목 10:00 - 16:00 | 금 10:00 - 16:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일)",
+    "place_search_url": "https://search.naver.com/search.naver?query=yourpet%20%EA%B2%BD%EA%B8%B0%EB%8F%84",
+    "query": "yourpet 장안로320번길 29",
+    "kakao_top": [
+      {
+        "id": "1119039763",
+        "name": "윤희네하숙",
+        "phone": null,
+        "category": "빌라,주택",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_3c3a27a39f9a",
+    "name": "유병국동물병원",
+    "sido": "경상남도",
+    "sigungu": "고성군",
+    "address": "경상남도 고성군 회화면 회진로 27-13",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9C%A0%EB%B3%91%EA%B5%AD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "유병국동물병원 고성군",
+    "kakao_top": [
+      {
+        "id": "1288087486",
+        "name": "유병국동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_40f7ce71414d",
+    "name": "이규로동물병원",
+    "sido": "경기도",
+    "sigungu": "남양주시",
+    "address": "경기도 남양주시 화도읍 마석로76번길 5-1 (스타 힐)",
+    "phone": "031-593-7751",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EA%B7%9C%EB%A1%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EA%B8%B0%EB%8F%84",
+    "query": "이규로동물병원 마석로76번길 5-1",
+    "kakao_top": [
+      {
+        "id": "1651239242",
+        "name": "스타힐",
+        "phone": null,
+        "category": "빌라,주택",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "113619712",
+        "name": "에코승리건물관리",
+        "phone": "031-522-4475",
+        "category": "청소대행",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_3ea0607cd32c",
+    "name": "이동물병원",
+    "sido": "충청남도",
+    "sigungu": "아산시",
+    "address": "충청남도 아산시 둔포면 둔포면로 12-8",
+    "phone": "041-531-3363",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "이동물병원 아산시",
+    "kakao_top": [
+      {
+        "id": "8545819",
+        "name": "이동물병원",
+        "phone": "041-531-3363",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_82c08e312fa1",
+    "name": "이병훈동물병원",
+    "sido": "세종특별자치시",
+    "sigungu": "조치원읍",
+    "address": "세종특별자치시 조치원읍 장안로 27",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": "매일 09:00 - 18:00",
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EB%B3%91%ED%9B%88%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C",
+    "query": "이병훈동물병원 조치원읍",
+    "kakao_top": [
+      {
+        "id": "755756589",
+        "name": "이병훈동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_5863e47d9192",
+    "name": "이솝동물병원",
+    "sido": "경상남도",
+    "sigungu": "창원시",
+    "address": "경상남도 창원시 의창구 의안로55번길 4 (소답동)",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": "화 수 목 금 토 일",
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%86%9D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "이솝동물병원 의안로55번길 4",
+    "kakao_top": [
+      {
+        "id": "1149143922",
+        "name": "태영이앤티 창원지사",
+        "phone": "055-299-8573",
+        "category": "전자제품판매",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_13621f09ef3e",
+    "name": "이수의과동물병원",
+    "sido": "전남",
+    "sigungu": "나주시",
+    "address": "전남 나주시 우정로 103 110호",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%88%98%EC%9D%98%EA%B3%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%A0%84%EB%82%A8",
+    "query": "이수의과동물병원 나주시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_20762c427c54",
+    "name": "장동물병원",
+    "sido": "부산광역시",
+    "sigungu": "사하구",
+    "address": "부산광역시 사하구 윤공단로56번길 55 (다대동)",
+    "phone": "051-262-7582",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9E%A5%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "장동물병원 사하구",
+    "kakao_top": [
+      {
+        "id": "1803904612",
+        "name": "장동물병원",
+        "phone": "031-262-7582",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      },
+      {
+        "id": "27347803",
+        "name": "장동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_13452ee0e072",
+    "name": "장동호동물병원",
+    "sido": "충청남도",
+    "sigungu": "서천군",
+    "address": "충청남도 서천군 서천읍 서천로 157-1",
+    "phone": "041-953-7599",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9E%A5%EB%8F%99%ED%98%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "장동호동물병원 서천군",
+    "kakao_top": [
+      {
+        "id": "10732173",
+        "name": "장동호동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_0891e0ace1a4",
+    "name": "장성동물병원",
+    "sido": "전라남도",
+    "sigungu": "장성군",
+    "address": "전라남도 장성군 장성읍 영천로 83",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": "매일 10:00 - 18:00",
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%9E%A5%EC%84%B1%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84",
+    "query": "장성동물병원 영천로 83",
+    "kakao_top": [
+      {
+        "id": "11158455",
+        "name": "제일기계공구",
+        "phone": "061-394-0989",
+        "category": "산업용품",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1528151275",
+        "name": "동림농장",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_b4f3444d2493",
+    "name": "정강동물병원",
+    "sido": "충청남도",
+    "sigungu": "아산시",
+    "address": "충청남도 아산시 번영로216번길 36 (모종동, 신정아파트)",
+    "phone": "041-544-8556",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%95%EA%B0%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "정강동물병원 아산시",
+    "kakao_top": [
+      {
+        "id": "10724500",
+        "name": "정강동물병원",
+        "phone": "041-544-8556",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_95083ae99536",
+    "name": "정동물병원",
+    "sido": "충청남도",
+    "sigungu": "서산시",
+    "address": "충청남도 서산시 고운로 331 (잠홍동)",
+    "phone": "041-667-5955",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%95%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "정동물병원 서산시",
+    "kakao_top": [
+      {
+        "id": "8539480",
+        "name": "정가축병원",
+        "phone": "041-355-2907",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_e02708745edf",
+    "name": "조은동물병원",
+    "sido": "인천광역시",
+    "sigungu": "남동구",
+    "address": "인천광역시 남동구 남동대로370번길 113 (논현동)",
+    "phone": "032-428-0275",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A1%B0%EC%9D%80%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "조은동물병원 남동대로370번길 113",
+    "kakao_top": [
+      {
+        "id": "145168725",
+        "name": "조은동물병원",
+        "phone": "032-428-0275",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "8854416",
+        "name": "논현메디칼정형외과",
+        "phone": "032-446-9700",
+        "category": "정형외과",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "10089567",
+        "name": "조은약국",
+        "phone": "032-433-2991",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "15492439",
+        "name": "남동솔로몬학원",
+        "phone": "032-434-9966",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "23522023",
+        "name": "황해",
+        "phone": "032-441-6605",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "20562544",
+        "name": "우진프라자지하주차장",
+        "phone": null,
+        "category": "주차장",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 6
+  },
+  {
+    "id": "nat_4628288c28d0",
+    "name": "좋은친구들 동물병원",
+    "sido": "인천광역시",
+    "sigungu": "남동구",
+    "address": "인천광역시 남동구 만수로50번길 25 (만수동)",
+    "phone": "032-469-7782",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A2%8B%EC%9D%80%EC%B9%9C%EA%B5%AC%EB%93%A4%20%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "좋은친구들 동물병원 만수로50번길 25",
+    "kakao_top": [
+      {
+        "id": "1058858302",
+        "name": "CU 만수주공6단지점",
+        "phone": "032-473-7772",
+        "category": "CU",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "109695521",
+        "name": "CU 만수주공미래점",
+        "phone": null,
+        "category": "CU",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "25550483",
+        "name": "이디야커피 인천만수주공점",
+        "phone": "032-463-4483",
+        "category": "커피전문점",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "18758042",
+        "name": "두란노문구",
+        "phone": "032-463-4087",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "9048691",
+        "name": "용인대브니엘태권도",
+        "phone": "032-467-2222",
+        "category": "태권도",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "833072386",
+        "name": "편한헤어",
+        "phone": "032-465-2336",
+        "category": "미용실",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "21299872",
+        "name": "로뎀나무아래서",
+        "phone": "032-461-7986",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "26074427",
+        "name": "하늘음악학원",
+        "phone": "032-461-5910",
+        "category": "음악학원",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 10
+  },
+  {
+    "id": "nat_f46236a06fab",
+    "name": "좌천동물병원",
+    "sido": "부산광역시",
+    "sigungu": "기장군",
+    "address": "부산광역시 기장군 장안읍 해맞이로 17-1",
+    "phone": "051-727-0170",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A2%8C%EC%B2%9C%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "좌천동물병원 기장군",
+    "kakao_top": [
+      {
+        "id": "10000746",
+        "name": "좌천동물병원",
+        "phone": "051-727-0170",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_4ebecb68a087",
+    "name": "주수의과병원",
+    "sido": "경상남도",
+    "sigungu": "의령군",
+    "address": "경상남도 의령군 의령읍 의병로16길 18",
+    "phone": "055-572-2267",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A3%BC%EC%88%98%EC%9D%98%EA%B3%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "주수의과병원 의병로16길 18",
+    "kakao_top": [
+      {
+        "id": "10796018",
+        "name": "주수의과병원",
+        "phone": "055-572-2267",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_1c5cd5588efc",
+    "name": "중랑차동물병원",
+    "sido": "제주",
+    "sigungu": "제주시",
+    "address": "제주 제주시 조천읍 조함해안로 356",
+    "phone": "02-433-0787",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A4%91%EB%9E%91%EC%B0%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%A0%9C%EC%A3%BC",
+    "query": "중랑차동물병원 제주시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_98288aa38719",
+    "name": "중앙동물병원",
+    "sido": "충청남도",
+    "sigungu": "예산군",
+    "address": "충청남도 예산군 고덕면 고덕중앙로 86-1",
+    "phone": "041-337-6434",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A4%91%EC%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "중앙동물병원 예산군",
+    "kakao_top": [
+      {
+        "id": "9996136",
+        "name": "중앙동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_a18a56f6e598",
+    "name": "중앙동물병원",
+    "sido": "충청남도",
+    "sigungu": "논산시",
+    "address": "충청남도 논산시 중앙로480번길 42 (반월동)",
+    "phone": "041-735-3490",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A4%91%EC%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "중앙동물병원 논산시",
+    "kakao_top": [
+      {
+        "id": "9460425",
+        "name": "중앙동물병원",
+        "phone": "041-735-3490",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_75be7fae5603",
+    "name": "중앙동물병원",
+    "sido": "충청남도",
+    "sigungu": "천안시",
+    "address": "충청남도 천안시 동남구 원거리7길 2 (원성동)",
+    "phone": "041-555-7575",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A4%91%EC%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "중앙동물병원 원거리7길 2",
+    "kakao_top": [
+      {
+        "id": "16565611",
+        "name": "중앙동물병원",
+        "phone": "041-555-7575",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "1172308220",
+        "name": "김밥파는1004씨이오",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1010631601",
+        "name": "정성설비",
+        "phone": "010-9908-1743",
+        "category": "시공업체",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "110681490",
+        "name": "피칭플랜",
+        "phone": "0507-1318-2541",
+        "category": "야구연습장",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "10622404",
+        "name": "와우애견",
+        "phone": "041-561-0008",
+        "category": "반려동물미용",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1800635692",
+        "name": "헬프맘 천안센터",
+        "phone": "041-522-1159",
+        "category": "탁아,베이비시터",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 6
+  },
+  {
+    "id": "nat_6f909d341bdc",
+    "name": "중앙동물병원",
+    "sido": "충청남도",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 웅진로 231 (금성동)",
+    "phone": "041-853-1474",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A4%91%EC%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "중앙동물병원 공주시",
+    "kakao_top": [
+      {
+        "id": "8523492",
+        "name": "중앙동물병원",
+        "phone": "070-7762-1474",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_05857136ef91",
+    "name": "중앙동물병원",
+    "sido": "인천광역시",
+    "sigungu": "강화군",
+    "address": "인천광역시 강화군 강화읍 중앙로74번길 8-1",
+    "phone": "032-933-6862",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A4%91%EC%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "중앙동물병원 강화군",
+    "kakao_top": [
+      {
+        "id": "783463852",
+        "name": "중앙동물병원",
+        "phone": "032-933-6862",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_79398d2ea328",
+    "name": "지팡이동물병원",
+    "sido": "충청남도",
+    "sigungu": "청양군",
+    "address": "충청남도 청양군 정산면 효자길 35",
+    "phone": "041-942-5620",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A7%80%ED%8C%A1%EC%9D%B4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "지팡이동물병원 청양군",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_9e8162be9c41",
+    "name": "진동물병원",
+    "sido": "경상남도",
+    "sigungu": "산청군",
+    "address": "경상남도 산청군 신안면 원지강변로63번길 7",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A7%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "진동물병원 원지강변로63번길 7",
+    "kakao_top": [
+      {
+        "id": "43467848",
+        "name": "진동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      },
+      {
+        "id": "18732667",
+        "name": "함양산청축협 원지지점",
+        "phone": "055-973-4506",
+        "category": "은행",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "862663826",
+        "name": "센텀학원",
+        "phone": null,
+        "category": "입시학원",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "901366203",
+        "name": "금오산업",
+        "phone": "055-542-7397",
+        "category": "종합건설사",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "296146687",
+        "name": "함양산청축협 원지지점 ATM",
+        "phone": null,
+        "category": "은행",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 5
+  },
+  {
+    "id": "nat_5d10d87607ca",
+    "name": "진영동물병원",
+    "sido": "경상남도",
+    "sigungu": "김해시",
+    "address": "경상남도 김해시 진영읍 여래로20번길 33",
+    "phone": "055-343-7177",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A7%84%EC%98%81%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "진영동물병원 김해시",
+    "kakao_top": [
+      {
+        "id": "16871565",
+        "name": "진영 동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      },
+      {
+        "id": "1908999186",
+        "name": "진영조은동물병원",
+        "phone": "055-343-7586",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "616786225",
+        "name": "라임동물병원",
+        "phone": "055-345-1612",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "24529534",
+        "name": "도담동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 4
+  },
+  {
+    "id": "nat_fece11adcf5a",
+    "name": "짱구네동물병원",
+    "sido": "인천광역시",
+    "sigungu": "부평구",
+    "address": "인천광역시 부평구 평천로 356 (갈산동)",
+    "phone": "032-511-5515",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%A7%B1%EA%B5%AC%EB%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "짱구네동물병원 부평구",
+    "kakao_top": [
+      {
+        "id": "27298607",
+        "name": "짱구네동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_3ede69f15505",
+    "name": "차동물병원",
+    "sido": "충청남도",
+    "sigungu": "보령시",
+    "address": "충청남도 보령시 대흥로 77 (대천동)",
+    "phone": "041-935-2079",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B0%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "차동물병원 보령시",
+    "kakao_top": [
+      {
+        "id": "9439763",
+        "name": "차동물병원",
+        "phone": "041-935-2079",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_4f10799aecb0",
+    "name": "참조은동물병원",
+    "sido": "부산광역시",
+    "sigungu": "사하구",
+    "address": "부산광역시 사하구 낙동대로295번길 19 (괴정동)",
+    "phone": "051-292-0141",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B0%B8%EC%A1%B0%EC%9D%80%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "참조은동물병원 사하구",
+    "kakao_top": [
+      {
+        "id": "17424660",
+        "name": "참조은동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_b497730a6c3c",
+    "name": "청솔동물병원",
+    "sido": "제주",
+    "sigungu": "서귀포시",
+    "address": "제주 서귀포시 남원읍 태신로 22",
+    "phone": "054-931-9656",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B2%AD%EC%86%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%A0%9C%EC%A3%BC",
+    "query": "청솔동물병원 태신로 22",
+    "kakao_top": [
+      {
+        "id": "1987795670",
+        "name": "모든날이행복하기를",
+        "phone": "010-8641-8406",
+        "category": "게스트하우스",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "164856055",
+        "name": "모행",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_24d53774ddad",
+    "name": "청조동물병원",
+    "sido": "부산광역시",
+    "sigungu": "연제구",
+    "address": "부산광역시 연제구 온천천남로4번길 11 (연산동)",
+    "phone": "051-503-0688",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B2%AD%EC%A1%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "청조동물병원 연제구",
+    "kakao_top": [
+      {
+        "id": "17228076",
+        "name": "청조동물병원",
+        "phone": "051-503-0688",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_a2b46ecfb4e4",
+    "name": "초원동물병원",
+    "sido": "경상남도",
+    "sigungu": "진주시",
+    "address": "경상남도 진주시 명석면 나불로 277-3",
+    "phone": "055-742-7504",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B4%88%EC%9B%90%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "초원동물병원 진주시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_909f77da967a",
+    "name": "충남동물병원",
+    "sido": "충청남도",
+    "sigungu": "논산시",
+    "address": "충청남도 논산시 부적면 백일헌로 25",
+    "phone": "041-733-5123",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B6%A9%EB%82%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "충남동물병원 백일헌로 25",
+    "kakao_top": [
+      {
+        "id": "8553452",
+        "name": "충남동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_b65965a0cb53",
+    "name": "충남동물병원",
+    "sido": "충청남도",
+    "sigungu": "보령시",
+    "address": "충청남도 보령시 천북면 홍보로 417-1",
+    "phone": "041-935-1455",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B6%A9%EB%82%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "충남동물병원 보령시",
+    "kakao_top": [
+      {
+        "id": "12324041",
+        "name": "보령동물병원",
+        "phone": "041-934-0013",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "9936412",
+        "name": "제일동물병원",
+        "phone": "041-936-7582",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "1452655298",
+        "name": "훈동물병원",
+        "phone": "041-934-0279",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "11020665",
+        "name": "김동물병원",
+        "phone": "041-936-4027",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "769650984",
+        "name": "보령축협동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "9439763",
+        "name": "차동물병원",
+        "phone": "041-935-2079",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "15283657",
+        "name": "신흥동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 7
+  },
+  {
+    "id": "nat_5e4d3c408582",
+    "name": "충청동물병원",
+    "sido": "충청남도",
+    "sigungu": "당진시",
+    "address": "충청남도 당진시 합덕읍 운산로 103",
+    "phone": "041-363-5070",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%B6%A9%EC%B2%AD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "충청동물병원 당진시",
+    "kakao_top": [
+      {
+        "id": "9474558",
+        "name": "충청동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      },
+      {
+        "id": "2145307398",
+        "name": "수청포근동물병원",
+        "phone": "041-430-7567",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "880854968",
+        "name": "현대동물병원",
+        "phone": "041-356-8575",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "768393237",
+        "name": "송악동물병원",
+        "phone": "041-358-7975",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "9475899",
+        "name": "충남동물종합병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "8682643",
+        "name": "거산동물병원",
+        "phone": "041-363-2550",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "8787901",
+        "name": "건국동물병원",
+        "phone": "041-355-2102",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "10387037",
+        "name": "백제동물병원",
+        "phone": "041-362-4600",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 15
+  },
+  {
+    "id": "nat_ccecaf54c8ff",
+    "name": "코끼리동물병원",
+    "sido": "부산광역시",
+    "sigungu": "사하구",
+    "address": "부산광역시 사하구 하신번영로201번길 16 (하단동)",
+    "phone": "051-204-7576",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%BD%94%EB%81%BC%EB%A6%AC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "코끼리동물병원 사하구",
+    "kakao_top": [
+      {
+        "id": "26629628",
+        "name": "코끼리동물병원",
+        "phone": "051-204-7576",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_cf6d3677cbe9",
+    "name": "쿨펫동물병원",
+    "sido": "광주",
+    "sigungu": "광산구",
+    "address": "광주 광산구 장신로50번길 9-8 101호",
+    "phone": "055-544-8400",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%EC%BF%A8%ED%8E%AB%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B4%91%EC%A3%BC",
+    "query": "쿨펫동물병원 장신로50번길 9-8",
+    "kakao_top": [
+      {
+        "id": "1371729776",
+        "name": "아이잇케이크",
+        "phone": "010-8780-9609",
+        "category": "테마카페",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "945977530",
+        "name": "금사랑 금거래소 수완점",
+        "phone": null,
+        "category": "보석,귀금속",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1684306775",
+        "name": "쏘카존 수완미르주차빌딩점",
+        "phone": null,
+        "category": "카셰어링",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "2081649995",
+        "name": "빅브로",
+        "phone": null,
+        "category": "커피전문점",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "23866895",
+        "name": "미르주차빌딩",
+        "phone": null,
+        "category": "주차장",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1078197441",
+        "name": "투루파킹 수완미르주차빌딩",
+        "phone": null,
+        "category": "주차장",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "508272789",
+        "name": "하이파킹 수완미르주차빌딩점",
+        "phone": null,
+        "category": "주차장",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1406971701",
+        "name": "투루파킹 수완미르주차빌딩점 주차장",
+        "phone": null,
+        "category": "주차장",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 8
+  },
+  {
+    "id": "nat_0dd4a45198ce",
+    "name": "태민동물병원",
+    "sido": "경상남도",
+    "sigungu": "합천군",
+    "address": "경상남도 합천군 합천읍 옥산로 16 (까치빌라)",
+    "phone": "0507-1414-7975",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%83%9C%EB%AF%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "태민동물병원 합천군",
+    "kakao_top": [
+      {
+        "id": "995836204",
+        "name": "태민동물병원",
+        "phone": "055-931-7975",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_718958c6c989",
+    "name": "태성동물병원",
+    "sido": "충청남도",
+    "sigungu": "천안시",
+    "address": "충청남도 천안시 서북구 성환읍 성환1로 275",
+    "phone": "041-581-9130",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%83%9C%EC%84%B1%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "태성동물병원 천안시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_bc30055cf52c",
+    "name": "태종동물병원",
+    "sido": "부산광역시",
+    "sigungu": "영도구",
+    "address": "부산광역시 영도구 동삼로 80-1 (동삼동)",
+    "phone": "051-405-9493",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%83%9C%EC%A2%85%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "태종동물병원 영도구",
+    "kakao_top": [
+      {
+        "id": "8624001",
+        "name": "태종동물병원",
+        "phone": "051-405-9493",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_f3cc7762b9e7",
+    "name": "통일동물병원",
+    "sido": "경기도",
+    "sigungu": "동두천시",
+    "address": "경기도 동두천시 중앙로 226 (생연동)",
+    "phone": "031-862-5151",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%86%B5%EC%9D%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EA%B8%B0%EB%8F%84",
+    "query": "통일동물병원 동두천시",
+    "kakao_top": [
+      {
+        "id": "16013966",
+        "name": "통일동물병원",
+        "phone": "031-862-5151",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_6dddb837d7c2",
+    "name": "푸른동물병원",
+    "sido": "부산광역시",
+    "sigungu": "해운대구",
+    "address": "부산광역시 해운대구 해운대로61번길 104-27 (반여동)",
+    "phone": "051-784-1235",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%91%B8%EB%A5%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "푸른동물병원 해운대구",
+    "kakao_top": [
+      {
+        "id": "9514441",
+        "name": "푸른동물병원",
+        "phone": "051-784-1235",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_79304c848196",
+    "name": "하나동물병원",
+    "sido": "인천광역시",
+    "sigungu": "계양구",
+    "address": "인천광역시 계양구 아나지로247번길 22 (작전동, 작전역 서해그랑블)",
+    "phone": "032-553-6678",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%98%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "하나동물병원 아나지로247번길 22",
+    "kakao_top": [
+      {
+        "id": "2130348729",
+        "name": "CU 작전서해그랑블점",
+        "phone": null,
+        "category": "CU",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1326081962",
+        "name": "작전역서해그랑블아파트",
+        "phone": null,
+        "category": "아파트",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "152096688",
+        "name": "역전할머니맥주 인천작전점",
+        "phone": "032-555-7537",
+        "category": "호프,요리주점",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1471494177",
+        "name": "하우스인",
+        "phone": "0503-7152-2703",
+        "category": "인테리어",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1818528986",
+        "name": "우리동네 휴대폰성지",
+        "phone": "070-7840-5151",
+        "category": "전자제품판매",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1542608854",
+        "name": "문수연헤어 계양점",
+        "phone": "032-543-3724",
+        "category": "미용실",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "20170586",
+        "name": "보드레족 효성점",
+        "phone": "032-548-3456",
+        "category": "육류,고기",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "2120829645",
+        "name": "작전역서해그랑블아파트 관리사무소",
+        "phone": "032-555-8991",
+        "category": "건물관리사무소",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 15
+  },
+  {
+    "id": "nat_6fc74ac96a7e",
+    "name": "하나동물병원",
+    "sido": "부산광역시",
+    "sigungu": "동구",
+    "address": "부산광역시 동구 수정동로15번길 11 (수정동)",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%98%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "하나동물병원 동구",
+    "kakao_top": [
+      {
+        "id": "201685494",
+        "name": "하나동물병원",
+        "phone": "051-462-6790",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_9b1fec13ab22",
+    "name": "하나동물병원",
+    "sido": "충북",
+    "sigungu": "청주시",
+    "address": "충북 청주시 흥덕구 복대로 116",
+    "phone": "063-634-7581",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%98%EB%82%98%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EB%B6%81",
+    "query": "하나동물병원 청주시",
+    "kakao_top": [
+      {
+        "id": "10086825",
+        "name": "하나동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_a43577b88b93",
+    "name": "하단동물병원",
+    "sido": "부산광역시",
+    "sigungu": "사하구",
+    "address": "부산광역시 사하구 하신중앙로 302-1 (하단동)",
+    "phone": "051-291-4456",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%98%EB%8B%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "하단동물병원 하신중앙로 302-1",
+    "kakao_top": [
+      {
+        "id": "21430929",
+        "name": "현대다방",
+        "phone": null,
+        "category": "다방",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "16316262",
+        "name": "소망약국",
+        "phone": "051-205-0230",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 2
+  },
+  {
+    "id": "nat_c21aaa6f02ca",
+    "name": "하동동물병원",
+    "sido": "경상남도",
+    "sigungu": "하동군",
+    "address": "경상남도 하동군 하동읍 경서대로 154",
+    "phone": "055-883-7522",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%98%EB%8F%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "하동동물병원 하동군",
+    "kakao_top": [
+      {
+        "id": "10863731",
+        "name": "하동동물병원",
+        "phone": "055-883-7522",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "756167626",
+        "name": "힘찬동물병원",
+        "phone": "055-883-9397",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "2026609213",
+        "name": "바른동물병원",
+        "phone": "055-882-1119",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "21459339",
+        "name": "사랑동물병원",
+        "phone": "055-884-6716",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "358994782",
+        "name": "박학규동물병원",
+        "phone": "055-883-1515",
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      },
+      {
+        "id": "10866812",
+        "name": "하동애견",
+        "phone": null,
+        "category": "동물병원",
+        "score": 1,
+        "match_notes": [
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 6
+  },
+  {
+    "id": "nat_740f9c38a269",
+    "name": "학산동물병원",
+    "sido": "부산광역시",
+    "sigungu": "동래구",
+    "address": "부산광역시 동래구 동래로147번길 6 (복천동)",
+    "phone": "051-557-7577",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%99%EC%82%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "학산동물병원 동래구",
+    "kakao_top": [
+      {
+        "id": "24579023",
+        "name": "학산동물병원",
+        "phone": null,
+        "category": "일반의원",
+        "score": 5,
+        "match_notes": [
+          "name"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_e9a5dfefbcc0",
+    "name": "한국동물병원",
+    "sido": "인천광역시",
+    "sigungu": "미추홀구",
+    "address": "인천광역시 미추홀구 낙섬중로77번길 25 (용현동)",
+    "phone": "032-887-2952",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EA%B5%AD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "한국동물병원 미추홀구",
+    "kakao_top": [
+      {
+        "id": "10860355",
+        "name": "한국동물병원",
+        "phone": "032-887-2952",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_efcbb25cfcc1",
+    "name": "한국동물병원",
+    "sido": "충청남도",
+    "sigungu": "공주시",
+    "address": "충청남도 공주시 장기로 139-4 (금흥동)",
+    "phone": "041-858-3830",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EA%B5%AD%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "한국동물병원 공주시",
+    "kakao_top": [
+      {
+        "id": "8584517",
+        "name": "한국 동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_da56ec41d44f",
+    "name": "한라동물병원",
+    "sido": "충청남도",
+    "sigungu": "부여군",
+    "address": "충청남도 부여군 부여읍 부장대로 4",
+    "phone": "041-832-8321",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EB%9D%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "한라동물병원 부장대로 4",
+    "kakao_top": [
+      {
+        "id": "8865743",
+        "name": "대교세차장",
+        "phone": null,
+        "category": "세차장",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_cb61ccf0e37b",
+    "name": "한빛동물병원",
+    "sido": "충청남도",
+    "sigungu": "천안시",
+    "address": "충청남도 천안시 서북구 성환읍 성환1로 153",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EB%B9%9B%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "한빛동물병원 성환1로 153",
+    "kakao_top": [
+      {
+        "id": "1634143125",
+        "name": "한빛동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      },
+      {
+        "id": "9778112",
+        "name": "동신종합공구건축자재백화점",
+        "phone": "041-581-6780",
+        "category": "철물점",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "9121853",
+        "name": "성환볼트",
+        "phone": "041-581-0877",
+        "category": "산업용품",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 3
+  },
+  {
+    "id": "nat_0ccbb9d6ab6b",
+    "name": "한솔동물병원",
+    "sido": "대구광역시",
+    "sigungu": "달성군",
+    "address": "대구광역시 달성군 다사읍 대실역북로 94",
+    "phone": null,
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%86%94%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "한솔동물병원 대실역북로 94",
+    "kakao_top": [
+      {
+        "id": "530644684",
+        "name": "대경엘리시아",
+        "phone": "053-584-5044",
+        "category": "종합건설사",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1927184251",
+        "name": "옛날그갈비탕 다사점",
+        "phone": "053-719-3022",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1433911929",
+        "name": "불광사불교대학",
+        "phone": null,
+        "category": "불교",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "651253919",
+        "name": "대경주택",
+        "phone": null,
+        "category": "부동산개발",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "961376048",
+        "name": "성백건설",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 5
+  },
+  {
+    "id": "nat_da528416d6e0",
+    "name": "한양동물병원",
+    "sido": "부산광역시",
+    "sigungu": "동래구",
+    "address": "부산광역시 동래구 반송로 265-8 (명장동)",
+    "phone": "051-527-8742",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%96%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "query": "한양동물병원 동래구",
+    "kakao_top": [
+      {
+        "id": "16217346",
+        "name": "한양동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_9f27d87e86e9",
+    "name": "한일동물병원",
+    "sido": "충청남도",
+    "sigungu": "예산군",
+    "address": "충청남도 예산군 예산읍 역전로 70",
+    "phone": "041-332-8275",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%9D%BC%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "한일동물병원 예산군",
+    "kakao_top": [
+      {
+        "id": "14624163",
+        "name": "한일동물병원",
+        "phone": null,
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_4b3a20692caf",
+    "name": "함양동물병원",
+    "sido": "경상남도",
+    "sigungu": "함양군",
+    "address": "경상남도 함양군 함양읍 용평중앙길 43",
+    "phone": "055-963-8875",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%A8%EC%96%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "함양동물병원 용평중앙길 43",
+    "kakao_top": [
+      {
+        "id": "780095934",
+        "name": "함양동물병원",
+        "phone": "055-963-8875",
+        "category": "동물병원",
+        "score": 16,
+        "match_notes": [
+          "name",
+          "phone",
+          "cat"
+        ]
+      },
+      {
+        "id": "8237162",
+        "name": "기아 함양지점",
+        "phone": "055-963-8555",
+        "category": "자동차판매점",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "2087633293",
+        "name": "고임시스템",
+        "phone": "055-963-6078",
+        "category": "전자제품판매",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "7976609",
+        "name": "신일부동산",
+        "phone": null,
+        "category": "부동산중개업",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "190719900",
+        "name": "삼보컴퓨터 함양대리점",
+        "phone": "055-963-9630",
+        "category": "전자제품서비스센터",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "12906744",
+        "name": "대경",
+        "phone": "055-963-0482",
+        "category": "종합건설사",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "746569227",
+        "name": "대성포장건설",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1513149335",
+        "name": "도현건설",
+        "phone": null,
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 9
+  },
+  {
+    "id": "nat_07af37ad9ea6",
+    "name": "합천축협동물병원",
+    "sido": "경상남도",
+    "sigungu": "합천군",
+    "address": "경상남도 합천군 율곡면 임북1길 25",
+    "phone": "055-933-0058",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%A9%EC%B2%9C%EC%B6%95%ED%98%91%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "합천축협동물병원 임북1길 25",
+    "kakao_top": [
+      {
+        "id": "22391765",
+        "name": "합천축협 섬유질사료공장",
+        "phone": "055-932-8000",
+        "category": "",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "197121277",
+        "name": "합천축산업 협동조합 축산자재",
+        "phone": null,
+        "category": "협동,소비조합",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "1159440940",
+        "name": "합천축협 축산자재",
+        "phone": "055-933-0979",
+        "category": "농약,비료,사료",
+        "score": 0,
+        "match_notes": []
+      },
+      {
+        "id": "819844155",
+        "name": "합천축협 ATM",
+        "phone": null,
+        "category": "은행",
+        "score": 0,
+        "match_notes": []
+      }
+    ],
+    "kakao_n": 4
+  },
+  {
+    "id": "nat_278ae8bd67d0",
+    "name": "해동동물병원",
+    "sido": "경상남도",
+    "sigungu": "밀양시",
+    "address": "경상남도 밀양시 무안면 동부1길 10-1",
+    "phone": "055-352-6768",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%B4%EB%8F%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84",
+    "query": "해동동물병원 밀양시",
+    "kakao_top": [],
+    "kakao_n": 0
+  },
+  {
+    "id": "nat_789fa2709c6b",
+    "name": "해미성동물병원",
+    "sido": "충청남도",
+    "sigungu": "서산시",
+    "address": "충청남도 서산시 해미면 남문6로 3",
+    "phone": "041-688-6914",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%B4%EB%AF%B8%EC%84%B1%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "해미성동물병원 남문6로 3",
+    "kakao_top": [
+      {
+        "id": "8666525",
+        "name": "해미성동물병원",
+        "phone": "041-688-8275",
+        "category": "동물병원",
+        "score": 6,
+        "match_notes": [
+          "name",
+          "cat"
+        ]
+      }
+    ],
+    "kakao_n": 1
+  },
+  {
+    "id": "nat_507fe4f70ea6",
+    "name": "현대동물병원",
+    "sido": "충청남도",
+    "sigungu": "태안군",
+    "address": "충청남도 태안군 안면읍 장터로 114-5",
+    "phone": "041-673-1522",
+    "homepage": null,
+    "hours_raw": null,
+    "place_search_url": "https://search.naver.com/search.naver?query=%ED%98%84%EB%8C%80%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84",
+    "query": "현대동물병원 태안군",
+    "kakao_top": [],
+    "kakao_n": 0
+  }
+]
