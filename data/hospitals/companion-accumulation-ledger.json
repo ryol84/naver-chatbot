@@ -7279,6 +7279,85 @@
         }
       ],
       "source_branch": "cursor/place-neigh-jeonnam-ac30"
+    },
+    {
+      "ts": "2026-09-20T09:28:28Z",
+      "action": "merge_place_neigh_jeonbuk_wave1",
+      "stats": {
+        "hit_applied": 82,
+        "homepage_set": 1,
+        "phone_set": 2,
+        "hours_set": 6,
+        "dept_merged": 0,
+        "no_hit": 6,
+        "ambiguous_skip": 0,
+        "exclude_closed": 9,
+        "exclude_large_animal": 3,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_35d5a86002be",
+          "name": "반딧불동물병원인공수정소",
+          "reason": "CLOSED: 무주 단천로157 Place/디렉터리 폐업 표기; 인공수정소명"
+        },
+        {
+          "id": "nat_925df5eb1588",
+          "name": "부안산업동물병원",
+          "reason": "LARGE_ANIMAL: 부안산업동물병원(산업·출장); 현주소 계화면 창중길3-1 표기, 대상 매산길과 상이"
+        },
+        {
+          "id": "nat_342e161fcbba",
+          "name": "아프리카동물병원",
+          "reason": "CLOSED: 전주 아중로142 아프리카동물병원 폐업 표기(검색·디렉터리)"
+        },
+        {
+          "id": "nat_4745c17eeaf5",
+          "name": "익산군산축협동물병원",
+          "reason": "LARGE_ANIMAL: 익산군산축협동물병원 — 축협 산업동물"
+        },
+        {
+          "id": "nat_16add44681f5",
+          "name": "전북동물병원",
+          "reason": "CLOSED: 전주 기린대로284 전북동물병원 폐업(폐업일 2024-10-07 표기)"
+        },
+        {
+          "id": "nat_28353c703edb",
+          "name": "제일동물병원",
+          "reason": "CLOSED: 부안 번영로129 제일동물병원 폐업 표기; Place 상위는 정읍 제일수산으로 혼선"
+        },
+        {
+          "id": "nat_48a010499e5a",
+          "name": "최동물병원",
+          "reason": "CLOSED: 완주 삼례 삼봉로5-1 최동물병원 폐업 표기; Place 상위는 임실 동명점"
+        },
+        {
+          "id": "nat_70089c5f26cd",
+          "name": "푸른하늘동물병원",
+          "reason": "CLOSED: 전주 모악로4704 푸른하늘 사업자 폐업 표기(검색)"
+        },
+        {
+          "id": "nat_6d2e11705dba",
+          "name": "한사랑동물병원",
+          "reason": "CLOSED: 전주 안덕원로180 한사랑동물병원 폐업 표기"
+        },
+        {
+          "id": "nat_3e5c2539fb01",
+          "name": "우리동물병원",
+          "reason": "CLOSED: 전주 용머리로86 우리동물병원 폐업 표기"
+        },
+        {
+          "id": "nat_d623b0bd5917",
+          "name": "익산산업동물병원",
+          "reason": "LARGE_ANIMAL: 익산산업동물병원 Place hit(배산로24길·063-855-1037)이나 산업동물 전용"
+        },
+        {
+          "id": "nat_694415d5dd8f",
+          "name": "쿨펫동물병원",
+          "reason": "CLOSED: 익산 무왕로1053 쿨펫동물병원 폐업 표기"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-jeonbuk-ac30"
     }
   ]
 }

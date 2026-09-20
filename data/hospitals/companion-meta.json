@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4240,
-  "excluded_n": 171,
+  "n": 4228,
+  "excluded_n": 183,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -173,12 +173,22 @@
     "쿨펫동물병원여수점",
     "함평축협동물병원",
     "호남동물병원",
-    "소담동물병원"
+    "소담동물병원",
+    "반딧불동물병원인공수정소",
+    "부안산업동물병원",
+    "아프리카동물병원",
+    "익산군산축협동물병원",
+    "전북동물병원",
+    "최동물병원",
+    "푸른하늘동물병원",
+    "한사랑동물병원",
+    "우리동물병원",
+    "익산산업동물병원"
   ],
   "stats": {
-    "with_homepage": 1925,
-    "with_hours": 3217,
-    "with_phone": 3977,
+    "with_homepage": 1926,
+    "with_hours": 3220,
+    "with_phone": 3972,
     "hours_24h_yes": 221
   },
   "care_level_taxonomy": {
@@ -189,7 +199,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3526,
+    "neighborhood": 3514,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -644,6 +654,78 @@
         "name": "소담동물병원",
         "reason": "CLOSED: 구례읍 중앙로11 mypet-119 폐업 → CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_35d5a86002be",
+        "name": "반딧불동물병원인공수정소",
+        "reason": "CLOSED: 무주 단천로157 Place/디렉터리 폐업 표기; 인공수정소명",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_925df5eb1588",
+        "name": "부안산업동물병원",
+        "reason": "LARGE_ANIMAL: 부안산업동물병원(산업·출장); 현주소 계화면 창중길3-1 표기, 대상 매산길과 상이",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_342e161fcbba",
+        "name": "아프리카동물병원",
+        "reason": "CLOSED: 전주 아중로142 아프리카동물병원 폐업 표기(검색·디렉터리)",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_4745c17eeaf5",
+        "name": "익산군산축협동물병원",
+        "reason": "LARGE_ANIMAL: 익산군산축협동물병원 — 축협 산업동물",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_16add44681f5",
+        "name": "전북동물병원",
+        "reason": "CLOSED: 전주 기린대로284 전북동물병원 폐업(폐업일 2024-10-07 표기)",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_28353c703edb",
+        "name": "제일동물병원",
+        "reason": "CLOSED: 부안 번영로129 제일동물병원 폐업 표기; Place 상위는 정읍 제일수산으로 혼선",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_48a010499e5a",
+        "name": "최동물병원",
+        "reason": "CLOSED: 완주 삼례 삼봉로5-1 최동물병원 폐업 표기; Place 상위는 임실 동명점",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_70089c5f26cd",
+        "name": "푸른하늘동물병원",
+        "reason": "CLOSED: 전주 모악로4704 푸른하늘 사업자 폐업 표기(검색)",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_6d2e11705dba",
+        "name": "한사랑동물병원",
+        "reason": "CLOSED: 전주 안덕원로180 한사랑동물병원 폐업 표기",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_3e5c2539fb01",
+        "name": "우리동물병원",
+        "reason": "CLOSED: 전주 용머리로86 우리동물병원 폐업 표기",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_d623b0bd5917",
+        "name": "익산산업동물병원",
+        "reason": "LARGE_ANIMAL: 익산산업동물병원 Place hit(배산로24길·063-855-1037)이나 산업동물 전용",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_694415d5dd8f",
+        "name": "쿨펫동물병원",
+        "reason": "CLOSED: 익산 무왕로1053 쿨펫동물병원 폐업 표기",
+        "excluded_at": "2026-09-20T09:28:28Z"
       }
     ],
     "primary_nohp_local": {
@@ -952,9 +1034,33 @@
         "exclude_large_animal": 5,
         "missing_id": 0
       }
+    },
+    "jeonbuk_neigh_wave1": {
+      "n": 100,
+      "hit": 82,
+      "no_hit": 6,
+      "ambiguous": 0,
+      "closed_exclude": 9,
+      "large_animal_exclude": 3,
+      "homepages_reported": 6,
+      "hours_reported": 31,
+      "merged_at": "2026-09-20T09:28:28Z",
+      "source_branch": "cursor/place-neigh-jeonbuk-ac30",
+      "merge_stats": {
+        "hit_applied": 82,
+        "homepage_set": 1,
+        "phone_set": 2,
+        "hours_set": 6,
+        "dept_merged": 0,
+        "no_hit": 6,
+        "ambiguous_skip": 0,
+        "exclude_closed": 9,
+        "exclude_large_animal": 3,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1925,
+  "with_homepage": 1926,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
