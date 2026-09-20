@@ -28,4 +28,4 @@
 - secondary hours fill: 6
 - Seoul neighborhood wave1: 80 (hit 67 / no_hit 11 / ambiguous 2)
 - primary depth 61 (cloud): hit 55 / ambiguous 2 / no_hit 4; 참누리·위드펫 홈페이지
-- primary no-homepage 122: hit 118 / ambiguous 4 / no_hit 0; official homepage 0; hours hint/raw 78
+- primary no-homepage 122: hit 118 / ambiguous 4 / no_hit 0; official homepage 0; hours hint/raw 77
