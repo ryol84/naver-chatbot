@@ -119,8 +119,8 @@
   ],
   "stats": {
     "with_homepage": 1909,
-    "with_hours": 3155,
-    "with_phone": 3972,
+    "with_hours": 3163,
+    "with_phone": 3976,
     "hours_24h_yes": 208
   },
   "care_level_taxonomy": {
@@ -201,6 +201,29 @@
       "hit": 86,
       "no_hit": 11,
       "ambiguous": 3
+    },
+    "primary_depth": {
+      "n": 61,
+      "hit": 55,
+      "ambiguous": 2,
+      "no_hit": 4,
+      "homepages": 4,
+      "hours_fields": 17,
+      "merged_at": "2026-09-20T03:52:26Z",
+      "hours_still_missing_primary": 44,
+      "primary_still_no_homepage": 122,
+      "source_branch": "cursor/place-primary-depth-8b5a",
+      "merge_stats": {
+        "applied": 61,
+        "homepage_set": 0,
+        "phone_set": 4,
+        "hours_set": 9,
+        "dept_merged": 0,
+        "address_fixed": 0,
+        "hit": 55,
+        "no_hit": 4,
+        "ambiguous": 2
+      }
     }
   },
   "with_homepage": 1909,
