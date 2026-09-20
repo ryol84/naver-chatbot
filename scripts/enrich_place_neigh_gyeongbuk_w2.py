@@ -181,8 +181,8 @@ def place_detail(pid: str | int) -> dict[str, Any]:
     if hm and hm.group(1):
         out["homepage"] = hm.group(1)
     else:
-        # blog.naver.com sometimes in naverBlog / etc
-        blog = re.search(r'"naverBlog":"(https?://blog\.naver\.com/[^"]+)"', html)
+        # blog.naver.com sometimes in naverBlog / etc / raw html
+        blog = re.search(r'(https?://blog\.naver\.com/[A-Za-z0-9_\-]+)', html)
         if blog:
             out["homepage"] = blog.group(1)
         else:
@@ -231,20 +231,22 @@ def norm_phone(p: str | None) -> str:
 def addr_overlap(target_addr: str, cand: str | None) -> bool:
     if not cand:
         return False
-    t = target_addr.replace(" ", "")
     c = cand.replace(" ", "")
-    # key tokens
-    keys = []
-    for tok in re.findall(
-        r"[가-힣]+(?:시|군|구|읍|면|동|리)|[가-힣0-9\-]+(?:로|길)\d*|[\d\-]+",
-        target_addr,
-    ):
-        if len(tok) >= 2:
-            keys.append(tok)
-    if not keys:
-        return False
-    hits = sum(1 for k in keys if k.replace(" ", "") in c or k in cand)
-    return hits >= 2
+    # Prefer road-name evidence
+    roads = re.findall(r"[가-힣0-9\-]+(?:로|길)", target_addr)
+    road_hits = [r for r in roads if len(r) >= 3 and r.replace(" ", "") in c]
+    if road_hits:
+        nums = re.findall(r"\d+(?:-\d+)?", target_addr)
+        num_hit = any(n in c for n in nums)
+        region = re.findall(r"[가-힣]+(?:시|군|구|읍|면)", target_addr)
+        region_hit = any(r in c for r in region if len(r) >= 2)
+        return num_hit or region_hit
+    # No road token: require 읍/면/동/리 + street number (not city alone)
+    dongs = re.findall(r"[가-힣]+(?:읍|면|동|리)", target_addr)
+    nums = re.findall(r"\d+(?:-\d+)?", target_addr)
+    dong_hits = [d for d in dongs if d in c]
+    num_hits = [n for n in nums if n in c]
+    return len(dong_hits) >= 1 and len(num_hits) >= 1
 
 
 def sigungu_in(text: str | None, sigungu: str) -> bool:
@@ -304,11 +306,19 @@ def names_compatible(target_name: str, place_name: str) -> bool:
         return True
     # one contains the other only if both still look like the same hospital label
     if a in b or b in a:
-        # reject if the only shared part is a short geo token (경산/구미/포항…)
         shorter, longer = (a, b) if len(a) <= len(b) else (b, a)
-        if len(shorter) >= 4:
+        if len(shorter) >= 5:
             return True
-    suffixes = ("동물병원", "수의과병원", "동물의료센터", "동물메디컬센터", "씨앤씨", "C&C", "병원", "센터")
+    suffixes = (
+        "동물메디컬센터",
+        "동물의료센터",
+        "동물병원",
+        "수의과병원",
+        "씨앤씨",
+        "C&C",
+        "병원",
+        "센터",
+    )
 
     def core(n: str) -> str:
         for s in suffixes:
@@ -319,8 +329,8 @@ def names_compatible(target_name: str, place_name: str) -> bool:
     ca, cb = core(a), core(b)
     if not ca or not cb:
         return False
-    # cores must be equal (or one contains other with len>=3) — equality preferred
-    if ca == cb and len(ca) >= 2:
+    # Reject short geo cores (경주/경산/구미) equating different hospitals
+    if ca == cb and len(ca) >= 3:
         return True
     return False
 
@@ -449,6 +459,25 @@ def classify_match(target: dict, items: list[dict], details: dict[str, dict]) ->
     it_addr = it.get("address") or det.get("address") or ""
     it_tel = it.get("tel") or it.get("virtualTel") or det.get("phone")
     it_cat = it.get("category") or det.get("category") or ""
+
+    phone_ok = bool(tphone and it_tel and norm_phone(it_tel) == tphone)
+    addr_ok = addr_overlap(addr, it_road) or addr_overlap(addr, it_addr)
+
+    # Name-only match in same city but different street → no_hit (possible relocate/other branch)
+    if not phone_ok and not addr_ok:
+        return {
+            "place_status": "no_hit",
+            "place_homepage": None,
+            "place_phone": None,
+            "place_hours_hint": None,
+            "place_hours_raw": None,
+            "place_dept_keywords": [],
+            "place_notes": (
+                f"타깃 {sigungu} {addr}; 동명 Place는 {it_road or it_addr or '(주소미표시)'} "
+                f"(전화·주소 불일치) → no_hit"
+            ),
+            "match": it,
+        }
 
     # large animal only
     if is_large_animal_label(it_name) or is_large_animal_label(it_cat):
