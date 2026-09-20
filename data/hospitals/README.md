@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- Chungnam neighborhood wave1: 92 (hit 74 / no_hit 4 / ambiguous 3 / CLOSED 5 / LARGE_ANIMAL 6); homepage 2 (훈 blog.naver.com/hoonah_, 동물과의아름다운이야기 dongi.org) / hours 22
 - Gyeongnam neighborhood wave1: 100 (hit 87 / no_hit 6 / ambiguous 2 / CLOSED 5); homepage 1 (참좋은) / hours 37
 - Incheon neighborhood wave1: 80 (hit 76 / ambiguous 2 / no_hit 2); homepage 3 / hours 43; CLOSED 3
 - Daegu neighborhood wave1: 72 (hit 64 / no_hit 3 / ambiguous 1 / CLOSED 4); homepage 2 / hours 41
