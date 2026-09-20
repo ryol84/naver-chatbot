@@ -920,36 +920,36 @@
       ],
       "strength": "연산. 데일리개원: 2차 의뢰제, MRI·CT, 신경·종양, 24시. 수영 센텀과 분과.",
       "confidence": "high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
-        "https://neuroamc.com"
+        "https://neuroamc.com",
+        "https://neuroamc.com/radiology",
+        "https://neuroacc.com/62"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 19
+      "evidence_count": 20
     },
     {
       "id": "rehab-vip-sinsagyeong",
       "name": "VIP동물한방재활의학센터 by Dr.신사경",
       "sido": "서울특별시",
       "sigungu": "강남구",
-      "phone": "02-511-7522",
+      "phone": "02-6952-7524",
       "address": "서울 강남구 삼성로133길 7 베디베로스퀘어 7층",
       "role_label": "재활 특화",
       "species_scope": [
         "dog",
         "cat"
       ],
-      "homepage": "http://pf.kakao.com/_llRVG/chat",
+      "homepage": "https://www.animalrehab.co.kr/",
       "lat": 37.51947021,
       "lng": 127.0489883,
       "hours_24h": "no",
       "emergency": "no",
-      "weekday_hours": "10:00–19:00",
+      "weekday_hours": "10:00–18:30",
       "weekend_hours": "토·일 10:00–19:00",
       "night_hours": null,
-      "hours_note": "월–일 10:00–19:00 (전국CSV). 재활특화, 응급센터 아님.",
+      "hours_note": "주간 10:00–18:30(VIP 지점안내). 신사경 원장 화–토. 예약 02-6952-7524. 응급센터 아님(재활특화).",
       "departments": [
         "재활",
         "영상(CT/MRI)",
@@ -976,15 +976,13 @@
       ],
       "strength": "국내에서 시설·인력 규모가 확인된 한방·재활 특화. 수련의 과정이 있음.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
-        "http://www.vipah.co.kr/",
-        "https://www.vipah.co.kr/kr/"
+        "https://www.vipah.co.kr/kr/medical/branches/animalehab",
+        "https://www.animalrehab.co.kr/%EC%9D%B4%EC%9A%A9%EC%95%88%EB%82%B4"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 21
     },
     {
       "id": "b12-24시-로얄동물메디컬센터-강동",
@@ -1432,15 +1430,15 @@
         "dog",
         "cat"
       ],
-      "homepage": null,
+      "homepage": "https://cnuvmth.jnu.ac.kr/",
       "lat": null,
       "lng": null,
-      "hours_24h": "yes",
+      "hours_24h": "partial",
       "emergency": "yes",
-      "weekday_hours": "00:00–24:00",
-      "weekend_hours": null,
-      "night_hours": "24시간",
-      "hours_note": "24시 응급 2025-05-07 개소.",
+      "weekday_hours": "09:00–18:00",
+      "weekend_hours": "토·일·공휴 24시 응급",
+      "night_hours": "평일 18:00–익일 09:00 / 주말·공휴 24시",
+      "hours_note": "정규 평일 09–12·13–18. 응급: 평일 18–익일09, 토·일·공휴 24시(cnuvmth.jnu.ac.kr). 예약 062-530-2882·2883.",
       "departments": [
         "영상(CT/MRI)",
         "응급",
@@ -1458,12 +1456,13 @@
       ],
       "strength": "광주 대학병원. 24시 응급은 2025-05부터 기사로 확인.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
+      "gaps": [],
+      "website_sources": [
+        "https://cnuvmth.jnu.ac.kr/",
+        "https://cnuvmth.jnu.ac.kr/sites/cnuvmth/index.do"
       ],
-      "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 13
+      "evidence_count": 18
     },
     {
       "id": "univ-jbnu-jamc",

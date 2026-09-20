@@ -1,6 +1,6 @@
 {
   "title": "강아지·고양이 병원 정보 축적 장부",
-  "as_of": "2026-09-20T01:56:17Z",
+  "as_of": "2026-09-20T01:56:59Z",
   "species_scope": [
     "dog",
     "cat"
@@ -3265,8 +3265,8 @@
           "2차 중증"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "Toshiba Vantage Titan 1.5T MRI",
+          "Toshiba Activion 16 CT"
         ],
         "services": [
           "365일 24시간",
@@ -3431,11 +3431,19 @@
           "source": "hospital_website",
           "note": "",
           "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Toshiba Vantage Titan 1.5T MRI",
+            "Toshiba Activion 16 CT"
+          ],
+          "source": "hospital_website",
+          "note": "영상/암센터 모델명",
+          "at": "2026-09-20T01:56:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "rehab-vip-sinsagyeong",
@@ -3448,12 +3456,12 @@
       ],
       "status": "verified_draft",
       "verified_fields": {
-        "phone": "02-511-7522",
+        "phone": "02-6952-7524",
         "address": "서울 강남구 삼성로133길 7 베디베로스퀘어 7층",
         "homepage": "http://pf.kakao.com/_llRVG/chat",
         "hours_24h": "no",
         "emergency": "no",
-        "weekday_hours": "10:00–19:00",
+        "weekday_hours": "10:00–18:30",
         "hours_note": "재활특화 센터(by Dr.신사경). VIP 그룹 내 한방재활의학센터.",
         "departments": [
           "재활",
@@ -3461,9 +3469,11 @@
           "한방"
         ],
         "equipment": [
+          "HBOT",
+          "수중재활",
           "X-ray",
-          "고압산소",
-          "수중런닝/수중보행"
+          "레이저",
+          "TENS"
         ],
         "services": [
           "침·전침",
@@ -3636,11 +3646,36 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "10:00–18:30",
+          "source": "hospital_website",
+          "note": "VIP 지점안내",
+          "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "phone",
+          "value": "02-6952-7524",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "HBOT",
+            "수중재활",
+            "X-ray",
+            "레이저",
+            "TENS"
+          ],
+          "source": "hospital_website",
+          "note": "재활 장비·시술",
+          "at": "2026-09-20T01:56:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b12-24시-로얄동물메디컬센터-강동",
@@ -5238,9 +5273,9 @@
       "verified_fields": {
         "phone": "062-530-2882",
         "address": "광주광역시 북구 용봉로 45 (용봉동) / 전남대학교",
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "09:00–18:00",
         "night_hours": "24시간",
         "hours_note": "24시 응급 2025-05-07 개소.",
         "departments": [
@@ -5251,7 +5286,7 @@
           "분과진료"
         ],
         "equipment": [
-          "MRI"
+          "Siemens AI MRI"
         ],
         "services": [
           "24시 응급의료센터(2025-05 개소)",
@@ -5370,11 +5405,46 @@
           "source": "profile+news",
           "note": "",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–18:00",
+          "source": "hospital_website",
+          "note": "점심 12–13",
+          "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "emergency",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "24시 응급실(야간·주말)",
+          "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "정규 주간+야간/주말 응급",
+          "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "phone",
+          "value": "062-530-2882",
+          "source": "hospital_website",
+          "note": "2882·2883",
+          "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Siemens AI MRI"
+          ],
+          "source": "dailyvet",
+          "note": "AI MRI 도입 기사",
+          "at": "2026-09-20T01:56:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "univ-jbnu-jamc",
@@ -5967,24 +6037,16 @@
   ],
   "last_batch_reviews": [
     {
-      "name": "에프엠(FM)동물메디컬센터 김포점",
-      "note": "일반09:30–21/야간21–09, 128ch CT·1.5T MRI 확정"
+      "name": "뉴로동물의료센터24시",
+      "note": "Toshiba Vantage Titan 1.5T MRI·Activion 16 CT 모델 확정"
     },
     {
-      "name": "한걸음더 재활한방 동물병원",
-      "note": "화–토10–19·예약제 재확인, 재활장비(HBOT·UWTM 등) 공식 목록 축적"
+      "name": "VIP동물한방재활의학센터 by Dr.신사경",
+      "note": "주간10–18:30·전화·고압산소 등 재활장비 공식 확인"
     },
     {
-      "name": "부천24시SKY동물메디컬센터",
-      "note": "SKY 네트워크 소속·주소 재확인(부천 길주로 252), 지점별 세부시간 추가수집 필요"
-    },
-    {
-      "name": "원주24시스카이동물메디컬센터",
-      "note": "SKY 네트워크 소속·주소 재확인(원주 서원대로 502), 지점별 세부시간 추가수집 필요"
-    },
-    {
-      "name": "수원 스카이 동물메디컬센터",
-      "note": "SKY 네트워크 소속·주소 재확인(수원 인계로 91), 지점별 세부시간 추가수집 필요"
+      "name": "전남대학교 동물병원",
+      "note": "정규 주간+24시응급 공식, Siemens AI MRI·전화 062-530-2882"
     }
   ],
   "progress": {
@@ -5992,7 +6054,7 @@
     "by_status": {
       "verified_draft": 32
     },
-    "reviewed_this_batch": 5,
-    "equipment_gap_remaining": 26
+    "reviewed_this_batch": 3,
+    "equipment_gap_remaining": 23
   }
 }

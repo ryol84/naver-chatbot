@@ -3814,23 +3814,23 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "Toshiba Vantage Titan 1.5T",
+          "model": "Toshiba Vantage Titan 1.5T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리개원 2024-05 리뉴얼",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "neuroamc.com/radiology + neuroacc.com: Toshiba Vantage Titan 1.5T",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "Toshiba Activion 16 (16ch 3D CT)",
+          "model": "Toshiba Activion 16",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "같은 기사",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "neuroacc.com/neuroamc radiology: Toshiba Activion 16",
+          "as_of": "2026-09-20",
           "publisher": null
         }
       ],
@@ -3851,9 +3851,7 @@
         "예정 장비를 설치로 쓰지 않음. 지점 장비 복사 금지."
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "site_notes": "부산 연산 2차 중증. 의뢰서 없이도 진료 가능(예약).",
@@ -3865,7 +3863,9 @@
         "lng": 129.0808868,
         "hours_source": "hospital_website",
         "website_sources": [
-          "https://neuroamc.com"
+          "https://neuroamc.com",
+          "https://neuroamc.com/radiology",
+          "https://neuroacc.com/62"
         ]
       },
       "species_scope": [
@@ -3879,7 +3879,7 @@
       "name": "VIP동물한방재활의학센터 by Dr.신사경",
       "sido": "서울특별시",
       "sigungu": "강남구",
-      "phone": "02-511-7522",
+      "phone": "02-6952-7524",
       "address": "서울 강남구 삼성로133길 7 베디베로스퀘어 7층",
       "role": "rehab_specialty",
       "role_label": "재활 특화",
@@ -3890,10 +3890,10 @@
       "hours": {
         "hours_24h": "no",
         "emergency": "no",
-        "weekday_hours": "10:00–19:00",
+        "weekday_hours": "10:00–18:30",
         "weekend_hours": "토·일 10:00–19:00",
         "night_hours": null,
-        "hours_note": "월–일 10:00–19:00 (전국CSV). 재활특화, 응급센터 아님.",
+        "hours_note": "주간 10:00–18:30(VIP 지점안내). 신사경 원장 화–토. 예약 02-6952-7524. 응급센터 아님(재활특화).",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 10:00 - 19:00 | 화 10:00 - 19:00 | 수 10:00 - 19:00 | 목 10:00 - 19:00 | 금 10:00 - 19:00 | 토 10:00 - 19:00 | 일 10:00 - 19:00 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간",
         "by_day": {
@@ -3977,7 +3977,7 @@
             "raw": "13:00 - 14:00 휴게시간"
           }
         ],
-        "hours_source": "nationwide_csv"
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -4055,24 +4055,24 @@
         {
           "kind": "xray",
           "label": "X-ray",
-          "item": "X-ray실",
+          "item": "X-ray",
           "model": null,
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "dailyvet",
-          "as_of": "2026-09-19",
-          "publisher": "dailyvet"
+          "evidence_level": "self_claimed",
+          "evidence": "animalrehab.co.kr 초진 평가 시 X-ray 안내",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "hbot",
           "label": "고압산소",
-          "item": "고압산소",
+          "item": "HBOT",
           "model": null,
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "dailyvet",
-          "as_of": "2026-09-19",
-          "publisher": "dailyvet"
+          "evidence_level": "self_claimed",
+          "evidence": "vipah.co.kr 한방재활: 고압산소 치료",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "other",
@@ -4084,6 +4084,17 @@
           "evidence": "dailyvet",
           "as_of": "2026-09-19",
           "publisher": "dailyvet"
+        },
+        {
+          "kind": "uwtm",
+          "label": "수중런닝/수중보행",
+          "item": "수중재활",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "VIP 재활센터 서비스",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -4111,21 +4122,19 @@
           "msg": "같은 전화/건물 다른 인허가 2건"
         }
       ],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": 100,
         "nationwide_id": "nat_0fce1597dbc7",
-        "homepage": "http://pf.kakao.com/_llRVG/chat",
+        "homepage": "https://www.animalrehab.co.kr/",
         "lat": 37.51947021,
         "lng": 127.0489883,
         "hours_source": "nationwide_csv",
         "website_sources": [
-          "http://www.vipah.co.kr/",
-          "https://www.vipah.co.kr/kr/"
+          "https://www.vipah.co.kr/kr/medical/branches/animalehab",
+          "https://www.animalrehab.co.kr/%EC%9D%B4%EC%9A%A9%EC%95%88%EB%82%B4"
         ],
         "alt_phone": "02-6952-7524"
       },
@@ -5885,13 +5894,21 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
-        "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "24시 응급 2025-05-07 개소.",
-        "name_has_24h_token": false
+        "weekday_hours": "09:00–18:00",
+        "weekend_hours": "토·일·공휴 24시 응급",
+        "night_hours": "평일 18:00–익일 09:00 / 주말·공휴 24시",
+        "hours_note": "정규 평일 09–12·13–18. 응급: 평일 18–익일09, 토·일·공휴 24시(cnuvmth.jnu.ac.kr). 예약 062-530-2882·2883.",
+        "name_has_24h_token": false,
+        "hours_source": "hospital_website",
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "점심"
+          }
+        ]
       },
       "departments": [
         {
@@ -5957,12 +5974,12 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "Siemens AI MRI",
+          "model": "Siemens (딥러닝 AI)",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리벳 전남대동물병원 인공지능 MRI 도입 보도",
-          "as_of": "2026-09-19",
+          "evidence": "데일리벳: 전남대 지멘스 딥러닝 AI MRI 도입",
+          "as_of": "2026-09-20",
           "publisher": "dailyvet"
         }
       ],
@@ -5990,19 +6007,20 @@
           "msg": "전화 없음"
         }
       ],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": null,
         "nationwide_id": null,
-        "homepage": null,
+        "homepage": "https://cnuvmth.jnu.ac.kr/",
         "lat": null,
         "lng": null,
         "hours_source": null,
-        "website_sources": [],
+        "website_sources": [
+          "https://cnuvmth.jnu.ac.kr/",
+          "https://cnuvmth.jnu.ac.kr/sites/cnuvmth/index.do"
+        ],
         "notes": "전국CSV: 전남대학교 광주캠퍼스동물병원, 전화 062-530-2882 | 전화 062-530-2882 (전국CSV 광주캠퍼스동물병원)"
       },
       "species_scope": [
