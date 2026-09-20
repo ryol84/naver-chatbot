@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4291,
-  "excluded_n": 120,
+  "n": 4287,
+  "excluded_n": 124,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -123,12 +123,16 @@
     "한국종합동물병원",
     "웰니스클리닉동물병원",
     "장원종합동물병원",
-    "서부종합동물병원"
+    "서부종합동물병원",
+    "박동물병원",
+    "킴스동물병원",
+    "아양동물병원",
+    "제일동물병원"
   ],
   "stats": {
-    "with_homepage": 1915,
-    "with_hours": 3203,
-    "with_phone": 3982,
+    "with_homepage": 1917,
+    "with_hours": 3206,
+    "with_phone": 3979,
     "hours_24h_yes": 220
   },
   "care_level_taxonomy": {
@@ -139,7 +143,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3577,
+    "neighborhood": 3573,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -288,6 +292,30 @@
         "name": "서부종합동물병원",
         "reason": "CLOSED_EXCLUDE: mypet-119 폐업(천안 동남 쌍용대로187 봉명)",
         "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_13976ad43307",
+        "name": "박동물병원",
+        "reason": "동구 아양로227 디렉터리 폐업 표기(mypet-119). Place 패널 약함 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
+      },
+      {
+        "id": "nat_e654909d8231",
+        "name": "킴스동물병원",
+        "reason": "동구 화랑로413 디렉터리 폐업 표기(mypet-119·carmap). Place 패널 없음 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
+      },
+      {
+        "id": "nat_37511c765e93",
+        "name": "아양동물병원",
+        "reason": "동구 팔공로142 디렉터리 폐업 표기(mypet-119). Place 패널 약함 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
+      },
+      {
+        "id": "nat_3bf30b85a0ec",
+        "name": "제일동물병원",
+        "reason": "수성 달구벌대로454길3 디렉터리 폐업 표기(mypet-119). Place 패널 없음 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
       }
     ],
     "primary_nohp_local": {
@@ -440,9 +468,29 @@
       "primary_still_no_hours": 26,
       "secondary_still_no_hours": 9,
       "secondary_still_no_homepage": 37
+    },
+    "daegu_neigh_wave1": {
+      "n": 72,
+      "hit": 64,
+      "no_hit": 3,
+      "ambiguous": 1,
+      "closed_exclude": 4,
+      "homepages_reported": 2,
+      "hours_reported": 41,
+      "merged_at": "2026-09-20T08:53:32Z",
+      "source_branch": "cursor/place-neigh-daegu-ac30",
+      "merge_stats": {
+        "hit_applied": 64,
+        "no_hit": 3,
+        "homepage_set": 2,
+        "dept_merged": 5,
+        "closed": 4,
+        "ambiguous_skip": 1,
+        "hours_set": 4
+      }
     }
   },
-  "with_homepage": 1915,
+  "with_homepage": 1917,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

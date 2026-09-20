@@ -6,13 +6,13 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4291곳
+## companion 4287곳
 | 등급 | 수 |
 |------|----|
 | 대학 | 12 |
 | 2차 | 499 |
 | 1차 | 182 |
-| 일반 동네 | 3577 |
+| 일반 동네 | 3573 |
 | 재활·한방 | 21 |
 
 ### Place 보강
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- Daegu neighborhood wave1: 72 (hit 64 / no_hit 3 / ambiguous 1 / CLOSED 4); homepage 2 / hours 41
 - hours round2: primary 29 (hit 27, hours_raw 3) + secondary 25 (hit 19 / ambiguous 6 skipped; homepage 18 reported, hours_raw 16)
 - primary nohp wave 122: hit 118 / ambiguous 4 / no_hit 0; official homepage 0; hours hint/raw 77
 - Seoul neighborhood wave2: 100 (hit 90 / no_hit 9 / ambiguous 1); homepage 1 (온 동물병원) / hours 72
@@ -42,3 +43,4 @@
 - special remaining merge: 민간「대학동물병원」4곳 care_level→neighborhood; 한양·행복드림 hours
 - 제외: 서울대공원 동물원동물병원 (동물원 진료)
 - 제외(폐업): 한국종합동물병원·웰니스클리닉동물병원·장원종합동물병원·웰니스클리닉동물병원·서부종합동물병원
+- 제외(대구 폐업): 박동물병원·킴스동물병원·아양동물병원·제일동물병원

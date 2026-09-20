@@ -6912,6 +6912,38 @@
         "phone_set": 1
       },
       "source_branch": "cursor/place-hours-round2-ac30"
+    },
+    {
+      "ts": "2026-09-20T08:53:32Z",
+      "action": "merge_place_neigh_daegu_wave1",
+      "stats": {
+        "hit_applied": 64,
+        "no_hit": 3,
+        "homepage_set": 2,
+        "dept_merged": 5,
+        "closed": 4,
+        "ambiguous_skip": 1,
+        "hours_set": 4
+      },
+      "excluded": [
+        {
+          "id": "nat_13976ad43307",
+          "name": "박동물병원"
+        },
+        {
+          "id": "nat_e654909d8231",
+          "name": "킴스동물병원"
+        },
+        {
+          "id": "nat_37511c765e93",
+          "name": "아양동물병원"
+        },
+        {
+          "id": "nat_3bf30b85a0ec",
+          "name": "제일동물병원"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-daegu-ac30"
     }
   ]
 }
