@@ -4939,8 +4939,9 @@
         "weekday_hours": "08:00–17:00",
         "weekend_hours": "휴진",
         "night_hours": null,
-        "hours_note": "월–금 08–17, 토일·공휴 휴진",
-        "name_has_24h_token": false
+        "hours_note": "서울대 연계 검진특화센터(광진). CT/MRI 미운영·미표기. 초음파·X-ray·특수조영초음파 중심. TEL 0507-1427-5747.",
+        "name_has_24h_token": false,
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -5023,15 +5024,13 @@
         "관악 본원 160ch CT·1.5T MRI를 이 센터 보유로 복사하지 않음. 모집공고는 CT까지(뉴스1). 토일 휴진."
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": null,
         "nationwide_id": null,
-        "homepage": null,
+        "homepage": "https://animalhealthcare.kr/",
         "lat": null,
         "lng": null,
         "hours_source": null,

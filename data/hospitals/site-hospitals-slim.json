@@ -97,7 +97,7 @@
       ],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 16
+      "evidence_count": 17
     },
     {
       "id": "b5-24시-다시-봄-동물의료센터",
@@ -175,7 +175,7 @@
       ],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 15
+      "evidence_count": 16
     },
     {
       "id": "b5-에프엠-FM-동물메디컬센터-김포점",
@@ -517,7 +517,7 @@
       ],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 13
+      "evidence_count": 14
     },
     {
       "id": "b6-24시-사람앤동물메디컬센터",
@@ -1034,7 +1034,7 @@
         "http://RoyalAMCGD.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 19
+      "evidence_count": 20
     },
     {
       "id": "univ-snu-vmth",
@@ -1163,7 +1163,7 @@
         "dog",
         "cat"
       ],
-      "homepage": null,
+      "homepage": "https://animalhealthcare.kr/",
       "lat": null,
       "lng": null,
       "hours_24h": "no",
@@ -1171,7 +1171,7 @@
       "weekday_hours": "08:00–17:00",
       "weekend_hours": "휴진",
       "night_hours": null,
-      "hours_note": "월–금 08–17, 토일·공휴 휴진",
+      "hours_note": "서울대 연계 검진특화센터(광진). CT/MRI 미운영·미표기. 초음파·X-ray·특수조영초음파 중심. TEL 0507-1427-5747.",
       "departments": [
         "건강검진",
         "영상(X-ray/초음파)",
@@ -1188,12 +1188,10 @@
       ],
       "strength": "광진 검진 특화. 주중 운영. 영상 대형장비는 관악과 분리.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 11
+      "evidence_count": 15
     },
     {
       "id": "b14-노원N동물의료센터",

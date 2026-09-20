@@ -1,6 +1,6 @@
 {
   "title": "강아지·고양이 병원 정보 축적 장부",
-  "as_of": "2026-09-20T02:31:59Z",
+  "as_of": "2026-09-20T02:32:54Z",
   "species_scope": [
     "dog",
     "cat"
@@ -246,7 +246,8 @@
         "species_scope": [
           "dog",
           "cat"
-        ]
+        ],
+        "equipment_model_search": "not_found_public"
       },
       "evidence_log": [
         {
@@ -368,6 +369,13 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "equipment_model_search",
+          "value": "not_found_public",
+          "source": "web_search",
+          "note": "공개 채널에서 CT 제조사·모델명 미확인. CT 보유 시사 보도만 있음.",
+          "at": "2026-09-20T02:32:54Z"
         }
       ],
       "open_questions": [
@@ -534,7 +542,8 @@
         "species_scope": [
           "dog",
           "cat"
-        ]
+        ],
+        "equipment_model_search": "not_found_public"
       },
       "evidence_log": [
         {
@@ -651,6 +660,13 @@
           "source": "dailygaewon",
           "note": "CT 모델명 미확인 → 갭 유지",
           "at": "2026-09-20T02:31:59Z"
+        },
+        {
+          "field": "equipment_model_search",
+          "value": "not_found_public",
+          "source": "web_search",
+          "note": "CT 보유·복강경 MGB FENCER Ⅲ 확인, CT 모델명 미게시.",
+          "at": "2026-09-20T02:32:54Z"
         }
       ],
       "open_questions": [
@@ -1822,7 +1838,8 @@
         "species_scope": [
           "dog",
           "cat"
-        ]
+        ],
+        "equipment_model_search": "not_found_public"
       },
       "evidence_log": [
         {
@@ -1925,6 +1942,13 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment_model_search",
+          "value": "not_found_public",
+          "source": "web_search",
+          "note": "안산 최초 CT/MRI 도입 보도, 제조사·모델명 미공개. 사이트 쿠키벽.",
+          "at": "2026-09-20T02:32:54Z"
         }
       ],
       "open_questions": [
@@ -3870,7 +3894,8 @@
         "species_scope": [
           "dog",
           "cat"
-        ]
+        ],
+        "equipment_model_search": "not_found_public"
       },
       "evidence_log": [
         {
@@ -4031,6 +4056,13 @@
           "source": "hospital_website",
           "note": "",
           "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "equipment_model_search",
+          "value": "not_found_public",
+          "source": "web_search",
+          "note": "CT/MRI 보유 확인, 강동점 구체 모델명 미게시.",
+          "at": "2026-09-20T02:32:54Z"
         }
       ],
       "open_questions": [
@@ -4505,7 +4537,7 @@
       ],
       "status": "verified_draft",
       "verified_fields": {
-        "phone": "02-6930-5747",
+        "phone": "0507-1427-5747",
         "address": "서울특별시 광진구 구의강변로 46, 금성빌딩",
         "hours_24h": "no",
         "emergency": "no",
@@ -4513,20 +4545,22 @@
         "hours_note": "월–금 08–17, 토일·공휴 휴진",
         "equipment": [
           "X-ray",
-          "초음파"
+          "초음파",
+          "VisionMap 조영초음파",
+          "심장초음파"
         ],
         "services": [
           "엑스선",
           "초음파",
           "혈액"
         ],
-        "role": "대학동물병원",
+        "role": "checkup_center",
         "departments": [
           "건강검진",
           "영상(X-ray/초음파)",
           "임상병리"
         ],
-        "homepage": null,
+        "homepage": "https://animalhealthcare.kr/",
         "night_hours": null,
         "species_scope": [
           "dog",
@@ -4621,11 +4655,42 @@
           "source": "profile",
           "note": "월–금 08–17, 토일·공휴 휴진",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://animalhealthcare.kr/",
+          "source": "hospital_website",
+          "note": "SNU반려동물헬스케어센터",
+          "at": "2026-09-20T02:32:54Z"
+        },
+        {
+          "field": "phone",
+          "value": "0507-1427-5747",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:32:54Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "X-ray",
+            "초음파",
+            "VisionMap 조영초음파",
+            "심장초음파"
+          ],
+          "source": "hospital_website",
+          "note": "검진특화 — CT/MRI 미보유 표기",
+          "at": "2026-09-20T02:32:54Z"
+        },
+        {
+          "field": "role",
+          "value": "checkup_center",
+          "source": "hospital_website",
+          "note": "응급·24시 아님",
+          "at": "2026-09-20T02:32:54Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b14-노원N동물의료센터",
@@ -6262,32 +6327,24 @@
   ],
   "last_batch_reviews": [
     {
-      "name": "원주24시스카이동물메디컬센터",
-      "note": "SKY 그룹 기준 GE Signa HDxt MRI·16ch CT (원주, 지점별 상이 가능)"
+      "name": "서울대학교동물검진센터",
+      "note": "검진특화(animalhealthcare.kr): CT/MRI 미표기→갭 해제, 초음파·X-ray 중심"
     },
     {
-      "name": "부천24시SKY동물메디컬센터",
-      "note": "SKY 그룹 기준 GE Signa HDxt MRI·16ch CT (부천, 지점별 상이 가능)"
-    },
-    {
-      "name": "수원 스카이 동물메디컬센터",
-      "note": "SKY 그룹 기준 GE Signa HDxt MRI·16ch CT (수원, 지점별 상이 가능)"
-    },
-    {
-      "name": "24시월드펫동물메디컬센터",
-      "note": "Philips Achieva 1.5T Nova Dual·GE Brivo 385 CT·C-arm"
-    },
-    {
-      "name": "건국대학교 부속 동물병원",
-      "note": "Canon Aquilion Lightning 160·GE Signa HDxt 1.5T 공식"
-    },
-    {
-      "name": "24시 다시 봄 동물의료센터",
-      "note": "64채널 CT 확인(블로그), 제조사 모델은 미확인"
+      "name": "Dr.dog동물의료센터",
+      "note": "모델명 공개자료 없음 — 공개 채널에서 CT 제조사·모델명 미확인. CT 보유 시사 보도만 있음."
     },
     {
       "name": "광명 24 아이디동물의료센터",
-      "note": "복강경 MGB FENCER Ⅲ 확인, CT는 보유·모델명 미확인(갭 유지)"
+      "note": "모델명 공개자료 없음 — CT 보유·복강경 MGB FENCER Ⅲ 확인, CT 모델명 미게시."
+    },
+    {
+      "name": "24시 온누리동물메디컬센터",
+      "note": "모델명 공개자료 없음 — 안산 최초 CT/MRI 도입 보도, 제조사·모델명 미공개. 사이트 쿠키벽."
+    },
+    {
+      "name": "24시 로얄동물메디컬센터 강동",
+      "note": "모델명 공개자료 없음 — CT/MRI 보유 확인, 강동점 구체 모델명 미게시."
     }
   ],
   "progress": {
@@ -6295,8 +6352,8 @@
     "by_status": {
       "verified_draft": 32
     },
-    "reviewed_this_batch": 7,
-    "equipment_gap_remaining": 5,
-    "no_open_questions": 27
+    "reviewed_this_batch": 5,
+    "equipment_gap_remaining": 4,
+    "no_open_questions": 28
   }
 }
