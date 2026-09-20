@@ -6885,6 +6885,19 @@
         "no_hit": 9
       },
       "source_branch": "cursor/place-neigh-seoul-wave2-ac30"
+    },
+    {
+      "ts": "2026-09-20T07:24:14Z",
+      "action": "merge_place_primary_nohp_wave",
+      "stats": {
+        "hit_applied": 111,
+        "missing_already_excluded": 7,
+        "dept_merged": 5,
+        "hours_set": 10,
+        "ambiguous_skip": 3,
+        "ambiguous_applied": 1
+      },
+      "source_branch": "cursor/place-primary-nohp-ac30"
     }
   ]
 }
