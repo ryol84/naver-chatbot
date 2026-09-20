@@ -17,7 +17,9 @@ UA = (
 
 REJECT_HP = re.compile(
     r"(instagram\.com|facebook\.com|fb\.com|youtube\.com|youtu\.be|"
-    r"saramin\.co|jobkorea\.co|mypet-119\.com|animal\.go\.kr)",
+    r"saramin\.co|jobkorea\.co|mypet-119\.com|animal\.go\.kr|"
+    r"ok114\.co|114\.co\.kr|cyber114|korean114|bizno\.net|"
+    r"hospitalk\.net|purpleo\.co|bemypet\.kr)",
     re.I,
 )
 LARGE_ANIMAL = re.compile(
@@ -443,30 +445,13 @@ def enrich_one(t: dict) -> dict:
         row["place_notes"] = "; ".join(notes_bits)
         return row
 
-    # Check closed via directories / HTML 폐업 for this name+sigungu
-    blob = naver_html
-    closed_pat = re.compile(
-        rf"({re.escape(name[:4])}.{{0,120}}폐업|폐업.{{0,120}}{re.escape(name[:4])}"
-        rf"|{re.escape(name)}.{{0,40}}\(폐업\)|{re.escape(name)}\(폐업\))",
-        re.S,
-    )
-    if blob and closed_pat.search(blob):
+    # CLOSED only on explicit "(폐업)" adjacent to this hospital name (not a "폐업" query).
+    blob = naver_html or ""
+    if re.search(rf"{re.escape(name)}\s*\(폐업\)|{re.escape(name)}\(폐업\)", blob):
         row["place_status"] = "CLOSED_EXCLUDE"
         row["place_phone"] = phone
-        row["place_notes"] = f"{sigungu} 검색결과 폐업 표기 → CLOSED_EXCLUDE"
+        row["place_notes"] = f"{sigungu} 검색결과 이름옆 폐업 표기 → CLOSED_EXCLUDE"
         return row
-    # Extra query for closed confirmation when no place panel
-    try:
-        closed_html = naver_search_html(f"{name} {sigungu} 폐업")
-        if closed_html and closed_pat.search(closed_html) and (
-            (sigungu and sigungu[:2] in closed_html) or (addr and addr_overlap(addr, closed_html[:5000]))
-        ):
-            row["place_status"] = "CLOSED_EXCLUDE"
-            row["place_phone"] = phone
-            row["place_notes"] = f"{sigungu} 폐업 검색 확인 → CLOSED_EXCLUDE"
-            return row
-    except Exception:
-        pass
 
     # other region dominates in kakao first results
     if kakao_places and not kakao_gy:
