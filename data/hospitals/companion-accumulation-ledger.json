@@ -7555,6 +7555,35 @@
         }
       ],
       "source_branch": "cursor/place-neigh-gangwon-ac30"
+    },
+    {
+      "ts": "2026-09-20T10:02:30Z",
+      "action": "merge_place_neigh_ulsan_wave1",
+      "stats": {
+        "hit_applied": 33,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 5,
+        "dept_merged": 9,
+        "no_hit": 9,
+        "ambiguous_skip": 1,
+        "exclude_closed": 2,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_a211296d4337",
+          "name": "동산동물병원",
+          "reason": "CLOSED: 중구 중앙길63 mypet-119 폐업 표기; Place 미노출 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_d45aac10b89a",
+          "name": "쿨펫동물병원",
+          "reason": "CLOSED: 남구 수암로148(홈플러스) mypet-119·디렉터리 폐업 표기 → CLOSED_EXCLUDE"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-ulsan-ac30"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4200,
-  "excluded_n": 211,
+  "n": 4198,
+  "excluded_n": 213,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -207,12 +207,13 @@
     "홍천축협동물병원",
     "횡성축협동물병원",
     "태백동물병원",
-    "하나동물병원"
+    "하나동물병원",
+    "동산동물병원"
   ],
   "stats": {
     "with_homepage": 1929,
-    "with_hours": 3223,
-    "with_phone": 3960,
+    "with_hours": 3226,
+    "with_phone": 3959,
     "hours_24h_yes": 223
   },
   "care_level_taxonomy": {
@@ -223,7 +224,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3486,
+    "neighborhood": 3484,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -918,6 +919,18 @@
         "name": "다나동물병원",
         "reason": "CLOSED: 원주시 Place 패널 미노출; 디렉터리 주소 일치·전화 일치 → CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_a211296d4337",
+        "name": "동산동물병원",
+        "reason": "CLOSED: 중구 중앙길63 mypet-119 폐업 표기; Place 미노출 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T10:02:30Z"
+      },
+      {
+        "id": "nat_d45aac10b89a",
+        "name": "쿨펫동물병원",
+        "reason": "CLOSED: 남구 수암로148(홈플러스) mypet-119·디렉터리 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T10:02:30Z"
       }
     ],
     "primary_nohp_local": {
@@ -1320,6 +1333,30 @@
         "ambiguous_skip": 0,
         "exclude_closed": 5,
         "exclude_large_animal": 7,
+        "missing_id": 0
+      }
+    },
+    "ulsan_neigh_wave1": {
+      "n": 45,
+      "hit": 33,
+      "no_hit": 9,
+      "ambiguous": 1,
+      "closed_exclude": 2,
+      "large_animal_exclude": 0,
+      "homepages_reported": 9,
+      "hours_reported": 31,
+      "merged_at": "2026-09-20T10:02:30Z",
+      "source_branch": "cursor/place-neigh-ulsan-ac30",
+      "merge_stats": {
+        "hit_applied": 33,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 5,
+        "dept_merged": 9,
+        "no_hit": 9,
+        "ambiguous_skip": 1,
+        "exclude_closed": 2,
+        "exclude_large_animal": 0,
         "missing_id": 0
       }
     }
