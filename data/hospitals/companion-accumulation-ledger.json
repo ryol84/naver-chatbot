@@ -6860,6 +6860,19 @@
         }
       ],
       "source_branch": "cursor/place-primary-hours-ac30"
+    },
+    {
+      "ts": "2026-09-20T05:05:41Z",
+      "action": "merge_place_neigh_busan_wave1",
+      "stats": {
+        "no_hit": 9,
+        "hit_applied": 84,
+        "dept_merged": 2,
+        "hours_set": 8,
+        "phone_set": 1,
+        "homepage_set": 1
+      },
+      "source_branch": "cursor/place-neigh-busan-ac30"
     }
   ]
 }

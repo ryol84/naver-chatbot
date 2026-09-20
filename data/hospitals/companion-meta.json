@@ -126,9 +126,9 @@
     "서부종합동물병원"
   ],
   "stats": {
-    "with_homepage": 1913,
-    "with_hours": 3170,
-    "with_phone": 3980,
+    "with_homepage": 1914,
+    "with_hours": 3178,
+    "with_phone": 3981,
     "hours_24h_yes": 208
   },
   "care_level_taxonomy": {
@@ -364,9 +364,27 @@
         "hours_set": 1
       },
       "primary_still_no_hours": 35
+    },
+    "busan_neigh_wave1": {
+      "n": 93,
+      "hit": 84,
+      "no_hit": 9,
+      "ambiguous": 0,
+      "homepages_reported": 1,
+      "hours_reported": 54,
+      "merged_at": "2026-09-20T05:05:41Z",
+      "source_branch": "cursor/place-neigh-busan-ac30",
+      "merge_stats": {
+        "no_hit": 9,
+        "hit_applied": 84,
+        "dept_merged": 2,
+        "hours_set": 8,
+        "phone_set": 1,
+        "homepage_set": 1
+      }
     }
   },
-  "with_homepage": 1913,
+  "with_homepage": 1914,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

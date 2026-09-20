@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- Busan neighborhood wave1: 93 (hit 84 / no_hit 9); homepage 1 (박 동물종합병원 daum cafe) / hours 54
 - primary hours remaining 41: hit 39 / ambiguous 1 / no_hit 1; hours_raw 2 (참누리·웰니스부산 dirs); homepage 1 (참누리); CLOSED_EXCLUDE 5
 - Gyeonggi neighborhood wave1: 100 (hit 91 / no_hit 7 / ambiguous 2); homepage 5 / hours 57
 - special (대학·재활): 14 — 제주대·탑스 홈페이지 추가
