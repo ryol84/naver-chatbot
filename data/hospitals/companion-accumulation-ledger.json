@@ -7647,6 +7647,45 @@
         }
       ],
       "source_branch": "cursor/place-neigh-daejeon-ac30"
+    },
+    {
+      "ts": "2026-09-20T11:45:29Z",
+      "action": "merge_place_neigh_gwangju_wave1",
+      "stats": {
+        "hit_applied": 83,
+        "homepage_set": 2,
+        "phone_set": 0,
+        "hours_set": 8,
+        "dept_merged": 0,
+        "no_hit": 8,
+        "ambiguous_skip": 0,
+        "exclude_closed": 4,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_1db6f71ea37c",
+          "name": "YS동물병원",
+          "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_a55f839b08e6",
+          "name": "운암동물병원",
+          "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_9319b111e42e",
+          "name": "고려동물병원",
+          "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_fc2841e6fda6",
+          "name": "보람동물병원",
+          "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gwangju-ac30"
     }
   ]
 }

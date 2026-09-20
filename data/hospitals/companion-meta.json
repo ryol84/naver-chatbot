@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4193,
-  "excluded_n": 218,
+  "n": 4189,
+  "excluded_n": 222,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -213,12 +213,16 @@
     "남문동물병원",
     "공동물병원",
     "애니멀즈동물병원",
-    "하모니동물병원"
+    "하모니동물병원",
+    "YS동물병원",
+    "운암동물병원",
+    "고려동물병원",
+    "보람동물병원"
   ],
   "stats": {
-    "with_homepage": 1931,
-    "with_hours": 3235,
-    "with_phone": 3956,
+    "with_homepage": 1932,
+    "with_hours": 3241,
+    "with_phone": 3954,
     "hours_24h_yes": 224
   },
   "care_level_taxonomy": {
@@ -229,7 +233,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3479,
+    "neighborhood": 3475,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -966,6 +970,30 @@
         "name": "하모니동물병원",
         "reason": "CLOSED: 대전 유성 관평2로20 폐업(2025-03-18 사업자/디렉터리); Place 미등록",
         "excluded_at": "2026-09-20T10:14:00Z"
+      },
+      {
+        "id": "nat_1db6f71ea37c",
+        "name": "YS동물병원",
+        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:45:29Z"
+      },
+      {
+        "id": "nat_a55f839b08e6",
+        "name": "운암동물병원",
+        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:45:29Z"
+      },
+      {
+        "id": "nat_9319b111e42e",
+        "name": "고려동물병원",
+        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:45:29Z"
+      },
+      {
+        "id": "nat_fc2841e6fda6",
+        "name": "보람동물병원",
+        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:45:29Z"
       }
     ],
     "primary_nohp_local": {
@@ -1442,9 +1470,33 @@
         "exclude_large_animal": 0,
         "missing_id": 0
       }
+    },
+    "gwangju_neigh_wave1": {
+      "n": 95,
+      "hit": 83,
+      "no_hit": 8,
+      "ambiguous": 0,
+      "closed_exclude": 4,
+      "large_animal_exclude": 0,
+      "homepages_reported": 18,
+      "hours_reported": 60,
+      "merged_at": "2026-09-20T11:45:29Z",
+      "source_branch": "cursor/place-neigh-gwangju-ac30",
+      "merge_stats": {
+        "hit_applied": 83,
+        "homepage_set": 2,
+        "phone_set": 0,
+        "hours_set": 8,
+        "dept_merged": 0,
+        "no_hit": 8,
+        "ambiguous_skip": 0,
+        "exclude_closed": 4,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1931,
+  "with_homepage": 1932,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
