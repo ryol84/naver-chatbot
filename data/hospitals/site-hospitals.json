@@ -1,0 +1,4005 @@
+{
+  "title": "사이트용 동물병원 상세(정규화)",
+  "as_of": "2026-09-19T22:18:09",
+  "rule": "homepage-public(verify public)만 기본 노출. 전화·진료시간은 게시 전 재확인. 바이럴/과장 문구 제외.",
+  "schema_version": "1.2",
+  "counts": {
+    "public_ready": 33,
+    "candidate_not_public": 24,
+    "candidate_internal": 2,
+    "candidate_hold": 22
+  },
+  "field_guide": {
+    "hours.hours_24h": "yes=상시 24시, partial=주간+야간응급/로테/분과주간+응급24, no=주간 중심, unknown=미확인",
+    "hours.emergency": "응급 진료 가능 여부",
+    "departments": "분과/치료 코드 정규화",
+    "equipment": "근거 있는 장비만",
+    "site_gaps": "사이트 반영 전 보완 권장 항목"
+  },
+  "hospitals": [
+    {
+      "id": "amc-wonju-sky",
+      "master_id": null,
+      "name": "원주24시스카이동물메디컬센터",
+      "sido": "강원특별자치도",
+      "sigungu": "원주시",
+      "phone": "033-813-9975",
+      "address": "강원 원주시 서원대로 502 골드프라자",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시 주장(그룹·대학 보도)",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "24시 SKY"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "그룹 CT/MRI"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)"
+      ],
+      "services": [
+        "24시",
+        "CT",
+        "MRI(지점·그룹 보도)"
+      ],
+      "focus_conditions": [
+        "24시 응급",
+        "영상"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "세명대 보도 2024 원주스카이 CT·MRI 보유 거점 / 데일리개원 그룹 지점 CT·MRI",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "세명대 보도 2024",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": "SKY 네트워크 원주점. 세명대 동물보건과 MOU.",
+      "strength_plain": "24시·CT/MRI가 대학 보도·그룹 기사에 나옴. 기종은 미기재.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "세명대 보도 2024-05",
+        "데일리개원 SKY 탐방 2023"
+      ],
+      "does_not_confirmed": [
+        "그룹 전체 7대와 이 지점 1대를 혼동하지 말 것. 기종 미확인"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "amc-goyang-drdog",
+      "master_id": null,
+      "name": "Dr.dog동물의료센터",
+      "sido": "경기도",
+      "sigungu": "고양시",
+      "phone": "031-932-0075",
+      "address": "고양시 일산동구 일산로394번길 5-9",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "성예사 09:30–22:00 표기. 24시 여부는 2017 확장 이후 재확인",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 CT·내시경"
+        },
+        {
+          "code": "minimally_invasive",
+          "label": "최소침습",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "내시경"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)",
+        "최소침습"
+      ],
+      "services": [
+        "분과 진료(2017 탐방)"
+      ],
+      "focus_conditions": [
+        "외과"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2017 클리닉탐방 ‘첨단 CT와 내시경’",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "endoscope",
+          "label": "내시경",
+          "item": "내시경",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 데일리개원 2017",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "내시경"
+      ],
+      "credentials": "2016 24시 응급 확장(데일리개원 2017)",
+      "strength_plain": "CT·내시경은 2017 기사. 현재 기종은 전화 확인.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 96,
+      "sources": [
+        "데일리개원 2017-08 동물의료센터 Dr. Dog"
+      ],
+      "does_not_confirmed": [
+        "2017 기사 이후 기종 교체 여부 미확인"
+      ],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "stale_source",
+          "msg": "2023년 이전 출처: 데일리개원 2017-08 동물의료센터 Dr. Dog"
+        }
+      ],
+      "site_gaps": [
+        "hours_unconfirmed",
+        "emergency_unconfirmed",
+        "stale_source",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-24시-다시-봄-동물의료센터",
+      "master_id": "3900000_390000001020250001",
+      "name": "24시 다시 봄 동물의료센터",
+      "sido": "경기도",
+      "sigungu": "광명시",
+      "phone": "02-6954-7975",
+      "address": "경기도 광명시 소하로109번길 13-8, 광장프라자 2층 (소하동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시간 365일(공식)",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "공식 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "공식 64ch CT"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "24시",
+        "영상"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "64채널 CT",
+          "model": "64ch",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "rebom-amc.com 1-DAY 검진·시설 CT실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "rebom-amc.com 시설 엑스레이실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "rebom-amc.com 시설 초음파실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "X-ray",
+        "초음파"
+      ],
+      "credentials": "",
+      "strength_plain": "광명 소하. 공식 사이트에 64ch CT·X-ray·초음파.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://www.rebom-amc.com/"
+      ],
+      "does_not_confirmed": [],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-광명-24-아이디동물의료센터",
+      "master_id": "3900000_390000001020190001",
+      "name": "광명 24 아이디동물의료센터",
+      "sido": "경기도",
+      "sigungu": "광명시",
+      "phone": "02-6952-2475",
+      "address": "경기도 광명시 오리로 870, 서희스타힐스빌딩 2층 (철산동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "24시 주간7·야간4 로테(기사)",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "CT"
+        },
+        {
+          "code": "minimally_invasive",
+          "label": "최소침습",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "복강경"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "최소침습"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "24시",
+        "최소침습"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2025-09 클리닉탐방 2021 CT 도입",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "laparoscope",
+          "label": "복강경",
+          "item": "복강경",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사 MGB FENCER Ⅲ",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "복강경"
+      ],
+      "credentials": "",
+      "strength_plain": "광명 24시. CT·복강경은 데일리개원.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 97,
+      "sources": [
+        "데일리개원 2025-09 광명24아이디"
+      ],
+      "does_not_confirmed": [],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "hours_token_gap",
+          "msg": "상호 24시인데 마스터 night 토큰과 불일치"
+        }
+      ],
+      "site_gaps": [
+        "hours_token_gap",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-에프엠-FM-동물메디컬센터-김포점",
+      "master_id": "4090000_409000001020240002",
+      "name": "에프엠(FM)동물메디컬센터 김포점",
+      "sido": "경기도",
+      "sigungu": "김포시",
+      "phone": "031-982-7587",
+      "address": "경기도 김포시 김포한강1로 77-5, 2층 (장기동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:00–21:00",
+        "weekend_hours": null,
+        "night_hours": "21:00–09:00",
+        "hours_note": "주간 09–21 야간 21–09(병원 블로그)",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "CT/MRI"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "24시",
+        "영상"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "128채널 CT",
+          "model": "1.5T tesla · 128ch",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 해피펫 FM 영상의학센터 128ch CT·1.5T MRI / 병원 유튜브 김포점 128ch",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "1.5T MRI",
+          "model": "1.5T tesla",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 해피펫 김포 인근 영상의학센터 GE 1.5T",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": "",
+      "strength_plain": "김포점·인근 영상센터. CT/MRI는 뉴스1.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "뉴스1 FM MRI 도입",
+        "FM 유튜브 김포점"
+      ],
+      "does_not_confirmed": [
+        "영상의학센터가 본점과 별동이면 촬영 위치 전화 확인"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-부천24시SKY동물메디컬센터",
+      "master_id": "3860000_386000001020110002",
+      "name": "부천24시SKY동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "phone": "032-323-7579",
+      "address": "경기도 부천시 원미구 길주로 234, 힐스테이트 중동 203동 2001, 2007호 (중동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시 그룹 운영",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "SKY 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "그룹 CT/MRI"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "24시"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2023 SKY 9지점 CT·MRI 배치. 부천은 그룹 첫 지점",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 데일리개원",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": "",
+      "strength_plain": "SKY 부천. 그룹 기사 기준 CT/MRI.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "데일리개원 2023 SKY 탐방",
+        "skyamg.com"
+      ],
+      "does_not_confirmed": [
+        "지점별 기종 미기재"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-비엔동물전문의료센터",
+      "master_id": "3860000_386000001020180001",
+      "name": "비엔동물전문의료센터",
+      "sido": "경기도",
+      "sigungu": "부천시",
+      "phone": "032-345-7559",
+      "address": "경기도 부천시 소사구 경인로 475, 정인빌딩 (괴안동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시. 플레이스 휴게 10:00-10:30·13:00-14:30",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "CT/MRI 도입"
+        },
+        {
+          "code": "ophthalmology",
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "안과센터 시즌2"
+        },
+        {
+          "code": "dentistry",
+          "label": "치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "치과센터"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "안과",
+        "치과"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "24시",
+        "영상",
+        "안과치과"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2023-06 클리닉탐방: 시즌3 CT 도입",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사 2021 시즌4 고성능 MRI 도입",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": "",
+      "strength_plain": "부천 소사. CT·MRI는 데일리개원 탐방.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "데일리개원 2023-06 비엔 탐방",
+        "http://www.24bien.com"
+      ],
+      "does_not_confirmed": [
+        "기종은 기사에 없음"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-권앤정-24시수원동물메디컬센터",
+      "master_id": "3740000_374000001020220005",
+      "name": "권앤정 24시수원동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "phone": "031-202-0119",
+      "address": "경기도 수원시 영통구 덕영대로 1509, 1,2(일부)층 (영통동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시 상호",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24시 상호"
+        },
+        {
+          "code": "oncology",
+          "label": "종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "공식 종양센터"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "공식 CT"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "종양",
+        "영상(CT/MRI)"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "24시",
+        "종양"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT GE Lightspeed RT",
+          "model": "GE Lightspeed RT",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "suwonamc.co.kr 종양센터 시설",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "icu",
+          "label": "ICU",
+          "item": "ICU",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 페이지 집중치료실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "ICU"
+      ],
+      "credentials": "",
+      "strength_plain": "공식 사이트 CT 기종·ICU.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://suwonamc.co.kr/specialized/cancer"
+      ],
+      "does_not_confirmed": [
+        "MRI는 공식 페이지에서 확인 못 함"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-본-동물의료센터",
+      "master_id": "3740000_374000001020150008",
+      "name": "본 동물의료센터",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "phone": "031-248-8275",
+      "address": "경기도 수원시 장안구 경수대로 937, 블루버드 빌딩 (송죽동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:30–19:00",
+        "weekend_hours": "09:30–17:00",
+        "night_hours": "그 외 24시 응급",
+        "hours_note": "외래 주중 09:30–19 주말 09:30–17, 그 외 24시 응급(네이버예약)",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "24시 응급"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "3T MRI 160ch CT"
+        },
+        {
+          "code": "ortho",
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 척추관절"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뇌신경센터"
+        },
+        {
+          "code": "minimally_invasive",
+          "label": "최소침습",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "흉강경·복강경·내시경"
+        },
+        {
+          "code": "oncology",
+          "label": "종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "종양센터"
+        },
+        {
+          "code": "rehab",
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "재활센터 층"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "정형외과",
+        "신경",
+        "최소침습",
+        "종양",
+        "재활"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "2차",
+        "영상",
+        "신경외과"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "3.0T MRI",
+          "model": "3.0T tesla",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2025-06·12 탐방, 뉴스1 확장",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "160채널 CT",
+          "model": "160ch",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 데일리개원·뉴스1",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "carm",
+          "label": "C-arm",
+          "item": "C-arm",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2025-06",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "endoscope",
+          "label": "내시경",
+          "item": "내시경",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2025-12 흉강경·복강경·내시경",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        }
+      ],
+      "equipment_summary": [
+        "C-arm",
+        "CT",
+        "MRI",
+        "내시경"
+      ],
+      "credentials": "",
+      "strength_plain": "수원 장안. 3T MRI·160ch CT·C-arm·내시경은 데일리개원.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "데일리개원 16735",
+        "데일리개원 17421",
+        "뉴스1 수원 확장"
+      ],
+      "does_not_confirmed": [
+        "‘국내 최대’ 홍보 문구 미사용"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b5-수원-스카이-동물메디컬센터",
+      "master_id": "3740000_374000001020190003",
+      "name": "수원 스카이 동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "수원시",
+      "phone": "031-895-5775",
+      "address": "경기도 수원시 팔달구 인계로 91, 2,3층 (인계동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시간(공식)",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "공식 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "그룹+공식 영상"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "24시",
+        "영상"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2023 SKY 지점 CT·MRI / 수원점 공식 의료진 영상의학·MRI",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "swskyamc.com 대표원장 영상의학 MRI",
+          "as_of": "2026-09-19",
+          "publisher": "dailygaewon"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": "",
+      "strength_plain": "SKY 수원. 공식 의료진+그룹 기사.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "데일리개원 2023",
+        "https://www.swskyamc.com/dr01"
+      ],
+      "does_not_confirmed": [
+        "기종 미기재"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b6-24시-온누리동물메디컬센터",
+      "master_id": "3930000_393000001020160003",
+      "name": "24시 온누리동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "phone": null,
+      "address": "경기도 안산시 단원구 안산천서로 23, 중앙하이츠빌 3층 (고잔동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시(카카오 00-24)",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "24시 2차"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 CT/MRI"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뇌수두증·환축추아탈구 수술"
+        },
+        {
+          "code": "internal",
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "분과 협진"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "신경",
+        "내과"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "emergency",
+        "imaging",
+        "neuro",
+        "internal"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2023-02 온누리 탐방",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 데일리개원",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "병원 블로그 영상센터",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "병원 블로그",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI",
+        "X-ray",
+        "초음파"
+      ],
+      "credentials": null,
+      "strength_plain": "안산 2차 거점. 로컬에서 난치·중증 의뢰. CT/MRI·신경외과(뇌수두증 등)는 데일리개원.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 96,
+      "sources": [
+        "https://www.dailygaewon.com/news/articleView.html?idxno=13368"
+      ],
+      "does_not_confirmed": [
+        "바이럴·유일 문구 미사용"
+      ],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "phone_missing",
+          "msg": "전화 없음"
+        }
+      ],
+      "site_gaps": [
+        "phone_missing",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b6-24시-사람앤동물메디컬센터",
+      "master_id": "4050000_564000001020180001",
+      "name": "24시 사람앤동물메디컬센터",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "phone": "031-262-0306",
+      "address": "경기도 용인시 수지구 포은대로 317, 24시 사람앤동물메디컬센터 (풍덕천동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:30–22:00",
+        "weekend_hours": null,
+        "night_hours": "22:00–09:00",
+        "hours_note": "주간 09:30-22 야간응급 22-09 (병원 블로그)",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 24시 응급센터"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "3T MRI·64ch CT"
+        },
+        {
+          "code": "oncology",
+          "label": "종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "암치료센터"
+        },
+        {
+          "code": "dialysis",
+          "label": "투석",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "혈액투석센터"
+        },
+        {
+          "code": "ortho",
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "정형 전용 수술실"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뇌신경 전용 수술실"
+        },
+        {
+          "code": "ophthalmology",
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "안과 층·수술실"
+        },
+        {
+          "code": "dentistry",
+          "label": "치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "치과 층·수술실"
+        },
+        {
+          "code": "rehab",
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "CVA·CCRV 재활실"
+        },
+        {
+          "code": "feline",
+          "label": "고양이 특화",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "고양이병원 분리"
+        },
+        {
+          "code": "minimally_invasive",
+          "label": "최소침습",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "내시경센터"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "종양",
+        "투석",
+        "정형외과",
+        "신경",
+        "안과",
+        "치과",
+        "재활",
+        "고양이 특화",
+        "최소침습"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "emergency",
+        "imaging",
+        "oncology",
+        "dialysis",
+        "ortho",
+        "neuro",
+        "ophthalmology",
+        "dentistry",
+        "rehab",
+        "feline",
+        "minimally_invasive"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "3.0T MRI",
+          "model": "3T",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 2025-11 확장",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "64채널 128슬라이스 CT",
+          "model": "64ch 128slice",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 데일리벳",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사 영상실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "혈액투석",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "endoscope",
+          "label": "내시경",
+          "item": "내시경",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "내시경센터",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI",
+        "X-ray",
+        "내시경",
+        "초음파"
+      ],
+      "credentials": null,
+      "strength_plain": "용인 수지 2차. 동네 접종이 아니라 중증·분과·영상. 3T MRI·CT·투석·항암·안과치과재활은 데일리벳 확장 기사.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://www.dailyvet.co.kr/news/practice/companion-animal/265149"
+      ],
+      "does_not_confirmed": [
+        "바이럴·유일 문구 미사용"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-gnu-vmth",
+      "master_id": "5310000_531000001020060004",
+      "name": "경상국립대학교수의과대학부속동물병원",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "phone": "055-772-2324",
+      "address": "경상남도 진주시 (마스터 기준)",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "24시 미확인.",
+        "name_has_24h_token": false
+      },
+      "departments": [],
+      "department_labels": [],
+      "services": [
+        "CT",
+        "X-ray",
+        "초음파",
+        "수술·중환자 시설(공식 층별안내)"
+      ],
+      "focus_conditions": [
+        "의뢰 분과",
+        "영상"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT실",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "gnu.ac.kr 수의대 부속동물병원 시설안내 1층 CT실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-RAY실",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 공식 시설안내",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "진단초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "gnu.ac.kr 시설안내 진단초음파검사실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "endoscope",
+          "label": "내시경",
+          "item": "소화기내시경",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "gnu.ac.kr 시설안내 소화기내시경실",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "X-ray",
+        "내시경",
+        "초음파"
+      ],
+      "credentials": "경상국립대 수의대 부속.",
+      "strength_plain": "대학 공식 시설안내에 CT실·X-ray실.",
+      "avoid_hype": "사람 경상국립대병원 장비와 혼동 금지. MRI는 이번 공식 목록에 없음.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "gnu.ac.kr/vet 부속동물병원 시설안내"
+      ],
+      "does_not_confirmed": [
+        "동물의료원(gamc)과 인허가 분리 가능. 같은 캠퍼스 개칭 여부 전화 확인"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "hours_unconfirmed",
+        "emergency_unconfirmed",
+        "departments_sparse",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b9-수동물메디컬센터",
+      "master_id": "5310000_531000001020190002",
+      "name": "수동물메디컬센터",
+      "sido": "경상남도",
+      "sigungu": "진주시",
+      "phone": "055-924-1000",
+      "address": "경상남도 진주시 진주대로 624 (가좌동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시(뉴스1)",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 24시 체계"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 MRI 도입"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "emergency",
+        "imaging"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 2025-08 수동물메디컬센터 MRI 도입",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "MRI"
+      ],
+      "credentials": null,
+      "strength_plain": "진주. 뉴스1 2025-08 MRI 도입·500평 확장·24시 고도화. 동네 접종이 아님.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://www.news1.kr/industry/general-industry/5881456"
+      ],
+      "does_not_confirmed": [
+        "상호 CTMRI만으로 official 금지. 이웃 병원 장비 복사 금지."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b10-24시-포항-이음동물의료센터",
+      "master_id": "5020000_502000001020230001",
+      "name": "24시 포항 이음동물의료센터",
+      "sido": "경상북도",
+      "sigungu": "포항시",
+      "phone": "054-612-2475",
+      "address": "경상북도 포항시 남구 효성로93번길 4(효자동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "24시 2차 개원 기사"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "128ch CT·1.5T MRI"
+        },
+        {
+          "code": "ortho",
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "정형·신경 수술 표방"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "신경계"
+        },
+        {
+          "code": "ophthalmology",
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "안과 분과"
+        },
+        {
+          "code": "cardio",
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "Arietta 750 심장초음파"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "정형외과",
+        "신경",
+        "안과",
+        "심장"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "emergency",
+        "imaging",
+        "ortho",
+        "neuro",
+        "ophthalmology",
+        "cardio"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "128채널 CT",
+          "model": "128ch",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "메디소비자뉴스 포항점 개원",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "1.5T MRI",
+          "model": "1.5T",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "HITACHI ARIETTA 750",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": null,
+      "strength_plain": "포항 효자 24시 2차. 메디소비자뉴스 2023: 128ch CT·1.5T MRI·분과.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "http://www.medisobizanews.com/news/articleView.html?idxno=106100"
+      ],
+      "does_not_confirmed": [
+        "수원 본과 대구 본을 같은 병원으로 묶지 않음."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b10-본-동물메디컬센터-외과동물병원",
+      "master_id": "3470000_347000001020170003",
+      "name": "본 동물메디컬센터 외과동물병원",
+      "sido": "대구광역시",
+      "sigungu": "달서구",
+      "phone": "053-634-7582",
+      "address": "대구광역시 달서구 월곡로 330-1, 1,2,3층 (상인동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "no",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "달서 주간 중심. 24시는 수성점",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "매일신문 MRI/CT"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "공식 브레인 네비"
+        },
+        {
+          "code": "oncology",
+          "label": "종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "공식 종양"
+        },
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "unknown",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "달서 본원은 24시 수성점과 분리"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)",
+        "신경",
+        "종양",
+        "응급"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "imaging",
+        "neuro",
+        "oncology",
+        "emergency"
+      ],
+      "equipment": [
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "Philips Ingenia 1.5T",
+          "model": "1.5T",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "매일신문+공식",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "TOSHIBA Aquilion CX 128",
+          "model": "64ch 128slice",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 매일신문·공식",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [],
+      "credentials": null,
+      "strength_plain": "대구 달서 본. 매일신문 검진센터 MRI/CT. 공식 1.5T·128slice. 수원 본과 다른 병원.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://www.boneamc.com/",
+        "https://www.imaeil.com/page/view/2024112415313519161"
+      ],
+      "does_not_confirmed": [
+        "수원 본과 대구 본을 같은 병원으로 묶지 않음."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "emergency_unconfirmed",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-knu-daegu",
+      "master_id": "3450000_345000001019840001",
+      "name": "경북대학교 수의과대학 부속동물병원",
+      "sido": "대구광역시",
+      "sigungu": "북구",
+      "phone": "053-950-6898",
+      "address": "대구광역시 북구 대학로 80",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "MRI"
+        },
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "벤틸"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)",
+        "응급"
+      ],
+      "services": [
+        "MRI",
+        "응급중환자",
+        "내과·외과·영상"
+      ],
+      "focus_conditions": [
+        "신경계 영상",
+        "응급·중환자 호흡",
+        "분과"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "GE 1.5T MRI",
+          "model": "1.5T tesla",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 경북대 부속동물병원 1.5T MRI 도입",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "ventilator",
+          "label": "인공호흡기",
+          "item": "Maquet Servo-i Ventilator",
+          "model": "Servo-i",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 데일리벳 기사(24시간 인공호흡 가능 장비)",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "MRI",
+        "인공호흡기"
+      ],
+      "credentials": "경북대 수의대 부속. 상주 분원과 별개 인허가.",
+      "strength_plain": "1.5T MRI·중환자 벤틸레이터가 기사로 확인.",
+      "avoid_hype": "사람 경북대병원 장비와 혼동 금지. 상주분원은 다른 카드.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "데일리벳 경북대 1.5T MRI",
+        "knu 조직도 전화 053-950-6898"
+      ],
+      "does_not_confirmed": [],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-cnu-vmth",
+      "master_id": "3670000_367000001019830001",
+      "name": "충남대학교 수의과대학 부속동물병원",
+      "sido": "대전광역시",
+      "sigungu": "유성구",
+      "phone": null,
+      "address": "대전광역시 유성구 (마스터 기준)",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "yes",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "진료시간 중 on-call. 24시 미확인.",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "cardio",
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "심장초음파 기사"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "장비 행에서 유도"
+        }
+      ],
+      "department_labels": [
+        "심장",
+        "영상(CT/MRI)"
+      ],
+      "services": [
+        "내과 분과",
+        "응급처치(진료시간 중 on-call)",
+        "초음파"
+      ],
+      "focus_conditions": [
+        "의뢰 분과",
+        "진료시간 중 응급 on-call"
+      ],
+      "equipment": [
+        {
+          "kind": "echo",
+          "label": "심장초음파",
+          "item": "GE Vivid E90 심장초음파",
+          "model": "Vivid E90",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 2021 SKYAMC 기증 기사",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "심장초음파"
+      ],
+      "credentials": "충남대 수의대 부속. cnuah.cnu.ac.kr",
+      "strength_plain": "대학 분과·초음파는 확인. CT/MRI 현재 기종은 이번 검색에서 공식 목록 없음.",
+      "avoid_hype": "사람 충남대병원 MRI 기사와 혼동 금지. 2006 논문 CT/MRI는 현재 보유 증명으로 쓰지 않음.",
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 92,
+      "sources": [
+        "cnuah.cnu.ac.kr 내과 응급진료",
+        "데일리벳 2021 초음파 기증"
+      ],
+      "does_not_confirmed": [
+        "공식 내과 페이지는 진료시간 중 on-call. 24시 상시로 단정하지 않음"
+      ],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "phone_missing",
+          "msg": "전화 없음"
+        },
+        {
+          "sev": "warn",
+          "code": "stale_source",
+          "msg": "2023년 이전 출처: 데일리벳 2021 초음파 기증"
+        }
+      ],
+      "site_gaps": [
+        "phone_missing",
+        "hours_unconfirmed",
+        "stale_source",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b12-뉴로동물의료센터24시",
+      "master_id": "3370000_337000001020210002",
+      "name": "뉴로동물의료센터24시",
+      "sido": "부산광역시",
+      "sigungu": "연제구",
+      "phone": "051-711-8253",
+      "address": "부산광역시 연제구 중앙대로 1084, 진도사옥 2~3층 (연산동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "365 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "고사양 MRI·CT"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "COMS·AAI·디스크·뇌수막염"
+        },
+        {
+          "code": "oncology",
+          "label": "종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "종양과·암센터"
+        },
+        {
+          "code": "rehab",
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "재활실"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "신경",
+        "종양",
+        "재활"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "emergency",
+        "imaging",
+        "neuro",
+        "oncology",
+        "rehab"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2024-05 리뉴얼",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": null,
+      "strength_plain": "연산. 데일리개원: 2차 의뢰제, MRI·CT, 신경·종양, 24시. 수영 센텀과 분과.",
+      "avoid_hype": true,
+      "confidence": "high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://www.dailygaewon.com/news/articleView.html?idxno=15096"
+      ],
+      "does_not_confirmed": [
+        "예정 장비를 설치로 쓰지 않음. 지점 장비 복사 금지."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "rehab-vip-sinsagyeong",
+      "master_id": null,
+      "name": "VIP동물한방재활의학센터 by Dr.신사경",
+      "sido": "서울특별시",
+      "sigungu": "강남구",
+      "phone": "02-511-7522",
+      "address": "서울 강남구 삼성로133길 7 베디베로스퀘어 7층",
+      "role": "rehab_specialty",
+      "role_label": "재활 특화",
+      "care_level": "rehab_specialty",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": true,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": null,
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "rehab",
+          "label": "재활",
+          "available": "yes",
+          "role": "primary_strength",
+          "evidence_level": "reported",
+          "evidence": "재활 특화 센터"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "장비 행에서 유도"
+        }
+      ],
+      "department_labels": [
+        "재활",
+        "영상(CT/MRI)"
+      ],
+      "services": [
+        "침·전침",
+        "추나",
+        "한약·음식치료",
+        "수중런닝(소형/대형 분리실 보도)",
+        "레이저",
+        "체외충격파",
+        "고압산소",
+        "초음파치료",
+        "운동치료",
+        "관절·콜라겐 주사"
+      ],
+      "focus_conditions": [
+        "퇴행성관절염",
+        "슬개골·십자 수술 후",
+        "디스크·후지마비",
+        "노령 근골격 통증"
+      ],
+      "equipment": [
+        {
+          "kind": "underwater_treadmill",
+          "label": "수중런닝/수중보행",
+          "item": "소형견 수중치료실",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "dailyvet 개소 기사 시설 목록",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "underwater_treadmill",
+          "label": "수중런닝/수중보행",
+          "item": "대형견 수중치료실",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "dailyvet 개소 기사",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray실",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "dailyvet",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "hbot",
+          "label": "고압산소",
+          "item": "고압산소",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "dailyvet",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "운동치료실·한방약제실",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "dailyvet",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "X-ray",
+        "고압산소",
+        "수중런닝/수중보행"
+      ],
+      "credentials": "원장·소속 수의사 CVA+CCRT. CHI University 한국지부. CCRV 교육 개최.",
+      "strength_plain": "국내에서 시설·인력 규모가 확인된 한방·재활 특화. 수련의 과정이 있음.",
+      "avoid_hype": "국내 최대·기적 치유 표현은 제외. 효과는 환자·질환별로 다름.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 98,
+      "sources": [
+        "데일리벳 개소 2023",
+        "뉴스1 2025-03 인터뷰"
+      ],
+      "does_not_confirmed": [
+        "종합병원식 외과수술 본원 기능은 별도(옆 VIP/암센터). 재활 특화 인허가"
+      ],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "campus_aliases",
+          "msg": "같은 전화/건물 다른 인허가 2건"
+        }
+      ],
+      "site_gaps": [
+        "hours_unconfirmed",
+        "emergency_unconfirmed",
+        "hours_note_missing",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b12-24시-로얄동물메디컬센터-강동",
+      "master_id": "3240000_324000001020210002",
+      "name": "24시 로얄동물메디컬센터 강동",
+      "sido": "서울특별시",
+      "sigungu": "강동구",
+      "phone": "02-457-0075",
+      "address": "서울특별시 강동구 천호대로 1171, 지하1층,2층,3층 (길동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "365 24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "CT·MRI"
+        },
+        {
+          "code": "surgery_soft",
+          "label": "일반외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "외과수술센터"
+        },
+        {
+          "code": "ophthalmology",
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "백내장특화"
+        },
+        {
+          "code": "cardio",
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "심장혈관"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "신경계"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "일반외과",
+        "안과",
+        "심장",
+        "신경"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "emergency",
+        "imaging",
+        "surgery_soft",
+        "ophthalmology",
+        "cardio",
+        "neuro"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2024-01",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI",
+        "X-ray",
+        "초음파"
+      ],
+      "credentials": null,
+      "strength_plain": "강동 길동. 데일리개원: CT·MRI 영상센터, 24시, 외과·백내장·심장신경, 리퍼 거점.",
+      "avoid_hype": true,
+      "confidence": "high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://www.dailygaewon.com/news/articleView.html?idxno=14679"
+      ],
+      "does_not_confirmed": [
+        "예정 장비를 설치로 쓰지 않음. 지점 장비 복사 금지."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-snu-vmth",
+      "master_id": "3200000_320000001020120001",
+      "name": "서울대학교 수의과대학 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "관악구",
+      "phone": "02-880-8661",
+      "address": "서울특별시 관악구 관악로 1 (신림동, 서울대학교)",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "응급센터 2019-01부터 24시간. 일반 분과는 주간 예약.",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "대학병원 장비"
+        },
+        {
+          "code": "surgery_soft",
+          "label": "일반외과",
+          "available": "yes",
+          "role": "referral",
+          "evidence_level": "reported",
+          "evidence": "3차 의뢰"
+        },
+        {
+          "code": "ortho",
+          "label": "정형외과",
+          "available": "yes",
+          "role": "referral",
+          "evidence_level": "reported",
+          "evidence": "3차"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "referral",
+          "evidence_level": "reported",
+          "evidence": "3차"
+        },
+        {
+          "code": "oncology",
+          "label": "종양",
+          "available": "yes",
+          "role": "referral",
+          "evidence_level": "reported",
+          "evidence": "3차"
+        },
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "대학 응급"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)",
+        "일반외과",
+        "정형외과",
+        "신경",
+        "종양",
+        "응급"
+      ],
+      "services": [
+        "24시간 응급(2019~)",
+        "내과·외과·영상·응급 분과",
+        "CT",
+        "MRI",
+        "초음파",
+        "X-ray"
+      ],
+      "focus_conditions": [
+        "의뢰 2·3차",
+        "응급",
+        "영상진단",
+        "분과 협진"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "160채널 CT",
+          "model": "160ch",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 2025 서울대동물병원 검진센터 소개(160채널 CT 도입)",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "1.5T MRI",
+          "model": "1.5T tesla",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 2025 서울대동물병원",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "64채널 CT(2016 도입 기록)",
+          "model": "64ch",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "vmth.snu.ac.kr 영상의학과 영문 페이지",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "vmth.snu.ac.kr 영상의학과",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "vmth.snu.ac.kr 영상의학과",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI",
+        "X-ray",
+        "초음파"
+      ],
+      "credentials": "국립대 수의대 부속. 응급의학과·영상의학과 공식 과 페이지.",
+      "strength_plain": "대학 분과·24시 응급·CT/MRI가 공식 페이지·기사로 확인됨.",
+      "avoid_hype": "최신/최고 표현 제외. CT 채널은 2016 64ch와 이후 160ch 기사가 공존—현장 기종은 전화 확인.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "vmth.snu.ac.kr 응급의학과·영상의학과",
+        "뉴스1 2025 맞춤형 검진 기사"
+      ],
+      "does_not_confirmed": [
+        "일선 예방접종 중심 1차와 역할이 다름. 응급은 당일 직접 내원 가능(공식)"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-konkuk-vmth",
+      "master_id": "3040000_304000001020040003",
+      "name": "건국대학교 부속 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "phone": "02-450-3664",
+      "address": "서울특별시 광진구 능동로 120 (화양동)",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "yes",
+        "weekday_hours": "09:00–17:00",
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "영상 의뢰 월–금 09–17. 24시 여부는 이번 출처로 확정 안 함.",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "CT/MRI 기사"
+        },
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "대학"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)",
+        "응급"
+      ],
+      "services": [
+        "CT 의뢰 촬영",
+        "MRI 의뢰 촬영",
+        "분과 진료"
+      ],
+      "focus_conditions": [
+        "의뢰 영상",
+        "종양 연계",
+        "응급중환자",
+        "내과·외과·안과"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "Canon Aquilion Lightning 160 slice CT",
+          "model": "160ch · Aquilion · Canon",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "konkuk vmth External Referrals 영상의학과 페이지",
+          "as_of": "2026-09-19",
+          "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "GE Signa HDxt 1.5T MRI",
+          "model": "1.5T tesla · Signa HDxt · HDxt",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "konkuk vmth External Referrals",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": "건국대 수의대 부속. 영상의학과 의뢰 창구 운영.",
+      "strength_plain": "CT·MRI 기종이 대학 영상과 페이지에 명시.",
+      "avoid_hype": "사람 건국대병원 MRI 교체 기사와 혼동 금지.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "konkuk.ac.kr vmth radiology external referrals"
+      ],
+      "does_not_confirmed": [
+        "CT/MRI는 지정병원 의뢰 예약. 주말 영상 예약 없음(공식 영문 안내)"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "hours_unconfirmed",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-snu-checkup-gwangjin",
+      "master_id": "3040000_304000001020250001",
+      "name": "서울대학교동물검진센터",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "phone": "02-6930-5747",
+      "address": "서울특별시 광진구 구의강변로 46, 금성빌딩",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "08:00–17:00",
+        "weekend_hours": "휴진",
+        "night_hours": null,
+        "hours_note": "월–금 08–17, 토일·공휴 휴진",
+        "name_has_24h_token": false
+      },
+      "departments": [],
+      "department_labels": [],
+      "services": [
+        "엑스선",
+        "초음파",
+        "혈액"
+      ],
+      "focus_conditions": [
+        "건강검진"
+      ],
+      "equipment": [
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "엑스선",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "animalhealthcare.kr 수가표",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "animalhealthcare.kr 수가표",
+          "as_of": "2026-09-19",
+          "publisher": "news1"
+        }
+      ],
+      "equipment_summary": [
+        "X-ray",
+        "초음파"
+      ],
+      "credentials": "SNU반려동물헬스케어센터(법인). 관악 부속병원과 별도 인허가.",
+      "strength_plain": "광진 검진 특화. 주중 운영. 영상 대형장비는 관악과 분리.",
+      "avoid_hype": true,
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "animalhealthcare.kr/price",
+        "뉴스1 검진센터 보도"
+      ],
+      "does_not_confirmed": [
+        "관악 본원 160ch CT·1.5T MRI를 이 센터 보유로 복사하지 않음. 모집공고는 CT까지(뉴스1). 토일 휴진."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "departments_sparse",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b14-노원N동물의료센터",
+      "master_id": "3100000_310000001020130003",
+      "name": "노원N동물의료센터",
+      "sido": "서울특별시",
+      "sigungu": "노원구",
+      "phone": null,
+      "address": "서울특별시 노원구 노원로 408, (주)노원24시동물의료센터 1,2,4층 (상계동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": null,
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "3T MRI·80slice CT"
+        },
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "unknown",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "24시 상호 아님"
+        },
+        {
+          "code": "rehab",
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "수중런닝·레이저"
+        },
+        {
+          "code": "dialysis",
+          "label": "투석",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "혈액투석"
+        },
+        {
+          "code": "feline",
+          "label": "고양이 특화",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "N고양이병원"
+        },
+        {
+          "code": "ortho",
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "정형 수술·재활"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)",
+        "응급",
+        "재활",
+        "투석",
+        "고양이 특화",
+        "정형외과"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "imaging",
+        "emergency",
+        "rehab",
+        "dialysis",
+        "feline",
+        "ortho"
+      ],
+      "equipment": [
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "Canon Vantage Galan 3T AI",
+          "model": "3T",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 2025-02",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "Canon Aquilion Lightning 80 Slice",
+          "model": "80slice",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 기사",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "underwater_treadmill",
+          "label": "수중런닝/수중보행",
+          "item": "수중런닝머신",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 확장이전",
+          "as_of": "2026-09-20",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "수중런닝/수중보행"
+      ],
+      "credentials": null,
+      "strength_plain": "노원. 데일리벳: 3T MRI(Vantage Galan)·80slice CT. 확장기사: 투석·재활·고양이병원.",
+      "avoid_hype": true,
+      "confidence": "high",
+      "verification_grade": "A",
+      "verification_score": 96,
+      "sources": [
+        "https://www.dailyvet.co.kr/news/practice/companion-animal/238100"
+      ],
+      "does_not_confirmed": [
+        "타 지점·동명 병원 장비 복사 금지."
+      ],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "phone_missing",
+          "msg": "전화 없음"
+        }
+      ],
+      "site_gaps": [
+        "phone_missing",
+        "hours_unconfirmed",
+        "emergency_unconfirmed",
+        "hours_note_missing",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "rehab-hangeoleumdeo",
+      "master_id": null,
+      "name": "한걸음더 재활한방 동물병원",
+      "sido": "서울특별시",
+      "sigungu": "송파구",
+      "phone": "02-423-2088",
+      "address": "서울 송파구 백제고분로 294 1층",
+      "role": "rehab_specialty",
+      "role_label": "재활 특화",
+      "care_level": "rehab_specialty",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": true,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": null,
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "rehab",
+          "label": "재활",
+          "available": "yes",
+          "role": "primary_strength",
+          "evidence_level": "reported",
+          "evidence": "재활 특화"
+        }
+      ],
+      "department_labels": [
+        "재활"
+      ],
+      "services": [
+        "침",
+        "재생치료(PRP/엑소좀 등 병원 제공)",
+        "체외충격파",
+        "레이저",
+        "수중보행",
+        "고압산소",
+        "전기치료",
+        "운동치료"
+      ],
+      "focus_conditions": [
+        "정형·신경",
+        "후지마비",
+        "노령 보행장애",
+        "IVDD 보존치료(MRI는 타원 의뢰)"
+      ],
+      "equipment": [
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "운동치료실",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 인터뷰 사진·서술",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "underwater_treadmill",
+          "label": "수중런닝/수중보행",
+          "item": "수중보행",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "원장 인터뷰 치료 목록",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "hbot",
+          "label": "고압산소",
+          "item": "고압산소",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "인터뷰",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "고압산소",
+        "수중런닝/수중보행"
+      ],
+      "credentials": "이은구 CCRT CVA CVFT CVTP, 전 VIP 청담 재활센터장, 한국동물재활학회 이사",
+      "strength_plain": "재활·한방만 하는 1인 특화. 마비·노령 보행. 예약제 초진 약 1시간.",
+      "avoid_hype": "엑소좀 만능 주장은 제외. 재생치료는 근거 수준이 제한적.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "데일리벳 전문진료 인터뷰 40",
+        "원장 페이지"
+      ],
+      "does_not_confirmed": [
+        "예방접종·중성화·일반외과는 하지 않는다고 인터뷰에서 명시"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "hours_unconfirmed",
+        "emergency_unconfirmed",
+        "hours_note_missing",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "b14-24시월드펫동물메디컬센터",
+      "master_id": "3140000_314000001020220001",
+      "name": "24시월드펫동물메디컬센터",
+      "sido": "서울특별시",
+      "sigungu": "양천구",
+      "phone": "02-2698-7582",
+      "address": "서울특별시 양천구 신월로 208(신월동)",
+      "role": "secondary",
+      "role_label": "2차 의료센터",
+      "care_level": "secondary",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시. 영상센터 365일",
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "24시"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뉴스1·공식 MRI/CT"
+        },
+        {
+          "code": "neuro",
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 후두골·뇌수두증 MRI"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "신경"
+      ],
+      "services": [],
+      "focus_conditions": [
+        "emergency",
+        "imaging",
+        "neuro"
+      ],
+      "equipment": [
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "Philips Achieva 1.5T Nova dual",
+          "model": "1.5T",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "뉴스1+공식",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "뉴스1 영상센터",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "공식",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "carm",
+          "label": "C-arm",
+          "item": "C-arm",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "공식",
+          "as_of": "2026-09-20",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "C-arm",
+        "CT",
+        "X-ray"
+      ],
+      "credentials": null,
+      "strength_plain": "양천 신월. 뉴스1 MRI 촬영·영상실장. 공식 1.5T Philips·CT 영상센터 365일.",
+      "avoid_hype": true,
+      "confidence": "high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "https://www.news1.kr/amp/bio/general/5908174",
+        "https://24worldpet.com/medical-imaging-center/"
+      ],
+      "does_not_confirmed": [
+        "타 지점·동명 병원 장비 복사 금지."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "gwangju-noah",
+      "master_id": null,
+      "name": "24시노아동물메디컬센터",
+      "sido": "전남광주통합특별시",
+      "sigungu": "동구",
+      "phone": "062-222-0075",
+      "address": "광주 동구 독립로 292",
+      "role": "secondary_with_rehab_room",
+      "role_label": "2차(+재활실)",
+      "care_level": "secondary_with_rehab_room",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": null,
+        "name_has_24h_token": true
+      },
+      "departments": [
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "24시 상호"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 우치 CT"
+        },
+        {
+          "code": "ortho",
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "병원 소개 정형"
+        }
+      ],
+      "department_labels": [
+        "응급",
+        "영상(CT/MRI)",
+        "정형외과"
+      ],
+      "services": [
+        "24시 응급",
+        "정형·신경 수술 표방",
+        "MRI/CT 촬영",
+        "레이저 재활 수준"
+      ],
+      "focus_conditions": [
+        "중증·외상·심장·종양·정형·영상. 재활은 센터 구성 항목"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "1.5T MRI Vantage Titan",
+          "model": "1.5T tesla · Vantage Titan",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "2026-01 병원 공지 업그레이드",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": "64ch (병원 소개, 미검증)",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 우치동물원 협약: 마모셋 CT·호랑이 CT. 64채널 기종은 병원 소개",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": null,
+      "strength_plain": "광주는 재활 특화가 아니라 2차+영상. 수중런닝은 확인 안 됨.",
+      "avoid_hype": "호남 최다 전문의는 마케팅.",
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "병원 SNS 2026",
+        "기존 광주 보강",
+        "데일리벳 우치동물원·노아 협약"
+      ],
+      "does_not_confirmed": [
+        "MRI Vantage Titan·64ch 기종은 자가. CT 존재만 reported."
+      ],
+      "issues": [],
+      "site_gaps": [
+        "hours_note_missing",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-jnu-vmth",
+      "master_id": "5820000_582000001019860001",
+      "name": "전남대학교 동물병원",
+      "sido": "전남광주통합특별시",
+      "sigungu": "북구",
+      "phone": null,
+      "address": "광주 북구 용봉로 77 전남대학교 (마스터 주소 기준)",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "24시 응급 2025-05-07 개소.",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "MRI"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)"
+      ],
+      "services": [
+        "24시 응급의료센터(2025-05 개소)",
+        "분과 진료",
+        "MRI 도입 기사"
+      ],
+      "focus_conditions": [
+        "호남 의뢰",
+        "응급(2025-05~)",
+        "분과",
+        "줄기세포 센터(2025 개소 기사)"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 전남대동물병원 인공지능 MRI 도입 보도",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "MRI"
+      ],
+      "credentials": "국립대 부속. 2025-05 24시 응급 개소(헬스조선·KBC·데일리벳).",
+      "strength_plain": "광주 대학병원. 24시 응급은 2025-05부터 기사로 확인.",
+      "avoid_hype": "사람 전남대병원과 혼동 금지. CT 기종은 이번 검색에서 미확인.",
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 96,
+      "sources": [
+        "헬스조선 2025-05-13",
+        "데일리벳 24시 응급 개소 2025-05-08",
+        "KBC 2025-05-08"
+      ],
+      "does_not_confirmed": [
+        "2025-05 이전에는 평일 주간 예약 중심이었다는 병원 측 설명"
+      ],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "phone_missing",
+          "msg": "전화 없음"
+        }
+      ],
+      "site_gaps": [
+        "phone_missing",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-jbnu-jamc",
+      "master_id": "4681000_468100001020150001",
+      "name": "전북동물의료센터",
+      "sido": "전북특별자치도",
+      "sigungu": "익산시",
+      "phone": "063-850-0970",
+      "address": "전북특별자치도 익산시 고봉로 79 전북대학교 특성화캠퍼스",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "국립대 중 24시 응급 운영 그룹에 포함(헬스조선 2025-05 정리).",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "3T MRI 기사"
+        },
+        {
+          "code": "emergency",
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "대학"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)",
+        "응급"
+      ],
+      "services": [
+        "CT",
+        "MRI",
+        "X-ray",
+        "초음파",
+        "응급진료",
+        "분과. 예방접종은 공식 비용페이지에서 안 함"
+      ],
+      "focus_conditions": [
+        "영상(고자장 MRI)",
+        "의뢰 CT/MRI",
+        "응급",
+        "분과"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "3.0T MRI United Imaging uMR 780",
+          "model": "3.0T tesla · uMR 780",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 전북동물의료센터 3T MRI 도입·심포지엄",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": "3T tesla",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "공식 진료비용 안내 CT 항목·데일리벳 3T 도입 기사에서 CT 동시 운용",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "jamc.jbnu.ac.kr 진료비용안내",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "복부 초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "jamc.jbnu.ac.kr 진료비용안내",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "echo",
+          "label": "심장초음파",
+          "item": "심장 초음파",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "jamc.jbnu.ac.kr 진료비용안내",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI",
+        "X-ray",
+        "심장초음파",
+        "초음파"
+      ],
+      "credentials": "전북대 수의대 부속(전북동물의료센터).",
+      "strength_plain": "대학 공식 수가에 CT/MRI 항목. 3T MRI는 데일리벳 확인.",
+      "avoid_hype": "'국내 수의대 최초 3T'는 마케팅 문장으로 본문에 넣지 않음. 도입 사실만.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "jamc.jbnu.ac.kr 진료비용안내",
+        "데일리벳 3T MRI 도입",
+        "데일리벳 심포지엄"
+      ],
+      "does_not_confirmed": [
+        "예방접종 안 함(공식 진료비용 안내)"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-jeju-equine",
+      "master_id": "6510000_651000001020170006",
+      "name": "제주대학교 말전문동물병원",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "phone": "064-725-0175",
+      "address": "제주특별자치도 제주시 (마스터 기준)",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "미확인.",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "equine",
+          "label": "말(대동물)",
+          "available": "yes",
+          "role": "primary_strength",
+          "evidence_level": "reported",
+          "evidence": "말 전용 CT"
+        },
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "장비 행에서 유도"
+        }
+      ],
+      "department_labels": [
+        "말(대동물)",
+        "영상(CT/MRI)"
+      ],
+      "services": [
+        "말 전용 CT"
+      ],
+      "focus_conditions": [
+        "말 임상",
+        "대동물 영상"
+      ],
+      "equipment": [
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "Canon Aquilion Lightning 16ch 말 전용 CT",
+          "model": "16ch · Aquilion · Canon",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "미디어피아 2020 제주대 말전문동물병원 말 전용 CT 도입",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "CT"
+      ],
+      "credentials": "제주대 말전문동물병원.",
+      "strength_plain": "말 전용 CT 기사 확인. 소동물 MRI와 장소·인허가 다름.",
+      "avoid_hype": "'국내 최초' 본문 제외. 도입 사실만.",
+      "confidence": "medium",
+      "verification_grade": "A",
+      "verification_score": 96,
+      "sources": [
+        "미디어피아 2020-09 말 전용 CT"
+      ],
+      "does_not_confirmed": [
+        "소동물 부설병원과 인허가 분리"
+      ],
+      "issues": [
+        {
+          "sev": "warn",
+          "code": "stale_source",
+          "msg": "2023년 이전 출처: 미디어피아 2020-09 말 전용 CT"
+        }
+      ],
+      "site_gaps": [
+        "hours_unconfirmed",
+        "emergency_unconfirmed",
+        "stale_source",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-jeju-vmth",
+      "master_id": "6510000_651000001019950002",
+      "name": "제주대학교 수의과대학 부설동물병원",
+      "sido": "제주특별자치도",
+      "sigungu": "제주시",
+      "phone": "064-754-3381",
+      "address": "제주특별자치도 제주시 제주대학로 102",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "weekday_hours": null,
+        "weekend_hours": null,
+        "night_hours": null,
+        "hours_note": "24시 미확인.",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "MRI/CT"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)"
+      ],
+      "services": [
+        "MRI",
+        "CT",
+        "분과"
+      ],
+      "focus_conditions": [
+        "제주 의뢰 영상",
+        "소동물"
+      ],
+      "equipment": [
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "Siemens 1.5T MRI",
+          "model": "1.5T tesla · Siemens",
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리벳 제주대 부설동물병원 1.5T MRI 도입",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT (동일 제조사, 원장 발언)",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "같은 데일리벳 기사 원장 '현재 운영 중인 같은 회사의 CT'",
+          "as_of": "2026-09-19",
+          "publisher": "dailyvet"
+        }
+      ],
+      "equipment_summary": [
+        "CT",
+        "MRI"
+      ],
+      "credentials": "제주대 수의대 부설. vethospital.jejunu.ac.kr",
+      "strength_plain": "1.5T MRI·CT가 데일리벳 가동식 기사로 확인.",
+      "avoid_hype": "말 전용 CT(Aquilion Lightning)는 말전문병원 카드로 분리.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "데일리벳 제주대 1.5T MRI 도입",
+        "vethospital.jejunu.ac.kr"
+      ],
+      "does_not_confirmed": [
+        "말전문동물병원·말 전용 CT는 별도 인허가"
+      ],
+      "issues": [],
+      "site_gaps": [
+        "hours_unconfirmed",
+        "emergency_unconfirmed",
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    },
+    {
+      "id": "univ-cbnu-cheongju",
+      "master_id": "5710000_572500001020102001",
+      "name": "충북대학교 동물병원",
+      "sido": "충청북도",
+      "sigungu": "청주시",
+      "phone": "043-261-3220",
+      "address": "충청북도 청주시 (마스터 기준)",
+      "role": "university",
+      "role_label": "대학동물병원",
+      "care_level": "university",
+      "visibility": "public",
+      "publishable": true,
+      "not_general_hospital": false,
+      "hours": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "weekend_hours": null,
+        "night_hours": "24시간",
+        "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
+        "name_has_24h_token": false
+      },
+      "departments": [
+        {
+          "code": "imaging",
+          "label": "영상(CT/MRI)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "reported",
+          "evidence": "PET-CT"
+        }
+      ],
+      "department_labels": [
+        "영상(CT/MRI)"
+      ],
+      "services": [
+        "PET-CT",
+        "분과 진료",
+        "지역 병원 임상병리 수탁"
+      ],
+      "focus_conditions": [
+        "핵의학·PET-CT",
+        "의뢰 임상병리",
+        "분과"
+      ],
+      "equipment": [
+        {
+          "kind": "pet_ct",
+          "label": "PET-CT",
+          "item": "PET-CT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "cbuanimal.co.kr 핵의학과 페이지(2018~ 진료 적용)",
+          "as_of": "2026-09-19",
+          "publisher": null
+        }
+      ],
+      "equipment_summary": [
+        "PET-CT"
+      ],
+      "credentials": "충북대 수의대 청주 본원. 세종분원과 인허가 분리.",
+      "strength_plain": "대학 공식 핵의학과에 PET-CT 명시.",
+      "avoid_hype": "사람 충북대병원 PET-CT와 혼동 금지.",
+      "confidence": "medium-high",
+      "verification_grade": "A",
+      "verification_score": 100,
+      "sources": [
+        "cbuanimal.co.kr 핵의학과",
+        "헬스조선 24시 응급 5개교 목록"
+      ],
+      "does_not_confirmed": [],
+      "issues": [],
+      "site_gaps": [
+        "no_official_equipment_proof"
+      ],
+      "source_file": "homepage-public",
+      "as_of": "2026-09-19"
+    }
+  ]
+}
