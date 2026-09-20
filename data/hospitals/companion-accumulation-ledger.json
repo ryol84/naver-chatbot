@@ -7151,6 +7151,65 @@
         }
       ],
       "source_branch": "cursor/place-neigh-gyeongbuk-ac30"
+    },
+    {
+      "ts": "2026-09-20T09:26:06Z",
+      "action": "merge_place_neigh_gyeonggi_wave2",
+      "stats": {
+        "hit_applied": 85,
+        "homepage_set": 2,
+        "phone_set": 3,
+        "hours_set": 1,
+        "dept_merged": 0,
+        "no_hit": 6,
+        "ambiguous_skip": 1,
+        "exclude_closed": 8,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_77d4a195cec4",
+          "name": "펫가든동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE; 구리 동구릉로136번길57 mypet 펫가든구리점(위즈펫) 폐업 표기"
+        },
+        {
+          "id": "nat_02babcbed291",
+          "name": "폴의골목동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 폐업; Place는 양평 서종 북한강로817·031-774-9115·일요일휴무 잔존 노출"
+        },
+        {
+          "id": "nat_47fb447a33c4",
+          "name": "건국동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 하남 하남대로795 건국동물병원 폐업"
+        },
+        {
+          "id": "nat_387acc9f11f0",
+          "name": "혜성산업동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119·hospitalk 연천 전곡 은전로78번길92 혜성산업동물병원 폐업(2018)"
+        },
+        {
+          "id": "nat_733799a15f20",
+          "name": "금정동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 군포 금산로100 금정동물병원 폐업"
+        },
+        {
+          "id": "nat_f55ef05a35fd",
+          "name": "중앙동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 동두천 평화로2546 중앙동물병원 폐업; 구전화031-863-0075"
+        },
+        {
+          "id": "nat_3ddfcfbaa103",
+          "name": "가평동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 가평가축병원 오리나무길27 폐업; Place 잔존(전화031-582-2412; 타깃 오리나무길29-9)"
+        },
+        {
+          "id": "nat_4eff25c7724a",
+          "name": "한서동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 여주 세종로517번길21-2 한서동물병원 폐업"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gyeonggi-w2-ac30"
     }
   ]
 }

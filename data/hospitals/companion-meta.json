@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4258,
-  "excluded_n": 153,
+  "n": 4250,
+  "excluded_n": 161,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -156,10 +156,17 @@
     "범방동물병원",
     "의성축협 동물병원",
     "성심동물병원",
-    "선산중앙동물병원"
+    "선산중앙동물병원",
+    "폴의골목동물병원",
+    "건국동물병원",
+    "혜성산업동물병원",
+    "금정동물병원",
+    "중앙동물병원",
+    "가평동물병원",
+    "한서동물병원"
   ],
   "stats": {
-    "with_homepage": 1923,
+    "with_homepage": 1925,
     "with_hours": 3216,
     "with_phone": 3982,
     "hours_24h_yes": 221
@@ -172,7 +179,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3544,
+    "neighborhood": 3536,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -519,6 +526,54 @@
         "name": "선산중앙동물병원",
         "reason": "CLOSED: 구미 선산읍 남문로3길 1 주소일치; mypet-119 등 폐업 표기 → CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_77d4a195cec4",
+        "name": "펫가든동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE; 구리 동구릉로136번길57 mypet 펫가든구리점(위즈펫) 폐업 표기",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_02babcbed291",
+        "name": "폴의골목동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 폐업; Place는 양평 서종 북한강로817·031-774-9115·일요일휴무 잔존 노출",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_47fb447a33c4",
+        "name": "건국동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 하남 하남대로795 건국동물병원 폐업",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_387acc9f11f0",
+        "name": "혜성산업동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119·hospitalk 연천 전곡 은전로78번길92 혜성산업동물병원 폐업(2018)",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_733799a15f20",
+        "name": "금정동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 군포 금산로100 금정동물병원 폐업",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_f55ef05a35fd",
+        "name": "중앙동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 동두천 평화로2546 중앙동물병원 폐업; 구전화031-863-0075",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_3ddfcfbaa103",
+        "name": "가평동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 가평가축병원 오리나무길27 폐업; Place 잔존(전화031-582-2412; 타깃 오리나무길29-9)",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_4eff25c7724a",
+        "name": "한서동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 여주 세종로517번길21-2 한서동물병원 폐업",
+        "excluded_at": "2026-09-20T09:26:06Z"
       }
     ],
     "primary_nohp_local": {
@@ -779,9 +834,33 @@
         "exclude_large_animal": 6,
         "missing_id": 0
       }
+    },
+    "gyeonggi_neigh_wave2": {
+      "n": 100,
+      "hit": 85,
+      "no_hit": 6,
+      "ambiguous": 1,
+      "closed_exclude": 8,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 41,
+      "merged_at": "2026-09-20T09:26:06Z",
+      "source_branch": "cursor/place-neigh-gyeonggi-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 85,
+        "homepage_set": 2,
+        "phone_set": 3,
+        "hours_set": 1,
+        "dept_merged": 0,
+        "no_hit": 6,
+        "ambiguous_skip": 1,
+        "exclude_closed": 8,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1923,
+  "with_homepage": 1925,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

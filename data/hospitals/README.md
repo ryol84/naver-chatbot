@@ -6,17 +6,17 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4258곳
+## companion 4250곳
 | 등급 | 수 |
 |------|----|
 | 대학 | 12 |
 | 2차 | 499 |
 | 1차 | 182 |
-| 일반 동네 | 3544 |
+| 일반 동네 | 3536 |
 | 재활·한방 | 21 |
 
 ### Place 보강
-- 홈페이지 보유: 1923곳
+- 홈페이지 보유: 1925곳
 - 2차 무홈페이지 잔여: 37곳 (Place/Daum URL·전화·과목은 대부분 확보)
 - 전 병원 departments 채움
 - 1차 Place depth (로컬 11+클라우드 진행): 영업시간·전화·주소교정(검단→인천)
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- Gyeonggi neighborhood wave2: 100 (hit 85 / no_hit 6 / ambiguous 1 / CLOSED 8); homepage 2 (덕소·애플펫) / hours 41
 - Gyeongbuk neighborhood wave1: 100 (hit 85 / no_hit 4 / ambiguous 1 / CLOSED 4 / LARGE_ANIMAL 6); homepage 0 / hours 23; phone +7
 - Chungnam neighborhood wave1: 92 (hit 74 / no_hit 4 / ambiguous 3 / CLOSED 5 / LARGE_ANIMAL 6); homepage 2 / hours 22
 - Gyeongnam neighborhood wave1: 100 (hit 87 / no_hit 6 / ambiguous 2 / CLOSED 5); homepage 1 (참좋은) / hours 37
