@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4168,
-  "excluded_n": 234,
+  "n": 4167,
+  "excluded_n": 235,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -237,12 +237,13 @@
     "정다운동물종합병원",
     "중앙동물종합병원",
     "쿨펫동물병원 동탄점",
-    "펫사랑동물병원"
+    "펫사랑동물병원",
+    "짱동물병원"
   ],
   "stats": {
     "with_homepage": 1927,
-    "with_hours": 3282,
-    "with_phone": 3942,
+    "with_hours": 3288,
+    "with_phone": 3941,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -253,7 +254,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3454,
+    "neighborhood": 3453,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -1140,6 +1141,12 @@
         "name": "펫사랑동물병원",
         "reason": "CLOSED: mypet-119 폐업(영신로 29 지제동 이마트); 경기도 Place 미매칭·타지역 동명",
         "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_f1b72b16f228",
+        "name": "짱동물병원",
+        "reason": "CLOSED: 김해시 Place 미노출·디렉터리 폐업(경남 김해시 율하2로 248)",
+        "excluded_at": "2026-09-20T12:37:19Z"
       }
     ],
     "primary_nohp_local": {
@@ -1722,6 +1729,54 @@
         "no_hit": 3,
         "ambiguous_skip": 0,
         "exclude_closed": 11,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "gyeongnam_neigh_wave2": {
+      "n": 30,
+      "hit": 27,
+      "no_hit": 2,
+      "ambiguous": 0,
+      "closed_exclude": 1,
+      "large_animal_exclude": 0,
+      "homepages_reported": 1,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T12:37:19Z",
+      "source_branch": "cursor/place-neigh-gyeongnam-busan-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 27,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 4,
+        "no_hit": 2,
+        "ambiguous_skip": 0,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "busan_neigh_wave2": {
+      "n": 7,
+      "hit": 6,
+      "no_hit": 0,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T12:37:19Z",
+      "source_branch": "cursor/place-neigh-gyeongnam-busan-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 6,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 3,
+        "no_hit": 0,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
         "exclude_large_animal": 0,
         "missing_id": 0
       }

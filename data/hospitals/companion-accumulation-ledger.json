@@ -7853,6 +7853,48 @@
         }
       ],
       "source_branch": "cursor/place-neigh-gyeonggi-w3-ac30"
+    },
+    {
+      "ts": "2026-09-20T12:37:19Z",
+      "action": "merge_place_neigh_gyeongnam_wave2",
+      "stats": {
+        "hit_applied": 27,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 4,
+        "no_hit": 2,
+        "ambiguous_skip": 0,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_f1b72b16f228",
+          "name": "짱동물병원",
+          "reason": "CLOSED: 김해시 Place 미노출·디렉터리 폐업(경남 김해시 율하2로 248)"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gyeongnam-busan-w2-ac30"
+    },
+    {
+      "ts": "2026-09-20T12:37:19Z",
+      "action": "merge_place_neigh_busan_wave2",
+      "stats": {
+        "hit_applied": 6,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 3,
+        "no_hit": 0,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [],
+      "source_branch": "cursor/place-neigh-gyeongnam-busan-w2-ac30"
     }
   ],
   "wave_actions": [
