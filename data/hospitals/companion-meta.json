@@ -124,7 +124,7 @@
     "with_homepage": 1909,
     "with_hours": 3164,
     "with_phone": 3975,
-    "hours_24h_yes": 209
+    "hours_24h_yes": 208
   },
   "care_level_taxonomy": {
     "university": "대학동물병원",
@@ -134,10 +134,10 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3574,
+    "neighborhood": 3578,
     "secondary": 499,
     "primary": 187,
-    "university": 16,
+    "university": 12,
     "rehab_specialty": 21
   },
   "enrichment_note": "사이트 없으면 place_search_url(네이버)·daum_map_url(카카오맵)로 확인. 공개 상세(site-hospitals)는 병원별 사이트/플레이스 검증.",
@@ -256,6 +256,32 @@
       "hours_set": 1,
       "phone_set": 0,
       "merged_at": "2026-09-20T03:56:29Z"
+    },
+    "secondary_nohp_wave": {
+      "n": 37,
+      "hit": 29,
+      "ambiguous": 6,
+      "no_hit": 2,
+      "homepages": 0,
+      "merged_at": "2026-09-20T04:00:24Z",
+      "source_branch": "cursor/place-sec-special-nohp-ac30",
+      "merge_stats": {
+        "applied": 44,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 2,
+        "dept_merged": 16,
+        "ambiguous_applied_cautious": 5
+      }
+    },
+    "special_remaining": {
+      "n": 8,
+      "hit": 7,
+      "no_hit": 1,
+      "large_animal_already_excluded": 1,
+      "reclassified_private_대학동물병원": 4,
+      "merged_at": "2026-09-20T04:00:24Z",
+      "source_branch": "cursor/place-sec-special-nohp-ac30"
     }
   },
   "with_homepage": 1909,

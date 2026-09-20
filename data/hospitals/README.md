@@ -9,10 +9,10 @@
 ## companion 4297곳
 | 등급 | 수 |
 |------|----|
-| 대학 | 16 |
+| 대학 | 12 |
 | 2차 | 499 |
 | 1차 | 187 |
-| 일반 동네 | 3574 |
+| 일반 동네 | 3578 |
 | 재활·한방 | 21 |
 
 ### Place 보강
@@ -31,3 +31,6 @@
 
 - 제외: 경북대 상주 분원 (대동물 전용)
 - primary nohp local 8: 모란→24시 hours; 가든·건국(성남 시민로) 폐업 제외
+- secondary nohp wave: 37 (hit 29 / ambiguous 6 / no_hit 2; 공식 홈페이지 0)
+- special remaining (대학·재활 잔여): 8 (hit 7 / no_hit 1; 경북대 상주분원 LARGE_ANIMAL_ONLY_EXCLUDE + knuvmth.co.kr)
+- special remaining merge: 민간「대학동물병원」4곳 care_level→neighborhood; 한양·행복드림 hours

@@ -6787,6 +6787,21 @@
       "action": "place_local_primary8",
       "hours_set": 1,
       "closed": 2
+    },
+    {
+      "ts": "2026-09-20T04:00:24Z",
+      "action": "merge_place_sec_special_nohp",
+      "stats": {
+        "applied": 44,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 2,
+        "dept_merged": 16,
+        "reclassified": 4,
+        "skipped_excluded": 1,
+        "ambiguous_applied_cautious": 5
+      },
+      "source_branch": "cursor/place-sec-special-nohp-ac30"
     }
   ]
 }
