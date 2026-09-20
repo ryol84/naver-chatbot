@@ -6,13 +6,13 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4198곳
+## companion 4196곳
 | 등급 | 수 |
 |------|----|
 | 대학 | 12 |
 | 2차 | 499 |
 | 1차 | 182 |
-| 일반 동네 | 3484 |
+| 일반 동네 | 3482 |
 | 재활·한방 | 21 |
 
 ### Place 보강
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- Jeju neighborhood wave1: 84 (hit 52 / no_hit 29 / ambiguous 1 / CLOSED 2); homepage 7 / hours 36
 - Ulsan neighborhood wave1: 45 (hit 33 / no_hit 9 / ambiguous 1 / CLOSED 2); homepage 9 reported (0 new) / hours 31
 - Gangwon neighborhood wave1: 100 (hit 86 / no_hit 2 / CLOSED 5 / LARGE_ANIMAL 7); homepage 5 / hours 41
 - Chungbuk neighborhood wave1: 89 (hit 68 / no_hit 12 / CLOSED 4 / LARGE_ANIMAL 5); homepage 10 / hours 35

@@ -7584,6 +7584,35 @@
         }
       ],
       "source_branch": "cursor/place-neigh-ulsan-ac30"
+    },
+    {
+      "ts": "2026-09-20T10:12:59Z",
+      "action": "merge_place_neigh_jeju_wave1",
+      "stats": {
+        "hit_applied": 52,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 6,
+        "dept_merged": 17,
+        "no_hit": 29,
+        "ambiguous_skip": 1,
+        "exclude_closed": 2,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_f0e3bd25cebf",
+          "name": "태흥동물병원",
+          "reason": "CLOSED: 디렉터리/검색 폐업 표기(태흥동물병원 새 창 열림 Keep에 저장 Keep에 바로가기 새 창 열림 태흥동물병원 (폐업) - 제주특별자치도 제주 시 동물병원 폐업 정보 · 연북로 681 새 창 열림 제주"
+        },
+        {
+          "id": "nat_4710839024b0",
+          "name": "남문동물병원",
+          "reason": "CLOSED: 디렉터리/검색 폐업 표기(남문동물병원 새 창 열림 Keep에 저장 Keep에 바로가기 새 창 열림 남문동물병원 (폐업) - 제주 특별자치도 제주 시 동물병원 폐업 정보 · 중앙로 114-1 새 창 열림"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-jeju-ac30"
     }
   ]
 }

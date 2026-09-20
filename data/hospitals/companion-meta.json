@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4198,
-  "excluded_n": 213,
+  "n": 4196,
+  "excluded_n": 215,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -208,12 +208,14 @@
     "횡성축협동물병원",
     "태백동물병원",
     "하나동물병원",
-    "동산동물병원"
+    "동산동물병원",
+    "태흥동물병원",
+    "남문동물병원"
   ],
   "stats": {
     "with_homepage": 1929,
-    "with_hours": 3226,
-    "with_phone": 3959,
+    "with_hours": 3231,
+    "with_phone": 3957,
     "hours_24h_yes": 223
   },
   "care_level_taxonomy": {
@@ -224,7 +226,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3484,
+    "neighborhood": 3482,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -931,6 +933,18 @@
         "name": "쿨펫동물병원",
         "reason": "CLOSED: 남구 수암로148(홈플러스) mypet-119·디렉터리 폐업 표기 → CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T10:02:30Z"
+      },
+      {
+        "id": "nat_f0e3bd25cebf",
+        "name": "태흥동물병원",
+        "reason": "CLOSED: 디렉터리/검색 폐업 표기(태흥동물병원 새 창 열림 Keep에 저장 Keep에 바로가기 새 창 열림 태흥동물병원 (폐업) - 제주특별자치도 제주 시 동물병원 폐업 정보 · 연북로 681 새 창 열림 제주특별); 제주 제주시 타깃",
+        "excluded_at": "2026-09-20T10:12:59Z"
+      },
+      {
+        "id": "nat_4710839024b0",
+        "name": "남문동물병원",
+        "reason": "CLOSED: 디렉터리/검색 폐업 표기(남문동물병원 새 창 열림 Keep에 저장 Keep에 바로가기 새 창 열림 남문동물병원 (폐업) - 제주 특별자치도 제주 시 동물병원 폐업 정보 · 중앙로 114-1 새 창 열림 제); 제주 제주시 타깃",
+        "excluded_at": "2026-09-20T10:12:59Z"
       }
     ],
     "primary_nohp_local": {
@@ -1354,6 +1368,30 @@
         "hours_set": 5,
         "dept_merged": 9,
         "no_hit": 9,
+        "ambiguous_skip": 1,
+        "exclude_closed": 2,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "jeju_neigh_wave1": {
+      "n": 84,
+      "hit": 52,
+      "no_hit": 29,
+      "ambiguous": 1,
+      "closed_exclude": 2,
+      "large_animal_exclude": 0,
+      "homepages_reported": 7,
+      "hours_reported": 36,
+      "merged_at": "2026-09-20T10:12:59Z",
+      "source_branch": "cursor/place-neigh-jeju-ac30",
+      "merge_stats": {
+        "hit_applied": 52,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 6,
+        "dept_merged": 17,
+        "no_hit": 29,
         "ambiguous_skip": 1,
         "exclude_closed": 2,
         "exclude_large_animal": 0,
