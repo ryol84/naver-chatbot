@@ -7613,6 +7613,40 @@
         }
       ],
       "source_branch": "cursor/place-neigh-jeju-ac30"
+    },
+    {
+      "ts": "2026-09-20T10:14:00Z",
+      "action": "merge_place_neigh_daejeon_wave1",
+      "stats": {
+        "hit_applied": 73,
+        "homepage_set": 3,
+        "phone_set": 1,
+        "hours_set": 6,
+        "dept_merged": 4,
+        "no_hit": 0,
+        "ambiguous_skip": 9,
+        "exclude_closed": 3,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_4004da76aae8",
+          "name": "공동물병원",
+          "reason": "CLOSED: 대전 중구 대흥로94 폐업 확인(mypet-119); Place 미등록"
+        },
+        {
+          "id": "nat_5e04b893d200",
+          "name": "애니멀즈동물병원",
+          "reason": "CLOSED: 대전 유성 온천북로31 폐업 확인(mypet-119); Place 미등록. 타깃전화0507과 디렉터리042-824-8885 상이"
+        },
+        {
+          "id": "nat_39023d25d4a8",
+          "name": "하모니동물병원",
+          "reason": "CLOSED: 대전 유성 관평2로20 폐업(2025-03-18 사업자/디렉터리); Place 미등록"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-daejeon-ac30"
     }
   ]
 }
