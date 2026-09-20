@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- hours round2: primary 29 (hit 27, hours_raw 3) + secondary 25 (hit 19 / ambiguous 6 skipped; homepage 18 reported, hours_raw 16)
 - primary nohp wave 122: hit 118 / ambiguous 4 / no_hit 0; official homepage 0; hours hint/raw 77
 - Seoul neighborhood wave2: 100 (hit 90 / no_hit 9 / ambiguous 1); homepage 1 (온 동물병원) / hours 72
 - Busan neighborhood wave1: 93 (hit 84 / no_hit 9); homepage 1 (박 동물종합병원 daum cafe) / hours 54

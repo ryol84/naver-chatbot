@@ -127,9 +127,9 @@
   ],
   "stats": {
     "with_homepage": 1915,
-    "with_hours": 3184,
-    "with_phone": 3981,
-    "hours_24h_yes": 208
+    "with_hours": 3203,
+    "with_phone": 3982,
+    "hours_24h_yes": 220
   },
   "care_level_taxonomy": {
     "university": "대학동물병원",
@@ -419,6 +419,27 @@
       },
       "primary_still_no_homepage": 115,
       "primary_still_no_hours": 29
+    },
+    "hours_round2": {
+      "primary_n": 29,
+      "secondary_n": 25,
+      "primary_hit": 27,
+      "secondary_hit": 19,
+      "secondary_ambiguous_skipped": 6,
+      "merged_at": "2026-09-20T08:49:12Z",
+      "source_branch": "cursor/place-hours-round2-ac30",
+      "merge_stats": {
+        "hit_applied": 46,
+        "dept_merged": 14,
+        "phone_mismatch_note": 1,
+        "hours_set": 19,
+        "no_hit": 2,
+        "ambiguous_skip": 6,
+        "phone_set": 1
+      },
+      "primary_still_no_hours": 26,
+      "secondary_still_no_hours": 9,
+      "secondary_still_no_homepage": 37
     }
   },
   "with_homepage": 1915,

@@ -6898,6 +6898,20 @@
         "ambiguous_applied": 1
       },
       "source_branch": "cursor/place-primary-nohp-ac30"
+    },
+    {
+      "ts": "2026-09-20T08:49:12Z",
+      "action": "merge_place_hours_round2",
+      "stats": {
+        "hit_applied": 46,
+        "dept_merged": 14,
+        "phone_mismatch_note": 1,
+        "hours_set": 19,
+        "no_hit": 2,
+        "ambiguous_skip": 6,
+        "phone_set": 1
+      },
+      "source_branch": "cursor/place-hours-round2-ac30"
     }
   ]
 }
