@@ -7412,6 +7412,70 @@
         }
       ],
       "source_branch": "cursor/place-neigh-seoul-wave3-ac30"
+    },
+    {
+      "ts": "2026-09-20T09:46:12Z",
+      "action": "merge_place_neigh_chungbuk_wave1",
+      "stats": {
+        "hit_applied": 68,
+        "homepage_set": 1,
+        "phone_set": 2,
+        "hours_set": 6,
+        "dept_merged": 6,
+        "no_hit": 12,
+        "ambiguous_skip": 0,
+        "exclude_closed": 4,
+        "exclude_large_animal": 5,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_e6b1e005415e",
+          "name": "고산동물병원",
+          "reason": "CLOSED: 충주 대소원 대소원로138 mypet-119 등 폐업 표기 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_2ca99494ff5f",
+          "name": "나라동물병원",
+          "reason": "CLOSED: 청주 서원 사직대로254 mypet-119 폐업 표기 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_98cb94a4fd24",
+          "name": "신흥동물병원",
+          "reason": "LARGE_ANIMAL: 청주 내수 충청대로424 Place/디렉터리 hit. 상호 신흥동물병원(산업동물병원) → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_4280b31e6cc4",
+          "name": "오창동물병원",
+          "reason": "LARGE_ANIMAL: 타깃 오창시내5길12 — 디렉터리상 오창가축병원 주소와 일치 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_b32d5bfa85e2",
+          "name": "으뜸대동물병원",
+          "reason": "LARGE_ANIMAL: 청주 오송 디렉터리 hit. 상호 으뜸대동물병원(대동물) → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_d28426307fa0",
+          "name": "제일동물병원",
+          "reason": "CLOSED: 청주 상당 단재로/영운 mypet-119 폐업 표기(단재로26 석교) → CLOSED_EXCLUDE. 타깃 단재로121번길26-9"
+        },
+        {
+          "id": "nat_39dc758ec028",
+          "name": "중부동물병원",
+          "reason": "LARGE_ANIMAL: 단양 삼봉로319 Place hit. 블로그 등 대형동물 중심 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_c29db93011e9",
+          "name": "진주동물병원",
+          "reason": "CLOSED: 제천 의림대로15길24 Place/디렉터리 주소일치하나 머니핀·마켓비즈 휴업자 표기 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_7a54a53ef168",
+          "name": "큰동물병원",
+          "reason": "LARGE_ANIMAL: 충주 주덕읍 신덕로1364-1 Place 주소일치. 한우/젖소 진료 전문·출장진료 표기 → 대동물전용 제외"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-chungbuk-ac30"
     }
   ]
 }

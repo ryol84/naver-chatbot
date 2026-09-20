@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4221,
-  "excluded_n": 190,
+  "n": 4212,
+  "excluded_n": 199,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -189,13 +189,21 @@
     "센트럴동물병원",
     "셀레네동물병원",
     "오즈동물병원",
-    "물고기병원 수산질병관리원"
+    "물고기병원 수산질병관리원",
+    "고산동물병원",
+    "나라동물병원",
+    "신흥동물병원",
+    "오창동물병원",
+    "으뜸대동물병원",
+    "중부동물병원",
+    "진주동물병원",
+    "큰동물병원"
   ],
   "stats": {
-    "with_homepage": 1928,
-    "with_hours": 3219,
-    "with_phone": 3967,
-    "hours_24h_yes": 222
+    "with_homepage": 1929,
+    "with_hours": 3224,
+    "with_phone": 3965,
+    "hours_24h_yes": 223
   },
   "care_level_taxonomy": {
     "university": "대학동물병원",
@@ -205,7 +213,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3507,
+    "neighborhood": 3498,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -774,6 +782,60 @@
         "name": "물고기병원 수산질병관리원",
         "reason": "LARGE_ANIMAL: 노원 공릉로59길15 Place hit(전화·주소 일치). 공식홈 fishdoctor.co.kr 채택; cafe/band 거부 → LARGE_ANIMAL_ONLY_EXCLUDE: 수산질병관리원(관상어/수산) — companion dog/cat 제외",
         "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_e6b1e005415e",
+        "name": "고산동물병원",
+        "reason": "CLOSED: 충주 대소원 대소원로138 mypet-119 등 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_2ca99494ff5f",
+        "name": "나라동물병원",
+        "reason": "CLOSED: 청주 서원 사직대로254 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_98cb94a4fd24",
+        "name": "신흥동물병원",
+        "reason": "LARGE_ANIMAL: 청주 내수 충청대로424 Place/디렉터리 hit. 상호 신흥동물병원(산업동물병원) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_4280b31e6cc4",
+        "name": "오창동물병원",
+        "reason": "LARGE_ANIMAL: 타깃 오창시내5길12 — 디렉터리상 오창가축병원 주소와 일치 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_b32d5bfa85e2",
+        "name": "으뜸대동물병원",
+        "reason": "LARGE_ANIMAL: 청주 오송 디렉터리 hit. 상호 으뜸대동물병원(대동물) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_d28426307fa0",
+        "name": "제일동물병원",
+        "reason": "CLOSED: 청주 상당 단재로/영운 mypet-119 폐업 표기(단재로26 석교) → CLOSED_EXCLUDE. 타깃 단재로121번길26-9",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_39dc758ec028",
+        "name": "중부동물병원",
+        "reason": "LARGE_ANIMAL: 단양 삼봉로319 Place hit. 블로그 등 대형동물 중심 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_c29db93011e9",
+        "name": "진주동물병원",
+        "reason": "CLOSED: 제천 의림대로15길24 Place/디렉터리 주소일치하나 머니핀·마켓비즈 휴업자 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_7a54a53ef168",
+        "name": "큰동물병원",
+        "reason": "LARGE_ANIMAL: 충주 주덕읍 신덕로1364-1 Place 주소일치. 한우/젖소 진료 전문·출장진료 표기 → 대동물전용 제외",
+        "excluded_at": "2026-09-20T09:46:12Z"
       }
     ],
     "primary_nohp_local": {
@@ -1130,9 +1192,33 @@
         "exclude_large_animal": 1,
         "missing_id": 0
       }
+    },
+    "chungbuk_neigh_wave1": {
+      "n": 89,
+      "hit": 68,
+      "no_hit": 12,
+      "ambiguous": 0,
+      "closed_exclude": 4,
+      "large_animal_exclude": 5,
+      "homepages_reported": 10,
+      "hours_reported": 35,
+      "merged_at": "2026-09-20T09:46:12Z",
+      "source_branch": "cursor/place-neigh-chungbuk-ac30",
+      "merge_stats": {
+        "hit_applied": 68,
+        "homepage_set": 1,
+        "phone_set": 2,
+        "hours_set": 6,
+        "dept_merged": 6,
+        "no_hit": 12,
+        "ambiguous_skip": 0,
+        "exclude_closed": 4,
+        "exclude_large_animal": 5,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1928,
+  "with_homepage": 1929,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
