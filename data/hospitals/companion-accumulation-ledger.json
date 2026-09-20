@@ -6802,6 +6802,29 @@
         "ambiguous_applied_cautious": 5
       },
       "source_branch": "cursor/place-sec-special-nohp-ac30"
+    },
+    {
+      "ts": "2026-09-20T04:09:27Z",
+      "action": "merge_place_neigh_gyeonggi_wave1",
+      "stats": {
+        "no_hit": 7,
+        "hit_applied": 90,
+        "dept_merged": 6,
+        "hours_set": 5,
+        "phone_set": 7,
+        "ambiguous_applied": 1,
+        "homepage_set": 4,
+        "ambiguous_skip": 1,
+        "exclude_zoo": 1
+      },
+      "excluded": [
+        {
+          "id": "nat_8f3967db413e",
+          "name": "서울대공원 동물원동물병원",
+          "reason": "서울대공원 동물원동물병원 — 동물원 진료, companion dog/cat 제외"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gyeonggi-ac30"
     }
   ]
 }

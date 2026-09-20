@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4297,
-  "excluded_n": 114,
+  "n": 4296,
+  "excluded_n": 115,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -118,12 +118,13 @@
     "제주대학교말전문동물병원",
     "경북대학교수의과대학부속동물병원분원",
     "가든종합동물병원",
-    "건국종합동물병원"
+    "건국종합동물병원",
+    "서울대공원 동물원동물병원"
   ],
   "stats": {
-    "with_homepage": 1909,
-    "with_hours": 3164,
-    "with_phone": 3975,
+    "with_homepage": 1913,
+    "with_hours": 3169,
+    "with_phone": 3982,
     "hours_24h_yes": 208
   },
   "care_level_taxonomy": {
@@ -134,7 +135,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3578,
+    "neighborhood": 3577,
     "secondary": 499,
     "primary": 187,
     "university": 12,
@@ -247,6 +248,12 @@
         "name": "건국종합동물병원",
         "reason": "폐업 (Place/디렉터리)",
         "excluded_at": "2026-09-20T03:56:29Z"
+      },
+      {
+        "id": "nat_8f3967db413e",
+        "name": "서울대공원 동물원동물병원",
+        "reason": "서울대공원 동물원동물병원 — 동물원 진료, companion dog/cat 제외",
+        "excluded_at": "2026-09-20T04:09:27Z"
       }
     ],
     "primary_nohp_local": {
@@ -282,9 +289,30 @@
       "reclassified_private_대학동물병원": 4,
       "merged_at": "2026-09-20T04:00:24Z",
       "source_branch": "cursor/place-sec-special-nohp-ac30"
+    },
+    "gyeonggi_neigh_wave1": {
+      "n": 100,
+      "hit": 91,
+      "ambiguous": 2,
+      "no_hit": 7,
+      "homepages_reported": 5,
+      "hours_reported": 57,
+      "merged_at": "2026-09-20T04:09:27Z",
+      "source_branch": "cursor/place-neigh-gyeonggi-ac30",
+      "merge_stats": {
+        "no_hit": 7,
+        "hit_applied": 90,
+        "dept_merged": 6,
+        "hours_set": 5,
+        "phone_set": 7,
+        "ambiguous_applied": 1,
+        "homepage_set": 4,
+        "ambiguous_skip": 1,
+        "exclude_zoo": 1
+      }
     }
   },
-  "with_homepage": 1909,
+  "with_homepage": 1913,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
