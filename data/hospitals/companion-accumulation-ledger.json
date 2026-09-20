@@ -8040,6 +8040,48 @@
         }
       ],
       "source_branch": "cursor/place-primary-hours-r3-ac30"
+    },
+    {
+      "ts": "2026-09-20T13:30:04Z",
+      "action": "merge_place_secondary_hours_round3",
+      "stats": {
+        "hit_applied": 2,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 0,
+        "ambiguous_skip": 6,
+        "exclude_closed": 0,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_8c8cf806cf7a",
+          "name": "마리동물의료센터",
+          "reason": "LARGE_ANIMAL: 용인 처인 백암 Place hit; phone match; 공식사이트·소개 대동물(낙농·한우) 전문·반려 소동물 비대상; Place/공식 hours 미노출"
+        }
+      ],
+      "source_branch": "cursor/place-secondary-residual-ac30"
+    },
+    {
+      "ts": "2026-09-20T13:30:05Z",
+      "action": "merge_place_secondary_nohp_wave2",
+      "stats": {
+        "hit_applied": 30,
+        "homepage_set": 7,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 12,
+        "no_hit": 2,
+        "ambiguous_skip": 5,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [],
+      "source_branch": "cursor/place-secondary-residual-ac30"
     }
   ],
   "wave_actions": [

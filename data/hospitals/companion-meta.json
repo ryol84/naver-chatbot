@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4153,
-  "excluded_n": 249,
+  "n": 4152,
+  "excluded_n": 250,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -252,12 +252,13 @@
     "한우사랑동물병원",
     "피그헬스동물병원",
     "유일동물병원",
-    "제주피그클리닉"
+    "제주피그클리닉",
+    "마리동물의료센터"
   ],
   "stats": {
-    "with_homepage": 1926,
+    "with_homepage": 1932,
     "with_hours": 3317,
-    "with_phone": 3944,
+    "with_phone": 3943,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -269,7 +270,7 @@
   },
   "care_level_counts": {
     "neighborhood": 3440,
-    "secondary": 499,
+    "secondary": 498,
     "primary": 181,
     "university": 12,
     "rehab_specialty": 21
@@ -1245,6 +1246,12 @@
         "name": "제주피그클리닉",
         "reason": "LARGE_ANIMAL: 제주 한림로580 Naver Place hit id=16865129; phone match; 양돈·피그클리닉→LARGE_ANIMAL_ONLY_EXCLUDE; hours 정보없음; saramin 등 homepage 거부",
         "excluded_at": "2026-09-20T13:16:00Z"
+      },
+      {
+        "id": "nat_8c8cf806cf7a",
+        "name": "마리동물의료센터",
+        "reason": "LARGE_ANIMAL: 용인 처인 백암 Place hit; phone match; 공식사이트·소개 대동물(낙농·한우) 전문·반려 소동물 비대상; Place/공식 hours 미노출",
+        "excluded_at": "2026-09-20T13:30:04Z"
       }
     ],
     "primary_nohp_local": {
@@ -1974,9 +1981,57 @@
         "exclude_large_animal": 1,
         "missing_id": 0
       }
+    },
+    "secondary_hours_round3": {
+      "n": 9,
+      "hit": 2,
+      "no_hit": 0,
+      "ambiguous": 6,
+      "closed_exclude": 0,
+      "large_animal_exclude": 1,
+      "homepages_reported": 1,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T13:30:04Z",
+      "source_branch": "cursor/place-secondary-residual-ac30",
+      "merge_stats": {
+        "hit_applied": 2,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 0,
+        "ambiguous_skip": 6,
+        "exclude_closed": 0,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
+    },
+    "secondary_nohp_wave2": {
+      "n": 37,
+      "hit": 30,
+      "no_hit": 2,
+      "ambiguous": 5,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 7,
+      "hours_reported": 35,
+      "merged_at": "2026-09-20T13:30:05Z",
+      "source_branch": "cursor/place-secondary-residual-ac30",
+      "merge_stats": {
+        "hit_applied": 30,
+        "homepage_set": 7,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 12,
+        "no_hit": 2,
+        "ambiguous_skip": 5,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1926,
+  "with_homepage": 1932,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
