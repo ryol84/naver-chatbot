@@ -3317,7 +3317,7 @@
       "name": "경북대학교 수의과대학 부속동물병원",
       "sido": "대구광역시",
       "sigungu": "북구",
-      "phone": "053-950-6898",
+      "phone": "0507-1309-6898",
       "address": "대구광역시 북구 대학로 80",
       "role": "university",
       "role_label": "대학동물병원",
@@ -3326,17 +3326,17 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "09:00–18:00",
         "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
+        "night_hours": "365일 24시간 응급",
+        "hours_note": "일반 평일 09–18. 응급 365일 24시간(knuvmth.co.kr). 예약 0507-1309-6898. CT/MRI 금식 12h.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "일 월 화 수 목 금",
         "by_day": {},
         "breaks": [],
-        "hours_source": "nationwide_csv"
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -3374,12 +3374,12 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "GE 1.5T MRI",
-          "model": "1.5T tesla",
+          "item": "GE SIGNA Explorer 1.5T",
+          "model": "GE SIGNA Explorer 1.5T",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리벳 경북대 부속동물병원 1.5T MRI 도입",
-          "as_of": "2026-09-19",
+          "evidence": "데일리벳+knuvmth 연혁 2021.09 1.5T MRI",
+          "as_of": "2026-09-20",
           "publisher": "dailyvet"
         },
         {
@@ -3392,6 +3392,17 @@
           "evidence": "같은 데일리벳 기사(24시간 인공호흡 가능 장비)",
           "as_of": "2026-09-19",
           "publisher": "dailyvet"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "16Ch CT",
+          "model": "16Ch",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "knuvmth 연혁 2014.03 16Ch CT 도입",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -3410,19 +3421,20 @@
       ],
       "does_not_confirmed": [],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": 65,
         "nationwide_id": "nat_6f628972b8c8",
-        "homepage": "https://blog.naver.com/knuvmth",
+        "homepage": "https://knuvmth.co.kr/",
         "lat": 35.88909912,
         "lng": 128.6143188,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [
+          "https://knuvmth.co.kr/?page_id=18",
+          "https://knuvmth.co.kr/?page_id=10"
+        ]
       },
       "species_scope": [
         "dog",
@@ -5834,7 +5846,7 @@
           "model": "64채널",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리벳: 노아AMC 64채널 CT 보유 언급 (초음파 기증 기사)",
+          "evidence": "데일리벳: 노아AMC 64채널 CT",
           "as_of": "2026-09-20",
           "publisher": "dailyvet"
         }
@@ -5858,9 +5870,7 @@
         "MRI Vantage Titan·64ch 기종은 자가. CT 존재만 reported."
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -6164,24 +6174,24 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "3.0T MRI United Imaging uMR 780",
-          "model": "3.0T tesla · uMR 780",
+          "item": "3T MRI (동물전용)",
+          "model": "3T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리벳 전북동물의료센터 3T MRI 도입·심포지엄",
-          "as_of": "2026-09-19",
-          "publisher": "dailyvet"
+          "evidence_level": "self_claimed",
+          "evidence": "jamc 공지 2024.10: 국내 대학 동물병원 최초 3T MRI 도입",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "ct",
           "label": "CT",
           "item": "CT",
-          "model": "3T tesla",
+          "model": null,
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "공식 진료비용 안내 CT 항목·데일리벳 3T 도입 기사에서 CT 동시 운용",
-          "as_of": "2026-09-19",
-          "publisher": "dailyvet"
+          "evidence_level": "self_claimed",
+          "evidence": "jamc 영상의학과·진료비용: CT 촬영·판독 안내",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "xray",
@@ -6239,23 +6249,27 @@
         "예방접종 안 함(공식 진료비용 안내)"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": 200,
         "nationwide_id": "nat_8577a4b415da",
-        "homepage": "https://jamc.jbnu.ac.kr",
+        "homepage": "https://jamc.jbnu.ac.kr/",
         "lat": 35.94245529,
         "lng": 126.9599075,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [
+          "https://jamc.jbnu.ac.kr/jamc/index.do",
+          "https://jamc.jbnu.ac.kr/jamc/8492/subview.do"
+        ]
       },
       "species_scope": [
         "dog",
         "cat"
+      ],
+      "site_notes": [
+        "대학병원: 반려·특수·대동물 영상 가능. 공개목록은 dog/cat 진료 포함으로 유지."
       ]
     },
     {

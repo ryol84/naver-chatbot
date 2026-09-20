@@ -5,9 +5,9 @@
 - 병원별 증거 장부: `companion-accumulation-ledger.json`
 
 ## 이번 배치에서 확인한 병원
-- **뉴로동물의료센터24시**: Toshiba Vantage Titan 1.5T MRI·Activion 16 CT 모델 확정
-- **VIP동물한방재활의학센터 by Dr.신사경**: 주간10–18:30·전화·고압산소 등 재활장비 공식 확인
-- **전남대학교 동물병원**: 정규 주간+24시응급 공식, Siemens AI MRI·전화 062-530-2882
+- **경북대학교 수의과대학 부속동물병원**: 평일09–18+365일응급, GE SIGNA Explorer 1.5T·16Ch CT
+- **전북동물의료센터**: 3T MRI 도입 공지·CT 수가표·전화 063-850-0970 확인
+- **24시노아동물메디컬센터**: 64채널 CT(데일리벳) 장비 갭 정리, MRI 모델은 추가수집
 
 | 병원 | 전화 | 24시 | 응급 | 주간 | 증거수 | 상태 |
 |------|------|------|------|------|--------|------|
@@ -27,7 +27,7 @@
 | 수동물메디컬센터 | 055-924-1000 | no | yes | 09:00–18:30 | 13 | verified_draft |
 | 24시 포항 이음동물의료센터 | 054-612-2475 | yes | yes | 10:00–20:00 | 18 | verified_draft |
 | 본 동물메디컬센터 외과동물병원 | 053-634-7582 | no | no | 09:00–20:00 | 21 | verified_draft |
-| 경북대학교 수의과대학 부속동물병원 | 053-950-6898 | yes | yes | 00:00–24:00 | 14 | verified_draft |
+| 경북대학교 수의과대학 부속동물병원 | 0507-1309-6898 | partial | yes | 09:00–18:00 | 18 | verified_draft |
 | 충남대학교 수의과대학 부속동물병원 | 042-821-6704 | no | no | 10:00–18:00 | 21 | verified_draft |
 | 뉴로동물의료센터24시 | 051-711-8253 | partial | yes | 10:00–21:00 | 20 | verified_draft |
 | VIP동물한방재활의학센터 by Dr.신사경 | 02-6952-7524 | no | no | 10:00–18:30 | 21 | verified_draft |
@@ -38,11 +38,11 @@
 | 노원N동물의료센터 | 02-919-0075 | partial | yes | 10:00–20:00 | 17 | verified_draft |
 | 한걸음더 재활한방 동물병원 | 02-423-2088 | no | no | 10:00–19:00 | 19 | verified_draft |
 | 24시월드펫동물메디컬센터 | 02-2698-7582 | yes | yes | 00:00–24:00 | 15 | verified_draft |
-| 24시노아동물메디컬센터 | 062-222-0075 | yes | yes | 00:00–24:00 | 18 | verified_draft |
+| 24시노아동물메디컬센터 | 062-222-0075 | yes | yes | 00:00–24:00 | 19 | verified_draft |
 | 전남대학교 동물병원 | 062-530-2882 | partial | yes | 09:00–18:00 | 18 | verified_draft |
-| 전북동물의료센터 | 063-850-0970 | partial | yes | 09:00–18:00 | 14 | verified_draft |
+| 전북동물의료센터 | 063-850-0970 | partial | yes | 09:00–18:00 | 17 | verified_draft |
 | 제주대학교 수의과대학 부설동물병원 | 064-754-3380 | no | no | 09:00–18:00 | 19 | verified_draft |
 | 충북대학교 동물병원 | 043-261-2602 | partial | yes | 09:00–18:00 | 21 | verified_draft |
 
 ## 남은 open questions
-- `no_official_equipment_proof`: 23
+- `no_official_equipment_proof`: 20

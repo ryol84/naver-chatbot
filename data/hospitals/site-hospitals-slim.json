@@ -787,29 +787,30 @@
       "name": "경북대학교 수의과대학 부속동물병원",
       "sido": "대구광역시",
       "sigungu": "북구",
-      "phone": "053-950-6898",
+      "phone": "0507-1309-6898",
       "address": "대구광역시 북구 대학로 80",
       "role_label": "대학동물병원",
       "species_scope": [
         "dog",
         "cat"
       ],
-      "homepage": "https://blog.naver.com/knuvmth",
+      "homepage": "https://knuvmth.co.kr/",
       "lat": 35.88909912,
       "lng": 128.6143188,
-      "hours_24h": "yes",
+      "hours_24h": "partial",
       "emergency": "yes",
-      "weekday_hours": "00:00–24:00",
+      "weekday_hours": "09:00–18:00",
       "weekend_hours": null,
-      "night_hours": "24시간",
-      "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
+      "night_hours": "365일 24시간 응급",
+      "hours_note": "일반 평일 09–18. 응급 365일 24시간(knuvmth.co.kr). 예약 0507-1309-6898. CT/MRI 금식 12h.",
       "departments": [
         "영상(CT/MRI)",
         "응급"
       ],
       "equipment": [
         "MRI",
-        "인공호흡기"
+        "인공호흡기",
+        "CT"
       ],
       "services": [
         "MRI",
@@ -818,12 +819,13 @@
       ],
       "strength": "1.5T MRI·중환자 벤틸레이터가 기사로 확인.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
+      "gaps": [],
+      "website_sources": [
+        "https://knuvmth.co.kr/?page_id=18",
+        "https://knuvmth.co.kr/?page_id=10"
       ],
-      "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 14
+      "evidence_count": 18
     },
     {
       "id": "univ-cnu-vmth",
@@ -1409,14 +1411,12 @@
       ],
       "strength": "광주는 재활 특화가 아니라 2차+영상. 수중런닝은 확인 안 됨.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://noahamc.co.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 19
     },
     {
       "id": "univ-jnu-vmth",
@@ -1476,7 +1476,7 @@
         "dog",
         "cat"
       ],
-      "homepage": "https://jamc.jbnu.ac.kr",
+      "homepage": "https://jamc.jbnu.ac.kr/",
       "lat": 35.94245529,
       "lng": 126.9599075,
       "hours_24h": "partial",
@@ -1506,12 +1506,13 @@
       ],
       "strength": "대학 공식 수가에 CT/MRI 항목. 3T MRI는 데일리벳 확인.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
+      "gaps": [],
+      "website_sources": [
+        "https://jamc.jbnu.ac.kr/jamc/index.do",
+        "https://jamc.jbnu.ac.kr/jamc/8492/subview.do"
       ],
-      "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 14
+      "evidence_count": 17
     },
     {
       "id": "univ-jeju-vmth",
