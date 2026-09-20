@@ -29,6 +29,7 @@
 - secondary hours fill: 6
 - Seoul neighborhood wave1: 80 (hit 67 / no_hit 11 / ambiguous 2)
 - primary depth 61 (cloud): hit 55 / ambiguous 2 / no_hit 4; 참누리·위드펫 홈페이지
+- primary hours remaining 41: hit 39 / ambiguous 1 / no_hit 1; hours_raw 2 (참누리·웰니스부산 dirs); homepage 1 (참누리); CLOSED_EXCLUDE 5 (한국종합·웰니스부산·장원·웰니스아산·서부천안)
 
 - 제외: 경북대 상주 분원 (대동물 전용)
 - primary nohp local 8: 모란→24시 hours; 가든·건국(성남 시민로) 폐업 제외
