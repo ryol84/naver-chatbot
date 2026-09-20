@@ -67,6 +67,22 @@ def normalize_phone(p: str | None) -> str:
     return re.sub(r"[^0-9]", "", p)
 
 
+def name_similar(a: str | None, b: str | None) -> bool:
+    """Strict-ish name match: exact, or short prefix/suffix diff (<=4 chars)."""
+    aa = re.sub(r"\s+", "", a or "")
+    bb = re.sub(r"\s+", "", b or "")
+    if not aa or not bb:
+        return False
+    if aa == bb:
+        return True
+    for x, y in ((aa, bb), (bb, aa)):
+        if y.endswith(x) and len(y) - len(x) <= 4:
+            return True
+        if x.endswith(y) and len(x) - len(y) <= 4:
+            return True
+    return False
+
+
 def phones_equal(a: str | None, b: str | None) -> bool:
     na, nb = normalize_phone(a), normalize_phone(b)
     if not na or not nb:
@@ -310,9 +326,7 @@ def enrich_one(t: dict) -> dict:
         # match quality
         p_addr = parsed.get("address") or ""
         p_phone = parsed.get("phone") or parsed.get("landline")
-        name_ok = name.replace(" ", "") in (parsed.get("name") or "").replace(" ", "") or (
-            parsed.get("name") or ""
-        ).replace(" ", "") in name.replace(" ", "")
+        name_ok = name_similar(name, parsed.get("name"))
         phone_ok = phones_equal(phone, p_phone) or phones_equal(phone, parsed.get("landline"))
         addr_ok = addr_overlap(addr, p_addr) or (sigungu and sigungu.replace(" ", "")[:2] in p_addr.replace(" ", ""))
         gy_ok = region_is_gyeonggi(p_addr) or ("경기" in p_addr)
@@ -352,7 +366,7 @@ def enrich_one(t: dict) -> dict:
         p_name = p.get("name") or ""
         phone_ok = phones_equal(phone, p_tel)
         addr_ok = addr_overlap(addr, p_addr) or (sigungu and sigungu[:2] in p_addr)
-        name_ok = name.replace(" ", "") in p_name.replace(" ", "") or p_name.replace(" ", "") in name.replace(" ", "")
+        name_ok = name_similar(name, p_name)
         gy_ok = region_is_gyeonggi(p_addr) or "경기" in p_addr
         if gy_ok and (phone_ok or (name_ok and addr_ok) or (name_ok and gy_ok)):
             kakao_gy.append(p)
