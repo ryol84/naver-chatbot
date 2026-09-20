@@ -6972,6 +6972,43 @@
         }
       ],
       "source_branch": "cursor/place-neigh-incheon-ac30"
+    },
+    {
+      "ts": "2026-09-20T08:56:56Z",
+      "action": "merge_place_neigh_gyeongnam_wave1",
+      "stats": {
+        "no_hit": 6,
+        "hit_applied": 87,
+        "phone_set": 3,
+        "dept_merged": 8,
+        "ambiguous_skip": 2,
+        "hours_set": 4,
+        "homepage_set": 1,
+        "closed": 5
+      },
+      "excluded": [
+        {
+          "id": "nat_b6c06ac9c570",
+          "name": "우리수산동물병원"
+        },
+        {
+          "id": "nat_ec8ae8354791",
+          "name": "송하동물병원"
+        },
+        {
+          "id": "nat_fc0ccbb934dd",
+          "name": "아주동물병원"
+        },
+        {
+          "id": "nat_2f32be46ef22",
+          "name": "현대수산동물병원"
+        },
+        {
+          "id": "nat_330a23cb987c",
+          "name": "힘참동물병원"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gyeongnam-ac30"
     }
   ]
 }

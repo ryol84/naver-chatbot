@@ -6,13 +6,13 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4284곳
+## companion 4279곳
 | 등급 | 수 |
 |------|----|
 | 대학 | 12 |
 | 2차 | 499 |
 | 1차 | 182 |
-| 일반 동네 | 3570 |
+| 일반 동네 | 3565 |
 | 재활·한방 | 21 |
 
 ### Place 보강
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- Gyeongnam neighborhood wave1: 100 (hit 87 / no_hit 6 / ambiguous 2 / CLOSED 5); homepage 1 (참좋은) / hours 37
 - Incheon neighborhood wave1: 80 (hit 76 / ambiguous 2 / no_hit 2); homepage 3 / hours 43; CLOSED 3
 - Daegu neighborhood wave1: 72 (hit 64 / no_hit 3 / ambiguous 1 / CLOSED 4); homepage 2 / hours 41
 - hours round2: primary 29 (hit 27, hours_raw 3) + secondary 25 (hit 19 / ambiguous 6 skipped; homepage 18 reported, hours_raw 16)
@@ -46,3 +47,4 @@
 - 제외(폐업): 한국종합동물병원·웰니스클리닉동물병원·장원종합동물병원·웰니스클리닉동물병원·서부종합동물병원
 - 제외(대구 폐업): 박동물병원·킴스동물병원·아양동물병원·제일동물병원
 - 제외(인천 폐업): 쿨펫동물병원·펫가든동물병원·다비드동물병원
+- 제외(경남 폐업): 우리수산동물병원·송하동물병원·아주동물병원·현대수산동물병원·힘참동물병원

@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4284,
-  "excluded_n": 127,
+  "n": 4279,
+  "excluded_n": 132,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -130,12 +130,17 @@
     "제일동물병원",
     "쿨펫동물병원",
     "펫가든동물병원",
-    "다비드동물병원"
+    "다비드동물병원",
+    "우리수산동물병원",
+    "송하동물병원",
+    "아주동물병원",
+    "현대수산동물병원",
+    "힘참동물병원"
   ],
   "stats": {
-    "with_homepage": 1920,
-    "with_hours": 3210,
-    "with_phone": 3980,
+    "with_homepage": 1921,
+    "with_hours": 3213,
+    "with_phone": 3978,
     "hours_24h_yes": 221
   },
   "care_level_taxonomy": {
@@ -146,7 +151,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3570,
+    "neighborhood": 3565,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -337,6 +342,36 @@
         "name": "다비드동물병원",
         "reason": "남동 인주대로721번길48(미가애) Place 주소 노출; mypet-119 폐업 표기 → CLOSED_EXCLUDE; 전화·홈없음",
         "excluded_at": "2026-09-20T08:54:27Z"
+      },
+      {
+        "id": "nat_b6c06ac9c570",
+        "name": "우리수산동물병원",
+        "reason": "통영 장좌로49 Place 주소·전화일치하나 bizno·114On 납세자상태 폐업자 → CLOSED_EXCLUDE; 홈없음",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_ec8ae8354791",
+        "name": "송하동물병원",
+        "reason": "고성읍 중앙로33 Place 주소근사(타깃 중앙로43번길33-1)·전화일치하나 bizno 납세자상태 폐업자 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_fc0ccbb934dd",
+        "name": "아주동물병원",
+        "reason": "거제 아주2로35·거제대로3541 mypet-119 폐업 표기; 현 아주동은 헤아림 등 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_2f32be46ef22",
+        "name": "현대수산동물병원",
+        "reason": "통영 정동2길57 Place 전화·주소일치하나 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_330a23cb987c",
+        "name": "힘참동물병원",
+        "reason": "양산 물금 화합10길19 mypet-119 폐업 표기; 검색은 하동 힘찬과 혼재 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
       }
     ],
     "primary_nohp_local": {
@@ -529,9 +564,30 @@
         "closed": 3,
         "ambiguous_skip": 2
       }
+    },
+    "gyeongnam_neigh_wave1": {
+      "n": 100,
+      "hit": 87,
+      "no_hit": 6,
+      "ambiguous": 2,
+      "closed_exclude": 5,
+      "homepages_reported": 1,
+      "hours_reported": 37,
+      "merged_at": "2026-09-20T08:56:56Z",
+      "source_branch": "cursor/place-neigh-gyeongnam-ac30",
+      "merge_stats": {
+        "no_hit": 6,
+        "hit_applied": 87,
+        "phone_set": 3,
+        "dept_merged": 8,
+        "ambiguous_skip": 2,
+        "hours_set": 4,
+        "homepage_set": 1,
+        "closed": 5
+      }
     }
   },
-  "with_homepage": 1920,
+  "with_homepage": 1921,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
