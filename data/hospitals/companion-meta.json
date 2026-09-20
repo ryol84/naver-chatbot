@@ -126,7 +126,7 @@
     "서부종합동물병원"
   ],
   "stats": {
-    "with_homepage": 1914,
+    "with_homepage": 1915,
     "with_hours": 3178,
     "with_phone": 3981,
     "hours_24h_yes": 208
@@ -382,9 +382,26 @@
         "phone_set": 1,
         "homepage_set": 1
       }
+    },
+    "seoul_neigh_wave2": {
+      "n": 100,
+      "hit": 90,
+      "ambiguous": 1,
+      "no_hit": 9,
+      "homepages_reported": 1,
+      "hours_reported": 72,
+      "merged_at": "2026-09-20T05:28:19Z",
+      "source_branch": "cursor/place-neigh-seoul-wave2-ac30",
+      "merge_stats": {
+        "hit_applied": 90,
+        "dept_merged": 14,
+        "ambiguous_skip": 1,
+        "homepage_set": 1,
+        "no_hit": 9
+      }
     }
   },
-  "with_homepage": 1914,
+  "with_homepage": 1915,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

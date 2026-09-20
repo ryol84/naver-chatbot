@@ -6873,6 +6873,18 @@
         "homepage_set": 1
       },
       "source_branch": "cursor/place-neigh-busan-ac30"
+    },
+    {
+      "ts": "2026-09-20T05:28:19Z",
+      "action": "merge_place_neigh_seoul_wave2",
+      "stats": {
+        "hit_applied": 90,
+        "dept_merged": 14,
+        "ambiguous_skip": 1,
+        "homepage_set": 1,
+        "no_hit": 9
+      },
+      "source_branch": "cursor/place-neigh-seoul-wave2-ac30"
     }
   ]
 }
