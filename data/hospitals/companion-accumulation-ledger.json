@@ -8150,6 +8150,65 @@
         }
       ],
       "source_branch": "cursor/place-neigh-final-w2-ac30"
+    },
+    {
+      "ts": "2026-09-20T14:26:27Z",
+      "action": "merge_place_neigh_final_wave3",
+      "stats": {
+        "hit_applied": 27,
+        "homepage_set": 0,
+        "phone_set": 7,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 16,
+        "ambiguous_skip": 5,
+        "exclude_closed": 5,
+        "exclude_large_animal": 3,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_496260150776",
+          "name": "현대동물병원",
+          "reason": "LARGE_ANIMAL: 가평 연인2길19 hospitalk/군청 표기 현대가축병원(전화 031-582-2752); 가축병원→LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함"
+        },
+        {
+          "id": "nat_4f5a49332861",
+          "name": "카카오동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: hospitalk 여주 세종로163 카카오 동물병원 폐업(2024-12-23); Place 미노출"
+        },
+        {
+          "id": "nat_3b55635d0230",
+          "name": "가야펫동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: 용인 수지 포은대로91 가야 동물병원 공공데이터 폐업(2020-09-21); Place 미노출"
+        },
+        {
+          "id": "nat_102b0e607fc0",
+          "name": "아쿠아메드수산질병관리원",
+          "reason": "LARGE_ANIMAL: 김포 양촌 황금로70번길 Kakao hit 아쿠아메드수산질병관리원; 수산→LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_01603e2b4cd9",
+          "name": "엘리자베스동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: 영도 대교로15 엘리자베스 동물병원 hospitalk 폐업(2018-03-02); 타깃 대교로13-1 인근; Place 미노출"
+        },
+        {
+          "id": "nat_9ad22e02c3e7",
+          "name": "대구축산 동물병원",
+          "reason": "LARGE_ANIMAL: 대구 중구 대봉로278 Kakao hit 대구축산동물병원(전화일치); 축산→LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_0b28545cf576",
+          "name": "동산동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: 수원 영통 인계로240 동산동물병원 공공데이터 폐업(2015-03-20); Place 미노출"
+        },
+        {
+          "id": "nat_f50927765daa",
+          "name": "누리동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: 평택 송탄로202 누리동물병원 공공데이터 폐업(2019-08-05); 동일주소 한호가축병원 잔존; Place 누리 미노출"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-final-w3-ac30"
     }
   ],
   "wave_actions": [

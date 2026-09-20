@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4146,
-  "excluded_n": 256,
+  "n": 4138,
+  "excluded_n": 264,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -258,12 +258,19 @@
     "수동물병원",
     "신개금동물병원",
     "합천축협동물병원",
-    "해동동물병원"
+    "해동동물병원",
+    "현대동물병원",
+    "카카오동물병원",
+    "가야펫동물병원",
+    "아쿠아메드수산질병관리원",
+    "엘리자베스동물병원",
+    "대구축산 동물병원",
+    "누리동물병원"
   ],
   "stats": {
     "with_homepage": 1942,
-    "with_hours": 3317,
-    "with_phone": 3944,
+    "with_hours": 3315,
+    "with_phone": 3947,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -274,7 +281,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3435,
+    "neighborhood": 3427,
     "secondary": 498,
     "primary": 180,
     "university": 12,
@@ -1293,6 +1300,54 @@
         "name": "해동동물병원",
         "reason": "CLOSED: 밀양 무안 동부1길10-1 공공데이터 폐업(2024-06-07)·전화055-352-6768 → CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T14:22:45Z"
+      },
+      {
+        "id": "nat_496260150776",
+        "name": "현대동물병원",
+        "reason": "LARGE_ANIMAL: 가평 연인2길19 hospitalk/군청 표기 현대가축병원(전화 031-582-2752); 가축병원→LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_4f5a49332861",
+        "name": "카카오동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: hospitalk 여주 세종로163 카카오 동물병원 폐업(2024-12-23); Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_3b55635d0230",
+        "name": "가야펫동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 용인 수지 포은대로91 가야 동물병원 공공데이터 폐업(2020-09-21); Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_102b0e607fc0",
+        "name": "아쿠아메드수산질병관리원",
+        "reason": "LARGE_ANIMAL: 김포 양촌 황금로70번길 Kakao hit 아쿠아메드수산질병관리원; 수산→LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_01603e2b4cd9",
+        "name": "엘리자베스동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 영도 대교로15 엘리자베스 동물병원 hospitalk 폐업(2018-03-02); 타깃 대교로13-1 인근; Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_9ad22e02c3e7",
+        "name": "대구축산 동물병원",
+        "reason": "LARGE_ANIMAL: 대구 중구 대봉로278 Kakao hit 대구축산동물병원(전화일치); 축산→LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_0b28545cf576",
+        "name": "동산동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 수원 영통 인계로240 동산동물병원 공공데이터 폐업(2015-03-20); Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_f50927765daa",
+        "name": "누리동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 평택 송탄로202 누리동물병원 공공데이터 폐업(2019-08-05); 동일주소 한호가축병원 잔존; Place 누리 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
       }
     ],
     "primary_nohp_local": {
@@ -2116,6 +2171,30 @@
         "ambiguous_skip": 0,
         "exclude_closed": 3,
         "exclude_large_animal": 2,
+        "missing_id": 0
+      }
+    },
+    "neigh_final_wave3": {
+      "n": 56,
+      "hit": 27,
+      "no_hit": 16,
+      "ambiguous": 5,
+      "closed_exclude": 5,
+      "large_animal_exclude": 3,
+      "homepages_reported": 1,
+      "hours_reported": 1,
+      "merged_at": "2026-09-20T14:26:27Z",
+      "source_branch": "cursor/place-neigh-final-w3-ac30",
+      "merge_stats": {
+        "hit_applied": 27,
+        "homepage_set": 0,
+        "phone_set": 7,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 16,
+        "ambiguous_skip": 5,
+        "exclude_closed": 5,
+        "exclude_large_animal": 3,
         "missing_id": 0
       }
     }
