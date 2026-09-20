@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4228,
-  "excluded_n": 183,
+  "n": 4221,
+  "excluded_n": 190,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -183,13 +183,19 @@
     "푸른하늘동물병원",
     "한사랑동물병원",
     "우리동물병원",
-    "익산산업동물병원"
+    "익산산업동물병원",
+    "아이러브펫 동물병원",
+    "홈펫동물병원",
+    "센트럴동물병원",
+    "셀레네동물병원",
+    "오즈동물병원",
+    "물고기병원 수산질병관리원"
   ],
   "stats": {
-    "with_homepage": 1926,
-    "with_hours": 3220,
-    "with_phone": 3972,
-    "hours_24h_yes": 221
+    "with_homepage": 1928,
+    "with_hours": 3219,
+    "with_phone": 3967,
+    "hours_24h_yes": 222
   },
   "care_level_taxonomy": {
     "university": "대학동물병원",
@@ -199,7 +205,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3514,
+    "neighborhood": 3507,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -726,6 +732,48 @@
         "name": "쿨펫동물병원",
         "reason": "CLOSED: 익산 무왕로1053 쿨펫동물병원 폐업 표기",
         "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_be1f89d74100",
+        "name": "아이러브펫 동물병원",
+        "reason": "CLOSED: 관악 과천대로909 mypet-119·비즈노 폐업 표기(남현프라자/홈플러스남현). Place 패널 없음 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_8e882901e07d",
+        "name": "홈펫동물병원",
+        "reason": "CLOSED: 강북 도봉로110-1 mypet-119·홈즈 폐업 표기. store114에 http://homepet24.com·02-983-9575 병기. Place 패널 없음 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_3cb8b4324721",
+        "name": "센트럴동물병원",
+        "reason": "CLOSED: 강남 도곡로510 mypet-119 폐업 표기(성창빌딩). Place 패널 없음 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_9ae16ac275a3",
+        "name": "셀레네동물병원",
+        "reason": "CLOSED: 마포 독막로85 셀레네 Place 패널 없음. mypet-119·비즈노·카페(재건축/강원 이전) 폐업 근거 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_f4e4a7e6267c",
+        "name": "오즈동물병원",
+        "reason": "CLOSED: 성동구 폐업 표기; Place 전화 미확인 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_afb399a24684",
+        "name": "쿨펫동물병원",
+        "reason": "CLOSED: 노원 중계동 롯데마트 내 쿨펫 Place 패널 없음. mypet-119 폐업 명시 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_53d9ec235b22",
+        "name": "물고기병원 수산질병관리원",
+        "reason": "LARGE_ANIMAL: 노원 공릉로59길15 Place hit(전화·주소 일치). 공식홈 fishdoctor.co.kr 채택; cafe/band 거부 → LARGE_ANIMAL_ONLY_EXCLUDE: 수산질병관리원(관상어/수산) — companion dog/cat 제외",
+        "excluded_at": "2026-09-20T09:33:22Z"
       }
     ],
     "primary_nohp_local": {
@@ -1058,9 +1106,33 @@
         "exclude_large_animal": 3,
         "missing_id": 0
       }
+    },
+    "seoul_neigh_wave3": {
+      "n": 112,
+      "hit": 95,
+      "no_hit": 10,
+      "ambiguous": 0,
+      "closed_exclude": 6,
+      "large_animal_exclude": 1,
+      "homepages_reported": 2,
+      "hours_reported": 92,
+      "merged_at": "2026-09-20T09:33:22Z",
+      "source_branch": "cursor/place-neigh-seoul-wave3-ac30",
+      "merge_stats": {
+        "hit_applied": 95,
+        "homepage_set": 2,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 17,
+        "no_hit": 10,
+        "ambiguous_skip": 0,
+        "exclude_closed": 6,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1926,
+  "with_homepage": 1928,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
