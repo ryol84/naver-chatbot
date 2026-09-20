@@ -154,9 +154,9 @@
       "merged_at": "2026-09-20T03:27:33Z"
     },
     "primary_depth_local": {
-      "n": 11,
+      "n": 16,
       "merged": 11,
-      "at": "2026-09-20T03:31:36Z",
+      "at": "2026-09-20T03:32:20Z",
       "hours_still_missing_primary": 55
     }
   },
