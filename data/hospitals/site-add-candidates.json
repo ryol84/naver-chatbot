@@ -1,7 +1,6 @@
 {
-  "title": "사이트 추가 후보(아직 public 게이트 미통과)",
-  "as_of": "2026-09-19T22:18:09",
-  "note": "광주·호남 심층 중 homepage-public에 없는 병원. hold/internal은 근거 보강 후 승격 가능.",
+  "title": "사이트 추가 후보(보강 포함, public 게이트 미통과)",
+  "as_of": "2026-09-20",
   "n": 24,
   "hospitals": [
     {
@@ -20,7 +19,7 @@
       "not_general_hospital": false,
       "hours": {
         "hours_24h": "yes",
-        "emergency": "unknown",
+        "emergency": "yes",
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
@@ -82,13 +81,21 @@
         }
       ],
       "site_gaps": [
-        "emergency_unconfirmed",
         "departments_sparse",
         "hours_note_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "gwangju-gonggam",
@@ -106,7 +113,7 @@
       "not_general_hospital": false,
       "hours": {
         "hours_24h": "yes",
-        "emergency": "unknown",
+        "emergency": "yes",
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
@@ -169,13 +176,21 @@
         }
       ],
       "site_gaps": [
-        "emergency_unconfirmed",
         "departments_sparse",
         "hours_note_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_a654b10801ab",
+        "homepage": "https://www.instagram.com/gonggam24amc/",
+        "lat": 35.19049835,
+        "lng": 126.8180313,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-24시김승현외과동물메디컬센터",
@@ -255,7 +270,16 @@
         "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b16-24시블루밍동물병원",
@@ -327,7 +351,16 @@
         "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b16-24시언제나동물병원",
@@ -344,13 +377,89 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "no",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
-        "weekend_hours": null,
+        "weekday_hours": "09:00–19:00",
+        "weekend_hours": "토 09:00–16:30 · 일 휴무",
         "night_hours": "24시간",
         "hours_note": "24시 상호",
-        "name_has_24h_token": true
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "월 09:00 - 19:00 | 화 09:00 - 19:00 | 수 09:00 - 19:00 | 목 09:00 - 19:00 | 금 09:00 - 19:00 | 토 09:00 - 16:30 | 일 정기휴무 (매주 일요일) | 12:00 - 13:00 휴게시간 | 18:30 접수마감 | 12:00 - 13:00 휴게시간 | 18:30 접수마감 | 12:00 - 13:00 휴게시간 | 18:30 접수마감 | 12:00 - 13:00 휴게시간 | 18:30 접수마감 | 12:00 - 13:00 휴게시간 | 18:30 접수마감 | 12:00 - 13:00 휴게시간 | 16:00 접수마감",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "19:00",
+            "raw": "월 09:00 - 19:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "19:00",
+            "raw": "화 09:00 - 19:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "19:00",
+            "raw": "수 09:00 - 19:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "19:00",
+            "raw": "목 09:00 - 19:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "19:00",
+            "raw": "금 09:00 - 19:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:00",
+            "close": "16:30",
+            "raw": "토 09:00 - 16:30"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -399,7 +508,16 @@
         "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 150,
+        "nationwide_id": "nat_57afc3ee1934",
+        "homepage": "http://alwaysamc.modoo.at/",
+        "lat": 35.18812943,
+        "lng": 126.8905334,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b15-e-동물-메디컬-센터",
@@ -460,15 +578,24 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed",
+        "phone_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-광양동물메디컬센터",
@@ -524,14 +651,23 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-광주24시스카이동물메디컬센터",
@@ -601,7 +737,16 @@
         "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-광주동물메디컬센터",
@@ -618,13 +763,30 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
-        "night_hours": null,
+        "night_hours": "24시간",
         "hours_note": null,
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00 | 12:30 - 14:00 휴게시간",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:30",
+            "end": "14:00",
+            "raw": "12:30 - 14:00 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [],
       "department_labels": [],
@@ -657,14 +819,20 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
-        "equipment_missing",
-        "hours_note_missing"
+        "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 175,
+        "nationwide_id": "nat_a728a74803df",
+        "homepage": "http://www.gamc.kr",
+        "lat": 35.19018555,
+        "lng": 126.8579636,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b15-국립공원공단-국립공원야생생물보전원-야생동물의료센터",
@@ -720,14 +888,23 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b16-늘사랑-양한방-동물병원",
@@ -744,13 +921,89 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "weekday_hours": "09:30–19:00",
+        "weekend_hours": "토 09:30–19:00 · 일 09:30–19:00",
         "night_hours": null,
         "hours_note": null,
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:30 - 19:00 | 화 09:30 - 19:00 | 수 09:30 - 19:00 | 목 정기휴무 (매주 목요일) | 금 09:30 - 19:00 | 토 09:30 - 19:00 | 일 09:30 - 19:00 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "월 09:30 - 19:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "화 09:30 - 19:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "수 09:30 - 19:00"
+          },
+          "thu": {
+            "status": "closed",
+            "raw": "목 정기휴무 (매주 목요일)"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "금 09:30 - 19:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "토 09:30 - 19:00"
+          },
+          "sun": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "일 09:30 - 19:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -796,13 +1049,20 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
         "emergency_unconfirmed",
-        "equipment_missing",
-        "hours_note_missing"
+        "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 125,
+        "nationwide_id": "nat_1e34547104b5",
+        "homepage": "https://blog.naver.com/megavet",
+        "lat": 34.77626801,
+        "lng": 127.6526184,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b15-더블리스동물의료센터",
@@ -863,15 +1123,24 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed",
+        "phone_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-더엘동물의료센터",
@@ -927,14 +1196,23 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-바른동물의료센터",
@@ -995,15 +1273,24 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed",
+        "phone_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-봉선아이동물메디컬센터",
@@ -1059,14 +1346,23 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-블루밍동물의료센터",
@@ -1084,7 +1380,7 @@
       "not_general_hospital": false,
       "hours": {
         "hours_24h": "yes",
-        "emergency": "unknown",
+        "emergency": "yes",
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
@@ -1122,13 +1418,21 @@
         }
       ],
       "site_gaps": [
-        "emergency_unconfirmed",
         "departments_sparse",
         "equipment_missing",
         "hours_note_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-비타동물의료센터",
@@ -1145,13 +1449,96 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "weekday_hours": "10:00–22:00",
+        "weekend_hours": "토 10:00–19:00 · 일 10:00–19:00",
         "night_hours": null,
         "hours_note": null,
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 10:00 - 22:00 | 12:30 - 13:30 휴게시간 | 21:30 접수마감 | 화 10:00 - 22:00 | 12:30 - 13:30 휴게시간 | 21:30 접수마감 | 수 10:00 - 22:00 | 12:30 - 13:30 휴게시간 | 21:30 접수마감 | 목 10:00 - 22:00 | 12:30 - 13:30 휴게시간 | 21:30 접수마감 | 금 10:00 - 22:00 | 12:30 - 13:30 휴게시간 | 21:30 접수마감 | 토 10:00 - 19:00 | 12:30 - 13:30 휴게시간 | 18:30 접수마감 | 일 10:00 - 19:00 | 12:30 - 13:30 휴게시간 | 18:30 접수마감",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "10:00",
+            "close": "22:00",
+            "raw": "월 10:00 - 22:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "10:00",
+            "close": "22:00",
+            "raw": "화 10:00 - 22:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "10:00",
+            "close": "22:00",
+            "raw": "수 10:00 - 22:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "10:00",
+            "close": "22:00",
+            "raw": "목 10:00 - 22:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "10:00",
+            "close": "22:00",
+            "raw": "금 10:00 - 22:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "토 10:00 - 19:00"
+          },
+          "sun": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "일 10:00 - 19:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [],
       "department_labels": [],
@@ -1184,14 +1571,21 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
-        "equipment_missing",
-        "hours_note_missing"
+        "emergency_unconfirmed",
+        "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 115,
+        "nationwide_id": "nat_7fd83cbb25ee",
+        "homepage": "https://www.instagram.com/vita_amc/",
+        "lat": 35.13129425,
+        "lng": 126.9033127,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b15-빛고을동물의료센터",
@@ -1208,13 +1602,89 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "weekday_hours": "09:30–19:00",
+        "weekend_hours": "토 09:30–16:00 · 일 휴무",
         "night_hours": null,
         "hours_note": null,
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:30 - 19:00 | 12:20 - 13:30 휴게시간 | 18:30 접수마감 | 화 09:30 - 19:00 | 12:20 - 13:30 휴게시간 | 18:30 접수마감 | 수 09:30 - 19:00 | 12:20 - 13:30 휴게시간 | 18:30 접수마감 | 목 09:30 - 19:00 | 12:20 - 13:30 휴게시간 | 18:30 접수마감 | 금 09:30 - 19:00 | 12:20 - 13:30 휴게시간 | 18:30 접수마감 | 토 09:30 - 16:00 | 12:30 - 13:30 휴게시간 | 15:30 접수마감 | 일 정기휴무 (매주 일요일)",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "월 09:30 - 19:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "화 09:30 - 19:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "수 09:30 - 19:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "목 09:30 - 19:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:30",
+            "close": "19:00",
+            "raw": "금 09:30 - 19:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:30",
+            "close": "16:00",
+            "raw": "토 09:30 - 16:00"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:20",
+            "end": "13:30",
+            "raw": "12:20 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:20",
+            "end": "13:30",
+            "raw": "12:20 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:20",
+            "end": "13:30",
+            "raw": "12:20 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:20",
+            "end": "13:30",
+            "raw": "12:20 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:20",
+            "end": "13:30",
+            "raw": "12:20 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [],
       "department_labels": [],
@@ -1247,14 +1717,21 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
-        "equipment_missing",
-        "hours_note_missing"
+        "emergency_unconfirmed",
+        "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 175,
+        "nationwide_id": "nat_02544b25b2e7",
+        "homepage": "https://blog.naver.com/lightgoeulah",
+        "lat": 35.17910385,
+        "lng": 126.9206467,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b16-아나푸게안과동물병원",
@@ -1262,7 +1739,7 @@
       "name": "아나푸게안과동물병원",
       "sido": "전남광주통합특별시",
       "sigungu": "북구",
-      "phone": null,
+      "phone": "062-524-3663",
       "address": "전남광주통합특별시 북구 설죽로 191 (용봉동)",
       "role": "specialty",
       "role_label": "특화",
@@ -1271,13 +1748,79 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "unknown",
         "weekday_hours": null,
-        "weekend_hours": null,
+        "weekend_hours": "토 09:30–13:00 · 일 휴무",
         "night_hours": null,
         "hours_note": null,
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 화 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 수 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 목 09:30 - 13:00 | 금 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 토 09:30 - 13:00 | 일 정기휴무 (매주 일요일)",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:30",
+            "close": "18:00",
+            "raw": "월 09:30 - 18:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:30",
+            "close": "18:00",
+            "raw": "화 09:30 - 18:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:30",
+            "close": "18:00",
+            "raw": "수 09:30 - 18:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:30",
+            "close": "13:00",
+            "raw": "목 09:30 - 13:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:30",
+            "close": "18:00",
+            "raw": "금 09:30 - 18:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:30",
+            "close": "13:00",
+            "raw": "토 09:30 - 13:00"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:30",
+            "end": "13:30",
+            "raw": "12:30 - 13:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -1328,14 +1871,20 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
-        "hours_unconfirmed",
         "emergency_unconfirmed",
-        "equipment_missing",
-        "hours_note_missing"
+        "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 125,
+        "nationwide_id": "nat_382f3802d442",
+        "homepage": "https://blog.naver.com/ghdid258",
+        "lat": 35.17685318,
+        "lng": 126.8967667,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b16-이룸외과동물병원",
@@ -1352,13 +1901,58 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "weekday_hours": "09:30–20:00",
+        "weekend_hours": "토 09:30–17:00 · 일 휴무",
         "night_hours": null,
         "hours_note": null,
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:30 - 20:00 | 화 09:30 - 20:00 | 수 09:30 - 20:00 | 목 09:30 - 20:00 | 금 09:30 - 20:00 | 토 09:30 - 17:00 | 일 정기휴무 (매주 일요일)",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:30",
+            "close": "20:00",
+            "raw": "월 09:30 - 20:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:30",
+            "close": "20:00",
+            "raw": "화 09:30 - 20:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:30",
+            "close": "20:00",
+            "raw": "수 09:30 - 20:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:30",
+            "close": "20:00",
+            "raw": "목 09:30 - 20:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:30",
+            "close": "20:00",
+            "raw": "금 09:30 - 20:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:30",
+            "close": "17:00",
+            "raw": "토 09:30 - 17:00"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -1404,13 +1998,20 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
         "emergency_unconfirmed",
-        "equipment_missing",
-        "hours_note_missing"
+        "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_eba5140f0aba",
+        "homepage": null,
+        "lat": 35.14125443,
+        "lng": 126.8869095,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b15-전남동물의료센터",
@@ -1427,13 +2028,71 @@
       "publishable": false,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "weekday_hours": "09:00–22:00",
+        "weekend_hours": "토 09:00–18:00 · 일 09:00–18:00",
         "night_hours": null,
         "hours_note": null,
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "수 09:00 - 22:00 | 21:30 접수마감 | 목 09:00 - 22:00 | 21:30 접수마감 | 금 09:00 - 22:00 | 21:30 접수마감 | 토 09:00 - 18:00 | 12:00 - 13:30 휴게시간 | 17:30 접수마감 | 일 09:00 - 18:00 | 12:00 - 13:30 휴게시간 | 17:30 접수마감 | 월 09:00 - 22:00 | 21:30 접수마감 | 화 09:00 - 22:00 | 21:30 접수마감",
+        "by_day": {
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "22:00",
+            "raw": "수 09:00 - 22:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "22:00",
+            "raw": "목 09:00 - 22:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "22:00",
+            "raw": "금 09:00 - 22:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "토 09:00 - 18:00"
+          },
+          "sun": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "일 09:00 - 18:00"
+          },
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "22:00",
+            "raw": "월 09:00 - 22:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "22:00",
+            "raw": "화 09:00 - 22:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [],
       "department_labels": [],
@@ -1466,14 +2125,21 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
-        "equipment_missing",
-        "hours_note_missing"
+        "emergency_unconfirmed",
+        "equipment_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 150,
+        "nationwide_id": "nat_e309cc84848f",
+        "homepage": null,
+        "lat": 35.02077866,
+        "lng": 126.793335,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b15-진도개메디컬센터",
@@ -1529,14 +2195,23 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_677ea25308f1",
+        "homepage": null,
+        "lat": 34.48236084,
+        "lng": 126.2785645,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b16-진월24동물병원",
@@ -1615,12 +2290,21 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
         "equipment_missing",
-        "hours_token_gap"
+        "hours_token_gap",
+        "phone_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b15-한결동물의료센터",
@@ -1681,15 +2365,24 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
         "departments_sparse",
+        "emergency_unconfirmed",
         "equipment_missing",
-        "hours_note_missing"
+        "hours_note_missing",
+        "hours_unconfirmed",
+        "phone_missing"
       ],
       "source_file": "gwangju-honam-profiles",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_3365af972a6b",
+        "homepage": null,
+        "lat": 35.12791824,
+        "lng": 126.8832092,
+        "hours_source": null,
+        "website_sources": []
+      }
     }
   ]
 }

@@ -1,20 +1,28 @@
 {
-  "title": "사이트용 동물병원 상세(정규화)",
-  "as_of": "2026-09-19T22:18:09",
-  "rule": "homepage-public(verify public)만 기본 노출. 전화·진료시간은 게시 전 재확인. 바이럴/과장 문구 제외.",
-  "schema_version": "1.2",
+  "title": "사이트용 동물병원 상세(정규화+전국CSV+홈페이지 보강)",
+  "as_of": "2026-09-20",
+  "rule": "homepage-public 기본 노출. 전국 CSV 영업시간·홈페이지·좌표 병합. 사이트 수집은 self_claimed로 표기. 전화 재확인 권장.",
+  "schema_version": "2.0",
+  "sources": [
+    {
+      "id": "homepage-public",
+      "role": "verified_profile"
+    },
+    {
+      "id": "동물병원_전국.csv",
+      "drive_id": "1IoVXrRgjLUcu4cArEVNDhEFbAUrreCKq",
+      "role": "hours_phone_homepage_coords"
+    },
+    {
+      "id": "hospital_websites",
+      "role": "departments_equipment_hours_detail"
+    }
+  ],
   "counts": {
     "public_ready": 33,
-    "candidate_not_public": 24,
-    "candidate_internal": 2,
-    "candidate_hold": 22
-  },
-  "field_guide": {
-    "hours.hours_24h": "yes=상시 24시, partial=주간+야간응급/로테/분과주간+응급24, no=주간 중심, unknown=미확인",
-    "hours.emergency": "응급 진료 가능 여부",
-    "departments": "분과/치료 코드 정규화",
-    "equipment": "근거 있는 장비만",
-    "site_gaps": "사이트 반영 전 보완 권장 항목"
+    "with_homepage": 26,
+    "with_website_scrape": 17,
+    "nationwide_total": 4411
   },
   "hospitals": [
     {
@@ -32,13 +40,14 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "24시 주장(그룹·대학 보도)",
-        "name_has_24h_token": true
+        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "name_has_24h_token": true,
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -56,11 +65,92 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "그룹 CT/MRI"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "피부과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "건강검진",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "응급",
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "내과",
+        "피부과",
+        "외과",
+        "치과",
+        "재활",
+        "영상의학과",
+        "안과",
+        "건강검진",
+        "심장"
       ],
       "services": [
         "24시",
@@ -117,7 +207,29 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "network_branches": [
+        "부천",
+        "인천",
+        "계양",
+        "부평",
+        "수원",
+        "광주",
+        "원주",
+        "천안",
+        "용인죽전"
+      ],
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_7a3ef610952f",
+        "homepage": "https://wj.skyamg.com",
+        "lat": 37.3249588,
+        "lng": 127.9583206,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.skyamg.com"
+        ]
+      }
     },
     {
       "id": "amc-goyang-drdog",
@@ -134,13 +246,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
-        "night_hours": null,
+        "night_hours": "24시간",
         "hours_note": "성예사 09:30–22:00 표기. 24시 여부는 2017 확장 이후 재확인",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -218,13 +341,20 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
-        "stale_source",
-        "no_official_equipment_proof"
+        "no_official_equipment_proof",
+        "stale_source"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_40dd707cda1b",
+        "homepage": "https://blog.naver.com/drdogamc",
+        "lat": 37.67064667,
+        "lng": 126.7810211,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b5-24시-다시-봄-동물의료센터",
@@ -331,7 +461,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b5-광명-24-아이디동물의료센터",
@@ -348,13 +487,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "partial",
+        "hours_24h": "yes",
         "emergency": "yes",
-        "weekday_hours": null,
+        "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
-        "night_hours": null,
+        "night_hours": "24시간",
         "hours_note": "24시 주간7·야간4 로테(기사)",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -442,7 +592,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 95,
+        "nationwide_id": "nat_ce50d10a7d8a",
+        "homepage": "https://blog.naver.com/idamc870",
+        "lat": 37.47605515,
+        "lng": 126.8659668,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b5-에프엠-FM-동물메디컬센터-김포점",
@@ -459,13 +618,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "partial",
+        "hours_24h": "yes",
         "emergency": "yes",
-        "weekday_hours": "09:00–21:00",
+        "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "21:00–09:00",
         "hours_note": "주간 09–21 야간 21–09(병원 블로그)",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -483,13 +653,84 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "CT/MRI"
+        },
+        {
+          "code": null,
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "신장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "응급",
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "심장",
+        "신장",
+        "종양",
+        "외과",
+        "신경",
+        "정형외과",
+        "영상"
       ],
-      "services": [],
+      "services": [
+        "옥서스 산소처치",
+        "무균 양압 수술실",
+        "영상센터",
+        "심장&신장센터",
+        "종양&항암센터",
+        "수술전문센터",
+        "슬개골클리닉"
+      ],
       "focus_conditions": [
         "24시",
         "영상"
@@ -516,11 +757,46 @@
           "evidence": "뉴스1 해피펫 김포 인근 영상의학센터 GE 1.5T",
           "as_of": "2026-09-19",
           "publisher": "news1"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": "CT",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": "X-ray",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": "초음파",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
         "CT",
-        "MRI"
+        "MRI",
+        "X-ray",
+        "초음파"
       ],
       "credentials": "",
       "strength_plain": "김포점·인근 영상센터. CT/MRI는 뉴스1.",
@@ -540,7 +816,18 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_041c44623871",
+        "homepage": "http://fmamc.kr/",
+        "lat": 37.64519119,
+        "lng": 126.668869,
+        "hours_source": "nationwide_csv",
+        "website_sources": [
+          "http://fmamc.kr/"
+        ]
+      }
     },
     {
       "id": "b5-부천24시SKY동물메디컬센터",
@@ -557,13 +844,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "24시 그룹 운영",
-        "name_has_24h_token": true
+        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -581,11 +879,92 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "그룹 CT/MRI"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "피부과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "건강검진",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "응급",
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "내과",
+        "피부과",
+        "외과",
+        "치과",
+        "재활",
+        "영상의학과",
+        "안과",
+        "건강검진",
+        "심장"
       ],
       "services": [],
       "focus_conditions": [
@@ -637,7 +1016,29 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "network_branches": [
+        "부천",
+        "인천",
+        "계양",
+        "부평",
+        "수원",
+        "광주",
+        "원주",
+        "천안",
+        "용인죽전"
+      ],
+      "enrichment": {
+        "nationwide_match_score": 150,
+        "nationwide_id": "nat_8eea5bca0832",
+        "homepage": "http://www.skyamg.com",
+        "lat": 37.50340271,
+        "lng": 126.7682037,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.skyamg.com"
+        ]
+      }
     },
     {
       "id": "b5-비엔동물전문의료센터",
@@ -660,7 +1061,29 @@
         "weekend_hours": null,
         "night_hours": "24시간",
         "hours_note": "24시. 플레이스 휴게 10:00-10:30·13:00-14:30",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00 | 10:00 - 10:30 휴게시간 | 13:00 - 14:30 휴게시간",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "10:00",
+            "end": "10:30",
+            "raw": "10:00 - 10:30 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:30",
+            "raw": "13:00 - 14:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -754,7 +1177,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 175,
+        "nationwide_id": "nat_9402648c4cc1",
+        "homepage": "http://24bien.com",
+        "lat": 37.48314285,
+        "lng": 126.8084106,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b5-권앤정-24시수원동물메디컬센터",
@@ -771,13 +1203,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "09:00–21:00",
         "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "24시 상호",
-        "name_has_24h_token": true
+        "night_hours": "21:00–09:00",
+        "hours_note": "일반 09–21 / 야간 21–09 / 응급 365일 24시간",
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -803,14 +1246,93 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "공식 CT"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "신경",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "임상병리",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "고양이 특화",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "응급",
         "종양",
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "외과",
+        "정형외과",
+        "신경",
+        "내과",
+        "심장",
+        "영상의학과",
+        "임상병리",
+        "고양이 특화"
       ],
-      "services": [],
+      "services": [
+        "종양항암센터",
+        "영상·내시경센터",
+        "골관절센터",
+        "24시 응급진료센터",
+        "고양이 전문클리닉(ISFM Gold)",
+        "동물외과병원"
+      ],
       "focus_conditions": [
         "24시",
         "종양"
@@ -837,13 +1359,83 @@
           "evidence": "같은 페이지 집중치료실",
           "as_of": "2026-09-19",
           "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "GE Lightspeed RT16",
+          "model": "GE Lightspeed RT16",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "icu",
+          "label": "ICU",
+          "item": "ICU 집중치료실",
+          "model": "ICU 집중치료실",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "carm",
+          "label": "C-arm",
+          "item": "C-arm",
+          "model": "C-arm",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "endoscope",
+          "label": "내시경",
+          "item": "내시경",
+          "model": "내시경",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": "초음파",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": "X-ray",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
+        "C-arm",
         "CT",
-        "ICU"
+        "ICU",
+        "X-ray",
+        "내시경",
+        "초음파"
       ],
-      "credentials": "",
+      "credentials": "서울대 출신 원장단(내과 권순찬, 외과 정태성·고종혁)",
       "strength_plain": "공식 사이트 CT 기종·ICU.",
       "avoid_hype": true,
       "confidence": "medium",
@@ -860,7 +1452,18 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 125,
+        "nationwide_id": "nat_dfb990624c5e",
+        "homepage": "https://suwonamc.co.kr/main",
+        "lat": 37.24614334,
+        "lng": 127.055954,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "https://suwonamc.co.kr/main"
+        ]
+      }
     },
     {
       "id": "b5-본-동물의료센터",
@@ -877,13 +1480,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "partial",
+        "hours_24h": "yes",
         "emergency": "yes",
-        "weekday_hours": "09:30–19:00",
+        "weekday_hours": "00:00–24:00",
         "weekend_hours": "09:30–17:00",
         "night_hours": "그 외 24시 응급",
         "hours_note": "외래 주중 09:30–19 주말 09:30–17, 그 외 24시 응급(네이버예약)",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -1029,7 +1643,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 115,
+        "nationwide_id": "nat_392004800d57",
+        "homepage": "https://bonamc.co.kr/",
+        "lat": 37.29541397,
+        "lng": 127.0098114,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b5-수원-스카이-동물메디컬센터",
@@ -1046,13 +1669,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "24시간(공식)",
-        "name_has_24h_token": false
+        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -1070,11 +1704,92 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "그룹+공식 영상"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "피부과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "건강검진",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "심장",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "응급",
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "내과",
+        "피부과",
+        "외과",
+        "치과",
+        "재활",
+        "영상의학과",
+        "안과",
+        "건강검진",
+        "심장"
       ],
       "services": [],
       "focus_conditions": [
@@ -1127,7 +1842,29 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "network_branches": [
+        "부천",
+        "인천",
+        "계양",
+        "부평",
+        "수원",
+        "광주",
+        "원주",
+        "천안",
+        "용인죽전"
+      ],
+      "enrichment": {
+        "nationwide_match_score": 150,
+        "nationwide_id": "nat_7a8a8e2dff31",
+        "homepage": "https://blog.naver.com/skyamg_sw",
+        "lat": 37.26860428,
+        "lng": 127.0277786,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.skyamg.com"
+        ]
+      }
     },
     {
       "id": "b6-24시-온누리동물메디컬센터",
@@ -1135,7 +1872,7 @@
       "name": "24시 온누리동물메디컬센터",
       "sido": "경기도",
       "sigungu": "안산시",
-      "phone": null,
+      "phone": "031-487-7500",
       "address": "경기도 안산시 단원구 안산천서로 23, 중앙하이츠빌 3층 (고잔동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
@@ -1150,7 +1887,29 @@
         "weekend_hours": null,
         "night_hours": "24시간",
         "hours_note": "24시(카카오 00-24)",
-        "name_has_24h_token": true
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00 | 13:00 - 14:00 휴게시간 | 18:00 - 19:00 휴게시간",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "18:00",
+            "end": "19:00",
+            "raw": "18:00 - 19:00 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -1271,11 +2030,19 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_45fcf793e3f4",
+        "homepage": "http://www.24onnuri.com/",
+        "lat": 37.31915665,
+        "lng": 126.8298798,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b6-24시-사람앤동물메디컬센터",
@@ -1292,13 +2059,35 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "partial",
+        "hours_24h": "yes",
         "emergency": "yes",
-        "weekday_hours": "09:30–22:00",
+        "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "22:00–09:00",
         "hours_note": "주간 09:30-22 야간응급 22-09 (병원 블로그)",
-        "name_has_24h_token": true
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00 | 12:00 - 13:10 휴게시간 | 09:00 - 09:30 휴게시간",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:10",
+            "raw": "12:00 - 13:10 휴게시간"
+          },
+          {
+            "start": "09:00",
+            "end": "09:30",
+            "raw": "09:00 - 09:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -1509,7 +2298,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 65,
+        "nationwide_id": "nat_b4f924faeacb",
+        "homepage": "http://www.snamc.co.kr/",
+        "lat": 37.31268311,
+        "lng": 127.0797424,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "univ-gnu-vmth",
@@ -1528,14 +2326,157 @@
       "hours": {
         "hours_24h": "unknown",
         "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "weekday_hours": "09:00–18:00",
+        "weekend_hours": "토 휴무 · 일 휴무",
         "night_hours": null,
-        "hours_note": "24시 미확인.",
-        "name_has_24h_token": false
+        "hours_note": "진료시간안내는 사이트 진료안내 메뉴 확인",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일) | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "월 09:00 - 18:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "화 09:00 - 18:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "수 09:00 - 18:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "목 09:00 - 18:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "금 09:00 - 18:00"
+          },
+          "sat": {
+            "status": "closed",
+            "raw": "토 정기휴무 (매주 토요일)"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:00",
+            "raw": "12:00 - 13:00 휴게시간"
+          }
+        ],
+        "hours_source": "hospital_website"
       },
-      "departments": [],
-      "department_labels": [],
+      "departments": [
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "산과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "진단검사의학",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "피부과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "특수동물",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        }
+      ],
+      "department_labels": [
+        "내과",
+        "외과",
+        "산과",
+        "영상의학과",
+        "안과",
+        "진단검사의학",
+        "피부과",
+        "특수동물"
+      ],
       "services": [
         "CT",
         "X-ray",
@@ -1612,13 +2553,22 @@
       ],
       "issues": [],
       "site_gaps": [
-        "hours_unconfirmed",
         "emergency_unconfirmed",
-        "departments_sparse",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_1cad9d8b65f7",
+        "homepage": "http://gamc.gnu.ac.kr/",
+        "lat": 35.15671539,
+        "lng": 128.0980072,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://gamc.gnu.ac.kr/"
+        ]
+      }
     },
     {
       "id": "b9-수동물메디컬센터",
@@ -1635,13 +2585,84 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "no",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
-        "weekend_hours": null,
+        "weekday_hours": "09:00–18:30",
+        "weekend_hours": "토 09:00–13:30 · 일 휴무",
         "night_hours": "24시간",
         "hours_note": "24시(뉴스1)",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 화 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 수 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 목 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 금 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 토 09:00 - 13:30 | 13:00 접수마감 | 일 정기휴무 (매주 일요일)",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:30",
+            "raw": "월 09:00 - 18:30"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:30",
+            "raw": "화 09:00 - 18:30"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:30",
+            "raw": "수 09:00 - 18:30"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:30",
+            "raw": "목 09:00 - 18:30"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:30",
+            "raw": "금 09:00 - 18:30"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:00",
+            "close": "13:30",
+            "raw": "토 09:00 - 13:30"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -1703,7 +2724,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 150,
+        "nationwide_id": "nat_59fd695657b1",
+        "homepage": "https://blog.naver.com/jsooamc",
+        "lat": 35.16239929,
+        "lng": 128.1068115,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "b10-24시-포항-이음동물의료센터",
@@ -1720,13 +2750,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
-        "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "24시",
-        "name_has_24h_token": true
+        "weekday_hours": "10:00–20:00",
+        "weekend_hours": "토 10:00–18:00",
+        "night_hours": "주중 20:00–10:00 / 토 18:00–10:00",
+        "hours_note": "일·공휴 응급 / 24시간 연중무휴. 주간 월–금 10–20, 토 10–18.",
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -1776,6 +2817,38 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "Arietta 750 심장초음파"
+        },
+        {
+          "code": null,
+          "label": "고난도수술",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "난치성내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "중재시술(최소침습)",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
@@ -1784,9 +2857,18 @@
         "정형외과",
         "신경",
         "안과",
-        "심장"
+        "심장",
+        "고난도수술",
+        "난치성내과",
+        "영상의학",
+        "중재시술(최소침습)"
       ],
-      "services": [],
+      "services": [
+        "슬개골·디스크·TPLO·종양수술",
+        "심장병·신부전",
+        "MRI/CT 정밀영상",
+        "기관스텐트·SUB 등 중재"
+      ],
       "focus_conditions": [
         "emergency",
         "imaging",
@@ -1828,6 +2910,28 @@
           "evidence": "같은 기사",
           "as_of": "2026-09-19",
           "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "1.5T MRI (전지점)",
+          "model": "1.5T MRI (전지점)",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "160채널 CT (전지점)",
+          "model": "160채널 CT (전지점)",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -1851,7 +2955,24 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "network_branches": [
+        "동탄",
+        "청주",
+        "포항",
+        "인천"
+      ],
+      "enrichment": {
+        "nationwide_match_score": 125,
+        "nationwide_id": "nat_2e13f396de0f",
+        "homepage": "http://www.eumamc.com/",
+        "lat": 36.00627136,
+        "lng": 129.3441315,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.eumamc.com/"
+        ]
+      }
     },
     {
       "id": "b10-본-동물메디컬센터-외과동물병원",
@@ -1870,11 +2991,22 @@
       "hours": {
         "hours_24h": "no",
         "emergency": "unknown",
-        "weekday_hours": null,
+        "weekday_hours": "09:00–20:00",
         "weekend_hours": null,
-        "night_hours": null,
-        "hours_note": "달서 주간 중심. 24시는 수성점",
-        "name_has_24h_token": false
+        "night_hours": "24시간",
+        "hours_note": "달서본원 주간 09–20(점심 12–13). 24시는 수성점(야간 20–09).",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -1908,15 +3040,67 @@
           "role": "available",
           "evidence_level": "self_claimed",
           "evidence": "달서 본원은 24시 수성점과 분리"
+        },
+        {
+          "code": null,
+          "label": "중재시술",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "최소침습",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "중증응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "정형외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "영상(CT/MRI)",
         "신경",
         "종양",
-        "응급"
+        "응급",
+        "중재시술",
+        "최소침습",
+        "영상",
+        "중증응급",
+        "정형외과"
       ],
-      "services": [],
+      "services": [
+        "TACE",
+        "ECT",
+        "초음파유도 심혈관중재(PDA)",
+        "BESS 척추내시경",
+        "THR",
+        "슬개골 인공활차구"
+      ],
       "focus_conditions": [
         "imaging",
         "neuro",
@@ -1945,9 +3129,93 @@
           "evidence": "같은 매일신문·공식",
           "as_of": "2026-09-19",
           "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "Philips Ingenia 1.5T",
+          "model": "Philips Ingenia 1.5T",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "TOSHIBA Aquilion CX 128 (64ch 128slice)",
+          "model": "TOSHIBA Aquilion CX 128 (64ch 128slice)",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "carm",
+          "label": "C-arm",
+          "item": "GENORAY OSCAR15 DSA C-arm",
+          "model": "GENORAY OSCAR15 DSA C-arm",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "Canon Aplio i800 / HITACHI ARIETTA 850",
+          "model": "Canon Aplio i800 / HITACHI ARIETTA 850",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "other",
+          "label": "기타",
+          "item": "Medtronic Stealth S8 Brain Navigation",
+          "model": "Medtronic Stealth S8 Brain Navigation",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ventilator",
+          "label": "인공호흡기",
+          "item": "GE Carestation 750",
+          "model": "GE Carestation 750",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "icu",
+          "label": "ICU",
+          "item": "큐레이들 ICU",
+          "model": "큐레이들 ICU",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
-      "equipment_summary": [],
+      "equipment_summary": [
+        "C-arm",
+        "CT",
+        "ICU",
+        "MRI",
+        "인공호흡기",
+        "초음파"
+      ],
       "credentials": null,
       "strength_plain": "대구 달서 본. 매일신문 검진센터 MRI/CT. 공식 1.5T·128slice. 수원 본과 다른 병원.",
       "avoid_hype": true,
@@ -1967,7 +3235,18 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 55,
+        "nationwide_id": "nat_31250b229a4c",
+        "homepage": "http://www.boneamc.com",
+        "lat": 35.85942459,
+        "lng": 128.6411285,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.boneamc.com"
+        ]
+      }
     },
     {
       "id": "univ-knu-daegu",
@@ -1990,7 +3269,11 @@
         "weekend_hours": null,
         "night_hours": "24시간",
         "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "일 월 화 수 목 금",
+        "by_day": {},
+        "breaks": [],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -2068,7 +3351,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 65,
+        "nationwide_id": "nat_6f628972b8c8",
+        "homepage": "https://blog.naver.com/knuvmth",
+        "lat": 35.88909912,
+        "lng": 128.6143188,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "univ-cnu-vmth",
@@ -2076,7 +3368,7 @@
       "name": "충남대학교 수의과대학 부속동물병원",
       "sido": "대전광역시",
       "sigungu": "유성구",
-      "phone": null,
+      "phone": "042-821-6704",
       "address": "대전광역시 유성구 (마스터 기준)",
       "role": "university",
       "role_label": "대학동물병원",
@@ -2085,13 +3377,82 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
-        "emergency": "yes",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "hours_24h": "no",
+        "emergency": "unknown",
+        "weekday_hours": "10:00–18:00",
+        "weekend_hours": "토 휴무 · 일 휴무",
         "night_hours": null,
-        "hours_note": "진료시간 중 on-call. 24시 미확인.",
-        "name_has_24h_token": false
+        "hours_note": "평일 10–18 (사이트). 전화 042-821-6704",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 10:00 - 18:00 | 화 10:00 - 18:00 | 수 10:00 - 18:00 | 목 10:00 - 18:00 | 금 10:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일) | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "10:00",
+            "close": "18:00",
+            "raw": "월 10:00 - 18:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "10:00",
+            "close": "18:00",
+            "raw": "화 10:00 - 18:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "10:00",
+            "close": "18:00",
+            "raw": "수 10:00 - 18:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "10:00",
+            "close": "18:00",
+            "raw": "목 10:00 - 18:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "10:00",
+            "close": "18:00",
+            "raw": "금 10:00 - 18:00"
+          },
+          "sat": {
+            "status": "closed",
+            "raw": "토 정기휴무 (매주 토요일)"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          }
+        ],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -2109,11 +3470,65 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "장비 행에서 유도"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "피부과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "산과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "진단검사의학",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "심장",
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "내과",
+        "외과",
+        "피부과",
+        "산과",
+        "진단검사의학",
+        "영상의학과"
       ],
       "services": [
         "내과 분과",
@@ -2135,10 +3550,58 @@
           "evidence": "데일리벳 2021 SKYAMC 기증 기사",
           "as_of": "2026-09-19",
           "publisher": "dailyvet"
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT실",
+          "model": "CT실",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI실",
+          "model": "MRI실",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파실",
+          "model": "초음파실",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray실",
+          "model": "X-ray실",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
-        "심장초음파"
+        "CT",
+        "MRI",
+        "X-ray",
+        "심장초음파",
+        "초음파"
       ],
       "credentials": "충남대 수의대 부속. cnuah.cnu.ac.kr",
       "strength_plain": "대학 분과·초음파는 확인. CT/MRI 현재 기종은 이번 검색에서 공식 목록 없음.",
@@ -2166,13 +3629,22 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
-        "hours_unconfirmed",
-        "stale_source",
-        "no_official_equipment_proof"
+        "no_official_equipment_proof",
+        "stale_source"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_de27beef45bb",
+        "homepage": "https://cnuah.cnu.ac.kr",
+        "lat": 36.36832809,
+        "lng": 127.3416595,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "https://cnuah.cnu.ac.kr"
+        ]
+      }
     },
     {
       "id": "b12-뉴로동물의료센터24시",
@@ -2189,13 +3661,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "10:00–21:00",
         "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "24시",
-        "name_has_24h_token": true
+        "night_hours": "21:00–09:00",
+        "hours_note": "주간 10–21 / 야간 21–09. 21시 이후 야간진료비. 면회 12–18. 예약제. 365일.",
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -2237,6 +3720,14 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "재활실"
+        },
+        {
+          "code": null,
+          "label": "2차 중증",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
@@ -2244,9 +3735,15 @@
         "영상(CT/MRI)",
         "신경",
         "종양",
-        "재활"
+        "재활",
+        "2차 중증"
       ],
-      "services": [],
+      "services": [
+        "365일 24시간",
+        "예약 진료",
+        "카카오 문의",
+        "면회"
+      ],
       "focus_conditions": [
         "emergency",
         "imaging",
@@ -2299,7 +3796,19 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "site_notes": "부산 연산 2차 중증. 의뢰서 없이도 진료 가능(예약).",
+      "enrichment": {
+        "nationwide_match_score": 55,
+        "nationwide_id": "nat_20dc2bd9ff6a",
+        "homepage": "https://neuroamc.com",
+        "lat": 35.1844368,
+        "lng": 129.0808868,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "https://neuroamc.com"
+        ]
+      }
     },
     {
       "id": "rehab-vip-sinsagyeong",
@@ -2317,12 +3826,95 @@
       "not_general_hospital": true,
       "hours": {
         "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "emergency": "no",
+        "weekday_hours": "10:00–19:00",
+        "weekend_hours": "토 10:00–19:00 · 일 10:00–19:00",
         "night_hours": null,
-        "hours_note": null,
-        "name_has_24h_token": false
+        "hours_note": "재활특화 센터(by Dr.신사경). VIP 그룹 내 한방재활의학센터.",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 10:00 - 19:00 | 화 10:00 - 19:00 | 수 10:00 - 19:00 | 목 10:00 - 19:00 | 금 10:00 - 19:00 | 토 10:00 - 19:00 | 일 10:00 - 19:00 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간 | 13:00 - 14:00 휴게시간",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "월 10:00 - 19:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "화 10:00 - 19:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "수 10:00 - 19:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "목 10:00 - 19:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "금 10:00 - 19:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "토 10:00 - 19:00"
+          },
+          "sun": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "일 10:00 - 19:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          }
+        ],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -2340,11 +3932,20 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "장비 행에서 유도"
+        },
+        {
+          "code": null,
+          "label": "한방",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "재활",
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "한방"
       ],
       "services": [
         "침·전침",
@@ -2356,7 +3957,8 @@
         "고압산소",
         "초음파치료",
         "운동치료",
-        "관절·콜라겐 주사"
+        "관절·콜라겐 주사",
+        "한방재활"
       ],
       "focus_conditions": [
         "퇴행성관절염",
@@ -2447,13 +4049,22 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
-        "hours_note_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_0fce1597dbc7",
+        "homepage": "http://pf.kakao.com/_llRVG/chat",
+        "lat": 37.51947021,
+        "lng": 127.0489883,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.vipah.co.kr/",
+          "https://www.vipah.co.kr/kr/"
+        ]
+      }
     },
     {
       "id": "b12-24시-로얄동물메디컬센터-강동",
@@ -2470,13 +4081,24 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "10:00–20:00",
         "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "24시",
-        "name_has_24h_token": true
+        "night_hours": "20:00–00:00 / 06:00–10:00",
+        "hours_note": "주간 10–20, 야간 20–24·06–10, 심야 00–06. 주말·공휴 연중무휴.",
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -2526,6 +4148,46 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "신경계"
+        },
+        {
+          "code": null,
+          "label": "치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
@@ -2534,9 +4196,22 @@
         "일반외과",
         "안과",
         "심장",
-        "신경"
+        "신경",
+        "치과",
+        "재활",
+        "내과",
+        "외과",
+        "영상"
       ],
-      "services": [],
+      "services": [
+        "백내장수술",
+        "영상진단",
+        "신경계",
+        "심장혈관",
+        "외과수술",
+        "재활한방",
+        "3F응급실"
+      ],
       "focus_conditions": [
         "emergency",
         "imaging",
@@ -2614,7 +4289,18 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 175,
+        "nationwide_id": "nat_3ee93b035d9c",
+        "homepage": "http://RoyalAMCGD.com",
+        "lat": 37.53412628,
+        "lng": 127.1414032,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://RoyalAMCGD.com"
+        ]
+      }
     },
     {
       "id": "univ-snu-vmth",
@@ -2633,11 +4319,54 @@
       "hours": {
         "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "weekday_hours": "09:00–18:00",
+        "weekend_hours": "토 휴무 · 일 휴무",
         "night_hours": null,
-        "hours_note": "응급센터 2019-01부터 24시간. 일반 분과는 주간 예약.",
-        "name_has_24h_token": false
+        "hours_note": "분과 예약 진료 + 응급의료센터 24시간(기존 프로필과 일치).",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일)",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "월 09:00 - 18:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "화 09:00 - 18:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "수 09:00 - 18:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "목 09:00 - 18:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "금 09:00 - 18:00"
+          },
+          "sat": {
+            "status": "closed",
+            "raw": "토 정기휴무 (매주 토요일)"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -2687,6 +4416,102 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "대학 응급"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "정형·신경외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "안과·치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "피부과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "응급의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과·방사선종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "임상병리",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "마취통증",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "야생/특수",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "산과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "대동물",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
@@ -2695,7 +4520,19 @@
         "정형외과",
         "신경",
         "종양",
-        "응급"
+        "응급",
+        "내과",
+        "정형·신경외과",
+        "안과·치과",
+        "피부과",
+        "응급의학과",
+        "영상의학과·방사선종양",
+        "임상병리",
+        "마취통증",
+        "영양",
+        "야생/특수",
+        "산과",
+        "대동물"
       ],
       "services": [
         "24시간 응급(2019~)",
@@ -2792,7 +4629,18 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 75,
+        "nationwide_id": "nat_37e4ab0de71a",
+        "homepage": null,
+        "lat": 37.46628571,
+        "lng": 126.9481583,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "https://vmth.snu.ac.kr/"
+        ]
+      }
     },
     {
       "id": "univ-konkuk-vmth",
@@ -2809,13 +4657,14 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
+        "hours_24h": "no",
         "emergency": "yes",
-        "weekday_hours": "09:00–17:00",
+        "weekday_hours": "09:00–17:30",
         "weekend_hours": null,
         "night_hours": null,
-        "hours_note": "영상 의뢰 월–금 09–17. 24시 여부는 이번 출처로 확정 안 함.",
-        "name_has_24h_token": false
+        "hours_note": "평일 09:00–17:30 예약진료. 분과: 내과·외과·안과·영상·임상병리·응급중환자.",
+        "name_has_24h_token": false,
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -2833,11 +4682,65 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "대학"
+        },
+        {
+          "code": null,
+          "label": "내과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "일반외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "안과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "임상병리",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "응급중환자",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "영상(CT/MRI)",
-        "응급"
+        "응급",
+        "내과",
+        "일반외과",
+        "안과",
+        "영상의학과",
+        "임상병리",
+        "응급중환자"
       ],
       "services": [
         "CT 의뢰 촬영",
@@ -2892,11 +4795,21 @@
       ],
       "issues": [],
       "site_gaps": [
-        "hours_unconfirmed",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 175,
+        "nationwide_id": "nat_d43c4fc689bf",
+        "homepage": "http://vmth.konkuk.ac.kr/",
+        "lat": 37.53918457,
+        "lng": 127.0747147,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://vmth.konkuk.ac.kr/"
+        ]
+      }
     },
     {
       "id": "univ-snu-checkup-gwangjin",
@@ -2978,7 +4891,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "b14-노원N동물의료센터",
@@ -2986,8 +4908,8 @@
       "name": "노원N동물의료센터",
       "sido": "서울특별시",
       "sigungu": "노원구",
-      "phone": null,
-      "address": "서울특별시 노원구 노원로 408, (주)노원24시동물의료센터 1,2,4층 (상계동)",
+      "phone": "02-919-0075",
+      "address": "서울시 노원구 노원로 408",
       "role": "secondary",
       "role_label": "2차 의료센터",
       "care_level": "secondary",
@@ -2995,13 +4917,14 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–20:00",
         "weekend_hours": null,
-        "night_hours": null,
-        "hours_note": null,
-        "name_has_24h_token": false
+        "night_hours": "20:00–10:00",
+        "hours_note": "24시간(일반 10–20, 응급 20–익일 10). 월–일 동일. 공식사이트 namc.co.kr",
+        "name_has_24h_token": false,
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -3051,6 +4974,46 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "정형 수술·재활"
+        },
+        {
+          "code": null,
+          "label": "중증케어",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr"
+        },
+        {
+          "code": null,
+          "label": "인터벤션",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr"
+        },
+        {
+          "code": null,
+          "label": "최소침습",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr"
+        },
+        {
+          "code": null,
+          "label": "종양",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr"
+        },
+        {
+          "code": null,
+          "label": "줄기세포",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr"
         }
       ],
       "department_labels": [
@@ -3059,9 +5022,24 @@
         "재활",
         "투석",
         "고양이 특화",
-        "정형외과"
+        "정형외과",
+        "중증케어",
+        "인터벤션",
+        "최소침습",
+        "종양",
+        "줄기세포"
       ],
-      "services": [],
+      "services": [
+        "중증환자 케어센터",
+        "재활센터",
+        "인터벤션 센터",
+        "최소침습 센터",
+        "관절 센터",
+        "암센터",
+        "줄기세포 치료",
+        "투석센터 CRRT",
+        "고양이병원"
+      ],
       "focus_conditions": [
         "imaging",
         "emergency",
@@ -3103,10 +5081,81 @@
           "evidence": "데일리벳 확장이전",
           "as_of": "2026-09-20",
           "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr",
+          "as_of": "2026-09-20",
+          "publisher": null,
+          "model": "CT"
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr",
+          "as_of": "2026-09-20",
+          "publisher": null,
+          "model": "MRI"
+        },
+        {
+          "kind": "underwater_treadmill",
+          "label": "수중런닝/수중보행",
+          "item": "수중 러닝 머신",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr",
+          "as_of": "2026-09-20",
+          "publisher": null,
+          "model": "수중 러닝 머신"
+        },
+        {
+          "kind": "hbot",
+          "label": "고압산소",
+          "item": "고압산소",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr",
+          "as_of": "2026-09-20",
+          "publisher": null,
+          "model": "고압산소"
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr",
+          "as_of": "2026-09-20",
+          "publisher": null,
+          "model": "초음파"
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "namc.co.kr",
+          "as_of": "2026-09-20",
+          "publisher": null,
+          "model": "X-ray"
         }
       ],
       "equipment_summary": [
-        "수중런닝/수중보행"
+        "CT",
+        "MRI",
+        "X-ray",
+        "고압산소",
+        "수중런닝/수중보행",
+        "초음파"
       ],
       "credentials": null,
       "strength_plain": "노원. 데일리벳: 3T MRI(Vantage Galan)·80slice CT. 확장기사: 투석·재활·고양이병원.",
@@ -3128,14 +5177,22 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
-        "hours_note_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": "https://www.namc.co.kr/",
+        "lat": null,
+        "lng": null,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "https://www.namc.co.kr/"
+        ],
+        "notes": "N동물의료센터 노원점. 강북점 02-984-0075. 고양이병원·암센터 노원점."
+      }
     },
     {
       "id": "rehab-hangeoleumdeo",
@@ -3152,13 +5209,82 @@
       "publishable": true,
       "not_general_hospital": true,
       "hours": {
-        "hours_24h": "unknown",
-        "emergency": "unknown",
-        "weekday_hours": null,
-        "weekend_hours": null,
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "10:00–19:00",
+        "weekend_hours": "일·월 휴진",
         "night_hours": null,
-        "hours_note": null,
-        "name_has_24h_token": false
+        "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제.",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 정기휴무 (매주 월요일) | 화 10:00 - 19:00 | 수 10:00 - 19:00 | 목 10:00 - 19:00 | 금 10:00 - 19:00 | 토 10:00 - 19:00 | 일 정기휴무 (매주 일요일) | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감",
+        "by_day": {
+          "mon": {
+            "status": "closed",
+            "raw": "월 정기휴무 (매주 월요일)"
+          },
+          "tue": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "화 10:00 - 19:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "수 10:00 - 19:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "목 10:00 - 19:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "금 10:00 - 19:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "10:00",
+            "close": "19:00",
+            "raw": "토 10:00 - 19:00"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          },
+          {
+            "start": "13:00",
+            "end": "14:00",
+            "raw": "13:00 - 14:00 휴게시간"
+          }
+        ],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -3168,10 +5294,19 @@
           "role": "primary_strength",
           "evidence_level": "reported",
           "evidence": "재활 특화"
+        },
+        {
+          "code": null,
+          "label": "한방",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
-        "재활"
+        "재활",
+        "한방"
       ],
       "services": [
         "침",
@@ -3181,7 +5316,12 @@
         "수중보행",
         "고압산소",
         "전기치료",
-        "운동치료"
+        "운동치료",
+        "약침",
+        "한약",
+        "추나",
+        "ESWT",
+        "PRP"
       ],
       "focus_conditions": [
         "정형·신경",
@@ -3243,13 +5383,21 @@
       ],
       "issues": [],
       "site_gaps": [
-        "hours_unconfirmed",
-        "emergency_unconfirmed",
-        "hours_note_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 100,
+        "nationwide_id": "nat_d47fd5164e0c",
+        "homepage": "http://www.onepawaway.co.kr",
+        "lat": 37.50243759,
+        "lng": 127.0993347,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.onepawaway.co.kr"
+        ]
+      }
     },
     {
       "id": "b14-24시월드펫동물메디컬센터",
@@ -3272,7 +5420,18 @@
         "weekend_hours": null,
         "night_hours": "24시간",
         "hours_note": "24시. 영상센터 365일",
-        "name_has_24h_token": true
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -3380,7 +5539,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 125,
+        "nationwide_id": "nat_069629c9f316",
+        "homepage": "https://월드펫amc.com/",
+        "lat": 37.5205307,
+        "lng": 126.8453827,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "gwangju-noah",
@@ -3402,8 +5570,19 @@
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": null,
-        "name_has_24h_token": true
+        "hours_note": "연중무휴 24시간 (공식 사이트)",
+        "name_has_24h_token": true,
+        "hours_note_nationwide": "매일 00:00 - 24:00",
+        "by_day": {
+          "daily": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "매일 00:00 - 24:00"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -3429,12 +5608,21 @@
           "role": "available",
           "evidence_level": "self_claimed",
           "evidence": "병원 소개 정형"
+        },
+        {
+          "code": null,
+          "label": "영상",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
         "응급",
         "영상(CT/MRI)",
-        "정형외과"
+        "정형외과",
+        "영상"
       ],
       "services": [
         "24시 응급",
@@ -3489,11 +5677,21 @@
       ],
       "issues": [],
       "site_gaps": [
-        "hours_note_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 150,
+        "nationwide_id": "nat_baacccf07bb2",
+        "homepage": "http://noahamc.co.kr/",
+        "lat": 35.15679932,
+        "lng": 126.9131317,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://noahamc.co.kr/"
+        ]
+      }
     },
     {
       "id": "univ-jnu-vmth",
@@ -3501,8 +5699,8 @@
       "name": "전남대학교 동물병원",
       "sido": "전남광주통합특별시",
       "sigungu": "북구",
-      "phone": null,
-      "address": "광주 북구 용봉로 77 전남대학교 (마스터 주소 기준)",
+      "phone": "062-530-2882",
+      "address": "광주광역시 북구 용봉로 45 (용봉동) / 전남대학교",
       "role": "university",
       "role_label": "대학동물병원",
       "care_level": "university",
@@ -3580,11 +5778,20 @@
         }
       ],
       "site_gaps": [
-        "phone_missing",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": null,
+        "nationwide_id": null,
+        "homepage": null,
+        "lat": null,
+        "lng": null,
+        "hours_source": null,
+        "website_sources": [],
+        "notes": "전국CSV: 전남대학교 광주캠퍼스동물병원, 전화 062-530-2882"
+      }
     },
     {
       "id": "univ-jbnu-jamc",
@@ -3601,13 +5808,86 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
-        "weekend_hours": null,
+        "weekday_hours": "09:00–18:00",
+        "weekend_hours": "토 00:00–24:00 · 일 00:00–24:00",
         "night_hours": "24시간",
         "hours_note": "국립대 중 24시 응급 운영 그룹에 포함(헬스조선 2025-05 정리).",
-        "name_has_24h_token": false
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 00:00 - 24:00 | 일 00:00 - 24:00 | 12:00 - 13:30 휴게시간 | 12:00 - 13:30 휴게시간 | 12:00 - 13:30 휴게시간 | 12:00 - 13:30 휴게시간 | 12:00 - 13:30 휴게시간",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "월 09:00 - 18:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "화 09:00 - 18:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "수 09:00 - 18:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "목 09:00 - 18:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "금 09:00 - 18:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "토 00:00 - 24:00"
+          },
+          "sun": {
+            "status": "open",
+            "open": "00:00",
+            "close": "24:00",
+            "raw": "일 00:00 - 24:00"
+          }
+        },
+        "breaks": [
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          },
+          {
+            "start": "12:00",
+            "end": "13:30",
+            "raw": "12:00 - 13:30 휴게시간"
+          }
+        ],
+        "hours_source": "nationwide_csv"
       },
       "departments": [
         {
@@ -3728,7 +6008,16 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_8577a4b415da",
+        "homepage": "https://jamc.jbnu.ac.kr",
+        "lat": 35.94245529,
+        "lng": 126.9599075,
+        "hours_source": "nationwide_csv",
+        "website_sources": []
+      }
     },
     {
       "id": "univ-jeju-equine",
@@ -3818,13 +6107,22 @@
         }
       ],
       "site_gaps": [
-        "hours_unconfirmed",
         "emergency_unconfirmed",
-        "stale_source",
-        "no_official_equipment_proof"
+        "hours_unconfirmed",
+        "no_official_equipment_proof",
+        "stale_source"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_cdc24d09ad3d",
+        "homepage": null,
+        "lat": 33.44697571,
+        "lng": 126.5626984,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "univ-jeju-vmth",
@@ -3914,12 +6212,21 @@
       ],
       "issues": [],
       "site_gaps": [
-        "hours_unconfirmed",
         "emergency_unconfirmed",
+        "hours_unconfirmed",
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_cdc24d09ad3d",
+        "homepage": null,
+        "lat": 33.44697571,
+        "lng": 126.5626984,
+        "hours_source": null,
+        "website_sources": []
+      }
     },
     {
       "id": "univ-cbnu-cheongju",
@@ -3928,7 +6235,7 @@
       "sido": "충청북도",
       "sigungu": "청주시",
       "phone": "043-261-3220",
-      "address": "충청북도 청주시 (마스터 기준)",
+      "address": "충북 청주시 서원구 충대로 1",
       "role": "university",
       "role_label": "대학동물병원",
       "care_level": "university",
@@ -3936,13 +6243,58 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "yes",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
-        "weekend_hours": null,
+        "weekday_hours": "09:00–18:00",
+        "weekend_hours": "토 09:00–13:00 · 일 휴무",
         "night_hours": "24시간",
-        "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
-        "name_has_24h_token": false
+        "hours_note": "정규 평일 09–18 / 응급 365일 24시간 (사이트)",
+        "name_has_24h_token": false,
+        "hours_note_nationwide": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 09:00 - 13:00 | 일 정기휴무 (매주 일요일)",
+        "by_day": {
+          "mon": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "월 09:00 - 18:00"
+          },
+          "tue": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "화 09:00 - 18:00"
+          },
+          "wed": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "수 09:00 - 18:00"
+          },
+          "thu": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "목 09:00 - 18:00"
+          },
+          "fri": {
+            "status": "open",
+            "open": "09:00",
+            "close": "18:00",
+            "raw": "금 09:00 - 18:00"
+          },
+          "sat": {
+            "status": "open",
+            "open": "09:00",
+            "close": "13:00",
+            "raw": "토 09:00 - 13:00"
+          },
+          "sun": {
+            "status": "closed",
+            "raw": "일 정기휴무 (매주 일요일)"
+          }
+        },
+        "breaks": [],
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -3952,10 +6304,91 @@
           "role": "available",
           "evidence_level": "reported",
           "evidence": "PET-CT"
+        },
+        {
+          "code": null,
+          "label": "내과/피부",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "정형/외상/신경외과·재활",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "연부조직/종양외과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "안과/치과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "산과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "핵의학",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "영상의학과",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "진단검사의학",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
+        },
+        {
+          "code": null,
+          "label": "응급",
+          "available": "yes",
+          "role": "available",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website"
         }
       ],
       "department_labels": [
-        "영상(CT/MRI)"
+        "영상(CT/MRI)",
+        "내과/피부",
+        "정형/외상/신경외과·재활",
+        "연부조직/종양외과",
+        "안과/치과",
+        "산과",
+        "핵의학",
+        "영상의학과",
+        "진단검사의학",
+        "응급"
       ],
       "services": [
         "PET-CT",
@@ -3978,10 +6411,69 @@
           "evidence": "cbuanimal.co.kr 핵의학과 페이지(2018~ 진료 적용)",
           "as_of": "2026-09-19",
           "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "CT",
+          "model": "CT",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "MRI",
+          "model": "MRI",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "pet_ct",
+          "label": "PET-CT",
+          "item": "PET-CT(핵의학)",
+          "model": "PET-CT(핵의학)",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "xray",
+          "label": "X-ray",
+          "item": "X-ray",
+          "model": "X-ray",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "초음파",
+          "model": "초음파",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "hospital website",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
-        "PET-CT"
+        "CT",
+        "MRI",
+        "PET-CT",
+        "X-ray",
+        "초음파"
       ],
       "credentials": "충북대 수의대 청주 본원. 세종분원과 인허가 분리.",
       "strength_plain": "대학 공식 핵의학과에 PET-CT 명시.",
@@ -3999,7 +6491,19 @@
         "no_official_equipment_proof"
       ],
       "source_file": "homepage-public",
-      "as_of": "2026-09-19"
+      "as_of": "2026-09-19",
+      "enrichment": {
+        "nationwide_match_score": 200,
+        "nationwide_id": "nat_b19206afb0e6",
+        "homepage": "http://www.cbuanimal.co.kr/",
+        "lat": 36.63004303,
+        "lng": 127.4550781,
+        "hours_source": "hospital_website",
+        "website_sources": [
+          "http://www.cbuanimal.co.kr/"
+        ],
+        "alt_phone": "043-261-2602"
+      }
     }
   ]
 }
