@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4152,
-  "excluded_n": 250,
+  "n": 4151,
+  "excluded_n": 251,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -253,12 +253,13 @@
     "피그헬스동물병원",
     "유일동물병원",
     "제주피그클리닉",
-    "마리동물의료센터"
+    "마리동물의료센터",
+    "태양종합동물병원"
   ],
   "stats": {
-    "with_homepage": 1932,
+    "with_homepage": 1938,
     "with_hours": 3317,
-    "with_phone": 3943,
+    "with_phone": 3942,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -271,7 +272,7 @@
   "care_level_counts": {
     "neighborhood": 3440,
     "secondary": 498,
-    "primary": 181,
+    "primary": 180,
     "university": 12,
     "rehab_specialty": 21
   },
@@ -1252,6 +1253,12 @@
         "name": "마리동물의료센터",
         "reason": "LARGE_ANIMAL: 용인 처인 백암 Place hit; phone match; 공식사이트·소개 대동물(낙농·한우) 전문·반려 소동물 비대상; Place/공식 hours 미노출",
         "excluded_at": "2026-09-20T13:30:04Z"
+      },
+      {
+        "id": "nat_efb45826aa2c",
+        "name": "태양종합동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: Naver lists 태양종합동물병원(폐업) (동대문구 listing; target 성북구 돌곶이로18길 31); no active Place panel",
+        "excluded_at": "2026-09-20T14:21:11Z"
       }
     ],
     "primary_nohp_local": {
@@ -2029,9 +2036,33 @@
         "exclude_large_animal": 0,
         "missing_id": 0
       }
+    },
+    "primary_nohp_final": {
+      "n": 113,
+      "hit": 105,
+      "no_hit": 0,
+      "ambiguous": 7,
+      "closed_exclude": 1,
+      "large_animal_exclude": 0,
+      "homepages_reported": 6,
+      "hours_reported": 76,
+      "merged_at": "2026-09-20T14:21:11Z",
+      "source_branch": "cursor/place-primary-nohp-final-ac30",
+      "merge_stats": {
+        "hit_applied": 105,
+        "homepage_set": 6,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 6,
+        "no_hit": 0,
+        "ambiguous_skip": 7,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1932,
+  "with_homepage": 1938,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

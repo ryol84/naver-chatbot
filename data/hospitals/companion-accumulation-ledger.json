@@ -8082,6 +8082,30 @@
       },
       "excluded": [],
       "source_branch": "cursor/place-secondary-residual-ac30"
+    },
+    {
+      "ts": "2026-09-20T14:21:11Z",
+      "action": "merge_place_primary_nohp_final",
+      "stats": {
+        "hit_applied": 105,
+        "homepage_set": 6,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 6,
+        "no_hit": 0,
+        "ambiguous_skip": 7,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_efb45826aa2c",
+          "name": "태양종합동물병원",
+          "reason": "CLOSED: CLOSED_EXCLUDE: Naver lists 태양종합동물병원(폐업) (동대문구 listing; target 성북구 돌곶이로18길 31); no active Place panel"
+        }
+      ],
+      "source_branch": "cursor/place-primary-nohp-final-ac30"
     }
   ],
   "wave_actions": [
