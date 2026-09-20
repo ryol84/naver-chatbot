@@ -131,9 +131,9 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3576,
-    "secondary": 496,
-    "primary": 190,
+    "neighborhood": 3574,
+    "secondary": 499,
+    "primary": 189,
     "university": 17,
     "rehab_specialty": 21
   },
@@ -145,9 +145,16 @@
     "default_departments_applied": 4300,
     "place_dept_merged": 40,
     "still_need_place": 2907,
-    "note": "Naver bulk HTTP 403 after ~40; continued via WebFetch for key 2차. Neighborhood uses Place/Daum URL + default depts."
+    "note": "Naver bulk HTTP 403 after ~40; continued via WebFetch for key 2차. Neighborhood uses Place/Daum URL + default depts.",
+    "secondary_wave2": {
+      "n": 37,
+      "real_homepage": 2,
+      "place_only": 32,
+      "no_hit": 3,
+      "merged_at": "2026-09-20T03:27:33Z"
+    }
   },
-  "with_homepage": 1897,
+  "with_homepage": 1900,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

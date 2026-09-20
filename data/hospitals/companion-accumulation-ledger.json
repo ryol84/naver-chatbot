@@ -6714,6 +6714,10 @@
   ],
   "last_batch_reviews": [
     {
+      "name": "_secondary_wave2",
+      "note": "2차 37곳 Place 완료: 실사이트 2(마리·한사랑), Place-only 32, no-hit 3. 병합 완료."
+    },
+    {
       "name": "_place_batch",
       "note": "Place 히트 40곳 병합. 홈페이지+6. 전 병원 과목 기본값+Place키워드."
     },
@@ -6732,18 +6736,6 @@
     {
       "name": "24시스마일동물의료센터",
       "note": "Place 연중무휴·전화 확인, 독립사이트 미표기"
-    },
-    {
-      "name": "광명 24 아이디동물의료센터",
-      "note": "네이버플레이스→공식사이트 https://www.24idamc.com/ · 64ch CT·분과센터 · 2차 · 갭해소"
-    },
-    {
-      "name": "Dr.dog동물의료센터",
-      "note": "네이버플레이스 확인: 블로그 공식채널·24시. CT모델 미공개(유일 갭)"
-    },
-    {
-      "name": "_taxonomy",
-      "note": "companion 4300곳 care_level 분류: {'neighborhood': 3590, 'secondary': 480, 'primary': 192, 'university': 17, 'rehab_specialty': 21}"
     }
   ],
   "progress": {
@@ -6764,6 +6756,8 @@
     },
     "companion_place_hits": 40,
     "companion_need_place": 2907,
-    "companion_with_departments": 4300
+    "companion_with_departments": 4300,
+    "sec_missing_homepage": 37,
+    "companion_with_homepage": 1900
   }
 }
