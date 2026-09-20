@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4167,
-  "excluded_n": 235,
+  "n": 4157,
+  "excluded_n": 245,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -238,12 +238,22 @@
     "중앙동물종합병원",
     "쿨펫동물병원 동탄점",
     "펫사랑동물병원",
-    "짱동물병원"
+    "짱동물병원",
+    "프라임동물병원",
+    "협성사슴농원",
+    "한호가축약품",
+    "용인축협동물병원",
+    "한국마사회 KRA 동물병원",
+    "펫가든 동물병원",
+    "국립축산과학원동물병원",
+    "라임동물약품병원",
+    "대한동물병원약품",
+    "양하무역산업동물병원"
   ],
   "stats": {
-    "with_homepage": 1927,
-    "with_hours": 3288,
-    "with_phone": 3941,
+    "with_homepage": 1924,
+    "with_hours": 3303,
+    "with_phone": 3942,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -254,7 +264,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3453,
+    "neighborhood": 3443,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -1147,6 +1157,66 @@
         "name": "짱동물병원",
         "reason": "CLOSED: 김해시 Place 미노출·디렉터리 폐업(경남 김해시 율하2로 248)",
         "excluded_at": "2026-09-20T12:37:19Z"
+      },
+      {
+        "id": "nat_ccf76ac074a8",
+        "name": "프라임동물병원",
+        "reason": "CLOSED: 성남시 운중로 Place 미노출·디렉터리 폐업 표기(운중로 124) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_183f5901ae0b",
+        "name": "협성사슴농원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_526984e2cb6c",
+        "name": "한호가축약품",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_bf329cc18336",
+        "name": "용인축협동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_1e849ff9d8f1",
+        "name": "한국마사회 KRA 동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_6b5e0445612a",
+        "name": "펫가든 동물병원",
+        "reason": "CLOSED: 수원시 영통 Place 미노출·디렉터리 폐업/이전(→서울 LK) 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_0bacca1d7147",
+        "name": "국립축산과학원동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_785c486fcc0e",
+        "name": "라임동물약품병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_bf458d333569",
+        "name": "대한동물병원약품",
+        "reason": "LARGE_ANIMAL: 시설명 동물병원약품(대동물/약품) 계열 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_f746f7a69d8b",
+        "name": "양하무역산업동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
       }
     ],
     "primary_nohp_local": {
@@ -1780,9 +1850,33 @@
         "exclude_large_animal": 0,
         "missing_id": 0
       }
+    },
+    "gyeonggi_neigh_wave4": {
+      "n": 79,
+      "hit": 56,
+      "no_hit": 13,
+      "ambiguous": 0,
+      "closed_exclude": 2,
+      "large_animal_exclude": 8,
+      "homepages_reported": 3,
+      "hours_reported": 15,
+      "merged_at": "2026-09-20T12:38:01Z",
+      "source_branch": "cursor/place-neigh-gyeonggi-w4-ac30",
+      "merge_stats": {
+        "hit_applied": 56,
+        "homepage_set": 1,
+        "phone_set": 7,
+        "hours_set": 15,
+        "dept_merged": 0,
+        "no_hit": 13,
+        "ambiguous_skip": 0,
+        "exclude_closed": 2,
+        "exclude_large_animal": 8,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1927,
+  "with_homepage": 1924,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
