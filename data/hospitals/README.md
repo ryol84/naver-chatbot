@@ -30,6 +30,7 @@
 - hours round2: primary 29 (hit 27, hours_raw 3) + secondary 25 (hit 19 / ambiguous 6 skipped; homepage 18 reported, hours_raw 16)
 - primary nohp wave 122: hit 118 / ambiguous 4 / no_hit 0; official homepage 0; hours hint/raw 77
 - Seoul neighborhood wave2: 100 (hit 90 / no_hit 9 / ambiguous 1); homepage 1 (온 동물병원) / hours 72
+- Seoul neighborhood wave3: 112 (hit 96 / no_hit 10 / ambiguous 0 / CLOSED 6); homepage 3 (이윤세동물병원, 우리와, 물고기병원 수산질병관리원) / hours 92
 - Busan neighborhood wave1: 93 (hit 84 / no_hit 9); homepage 1 (박 동물종합병원 daum cafe) / hours 54
 - primary hours remaining 41: hit 39 / ambiguous 1 / no_hit 1; hours_raw 2 (참누리·웰니스부산 dirs); homepage 1 (참누리); CLOSED_EXCLUDE 5
 - Gyeonggi neighborhood wave1: 100 (hit 91 / no_hit 7 / ambiguous 2); homepage 5 / hours 57
