@@ -269,7 +269,7 @@
     "모라동물병원"
   ],
   "stats": {
-    "with_homepage": 1949,
+    "with_homepage": 1951,
     "with_hours": 3328,
     "with_phone": 3959,
     "hours_24h_yes": 226
@@ -2326,7 +2326,7 @@
       }
     }
   },
-  "with_homepage": 1949,
+  "with_homepage": 1951,
   "with_departments": 4300,
   "sec_missing_homepage": 37,
   "google_enrichment": {
@@ -2375,6 +2375,31 @@
         "directory_only": 0,
         "ambiguous": 3,
         "hit": 19
+      }
+    },
+    "google_primary_nohp": {
+      "n": 105,
+      "status_counts": {
+        "directory_only": 95,
+        "ambiguous": 3,
+        "no_hit": 5,
+        "hit": 2
+      },
+      "homepages_reported": 2,
+      "hours_reported": 1,
+      "merged_at": "2026-09-20T15:25:37Z",
+      "source_branch": "cursor/google-primary-nohp-ac30",
+      "merge_stats": {
+        "rows": 105,
+        "homepage_set": 2,
+        "hours_set": 0,
+        "hours_upgraded": 0,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 95,
+        "ambiguous": 3,
+        "hit": 2
       }
     }
   }
