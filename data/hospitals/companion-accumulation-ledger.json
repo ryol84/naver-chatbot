@@ -7740,6 +7740,45 @@
         }
       ],
       "source_branch": "cursor/place-neigh-seoul-wave4-ac30"
+    },
+    {
+      "ts": "2026-09-20T12:05:09Z",
+      "action": "merge_place_neigh_gyeongbuk_wave2",
+      "stats": {
+        "hit_applied": 50,
+        "homepage_set": 0,
+        "phone_set": 1,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 7,
+        "ambiguous_skip": 0,
+        "exclude_closed": 3,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_29ae05bfbb06",
+          "name": "경산축협 자인사업소",
+          "reason": "LARGE_ANIMAL: 명칭에 축협/가축/한우/수산 계열 → LARGE_ANIMAL_ONLY_EXCLUDE; 타깃주소 경북 경산시 자인면 서부리 66-1"
+        },
+        {
+          "id": "nat_5e8fe0284575",
+          "name": "삼양동물병원",
+          "reason": "CLOSED: 문경 남산로20; animal.hospitalk 폐업(2017-04-06) 표기·Place 미노출 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_490f121e279d",
+          "name": "최태규동물병원",
+          "reason": "CLOSED: 예천읍 시장로31-1; animal.hospitalk 폐업(2016-12-21) 표기·Place 미노출 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_de372e6d2e14",
+          "name": "현동물병원",
+          "reason": "CLOSED: 청도읍 고수산복길13-1; Place 미노출·animal.hospitalk 취소/말소 표기 → CLOSED_EXCLUDE"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-gyeongbuk-w2-ac30"
     }
   ],
   "wave_actions": [

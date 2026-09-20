@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4183,
-  "excluded_n": 219,
+  "n": 4179,
+  "excluded_n": 223,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -223,12 +223,16 @@
     "위즈펫동물병원",
     "용봉동물병원",
     "에디슨동물병원",
-    "평창동물병원"
+    "평창동물병원",
+    "경산축협 자인사업소",
+    "삼양동물병원",
+    "최태규동물병원",
+    "현동물병원"
   ],
   "stats": {
     "with_homepage": 1930,
     "with_hours": 3255,
-    "with_phone": 3952,
+    "with_phone": 3951,
     "hours_24h_yes": 225
   },
   "care_level_taxonomy": {
@@ -239,7 +243,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3468,
+    "neighborhood": 3465,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -1036,6 +1040,30 @@
         "name": "평창동물병원",
         "reason": "CLOSED: 종로 평창문화로31 mypet-119 폐업 표기. Place는 인근 월드펫(평창문화로75)만→CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_29ae05bfbb06",
+        "name": "경산축협 자인사업소",
+        "reason": "LARGE_ANIMAL: 명칭에 축협/가축/한우/수산 계열 → LARGE_ANIMAL_ONLY_EXCLUDE; 타깃주소 경북 경산시 자인면 서부리 66-1",
+        "excluded_at": "2026-09-20T12:05:09Z"
+      },
+      {
+        "id": "nat_5e8fe0284575",
+        "name": "삼양동물병원",
+        "reason": "CLOSED: 문경 남산로20; animal.hospitalk 폐업(2017-04-06) 표기·Place 미노출 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:05:09Z"
+      },
+      {
+        "id": "nat_490f121e279d",
+        "name": "최태규동물병원",
+        "reason": "CLOSED: 예천읍 시장로31-1; animal.hospitalk 폐업(2016-12-21) 표기·Place 미노출 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:05:09Z"
+      },
+      {
+        "id": "nat_de372e6d2e14",
+        "name": "현동물병원",
+        "reason": "CLOSED: 청도읍 고수산복길13-1; Place 미노출·animal.hospitalk 취소/말소 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:05:09Z"
       }
     ],
     "primary_nohp_local": {
@@ -1570,6 +1598,30 @@
         "no_hit": 3,
         "ambiguous_skip": 0,
         "exclude_closed": 6,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
+    },
+    "gyeongbuk_neigh_wave2": {
+      "n": 61,
+      "hit": 50,
+      "no_hit": 7,
+      "ambiguous": 0,
+      "closed_exclude": 3,
+      "large_animal_exclude": 1,
+      "homepages_reported": 1,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T12:05:09Z",
+      "source_branch": "cursor/place-neigh-gyeongbuk-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 50,
+        "homepage_set": 0,
+        "phone_set": 1,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 7,
+        "ambiguous_skip": 0,
+        "exclude_closed": 3,
         "exclude_large_animal": 1,
         "missing_id": 0
       }
