@@ -118,8 +118,8 @@
     "제주대학교말전문동물병원"
   ],
   "stats": {
-    "with_homepage": 1900,
-    "with_hours": 3121,
+    "with_homepage": 1904,
+    "with_hours": 3124,
     "with_phone": 3966,
     "hours_24h_yes": 208
   },
@@ -154,13 +154,21 @@
       "merged_at": "2026-09-20T03:27:33Z"
     },
     "primary_depth_local": {
-      "n": 16,
-      "merged": 11,
-      "at": "2026-09-20T03:32:20Z",
-      "hours_still_missing_primary": 55
+      "n": 22,
+      "at": "2026-09-20T03:35:00Z",
+      "hours_still_missing_primary": 54
+    },
+    "special_wave_local": {
+      "n": 4,
+      "at": "2026-09-20T03:35:00Z",
+      "university_still_no_homepage": 6
+    },
+    "secondary_hours_fill_local": {
+      "n": 3,
+      "at": "2026-09-20T03:35:00Z"
     }
   },
-  "with_homepage": 1900,
+  "with_homepage": 1904,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
