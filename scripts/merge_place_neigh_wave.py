@@ -248,7 +248,7 @@ def main() -> None:
 
     new_rows = [r for r in companion if r["id"] not in remove_ids]
     write_jsonl(COMPANION, new_rows)
-    write_csv(new_rows)
+    write_csv({r["id"]: r for r in new_rows}, remove_ids)
 
     # copy jsonl into data/hospitals if not already there
     dest = HOSP / args.jsonl.name
