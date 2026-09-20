@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4279,
-  "excluded_n": 132,
+  "n": 4268,
+  "excluded_n": 143,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -135,12 +135,23 @@
     "송하동물병원",
     "아주동물병원",
     "현대수산동물병원",
-    "힘참동물병원"
+    "힘참동물병원",
+    "당진축협동물병원",
+    "세종팜스동물병원",
+    "참좋은동물병원",
+    "우사랑동물병원",
+    "드림컨설팅동물병원",
+    "한길동물병원",
+    "미소동물병원",
+    "한샘애견동물병원",
+    "한샘동물병원",
+    "천성가축약품병원",
+    "천안축협동물병원"
   ],
   "stats": {
-    "with_homepage": 1921,
-    "with_hours": 3213,
-    "with_phone": 3978,
+    "with_homepage": 1923,
+    "with_hours": 3215,
+    "with_phone": 3983,
     "hours_24h_yes": 221
   },
   "care_level_taxonomy": {
@@ -151,7 +162,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3565,
+    "neighborhood": 3554,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -372,6 +383,72 @@
         "name": "힘참동물병원",
         "reason": "양산 물금 화합10길19 mypet-119 폐업 표기; 검색은 하동 힘찬과 혼재 → CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_f5690021df86",
+        "name": "당진축협동물병원",
+        "reason": "LARGE_ANIMAL: 당진축협(축산협동조합) 동물병원 — 대동물/축산 진료 중심 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 아미로833(채운동), 타깃 무수동7길42",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_296af8bc9542",
+        "name": "세종팜스동물병원",
+        "reason": "LARGE_ANIMAL: 공주 송선 장척로76 Place hit. 공주시 일요일·공휴일 대동물 당직 명단(세종팜스) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_dd21ffb4b7b2",
+        "name": "참좋은동물병원",
+        "reason": "CLOSED: 당진 면천 동문1길15-4 주소 디렉터리 확인되나 mypet-119 등 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_5d459de15292",
+        "name": "우사랑동물병원",
+        "reason": "LARGE_ANIMAL: 홍성 내포로136번길10 Place hit. 우사랑=가축/번식우 진료 기사(한우 명장 콘테스트 연사) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_634490cdc90a",
+        "name": "드림컨설팅동물병원",
+        "reason": "CLOSED: 아산 온천 충무로42번길12-1 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_7a8a4cd02abf",
+        "name": "한길동물병원",
+        "reason": "LARGE_ANIMAL: 홍성 의사로36번길51 타깃. Place는 한길가축병원(충서로1707번길337)으로 노출 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_361fea8ab08c",
+        "name": "미소동물병원",
+        "reason": "CLOSED: 천안 불당11로54 mypet-119 폐업(미소) 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_bd24ea9203fa",
+        "name": "한샘애견동물병원",
+        "reason": "CLOSED: 천안 성환 성환중앙로16 디렉터리 주소 확인되나 mypet 한샘동물병원 폐업(성환중앙로18) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_c990dd3672b0",
+        "name": "한샘동물병원",
+        "reason": "CLOSED: 천안 성환 성환중앙로16. mypet-119 한샘동물병원 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_ab97b80d04f4",
+        "name": "천성가축약품병원",
+        "reason": "LARGE_ANIMAL: 천안 성환 매주4길26-8 Place hit. 천성가축약품=동물용의약품·가축사료 유통 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_8057de32b3f4",
+        "name": "천안축협동물병원",
+        "reason": "LARGE_ANIMAL: 천안 영성 미나릿길4 Place hit(전화·주소일치). 천안축협=축산업협동조합 부설 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
       }
     ],
     "primary_nohp_local": {
@@ -585,9 +662,32 @@
         "homepage_set": 1,
         "closed": 5
       }
+    },
+    "chungnam_neigh_wave1": {
+      "n": 92,
+      "hit": 74,
+      "no_hit": 4,
+      "ambiguous": 3,
+      "closed_exclude": 5,
+      "large_animal_exclude": 6,
+      "homepages_reported": 2,
+      "hours_reported": 22,
+      "merged_at": "2026-09-20T09:13:43Z",
+      "source_branch": "cursor/place-neigh-chungnam-ac30",
+      "merge_stats": {
+        "hit_applied": 74,
+        "phone_set": 6,
+        "dept_merged": 6,
+        "no_hit": 4,
+        "exclude_large_animal": 6,
+        "hours_set": 2,
+        "ambiguous_skip": 3,
+        "exclude_closed": 5,
+        "homepage_set": 2
+      }
     }
   },
-  "with_homepage": 1921,
+  "with_homepage": 1923,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
