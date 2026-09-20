@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4154,
-  "excluded_n": 248,
+  "n": 4153,
+  "excluded_n": 249,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -251,12 +251,13 @@
     "양하무역산업동물병원",
     "한우사랑동물병원",
     "피그헬스동물병원",
-    "유일동물병원"
+    "유일동물병원",
+    "제주피그클리닉"
   ],
   "stats": {
-    "with_homepage": 1925,
+    "with_homepage": 1926,
     "with_hours": 3317,
-    "with_phone": 3945,
+    "with_phone": 3944,
     "hours_24h_yes": 226
   },
   "care_level_taxonomy": {
@@ -269,7 +270,7 @@
   "care_level_counts": {
     "neighborhood": 3440,
     "secondary": 499,
-    "primary": 182,
+    "primary": 181,
     "university": 12,
     "rehab_specialty": 21
   },
@@ -1238,6 +1239,12 @@
         "name": "유일동물병원",
         "reason": "LARGE_ANIMAL: 천안 동남 풍세로614 Place hit(전화·주소일치)이나 상호 유일동물병원(산업동물 출장진료 전문)·유일사슴목장 주소 → LARGE_ANIMAL_ONLY_EXCLUDE",
         "excluded_at": "2026-09-20T12:49:20Z"
+      },
+      {
+        "id": "nat_473524fcf538",
+        "name": "제주피그클리닉",
+        "reason": "LARGE_ANIMAL: 제주 한림로580 Naver Place hit id=16865129; phone match; 양돈·피그클리닉→LARGE_ANIMAL_ONLY_EXCLUDE; hours 정보없음; saramin 등 homepage 거부",
+        "excluded_at": "2026-09-20T13:16:00Z"
       }
     ],
     "primary_nohp_local": {
@@ -1943,9 +1950,33 @@
         "exclude_large_animal": 0,
         "missing_id": 0
       }
+    },
+    "primary_hours_round3": {
+      "n": 26,
+      "hit": 23,
+      "no_hit": 1,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 1,
+      "homepages_reported": 1,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T13:16:00Z",
+      "source_branch": "cursor/place-primary-hours-r3-ac30",
+      "merge_stats": {
+        "hit_applied": 23,
+        "homepage_set": 1,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 6,
+        "no_hit": 1,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1925,
+  "with_homepage": 1926,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

@@ -8016,6 +8016,30 @@
       },
       "excluded": [],
       "source_branch": "cursor/place-neigh-chungnam-misc-ac30"
+    },
+    {
+      "ts": "2026-09-20T13:16:00Z",
+      "action": "merge_place_primary_hours_round3",
+      "stats": {
+        "hit_applied": 23,
+        "homepage_set": 1,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 6,
+        "no_hit": 1,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_473524fcf538",
+          "name": "제주피그클리닉",
+          "reason": "LARGE_ANIMAL: 제주 한림로580 Naver Place hit id=16865129; phone match; 양돈·피그클리닉→LARGE_ANIMAL_ONLY_EXCLUDE; hours 정보없음; sarami"
+        }
+      ],
+      "source_branch": "cursor/place-primary-hours-r3-ac30"
     }
   ],
   "wave_actions": [
