@@ -1,21 +1,7 @@
 {
   "as_of": "2026-09-20T03:54:04.863942+00:00",
-  "n": 8,
+  "n": 7,
   "targets": [
-    {
-      "id": "nat_a144a274bdc3",
-      "name": "경북대학교수의과대학부속동물병원분원",
-      "care_level": "university",
-      "sido": "경상북도",
-      "sigungu": "상주시",
-      "address": "경상북도 상주시 존애원로 68 (가장동)",
-      "phone": "054-530-1970",
-      "homepage": null,
-      "hours_raw": null,
-      "hours_24h": "unknown",
-      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%EB%B6%84%EC%9B%90+%EC%83%81%EC%A3%BC%EC%8B%9C",
-      "daum_map_url": "https://map.kakao.com/?q=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%EB%B6%84%EC%9B%90+%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84"
-    },
     {
       "id": "nat_1c9f3158510c",
       "name": "대학동물병원",
@@ -113,6 +99,13 @@
       "hours_24h": "no",
       "place_search_url": "https://search.naver.com/search.naver?query=%ED%96%89%EB%B3%B5%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0+%EC%9B%90%EC%A3%BC%EC%8B%9C",
       "daum_map_url": "https://map.kakao.com/?q=%ED%96%89%EB%B3%B5%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0+%EA%B0%95%EC%9B%90"
+    }
+  ],
+  "excluded_large_animal": [
+    {
+      "id": "nat_a144a274bdc3",
+      "name": "경북대학교수의과대학부속동물병원분원",
+      "reason": "대동물(소·돼지 등) 전용 분원 — companion dog/cat 제외 (노컷뉴스 2013 개원 보도)"
     }
   ]
 }

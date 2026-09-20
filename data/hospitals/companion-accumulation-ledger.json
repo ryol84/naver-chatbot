@@ -6759,5 +6759,34 @@
     "companion_with_departments": 4300,
     "sec_missing_homepage": 37,
     "companion_with_homepage": 1900
-  }
+  },
+  "entries": [
+    {
+      "ts": "2026-09-20T03:55:14Z",
+      "action": "exclude",
+      "id": "nat_a144a274bdc3",
+      "name": "경북대학교수의과대학부속동물병원분원",
+      "reason": "대동물(소·돼지 등) 전용 분원 — companion dog/cat 제외 (노컷뉴스 2013 개원 보도)"
+    },
+    {
+      "ts": "2026-09-20T03:56:29Z",
+      "action": "exclude",
+      "id": "nat_ea3a1c86db81",
+      "name": "가든종합동물병원",
+      "reason": "폐업"
+    },
+    {
+      "ts": "2026-09-20T03:56:29Z",
+      "action": "exclude",
+      "id": "nat_df0235fcc916",
+      "name": "건국종합동물병원",
+      "reason": "폐업"
+    },
+    {
+      "ts": "2026-09-20T03:56:29Z",
+      "action": "place_local_primary8",
+      "hours_set": 1,
+      "closed": 2
+    }
+  ]
 }

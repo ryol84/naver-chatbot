@@ -6,12 +6,12 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4300곳
+## companion 4297곳
 | 등급 | 수 |
 |------|----|
-| 대학 | 17 |
+| 대학 | 16 |
 | 2차 | 499 |
-| 1차 | 189 |
+| 1차 | 187 |
 | 일반 동네 | 3574 |
 | 재활·한방 | 21 |
 
@@ -28,3 +28,6 @@
 - secondary hours fill: 6
 - Seoul neighborhood wave1: 80 (hit 67 / no_hit 11 / ambiguous 2)
 - primary depth 61 (cloud): hit 55 / ambiguous 2 / no_hit 4; 참누리·위드펫 홈페이지
+
+- 제외: 경북대 상주 분원 (대동물 전용)
+- primary nohp local 8: 모란→24시 hours; 가든·건국(성남 시민로) 폐업 제외

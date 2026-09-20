@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4300,
-  "excluded_n": 111,
+  "n": 4297,
+  "excluded_n": 114,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -115,13 +115,16 @@
     "월성가축병원",
     "김석년가축병원",
     "현대가축병원",
-    "제주대학교말전문동물병원"
+    "제주대학교말전문동물병원",
+    "경북대학교수의과대학부속동물병원분원",
+    "가든종합동물병원",
+    "건국종합동물병원"
   ],
   "stats": {
     "with_homepage": 1909,
-    "with_hours": 3163,
-    "with_phone": 3976,
-    "hours_24h_yes": 208
+    "with_hours": 3164,
+    "with_phone": 3975,
+    "hours_24h_yes": 209
   },
   "care_level_taxonomy": {
     "university": "대학동물병원",
@@ -133,8 +136,8 @@
   "care_level_counts": {
     "neighborhood": 3574,
     "secondary": 499,
-    "primary": 189,
-    "university": 17,
+    "primary": 187,
+    "university": 16,
     "rehab_specialty": 21
   },
   "enrichment_note": "사이트 없으면 place_search_url(네이버)·daum_map_url(카카오맵)로 확인. 공개 상세(site-hospitals)는 병원별 사이트/플레이스 검증.",
@@ -224,6 +227,35 @@
         "no_hit": 4,
         "ambiguous": 2
       }
+    },
+    "exclusions": [],
+    "post_filter_exclusions": [
+      {
+        "id": "nat_a144a274bdc3",
+        "name": "경북대학교수의과대학부속동물병원분원",
+        "reason": "대동물(소·돼지 등) 전용 분원 — companion dog/cat 제외 (노컷뉴스 2013 개원 보도)",
+        "excluded_at": "2026-09-20T03:55:14Z"
+      },
+      {
+        "id": "nat_ea3a1c86db81",
+        "name": "가든종합동물병원",
+        "reason": "폐업 (Place/디렉터리)",
+        "excluded_at": "2026-09-20T03:56:29Z"
+      },
+      {
+        "id": "nat_df0235fcc916",
+        "name": "건국종합동물병원",
+        "reason": "폐업 (Place/디렉터리)",
+        "excluded_at": "2026-09-20T03:56:29Z"
+      }
+    ],
+    "primary_nohp_local": {
+      "n": 8,
+      "hit": 8,
+      "closed_excluded": 2,
+      "hours_set": 1,
+      "phone_set": 0,
+      "merged_at": "2026-09-20T03:56:29Z"
     }
   },
   "with_homepage": 1909,
