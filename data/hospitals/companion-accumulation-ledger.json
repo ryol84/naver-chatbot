@@ -1,6 +1,6 @@
 {
   "title": "강아지·고양이 병원 정보 축적 장부",
-  "as_of": "2026-09-20T02:32:54Z",
+  "as_of": "2026-09-20T02:50:41Z",
   "species_scope": [
     "dog",
     "cat"
@@ -247,7 +247,8 @@
           "dog",
           "cat"
         ],
-        "equipment_model_search": "not_found_public"
+        "equipment_model_search": "not_found_public",
+        "website_status": "blog_only"
       },
       "evidence_log": [
         {
@@ -376,6 +377,20 @@
           "source": "web_search",
           "note": "공개 채널에서 CT 제조사·모델명 미확인. CT 보유 시사 보도만 있음.",
           "at": "2026-09-20T02:32:54Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/drdogamc",
+          "source": "web_search",
+          "note": "독립 사이트 검색 결과 없음 → 블로그를 공식채널로 유지",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "website_status",
+          "value": "blog_only",
+          "source": "web_search",
+          "note": "",
+          "at": "2026-09-20T02:50:41Z"
         }
       ],
       "open_questions": [
@@ -407,14 +422,16 @@
         "equipment": [
           "64ch CT",
           "X-ray",
-          "초음파"
+          "초음파",
+          "내시경"
         ],
         "role": "2차 의료센터",
-        "homepage": null,
+        "homepage": "https://www.rebom-amc.com/",
         "species_scope": [
           "dog",
           "cat"
-        ]
+        ],
+        "credentials": "ISFM Gold"
       },
       "evidence_log": [
         {
@@ -504,6 +521,39 @@
           "source": "naver_blog",
           "note": "제조사 모델명 미확인",
           "at": "2026-09-20T02:31:59Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://www.rebom-amc.com/",
+          "source": "web_search+hospital_website",
+          "note": "기존 홈페이지 없음 → 검색으로 공식사이트 발견",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "24시간 365일",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "64ch CT",
+            "X-ray",
+            "초음파",
+            "내시경"
+          ],
+          "source": "hospital_website",
+          "note": "CT조정실·64채널 명시",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "credentials",
+          "value": "ISFM Gold",
+          "source": "hospital_website",
+          "note": "고양이 친화 GOLD",
+          "at": "2026-09-20T02:50:41Z"
         }
       ],
       "open_questions": []
@@ -543,7 +593,8 @@
           "dog",
           "cat"
         ],
-        "equipment_model_search": "not_found_public"
+        "equipment_model_search": "not_found_public",
+        "website_status": "blog_only"
       },
       "evidence_log": [
         {
@@ -667,6 +718,20 @@
           "source": "web_search",
           "note": "CT 보유·복강경 MGB FENCER Ⅲ 확인, CT 모델명 미게시.",
           "at": "2026-09-20T02:32:54Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/idamc870",
+          "source": "web_search",
+          "note": "독립 사이트 없음 → 블로그 유지",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "website_status",
+          "value": "blog_only",
+          "source": "web_search",
+          "note": "",
+          "at": "2026-09-20T02:50:41Z"
         }
       ],
       "open_questions": [
@@ -1627,8 +1692,8 @@
       "verified_fields": {
         "phone": "031-895-5775",
         "address": "경기도 수원시 팔달구 인계로 91, 2,3층 (인계동)",
-        "homepage": "https://blog.naver.com/skyamg_sw",
-        "hours_24h": "partial",
+        "homepage": "https://www.swskyamc.com/",
+        "hours_24h": "yes",
         "emergency": "yes",
         "weekday_hours": "00:00–24:00",
         "night_hours": "24시간",
@@ -1647,8 +1712,9 @@
           "심장"
         ],
         "equipment": [
-          "GE Signa HDxt MRI",
-          "16ch MDCT"
+          "CT",
+          "MRI",
+          "C-arm"
         ],
         "role": "2차 의료센터",
         "lat": 37.26860428,
@@ -1797,6 +1863,31 @@
           "source": "hospital_website",
           "note": "SKY 그룹 영상진단 페이지 (수원)",
           "at": "2026-09-20T02:31:59Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://www.swskyamc.com/",
+          "source": "web_search+hospital_website",
+          "note": "블로그만 있던 기록 → 지점 공식사이트 발견",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "24시간 진료/응급 수술",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MRI",
+            "C-arm"
+          ],
+          "source": "hospital_website",
+          "note": "수원점 시설 페이지 CT/MRI실",
+          "at": "2026-09-20T02:50:41Z"
         }
       ],
       "open_questions": []
@@ -1949,6 +2040,13 @@
           "source": "web_search",
           "note": "안산 최초 CT/MRI 도입 보도, 제조사·모델명 미공개. 사이트 쿠키벽.",
           "at": "2026-09-20T02:32:54Z"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.24onnuri.com/",
+          "source": "hospital_website",
+          "note": "사이트 존재 재확인(쿠키벽)",
+          "at": "2026-09-20T02:50:41Z"
         }
       ],
       "open_questions": [
@@ -3854,7 +3952,7 @@
       "verified_fields": {
         "phone": "02-457-0075",
         "address": "서울특별시 강동구 천호대로 1171, 지하1층,2층,3층 (길동)",
-        "homepage": "http://RoyalAMCGD.com",
+        "homepage": "https://royalamcgd.com/",
         "hours_24h": "yes",
         "emergency": "yes",
         "weekday_hours": "10:00–20:00",
@@ -3874,10 +3972,8 @@
           "영상"
         ],
         "equipment": [
-          "CT",
-          "MRI",
-          "X-ray",
-          "초음파"
+          "GE BRIVO 380 CT",
+          "GE Signa 1.5T MRI"
         ],
         "services": [
           "백내장수술",
@@ -4063,11 +4159,26 @@
           "source": "web_search",
           "note": "CT/MRI 보유 확인, 강동점 구체 모델명 미게시.",
           "at": "2026-09-20T02:32:54Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://royalamcgd.com/",
+          "source": "hospital_website",
+          "note": "URL 정규화 + 장비 페이지 확인",
+          "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "GE BRIVO 380 CT",
+            "GE Signa 1.5T MRI"
+          ],
+          "source": "hospital_website",
+          "note": "영상진단 특화센터",
+          "at": "2026-09-20T02:50:41Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "univ-snu-vmth",
@@ -6327,24 +6438,28 @@
   ],
   "last_batch_reviews": [
     {
-      "name": "서울대학교동물검진센터",
-      "note": "검진특화(animalhealthcare.kr): CT/MRI 미표기→갭 해제, 초음파·X-ray 중심"
+      "name": "24시 다시 봄 동물의료센터",
+      "note": "공식사이트 발견 https://www.rebom-amc.com/ · 24시·64ch CT·ISFM Gold"
     },
     {
-      "name": "Dr.dog동물의료센터",
-      "note": "모델명 공개자료 없음 — 공개 채널에서 CT 제조사·모델명 미확인. CT 보유 시사 보도만 있음."
-    },
-    {
-      "name": "광명 24 아이디동물의료센터",
-      "note": "모델명 공개자료 없음 — CT 보유·복강경 MGB FENCER Ⅲ 확인, CT 모델명 미게시."
-    },
-    {
-      "name": "24시 온누리동물메디컬센터",
-      "note": "모델명 공개자료 없음 — 안산 최초 CT/MRI 도입 보도, 제조사·모델명 미공개. 사이트 쿠키벽."
+      "name": "수원 스카이 동물메디컬센터",
+      "note": "지점 공식사이트 https://www.swskyamc.com/ · 24시·CT/MRI실 확인"
     },
     {
       "name": "24시 로얄동물메디컬센터 강동",
-      "note": "모델명 공개자료 없음 — CT/MRI 보유 확인, 강동점 구체 모델명 미게시."
+      "note": "https://royalamcgd.com/ 에서 GE BRIVO 380 CT·GE Signa 1.5T MRI 확인"
+    },
+    {
+      "name": "Dr.dog동물의료센터",
+      "note": "독립 사이트 없음(검색). 공식채널 https://blog.naver.com/drdogamc"
+    },
+    {
+      "name": "광명 24 아이디동물의료센터",
+      "note": "독립 사이트 없음. 공식채널 https://blog.naver.com/idamc870 · 카카오채널"
+    },
+    {
+      "name": "24시 온누리동물메디컬센터",
+      "note": "공식사이트 http://www.24onnuri.com/ 존재·쿠키벽. 모델명 추가수집 필요"
     }
   ],
   "progress": {
@@ -6352,8 +6467,8 @@
     "by_status": {
       "verified_draft": 32
     },
-    "reviewed_this_batch": 5,
-    "equipment_gap_remaining": 4,
-    "no_open_questions": 28
+    "reviewed_this_batch": 6,
+    "equipment_gap_remaining": 3,
+    "no_open_questions": 29
   }
 }
