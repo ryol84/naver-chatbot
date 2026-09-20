@@ -45,7 +45,7 @@
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "hours_note": "SKY 네트워크(skyamg.com) 365일 24시 표기. 그룹 공통 참고: 일반 매일 09–20 / 야간응급 23–09(용인죽전 팝업). 지점 주소 확인: 원주 서원대로 502. 지점별 세부시간 추가수집 필요.",
         "name_has_24h_token": true,
         "hours_source": "hospital_website"
       },
@@ -228,7 +228,8 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://www.skyamg.com"
-        ]
+        ],
+        "network": "SKY동물메디컬센터"
       },
       "species_scope": [
         "dog",
@@ -635,10 +636,10 @@
       "hours": {
         "hours_24h": "yes",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "09:30–21:00",
         "weekend_hours": null,
         "night_hours": "21:00–09:00",
-        "hours_note": "주간 09–21 야간 21–09(병원 블로그)",
+        "hours_note": "365일 연중무휴. 일반 09:30–21:00 / 야간 21:00–09:00. 면회 10–21. 김포 031-982-7587.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -650,7 +651,7 @@
           }
         },
         "breaks": [],
-        "hours_source": "nationwide_csv"
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -755,23 +756,23 @@
           "kind": "ct",
           "label": "CT",
           "item": "128채널 CT",
-          "model": "1.5T tesla · 128ch",
+          "model": "128채널",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "뉴스1 해피펫 FM 영상의학센터 128ch CT·1.5T MRI / 병원 유튜브 김포점 128ch",
-          "as_of": "2026-09-19",
-          "publisher": "news1"
+          "evidence_level": "self_claimed",
+          "evidence": "fmamc.kr 영상진단센터: 128채널 CT",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "mri",
           "label": "MRI",
           "item": "1.5T MRI",
-          "model": "1.5T tesla",
+          "model": "1.5T",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "뉴스1 해피펫 김포 인근 영상의학센터 GE 1.5T",
-          "as_of": "2026-09-19",
-          "publisher": "news1"
+          "evidence": "데일리벳: FM동물영상의학센터(김포점 인근) 128ch CT·1.5T MRI",
+          "as_of": "2026-09-20",
+          "publisher": "dailyvet"
         },
         {
           "kind": "ct",
@@ -788,10 +789,10 @@
           "kind": "xray",
           "label": "X-ray",
           "item": "X-ray",
-          "model": "X-ray",
+          "model": null,
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "fmamc.kr 영상센터",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -799,10 +800,10 @@
           "kind": "ultrasound",
           "label": "초음파",
           "item": "초음파",
-          "model": "초음파",
+          "model": null,
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "fmamc.kr 영상센터",
           "as_of": "2026-09-20",
           "publisher": null
         }
@@ -827,9 +828,7 @@
         "영상의학센터가 본점과 별동이면 촬영 위치 전화 확인"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -840,7 +839,9 @@
         "lng": 126.668869,
         "hours_source": "nationwide_csv",
         "website_sources": [
-          "http://fmamc.kr/"
+          "http://fmamc.kr/",
+          "http://fmamc.kr/fmamc/clinic1/01_1",
+          "http://fmamc.kr/fmamc/clinic2/06"
         ]
       },
       "species_scope": [
@@ -868,7 +869,7 @@
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "hours_note": "SKY 네트워크(skyamg.com) 365일 24시 표기. 그룹 공통 참고: 일반 매일 09–20 / 야간응급 23–09(용인죽전 팝업). 지점 주소 확인: 부천 길주로 252. 지점별 세부시간 추가수집 필요.",
         "name_has_24h_token": true,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -1056,7 +1057,8 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://www.skyamg.com"
-        ]
+        ],
+        "network": "SKY동물메디컬센터"
       },
       "species_scope": [
         "dog",
@@ -1707,7 +1709,7 @@
         "weekday_hours": "00:00–24:00",
         "weekend_hours": null,
         "night_hours": "24시간",
-        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+        "hours_note": "SKY 네트워크(skyamg.com) 365일 24시 표기. 그룹 공통 참고: 일반 매일 09–20 / 야간응급 23–09(용인죽전 팝업). 지점 주소 확인: 수원 인계로 91. 지점별 세부시간 추가수집 필요.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "매일 00:00 - 24:00",
         "by_day": {
@@ -1896,7 +1898,8 @@
         "hours_source": "hospital_website",
         "website_sources": [
           "http://www.skyamg.com"
-        ]
+        ],
+        "network": "SKY동물메디컬센터"
       },
       "species_scope": [
         "dog",
@@ -5330,9 +5333,9 @@
         "hours_24h": "no",
         "emergency": "no",
         "weekday_hours": "10:00–19:00",
-        "weekend_hours": "일·월 휴진",
+        "weekend_hours": "일·월 휴진 · 공휴 정상",
         "night_hours": null,
-        "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제. (사이트+CSV 일치)",
+        "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상진료. 100% 예약제.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 정기휴무 (매주 월요일) | 화 10:00 - 19:00 | 수 10:00 - 19:00 | 목 10:00 - 19:00 | 금 10:00 - 19:00 | 토 10:00 - 19:00 | 일 정기휴무 (매주 일요일) | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감 | 13:00 - 14:00 휴게시간 | 18:00 접수마감",
         "by_day": {
@@ -5402,7 +5405,7 @@
             "raw": "13:00 - 14:00 휴게시간"
           }
         ],
-        "hours_source": "hospital_website+nationwide_csv"
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -5473,13 +5476,57 @@
         {
           "kind": "hbot",
           "label": "고압산소",
-          "item": "고압산소",
-          "model": null,
+          "item": "HBOT",
+          "model": "HBOT",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "인터뷰",
-          "as_of": "2026-09-19",
-          "publisher": "dailyvet"
+          "evidence_level": "self_claimed",
+          "evidence": "onepawaway.co.kr 재활치료 목록",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "uwtm",
+          "label": "수중런닝/수중보행",
+          "item": "UWTM",
+          "model": "UWTM",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "onepawaway.co.kr 재활치료 목록",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "eswt",
+          "label": "체외충격파",
+          "item": "ESWT",
+          "model": "ESWT",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "onepawaway.co.kr 재활치료 목록",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "laser",
+          "label": "레이저",
+          "item": "PBMT",
+          "model": "PBMT",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "onepawaway.co.kr 재활치료 목록",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "prp",
+          "label": "PRP",
+          "item": "PRP",
+          "model": "PRP",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "onepawaway.co.kr 재활치료 목록",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -5500,9 +5547,7 @@
         "예방접종·중성화·일반외과는 하지 않는다고 인터뷰에서 명시"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {

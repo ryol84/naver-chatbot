@@ -16,7 +16,7 @@
 - 응급: yes=25, no=7, unknown=0
 - 상태: verified_draft 32
 - 제외: 제주대 말전문동물병원
-- 남은 갭: {'no_official_equipment_proof': 28}
+- 남은 갭: {'no_official_equipment_proof': 26}
 
 ## 축적 방식
 병원 하나씩 CSV·공식사이트·기존 프로필을 대조하고 `evidence_log`에 source와 함께 쌓습니다.

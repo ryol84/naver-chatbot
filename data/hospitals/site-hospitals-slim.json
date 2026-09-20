@@ -26,7 +26,7 @@
       "weekday_hours": "00:00–24:00",
       "weekend_hours": null,
       "night_hours": "24시간",
-      "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+      "hours_note": "SKY 네트워크(skyamg.com) 365일 24시 표기. 그룹 공통 참고: 일반 매일 09–20 / 야간응급 23–09(용인죽전 팝업). 지점 주소 확인: 원주 서원대로 502. 지점별 세부시간 추가수집 필요.",
       "departments": [
         "응급",
         "영상(CT/MRI)",
@@ -58,7 +58,7 @@
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 15
+      "evidence_count": 17
     },
     {
       "id": "amc-goyang-drdog",
@@ -198,10 +198,10 @@
       "lng": 126.668869,
       "hours_24h": "yes",
       "emergency": "yes",
-      "weekday_hours": "00:00–24:00",
+      "weekday_hours": "09:30–21:00",
       "weekend_hours": null,
       "night_hours": "21:00–09:00",
-      "hours_note": "주간 09–21 야간 21–09(병원 블로그)",
+      "hours_note": "365일 연중무휴. 일반 09:30–21:00 / 야간 21:00–09:00. 면회 10–21. 김포 031-982-7587.",
       "departments": [
         "응급",
         "영상(CT/MRI)",
@@ -230,14 +230,14 @@
       ],
       "strength": "김포점·인근 영상센터. CT/MRI는 뉴스1.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
-        "http://fmamc.kr/"
+        "http://fmamc.kr/",
+        "http://fmamc.kr/fmamc/clinic1/01_1",
+        "http://fmamc.kr/fmamc/clinic2/06"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 15
+      "evidence_count": 18
     },
     {
       "id": "b5-부천24시SKY동물메디컬센터",
@@ -259,7 +259,7 @@
       "weekday_hours": "00:00–24:00",
       "weekend_hours": null,
       "night_hours": "24시간",
-      "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+      "hours_note": "SKY 네트워크(skyamg.com) 365일 24시 표기. 그룹 공통 참고: 일반 매일 09–20 / 야간응급 23–09(용인죽전 팝업). 지점 주소 확인: 부천 길주로 252. 지점별 세부시간 추가수집 필요.",
       "departments": [
         "응급",
         "영상(CT/MRI)",
@@ -287,7 +287,7 @@
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 14
+      "evidence_count": 16
     },
     {
       "id": "b5-비엔동물전문의료센터",
@@ -455,7 +455,7 @@
       "weekday_hours": "00:00–24:00",
       "weekend_hours": null,
       "night_hours": "24시간",
-      "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요.",
+      "hours_note": "SKY 네트워크(skyamg.com) 365일 24시 표기. 그룹 공통 참고: 일반 매일 09–20 / 야간응급 23–09(용인죽전 팝업). 지점 주소 확인: 수원 인계로 91. 지점별 세부시간 추가수집 필요.",
       "departments": [
         "응급",
         "영상(CT/MRI)",
@@ -483,7 +483,7 @@
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 14
+      "evidence_count": 16
     },
     {
       "id": "b6-24시-온누리동물메디컬센터",
@@ -1107,7 +1107,9 @@
         "no_official_equipment_proof"
       ],
       "website_sources": [
-        "https://vmth.snu.ac.kr/"
+        "https://vmth.snu.ac.kr/",
+        "https://vmth.snu.ac.kr/treat/consultationTime.do",
+        "https://vmth.snu.ac.kr/subject/emergencyMedicine.do"
       ],
       "ledger_status": "verified_draft",
       "evidence_count": 20
@@ -1290,9 +1292,9 @@
       "hours_24h": "no",
       "emergency": "no",
       "weekday_hours": "10:00–19:00",
-      "weekend_hours": "일·월 휴진",
+      "weekend_hours": "일·월 휴진 · 공휴 정상",
       "night_hours": null,
-      "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제. (사이트+CSV 일치)",
+      "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상진료. 100% 예약제.",
       "departments": [
         "재활",
         "한방"
@@ -1300,7 +1302,10 @@
       "equipment": [
         "기타",
         "수중런닝/수중보행",
-        "고압산소"
+        "고압산소",
+        "체외충격파",
+        "레이저",
+        "PRP"
       ],
       "services": [
         "침",
@@ -1318,14 +1323,12 @@
       ],
       "strength": "재활·한방만 하는 1인 특화. 마비·노령 보행. 예약제 초진 약 1시간.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://www.onepawaway.co.kr"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 16
+      "evidence_count": 19
     },
     {
       "id": "b14-24시월드펫동물메디컬센터",
