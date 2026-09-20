@@ -28,6 +28,7 @@
 - special (대학·재활): 14 — 제주대·탑스 홈페이지 추가
 - secondary hours fill: 6
 - Seoul neighborhood wave1: 80 (hit 67 / no_hit 11 / ambiguous 2)
+- Seoul neighborhood wave2: 100 (hit 90 / no_hit 9 / ambiguous 1); homepage 1 / hours 72
 - primary depth 61 (cloud): hit 55 / ambiguous 2 / no_hit 4; 참누리·위드펫 홈페이지
 
 - 제외: 경북대 상주 분원 (대동물 전용)
