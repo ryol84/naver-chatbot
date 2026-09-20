@@ -42,8 +42,8 @@
         "심장"
       ],
       "equipment": [
-        "CT",
-        "MRI"
+        "GE Signa HDxt MRI",
+        "16ch MDCT"
       ],
       "services": [
         "24시",
@@ -72,7 +72,7 @@
         "cat"
       ],
       "homepage": "https://blog.naver.com/drdogamc",
-      "website_status": "blog_only_no_independent_site",
+      "website_status": "blog_only",
       "lat": 37.67064667,
       "lng": 126.7810211,
       "hours_24h": "yes",
@@ -128,9 +128,10 @@
         "영상(CT/MRI)"
       ],
       "equipment": [
-        "CT",
+        "64ch CT",
         "X-ray",
-        "초음파"
+        "초음파",
+        "내시경"
       ],
       "services": [],
       "strength": "광명 소하. 공식 사이트에 64ch CT·X-ray·초음파.",
@@ -155,7 +156,7 @@
         "cat"
       ],
       "homepage": "https://blog.naver.com/idamc870",
-      "website_status": "blog_only_no_independent_site",
+      "website_status": "blog_only",
       "lat": 37.47605515,
       "lng": 126.8659668,
       "hours_24h": "yes",
@@ -171,7 +172,7 @@
       ],
       "equipment": [
         "CT",
-        "복강경"
+        "MGB FENCER Ⅲ 복강경"
       ],
       "services": [],
       "strength": "광명 24시. CT·복강경은 데일리개원.",
@@ -217,8 +218,8 @@
         "영상"
       ],
       "equipment": [
-        "CT",
-        "MRI",
+        "128ch CT",
+        "1.5T MRI",
         "X-ray",
         "초음파"
       ],
@@ -278,8 +279,8 @@
         "심장"
       ],
       "equipment": [
-        "CT",
-        "MRI"
+        "GE Signa HDxt MRI",
+        "16ch MDCT"
       ],
       "services": [],
       "strength": "SKY 부천. 그룹 기사 기준 CT/MRI.",
@@ -320,8 +321,8 @@
         "치과"
       ],
       "equipment": [
-        "CT",
-        "MRI"
+        "Philips 128ch Cardiac CT",
+        "Toshiba Vantage Titan 1.5T MRI"
       ],
       "services": [],
       "strength": "부천 소사. CT·MRI는 데일리개원 탐방.",
@@ -370,12 +371,12 @@
         "고양이 특화"
       ],
       "equipment": [
-        "CT",
-        "ICU",
+        "GE Lightspeed RT16 CT",
         "C-arm",
         "내시경",
         "초음파",
-        "X-ray"
+        "X-ray",
+        "ICU"
       ],
       "services": [
         "종양항암센터",
@@ -426,10 +427,8 @@
         "재활"
       ],
       "equipment": [
-        "MRI",
-        "CT",
-        "C-arm",
-        "내시경"
+        "Philips Ingenia 3T MRI",
+        "Toshiba Aquilion Prime 160ch CT"
       ],
       "services": [],
       "strength": "수원 장안. 3T MRI·160ch CT·C-arm·내시경은 데일리개원.",
@@ -476,7 +475,8 @@
       ],
       "equipment": [
         "CT",
-        "MRI"
+        "MRI",
+        "C-arm"
       ],
       "services": [],
       "strength": "SKY 수원. 공식 의료진+그룹 기사.",
@@ -520,17 +520,16 @@
         "내과"
       ],
       "equipment": [
-        "CT",
-        "MRI",
+        "128ch MDCT",
+        "3.0T MRI",
         "X-ray",
-        "초음파"
+        "초음파",
+        "HBOT"
       ],
       "services": [],
       "strength": "안산 2차 거점. 로컬에서 난치·중증 의뢰. CT/MRI·신경외과(뇌수두증 등)는 데일리개원.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
       "evidence_count": 15
@@ -571,12 +570,9 @@
         "최소침습"
       ],
       "equipment": [
-        "MRI",
-        "CT",
-        "X-ray",
-        "초음파",
-        "기타",
-        "내시경"
+        "3T MRI",
+        "64ch 128slice CT",
+        "Aplio i800"
       ],
       "services": [],
       "strength": "용인 수지 2차. 동네 접종이 아니라 중증·분과·영상. 3T MRI·CT·투석·항암·안과치과재활은 데일리벳 확장 기사.",
@@ -620,10 +616,10 @@
       ],
       "equipment": [
         "CT",
+        "MRI",
         "X-ray",
-        "초음파",
         "내시경",
-        "MRI"
+        "초음파"
       ],
       "services": [
         "CT",
@@ -667,9 +663,9 @@
         "영상(CT/MRI)"
       ],
       "equipment": [
-        "MRI",
-        "CT",
-        "초음파"
+        "Toshiba Vantage Titan 1.5T MRI",
+        "Brightspeed Elite select CT",
+        "Aplio i700"
       ],
       "services": [],
       "strength": "진주. 뉴스1 2025-08 MRI 도입·500평 확장·24시 고도화. 동네 접종이 아님.",
@@ -717,9 +713,8 @@
         "중재시술(최소침습)"
       ],
       "equipment": [
-        "CT",
-        "MRI",
-        "기타"
+        "1.5T MRI",
+        "160ch CT"
       ],
       "services": [
         "슬개골·디스크·TPLO·종양수술",
@@ -773,10 +768,7 @@
         "MRI",
         "CT",
         "C-arm",
-        "초음파",
-        "기타",
-        "인공호흡기",
-        "ICU"
+        "초음파"
       ],
       "services": [
         "TACE",
@@ -808,7 +800,7 @@
         "cat"
       ],
       "homepage": "https://knuvmth.co.kr/",
-      "website_status": null,
+      "website_status": "linked",
       "lat": 35.88909912,
       "lng": 128.6143188,
       "hours_24h": "partial",
@@ -822,9 +814,8 @@
         "응급"
       ],
       "equipment": [
-        "MRI",
-        "인공호흡기",
-        "CT"
+        "GE SIGNA Explorer 1.5T MRI",
+        "16Ch CT"
       ],
       "services": [
         "MRI",
@@ -874,11 +865,9 @@
         "영상의학과"
       ],
       "equipment": [
-        "심장초음파",
-        "CT",
+        "Canon Aquilion PRIME SP 160ch CT",
         "MRI",
-        "초음파",
-        "X-ray"
+        "심장초음파"
       ],
       "services": [
         "내과 분과",
@@ -925,8 +914,8 @@
         "2차 중증"
       ],
       "equipment": [
-        "MRI",
-        "CT"
+        "Toshiba Vantage Titan 1.5T MRI",
+        "Toshiba Activion 16 CT"
       ],
       "services": [
         "365일 24시간",
@@ -958,7 +947,7 @@
         "cat"
       ],
       "homepage": "https://www.animalrehab.co.kr/",
-      "website_status": null,
+      "website_status": "official_found",
       "lat": 37.51947021,
       "lng": 127.0489883,
       "hours_24h": "no",
@@ -973,10 +962,11 @@
         "한방"
       ],
       "equipment": [
-        "수중런닝/수중보행",
+        "HBOT",
+        "수중재활",
         "X-ray",
-        "고압산소",
-        "기타"
+        "레이저",
+        "TENS"
       ],
       "services": [
         "침·전침",
@@ -1037,10 +1027,8 @@
         "영상"
       ],
       "equipment": [
-        "CT",
-        "MRI",
-        "X-ray",
-        "초음파"
+        "GE BRIVO 380 CT",
+        "GE Signa 1.5T MRI"
       ],
       "services": [
         "백내장수술",
@@ -1104,10 +1092,8 @@
         "대동물"
       ],
       "equipment": [
-        "CT",
-        "MRI",
-        "X-ray",
-        "초음파"
+        "160ch CT",
+        "MRI"
       ],
       "services": [
         "24시간 응급(2019~)",
@@ -1161,8 +1147,8 @@
         "응급중환자"
       ],
       "equipment": [
-        "CT",
-        "MRI"
+        "Canon Aquilion Lightning 160 CT",
+        "GE Signa HDxt 1.5T MRI"
       ],
       "services": [
         "CT 의뢰 촬영",
@@ -1207,7 +1193,9 @@
       ],
       "equipment": [
         "X-ray",
-        "초음파"
+        "초음파",
+        "VisionMap 조영초음파",
+        "심장초음파"
       ],
       "services": [
         "엑스선",
@@ -1257,13 +1245,8 @@
         "줄기세포"
       ],
       "equipment": [
-        "기타",
-        "수중런닝/수중보행",
-        "CT",
-        "MRI",
-        "고압산소",
-        "초음파",
-        "X-ray"
+        "Canon Vantage Galan 3T MRI",
+        "Aquilion Lightning 80 CT"
       ],
       "services": [
         "중증환자 케어센터",
@@ -1312,12 +1295,12 @@
         "한방"
       ],
       "equipment": [
-        "기타",
-        "수중런닝/수중보행",
-        "고압산소",
-        "체외충격파",
-        "레이저",
-        "PRP"
+        "HBOT",
+        "UWTM",
+        "ESWT",
+        "PBMT",
+        "PRP",
+        "침/약침"
       ],
       "services": [
         "침",
@@ -1370,12 +1353,9 @@
         "신경"
       ],
       "equipment": [
-        "기타",
-        "CT",
-        "X-ray",
-        "C-arm",
-        "MRI",
-        "초음파"
+        "Philips Achieva 1.5T Nova Dual",
+        "GE Brivo 385 CT",
+        "JENORAY C-arm"
       ],
       "services": [],
       "strength": "양천 신월. 뉴스1 MRI 촬영·영상실장. 공식 1.5T Philips·CT 영상센터 365일.",
@@ -1417,8 +1397,8 @@
         "영상"
       ],
       "equipment": [
-        "MRI",
-        "CT"
+        "64ch CT",
+        "MRI"
       ],
       "services": [
         "24시 응급",
@@ -1441,7 +1421,7 @@
       "sido": "전남광주통합특별시",
       "sigungu": "북구",
       "phone": "062-530-2882",
-      "address": "광주광역시 북구 용봉로 45 (용봉동) / 전남대학교",
+      "address": "광주광역시 북구 용봉로 77 전남대학교 동물병원",
       "role_label": "대학동물병원",
       "species_scope": [
         "dog",
@@ -1465,7 +1445,7 @@
         "분과진료"
       ],
       "equipment": [
-        "MRI"
+        "Siemens AI MRI"
       ],
       "services": [
         "24시 응급의료센터(2025-05 개소)",
@@ -1509,11 +1489,11 @@
         "응급"
       ],
       "equipment": [
-        "MRI",
+        "3T MRI",
         "CT",
         "X-ray",
-        "초음파",
-        "심장초음파"
+        "C-arm",
+        "초음파"
       ],
       "services": [
         "CT",
@@ -1561,8 +1541,8 @@
         "외과"
       ],
       "equipment": [
-        "MRI",
-        "CT"
+        "Siemens Magnetom Sempra 1.5T",
+        "Somatom Emotion 16ch CT"
       ],
       "services": [
         "MRI",
@@ -1614,11 +1594,9 @@
         "응급"
       ],
       "equipment": [
-        "PET-CT",
+        "GE SIGNA Creator 1.5T MRI",
         "CT",
-        "MRI",
-        "X-ray",
-        "초음파"
+        "PET-CT"
       ],
       "services": [
         "PET-CT",

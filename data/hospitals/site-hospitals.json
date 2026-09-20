@@ -362,7 +362,7 @@
           "https://blog.naver.com/drdogamc",
           "instagram:@drdog_amc24"
         ],
-        "website_search_note": "독립 공식 홈페이지(drdogamc.com 등) 미확인. 네이버블로그·SNS가 공식 채널."
+        "website_search_note": "재검색: 독립 도메인 없음. onkorea 등도 홈페이지 미등록. CT 모델명 미공개."
       },
       "species_scope": [
         "dog",
@@ -624,7 +624,7 @@
           "https://blog.naver.com/idamc870",
           "https://pf.kakao.com/_xbygMG"
         ],
-        "website_search_note": "독립 공식 홈페이지 미확인. 블로그·카카오채널이 공식 채널."
+        "website_search_note": "재검색: 독립 사이트 없음. 데일리개원 CT도입·MGB FENCERⅢ만 확인, CT 모델명 미공개."
       },
       "species_scope": [
         "dog",
@@ -2013,23 +2013,23 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "128채널 MDCT",
+          "model": "128ch MDCT",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리개원 2023-02 온누리 탐방",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "공식블로그 확장이전(2026-06) + 데일리개원 2026-09: 128ch MDCT. 이전: GE Revolution ACT SVCT(블로그 2023).",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "3.0T MRI",
+          "model": "3.0T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "같은 데일리개원",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "공식블로그·데일리개원·뉴스1: 3.0T MRI 도입(2026 확장이전)",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
@@ -2053,13 +2053,25 @@
           "evidence": "병원 블로그",
           "as_of": "2026-09-19",
           "publisher": null
+        },
+        {
+          "kind": "hbot",
+          "label": "고압산소",
+          "item": "HBOT",
+          "model": null,
+          "status": "installed",
+          "evidence_level": "reported",
+          "evidence": "데일리개원 2026-09: 고압산소챔버 재활치료센터",
+          "as_of": "2026-09-20",
+          "publisher": "dailygaewon"
         }
       ],
       "equipment_summary": [
         "CT",
         "MRI",
         "X-ray",
-        "초음파"
+        "초음파",
+        "HBOT"
       ],
       "credentials": null,
       "strength_plain": "안산 2차 거점. 로컬에서 난치·중증 의뢰. CT/MRI·신경외과(뇌수두증 등)는 데일리개원.",
@@ -2068,7 +2080,10 @@
       "verification_grade": "A",
       "verification_score": 96,
       "sources": [
-        "https://www.dailygaewon.com/news/articleView.html?idxno=13368"
+        "https://www.dailygaewon.com/news/articleView.html?idxno=13368",
+        "데일리개원 2026-09 온누리 확장이전(3.0T MRI·128ch MDCT)",
+        "온누리 공식블로그 petdoctor7500 확장이전소식",
+        "뉴스1 2026-08 온누리 확장이전"
       ],
       "does_not_confirmed": [
         "바이럴·유일 문구 미사용"
@@ -2080,9 +2095,7 @@
           "msg": "전화 없음"
         }
       ],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -2092,9 +2105,16 @@
         "lat": 37.31915665,
         "lng": 126.8298798,
         "hours_source": "nationwide_csv",
-        "website_sources": [],
+        "website_sources": [
+          "http://www.24onnuri.com/",
+          "https://blog.naver.com/petdoctor7500/224316679696",
+          "https://www.dailygaewon.com/news/articleView.html?idxno=18441"
+        ],
         "website_status": "exists_cookie_wall",
-        "website_search_note": "공식 사이트 존재하나 CUPID 쿠키벽으로 본문 수집 제한. CT/MRI 모델명 미확인."
+        "website_search_note": "공식사이트 http://www.24onnuri.com/ 존재·CUPID 쿠키벽. 공식블로그 https://blog.naver.com/petdoctor7500 에서 3.0T MRI·128ch MDCT 확인. 이전 CT: GE Revolution ACT SVCT.",
+        "social_channels": [
+          "https://blog.naver.com/petdoctor7500"
+        ]
       },
       "species_scope": [
         "dog",
@@ -3468,6 +3488,10 @@
         "website_sources": [
           "https://knuvmth.co.kr/?page_id=18",
           "https://knuvmth.co.kr/?page_id=10"
+        ],
+        "website_status": "linked",
+        "social_channels": [
+          "https://blog.naver.com/knuvmth"
         ]
       },
       "species_scope": [
@@ -4180,7 +4204,8 @@
           "https://www.vipah.co.kr/kr/medical/branches/animalehab",
           "https://www.animalrehab.co.kr/%EC%9D%B4%EC%9A%A9%EC%95%88%EB%82%B4"
         ],
-        "alt_phone": "02-6952-7524"
+        "alt_phone": "02-6952-7524",
+        "website_status": "official_found"
       },
       "species_scope": [
         "dog",
@@ -5944,7 +5969,7 @@
       "sido": "전남광주통합특별시",
       "sigungu": "북구",
       "phone": "062-530-2882",
-      "address": "광주광역시 북구 용봉로 45 (용봉동) / 전남대학교",
+      "address": "광주광역시 북구 용봉로 77 전남대학교 동물병원",
       "role": "university",
       "role_label": "대학동물병원",
       "care_level": "university",

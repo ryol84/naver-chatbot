@@ -1,6 +1,6 @@
 {
   "title": "강아지·고양이 병원 정보 축적 장부",
-  "as_of": "2026-09-20T02:50:41Z",
+  "as_of": "2026-09-20",
   "species_scope": [
     "dog",
     "cat"
@@ -391,6 +391,13 @@
           "source": "web_search",
           "note": "",
           "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/drdogamc",
+          "source": "web_search",
+          "note": "재검색: 독립 도메인 없음. onkorea 등도 홈페이지 미등록. CT 모델명 미공개.",
+          "at": "2026-09-20T02:53:44Z"
         }
       ],
       "open_questions": [
@@ -732,6 +739,13 @@
           "source": "web_search",
           "note": "",
           "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://blog.naver.com/idamc870",
+          "source": "web_search",
+          "note": "재검색: 독립 사이트 없음. 데일리개원 CT도입·MGB FENCERⅢ만 확인, CT 모델명 미공개.",
+          "at": "2026-09-20T02:53:44Z"
         }
       ],
       "open_questions": [
@@ -1918,10 +1932,11 @@
           "내과"
         ],
         "equipment": [
-          "CT",
-          "MRI",
+          "128ch MDCT",
+          "3.0T MRI",
           "X-ray",
-          "초음파"
+          "초음파",
+          "HBOT"
         ],
         "role": "2차 의료센터",
         "lat": 37.31915665,
@@ -1930,7 +1945,15 @@
           "dog",
           "cat"
         ],
-        "equipment_model_search": "not_found_public"
+        "equipment_model_search": "found_via_blog_and_press",
+        "website_status": "exists_cookie_wall",
+        "services": [
+          "24시",
+          "CT",
+          "MRI",
+          "재활(고압산소)",
+          "응급의료센터"
+        ]
       },
       "evidence_log": [
         {
@@ -2047,11 +2070,36 @@
           "source": "hospital_website",
           "note": "사이트 존재 재확인(쿠키벽)",
           "at": "2026-09-20T02:50:41Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "128ch MDCT",
+            "3.0T MRI",
+            "X-ray",
+            "초음파",
+            "HBOT"
+          ],
+          "source": "hospital_blog+press",
+          "note": "확장이전(2026-07/08): 공식블로그·데일리개원·뉴스1 — 3.0T MRI·128ch MDCT. 이전 CT: GE Revolution ACT SVCT(블로그 2023).",
+          "at": "2026-09-20T02:53:44Z"
+        },
+        {
+          "field": "equipment_model_search",
+          "value": "found_via_blog_and_press",
+          "source": "web_search+blog",
+          "note": "http://www.24onnuri.com/ 쿠키벽. 블로그 https://blog.naver.com/petdoctor7500 및 기사로 모델/사양 확인.",
+          "at": "2026-09-20T02:53:44Z"
+        },
+        {
+          "field": "homepage",
+          "value": "http://www.24onnuri.com/",
+          "source": "hospital_website",
+          "note": "공식사이트+공식블로그 petdoctor7500",
+          "at": "2026-09-20T02:53:44Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b6-24시-사람앤동물메디컬센터",
@@ -3086,12 +3134,12 @@
       "verified_fields": {
         "phone": "0507-1309-6898",
         "address": "대구광역시 북구 대학로 80",
-        "homepage": "https://blog.naver.com/knuvmth",
+        "homepage": "https://knuvmth.co.kr/",
         "hours_24h": "yes",
         "emergency": "yes",
         "weekday_hours": "09:00–18:00",
         "night_hours": "24시간",
-        "hours_note": "국립대 24시 응급 운영 그룹(헬스조선 2025-05).",
+        "hours_note": "일반 평일 09–18. 응급 365일 24시간(knuvmth.co.kr). 예약 0507-1309-6898.",
         "departments": [
           "영상(CT/MRI)",
           "응급"
@@ -3111,7 +3159,8 @@
         "species_scope": [
           "dog",
           "cat"
-        ]
+        ],
+        "website_status": "linked"
       },
       "evidence_log": [
         {
@@ -3252,6 +3301,20 @@
           "source": "hospital_website+dailyvet",
           "note": "",
           "at": "2026-09-20T01:57:56Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://knuvmth.co.kr/",
+          "source": "hospital_website",
+          "note": "공식사이트 확인(블로그 knuvmth는 보조채널)",
+          "at": "2026-09-20T02:53:44Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "yes",
+          "source": "hospital_website",
+          "note": "응급 365일 24시",
+          "at": "2026-09-20T02:53:44Z"
         }
       ],
       "open_questions": []
@@ -3720,7 +3783,7 @@
       "verified_fields": {
         "phone": "02-6952-7524",
         "address": "서울 강남구 삼성로133길 7 베디베로스퀘어 7층",
-        "homepage": "http://pf.kakao.com/_llRVG/chat",
+        "homepage": "https://www.animalrehab.co.kr/",
         "hours_24h": "no",
         "emergency": "no",
         "weekday_hours": "10:00–18:30",
@@ -3758,7 +3821,8 @@
         "species_scope": [
           "dog",
           "cat"
-        ]
+        ],
+        "website_status": "official_found"
       },
       "evidence_log": [
         {
@@ -3935,6 +3999,13 @@
           "source": "hospital_website",
           "note": "재활 장비·시술",
           "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://www.animalrehab.co.kr/",
+          "source": "hospital_website",
+          "note": "카카오채널→공식사이트 교체·확인",
+          "at": "2026-09-20T02:53:44Z"
         }
       ],
       "open_questions": []
@@ -5632,12 +5703,12 @@
       "status": "verified_draft",
       "verified_fields": {
         "phone": "062-530-2882",
-        "address": "광주광역시 북구 용봉로 45 (용봉동) / 전남대학교",
+        "address": "광주광역시 북구 용봉로 77 전남대학교 동물병원",
         "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "09:00–18:00",
         "night_hours": "24시간",
-        "hours_note": "24시 응급 2025-05-07 개소.",
+        "hours_note": "정규 평일 09–12·13–18. 응급: 평일 18–익일09, 토·일·공휴 24시(cnuvmth.jnu.ac.kr). 예약 062-530-2882·2883.",
         "departments": [
           "영상(CT/MRI)",
           "응급",
@@ -5654,7 +5725,7 @@
           "MRI 도입 기사"
         ],
         "role": "대학동물병원",
-        "homepage": null,
+        "homepage": "https://cnuvmth.jnu.ac.kr/",
         "species_scope": [
           "dog",
           "cat"
@@ -5802,6 +5873,27 @@
           "source": "dailyvet",
           "note": "AI MRI 도입 기사",
           "at": "2026-09-20T01:56:59Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://cnuvmth.jnu.ac.kr/",
+          "source": "hospital_website",
+          "note": "공식사이트 확인·기재",
+          "at": "2026-09-20T02:53:44Z"
+        },
+        {
+          "field": "address",
+          "value": "광주광역시 북구 용봉로 77 전남대학교 동물병원",
+          "source": "hospital_website",
+          "note": "용봉로 77(공식 푸터)",
+          "at": "2026-09-20T02:53:44Z"
+        },
+        {
+          "field": "hours_24h",
+          "value": "partial",
+          "source": "hospital_website",
+          "note": "주간 정규 + 야간/주말 응급",
+          "at": "2026-09-20T02:53:44Z"
         }
       ],
       "open_questions": []
@@ -5819,7 +5911,7 @@
       "verified_fields": {
         "phone": "063-850-0970",
         "address": "전북특별자치도 익산시 고봉로 79 전북대학교 특성화캠퍼스",
-        "homepage": "https://jamc.jbnu.ac.kr",
+        "homepage": "https://jamc.jbnu.ac.kr/",
         "hours_24h": "partial",
         "emergency": "yes",
         "weekday_hours": "09:00–18:00",
@@ -6438,28 +6530,28 @@
   ],
   "last_batch_reviews": [
     {
-      "name": "24시 다시 봄 동물의료센터",
-      "note": "공식사이트 발견 https://www.rebom-amc.com/ · 24시·64ch CT·ISFM Gold"
+      "name": "24시 온누리동물메디컬센터",
+      "note": "공식사이트 http://www.24onnuri.com/ + 블로그 petdoctor7500. 3.0T MRI·128ch MDCT 확인(확장이전). 이전 CT GE Revolution ACT."
     },
     {
-      "name": "수원 스카이 동물메디컬센터",
-      "note": "지점 공식사이트 https://www.swskyamc.com/ · 24시·CT/MRI실 확인"
+      "name": "전남대학교 동물병원",
+      "note": "공식사이트 https://cnuvmth.jnu.ac.kr/ 기재·진료시간/응급 확인. 주소 용봉로 77."
     },
     {
-      "name": "24시 로얄동물메디컬센터 강동",
-      "note": "https://royalamcgd.com/ 에서 GE BRIVO 380 CT·GE Signa 1.5T MRI 확인"
+      "name": "VIP동물한방재활의학센터 by Dr.신사경",
+      "note": "공식사이트 https://www.animalrehab.co.kr/ 로 교체·확인"
+    },
+    {
+      "name": "경북대학교 수의과대학 부속동물병원",
+      "note": "공식사이트 https://knuvmth.co.kr/ 로 교체(블로그는 보조)"
     },
     {
       "name": "Dr.dog동물의료센터",
-      "note": "독립 사이트 없음(검색). 공식채널 https://blog.naver.com/drdogamc"
+      "note": "재검색: 독립사이트 없음. https://blog.naver.com/drdogamc · CT모델 미공개"
     },
     {
       "name": "광명 24 아이디동물의료센터",
-      "note": "독립 사이트 없음. 공식채널 https://blog.naver.com/idamc870 · 카카오채널"
-    },
-    {
-      "name": "24시 온누리동물메디컬센터",
-      "note": "공식사이트 http://www.24onnuri.com/ 존재·쿠키벽. 모델명 추가수집 필요"
+      "note": "재검색: 독립사이트 없음. https://blog.naver.com/idamc870 · CT모델 미공개"
     }
   ],
   "progress": {
@@ -6468,7 +6560,7 @@
       "verified_draft": 32
     },
     "reviewed_this_batch": 6,
-    "equipment_gap_remaining": 3,
-    "no_open_questions": 29
+    "equipment_gap_remaining": 2,
+    "no_open_questions": 30
   }
 }
