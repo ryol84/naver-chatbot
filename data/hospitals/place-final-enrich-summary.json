@@ -1,0 +1,32 @@
+{
+  "secondary": {
+    "n": 36,
+    "status": {
+      "hit": 23,
+      "ambiguous": 12,
+      "no_hit": 1
+    },
+    "with_homepage": 3,
+    "with_hours": 20
+  },
+  "special": {
+    "n": 7,
+    "status": {
+      "ambiguous": 1,
+      "hit": 5,
+      "no_hit": 1
+    },
+    "with_homepage": 3,
+    "with_hours": 1
+  },
+  "primary-hours": {
+    "n": 25,
+    "status": {
+      "hit": 23,
+      "ambiguous": 1,
+      "no_hit": 1
+    },
+    "with_homepage": 2,
+    "with_hours": 3
+  }
+}
