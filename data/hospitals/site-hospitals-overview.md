@@ -2,12 +2,12 @@
 
 ## 이번 배치: 사이트 검색·장비 확인
 
-- **24시 온누리동물메디컬센터**: 공식사이트 http://www.24onnuri.com/ + 블로그 petdoctor7500. 3.0T MRI·128ch MDCT 확인(확장이전). 이전 CT GE Revolution ACT.
+- **Dr.dog동물의료센터**: drdogamc.com DNS 미활성 → 독립사이트 없음. 공식채널 블로그. CT모델 미공개
+- **광명 24 아이디동물의료센터**: 독립사이트 없음. CT모델 미공개(복강경 MGB FENCER Ⅲ만 확인)
+- **24시 온누리동물메디컬센터**: (직전) 3.0T MRI·128ch MDCT 확인, 갭 해소
 - **전남대학교 동물병원**: 공식사이트 https://cnuvmth.jnu.ac.kr/ 기재·진료시간/응급 확인. 주소 용봉로 77.
 - **VIP동물한방재활의학센터 by Dr.신사경**: 공식사이트 https://www.animalrehab.co.kr/ 로 교체·확인
 - **경북대학교 수의과대학 부속동물병원**: 공식사이트 https://knuvmth.co.kr/ 로 교체(블로그는 보조)
-- **Dr.dog동물의료센터**: 재검색: 독립사이트 없음. https://blog.naver.com/drdogamc · CT모델 미공개
-- **광명 24 아이디동물의료센터**: 재검색: 독립사이트 없음. https://blog.naver.com/idamc870 · CT모델 미공개
 
 ## 병원별 홈페이지
 

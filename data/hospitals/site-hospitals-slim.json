@@ -72,7 +72,7 @@
         "cat"
       ],
       "homepage": "https://blog.naver.com/drdogamc",
-      "website_status": "blog_only",
+      "website_status": "blog_only_no_independent_site",
       "lat": 37.67064667,
       "lng": 126.7810211,
       "hours_24h": "yes",
@@ -156,7 +156,7 @@
         "cat"
       ],
       "homepage": "https://blog.naver.com/idamc870",
-      "website_status": "blog_only",
+      "website_status": "blog_only_no_independent_site",
       "lat": 37.47605515,
       "lng": 126.8659668,
       "hours_24h": "yes",
