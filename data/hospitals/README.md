@@ -16,13 +16,16 @@
 | 재활·한방 | 21 |
 
 ### Place 보강
-- 홈페이지 보유: 1947곳
+- 홈페이지 보유: 1949곳
 - 2차 무홈페이지 잔여: 37곳 (Place/Daum URL·전화·과목은 대부분 확보)
 - 전 병원 departments 채움
 - 1차 Place depth (로컬 11+클라우드 진행): 영업시간·전화·주소교정(검단→인천)
 - 대학: 서울대·건국·전남대 공식 VMTH 홈페이지 확보
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
+### Google waves (merged)
+- **google primary hours 22**: hit 19 → hours +4 (삼성·연제·인제·정철); 금촌 homepage already known
+- **google secondary nohp 27**: hit 2 → homepage +2 (봄날 blog, 이리온); hours upgrade 봄날
 ### Place waves (merged)
 Neigh final wave4 54: Place enrich merge
 Primary hours final 25: Place enrich merge

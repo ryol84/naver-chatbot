@@ -269,8 +269,8 @@
     "모라동물병원"
   ],
   "stats": {
-    "with_homepage": 1947,
-    "with_hours": 3324,
+    "with_homepage": 1949,
+    "with_hours": 3328,
     "with_phone": 3959,
     "hours_24h_yes": 226
   },
@@ -2326,7 +2326,56 @@
       }
     }
   },
-  "with_homepage": 1947,
+  "with_homepage": 1949,
   "with_departments": 4300,
-  "sec_missing_homepage": 37
+  "sec_missing_homepage": 37,
+  "google_enrichment": {
+    "google_secondary_nohp": {
+      "n": 27,
+      "status_counts": {
+        "directory_only": 18,
+        "ambiguous": 7,
+        "hit": 2
+      },
+      "homepages_reported": 2,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T15:25:15Z",
+      "source_branch": "cursor/google-sec-prim-hrs-ac30",
+      "merge_stats": {
+        "rows": 27,
+        "homepage_set": 2,
+        "hours_set": 0,
+        "hours_upgraded": 1,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 18,
+        "ambiguous": 7,
+        "hit": 2
+      }
+    },
+    "google_primary_hours": {
+      "n": 22,
+      "status_counts": {
+        "hit": 19,
+        "ambiguous": 3
+      },
+      "homepages_reported": 1,
+      "hours_reported": 4,
+      "merged_at": "2026-09-20T15:25:15Z",
+      "source_branch": "cursor/google-sec-prim-hrs-ac30",
+      "merge_stats": {
+        "rows": 22,
+        "homepage_set": 0,
+        "hours_set": 4,
+        "hours_upgraded": 0,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 0,
+        "ambiguous": 3,
+        "hit": 19
+      }
+    }
+  }
 }

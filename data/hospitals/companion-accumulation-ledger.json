@@ -8305,6 +8305,49 @@
         }
       ],
       "source_branch": "cursor/place-neigh-final-w4-ac30"
+    },
+    {
+      "ts": "2026-09-20T15:25:15Z",
+      "action": "merge_google_secondary_nohp",
+      "stats": {
+        "rows": 27,
+        "homepage_set": 2,
+        "hours_set": 0,
+        "hours_upgraded": 1,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 18,
+        "ambiguous": 7,
+        "hit": 2
+      },
+      "status_counts": {
+        "directory_only": 18,
+        "ambiguous": 7,
+        "hit": 2
+      },
+      "source_branch": "cursor/google-sec-prim-hrs-ac30"
+    },
+    {
+      "ts": "2026-09-20T15:25:15Z",
+      "action": "merge_google_primary_hours",
+      "stats": {
+        "rows": 22,
+        "homepage_set": 0,
+        "hours_set": 4,
+        "hours_upgraded": 0,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 0,
+        "ambiguous": 3,
+        "hit": 19
+      },
+      "status_counts": {
+        "hit": 19,
+        "ambiguous": 3
+      },
+      "source_branch": "cursor/google-sec-prim-hrs-ac30"
     }
   ],
   "wave_actions": [
