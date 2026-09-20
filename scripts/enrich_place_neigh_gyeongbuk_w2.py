@@ -47,7 +47,18 @@ SNS_OR_AGG = (
     "fitpetmall.com",
 )
 
-LARGE_ANIMAL_NAME = ("축협", "가축", "한우", "수산", "인공수정")
+LARGE_ANIMAL_NAME = ("축협", "가축", "수산")
+
+
+def is_large_animal_label(text: str) -> bool:
+    if not text:
+        return False
+    if any(k in text for k in LARGE_ANIMAL_NAME):
+        return True
+    # "한우" but not companion brand "한우리"
+    if "한우" in text and "한우리" not in text:
+        return True
+    return False
 
 
 def fetch(url: str, retries: int = 3) -> str:
@@ -322,7 +333,7 @@ def classify_match(target: dict, items: list[dict], details: dict[str, dict]) ->
     tphone = norm_phone(phone)
 
     # LARGE_ANIMAL by name
-    if any(k in name for k in LARGE_ANIMAL_NAME):
+    if is_large_animal_label(name):
         return {
             "place_status": "LARGE_ANIMAL_ONLY_EXCLUDE",
             "place_homepage": None,
@@ -358,9 +369,8 @@ def classify_match(target: dict, items: list[dict], details: dict[str, dict]) ->
             score += 6
         if "동물" in it_cat or "수의" in it_cat or "병원" in it_cat:
             score += 1
-        # large animal category/name
         blob = f"{it_name} {it_cat}"
-        if any(k in blob for k in LARGE_ANIMAL_NAME):
+        if is_large_animal_label(blob):
             score -= 4
         scored.append((score, it, det))
 
@@ -441,7 +451,7 @@ def classify_match(target: dict, items: list[dict], details: dict[str, dict]) ->
     it_cat = it.get("category") or det.get("category") or ""
 
     # large animal only
-    if any(k in it_name for k in LARGE_ANIMAL_NAME) or any(k in it_cat for k in LARGE_ANIMAL_NAME):
+    if is_large_animal_label(it_name) or is_large_animal_label(it_cat):
         return {
             "place_status": "LARGE_ANIMAL_ONLY_EXCLUDE",
             "place_homepage": None,
