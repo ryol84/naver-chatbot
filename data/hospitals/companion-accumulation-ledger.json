@@ -1,6 +1,6 @@
 {
   "title": "강아지·고양이 병원 정보 축적 장부",
-  "as_of": "2026-09-20T01:57:56Z",
+  "as_of": "2026-09-20T02:30:45Z",
   "species_scope": [
     "dog",
     "cat"
@@ -1034,10 +1034,10 @@
       "verified_fields": {
         "phone": "032-345-7559",
         "address": "경기도 부천시 소사구 경인로 475, 정인빌딩 (괴안동)",
-        "homepage": "http://24bien.com",
+        "homepage": "https://bienamc.com/",
         "hours_24h": "yes",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "09:00–21:00",
         "night_hours": "24시간",
         "hours_note": "24시. 플레이스 휴게 10:00-10:30·13:00-14:30",
         "departments": [
@@ -1047,8 +1047,8 @@
           "치과"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "Philips 128ch Cardiac CT",
+          "Toshiba Vantage Titan 1.5T MRI"
         ],
         "role": "2차 의료센터",
         "lat": 37.48314285,
@@ -1157,11 +1157,33 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Philips 128ch Cardiac CT",
+            "Toshiba Vantage Titan 1.5T MRI"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:30:45Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–21:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:30:45Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://bienamc.com/",
+          "source": "hospital_website",
+          "note": "구 URL 24bien.com → bienamc.com",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b5-권앤정-24시수원동물메디컬센터",
@@ -1412,10 +1434,8 @@
           "재활"
         ],
         "equipment": [
-          "C-arm",
-          "CT",
-          "MRI",
-          "내시경"
+          "Philips Ingenia 3T MRI",
+          "Toshiba Aquilion Prime 160ch CT"
         ],
         "role": "2차 의료센터",
         "lat": 37.29541397,
@@ -1529,11 +1549,19 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Philips Ingenia 3T MRI",
+            "Toshiba Aquilion Prime 160ch CT"
+          ],
+          "source": "hospital_website",
+          "note": "사이트 403이지만 secondary-care/shooting 페이지·보도 교차",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b5-수원-스카이-동물메디컬센터",
@@ -1893,11 +1921,9 @@
           "최소침습"
         ],
         "equipment": [
-          "CT",
-          "MRI",
-          "X-ray",
-          "내시경",
-          "초음파"
+          "3T MRI",
+          "64ch 128slice CT",
+          "Aplio i800"
         ],
         "role": "2차 의료센터",
         "lat": 37.31268311,
@@ -2016,11 +2042,20 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "3T MRI",
+            "64ch 128slice CT",
+            "Aplio i800"
+          ],
+          "source": "reported_news",
+          "note": "",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "univ-gnu-vmth",
@@ -2280,10 +2315,10 @@
       "verified_fields": {
         "phone": "055-924-1000",
         "address": "경상남도 진주시 진주대로 624 (가좌동)",
-        "homepage": "https://blog.naver.com/jsooamc",
+        "homepage": "https://www.sooamc.com/",
         "hours_24h": "no",
         "emergency": "yes",
-        "weekday_hours": "09:00–18:30",
+        "weekday_hours": "09:00–22:00",
         "night_hours": "24시간",
         "hours_note": "24시(뉴스1)",
         "departments": [
@@ -2291,7 +2326,9 @@
           "영상(CT/MRI)"
         ],
         "equipment": [
-          "MRI"
+          "Toshiba Vantage Titan 1.5T MRI",
+          "Brightspeed Elite select CT",
+          "Aplio i700"
         ],
         "role": "2차 의료센터",
         "lat": 35.16239929,
@@ -2397,11 +2434,34 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Toshiba Vantage Titan 1.5T MRI",
+            "Brightspeed Elite select CT",
+            "Aplio i700"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:30:45Z"
+        },
+        {
+          "field": "weekday_hours",
+          "value": "09:00–22:00",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:30:45Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://www.sooamc.com/",
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b10-24시-포항-이음동물의료센터",
@@ -3057,9 +3117,8 @@
           "진단검사의학과"
         ],
         "equipment": [
-          "CT",
+          "Canon Aquilion PRIME SP 160ch CT",
           "MRI",
-          "X-ray",
           "심장초음파"
         ],
         "services": [
@@ -3260,11 +3319,20 @@
           "source": "hospital_website",
           "note": "stale 경고 해제용 재확인",
           "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Canon Aquilion PRIME SP 160ch CT",
+            "MRI",
+            "심장초음파"
+          ],
+          "source": "hospital_website",
+          "note": "MRI 모델 미게시",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b12-뉴로동물의료센터24시",
@@ -3964,10 +4032,8 @@
           "대동물"
         ],
         "equipment": [
-          "CT",
-          "MRI",
-          "X-ray",
-          "초음파"
+          "160ch CT",
+          "MRI"
         ],
         "services": [
           "응급의료센터",
@@ -4160,11 +4226,19 @@
           "source": "hospital_website",
           "note": "정규 주간+24시 응급",
           "at": "2026-09-20T01:55:17Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "160ch CT",
+            "MRI"
+          ],
+          "source": "hospital_website",
+          "note": "MRI 모델명 미게시",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "univ-konkuk-vmth",
@@ -4535,10 +4609,8 @@
           "줄기세포"
         ],
         "equipment": [
-          "CT",
-          "MRI",
-          "고압산소",
-          "수중런닝"
+          "Canon Vantage Galan 3T MRI",
+          "Aquilion Lightning 80 CT"
         ],
         "services": [
           "중증환자 케어센터",
@@ -4714,11 +4786,19 @@
           "source": "hospital_website",
           "note": "노원점 고양이병원/전용층",
           "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Canon Vantage Galan 3T MRI",
+            "Aquilion Lightning 80 CT"
+          ],
+          "source": "dailyvet",
+          "note": "동물병원 최초 캐논 AI 3T",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "rehab-hangeoleumdeo",
@@ -5697,8 +5777,8 @@
           "외과"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "Siemens Magnetom Sempra 1.5T",
+          "Somatom Emotion 16ch CT"
         ],
         "services": [
           "MRI",
@@ -5859,11 +5939,19 @@
           "source": "hospital_website",
           "note": "3380·3384 (기존 3381은 인허가 번호로 보임)",
           "at": "2026-09-20T01:53:09Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Siemens Magnetom Sempra 1.5T",
+            "Somatom Emotion 16ch CT"
+          ],
+          "source": "reported_news",
+          "note": "",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "univ-cbnu-cheongju",
@@ -5897,11 +5985,9 @@
           "응급"
         ],
         "equipment": [
+          "GE SIGNA Creator 1.5T MRI",
           "CT",
-          "MRI",
-          "PET/핵의학",
-          "X-ray",
-          "초음파"
+          "PET-CT"
         ],
         "services": [
           "PET-CT",
@@ -6091,25 +6177,58 @@
           "source": "hospital_website",
           "note": "",
           "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "GE SIGNA Creator 1.5T MRI",
+            "CT",
+            "PET-CT"
+          ],
+          "source": "hospital_website",
+          "note": "PET-CT는 모델 미게시",
+          "at": "2026-09-20T02:30:45Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     }
   ],
   "last_batch_reviews": [
     {
-      "name": "경북대학교 수의과대학 부속동물병원",
-      "note": "평일09–18+365일응급, GE SIGNA Explorer 1.5T·16Ch CT"
+      "name": "비엔동물전문의료센터",
+      "note": "Philips 128ch Cardiac CT·Toshiba Vantage Titan 1.5T, 일반09–21/야간21–09"
     },
     {
-      "name": "전북동물의료센터",
-      "note": "3T MRI 도입 공지·CT 수가표·전화 063-850-0970 확인"
+      "name": "노원N동물의료센터",
+      "note": "Canon Vantage Galan 3T MRI·Aquilion Lightning 80 CT(데일리벳)"
     },
     {
-      "name": "24시노아동물메디컬센터",
-      "note": "64채널 CT(데일리벳) 장비 갭 정리, MRI 모델은 추가수집"
+      "name": "제주대학교 수의과대학 부설동물병원",
+      "note": "Siemens Magnetom Sempra 1.5T MRI·Somatom Emotion 16ch CT"
+    },
+    {
+      "name": "충북대학교 동물병원",
+      "note": "GE SIGNA Creator 1.5T MRI 공식 확인(PET-CT 모델 미게시)"
+    },
+    {
+      "name": "서울대학교 수의과대학 동물병원",
+      "note": "공식 160채널 CT(2023) 확인, MRI 모델은 미게시"
+    },
+    {
+      "name": "충남대학교 수의과대학 부속동물병원",
+      "note": "Canon Aquilion PRIME SP 160ch CT 공식"
+    },
+    {
+      "name": "수동물메디컬센터",
+      "note": "Toshiba Vantage Titan 1.5T·Brightspeed Elite CT, 일반09–22"
+    },
+    {
+      "name": "본 동물의료센터",
+      "note": "Philips Ingenia 3T·Toshiba Aquilion Prime 160ch(공식 촬영의뢰 페이지)"
+    },
+    {
+      "name": "24시 사람앤동물메디컬센터",
+      "note": "3T MRI·64ch/128slice CT·Aplio i800(보도)"
     }
   ],
   "progress": {
@@ -6117,7 +6236,8 @@
     "by_status": {
       "verified_draft": 32
     },
-    "reviewed_this_batch": 3,
-    "equipment_gap_remaining": 20
+    "reviewed_this_batch": 9,
+    "equipment_gap_remaining": 11,
+    "no_open_questions": 21
   }
 }

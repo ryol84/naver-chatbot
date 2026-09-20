@@ -1082,10 +1082,10 @@
       "hours": {
         "hours_24h": "yes",
         "emergency": "yes",
-        "weekday_hours": "00:00–24:00",
+        "weekday_hours": "09:00–21:00",
         "weekend_hours": null,
-        "night_hours": "24시간",
-        "hours_note": "24시. 플레이스 휴게 10:00-10:30·13:00-14:30",
+        "night_hours": "21:00–09:00",
+        "hours_note": "24시 연중무휴. 일반 09–21 / 야간 21–09. 안과·치과 09–18. 재정비 13–14:30. 032-345-7559.",
         "name_has_24h_token": false,
         "hours_note_nationwide": "매일 00:00 - 24:00 | 10:00 - 10:30 휴게시간 | 13:00 - 14:30 휴게시간",
         "by_day": {
@@ -1108,7 +1108,7 @@
             "raw": "13:00 - 14:30 휴게시간"
           }
         ],
-        "hours_source": "nationwide_csv"
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -1160,24 +1160,24 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "Philips 128ch Cardiac CT",
+          "model": "Philips 128ch Cardiac CT",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리개원 2023-06 클리닉탐방: 시즌3 CT 도입",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "bienamc.com/ic: Cardiac CT 128ch·필립스 특허",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "Toshiba Vantage Titan 1.5T",
+          "model": "Toshiba Vantage Titan 1.5T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "같은 기사 2021 시즌4 고성능 MRI 도입",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "bienamc.com/ic: Vantage Titan MRI",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -1198,19 +1198,20 @@
         "기종은 기사에 없음"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": 175,
         "nationwide_id": "nat_9402648c4cc1",
-        "homepage": "http://24bien.com",
+        "homepage": "https://bienamc.com/",
         "lat": 37.48314285,
         "lng": 126.8084106,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [
+          "https://bienamc.com/",
+          "https://bienamc.com/ic/"
+        ]
       },
       "species_scope": [
         "dog",
@@ -1607,24 +1608,24 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "3.0T MRI",
-          "model": "3.0T tesla",
+          "item": "Philips Ingenia 3T",
+          "model": "Philips Ingenia 3T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리개원 2025-06·12 탐방, 뉴스1 확장",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "bonamc.co.kr MRI/CT촬영의뢰: 하이엔드 3T Philips Ingenia",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "ct",
           "label": "CT",
-          "item": "160채널 CT",
-          "model": "160ch",
+          "item": "Toshiba Aquilion Prime 160ch",
+          "model": "Toshiba Aquilion Prime 160",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "같은 데일리개원·뉴스1",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "bonamc.co.kr: Toshiba Acquilion Prime 160ch",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "carm",
@@ -1670,9 +1671,7 @@
         "‘국내 최대’ 홍보 문구 미사용"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -2254,24 +2253,24 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "3.0T MRI",
+          "item": "3T MRI",
           "model": "3T",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리벳 2025-11 확장",
-          "as_of": "2026-09-19",
-          "publisher": null
+          "evidence": "데일리벳: 확장 이전 시 3T MRI 신규",
+          "as_of": "2026-09-20",
+          "publisher": "dailyvet"
         },
         {
           "kind": "ct",
           "label": "CT",
-          "item": "64채널 128슬라이스 CT",
+          "item": "64ch 128slice CT",
           "model": "64ch 128slice",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "같은 데일리벳",
-          "as_of": "2026-09-19",
-          "publisher": null
+          "evidence": "데일리벳: 64채널 128슬라이스 CT",
+          "as_of": "2026-09-20",
+          "publisher": "dailyvet"
         },
         {
           "kind": "xray",
@@ -2287,13 +2286,13 @@
         {
           "kind": "ultrasound",
           "label": "초음파",
-          "item": "초음파",
-          "model": null,
+          "item": "Canon Aplio i800",
+          "model": "Canon Aplio i800",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "같은 기사",
-          "as_of": "2026-09-19",
-          "publisher": null
+          "evidence": "메디컬투데이: Aplio i800 도입",
+          "as_of": "2026-09-20",
+          "publisher": "mdtoday"
         },
         {
           "kind": "other",
@@ -2338,9 +2337,7 @@
         "바이럴·유일 문구 미사용"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -2638,7 +2635,7 @@
       "name": "수동물메디컬센터",
       "sido": "경상남도",
       "sigungu": "진주시",
-      "phone": "055-924-1000",
+      "phone": "02-2676-7582",
       "address": "경상남도 진주시 진주대로 624 (가좌동)",
       "role": "secondary",
       "role_label": "2차 의료센터",
@@ -2647,12 +2644,12 @@
       "publishable": true,
       "not_general_hospital": false,
       "hours": {
-        "hours_24h": "no",
+        "hours_24h": "partial",
         "emergency": "yes",
-        "weekday_hours": "09:00–18:30",
+        "weekday_hours": "09:00–22:00",
         "weekend_hours": "토 09:00–13:30 · 일 휴무",
-        "night_hours": "24시간",
-        "hours_note": "24시(뉴스1)",
+        "night_hours": "22:00–09:00",
+        "hours_note": "일반 09–22 / 야간응급 22–09. 02-2676-7582. MRI/CT 365일 가능(사이트).",
         "name_has_24h_token": false,
         "hours_note_nationwide": "월 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 화 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 수 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 목 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 금 09:00 - 18:30 | 12:00 - 13:30 휴게시간 | 11:30, 18:00 접수마감 | 토 09:00 - 13:30 | 13:00 접수마감 | 일 정기휴무 (매주 일요일)",
         "by_day": {
@@ -2724,7 +2721,7 @@
             "raw": "12:00 - 13:30 휴게시간"
           }
         ],
-        "hours_source": "nationwide_csv"
+        "hours_source": "hospital_website"
       },
       "departments": [
         {
@@ -2757,12 +2754,34 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "Toshiba Vantage Titan 1.5T 16ch",
+          "model": "Toshiba Vantage Titan 1.5T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "뉴스1 2025-08 수동물메디컬센터 MRI 도입",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "sooamc.com 영상의학과",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ct",
+          "label": "CT",
+          "item": "Brightspeed Elite select",
+          "model": "Brightspeed Elite select",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "sooamc.com / 메인: Brightspeed Elite select CT",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "Canon Aplio i700 / Aplio 500",
+          "model": "Canon Aplio i700",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "sooamc.com",
+          "as_of": "2026-09-20",
           "publisher": null
         }
       ],
@@ -2782,19 +2801,20 @@
         "상호 CTMRI만으로 official 금지. 이웃 병원 장비 복사 금지."
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": 150,
         "nationwide_id": "nat_59fd695657b1",
-        "homepage": "https://blog.naver.com/jsooamc",
+        "homepage": "https://www.sooamc.com/",
         "lat": 35.16239929,
         "lng": 128.1068115,
         "hours_source": "nationwide_csv",
-        "website_sources": []
+        "website_sources": [
+          "https://www.sooamc.com/",
+          "https://www.sooamc.com/department/radiology.php"
+        ]
       },
       "species_scope": [
         "dog",
@@ -3633,11 +3653,11 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT실",
-          "model": "CT실",
+          "item": "Canon Aquilion PRIME SP 160ch",
+          "model": "Canon Aquilion PRIME SP 160ch",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "hospital website",
+          "evidence": "cnuah.cnu.ac.kr 영상의학과 CT 페이지",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -3696,9 +3716,7 @@
         "공식 내과 페이지는 진료시간 중 on-call. 24시 상시로 단정하지 않음"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -4641,12 +4659,12 @@
           "kind": "ct",
           "label": "CT",
           "item": "160채널 CT",
-          "model": "160ch",
+          "model": "160채널",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "뉴스1 2025 서울대동물병원 검진센터 소개(160채널 CT 도입)",
-          "as_of": "2026-09-19",
-          "publisher": "news1"
+          "evidence_level": "self_claimed",
+          "evidence": "vmth.snu.ac.kr 영상의학과: 2023년 160채널 CT 도입",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "mri",
@@ -4713,9 +4731,7 @@
         "일선 예방접종 중심 1차와 역할이 다름. 응급은 당일 직접 내원 가능(공식)"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -5219,24 +5235,24 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
+          "item": "Canon Aquilion Lightning 80 Slice",
           "status": "installed",
-          "evidence_level": "self_claimed",
-          "evidence": "namc.co.kr: CT·MRI 등 최신의료장비 구축",
+          "evidence_level": "reported",
+          "evidence": "데일리벳: AQ Lightning 80 CT",
           "as_of": "2026-09-20",
-          "publisher": null,
-          "model": null
+          "publisher": "dailyvet",
+          "model": "Canon Aquilion Lightning 80"
         },
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
+          "item": "Canon Vantage Galan 3T (AiCE/PIQE)",
           "status": "installed",
-          "evidence_level": "self_claimed",
-          "evidence": "namc.co.kr: CT·MRI 등 최신의료장비 구축",
+          "evidence_level": "reported",
+          "evidence": "데일리벳: 노원점 캐논 AI 3T MRI",
           "as_of": "2026-09-20",
-          "publisher": null,
-          "model": null
+          "publisher": "dailyvet",
+          "model": "Canon Vantage Galan 3T"
         },
         {
           "kind": "underwater_treadmill",
@@ -5310,9 +5326,7 @@
           "msg": "전화 없음"
         }
       ],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -6382,24 +6396,24 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "Siemens 1.5T MRI",
-          "model": "1.5T tesla · Siemens",
+          "item": "Siemens Magnetom Sempra 1.5T",
+          "model": "Siemens Magnetom Sempra 1.5T",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리벳 제주대 부설동물병원 1.5T MRI 도입",
-          "as_of": "2026-09-19",
-          "publisher": "dailyvet"
+          "evidence": "헤드라인제주/데일리벳: Magnetom Sempra",
+          "as_of": "2026-09-20",
+          "publisher": "headlinejeju"
         },
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT (동일 제조사, 원장 발언)",
-          "model": null,
+          "item": "Siemens Somatom Emotion 16ch",
+          "model": "Siemens Somatom Emotion 16",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "같은 데일리벳 기사 원장 '현재 운영 중인 같은 회사의 CT'",
-          "as_of": "2026-09-19",
-          "publisher": "dailyvet"
+          "evidence": "같은 기사: 기존 동사 CT 16채널",
+          "as_of": "2026-09-20",
+          "publisher": "headlinejeju"
         }
       ],
       "equipment_summary": [
@@ -6420,9 +6434,7 @@
         "말전문동물병원·말 전용 CT는 별도 인허가"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -6645,11 +6657,11 @@
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "GE SIGNA Creator 1.5T",
+          "model": "GE SIGNA Creator 1.5T",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "cbuanimal.co.kr 영상의학과",
+          "evidence": "cbuanimal.co.kr MRI 페이지",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -6717,9 +6729,7 @@
       ],
       "does_not_confirmed": [],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {

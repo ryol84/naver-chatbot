@@ -301,15 +301,15 @@
         "dog",
         "cat"
       ],
-      "homepage": "http://24bien.com",
+      "homepage": "https://bienamc.com/",
       "lat": 37.48314285,
       "lng": 126.8084106,
       "hours_24h": "yes",
       "emergency": "yes",
-      "weekday_hours": "00:00–24:00",
+      "weekday_hours": "09:00–21:00",
       "weekend_hours": null,
-      "night_hours": "24시간",
-      "hours_note": "24시. 플레이스 휴게 10:00-10:30·13:00-14:30",
+      "night_hours": "21:00–09:00",
+      "hours_note": "24시 연중무휴. 일반 09–21 / 야간 21–09. 안과·치과 09–18. 재정비 13–14:30. 032-345-7559.",
       "departments": [
         "응급",
         "영상(CT/MRI)",
@@ -323,12 +323,13 @@
       "services": [],
       "strength": "부천 소사. CT·MRI는 데일리개원 탐방.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
+      "gaps": [],
+      "website_sources": [
+        "https://bienamc.com/",
+        "https://bienamc.com/ic/"
       ],
-      "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 13
+      "evidence_count": 16
     },
     {
       "id": "b5-권앤정-24시수원동물메디컬센터",
@@ -428,12 +429,10 @@
       "services": [],
       "strength": "수원 장안. 3T MRI·160ch CT·C-arm·내시경은 데일리개원.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 13
+      "evidence_count": 14
     },
     {
       "id": "b5-수원-스카이-동물메디컬센터",
@@ -573,12 +572,10 @@
       "services": [],
       "strength": "용인 수지 2차. 동네 접종이 아니라 중증·분과·영상. 3T MRI·CT·투석·항암·안과치과재활은 데일리벳 확장 기사.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 13
+      "evidence_count": 14
     },
     {
       "id": "univ-gnu-vmth",
@@ -638,38 +635,41 @@
       "name": "수동물메디컬센터",
       "sido": "경상남도",
       "sigungu": "진주시",
-      "phone": "055-924-1000",
+      "phone": "02-2676-7582",
       "address": "경상남도 진주시 진주대로 624 (가좌동)",
       "role_label": "2차 의료센터",
       "species_scope": [
         "dog",
         "cat"
       ],
-      "homepage": "https://blog.naver.com/jsooamc",
+      "homepage": "https://www.sooamc.com/",
       "lat": 35.16239929,
       "lng": 128.1068115,
-      "hours_24h": "no",
+      "hours_24h": "partial",
       "emergency": "yes",
-      "weekday_hours": "09:00–18:30",
+      "weekday_hours": "09:00–22:00",
       "weekend_hours": "토 09:00–13:30 · 일 휴무",
-      "night_hours": "24시간",
-      "hours_note": "24시(뉴스1)",
+      "night_hours": "22:00–09:00",
+      "hours_note": "일반 09–22 / 야간응급 22–09. 02-2676-7582. MRI/CT 365일 가능(사이트).",
       "departments": [
         "응급",
         "영상(CT/MRI)"
       ],
       "equipment": [
-        "MRI"
+        "MRI",
+        "CT",
+        "초음파"
       ],
       "services": [],
       "strength": "진주. 뉴스1 2025-08 MRI 도입·500평 확장·24시 고도화. 동네 접종이 아님.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
+      "gaps": [],
+      "website_sources": [
+        "https://www.sooamc.com/",
+        "https://www.sooamc.com/department/radiology.php"
       ],
-      "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 13
+      "evidence_count": 16
     },
     {
       "id": "b10-24시-포항-이음동물의료센터",
@@ -872,14 +872,12 @@
       ],
       "strength": "대학 분과·초음파는 확인. CT/MRI 현재 기종은 이번 검색에서 공식 목록 없음.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "https://cnuah.cnu.ac.kr"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 21
+      "evidence_count": 22
     },
     {
       "id": "b12-뉴로동물의료센터24시",
@@ -1103,16 +1101,14 @@
       ],
       "strength": "대학 분과·24시 응급·CT/MRI가 공식 페이지·기사로 확인됨.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "https://vmth.snu.ac.kr/",
         "https://vmth.snu.ac.kr/treat/consultationTime.do",
         "https://vmth.snu.ac.kr/subject/emergencyMedicine.do"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 20
+      "evidence_count": 21
     },
     {
       "id": "univ-konkuk-vmth",
@@ -1265,14 +1261,12 @@
       ],
       "strength": "노원. 데일리벳: 3T MRI(Vantage Galan)·80slice CT. 확장기사: 투석·재활·고양이병원.",
       "confidence": "high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "https://www.namc.co.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 17
+      "evidence_count": 18
     },
     {
       "id": "rehab-hangeoleumdeo",
@@ -1551,15 +1545,13 @@
       ],
       "strength": "1.5T MRI·CT가 데일리벳 가동식 기사로 확인.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://vethospital.jejunu.ac.kr/",
         "http://vethospital.jejunu.ac.kr/vethospital/guide/medical.htm"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 19
+      "evidence_count": 20
     },
     {
       "id": "univ-cbnu-cheongju",
@@ -1608,14 +1600,12 @@
       ],
       "strength": "대학 공식 핵의학과에 PET-CT 명시.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://www.cbuanimal.co.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 21
+      "evidence_count": 22
     }
   ]
 }
