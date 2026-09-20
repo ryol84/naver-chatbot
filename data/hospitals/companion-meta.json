@@ -268,8 +268,8 @@
     "누리동물병원"
   ],
   "stats": {
-    "with_homepage": 1943,
-    "with_hours": 3322,
+    "with_homepage": 1947,
+    "with_hours": 3324,
     "with_phone": 3957,
     "hours_24h_yes": 226
   },
@@ -2221,9 +2221,81 @@
         "exclude_large_animal": 0,
         "missing_id": 0
       }
+    },
+    "secondary_final": {
+      "n": 36,
+      "hit": 23,
+      "no_hit": 1,
+      "ambiguous": 12,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 3,
+      "hours_reported": 20,
+      "merged_at": "2026-09-20T15:01:28Z",
+      "source_branch": "cursor/place-sec-special-final-ac30",
+      "merge_stats": {
+        "hit_applied": 23,
+        "homepage_set": 3,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 7,
+        "no_hit": 1,
+        "ambiguous_skip": 12,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "special_final": {
+      "n": 7,
+      "hit": 5,
+      "no_hit": 1,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 3,
+      "hours_reported": 1,
+      "merged_at": "2026-09-20T15:01:28Z",
+      "source_branch": "cursor/place-sec-special-final-ac30",
+      "merge_stats": {
+        "hit_applied": 5,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 1,
+        "no_hit": 1,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "primary_hours_final": {
+      "n": 25,
+      "hit": 23,
+      "no_hit": 1,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T15:01:28Z",
+      "source_branch": "cursor/place-sec-special-final-ac30",
+      "merge_stats": {
+        "hit_applied": 22,
+        "homepage_set": 1,
+        "phone_set": 0,
+        "hours_set": 2,
+        "dept_merged": 0,
+        "no_hit": 1,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 1
+      }
     }
   },
-  "with_homepage": 1943,
+  "with_homepage": 1947,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }
