@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4296,
-  "excluded_n": 115,
+  "n": 4291,
+  "excluded_n": 120,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -119,12 +119,16 @@
     "경북대학교수의과대학부속동물병원분원",
     "가든종합동물병원",
     "건국종합동물병원",
-    "서울대공원 동물원동물병원"
+    "서울대공원 동물원동물병원",
+    "한국종합동물병원",
+    "웰니스클리닉동물병원",
+    "장원종합동물병원",
+    "서부종합동물병원"
   ],
   "stats": {
     "with_homepage": 1913,
-    "with_hours": 3169,
-    "with_phone": 3982,
+    "with_hours": 3170,
+    "with_phone": 3980,
     "hours_24h_yes": 208
   },
   "care_level_taxonomy": {
@@ -137,7 +141,7 @@
   "care_level_counts": {
     "neighborhood": 3577,
     "secondary": 499,
-    "primary": 187,
+    "primary": 182,
     "university": 12,
     "rehab_specialty": 21
   },
@@ -254,6 +258,36 @@
         "name": "서울대공원 동물원동물병원",
         "reason": "서울대공원 동물원동물병원 — 동물원 진료, companion dog/cat 제외",
         "excluded_at": "2026-09-20T04:09:27Z"
+      },
+      {
+        "id": "nat_99ceb089b7e4",
+        "name": "한국종합동물병원",
+        "reason": "CLOSED_EXCLUDE: mypet-119 폐업 표기(경산 하양읍 하양로183)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_747622535180",
+        "name": "웰니스클리닉동물병원",
+        "reason": "CLOSED_EXCLUDE: marketbiz 폐업(2026-03-28)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_331e797754af",
+        "name": "장원종합동물병원",
+        "reason": "CLOSED_EXCLUDE: marketbiz 폐업(2025-08-14)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_c6e94cc2b48c",
+        "name": "웰니스클리닉동물병원",
+        "reason": "CLOSED_EXCLUDE: mypet-119 폐업(아산 배방 고속철대로133 트레이더스2층)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_dc89c419e775",
+        "name": "서부종합동물병원",
+        "reason": "CLOSED_EXCLUDE: mypet-119 폐업(천안 동남 쌍용대로187 봉명)",
+        "excluded_at": "2026-09-20T04:57:00Z"
       }
     ],
     "primary_nohp_local": {
@@ -310,6 +344,26 @@
         "ambiguous_skip": 1,
         "exclude_zoo": 1
       }
+    },
+    "primary_hours_remaining": {
+      "n": 41,
+      "hit": 39,
+      "ambiguous": 1,
+      "no_hit": 1,
+      "hours_raw_reported": 2,
+      "homepages_reported": 1,
+      "closed_exclude": 5,
+      "merged_at": "2026-09-20T04:57:00Z",
+      "source_branch": "cursor/place-primary-hours-ac30",
+      "merge_stats": {
+        "hit": 34,
+        "closed": 5,
+        "no_hit": 1,
+        "phone_set": 1,
+        "ambiguous_skip": 1,
+        "hours_set": 1
+      },
+      "primary_still_no_hours": 35
     }
   },
   "with_homepage": 1913,

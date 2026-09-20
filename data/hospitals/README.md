@@ -6,12 +6,12 @@
 - 장비모델 갭: 1 (Dr.dog)
 - 사이트 없으면 네이버플레이스/카카오맵
 
-## companion 4296곳
+## companion 4291곳
 | 등급 | 수 |
 |------|----|
 | 대학 | 12 |
 | 2차 | 499 |
-| 1차 | 187 |
+| 1차 | 182 |
 | 일반 동네 | 3577 |
 | 재활·한방 | 21 |
 
@@ -24,6 +24,7 @@
 - 2차 hours fill: 해밀(휴게/공휴일) 등
 
 ### Place waves (merged)
+- primary hours remaining 41: hit 39 / ambiguous 1 / no_hit 1; hours_raw 2 (참누리·웰니스부산 dirs); homepage 1 (참누리); CLOSED_EXCLUDE 5
 - Gyeonggi neighborhood wave1: 100 (hit 91 / no_hit 7 / ambiguous 2); homepage 5 / hours 57
 - special (대학·재활): 14 — 제주대·탑스 홈페이지 추가
 - secondary hours fill: 6
@@ -36,3 +37,4 @@
 - special remaining (대학·재활 잔여): 8 (hit 7 / no_hit 1; 경북대 상주분원 LARGE_ANIMAL_ONLY_EXCLUDE + knuvmth.co.kr)
 - special remaining merge: 민간「대학동물병원」4곳 care_level→neighborhood; 한양·행복드림 hours
 - 제외: 서울대공원 동물원동물병원 (동물원 진료)
+- 제외(폐업): 한국종합동물병원·웰니스클리닉동물병원·장원종합동물병원·웰니스클리닉동물병원·서부종합동물병원

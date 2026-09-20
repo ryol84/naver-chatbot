@@ -6825,6 +6825,41 @@
         }
       ],
       "source_branch": "cursor/place-neigh-gyeonggi-ac30"
+    },
+    {
+      "ts": "2026-09-20T04:57:00Z",
+      "action": "merge_place_primary_hours_remaining",
+      "stats": {
+        "hit": 34,
+        "closed": 5,
+        "no_hit": 1,
+        "phone_set": 1,
+        "ambiguous_skip": 1,
+        "hours_set": 1
+      },
+      "excluded": [
+        {
+          "id": "nat_99ceb089b7e4",
+          "name": "한국종합동물병원"
+        },
+        {
+          "id": "nat_747622535180",
+          "name": "웰니스클리닉동물병원"
+        },
+        {
+          "id": "nat_331e797754af",
+          "name": "장원종합동물병원"
+        },
+        {
+          "id": "nat_c6e94cc2b48c",
+          "name": "웰니스클리닉동물병원"
+        },
+        {
+          "id": "nat_dc89c419e775",
+          "name": "서부종합동물병원"
+        }
+      ],
+      "source_branch": "cursor/place-primary-hours-ac30"
     }
   ]
 }
