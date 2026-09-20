@@ -2,8 +2,8 @@
   "title": "강아지·고양이(소동물/반려) 병원만",
   "as_of": "2026-09-20",
   "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
-  "n": 4189,
-  "excluded_n": 222,
+  "n": 4182,
+  "excluded_n": 229,
   "excluded_names": [
     "그린축산동물병원",
     "남원축산농협동물병원",
@@ -217,13 +217,20 @@
     "YS동물병원",
     "운암동물병원",
     "고려동물병원",
-    "보람동물병원"
+    "보람동물병원",
+    "마이펫동물의료센타",
+    "한국동물임상연구소",
+    "로얄벳성수점동물병원",
+    "위즈펫동물병원",
+    "용봉동물병원",
+    "에디슨동물병원",
+    "평창동물병원"
   ],
   "stats": {
-    "with_homepage": 1932,
-    "with_hours": 3241,
-    "with_phone": 3954,
-    "hours_24h_yes": 224
+    "with_homepage": 1930,
+    "with_hours": 3254,
+    "with_phone": 3951,
+    "hours_24h_yes": 225
   },
   "care_level_taxonomy": {
     "university": "대학동물병원",
@@ -233,7 +240,7 @@
     "rehab_specialty": "재활·한방 특화"
   },
   "care_level_counts": {
-    "neighborhood": 3475,
+    "neighborhood": 3468,
     "secondary": 499,
     "primary": 182,
     "university": 12,
@@ -994,6 +1001,48 @@
         "name": "보람동물병원",
         "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
         "excluded_at": "2026-09-20T11:45:29Z"
+      },
+      {
+        "id": "nat_525c0eb5efac",
+        "name": "마이펫동물의료센타",
+        "reason": "CLOSED: 강남 삼성로573 mypet-119 폐업 표기. Place는 동일전화 펫코도니아(언주로627)·YT/IG만→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_801b408fbcbf",
+        "name": "한국동물임상연구소",
+        "reason": "CLOSED: 송파 백제고분로46길41-12 mypet-119 폐업 표기. Place 패널 약함·전화만→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_a9d22aa8f8c5",
+        "name": "로얄벳성수점동물병원",
+        "reason": "CLOSED: 광진 자양3동550-2/성동 뚝섬로377 mypet-119 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_4c4c438b685a",
+        "name": "위즈펫동물병원",
+        "reason": "CLOSED: 송파 올림픽로35가길16 잠실홈플러스 mypet-119 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_7477d7136984",
+        "name": "용봉동물병원",
+        "reason": "LARGE_ANIMAL: 강서 강서로17길20 Place hit이나 상호 용봉가축병원(가축) 병기·전화 일치→LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_a492e0231783",
+        "name": "에디슨동물병원",
+        "reason": "CLOSED: 광진 아차산로530 mypet-119·홈즈 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_aec4bb8279a3",
+        "name": "평창동물병원",
+        "reason": "CLOSED: 종로 평창문화로31 mypet-119 폐업 표기. Place는 인근 월드펫(평창문화로75)만→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
       }
     ],
     "primary_nohp_local": {
@@ -1494,9 +1543,33 @@
         "exclude_large_animal": 0,
         "missing_id": 0
       }
+    },
+    "seoul_neigh_wave4": {
+      "n": 32,
+      "hit": 22,
+      "no_hit": 3,
+      "ambiguous": 0,
+      "closed_exclude": 6,
+      "large_animal_exclude": 1,
+      "homepages_reported": 14,
+      "hours_reported": 13,
+      "merged_at": "2026-09-20T11:50:07Z",
+      "source_branch": "cursor/place-neigh-seoul-wave4-ac30",
+      "merge_stats": {
+        "hit_applied": 22,
+        "homepage_set": 0,
+        "phone_set": 1,
+        "hours_set": 13,
+        "dept_merged": 4,
+        "no_hit": 3,
+        "ambiguous_skip": 0,
+        "exclude_closed": 6,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
     }
   },
-  "with_homepage": 1932,
+  "with_homepage": 1930,
   "with_departments": 4300,
   "sec_missing_homepage": 37
 }

@@ -7686,6 +7686,60 @@
         }
       ],
       "source_branch": "cursor/place-neigh-gwangju-ac30"
+    },
+    {
+      "ts": "2026-09-20T11:50:07Z",
+      "action": "merge_place_neigh_seoul_wave4",
+      "stats": {
+        "hit_applied": 22,
+        "homepage_set": 0,
+        "phone_set": 1,
+        "hours_set": 13,
+        "dept_merged": 4,
+        "no_hit": 3,
+        "ambiguous_skip": 0,
+        "exclude_closed": 6,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_525c0eb5efac",
+          "name": "마이펫동물의료센타",
+          "reason": "CLOSED: 강남 삼성로573 mypet-119 폐업 표기. Place는 동일전화 펫코도니아(언주로627)·YT/IG만→CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_801b408fbcbf",
+          "name": "한국동물임상연구소",
+          "reason": "CLOSED: 송파 백제고분로46길41-12 mypet-119 폐업 표기. Place 패널 약함·전화만→CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_a9d22aa8f8c5",
+          "name": "로얄벳성수점동물병원",
+          "reason": "CLOSED: 광진 자양3동550-2/성동 뚝섬로377 mypet-119 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_4c4c438b685a",
+          "name": "위즈펫동물병원",
+          "reason": "CLOSED: 송파 올림픽로35가길16 잠실홈플러스 mypet-119 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_7477d7136984",
+          "name": "용봉동물병원",
+          "reason": "LARGE_ANIMAL: 강서 강서로17길20 Place hit이나 상호 용봉가축병원(가축) 병기·전화 일치→LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_a492e0231783",
+          "name": "에디슨동물병원",
+          "reason": "CLOSED: 광진 아차산로530 mypet-119·홈즈 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_aec4bb8279a3",
+          "name": "평창동물병원",
+          "reason": "CLOSED: 종로 평창문화로31 mypet-119 폐업 표기. Place는 인근 월드펫(평창문화로75)만→CLOSED_EXCLUDE"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-seoul-wave4-ac30"
     }
   ]
 }
