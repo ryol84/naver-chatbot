@@ -8106,6 +8106,50 @@
         }
       ],
       "source_branch": "cursor/place-primary-nohp-final-ac30"
+    },
+    {
+      "ts": "2026-09-20T14:22:45Z",
+      "action": "merge_place_neigh_final_wave2",
+      "stats": {
+        "hit_applied": 82,
+        "homepage_set": 4,
+        "phone_set": 6,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 13,
+        "ambiguous_skip": 0,
+        "exclude_closed": 3,
+        "exclude_large_animal": 2,
+        "missing_id": 0
+      },
+      "excluded": [
+        {
+          "id": "nat_1fe3155e5a75",
+          "name": "수동물병원",
+          "reason": "LARGE_ANIMAL: 아산 영인면 영인로45 Daum/수의사회 hit(전화010-6473-6520). 성예사·소개상 출장전문 대가축진료 → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_d2d0e1757627",
+          "name": "신개금동물병원",
+          "reason": "CLOSED: 부산진 복지로47 주소·전화 디렉터리 확인되나 marketbz/bizwiki 납세자상태 폐업자(폐업일 2025-12-31)·mypet-119 폐업 표기 → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_14c442dbc269",
+          "name": "우리동물병원",
+          "reason": "CLOSED: 연천읍 현문로5번길3 주소·전화 일치하나 animal.hospitalk 공공데이터 폐업(2022-03-30) → CLOSED_EXCLUDE"
+        },
+        {
+          "id": "nat_07af37ad9ea6",
+          "name": "합천축협동물병원",
+          "reason": "LARGE_ANIMAL: 합천 율곡 임북1길25 합천축산업협동조합 부설 동물병원(전화일치) → LARGE_ANIMAL_ONLY_EXCLUDE"
+        },
+        {
+          "id": "nat_278ae8bd67d0",
+          "name": "해동동물병원",
+          "reason": "CLOSED: 밀양 무안 동부1길10-1 공공데이터 폐업(2024-06-07)·전화055-352-6768 → CLOSED_EXCLUDE"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-final-w2-ac30"
     }
   ],
   "wave_actions": [
