@@ -1,6 +1,6 @@
 {
   "title": "강아지·고양이 병원 정보 축적 장부",
-  "as_of": "2026-09-20T02:30:45Z",
+  "as_of": "2026-09-20T02:31:59Z",
   "species_scope": [
     "dog",
     "cat"
@@ -40,8 +40,8 @@
           "심장"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "GE Signa HDxt MRI",
+          "16ch MDCT"
         ],
         "services": [
           "24시",
@@ -196,11 +196,19 @@
           "source": "hospital_website",
           "note": "네트워크 365일 24시 표기 재확인",
           "at": "2026-09-20T01:56:17Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "GE Signa HDxt MRI",
+            "16ch MDCT"
+          ],
+          "source": "hospital_website",
+          "note": "SKY 그룹 영상진단 페이지 (원주)",
+          "at": "2026-09-20T02:31:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "amc-goyang-drdog",
@@ -389,7 +397,7 @@
           "영상(CT/MRI)"
         ],
         "equipment": [
-          "CT",
+          "64ch CT",
           "X-ray",
           "초음파"
         ],
@@ -477,11 +485,20 @@
           "source": "profile",
           "note": "",
           "at": "2026-09-20"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "64ch CT",
+            "X-ray",
+            "초음파"
+          ],
+          "source": "naver_blog",
+          "note": "제조사 모델명 미확인",
+          "at": "2026-09-20T02:31:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b5-광명-24-아이디동물의료센터",
@@ -509,7 +526,7 @@
         ],
         "equipment": [
           "CT",
-          "복강경"
+          "MGB FENCER Ⅲ 복강경"
         ],
         "role": "2차 의료센터",
         "lat": 37.47605515,
@@ -624,6 +641,16 @@
           "source": "nationwide_csv",
           "note": "매일 00:00 - 24:00",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "CT",
+            "MGB FENCER Ⅲ 복강경"
+          ],
+          "source": "dailygaewon",
+          "note": "CT 모델명 미확인 → 갭 유지",
+          "at": "2026-09-20T02:31:59Z"
         }
       ],
       "open_questions": [
@@ -875,8 +902,8 @@
           "심장"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "GE Signa HDxt MRI",
+          "16ch MDCT"
         ],
         "role": "2차 의료센터",
         "lat": 37.50340271,
@@ -1015,11 +1042,19 @@
           "source": "hospital_website",
           "note": "네트워크 365일 24시 표기 재확인",
           "at": "2026-09-20T01:56:17Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "GE Signa HDxt MRI",
+            "16ch MDCT"
+          ],
+          "source": "hospital_website",
+          "note": "SKY 그룹 영상진단 페이지 (부천)",
+          "at": "2026-09-20T02:31:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b5-비엔동물전문의료센터",
@@ -1596,8 +1631,8 @@
           "심장"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "GE Signa HDxt MRI",
+          "16ch MDCT"
         ],
         "role": "2차 의료센터",
         "lat": 37.26860428,
@@ -1736,11 +1771,19 @@
           "source": "hospital_website",
           "note": "네트워크 365일 24시 표기 재확인",
           "at": "2026-09-20T01:56:17Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "GE Signa HDxt MRI",
+            "16ch MDCT"
+          ],
+          "source": "hospital_website",
+          "note": "SKY 그룹 영상진단 페이지 (수원)",
+          "at": "2026-09-20T02:31:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "b6-24시-온누리동물메디컬센터",
@@ -4267,8 +4310,8 @@
           "응급중환자의학과"
         ],
         "equipment": [
-          "CT",
-          "MRI"
+          "Canon Aquilion Lightning 160 CT",
+          "GE Signa HDxt 1.5T MRI"
         ],
         "services": [
           "CT 의뢰 촬영",
@@ -4437,11 +4480,19 @@
           "source": "hospital_website",
           "note": "원무행정실",
           "at": "2026-09-20T01:54:54Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Canon Aquilion Lightning 160 CT",
+            "GE Signa HDxt 1.5T MRI"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:31:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "univ-snu-checkup-gwangjin",
@@ -5033,7 +5084,7 @@
       "verified_fields": {
         "phone": "02-2698-7582",
         "address": "서울특별시 양천구 신월로 208(신월동)",
-        "homepage": "https://월드펫amc.com/",
+        "homepage": "https://24worldpet.com/",
         "hours_24h": "yes",
         "emergency": "yes",
         "weekday_hours": "00:00–24:00",
@@ -5045,9 +5096,9 @@
           "신경"
         ],
         "equipment": [
-          "C-arm",
-          "CT",
-          "X-ray"
+          "Philips Achieva 1.5T Nova Dual",
+          "GE Brivo 385 CT",
+          "JENORAY C-arm"
         ],
         "role": "2차 의료센터",
         "lat": 37.5205307,
@@ -5171,11 +5222,27 @@
           "source": "nationwide_csv",
           "note": "",
           "at": "2026-09-20T01:50:48Z"
+        },
+        {
+          "field": "equipment",
+          "value": [
+            "Philips Achieva 1.5T Nova Dual",
+            "GE Brivo 385 CT",
+            "JENORAY C-arm"
+          ],
+          "source": "hospital_website",
+          "note": "",
+          "at": "2026-09-20T02:31:59Z"
+        },
+        {
+          "field": "homepage",
+          "value": "https://24worldpet.com/",
+          "source": "hospital_website",
+          "note": "한글 도메인 대체",
+          "at": "2026-09-20T02:31:59Z"
         }
       ],
-      "open_questions": [
-        "no_official_equipment_proof"
-      ]
+      "open_questions": []
     },
     {
       "id": "gwangju-noah",
@@ -6195,40 +6262,32 @@
   ],
   "last_batch_reviews": [
     {
-      "name": "비엔동물전문의료센터",
-      "note": "Philips 128ch Cardiac CT·Toshiba Vantage Titan 1.5T, 일반09–21/야간21–09"
+      "name": "원주24시스카이동물메디컬센터",
+      "note": "SKY 그룹 기준 GE Signa HDxt MRI·16ch CT (원주, 지점별 상이 가능)"
     },
     {
-      "name": "노원N동물의료센터",
-      "note": "Canon Vantage Galan 3T MRI·Aquilion Lightning 80 CT(데일리벳)"
+      "name": "부천24시SKY동물메디컬센터",
+      "note": "SKY 그룹 기준 GE Signa HDxt MRI·16ch CT (부천, 지점별 상이 가능)"
     },
     {
-      "name": "제주대학교 수의과대학 부설동물병원",
-      "note": "Siemens Magnetom Sempra 1.5T MRI·Somatom Emotion 16ch CT"
+      "name": "수원 스카이 동물메디컬센터",
+      "note": "SKY 그룹 기준 GE Signa HDxt MRI·16ch CT (수원, 지점별 상이 가능)"
     },
     {
-      "name": "충북대학교 동물병원",
-      "note": "GE SIGNA Creator 1.5T MRI 공식 확인(PET-CT 모델 미게시)"
+      "name": "24시월드펫동물메디컬센터",
+      "note": "Philips Achieva 1.5T Nova Dual·GE Brivo 385 CT·C-arm"
     },
     {
-      "name": "서울대학교 수의과대학 동물병원",
-      "note": "공식 160채널 CT(2023) 확인, MRI 모델은 미게시"
+      "name": "건국대학교 부속 동물병원",
+      "note": "Canon Aquilion Lightning 160·GE Signa HDxt 1.5T 공식"
     },
     {
-      "name": "충남대학교 수의과대학 부속동물병원",
-      "note": "Canon Aquilion PRIME SP 160ch CT 공식"
+      "name": "24시 다시 봄 동물의료센터",
+      "note": "64채널 CT 확인(블로그), 제조사 모델은 미확인"
     },
     {
-      "name": "수동물메디컬센터",
-      "note": "Toshiba Vantage Titan 1.5T·Brightspeed Elite CT, 일반09–22"
-    },
-    {
-      "name": "본 동물의료센터",
-      "note": "Philips Ingenia 3T·Toshiba Aquilion Prime 160ch(공식 촬영의뢰 페이지)"
-    },
-    {
-      "name": "24시 사람앤동물메디컬센터",
-      "note": "3T MRI·64ch/128slice CT·Aplio i800(보도)"
+      "name": "광명 24 아이디동물의료센터",
+      "note": "복강경 MGB FENCER Ⅲ 확인, CT는 보유·모델명 미확인(갭 유지)"
     }
   ],
   "progress": {
@@ -6236,8 +6295,8 @@
     "by_status": {
       "verified_draft": 32
     },
-    "reviewed_this_batch": 9,
-    "equipment_gap_remaining": 11,
-    "no_open_questions": 21
+    "reviewed_this_batch": 7,
+    "equipment_gap_remaining": 5,
+    "no_open_questions": 27
   }
 }

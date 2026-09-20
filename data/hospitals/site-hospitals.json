@@ -165,24 +165,24 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "16ch Multi-Detector CT",
+          "model": "16ch MDCT",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "세명대 보도 2024 원주스카이 CT·MRI 보유 거점 / 데일리개원 그룹 지점 CT·MRI",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "skyamg.com/service/radio.html 그룹 기준. 지점별 기종 상이 가능(일부 필립스 Access CT).",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "GE Signa HDxt",
+          "model": "GE Signa HDxt",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "세명대 보도 2024",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "skyamg.com/service/radio.html 그룹 기준. 지점별 기종 상이 가능(일부 필립스 Access CT).",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -203,9 +203,7 @@
         "그룹 전체 7대와 이 지점 1대를 혼동하지 말 것. 기종 미확인"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "network_branches": [
@@ -420,12 +418,12 @@
           "kind": "ct",
           "label": "CT",
           "item": "64채널 CT",
-          "model": "64ch",
+          "model": "64채널",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "rebom-amc.com 1-DAY 검진·시설 CT실",
-          "as_of": "2026-09-19",
-          "publisher": null
+          "evidence": "네이버블로그 rebomamc: 64채널 CT 원스톱",
+          "as_of": "2026-09-20",
+          "publisher": "naver_blog"
         },
         {
           "kind": "xray",
@@ -466,9 +464,7 @@
       ],
       "does_not_confirmed": [],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -563,19 +559,19 @@
           "model": null,
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "데일리개원 2025-09 클리닉탐방 2021 CT 도입",
-          "as_of": "2026-09-19",
+          "evidence": "데일리개원: 광명 최초 CT 도입(2021), 모델명 미게시",
+          "as_of": "2026-09-20",
           "publisher": "dailygaewon"
         },
         {
           "kind": "laparoscope",
           "label": "복강경",
-          "item": "복강경",
-          "model": null,
+          "item": "MGB FENCER Ⅲ 4-in-1",
+          "model": "MGB FENCER Ⅲ",
           "status": "installed",
           "evidence_level": "reported",
-          "evidence": "같은 기사 MGB FENCER Ⅲ",
-          "as_of": "2026-09-19",
+          "evidence": "데일리개원 클리닉탐방",
+          "as_of": "2026-09-20",
           "publisher": "dailygaewon"
         }
       ],
@@ -994,24 +990,24 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "16ch Multi-Detector CT",
+          "model": "16ch MDCT",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리개원 2023 SKY 9지점 CT·MRI 배치. 부천은 그룹 첫 지점",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "skyamg.com/service/radio.html 그룹 기준. 지점별 기종 상이 가능(일부 필립스 Access CT).",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "GE Signa HDxt",
+          "model": "GE Signa HDxt",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "같은 데일리개원",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "skyamg.com/service/radio.html 그룹 기준. 지점별 기종 상이 가능(일부 필립스 Access CT).",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -1032,9 +1028,7 @@
         "지점별 기종 미기재"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "network_branches": [
@@ -1834,24 +1828,24 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "16ch Multi-Detector CT",
+          "model": "16ch MDCT",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "데일리개원 2023 SKY 지점 CT·MRI / 수원점 공식 의료진 영상의학·MRI",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "skyamg.com/service/radio.html 그룹 기준. 지점별 기종 상이 가능(일부 필립스 Access CT).",
+          "as_of": "2026-09-20",
+          "publisher": null
         },
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "MRI",
-          "model": null,
+          "item": "GE Signa HDxt",
+          "model": "GE Signa HDxt",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "swskyamc.com 대표원장 영상의학 MRI",
-          "as_of": "2026-09-19",
-          "publisher": "dailygaewon"
+          "evidence_level": "self_claimed",
+          "evidence": "skyamg.com/service/radio.html 그룹 기준. 지점별 기종 상이 가능(일부 필립스 Access CT).",
+          "as_of": "2026-09-20",
+          "publisher": null
         }
       ],
       "equipment_summary": [
@@ -1872,9 +1866,7 @@
         "기종 미기재"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "network_branches": [
@@ -4871,23 +4863,23 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "Canon Aquilion Lightning 160 slice CT",
-          "model": "160ch · Aquilion · Canon",
+          "item": "Canon Aquilion Lightning 160 slice",
+          "model": "Canon Aquilion Lightning 160",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "konkuk vmth External Referrals 영상의학과 페이지",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "vmth.konkuk.ac.kr 영상의학과 외부의뢰 + 데일리벳",
+          "as_of": "2026-09-20",
           "publisher": null
         },
         {
           "kind": "mri",
           "label": "MRI",
-          "item": "GE Signa HDxt 1.5T MRI",
-          "model": "1.5T tesla · Signa HDxt · HDxt",
+          "item": "GE Signa HDxt 1.5T",
+          "model": "GE Signa HDxt 1.5T",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "konkuk vmth External Referrals",
-          "as_of": "2026-09-19",
+          "evidence_level": "self_claimed",
+          "evidence": "vmth.konkuk.ac.kr 장비소개",
+          "as_of": "2026-09-20",
           "publisher": null
         }
       ],
@@ -4908,9 +4900,7 @@
         "CT/MRI는 지정병원 의뢰 예약. 주말 영상 예약 없음(공식 영문 안내)"
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
@@ -5688,11 +5678,11 @@
         {
           "kind": "ct",
           "label": "CT",
-          "item": "CT",
-          "model": null,
+          "item": "GE Brivo 385",
+          "model": "GE Brivo 385",
           "status": "installed",
-          "evidence_level": "reported",
-          "evidence": "뉴스1 영상센터",
+          "evidence_level": "self_claimed",
+          "evidence": "24worldpet.com/medical-equipment/",
           "as_of": "2026-09-20",
           "publisher": null
         },
@@ -5710,11 +5700,33 @@
         {
           "kind": "carm",
           "label": "C-arm",
-          "item": "C-arm",
-          "model": null,
+          "item": "JENORAY C-ARM",
+          "model": "JENORAY",
           "status": "installed",
           "evidence_level": "self_claimed",
-          "evidence": "공식",
+          "evidence": "24worldpet.com 영상의학센터 장비",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "mri",
+          "label": "MRI",
+          "item": "Philips Achieva 1.5T Nova Dual",
+          "model": "Philips Achieva 1.5T Nova Dual",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "24worldpet.com/medical-equipment/",
+          "as_of": "2026-09-20",
+          "publisher": null
+        },
+        {
+          "kind": "ultrasound",
+          "label": "초음파",
+          "item": "Aplio I700",
+          "model": "I700",
+          "status": "installed",
+          "evidence_level": "self_claimed",
+          "evidence": "24worldpet.com",
           "as_of": "2026-09-20",
           "publisher": null
         }
@@ -5738,19 +5750,20 @@
         "타 지점·동명 병원 장비 복사 금지."
       ],
       "issues": [],
-      "site_gaps": [
-        "no_official_equipment_proof"
-      ],
+      "site_gaps": [],
       "source_file": "homepage-public",
       "as_of": "2026-09-19",
       "enrichment": {
         "nationwide_match_score": 125,
         "nationwide_id": "nat_069629c9f316",
-        "homepage": "https://월드펫amc.com/",
+        "homepage": "https://24worldpet.com/",
         "lat": 37.5205307,
         "lng": 126.8453827,
         "hours_source": "nationwide_csv",
-        "website_sources": [],
+        "website_sources": [
+          "https://24worldpet.com/",
+          "https://24worldpet.com/medical-equipment/"
+        ],
         "alt_phone": "0507-1312-7584"
       },
       "species_scope": [

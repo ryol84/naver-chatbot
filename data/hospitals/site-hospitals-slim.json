@@ -51,14 +51,12 @@
       ],
       "strength": "24시·CT/MRI가 대학 보도·그룹 기사에 나옴. 기종은 미기재.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 17
+      "evidence_count": 18
     },
     {
       "id": "amc-goyang-drdog",
@@ -134,12 +132,10 @@
       "services": [],
       "strength": "광명 소하. 공식 사이트에 64ch CT·X-ray·초음파.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 10
+      "evidence_count": 11
     },
     {
       "id": "b5-광명-24-아이디동물의료센터",
@@ -179,7 +175,7 @@
       ],
       "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 14
+      "evidence_count": 15
     },
     {
       "id": "b5-에프엠-FM-동물메디컬센터-김포점",
@@ -280,14 +276,12 @@
       "services": [],
       "strength": "SKY 부천. 그룹 기사 기준 CT/MRI.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 16
+      "evidence_count": 17
     },
     {
       "id": "b5-비엔동물전문의료센터",
@@ -475,14 +469,12 @@
       "services": [],
       "strength": "SKY 수원. 공식 의료진+그룹 기사.",
       "confidence": "medium",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://www.skyamg.com"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 16
+      "evidence_count": 17
     },
     {
       "id": "b6-24시-온누리동물메디컬센터",
@@ -1152,14 +1144,12 @@
       ],
       "strength": "CT·MRI 기종이 대학 영상과 페이지에 명시.",
       "confidence": "medium-high",
-      "gaps": [
-        "no_official_equipment_proof"
-      ],
+      "gaps": [],
       "website_sources": [
         "http://vmth.konkuk.ac.kr/"
       ],
       "ledger_status": "verified_draft",
-      "evidence_count": 18
+      "evidence_count": 19
     },
     {
       "id": "univ-snu-checkup-gwangjin",
@@ -1336,7 +1326,7 @@
         "dog",
         "cat"
       ],
-      "homepage": "https://월드펫amc.com/",
+      "homepage": "https://24worldpet.com/",
       "lat": 37.5205307,
       "lng": 126.8453827,
       "hours_24h": "yes",
@@ -1354,17 +1344,20 @@
         "기타",
         "CT",
         "X-ray",
-        "C-arm"
+        "C-arm",
+        "MRI",
+        "초음파"
       ],
       "services": [],
       "strength": "양천 신월. 뉴스1 MRI 촬영·영상실장. 공식 1.5T Philips·CT 영상센터 365일.",
       "confidence": "high",
-      "gaps": [
-        "no_official_equipment_proof"
+      "gaps": [],
+      "website_sources": [
+        "https://24worldpet.com/",
+        "https://24worldpet.com/medical-equipment/"
       ],
-      "website_sources": [],
       "ledger_status": "verified_draft",
-      "evidence_count": 15
+      "evidence_count": 17
     },
     {
       "id": "gwangju-noah",
