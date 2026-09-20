@@ -22,6 +22,8 @@
 - 1차 Place depth (로컬 11+클라우드 진행): 영업시간·전화·주소교정(검단→인천)
 - 대학: 서울대·건국·전남대 공식 VMTH 홈페이지 확보
 - 2차 hours fill: 해밀(휴게/공휴일) 등
+- primary hours round2 29: hit 27 / no_hit 2; hours_raw 3 (청천·필·현대 Daum); homepage 0; CLOSED_EXCLUDE 0
+- secondary hours round2 25: hit 19 / ambiguous 6 (주소·시도 불일치); hours_raw 16; homepage 18; always_open 11; CLOSED_EXCLUDE 0
 
 ### Place waves (merged)
 - primary nohp wave 122: hit 118 / ambiguous 4 / no_hit 0; official homepage 0; hours hint/raw 77
