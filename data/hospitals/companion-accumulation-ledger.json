@@ -6944,6 +6944,34 @@
         }
       ],
       "source_branch": "cursor/place-neigh-daegu-ac30"
+    },
+    {
+      "ts": "2026-09-20T08:54:27Z",
+      "action": "merge_place_neigh_incheon_wave1",
+      "stats": {
+        "no_hit": 2,
+        "hit_applied": 73,
+        "homepage_set": 3,
+        "phone_set": 3,
+        "hours_set": 4,
+        "closed": 3,
+        "ambiguous_skip": 2
+      },
+      "excluded": [
+        {
+          "id": "nat_bd15ecd43d1e",
+          "name": "쿨펫동물병원"
+        },
+        {
+          "id": "nat_1ba696371461",
+          "name": "펫가든동물병원"
+        },
+        {
+          "id": "nat_ef0b6f40dee5",
+          "name": "다비드동물병원"
+        }
+      ],
+      "source_branch": "cursor/place-neigh-incheon-ac30"
     }
   ]
 }
