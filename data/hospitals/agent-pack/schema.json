@@ -1,0 +1,123 @@
+{
+  "title": "Korea companion (dog/cat) veterinary hospitals",
+  "version": "2026-09-20.1",
+  "as_of": "2026-09-20",
+  "species_scope": [
+    "dog",
+    "cat"
+  ],
+  "primary_files": {
+    "companion-hospitals.jsonl": "Canonical records, one JSON object per line (UTF-8).",
+    "companion-hospitals.csv": "Flat export; departments joined with |.",
+    "companion-meta.json": "Counts, care_level taxonomy, enrichment summary.",
+    "schema.json": "Field dictionary + rules.",
+    "AGENT.md": "How another agent should load and use the pack.",
+    "samples.json": "One sample row per care_level.",
+    "secondary-24h.jsonl": "secondary + hours_24h=yes subset."
+  },
+  "care_level": {
+    "university": "대학동물병원 (VMTH)",
+    "secondary": "2차 의료센터 / AMC",
+    "primary": "1차 종합·특화 진료",
+    "neighborhood": "일반 동네병원",
+    "rehab_specialty": "재활·한방 특화"
+  },
+  "hours_24h_enum": [
+    "yes",
+    "no",
+    "unknown"
+  ],
+  "hours_24h_rule": "Set yes only when Place/source literally says 24시간 or 00:00–24:00. Do not infer from name alone.",
+  "homepage_rules": [
+    "Prefer hospital-owned .kr/.com or blog.naver.com/{hospital}",
+    "Reject: Instagram, Facebook, YouTube, Kakao channel, job boards, aggregators",
+    "If homepage_unreliable is true, treat as no official site"
+  ],
+  "id_format": "nat_<12 hex> — stable nationwide id",
+  "fields": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "care_level": {
+      "type": "enum",
+      "values": [
+        "university",
+        "secondary",
+        "primary",
+        "neighborhood",
+        "rehab_specialty"
+      ]
+    },
+    "care_level_ko": {
+      "type": "string"
+    },
+    "sido": {
+      "type": "string"
+    },
+    "sigungu": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "number|null"
+    },
+    "lng": {
+      "type": "number|null"
+    },
+    "phone": {
+      "type": "string|null"
+    },
+    "homepage": {
+      "type": "string|null"
+    },
+    "has_homepage": {
+      "type": "boolean"
+    },
+    "hours_24h": {
+      "type": "enum",
+      "values": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "hours": {
+      "type": "object",
+      "props": {
+        "raw": "string|null",
+        "by_day": "object mon..sun or daily",
+        "hours_24h": "yes|no|unknown",
+        "is_24h_daily": "boolean",
+        "breaks": "array of {start,end,raw}"
+      }
+    },
+    "departments": {
+      "type": "string[]"
+    },
+    "species_scope": {
+      "type": "string[]",
+      "typical": [
+        "dog",
+        "cat"
+      ]
+    },
+    "place_search_url": {
+      "type": "string"
+    },
+    "daum_map_url": {
+      "type": "string"
+    },
+    "info_source_priority": {
+      "type": "string"
+    }
+  },
+  "branch": "cursor/hospital-site-data-ac30",
+  "repo_path": "data/hospitals/agent-pack/"
+}

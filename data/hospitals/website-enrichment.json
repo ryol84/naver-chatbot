@@ -1,0 +1,559 @@
+{
+  "as_of": "2026-09-20",
+  "note": "병원 공식 사이트에서 수집. evidence_level=self_claimed. 과장은 avoid_hype 유지.",
+  "profiles": {
+    "neuroamc": {
+      "urls": [
+        "https://neuroamc.com"
+      ],
+      "hours_from_site": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–21:00",
+        "night_hours": "21:00–09:00",
+        "hours_note": "주간 10–21 / 야간 21–09. 21시 이후 야간진료비. 면회 12–18. 예약제. 365일."
+      },
+      "departments_site": [
+        "응급",
+        "영상(CT/MRI)",
+        "신경",
+        "종양",
+        "재활",
+        "2차 중증"
+      ],
+      "services_site": [
+        "365일 24시간",
+        "예약 진료",
+        "카카오 문의",
+        "면회"
+      ],
+      "notes": "부산 연산 2차 중증. 의뢰서 없이도 진료 가능(예약)."
+    },
+    "suwonamc": {
+      "urls": [
+        "https://suwonamc.co.kr/main"
+      ],
+      "hours_from_site": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:00–21:00",
+        "night_hours": "21:00–09:00",
+        "hours_note": "일반 09–21 / 야간 21–09 / 응급 365일 24시간"
+      },
+      "departments_site": [
+        "외과",
+        "정형외과",
+        "신경",
+        "종양",
+        "내과",
+        "심장",
+        "영상의학과",
+        "임상병리",
+        "응급",
+        "고양이 특화"
+      ],
+      "equipment_site": [
+        {
+          "kind": "ct",
+          "item": "GE Lightspeed RT16",
+          "label": "CT"
+        },
+        {
+          "kind": "icu",
+          "item": "ICU 집중치료실",
+          "label": "ICU"
+        },
+        {
+          "kind": "carm",
+          "item": "C-arm",
+          "label": "C-arm"
+        },
+        {
+          "kind": "endoscope",
+          "item": "내시경",
+          "label": "내시경"
+        },
+        {
+          "kind": "ultrasound",
+          "item": "초음파",
+          "label": "초음파"
+        },
+        {
+          "kind": "xray",
+          "item": "X-ray",
+          "label": "X-ray"
+        }
+      ],
+      "services_site": [
+        "종양항암센터",
+        "영상·내시경센터",
+        "골관절센터",
+        "24시 응급진료센터",
+        "고양이 전문클리닉(ISFM Gold)",
+        "동물외과병원"
+      ],
+      "staff_note": "서울대 출신 원장단(내과 권순찬, 외과 정태성·고종혁)",
+      "phone_site": "031-202-0119"
+    },
+    "eum": {
+      "urls": [
+        "http://www.eumamc.com/"
+      ],
+      "hours_from_site": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–20:00",
+        "weekend_hours": "토 10:00–18:00",
+        "night_hours": "주중 20:00–10:00 / 토 18:00–10:00",
+        "hours_note": "일·공휴 응급 / 24시간 연중무휴. 주간 월–금 10–20, 토 10–18."
+      },
+      "departments_site": [
+        "고난도수술",
+        "난치성내과",
+        "영상의학",
+        "중재시술(최소침습)",
+        "응급"
+      ],
+      "equipment_site": [
+        {
+          "kind": "mri",
+          "item": "1.5T MRI (전지점)",
+          "label": "MRI"
+        },
+        {
+          "kind": "ct",
+          "item": "160채널 CT (전지점)",
+          "label": "CT"
+        }
+      ],
+      "services_site": [
+        "슬개골·디스크·TPLO·종양수술",
+        "심장병·신부전",
+        "MRI/CT 정밀영상",
+        "기관스텐트·SUB 등 중재"
+      ],
+      "network": [
+        "동탄",
+        "청주",
+        "포항",
+        "인천"
+      ]
+    },
+    "boneamc": {
+      "urls": [
+        "http://www.boneamc.com"
+      ],
+      "hours_from_site": {
+        "hours_24h": "no",
+        "emergency": "unknown",
+        "weekday_hours": "09:00–20:00",
+        "hours_note": "달서본원 주간 09–20(점심 12–13). 24시는 수성점(야간 20–09)."
+      },
+      "departments_site": [
+        "종양",
+        "중재시술",
+        "최소침습",
+        "영상",
+        "중증응급",
+        "정형외과",
+        "신경"
+      ],
+      "equipment_site": [
+        {
+          "kind": "mri",
+          "item": "Philips Ingenia 1.5T",
+          "label": "MRI"
+        },
+        {
+          "kind": "ct",
+          "item": "TOSHIBA Aquilion CX 128 (64ch 128slice)",
+          "label": "CT"
+        },
+        {
+          "kind": "carm",
+          "item": "GENORAY OSCAR15 DSA C-arm",
+          "label": "C-arm"
+        },
+        {
+          "kind": "ultrasound",
+          "item": "Canon Aplio i800 / HITACHI ARIETTA 850",
+          "label": "초음파"
+        },
+        {
+          "kind": "other",
+          "item": "Medtronic Stealth S8 Brain Navigation",
+          "label": "기타"
+        },
+        {
+          "kind": "ventilator",
+          "item": "GE Carestation 750",
+          "label": "인공호흡기"
+        },
+        {
+          "kind": "icu",
+          "item": "큐레이들 ICU",
+          "label": "ICU"
+        }
+      ],
+      "services_site": [
+        "TACE",
+        "ECT",
+        "초음파유도 심혈관중재(PDA)",
+        "BESS 척추내시경",
+        "THR",
+        "슬개골 인공활차구"
+      ],
+      "phone_site": "053-634-7582"
+    },
+    "royal_gd": {
+      "urls": [
+        "http://RoyalAMCGD.com"
+      ],
+      "hours_from_site": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "10:00–20:00",
+        "night_hours": "20:00–00:00 / 06:00–10:00",
+        "hours_note": "주간 10–20, 야간 20–24·06–10, 심야 00–06. 주말·공휴 연중무휴."
+      },
+      "departments_site": [
+        "안과",
+        "치과",
+        "재활",
+        "내과",
+        "외과",
+        "신경",
+        "심장",
+        "영상",
+        "응급"
+      ],
+      "services_site": [
+        "백내장수술",
+        "영상진단",
+        "신경계",
+        "심장혈관",
+        "외과수술",
+        "재활한방",
+        "3F응급실"
+      ]
+    },
+    "konkuk": {
+      "urls": [
+        "http://vmth.konkuk.ac.kr/"
+      ],
+      "hours_from_site": {
+        "hours_24h": "no",
+        "emergency": "yes",
+        "weekday_hours": "09:00–17:30",
+        "hours_note": "평일 09:00–17:30 예약진료. 분과: 내과·외과·안과·영상·임상병리·응급중환자."
+      },
+      "departments_site": [
+        "내과",
+        "일반외과",
+        "안과",
+        "영상의학과",
+        "임상병리",
+        "응급중환자"
+      ],
+      "phone_site": "02-450-3664"
+    },
+    "onepaw": {
+      "urls": [
+        "http://www.onepawaway.co.kr"
+      ],
+      "hours_from_site": {
+        "hours_24h": "no",
+        "emergency": "no",
+        "weekday_hours": "10:00–19:00",
+        "weekend_hours": "일·월 휴진",
+        "hours_note": "화–토 10–19(점심 13–14). 일·월 휴진. 공휴 정상. 100% 예약제."
+      },
+      "departments_site": [
+        "재활",
+        "한방"
+      ],
+      "services_site": [
+        "침",
+        "약침",
+        "한약",
+        "추나",
+        "ESWT",
+        "레이저",
+        "PRP",
+        "수중보행",
+        "고압산소",
+        "운동치료",
+        "전기치료"
+      ]
+    },
+    "noah": {
+      "urls": [
+        "http://noahamc.co.kr/"
+      ],
+      "hours_from_site": {
+        "hours_24h": "yes",
+        "emergency": "yes",
+        "weekday_hours": "00:00–24:00",
+        "night_hours": "24시간",
+        "hours_note": "연중무휴 24시간 (공식 사이트)"
+      },
+      "departments_site": [
+        "응급",
+        "영상",
+        "정형외과"
+      ],
+      "phone_site": "062-222-0075"
+    },
+    "fmamc": {
+      "urls": [
+        "http://fmamc.kr/"
+      ],
+      "hours_from_site": null,
+      "departments_site": [
+        "심장",
+        "신장",
+        "종양",
+        "외과",
+        "신경",
+        "정형외과",
+        "영상"
+      ],
+      "equipment_site": [
+        {
+          "kind": "ct",
+          "item": "CT",
+          "label": "CT"
+        },
+        {
+          "kind": "xray",
+          "item": "X-ray",
+          "label": "X-ray"
+        },
+        {
+          "kind": "ultrasound",
+          "item": "초음파",
+          "label": "초음파"
+        }
+      ],
+      "services_site": [
+        "옥서스 산소처치",
+        "무균 양압 수술실",
+        "영상센터",
+        "심장&신장센터",
+        "종양&항암센터",
+        "수술전문센터",
+        "슬개골클리닉"
+      ],
+      "phone_site": "031-982-7587"
+    },
+    "sky": {
+      "urls": [
+        "http://www.skyamg.com"
+      ],
+      "hours_from_site": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "hours_note": "그룹: 일반 매일 09–20, 야간응급 23–09(용인죽전 팝업 기준). 지점별 확인 필요."
+      },
+      "departments_site": [
+        "내과",
+        "피부과",
+        "외과",
+        "치과",
+        "재활",
+        "영상의학과",
+        "안과",
+        "응급",
+        "건강검진",
+        "심장"
+      ],
+      "network": [
+        "부천",
+        "인천",
+        "계양",
+        "부평",
+        "수원",
+        "광주",
+        "원주",
+        "천안",
+        "용인죽전"
+      ]
+    },
+    "snu": {
+      "urls": [
+        "https://vmth.snu.ac.kr/"
+      ],
+      "hours_from_site": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "hours_note": "분과 예약 진료 + 응급의료센터 24시간(기존 프로필과 일치)."
+      },
+      "departments_site": [
+        "내과",
+        "일반외과",
+        "정형·신경외과",
+        "안과·치과",
+        "피부과",
+        "응급의학과",
+        "영상의학과·방사선종양",
+        "임상병리",
+        "마취통증",
+        "영양",
+        "야생/특수",
+        "산과",
+        "대동물"
+      ]
+    },
+    "cnu": {
+      "urls": [
+        "https://cnuah.cnu.ac.kr"
+      ],
+      "hours_from_site": {
+        "hours_24h": "no",
+        "emergency": "unknown",
+        "weekday_hours": "10:00–18:00",
+        "hours_note": "평일 10–18 (사이트). 전화 042-821-6704"
+      },
+      "departments_site": [
+        "내과",
+        "외과",
+        "피부과",
+        "산과",
+        "진단검사의학",
+        "영상의학과"
+      ],
+      "equipment_site": [
+        {
+          "kind": "ct",
+          "item": "CT실",
+          "label": "CT"
+        },
+        {
+          "kind": "mri",
+          "item": "MRI실",
+          "label": "MRI"
+        },
+        {
+          "kind": "ultrasound",
+          "item": "초음파실",
+          "label": "초음파"
+        },
+        {
+          "kind": "xray",
+          "item": "X-ray실",
+          "label": "X-ray"
+        }
+      ],
+      "phone_site": "042-821-6704"
+    },
+    "gnu": {
+      "urls": [
+        "http://gamc.gnu.ac.kr/"
+      ],
+      "hours_from_site": {
+        "hours_24h": "unknown",
+        "emergency": "unknown",
+        "hours_note": "진료시간안내는 사이트 진료안내 메뉴 확인"
+      },
+      "departments_site": [
+        "내과",
+        "외과",
+        "산과",
+        "영상의학과",
+        "안과",
+        "진단검사의학",
+        "피부과",
+        "특수동물"
+      ]
+    },
+    "cbu": {
+      "urls": [
+        "http://www.cbuanimal.co.kr/"
+      ],
+      "hours_from_site": {
+        "hours_24h": "partial",
+        "emergency": "yes",
+        "weekday_hours": "09:00–18:00",
+        "hours_note": "정규 평일 09–18 / 응급 365일 24시간 (사이트)"
+      },
+      "departments_site": [
+        "내과/피부",
+        "정형/외상/신경외과·재활",
+        "연부조직/종양외과",
+        "안과/치과",
+        "산과",
+        "핵의학",
+        "영상의학과",
+        "진단검사의학",
+        "응급"
+      ],
+      "equipment_site": [
+        {
+          "kind": "ct",
+          "item": "CT",
+          "label": "CT"
+        },
+        {
+          "kind": "mri",
+          "item": "MRI",
+          "label": "MRI"
+        },
+        {
+          "kind": "pet_ct",
+          "item": "PET-CT(핵의학)",
+          "label": "PET-CT"
+        },
+        {
+          "kind": "xray",
+          "item": "X-ray",
+          "label": "X-ray"
+        },
+        {
+          "kind": "ultrasound",
+          "item": "초음파",
+          "label": "초음파"
+        }
+      ],
+      "phone_site": "043-261-2602",
+      "address_site": "충북 청주시 서원구 충대로 1"
+    },
+    "vip_rehab": {
+      "urls": [
+        "http://www.vipah.co.kr/",
+        "https://www.vipah.co.kr/kr/"
+      ],
+      "hours_from_site": {
+        "hours_24h": "unknown",
+        "emergency": "no",
+        "hours_note": "재활특화 센터(by Dr.신사경). VIP 그룹 내 한방재활의학센터."
+      },
+      "departments_site": [
+        "재활",
+        "한방"
+      ],
+      "services_site": [
+        "추나",
+        "한방재활"
+      ]
+    }
+  },
+  "name_map": {
+    "뉴로동물의료센터24시": "neuroamc",
+    "권앤정 24시수원동물메디컬센터": "suwonamc",
+    "24시 포항 이음동물의료센터": "eum",
+    "본 동물메디컬센터 외과동물병원": "boneamc",
+    "24시 로얄동물메디컬센터 강동": "royal_gd",
+    "건국대학교 부속 동물병원": "konkuk",
+    "한걸음더 재활한방 동물병원": "onepaw",
+    "24시노아동물메디컬센터": "noah",
+    "에프엠(FM)동물메디컬센터 김포점": "fmamc",
+    "부천24시SKY동물메디컬센터": "sky",
+    "수원 스카이 동물메디컬센터": "sky",
+    "원주24시스카이동물메디컬센터": "sky",
+    "서울대학교 수의과대학 동물병원": "snu",
+    "충남대학교 수의과대학 부속동물병원": "cnu",
+    "경상국립대학교수의과대학부속동물병원": "gnu",
+    "충북대학교 동물병원": "cbu",
+    "VIP동물한방재활의학센터 by Dr.신사경": "vip_rehab"
+  }
+}

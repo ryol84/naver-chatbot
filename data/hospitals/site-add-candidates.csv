@@ -1,0 +1,25 @@
+﻿visibility,publishable,name,sido,sigungu,phone,role_label,hours_24h,emergency,departments,equipment,strength,site_gaps,confidence
+internal,False,24시 바덴동물메디컬,전남광주통합특별시,광산구,062-710-2475,2차 의료센터,yes,unknown,,C-arm · CT,수술·영상 2차. MRI·수중 미확인.,"emergency_unconfirmed,departments_sparse,hours_note_missing,no_official_equipment_proof",medium
+internal,False,공감동물메디컬센터,전남광주통합특별시,광산구,062-716-2979,2차 의료센터,yes,unknown,,CT · MRI,2차 수술·영상. 재활 특화 아님.,"emergency_unconfirmed,departments_sparse,hours_note_missing,no_official_equipment_proof",medium
+hold,False,24시김승현외과동물메디컬센터,전남광주통합특별시,남구,062-710-7119,2차 의료센터,yes,yes,응급 · 일반외과,,광주 남구. 상호 외과·24시 응급. CT 미확인.,equipment_missing,low
+hold,False,24시블루밍동물병원,전남광주통합특별시,북구,062-416-7975,2차 의료센터,yes,yes,응급,,인허가. 1차/2차 미확인.,equipment_missing,low
+hold,False,24시언제나동물병원,전남광주통합특별시,북구,062-571-0011,2차 의료센터,yes,yes,응급,,인허가. 1차/2차 미확인.,equipment_missing,low
+hold,False,e-동물 메디컬 센터,전남광주통합특별시,무안군,,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"phone_missing,hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,광양동물메디컬센터,전남광주통합특별시,광양시,061-792-7501,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,광주24시스카이동물메디컬센터,전남광주통합특별시,서구,062-719-4275,2차 의료센터,yes,yes,응급,,인허가. 1차/2차 미확인.,equipment_missing,low
+hold,False,광주동물메디컬센터,전남광주통합특별시,광산구,062-523-0075,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,국립공원공단 국립공원야생생물보전원 야생동물의료센터,전남광주통합특별시,구례군,061-783-9585,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,늘사랑 양한방 동물병원,전남광주통합특별시,여수시,061-686-0275,특화,unknown,unknown,재활,,특화 상호,"hours_unconfirmed,emergency_unconfirmed,equipment_missing,hours_note_missing",low
+hold,False,더블리스동물의료센터,전남광주통합특별시,여수시,,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"phone_missing,hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,더엘동물의료센터,전남광주통합특별시,북구,062-224-7582,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,바른동물의료센터,전남광주통합특별시,무안군,,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"phone_missing,hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,봉선아이동물메디컬센터,전남광주통합특별시,남구,062-412-7500,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,블루밍동물의료센터,전남광주통합특별시,북구,062-416-7975,2차 의료센터,yes,unknown,,,인허가. 1차/2차 미확인.,"emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,비타동물의료센터,전남광주통합특별시,남구,062-675-7600,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,빛고을동물의료센터,전남광주통합특별시,북구,062-419-7582,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,아나푸게안과동물병원,전남광주통합특별시,북구,,특화,unknown,unknown,안과,,특화 상호,"phone_missing,hours_unconfirmed,emergency_unconfirmed,equipment_missing,hours_note_missing",low
+hold,False,이룸외과동물병원,전남광주통합특별시,남구,062-714-1755,특화,unknown,unknown,일반외과,,특화 상호,"hours_unconfirmed,emergency_unconfirmed,equipment_missing,hours_note_missing",low
+hold,False,전남동물의료센터,전남광주통합특별시,나주시,061-333-8575,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,진도개메디컬센터,전남광주통합특별시,진도군,061-540-6313,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low
+hold,False,진월24동물병원,전남광주통합특별시,남구,,2차 의료센터,yes,yes,응급,,인허가. 1차/2차 미확인.,"phone_missing,equipment_missing,hours_token_gap",low
+hold,False,한결동물의료센터,전남광주통합특별시,서구,,2차 의료센터,unknown,unknown,,,인허가. 1차/2차 미확인.,"phone_missing,hours_unconfirmed,emergency_unconfirmed,departments_sparse,equipment_missing,hours_note_missing",low

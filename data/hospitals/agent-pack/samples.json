@@ -1,0 +1,365 @@
+{
+  "university": {
+    "id": "nat_93508a359bfd",
+    "name": "강원대학교 부속동물병원",
+    "care_level": "university",
+    "care_level_ko": "대학동물병원",
+    "role": "university",
+    "role_label": "대학동물병원",
+    "sido": "강원특별자치도",
+    "sigungu": "춘천시",
+    "address": "강원특별자치도 춘천시 강원대학길 1 (효자동)",
+    "lat": 37.86799622,
+    "lng": 127.7483826,
+    "phone": "033-250-8606",
+    "homepage": "http://vmth.kangwon.ac.kr/",
+    "has_homepage": true,
+    "hours_24h": "no",
+    "hours": {
+      "raw": "월 09:00 - 18:00 | 화 09:00 - 18:00 | 수 09:00 - 18:00 | 목 09:00 - 18:00 | 금 09:00 - 18:00 | 토 정기휴무 (매주 토요일) | 일 정기휴무 (매주 일요일) | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간 | 12:00 - 13:00 휴게시간",
+      "hours_24h": "no",
+      "is_24h_daily": false,
+      "by_day": {
+        "mon": {
+          "status": "open",
+          "open": "09:00",
+          "close": "18:00",
+          "raw": "월 09:00 - 18:00"
+        },
+        "tue": {
+          "status": "open",
+          "open": "09:00",
+          "close": "18:00",
+          "raw": "화 09:00 - 18:00"
+        },
+        "wed": {
+          "status": "open",
+          "open": "09:00",
+          "close": "18:00",
+          "raw": "수 09:00 - 18:00"
+        },
+        "thu": {
+          "status": "open",
+          "open": "09:00",
+          "close": "18:00",
+          "raw": "목 09:00 - 18:00"
+        },
+        "fri": {
+          "status": "open",
+          "open": "09:00",
+          "close": "18:00",
+          "raw": "금 09:00 - 18:00"
+        },
+        "sat": {
+          "status": "closed",
+          "raw": "토 정기휴무 (매주 토요일)"
+        },
+        "sun": {
+          "status": "closed",
+          "raw": "일 정기휴무 (매주 일요일)"
+        }
+      },
+      "breaks": [
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "raw": "12:00 - 13:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "raw": "12:00 - 13:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "raw": "12:00 - 13:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "raw": "12:00 - 13:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "raw": "12:00 - 13:00 휴게시간"
+        }
+      ],
+      "notes": []
+    },
+    "weekday_hours": "09:00–18:00",
+    "weekend_hours": "토 휴무 · 일 휴무",
+    "departments": [
+      "분과진료",
+      "영상(CT/MRI)",
+      "응급",
+      "내과",
+      "외과"
+    ],
+    "departments_source": "care_level_default",
+    "species_scope": [
+      "dog",
+      "cat"
+    ],
+    "place_search_url": "https://search.naver.com/search.naver?query=%EA%B0%95%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%B6%98%EC%B2%9C%EC%8B%9C",
+    "daum_map_url": "https://map.kakao.com/?q=%EA%B0%95%EC%9B%90%EB%8C%80%ED%95%99%EA%B5%90+%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+    "info_source_priority": "place_or_daum_needed"
+  },
+  "secondary": {
+    "id": "nat_5efb8eec2555",
+    "name": "24시 SNC 동물메디컬센터",
+    "care_level": "secondary",
+    "care_level_ko": "2차 의료센터",
+    "role": "secondary",
+    "role_label": "2차 의료센터",
+    "sido": "서울특별시",
+    "sigungu": "강남구",
+    "address": "서울특별시 강남구 논현로 416 (역삼동)",
+    "lat": 37.49740982,
+    "lng": 127.0388794,
+    "phone": "0507-1364-7583",
+    "homepage": "http://www.sncamc.co.kr",
+    "has_homepage": true,
+    "hours_24h": "yes",
+    "hours": {
+      "raw": "매일 00:00 - 24:00 | 13:00 - 14:00 휴게시간",
+      "hours_24h": "yes",
+      "is_24h_daily": true,
+      "by_day": {
+        "daily": {
+          "status": "open",
+          "open": "00:00",
+          "close": "24:00",
+          "raw": "매일 00:00 - 24:00"
+        }
+      },
+      "breaks": [
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "raw": "13:00 - 14:00 휴게시간"
+        }
+      ],
+      "notes": []
+    },
+    "weekday_hours": "00:00–24:00",
+    "weekend_hours": null,
+    "departments": [
+      "내과",
+      "외과",
+      "영상",
+      "응급"
+    ],
+    "departments_source": "care_level_default",
+    "species_scope": [
+      "dog",
+      "cat"
+    ],
+    "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+SNC+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EA%B0%95%EB%82%A8%EA%B5%AC",
+    "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+SNC+%EB%8F%99%EB%AC%BC%EB%A9%94%EB%94%94%EC%BB%AC%EC%84%BC%ED%84%B0+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+    "info_source_priority": "place_or_daum_needed"
+  },
+  "primary": {
+    "id": "nat_4333e03bcec8",
+    "name": "24시 글로리 동물병원",
+    "care_level": "primary",
+    "care_level_ko": "1차 진료",
+    "role": "primary",
+    "role_label": "1차 진료",
+    "sido": "서울특별시",
+    "sigungu": "금천구",
+    "address": "서울특별시 금천구 시흥대로 483 (독산동)",
+    "lat": 37.47674561,
+    "lng": 126.8982544,
+    "phone": "0507-1431-8576",
+    "homepage": "https://blog.naver.com/gloryamc",
+    "has_homepage": true,
+    "hours_24h": "yes",
+    "hours": {
+      "raw": "매일 00:00 - 24:00 | 13:00 - 14:00 휴게시간",
+      "hours_24h": "yes",
+      "is_24h_daily": true,
+      "by_day": {
+        "daily": {
+          "status": "open",
+          "open": "00:00",
+          "close": "24:00",
+          "raw": "매일 00:00 - 24:00"
+        }
+      },
+      "breaks": [
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "raw": "13:00 - 14:00 휴게시간"
+        }
+      ],
+      "notes": []
+    },
+    "weekday_hours": "00:00–24:00",
+    "weekend_hours": null,
+    "departments": [
+      "응급",
+      "일반진료",
+      "내과",
+      "외과(일반)",
+      "예방접종"
+    ],
+    "departments_source": "care_level_default",
+    "species_scope": [
+      "dog",
+      "cat"
+    ],
+    "place_search_url": "https://search.naver.com/search.naver?query=24%EC%8B%9C+%EA%B8%80%EB%A1%9C%EB%A6%AC+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B8%88%EC%B2%9C%EA%B5%AC",
+    "daum_map_url": "https://map.kakao.com/?q=24%EC%8B%9C+%EA%B8%80%EB%A1%9C%EB%A6%AC+%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+    "info_source_priority": "place_or_daum_needed"
+  },
+  "neighborhood": {
+    "id": "nat_f33ba7bc04ae",
+    "name": "119동물병원",
+    "care_level": "neighborhood",
+    "care_level_ko": "일반 동네병원",
+    "role": "neighborhood",
+    "role_label": "일반 동네병원",
+    "sido": "대구광역시",
+    "sigungu": "달성군",
+    "address": "대구광역시 달성군 다사읍 달구벌대로 893",
+    "lat": 35.85716248,
+    "lng": 128.4665375,
+    "phone": "053-585-1195",
+    "homepage": "http://119animal.modoo.at/",
+    "has_homepage": true,
+    "hours_24h": "no",
+    "hours": {
+      "raw": "월 10:00 - 19:00 | 화 10:00 - 19:00 | 수 10:00 - 19:00 | 목 10:00 - 19:00 | 금 10:00 - 19:00 | 토 09:30 - 13:00 | 일 정기휴무 (매주 일요일) | 12:00 - 14:00 휴게시간 | 12:00 - 14:00 휴게시간 | 12:00 - 14:00 휴게시간 | 12:00 - 14:00 휴게시간 | 12:00 - 14:00 휴게시간",
+      "hours_24h": "no",
+      "is_24h_daily": false,
+      "by_day": {
+        "mon": {
+          "status": "open",
+          "open": "10:00",
+          "close": "19:00",
+          "raw": "월 10:00 - 19:00"
+        },
+        "tue": {
+          "status": "open",
+          "open": "10:00",
+          "close": "19:00",
+          "raw": "화 10:00 - 19:00"
+        },
+        "wed": {
+          "status": "open",
+          "open": "10:00",
+          "close": "19:00",
+          "raw": "수 10:00 - 19:00"
+        },
+        "thu": {
+          "status": "open",
+          "open": "10:00",
+          "close": "19:00",
+          "raw": "목 10:00 - 19:00"
+        },
+        "fri": {
+          "status": "open",
+          "open": "10:00",
+          "close": "19:00",
+          "raw": "금 10:00 - 19:00"
+        },
+        "sat": {
+          "status": "open",
+          "open": "09:30",
+          "close": "13:00",
+          "raw": "토 09:30 - 13:00"
+        },
+        "sun": {
+          "status": "closed",
+          "raw": "일 정기휴무 (매주 일요일)"
+        }
+      },
+      "breaks": [
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "raw": "12:00 - 14:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "raw": "12:00 - 14:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "raw": "12:00 - 14:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "raw": "12:00 - 14:00 휴게시간"
+        },
+        {
+          "start": "12:00",
+          "end": "14:00",
+          "raw": "12:00 - 14:00 휴게시간"
+        }
+      ],
+      "notes": []
+    },
+    "weekday_hours": "10:00–19:00",
+    "weekend_hours": "토 09:30–13:00 · 일 휴무",
+    "departments": [
+      "일반진료",
+      "예방접종"
+    ],
+    "departments_source": "care_level_default",
+    "species_scope": [
+      "dog",
+      "cat"
+    ],
+    "place_search_url": "https://search.naver.com/search.naver?query=119%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "daum_map_url": "https://map.kakao.com/?q=119%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C",
+    "info_source_priority": "homepage"
+  },
+  "rehab_specialty": {
+    "id": "nat_b2a0eab115c9",
+    "name": "나눔양한방동물병원",
+    "care_level": "rehab_specialty",
+    "care_level_ko": "재활 특화",
+    "role": "rehab_specialty",
+    "role_label": "재활 특화",
+    "sido": "전라남도",
+    "sigungu": "곡성군",
+    "address": "전라남도 곡성군 오곡면 대황강로 1589",
+    "lat": 36.51063156,
+    "lng": 127.263588,
+    "phone": "044-868-3793",
+    "homepage": "http://instagram.com/nanumah_sejong",
+    "has_homepage": false,
+    "hours_24h": "unknown",
+    "hours": {
+      "raw": null,
+      "hours_24h": "unknown",
+      "is_24h_daily": false,
+      "by_day": {},
+      "breaks": [],
+      "notes": []
+    },
+    "weekday_hours": null,
+    "weekend_hours": null,
+    "departments": [
+      "재활",
+      "한방"
+    ],
+    "departments_source": "care_level_default",
+    "species_scope": [
+      "dog",
+      "cat"
+    ],
+    "place_search_url": "https://search.naver.com/search.naver?query=%EB%82%98%EB%88%94%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B3%A1%EC%84%B1%EA%B5%B0",
+    "daum_map_url": "https://map.kakao.com/?q=%EB%82%98%EB%88%94%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84",
+    "info_source_priority": "place_or_daum_needed",
+    "homepage_unreliable": true,
+    "homepage_note": "SNS/channel URL — do not treat as official site"
+  }
+}

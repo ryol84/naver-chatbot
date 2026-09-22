@@ -1,0 +1,111 @@
+{
+  "as_of": "2026-09-20T03:54:04.863942+00:00",
+  "n": 7,
+  "targets": [
+    {
+      "id": "nat_1c9f3158510c",
+      "name": "대학동물병원",
+      "care_level": "university",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 화랑로 299 (장위동, 석계역 한일노벨리아시티)",
+      "phone": "02-918-3344",
+      "homepage": null,
+      "hours_raw": "월 09:00 - 18:30 | 12:20 - 13:20 휴게시간 | 18:00 접수마감 | 화 09:00 - 18:30 | 12:20 - 13:20 휴게시간 | 18:00 접수마감 | 수 09:00 - 18:30 | 12:20 - 13:20 휴게시간 | 18:00 접수마감 | 목 09:00 - 18:30 | 12:20 - 13:20 휴게시간 | 18:00 접수마감 | 금 09:00 - 18:30 | 12:20 - 13:20 휴게시간 | 18:00 접수마감 | 토 09:00 - 15:30 | 12:00 - 12:20 휴게시간 | 15:00 접수마감 | 일 정기휴무 (매주 일요일)",
+      "hours_24h": "no",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%B1%EB%B6%81%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C"
+    },
+    {
+      "id": "nat_2cd093468b66",
+      "name": "대학동물병원",
+      "care_level": "university",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "address": "경기도 용인시 수지구 문인로39번길 3-1 (풍덕천동)",
+      "phone": "031-261-8277",
+      "homepage": null,
+      "hours_raw": "월 09:50 - 19:00 | 13:00 - 14:00 휴게시간 | 화 09:50 - 19:00 | 13:00 - 14:00 휴게시간 | 수 09:50 - 19:00 | 13:00 - 14:00 휴게시간 | 목 09:50 - 19:00 | 13:00 - 14:00 휴게시간 | 금 09:50 - 19:00 | 13:00 - 14:00 휴게시간 | 토 09:50 - 17:00 | 13:00 - 14:00 휴게시간 | 일 정기휴무 (매주 일요일)",
+      "hours_24h": "no",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9A%A9%EC%9D%B8%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EA%B8%B0%EB%8F%84"
+    },
+    {
+      "id": "nat_ece3c3a7cbcb",
+      "name": "대학동물병원",
+      "care_level": "university",
+      "sido": "전북특별자치도",
+      "sigungu": "익산시",
+      "address": "전북특별자치도 익산시 인북로 139 (창인동1가)",
+      "phone": "063-858-0711",
+      "homepage": null,
+      "hours_raw": null,
+      "hours_24h": "unknown",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9D%B5%EC%82%B0%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84"
+    },
+    {
+      "id": "nat_617d6c397667",
+      "name": "대학동물병원",
+      "care_level": "university",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "address": "경기도 안산시 상록구 예술광장1로 16 (월피동)",
+      "phone": "031-482-0075",
+      "homepage": null,
+      "hours_raw": "월 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 화 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 수 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 목 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 금 09:30 - 18:00 | 12:30 - 13:30 휴게시간 | 토 09:30 - 15:00 | 12:30 - 13:30 휴게시간 | 일 정기휴무 (매주 일요일)",
+      "hours_24h": "no",
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%95%88%EC%82%B0%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EA%B8%B0%EB%8F%84"
+    },
+    {
+      "id": "nat_914bce1fed03",
+      "name": "한양한방동물병원",
+      "care_level": "rehab_specialty",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "address": "인천광역시 중구 우현로90번길 27 (용동)",
+      "phone": "032-761-6560",
+      "homepage": null,
+      "hours_raw": "월 정기휴무 (매주 월요일) | 화 10:00 - 17:00 | 수 10:00 - 17:00 | 목 10:00 - 17:00 | 금 10:00 - 17:00 | 토 10:00 - 16:00 | 일 정기휴무 (매주 일요일) | 12:00 - 14:00 휴게시간 | 16:30 접수마감 | 12:00 - 14:00 휴게시간 | 16:30 접수마감 | 12:00 - 14:00 휴게시간 | 16:30 접수마감 | 12:00 - 14:00 휴게시간 | 16:30 접수마감 | 12:00 - 14:00 휴게시간 | 15:30 접수마감",
+      "hours_24h": "no",
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A4%91%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_da6c430d1227",
+      "name": "한양한방동물병원",
+      "care_level": "rehab_specialty",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "address": "인천광역시 중구 우현로35번길 3 (신포동)",
+      "phone": null,
+      "homepage": null,
+      "hours_raw": null,
+      "hours_24h": "unknown",
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A4%91%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_917c9e7566a8",
+      "name": "행복드림동물재활센터",
+      "care_level": "rehab_specialty",
+      "sido": "강원",
+      "sigungu": "원주시",
+      "address": "강원 원주시 천사로 23-15 1층",
+      "phone": "0507-1333-7587",
+      "homepage": null,
+      "hours_raw": "수 정기휴무 (매주 수요일) | 목 09:30 - 18:00 | 12:30 - 14:00 휴게시간 | 금 09:30 - 18:00 | 12:30 - 14:00 휴게시간 | 토 09:30 - 12:30 | 일 정기휴무 (매주 일요일) | 월 09:30 - 18:00 | 12:30 - 14:00 휴게시간 | 화 09:30 - 18:00 | 12:30 - 14:00 휴게시간",
+      "hours_24h": "no",
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%96%89%EB%B3%B5%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0+%EC%9B%90%EC%A3%BC%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%96%89%EB%B3%B5%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0+%EA%B0%95%EC%9B%90"
+    }
+  ],
+  "excluded_large_animal": [
+    {
+      "id": "nat_a144a274bdc3",
+      "name": "경북대학교수의과대학부속동물병원분원",
+      "reason": "대동물(소·돼지 등) 전용 분원 — companion dog/cat 제외 (노컷뉴스 2013 개원 보도)"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-09-20",
+  "n": 7,
+  "region": "부산광역시",
+  "pool": 7,
+  "wave": "busan neighborhood wave2",
+  "targets": [
+    {
+      "id": "nat_171aa16a47f3",
+      "name": "BS조은동물병원",
+      "care_level": "neighborhood",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "address": "부산광역시 해운대구 윗반송로31번길 73 (반송동)",
+      "phone": "051-544-7588",
+      "homepage": null,
+      "hours_raw": null,
+      "place_search_url": "https://search.naver.com/search.naver?query=BS%EC%A1%B0%EC%9D%80%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=BS%EC%A1%B0%EC%9D%80%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_b68881ce0af1",
+      "name": "갑을동물병원",
+      "care_level": "neighborhood",
+      "sido": "부산광역시",
+      "sigungu": "해운대구",
+      "address": "부산광역시 해운대구 재반로84번길 148 (재송동)",
+      "phone": "051-784-7844",
+      "homepage": null,
+      "hours_raw": null,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B0%91%EC%9D%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B0%91%EC%9D%84%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_e20bdf1b6362",
+      "name": "망미동물병원",
+      "care_level": "neighborhood",
+      "sido": "부산광역시",
+      "sigungu": "연제구",
+      "address": "부산광역시 연제구 과정로265번길 84 (연산동)",
+      "phone": "0507-1312-7580",
+      "homepage": "https://blog.naver.com/mm7537580",
+      "hours_raw": null,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%A7%9D%EB%AF%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%A7%9D%EB%AF%B8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_a419063e72df",
+      "name": "오션시티동물병원",
+      "care_level": "neighborhood",
+      "sido": "부산광역시",
+      "sigungu": "강서구",
+      "address": "부산광역시 강서구 명지오션시티11로 66 (명지동)",
+      "phone": "051-271-7582",
+      "homepage": "https://blog.naver.com/oceancitydog",
+      "hours_raw": null,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%98%A4%EC%85%98%EC%8B%9C%ED%8B%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%98%A4%EC%85%98%EC%8B%9C%ED%8B%B0%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_a7bc888f5843",
+      "name": "웰빙동물병원",
+      "care_level": "neighborhood",
+      "sido": "부산",
+      "sigungu": "중구",
+      "address": "부산 중구 흑교로35번길 5 1층",
+      "phone": "055-262-1209",
+      "homepage": null,
+      "hours_raw": null,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%9B%B0%EB%B9%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%9B%B0%EB%B9%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_bf049345e923",
+      "name": "해온동물병원",
+      "care_level": "neighborhood",
+      "sido": "부산",
+      "sigungu": "동래구",
+      "address": "부산 동래구 쇠미로 122 1층",
+      "phone": "051-612-7552",
+      "homepage": null,
+      "hours_raw": null,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%B4%EC%98%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%B4%EC%98%A8%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+    },
+    {
+      "id": "nat_4a0f5d2d7bfc",
+      "name": "도그플러스",
+      "care_level": "neighborhood",
+      "sido": "부산",
+      "sigungu": "해운대구",
+      "address": "부산 해운대구 센텀동로 6 홈플러스센템시티점",
+      "phone": null,
+      "homepage": null,
+      "hours_raw": null,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8F%84%EA%B7%B8%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8F%84%EA%B7%B8%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C"
+    }
+  ]
+}

@@ -1,0 +1,2406 @@
+{
+  "title": "강아지·고양이(소동물/반려) 병원만",
+  "as_of": "2026-09-20",
+  "rule": "축산·한우·말전문·야생동물 등 제외. 대학병원은 소동물 진료 포함으로 유지(대동물 전용만 제외).",
+  "n": 4137,
+  "excluded_n": 265,
+  "excluded_names": [
+    "그린축산동물병원",
+    "남원축산농협동물병원",
+    "논산계룡축산농협동물병원",
+    "달성축산동물병원",
+    "밀양한우동물병원",
+    "수원화성오산축산농협 동물병원",
+    "인천강화옹진축산농협동물병원",
+    "전주김제완주축산농협부속동물병원",
+    "제일말전문병원",
+    "창원시축산농협동물병원",
+    "파주연천축산농협동물병원",
+    "함안축산농협 동물병원",
+    "춘천축산농협양구지점동물병원",
+    "송산종합가축병원",
+    "덕하가축병원",
+    "아산축산농협동물병원",
+    "통일가축병원",
+    "신장가축병원",
+    "양평가축병원",
+    "안양축산농협동물병원",
+    "세종가축병원",
+    "수제가축병원",
+    "강릉가축병원",
+    "하늘가축병원",
+    "의곡가축병원",
+    "하나로가축병원",
+    "신녕가축병원",
+    "경동가축병원",
+    "우리가축병원",
+    "제일가축병원",
+    "대관령가축병원",
+    "양양가축병원",
+    "장기가축병원",
+    "대원가축병원",
+    "우신가축병원",
+    "중앙가축병원",
+    "안강가축병원",
+    "달원가축병원",
+    "영남가축병원",
+    "한일가축병원",
+    "강릉가축병원",
+    "경동가축병원",
+    "현대가축병원",
+    "삼양가축병원",
+    "대한가축병원",
+    "이명렬가축병원",
+    "산동가축병원",
+    "대구가축병원",
+    "현대가축병원",
+    "정선가축병원",
+    "봉화가축병원",
+    "대구가축병원",
+    "바이웰종합가축병원",
+    "대동가축병원",
+    "중부가축병원",
+    "경산축산농협동물병원",
+    "중앙가축병원 원주대리점",
+    "경남가축병원",
+    "군북가축병원",
+    "변수의과가축병원",
+    "금호가축병원",
+    "곤양가축병원",
+    "함창가축병원",
+    "청리가축병원",
+    "제일가축병원",
+    "제일가축병원",
+    "제일가축병원",
+    "마산가축병원",
+    "삼양가축병원",
+    "이동가축병원",
+    "우방가축병원약품",
+    "남산가축병원",
+    "신성가축병원",
+    "연합가축병원",
+    "대구가축병원",
+    "송가축병원",
+    "십자가축병원",
+    "삼가가축병원",
+    "소망가축병원",
+    "제일가축병원",
+    "장승포가축병원",
+    "대구가축병원",
+    "경의가축병원",
+    "동부가축병원",
+    "진교가축병원",
+    "대관령가축병원",
+    "풍양가축병원",
+    "대병가축병원",
+    "경북가축병원가축약품",
+    "밀양대동물진료센터",
+    "표선가축병원",
+    "삼양가축병원",
+    "안천가축병원",
+    "이가축병원",
+    "한솔가축병원",
+    "정가축병원",
+    "백제가축병원",
+    "서천가축병원",
+    "정산가축병원",
+    "푸른가축병원",
+    "제일가축병원",
+    "삼성가축병원",
+    "남영가축병원",
+    "입암가축병원",
+    "신성가축병원",
+    "한솔가축병원",
+    "제이준말전문동물병원",
+    "월성가축병원",
+    "김석년가축병원",
+    "현대가축병원",
+    "제주대학교말전문동물병원",
+    "경북대학교수의과대학부속동물병원분원",
+    "가든종합동물병원",
+    "건국종합동물병원",
+    "서울대공원 동물원동물병원",
+    "한국종합동물병원",
+    "웰니스클리닉동물병원",
+    "장원종합동물병원",
+    "서부종합동물병원",
+    "박동물병원",
+    "킴스동물병원",
+    "아양동물병원",
+    "제일동물병원",
+    "쿨펫동물병원",
+    "펫가든동물병원",
+    "다비드동물병원",
+    "우리수산동물병원",
+    "송하동물병원",
+    "아주동물병원",
+    "현대수산동물병원",
+    "힘참동물병원",
+    "당진축협동물병원",
+    "세종팜스동물병원",
+    "참좋은동물병원",
+    "우사랑동물병원",
+    "드림컨설팅동물병원",
+    "한길동물병원",
+    "미소동물병원",
+    "한샘애견동물병원",
+    "한샘동물병원",
+    "천성가축약품병원",
+    "천안축협동물병원",
+    "늘봄동물병원",
+    "박영학동물병원",
+    "성주동물병원",
+    "다원동물병원",
+    "문경축협 동물병원",
+    "동양축산",
+    "범방동물병원",
+    "의성축협 동물병원",
+    "성심동물병원",
+    "선산중앙동물병원",
+    "폴의골목동물병원",
+    "건국동물병원",
+    "혜성산업동물병원",
+    "금정동물병원",
+    "중앙동물병원",
+    "가평동물병원",
+    "한서동물병원",
+    "다나동물병원",
+    "담양축협동물병원",
+    "백수동물병원",
+    "산들동물병원가축약품",
+    "영광축협동물병원",
+    "온누리동물병원",
+    "쿨펫동물병원여수점",
+    "함평축협동물병원",
+    "호남동물병원",
+    "소담동물병원",
+    "반딧불동물병원인공수정소",
+    "부안산업동물병원",
+    "아프리카동물병원",
+    "익산군산축협동물병원",
+    "전북동물병원",
+    "최동물병원",
+    "푸른하늘동물병원",
+    "한사랑동물병원",
+    "우리동물병원",
+    "익산산업동물병원",
+    "아이러브펫 동물병원",
+    "홈펫동물병원",
+    "센트럴동물병원",
+    "셀레네동물병원",
+    "오즈동물병원",
+    "물고기병원 수산질병관리원",
+    "고산동물병원",
+    "나라동물병원",
+    "신흥동물병원",
+    "오창동물병원",
+    "으뜸대동물병원",
+    "중부동물병원",
+    "진주동물병원",
+    "큰동물병원",
+    "고성축협 동물병원",
+    "예임양계병원",
+    "용천동물병원",
+    "원주축협문막지점동물병원",
+    "축협동물병원",
+    "플러스동물병원",
+    "홍천축협동물병원",
+    "횡성축협동물병원",
+    "태백동물병원",
+    "하나동물병원",
+    "동산동물병원",
+    "태흥동물병원",
+    "남문동물병원",
+    "공동물병원",
+    "애니멀즈동물병원",
+    "하모니동물병원",
+    "YS동물병원",
+    "운암동물병원",
+    "고려동물병원",
+    "마이펫동물의료센타",
+    "한국동물임상연구소",
+    "로얄벳성수점동물병원",
+    "위즈펫동물병원",
+    "용봉동물병원",
+    "에디슨동물병원",
+    "평창동물병원",
+    "경산축협 자인사업소",
+    "삼양동물병원",
+    "최태규동물병원",
+    "현동물병원",
+    "경서동물병원약품",
+    "미사랑동물병원",
+    "분당동물병원",
+    "어정동물병원",
+    "오동물병원",
+    "위즈펫동물병원 일산점",
+    "정다운동물종합병원",
+    "중앙동물종합병원",
+    "쿨펫동물병원 동탄점",
+    "펫사랑동물병원",
+    "짱동물병원",
+    "프라임동물병원",
+    "협성사슴농원",
+    "한호가축약품",
+    "용인축협동물병원",
+    "한국마사회 KRA 동물병원",
+    "펫가든 동물병원",
+    "국립축산과학원동물병원",
+    "라임동물약품병원",
+    "대한동물병원약품",
+    "양하무역산업동물병원",
+    "한우사랑동물병원",
+    "피그헬스동물병원",
+    "유일동물병원",
+    "제주피그클리닉",
+    "마리동물의료센터",
+    "태양종합동물병원",
+    "수동물병원",
+    "신개금동물병원",
+    "합천축협동물병원",
+    "해동동물병원",
+    "현대동물병원",
+    "카카오동물병원",
+    "가야펫동물병원",
+    "아쿠아메드수산질병관리원",
+    "엘리자베스동물병원",
+    "대구축산 동물병원",
+    "누리동물병원",
+    "모라동물병원"
+  ],
+  "stats": {
+    "with_homepage": 1951,
+    "with_hours": 3328,
+    "with_phone": 3959,
+    "hours_24h_yes": 226
+  },
+  "care_level_taxonomy": {
+    "university": "대학동물병원",
+    "secondary": "2차 의료센터 (메디컬·동물의료센터·분과/영상 거점)",
+    "primary": "1차 진료 (종합·24시 일반 등 1차 중심)",
+    "neighborhood": "일반 동네병원",
+    "rehab_specialty": "재활·한방 특화"
+  },
+  "care_level_counts": {
+    "neighborhood": 3426,
+    "secondary": 498,
+    "primary": 180,
+    "university": 12,
+    "rehab_specialty": 21
+  },
+  "enrichment_note": "사이트 없으면 place_search_url(네이버)·daum_map_url(카카오맵)로 확인. 공개 상세(site-hospitals)는 병원별 사이트/플레이스 검증.",
+  "place_enrichment": {
+    "batch_hits": 40,
+    "homepages_from_place": 6,
+    "phones_from_place": 3,
+    "default_departments_applied": 4300,
+    "place_dept_merged": 40,
+    "still_need_place": 2907,
+    "note": "Naver bulk HTTP 403 after ~40; continued via WebFetch for key 2차. Neighborhood uses Place/Daum URL + default depts.",
+    "secondary_wave2": {
+      "n": 37,
+      "real_homepage": 2,
+      "place_only": 32,
+      "no_hit": 3,
+      "merged_at": "2026-09-20T03:27:33Z"
+    },
+    "primary_depth_local": {
+      "n": 28,
+      "at": "2026-09-20T03:36:05Z",
+      "hours_still_missing_primary": 52
+    },
+    "special_wave_local": {
+      "n": 4,
+      "at": "2026-09-20T03:35:00Z",
+      "university_still_no_homepage": 6
+    },
+    "secondary_hours_fill_local": {
+      "n": 3,
+      "at": "2026-09-20T03:35:00Z"
+    },
+    "special_wave": {
+      "n": 14,
+      "hit": 13,
+      "homepages": 6,
+      "merged_at": "2026-09-20T03:44:53Z",
+      "university_still_no_homepage": 5,
+      "rehab_still_no_homepage": 3,
+      "source_branch": "cursor/place-special-neigh-ac30"
+    },
+    "secondary_hours_fill": {
+      "n": 6,
+      "merged_at": "2026-09-20T03:44:53Z",
+      "source_branch": "cursor/place-special-neigh-ac30"
+    },
+    "neigh_seoul_wave1": {
+      "n": 80,
+      "hit": 67,
+      "no_hit": 11,
+      "ambiguous": 2,
+      "homepages": 3,
+      "merged_at": "2026-09-20T03:44:53Z",
+      "seoul_neigh_still_no_hours": 86,
+      "source_branch": "cursor/place-special-neigh-ac30"
+    },
+    "merge_stats": {
+      "applied": 100,
+      "homepage_set": 5,
+      "phone_set": 6,
+      "hours_set": 29,
+      "dept_merged": 9,
+      "skipped_no_id": 0,
+      "hit": 86,
+      "no_hit": 11,
+      "ambiguous": 3
+    },
+    "primary_depth": {
+      "n": 61,
+      "hit": 55,
+      "ambiguous": 2,
+      "no_hit": 4,
+      "homepages": 4,
+      "hours_fields": 17,
+      "merged_at": "2026-09-20T03:52:26Z",
+      "hours_still_missing_primary": 44,
+      "primary_still_no_homepage": 122,
+      "source_branch": "cursor/place-primary-depth-8b5a",
+      "merge_stats": {
+        "applied": 61,
+        "homepage_set": 0,
+        "phone_set": 4,
+        "hours_set": 9,
+        "dept_merged": 0,
+        "address_fixed": 0,
+        "hit": 55,
+        "no_hit": 4,
+        "ambiguous": 2
+      }
+    },
+    "exclusions": [],
+    "post_filter_exclusions": [
+      {
+        "id": "nat_a144a274bdc3",
+        "name": "경북대학교수의과대학부속동물병원분원",
+        "reason": "대동물(소·돼지 등) 전용 분원 — companion dog/cat 제외 (노컷뉴스 2013 개원 보도)",
+        "excluded_at": "2026-09-20T03:55:14Z"
+      },
+      {
+        "id": "nat_ea3a1c86db81",
+        "name": "가든종합동물병원",
+        "reason": "폐업 (Place/디렉터리)",
+        "excluded_at": "2026-09-20T03:56:29Z"
+      },
+      {
+        "id": "nat_df0235fcc916",
+        "name": "건국종합동물병원",
+        "reason": "폐업 (Place/디렉터리)",
+        "excluded_at": "2026-09-20T03:56:29Z"
+      },
+      {
+        "id": "nat_8f3967db413e",
+        "name": "서울대공원 동물원동물병원",
+        "reason": "서울대공원 동물원동물병원 — 동물원 진료, companion dog/cat 제외",
+        "excluded_at": "2026-09-20T04:09:27Z"
+      },
+      {
+        "id": "nat_99ceb089b7e4",
+        "name": "한국종합동물병원",
+        "reason": "CLOSED_EXCLUDE: mypet-119 폐업 표기(경산 하양읍 하양로183)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_747622535180",
+        "name": "웰니스클리닉동물병원",
+        "reason": "CLOSED_EXCLUDE: marketbiz 폐업(2026-03-28)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_331e797754af",
+        "name": "장원종합동물병원",
+        "reason": "CLOSED_EXCLUDE: marketbiz 폐업(2025-08-14)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_c6e94cc2b48c",
+        "name": "웰니스클리닉동물병원",
+        "reason": "CLOSED_EXCLUDE: mypet-119 폐업(아산 배방 고속철대로133 트레이더스2층)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_dc89c419e775",
+        "name": "서부종합동물병원",
+        "reason": "CLOSED_EXCLUDE: mypet-119 폐업(천안 동남 쌍용대로187 봉명)",
+        "excluded_at": "2026-09-20T04:57:00Z"
+      },
+      {
+        "id": "nat_13976ad43307",
+        "name": "박동물병원",
+        "reason": "동구 아양로227 디렉터리 폐업 표기(mypet-119). Place 패널 약함 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
+      },
+      {
+        "id": "nat_e654909d8231",
+        "name": "킴스동물병원",
+        "reason": "동구 화랑로413 디렉터리 폐업 표기(mypet-119·carmap). Place 패널 없음 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
+      },
+      {
+        "id": "nat_37511c765e93",
+        "name": "아양동물병원",
+        "reason": "동구 팔공로142 디렉터리 폐업 표기(mypet-119). Place 패널 약함 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
+      },
+      {
+        "id": "nat_3bf30b85a0ec",
+        "name": "제일동물병원",
+        "reason": "수성 달구벌대로454길3 디렉터리 폐업 표기(mypet-119). Place 패널 없음 ",
+        "excluded_at": "2026-09-20T08:53:32Z"
+      },
+      {
+        "id": "nat_bd15ecd43d1e",
+        "name": "쿨펫동물병원",
+        "reason": "계양 오조산공원로14(홈플러스) 주소일치; mypet-119 폐업 표기 → CLOSED_EXCLUDE; Place 패널 약함; 홈없음",
+        "excluded_at": "2026-09-20T08:54:27Z"
+      },
+      {
+        "id": "nat_1ba696371461",
+        "name": "펫가든동물병원",
+        "reason": "계양 장제로822(롯데마트 계양점) 주소·전화 디렉터리 일치; mypet-119 펫가든(쿨펫 계양점) 폐업 표기 → CLOSED_EXCLUDE; Place 패널 약함; 홈없음",
+        "excluded_at": "2026-09-20T08:54:27Z"
+      },
+      {
+        "id": "nat_ef0b6f40dee5",
+        "name": "다비드동물병원",
+        "reason": "남동 인주대로721번길48(미가애) Place 주소 노출; mypet-119 폐업 표기 → CLOSED_EXCLUDE; 전화·홈없음",
+        "excluded_at": "2026-09-20T08:54:27Z"
+      },
+      {
+        "id": "nat_b6c06ac9c570",
+        "name": "우리수산동물병원",
+        "reason": "통영 장좌로49 Place 주소·전화일치하나 bizno·114On 납세자상태 폐업자 → CLOSED_EXCLUDE; 홈없음",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_ec8ae8354791",
+        "name": "송하동물병원",
+        "reason": "고성읍 중앙로33 Place 주소근사(타깃 중앙로43번길33-1)·전화일치하나 bizno 납세자상태 폐업자 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_fc0ccbb934dd",
+        "name": "아주동물병원",
+        "reason": "거제 아주2로35·거제대로3541 mypet-119 폐업 표기; 현 아주동은 헤아림 등 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_2f32be46ef22",
+        "name": "현대수산동물병원",
+        "reason": "통영 정동2길57 Place 전화·주소일치하나 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_330a23cb987c",
+        "name": "힘참동물병원",
+        "reason": "양산 물금 화합10길19 mypet-119 폐업 표기; 검색은 하동 힘찬과 혼재 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T08:56:56Z"
+      },
+      {
+        "id": "nat_f5690021df86",
+        "name": "당진축협동물병원",
+        "reason": "LARGE_ANIMAL: 당진축협(축산협동조합) 동물병원 — 대동물/축산 진료 중심 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 아미로833(채운동), 타깃 무수동7길42",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_296af8bc9542",
+        "name": "세종팜스동물병원",
+        "reason": "LARGE_ANIMAL: 공주 송선 장척로76 Place hit. 공주시 일요일·공휴일 대동물 당직 명단(세종팜스) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_dd21ffb4b7b2",
+        "name": "참좋은동물병원",
+        "reason": "CLOSED: 당진 면천 동문1길15-4 주소 디렉터리 확인되나 mypet-119 등 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_5d459de15292",
+        "name": "우사랑동물병원",
+        "reason": "LARGE_ANIMAL: 홍성 내포로136번길10 Place hit. 우사랑=가축/번식우 진료 기사(한우 명장 콘테스트 연사) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_634490cdc90a",
+        "name": "드림컨설팅동물병원",
+        "reason": "CLOSED: 아산 온천 충무로42번길12-1 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_7a8a4cd02abf",
+        "name": "한길동물병원",
+        "reason": "LARGE_ANIMAL: 홍성 의사로36번길51 타깃. Place는 한길가축병원(충서로1707번길337)으로 노출 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_361fea8ab08c",
+        "name": "미소동물병원",
+        "reason": "CLOSED: 천안 불당11로54 mypet-119 폐업(미소) 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_bd24ea9203fa",
+        "name": "한샘애견동물병원",
+        "reason": "CLOSED: 천안 성환 성환중앙로16 디렉터리 주소 확인되나 mypet 한샘동물병원 폐업(성환중앙로18) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_c990dd3672b0",
+        "name": "한샘동물병원",
+        "reason": "CLOSED: 천안 성환 성환중앙로16. mypet-119 한샘동물병원 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_ab97b80d04f4",
+        "name": "천성가축약품병원",
+        "reason": "LARGE_ANIMAL: 천안 성환 매주4길26-8 Place hit. 천성가축약품=동물용의약품·가축사료 유통 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_8057de32b3f4",
+        "name": "천안축협동물병원",
+        "reason": "LARGE_ANIMAL: 천안 영성 미나릿길4 Place hit(전화·주소일치). 천안축협=축산업협동조합 부설 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:13:43Z"
+      },
+      {
+        "id": "nat_7b50df7f41ac",
+        "name": "늘봄동물병원",
+        "reason": "CLOSED: 경산 하양읍 대학로305길51-13 mypet-119 폐업 표기; 당근 '사라짐·중산메디컬 합병' → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_bfb5d3a0663b",
+        "name": "박영학동물병원",
+        "reason": "CLOSED: 상주 복룡3길48 Place 주소일치·디렉터리전화054-531-9930이나 MarketBiz 영업상태 폐업 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_5e7da52b5d4f",
+        "name": "성주동물병원",
+        "reason": "LARGE_ANIMAL: 타깃 성주읍 시장길47·전화054-933-0400; 검색은 동일주소 성주가축병원만 노출(반려 Place 미확인) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_008ec571041a",
+        "name": "다원동물병원",
+        "reason": "LARGE_ANIMAL: 경산 와촌면 동강길26 Place 주소일치하나 동일주소가 든든한우 동물병원으로도 등재(한우/대동물) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_f5bf8285176a",
+        "name": "문경축협 동물병원",
+        "reason": "LARGE_ANIMAL: 문경 축협(축산농협) 동물병원 — 대동물/가축 중심. Place 중앙로166 전화일치하나 호계면 본원 혼재 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_fe4669d790ff",
+        "name": "동양축산",
+        "reason": "LARGE_ANIMAL: 상호 동양축산(감포) — 축산/대동물 사업 → LARGE_ANIMAL_ONLY_EXCLUDE (Place 반려병원 패널 불필요)",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_dbbbf23d541f",
+        "name": "범방동물병원",
+        "reason": "CLOSED: 구미 선산읍 남문로5길5 주소·전화일치하나 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_033a54cb55a0",
+        "name": "의성축협 동물병원",
+        "reason": "LARGE_ANIMAL: 의성축협(축산농협) 동물병원 — 구제역백신·가축 중심 → LARGE_ANIMAL_ONLY_EXCLUDE (모선길20 Place전화일치)",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_401c779d4170",
+        "name": "성심동물병원",
+        "reason": "LARGE_ANIMAL: 타깃 원효로186·전화일치하나 해당주소는 가축인공수정소; 반려 Place는 탑동 서라벌대로322-14 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_cb1160ba1073",
+        "name": "선산중앙동물병원",
+        "reason": "CLOSED: 구미 선산읍 남문로3길 1 주소일치; mypet-119 등 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:17:55Z"
+      },
+      {
+        "id": "nat_77d4a195cec4",
+        "name": "펫가든동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE; 구리 동구릉로136번길57 mypet 펫가든구리점(위즈펫) 폐업 표기",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_02babcbed291",
+        "name": "폴의골목동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 폐업; Place는 양평 서종 북한강로817·031-774-9115·일요일휴무 잔존 노출",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_47fb447a33c4",
+        "name": "건국동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 하남 하남대로795 건국동물병원 폐업",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_387acc9f11f0",
+        "name": "혜성산업동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119·hospitalk 연천 전곡 은전로78번길92 혜성산업동물병원 폐업(2018)",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_733799a15f20",
+        "name": "금정동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 군포 금산로100 금정동물병원 폐업",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_f55ef05a35fd",
+        "name": "중앙동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 동두천 평화로2546 중앙동물병원 폐업; 구전화031-863-0075",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_3ddfcfbaa103",
+        "name": "가평동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 가평가축병원 오리나무길27 폐업; Place 잔존(전화031-582-2412; 타깃 오리나무길29-9)",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_4eff25c7724a",
+        "name": "한서동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: mypet-119 여주 세종로517번길21-2 한서동물병원 폐업",
+        "excluded_at": "2026-09-20T09:26:06Z"
+      },
+      {
+        "id": "nat_5301eba6d299",
+        "name": "다나동물병원",
+        "reason": "LARGE_ANIMAL: 영암읍 Place는 영암로1552; 가축인공수정·반려동물진료 안함 표기 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_8c5101894a73",
+        "name": "담양축협동물병원",
+        "reason": "LARGE_ANIMAL: 담양군 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 담양군 담양읍 삼거리길 8-6",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_4eeab8e3f5c6",
+        "name": "백수동물병원",
+        "reason": "CLOSED: 영광 백수읍 백수로10길27 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_c503a2dc2ec8",
+        "name": "산들동물병원가축약품",
+        "reason": "LARGE_ANIMAL: 순천시 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 순천시 서면 죽평아랫돔길 8",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_e83b22221327",
+        "name": "영광축협동물병원",
+        "reason": "LARGE_ANIMAL: 영광군 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 영광군 영광읍 옥당로 115-14",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_f3ebe26bbe0a",
+        "name": "온누리동물병원",
+        "reason": "CLOSED: 광양 중마중앙로83 mypet-119·비즈노 폐업 확인 → CLOSED_EXCLUDE (순천 동명과 혼동 주의)",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_980c471f2d8c",
+        "name": "쿨펫동물병원여수점",
+        "reason": "CLOSED: 여수 국포1로36 mypet-119 폐업 표기(국동 롯데마트) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_a03697980cc4",
+        "name": "함평축협동물병원",
+        "reason": "LARGE_ANIMAL: 함평군 축협/가축·축산 표기로 LARGE_ANIMAL_ONLY_EXCLUDE; Place주소=전남광주 함평군 학교면 함장로 1202-118",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_56835d11e6bc",
+        "name": "호남동물병원",
+        "reason": "CLOSED: 보성 벌교읍 채동선로208-1 mypet-119 폐업 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_74cc5c467345",
+        "name": "소담동물병원",
+        "reason": "CLOSED: 구례읍 중앙로11 mypet-119 폐업 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:27:28Z"
+      },
+      {
+        "id": "nat_35d5a86002be",
+        "name": "반딧불동물병원인공수정소",
+        "reason": "CLOSED: 무주 단천로157 Place/디렉터리 폐업 표기; 인공수정소명",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_925df5eb1588",
+        "name": "부안산업동물병원",
+        "reason": "LARGE_ANIMAL: 부안산업동물병원(산업·출장); 현주소 계화면 창중길3-1 표기, 대상 매산길과 상이",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_342e161fcbba",
+        "name": "아프리카동물병원",
+        "reason": "CLOSED: 전주 아중로142 아프리카동물병원 폐업 표기(검색·디렉터리)",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_4745c17eeaf5",
+        "name": "익산군산축협동물병원",
+        "reason": "LARGE_ANIMAL: 익산군산축협동물병원 — 축협 산업동물",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_16add44681f5",
+        "name": "전북동물병원",
+        "reason": "CLOSED: 전주 기린대로284 전북동물병원 폐업(폐업일 2024-10-07 표기)",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_28353c703edb",
+        "name": "제일동물병원",
+        "reason": "CLOSED: 부안 번영로129 제일동물병원 폐업 표기; Place 상위는 정읍 제일수산으로 혼선",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_48a010499e5a",
+        "name": "최동물병원",
+        "reason": "CLOSED: 완주 삼례 삼봉로5-1 최동물병원 폐업 표기; Place 상위는 임실 동명점",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_70089c5f26cd",
+        "name": "푸른하늘동물병원",
+        "reason": "CLOSED: 전주 모악로4704 푸른하늘 사업자 폐업 표기(검색)",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_6d2e11705dba",
+        "name": "한사랑동물병원",
+        "reason": "CLOSED: 전주 안덕원로180 한사랑동물병원 폐업 표기",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_3e5c2539fb01",
+        "name": "우리동물병원",
+        "reason": "CLOSED: 전주 용머리로86 우리동물병원 폐업 표기",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_d623b0bd5917",
+        "name": "익산산업동물병원",
+        "reason": "LARGE_ANIMAL: 익산산업동물병원 Place hit(배산로24길·063-855-1037)이나 산업동물 전용",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_694415d5dd8f",
+        "name": "쿨펫동물병원",
+        "reason": "CLOSED: 익산 무왕로1053 쿨펫동물병원 폐업 표기",
+        "excluded_at": "2026-09-20T09:28:28Z"
+      },
+      {
+        "id": "nat_be1f89d74100",
+        "name": "아이러브펫 동물병원",
+        "reason": "CLOSED: 관악 과천대로909 mypet-119·비즈노 폐업 표기(남현프라자/홈플러스남현). Place 패널 없음 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_8e882901e07d",
+        "name": "홈펫동물병원",
+        "reason": "CLOSED: 강북 도봉로110-1 mypet-119·홈즈 폐업 표기. store114에 http://homepet24.com·02-983-9575 병기. Place 패널 없음 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_3cb8b4324721",
+        "name": "센트럴동물병원",
+        "reason": "CLOSED: 강남 도곡로510 mypet-119 폐업 표기(성창빌딩). Place 패널 없음 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_9ae16ac275a3",
+        "name": "셀레네동물병원",
+        "reason": "CLOSED: 마포 독막로85 셀레네 Place 패널 없음. mypet-119·비즈노·카페(재건축/강원 이전) 폐업 근거 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_f4e4a7e6267c",
+        "name": "오즈동물병원",
+        "reason": "CLOSED: 성동구 폐업 표기; Place 전화 미확인 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_afb399a24684",
+        "name": "쿨펫동물병원",
+        "reason": "CLOSED: 노원 중계동 롯데마트 내 쿨펫 Place 패널 없음. mypet-119 폐업 명시 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_53d9ec235b22",
+        "name": "물고기병원 수산질병관리원",
+        "reason": "LARGE_ANIMAL: 노원 공릉로59길15 Place hit(전화·주소 일치). 공식홈 fishdoctor.co.kr 채택; cafe/band 거부 → LARGE_ANIMAL_ONLY_EXCLUDE: 수산질병관리원(관상어/수산) — companion dog/cat 제외",
+        "excluded_at": "2026-09-20T09:33:22Z"
+      },
+      {
+        "id": "nat_e6b1e005415e",
+        "name": "고산동물병원",
+        "reason": "CLOSED: 충주 대소원 대소원로138 mypet-119 등 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_2ca99494ff5f",
+        "name": "나라동물병원",
+        "reason": "CLOSED: 청주 서원 사직대로254 mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_98cb94a4fd24",
+        "name": "신흥동물병원",
+        "reason": "LARGE_ANIMAL: 청주 내수 충청대로424 Place/디렉터리 hit. 상호 신흥동물병원(산업동물병원) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_4280b31e6cc4",
+        "name": "오창동물병원",
+        "reason": "LARGE_ANIMAL: 타깃 오창시내5길12 — 디렉터리상 오창가축병원 주소와 일치 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_b32d5bfa85e2",
+        "name": "으뜸대동물병원",
+        "reason": "LARGE_ANIMAL: 청주 오송 디렉터리 hit. 상호 으뜸대동물병원(대동물) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_d28426307fa0",
+        "name": "제일동물병원",
+        "reason": "CLOSED: 청주 상당 단재로/영운 mypet-119 폐업 표기(단재로26 석교) → CLOSED_EXCLUDE. 타깃 단재로121번길26-9",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_39dc758ec028",
+        "name": "중부동물병원",
+        "reason": "LARGE_ANIMAL: 단양 삼봉로319 Place hit. 블로그 등 대형동물 중심 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_c29db93011e9",
+        "name": "진주동물병원",
+        "reason": "CLOSED: 제천 의림대로15길24 Place/디렉터리 주소일치하나 머니핀·마켓비즈 휴업자 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_7a54a53ef168",
+        "name": "큰동물병원",
+        "reason": "LARGE_ANIMAL: 충주 주덕읍 신덕로1364-1 Place 주소일치. 한우/젖소 진료 전문·출장진료 표기 → 대동물전용 제외",
+        "excluded_at": "2026-09-20T09:46:12Z"
+      },
+      {
+        "id": "nat_9797bcb008b3",
+        "name": "고성축협 동물병원",
+        "reason": "LARGE_ANIMAL: 강원 고성군 간성읍 건봉사로 6-72 Place hit(전화·주소). 고성군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_c1d411fc195b",
+        "name": "예임양계병원",
+        "reason": "LARGE_ANIMAL: 강원 횡성군 횡성읍 읍하로61번길 11 Place hit(전화·주소). 횡성군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_00851c5fb11a",
+        "name": "용천동물병원",
+        "reason": "CLOSED: 강원 홍천군 화촌면 성산로 150-2 Place hit(주소·명칭 매칭); 홈없음 → CLOSED_EXCLUDE(폐업 표기)",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_8a2fb4089a7f",
+        "name": "우사랑동물병원",
+        "reason": "LARGE_ANIMAL: 강원 원주시 문막읍 문막시장1길 82 Place hit(전화·주소). 원주시 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_53759d33cc01",
+        "name": "원주축협문막지점동물병원",
+        "reason": "LARGE_ANIMAL: 원주시 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함/미확정",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_2d9aac3d45b3",
+        "name": "축협동물병원",
+        "reason": "LARGE_ANIMAL: 강릉시 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함/미확정",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_91d7ebd5c87a",
+        "name": "플러스동물병원",
+        "reason": "CLOSED: 강원 원주시 문막읍 문막시장1길 36 Place hit(주소·명칭 매칭); 홈없음 → CLOSED_EXCLUDE(폐업 표기)",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_7f9773a12749",
+        "name": "홍천축협동물병원",
+        "reason": "LARGE_ANIMAL: 강원 홍천군 홍천읍 꽃뫼로 82 Place hit(전화·주소). 홍천군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_91ddecf81eec",
+        "name": "횡성축협동물병원",
+        "reason": "LARGE_ANIMAL: 횡성군 타깃. 명칭에 축협/가축·양계 등 대동물 표기 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함/미확정",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_15503d3a6266",
+        "name": "태백동물병원",
+        "reason": "CLOSED: 태백시 Place 패널 미노출; 디렉터리 주소 일치·전화 일치 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_9267e14dcb59",
+        "name": "하나동물병원",
+        "reason": "CLOSED: 양양군 Place 패널 미노출; 디렉터리 주소 일치 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_dbd1cc1d3646",
+        "name": "다나동물병원",
+        "reason": "CLOSED: 원주시 Place 패널 미노출; 디렉터리 주소 일치·전화 일치 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T09:49:10Z"
+      },
+      {
+        "id": "nat_a211296d4337",
+        "name": "동산동물병원",
+        "reason": "CLOSED: 중구 중앙길63 mypet-119 폐업 표기; Place 미노출 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T10:02:30Z"
+      },
+      {
+        "id": "nat_d45aac10b89a",
+        "name": "쿨펫동물병원",
+        "reason": "CLOSED: 남구 수암로148(홈플러스) mypet-119·디렉터리 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T10:02:30Z"
+      },
+      {
+        "id": "nat_f0e3bd25cebf",
+        "name": "태흥동물병원",
+        "reason": "CLOSED: 디렉터리/검색 폐업 표기(태흥동물병원 새 창 열림 Keep에 저장 Keep에 바로가기 새 창 열림 태흥동물병원 (폐업) - 제주특별자치도 제주 시 동물병원 폐업 정보 · 연북로 681 새 창 열림 제주특별); 제주 제주시 타깃",
+        "excluded_at": "2026-09-20T10:12:59Z"
+      },
+      {
+        "id": "nat_4710839024b0",
+        "name": "남문동물병원",
+        "reason": "CLOSED: 디렉터리/검색 폐업 표기(남문동물병원 새 창 열림 Keep에 저장 Keep에 바로가기 새 창 열림 남문동물병원 (폐업) - 제주 특별자치도 제주 시 동물병원 폐업 정보 · 중앙로 114-1 새 창 열림 제); 제주 제주시 타깃",
+        "excluded_at": "2026-09-20T10:12:59Z"
+      },
+      {
+        "id": "nat_4004da76aae8",
+        "name": "공동물병원",
+        "reason": "CLOSED: 대전 중구 대흥로94 폐업 확인(mypet-119); Place 미등록",
+        "excluded_at": "2026-09-20T10:14:00Z"
+      },
+      {
+        "id": "nat_5e04b893d200",
+        "name": "애니멀즈동물병원",
+        "reason": "CLOSED: 대전 유성 온천북로31 폐업 확인(mypet-119); Place 미등록. 타깃전화0507과 디렉터리042-824-8885 상이",
+        "excluded_at": "2026-09-20T10:14:00Z"
+      },
+      {
+        "id": "nat_39023d25d4a8",
+        "name": "하모니동물병원",
+        "reason": "CLOSED: 대전 유성 관평2로20 폐업(2025-03-18 사업자/디렉터리); Place 미등록",
+        "excluded_at": "2026-09-20T10:14:00Z"
+      },
+      {
+        "id": "nat_1db6f71ea37c",
+        "name": "YS동물병원",
+        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:45:29Z"
+      },
+      {
+        "id": "nat_a55f839b08e6",
+        "name": "운암동물병원",
+        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:45:29Z"
+      },
+      {
+        "id": "nat_9319b111e42e",
+        "name": "고려동물병원",
+        "reason": "CLOSED: 검색 폐업 표기(상호) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:45:29Z"
+      },
+      {
+        "id": "nat_525c0eb5efac",
+        "name": "마이펫동물의료센타",
+        "reason": "CLOSED: 강남 삼성로573 mypet-119 폐업 표기. Place는 동일전화 펫코도니아(언주로627)·YT/IG만→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_801b408fbcbf",
+        "name": "한국동물임상연구소",
+        "reason": "CLOSED: 송파 백제고분로46길41-12 mypet-119 폐업 표기. Place 패널 약함·전화만→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_a9d22aa8f8c5",
+        "name": "로얄벳성수점동물병원",
+        "reason": "CLOSED: 광진 자양3동550-2/성동 뚝섬로377 mypet-119 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_4c4c438b685a",
+        "name": "위즈펫동물병원",
+        "reason": "CLOSED: 송파 올림픽로35가길16 잠실홈플러스 mypet-119 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_7477d7136984",
+        "name": "용봉동물병원",
+        "reason": "LARGE_ANIMAL: 강서 강서로17길20 Place hit이나 상호 용봉가축병원(가축) 병기·전화 일치→LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_a492e0231783",
+        "name": "에디슨동물병원",
+        "reason": "CLOSED: 광진 아차산로530 mypet-119·홈즈 폐업 표기. Place 패널 없음→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_aec4bb8279a3",
+        "name": "평창동물병원",
+        "reason": "CLOSED: 종로 평창문화로31 mypet-119 폐업 표기. Place는 인근 월드펫(평창문화로75)만→CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T11:50:07Z"
+      },
+      {
+        "id": "nat_29ae05bfbb06",
+        "name": "경산축협 자인사업소",
+        "reason": "LARGE_ANIMAL: 명칭에 축협/가축/한우/수산 계열 → LARGE_ANIMAL_ONLY_EXCLUDE; 타깃주소 경북 경산시 자인면 서부리 66-1",
+        "excluded_at": "2026-09-20T12:05:09Z"
+      },
+      {
+        "id": "nat_5e8fe0284575",
+        "name": "삼양동물병원",
+        "reason": "CLOSED: 문경 남산로20; animal.hospitalk 폐업(2017-04-06) 표기·Place 미노출 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:05:09Z"
+      },
+      {
+        "id": "nat_490f121e279d",
+        "name": "최태규동물병원",
+        "reason": "CLOSED: 예천읍 시장로31-1; animal.hospitalk 폐업(2016-12-21) 표기·Place 미노출 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:05:09Z"
+      },
+      {
+        "id": "nat_de372e6d2e14",
+        "name": "현동물병원",
+        "reason": "CLOSED: 청도읍 고수산복길13-1; Place 미노출·animal.hospitalk 취소/말소 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:05:09Z"
+      },
+      {
+        "id": "nat_128e0f3afc13",
+        "name": "경서동물병원약품",
+        "reason": "CLOSED: mypet-119 경서동물병원 폐업(덕양 중앙로 136 화전) 타깃 주소 계열; 현 Place 중앙로170은 별도 엔트리로 봄",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_e984697c4b47",
+        "name": "미사랑동물병원",
+        "reason": "CLOSED: mypet-119 폐업(미사강변중앙로 189); 하남 Place 미노출·서울 강동 동명 우세",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_4d426b404373",
+        "name": "분당동물병원",
+        "reason": "CLOSED: mypet-119 분당동물병원 폐업(양현로 126 이매동) 주소일치; Place 동명 혼재",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_f6ed3163fba1",
+        "name": "어정동물병원",
+        "reason": "CLOSED: mypet-119·비즈노 폐업(어정로/중동); Place panel 미노출",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_ce59a4eaf19e",
+        "name": "오동물병원",
+        "reason": "CLOSED: mypet-119 폐업(영통 매영로/매탄 삼성2차 상가); Place 미매칭",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_3f90b19d0f97",
+        "name": "위즈펫동물병원",
+        "reason": "CLOSED: mypet-119 위즈펫 풍산점 폐업(무궁화로 237) 주소일치; Place 동명 혼재",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_4ea6556c7f8a",
+        "name": "위즈펫동물병원 일산점",
+        "reason": "CLOSED: mypet-119 위즈펫 일산장항점 폐업(중앙로1275번길 64 홈플러스) 주소일치",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_9846f1727c21",
+        "name": "정다운동물종합병원",
+        "reason": "CLOSED: mypet-119 정다운종합동물병원 폐업(수지로112번길 11) 주소일치; Place 미노출",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_54c077a20064",
+        "name": "중앙동물종합병원",
+        "reason": "CLOSED: mypet-119·꾸다체크 폐업(팔달로 163-1, 폐업일 2024-05-31) 주소·전화일치",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_246dbb2691a6",
+        "name": "쿨펫동물병원 동탄점",
+        "reason": "CLOSED: mypet-119 폐업(동탄중앙로 376)·화성시 직권말소 공고; Place 미노출",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_b4a5bc95db58",
+        "name": "펫사랑동물병원",
+        "reason": "CLOSED: mypet-119 폐업(영신로 29 지제동 이마트); 경기도 Place 미매칭·타지역 동명",
+        "excluded_at": "2026-09-20T12:06:59Z"
+      },
+      {
+        "id": "nat_f1b72b16f228",
+        "name": "짱동물병원",
+        "reason": "CLOSED: 김해시 Place 미노출·디렉터리 폐업(경남 김해시 율하2로 248)",
+        "excluded_at": "2026-09-20T12:37:19Z"
+      },
+      {
+        "id": "nat_ccf76ac074a8",
+        "name": "프라임동물병원",
+        "reason": "CLOSED: 성남시 운중로 Place 미노출·디렉터리 폐업 표기(운중로 124) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_183f5901ae0b",
+        "name": "협성사슴농원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_526984e2cb6c",
+        "name": "한호가축약품",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_bf329cc18336",
+        "name": "용인축협동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_1e849ff9d8f1",
+        "name": "한국마사회 KRA 동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_6b5e0445612a",
+        "name": "펫가든 동물병원",
+        "reason": "CLOSED: 수원시 영통 Place 미노출·디렉터리 폐업/이전(→서울 LK) 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_0bacca1d7147",
+        "name": "국립축산과학원동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_785c486fcc0e",
+        "name": "라임동물약품병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_bf458d333569",
+        "name": "대한동물병원약품",
+        "reason": "LARGE_ANIMAL: 시설명 동물병원약품(대동물/약품) 계열 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_f746f7a69d8b",
+        "name": "양하무역산업동물병원",
+        "reason": "LARGE_ANIMAL: 시설명/주소 대동물·축협·가축·수산·약품 계열",
+        "excluded_at": "2026-09-20T12:38:01Z"
+      },
+      {
+        "id": "nat_ecd9491c6b8a",
+        "name": "한우사랑동물병원",
+        "reason": "LARGE_ANIMAL: 공주 의당 의당로323-2는 가축인공수정소(한우사랑) 등록·상호 한우사랑 → LARGE_ANIMAL_ONLY_EXCLUDE; Place 반려병원 패널 없음",
+        "excluded_at": "2026-09-20T12:49:20Z"
+      },
+      {
+        "id": "nat_1f524da9f488",
+        "name": "피그헬스동물병원",
+        "reason": "LARGE_ANIMAL: 논산 연무 득안대로467 Place hit(전화·주소일치)이나 피그헬스=돼지/산업동물 계열 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T12:49:20Z"
+      },
+      {
+        "id": "nat_6e34ffd5ffff",
+        "name": "유일동물병원",
+        "reason": "LARGE_ANIMAL: 천안 동남 풍세로614 Place hit(전화·주소일치)이나 상호 유일동물병원(산업동물 출장진료 전문)·유일사슴목장 주소 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T12:49:20Z"
+      },
+      {
+        "id": "nat_473524fcf538",
+        "name": "제주피그클리닉",
+        "reason": "LARGE_ANIMAL: 제주 한림로580 Naver Place hit id=16865129; phone match; 양돈·피그클리닉→LARGE_ANIMAL_ONLY_EXCLUDE; hours 정보없음; saramin 등 homepage 거부",
+        "excluded_at": "2026-09-20T13:16:00Z"
+      },
+      {
+        "id": "nat_8c8cf806cf7a",
+        "name": "마리동물의료센터",
+        "reason": "LARGE_ANIMAL: 용인 처인 백암 Place hit; phone match; 공식사이트·소개 대동물(낙농·한우) 전문·반려 소동물 비대상; Place/공식 hours 미노출",
+        "excluded_at": "2026-09-20T13:30:04Z"
+      },
+      {
+        "id": "nat_efb45826aa2c",
+        "name": "태양종합동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: Naver lists 태양종합동물병원(폐업) (동대문구 listing; target 성북구 돌곶이로18길 31); no active Place panel",
+        "excluded_at": "2026-09-20T14:21:11Z"
+      },
+      {
+        "id": "nat_1fe3155e5a75",
+        "name": "수동물병원",
+        "reason": "LARGE_ANIMAL: 아산 영인면 영인로45 Daum/수의사회 hit(전화010-6473-6520). 성예사·소개상 출장전문 대가축진료 → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T14:22:45Z"
+      },
+      {
+        "id": "nat_d2d0e1757627",
+        "name": "신개금동물병원",
+        "reason": "CLOSED: 부산진 복지로47 주소·전화 디렉터리 확인되나 marketbz/bizwiki 납세자상태 폐업자(폐업일 2025-12-31)·mypet-119 폐업 표기 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T14:22:45Z"
+      },
+      {
+        "id": "nat_14c442dbc269",
+        "name": "우리동물병원",
+        "reason": "CLOSED: 연천읍 현문로5번길3 주소·전화 일치하나 animal.hospitalk 공공데이터 폐업(2022-03-30) → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T14:22:45Z"
+      },
+      {
+        "id": "nat_07af37ad9ea6",
+        "name": "합천축협동물병원",
+        "reason": "LARGE_ANIMAL: 합천 율곡 임북1길25 합천축산업협동조합 부설 동물병원(전화일치) → LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T14:22:45Z"
+      },
+      {
+        "id": "nat_278ae8bd67d0",
+        "name": "해동동물병원",
+        "reason": "CLOSED: 밀양 무안 동부1길10-1 공공데이터 폐업(2024-06-07)·전화055-352-6768 → CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T14:22:45Z"
+      },
+      {
+        "id": "nat_496260150776",
+        "name": "현대동물병원",
+        "reason": "LARGE_ANIMAL: 가평 연인2길19 hospitalk/군청 표기 현대가축병원(전화 031-582-2752); 가축병원→LARGE_ANIMAL_ONLY_EXCLUDE; Place 패널 약함",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_4f5a49332861",
+        "name": "카카오동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: hospitalk 여주 세종로163 카카오 동물병원 폐업(2024-12-23); Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_3b55635d0230",
+        "name": "가야펫동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 용인 수지 포은대로91 가야 동물병원 공공데이터 폐업(2020-09-21); Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_102b0e607fc0",
+        "name": "아쿠아메드수산질병관리원",
+        "reason": "LARGE_ANIMAL: 김포 양촌 황금로70번길 Kakao hit 아쿠아메드수산질병관리원; 수산→LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_01603e2b4cd9",
+        "name": "엘리자베스동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 영도 대교로15 엘리자베스 동물병원 hospitalk 폐업(2018-03-02); 타깃 대교로13-1 인근; Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_9ad22e02c3e7",
+        "name": "대구축산 동물병원",
+        "reason": "LARGE_ANIMAL: 대구 중구 대봉로278 Kakao hit 대구축산동물병원(전화일치); 축산→LARGE_ANIMAL_ONLY_EXCLUDE",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_0b28545cf576",
+        "name": "동산동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 수원 영통 인계로240 동산동물병원 공공데이터 폐업(2015-03-20); Place 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_f50927765daa",
+        "name": "누리동물병원",
+        "reason": "CLOSED: CLOSED_EXCLUDE: 평택 송탄로202 누리동물병원 공공데이터 폐업(2019-08-05); 동일주소 한호가축병원 잔존; Place 누리 미노출",
+        "excluded_at": "2026-09-20T14:26:27Z"
+      },
+      {
+        "id": "nat_3163a74f2f0c",
+        "name": "모라동물병원",
+        "reason": "CLOSED: 사상 백양대로957 hospitalk 폐업(2025-06-01). Kakao Place에 모라동물병원 카드 없음(동일주소 타업종). CLOSED_EXCLUDE",
+        "excluded_at": "2026-09-20T15:12:25Z"
+      }
+    ],
+    "primary_nohp_local": {
+      "n": 8,
+      "hit": 8,
+      "closed_excluded": 2,
+      "hours_set": 1,
+      "phone_set": 0,
+      "merged_at": "2026-09-20T03:56:29Z"
+    },
+    "secondary_nohp_wave": {
+      "n": 37,
+      "hit": 29,
+      "ambiguous": 6,
+      "no_hit": 2,
+      "homepages": 0,
+      "merged_at": "2026-09-20T04:00:24Z",
+      "source_branch": "cursor/place-sec-special-nohp-ac30",
+      "merge_stats": {
+        "applied": 44,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 2,
+        "dept_merged": 16,
+        "ambiguous_applied_cautious": 5
+      }
+    },
+    "special_remaining": {
+      "n": 8,
+      "hit": 7,
+      "no_hit": 1,
+      "large_animal_already_excluded": 1,
+      "reclassified_private_대학동물병원": 4,
+      "merged_at": "2026-09-20T04:00:24Z",
+      "source_branch": "cursor/place-sec-special-nohp-ac30"
+    },
+    "gyeonggi_neigh_wave1": {
+      "n": 100,
+      "hit": 91,
+      "ambiguous": 2,
+      "no_hit": 7,
+      "homepages_reported": 5,
+      "hours_reported": 57,
+      "merged_at": "2026-09-20T04:09:27Z",
+      "source_branch": "cursor/place-neigh-gyeonggi-ac30",
+      "merge_stats": {
+        "no_hit": 7,
+        "hit_applied": 90,
+        "dept_merged": 6,
+        "hours_set": 5,
+        "phone_set": 7,
+        "ambiguous_applied": 1,
+        "homepage_set": 4,
+        "ambiguous_skip": 1,
+        "exclude_zoo": 1
+      }
+    },
+    "primary_hours_remaining": {
+      "n": 41,
+      "hit": 39,
+      "ambiguous": 1,
+      "no_hit": 1,
+      "hours_raw_reported": 2,
+      "homepages_reported": 1,
+      "closed_exclude": 5,
+      "merged_at": "2026-09-20T04:57:00Z",
+      "source_branch": "cursor/place-primary-hours-ac30",
+      "merge_stats": {
+        "hit": 34,
+        "closed": 5,
+        "no_hit": 1,
+        "phone_set": 1,
+        "ambiguous_skip": 1,
+        "hours_set": 1
+      },
+      "primary_still_no_hours": 35
+    },
+    "busan_neigh_wave1": {
+      "n": 93,
+      "hit": 84,
+      "no_hit": 9,
+      "ambiguous": 0,
+      "homepages_reported": 1,
+      "hours_reported": 54,
+      "merged_at": "2026-09-20T05:05:41Z",
+      "source_branch": "cursor/place-neigh-busan-ac30",
+      "merge_stats": {
+        "no_hit": 9,
+        "hit_applied": 84,
+        "dept_merged": 2,
+        "hours_set": 8,
+        "phone_set": 1,
+        "homepage_set": 1
+      }
+    },
+    "seoul_neigh_wave2": {
+      "n": 100,
+      "hit": 90,
+      "ambiguous": 1,
+      "no_hit": 9,
+      "homepages_reported": 1,
+      "hours_reported": 72,
+      "merged_at": "2026-09-20T05:28:19Z",
+      "source_branch": "cursor/place-neigh-seoul-wave2-ac30",
+      "merge_stats": {
+        "hit_applied": 90,
+        "dept_merged": 14,
+        "ambiguous_skip": 1,
+        "homepage_set": 1,
+        "no_hit": 9
+      }
+    },
+    "primary_nohp_wave": {
+      "n": 122,
+      "hit": 118,
+      "ambiguous": 4,
+      "no_hit": 0,
+      "homepages_reported": 0,
+      "hours_reported": 77,
+      "merged_at": "2026-09-20T07:24:14Z",
+      "source_branch": "cursor/place-primary-nohp-ac30",
+      "merge_stats": {
+        "hit_applied": 111,
+        "missing_already_excluded": 7,
+        "dept_merged": 5,
+        "hours_set": 10,
+        "ambiguous_skip": 3,
+        "ambiguous_applied": 1
+      },
+      "primary_still_no_homepage": 115,
+      "primary_still_no_hours": 29
+    },
+    "hours_round2": {
+      "primary_n": 29,
+      "secondary_n": 25,
+      "primary_hit": 27,
+      "secondary_hit": 19,
+      "secondary_ambiguous_skipped": 6,
+      "merged_at": "2026-09-20T08:49:12Z",
+      "source_branch": "cursor/place-hours-round2-ac30",
+      "merge_stats": {
+        "hit_applied": 46,
+        "dept_merged": 14,
+        "phone_mismatch_note": 1,
+        "hours_set": 19,
+        "no_hit": 2,
+        "ambiguous_skip": 6,
+        "phone_set": 1
+      },
+      "primary_still_no_hours": 26,
+      "secondary_still_no_hours": 9,
+      "secondary_still_no_homepage": 37
+    },
+    "daegu_neigh_wave1": {
+      "n": 72,
+      "hit": 64,
+      "no_hit": 3,
+      "ambiguous": 1,
+      "closed_exclude": 4,
+      "homepages_reported": 2,
+      "hours_reported": 41,
+      "merged_at": "2026-09-20T08:53:32Z",
+      "source_branch": "cursor/place-neigh-daegu-ac30",
+      "merge_stats": {
+        "hit_applied": 64,
+        "no_hit": 3,
+        "homepage_set": 2,
+        "dept_merged": 5,
+        "closed": 4,
+        "ambiguous_skip": 1,
+        "hours_set": 4
+      }
+    },
+    "incheon_neigh_wave1": {
+      "n": 80,
+      "hit": 76,
+      "ambiguous": 2,
+      "no_hit": 2,
+      "closed_exclude": 3,
+      "homepages_reported": 3,
+      "hours_reported": 43,
+      "merged_at": "2026-09-20T08:54:27Z",
+      "source_branch": "cursor/place-neigh-incheon-ac30",
+      "merge_stats": {
+        "no_hit": 2,
+        "hit_applied": 73,
+        "homepage_set": 3,
+        "phone_set": 3,
+        "hours_set": 4,
+        "closed": 3,
+        "ambiguous_skip": 2
+      }
+    },
+    "gyeongnam_neigh_wave1": {
+      "n": 100,
+      "hit": 87,
+      "no_hit": 6,
+      "ambiguous": 2,
+      "closed_exclude": 5,
+      "homepages_reported": 1,
+      "hours_reported": 37,
+      "merged_at": "2026-09-20T08:56:56Z",
+      "source_branch": "cursor/place-neigh-gyeongnam-ac30",
+      "merge_stats": {
+        "no_hit": 6,
+        "hit_applied": 87,
+        "phone_set": 3,
+        "dept_merged": 8,
+        "ambiguous_skip": 2,
+        "hours_set": 4,
+        "homepage_set": 1,
+        "closed": 5
+      }
+    },
+    "chungnam_neigh_wave1": {
+      "n": 92,
+      "hit": 74,
+      "no_hit": 4,
+      "ambiguous": 3,
+      "closed_exclude": 5,
+      "large_animal_exclude": 6,
+      "homepages_reported": 2,
+      "hours_reported": 22,
+      "merged_at": "2026-09-20T09:13:43Z",
+      "source_branch": "cursor/place-neigh-chungnam-ac30",
+      "merge_stats": {
+        "hit_applied": 74,
+        "phone_set": 6,
+        "dept_merged": 6,
+        "no_hit": 4,
+        "exclude_large_animal": 6,
+        "hours_set": 2,
+        "ambiguous_skip": 3,
+        "exclude_closed": 5,
+        "homepage_set": 2
+      }
+    },
+    "gyeongbuk_neigh_wave1": {
+      "n": 100,
+      "hit": 85,
+      "no_hit": 4,
+      "ambiguous": 1,
+      "closed_exclude": 4,
+      "large_animal_exclude": 6,
+      "homepages_reported": 0,
+      "hours_reported": 23,
+      "merged_at": "2026-09-20T09:17:55Z",
+      "source_branch": "cursor/place-neigh-gyeongbuk-ac30",
+      "merge_stats": {
+        "hit_applied": 85,
+        "homepage_set": 0,
+        "phone_set": 7,
+        "hours_set": 4,
+        "dept_merged": 1,
+        "no_hit": 4,
+        "ambiguous_skip": 1,
+        "exclude_closed": 4,
+        "exclude_large_animal": 6,
+        "missing_id": 0
+      }
+    },
+    "gyeonggi_neigh_wave2": {
+      "n": 100,
+      "hit": 85,
+      "no_hit": 6,
+      "ambiguous": 1,
+      "closed_exclude": 8,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 41,
+      "merged_at": "2026-09-20T09:26:06Z",
+      "source_branch": "cursor/place-neigh-gyeonggi-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 85,
+        "homepage_set": 2,
+        "phone_set": 3,
+        "hours_set": 1,
+        "dept_merged": 0,
+        "no_hit": 6,
+        "ambiguous_skip": 1,
+        "exclude_closed": 8,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "jeonnam_neigh_wave1": {
+      "n": 100,
+      "hit": 84,
+      "no_hit": 0,
+      "ambiguous": 6,
+      "closed_exclude": 5,
+      "large_animal_exclude": 5,
+      "homepages_reported": 0,
+      "hours_reported": 14,
+      "merged_at": "2026-09-20T09:27:28Z",
+      "source_branch": "cursor/place-neigh-jeonnam-ac30",
+      "merge_stats": {
+        "hit_applied": 84,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 2,
+        "dept_merged": 0,
+        "no_hit": 0,
+        "ambiguous_skip": 6,
+        "exclude_closed": 5,
+        "exclude_large_animal": 5,
+        "missing_id": 0
+      }
+    },
+    "jeonbuk_neigh_wave1": {
+      "n": 100,
+      "hit": 82,
+      "no_hit": 6,
+      "ambiguous": 0,
+      "closed_exclude": 9,
+      "large_animal_exclude": 3,
+      "homepages_reported": 6,
+      "hours_reported": 31,
+      "merged_at": "2026-09-20T09:28:28Z",
+      "source_branch": "cursor/place-neigh-jeonbuk-ac30",
+      "merge_stats": {
+        "hit_applied": 82,
+        "homepage_set": 1,
+        "phone_set": 2,
+        "hours_set": 6,
+        "dept_merged": 0,
+        "no_hit": 6,
+        "ambiguous_skip": 0,
+        "exclude_closed": 9,
+        "exclude_large_animal": 3,
+        "missing_id": 0
+      }
+    },
+    "seoul_neigh_wave3": {
+      "n": 112,
+      "hit": 95,
+      "no_hit": 10,
+      "ambiguous": 0,
+      "closed_exclude": 6,
+      "large_animal_exclude": 1,
+      "homepages_reported": 2,
+      "hours_reported": 92,
+      "merged_at": "2026-09-20T09:33:22Z",
+      "source_branch": "cursor/place-neigh-seoul-wave3-ac30",
+      "merge_stats": {
+        "hit_applied": 95,
+        "homepage_set": 2,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 17,
+        "no_hit": 10,
+        "ambiguous_skip": 0,
+        "exclude_closed": 6,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
+    },
+    "chungbuk_neigh_wave1": {
+      "n": 89,
+      "hit": 68,
+      "no_hit": 12,
+      "ambiguous": 0,
+      "closed_exclude": 4,
+      "large_animal_exclude": 5,
+      "homepages_reported": 10,
+      "hours_reported": 35,
+      "merged_at": "2026-09-20T09:46:12Z",
+      "source_branch": "cursor/place-neigh-chungbuk-ac30",
+      "merge_stats": {
+        "hit_applied": 68,
+        "homepage_set": 1,
+        "phone_set": 2,
+        "hours_set": 6,
+        "dept_merged": 6,
+        "no_hit": 12,
+        "ambiguous_skip": 0,
+        "exclude_closed": 4,
+        "exclude_large_animal": 5,
+        "missing_id": 0
+      }
+    },
+    "gangwon_neigh_wave1": {
+      "n": 100,
+      "hit": 86,
+      "no_hit": 2,
+      "ambiguous": 0,
+      "closed_exclude": 5,
+      "large_animal_exclude": 7,
+      "homepages_reported": 5,
+      "hours_reported": 41,
+      "merged_at": "2026-09-20T09:49:10Z",
+      "source_branch": "cursor/place-neigh-gangwon-ac30",
+      "merge_stats": {
+        "hit_applied": 86,
+        "homepage_set": 1,
+        "phone_set": 1,
+        "hours_set": 2,
+        "dept_merged": 3,
+        "no_hit": 2,
+        "ambiguous_skip": 0,
+        "exclude_closed": 5,
+        "exclude_large_animal": 7,
+        "missing_id": 0
+      }
+    },
+    "ulsan_neigh_wave1": {
+      "n": 45,
+      "hit": 33,
+      "no_hit": 9,
+      "ambiguous": 1,
+      "closed_exclude": 2,
+      "large_animal_exclude": 0,
+      "homepages_reported": 9,
+      "hours_reported": 31,
+      "merged_at": "2026-09-20T10:02:30Z",
+      "source_branch": "cursor/place-neigh-ulsan-ac30",
+      "merge_stats": {
+        "hit_applied": 33,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 5,
+        "dept_merged": 9,
+        "no_hit": 9,
+        "ambiguous_skip": 1,
+        "exclude_closed": 2,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "jeju_neigh_wave1": {
+      "n": 84,
+      "hit": 52,
+      "no_hit": 29,
+      "ambiguous": 1,
+      "closed_exclude": 2,
+      "large_animal_exclude": 0,
+      "homepages_reported": 7,
+      "hours_reported": 36,
+      "merged_at": "2026-09-20T10:12:59Z",
+      "source_branch": "cursor/place-neigh-jeju-ac30",
+      "merge_stats": {
+        "hit_applied": 52,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 6,
+        "dept_merged": 17,
+        "no_hit": 29,
+        "ambiguous_skip": 1,
+        "exclude_closed": 2,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "daejeon_neigh_wave1": {
+      "n": 85,
+      "hit": 73,
+      "no_hit": 0,
+      "ambiguous": 9,
+      "closed_exclude": 3,
+      "large_animal_exclude": 0,
+      "homepages_reported": 25,
+      "hours_reported": 65,
+      "merged_at": "2026-09-20T10:14:00Z",
+      "source_branch": "cursor/place-neigh-daejeon-ac30",
+      "merge_stats": {
+        "hit_applied": 73,
+        "homepage_set": 3,
+        "phone_set": 1,
+        "hours_set": 6,
+        "dept_merged": 4,
+        "no_hit": 0,
+        "ambiguous_skip": 9,
+        "exclude_closed": 3,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "gwangju_neigh_wave1": {
+      "n": 95,
+      "hit": 83,
+      "no_hit": 8,
+      "ambiguous": 0,
+      "closed_exclude": 4,
+      "large_animal_exclude": 0,
+      "homepages_reported": 18,
+      "hours_reported": 60,
+      "merged_at": "2026-09-20T11:45:29Z",
+      "source_branch": "cursor/place-neigh-gwangju-ac30",
+      "merge_stats": {
+        "hit_applied": 83,
+        "homepage_set": 2,
+        "phone_set": 0,
+        "hours_set": 8,
+        "dept_merged": 0,
+        "no_hit": 8,
+        "ambiguous_skip": 0,
+        "exclude_closed": 4,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      },
+      "agent_final_sync": {
+        "at": "2026-09-20T11:58:19Z",
+        "source": "cursor/place-neigh-gwangju-ac30@final",
+        "agent_bc": "bc-154a6e23-5bd8-5cb6-bad1-03c965d59f61",
+        "patch_stats": {
+          "homepage_set": 0,
+          "hours_set": 0,
+          "phone_set": 0,
+          "boram_restored": 1,
+          "hours_cleaned": 0
+        },
+        "note": "Adopted agent final jsonl; patched empty homepage/hours; restored 보람 (Place hit overturned early CLOSED checkpoint)"
+      }
+    },
+    "seoul_neigh_wave4": {
+      "n": 32,
+      "hit": 22,
+      "no_hit": 3,
+      "ambiguous": 0,
+      "closed_exclude": 6,
+      "large_animal_exclude": 1,
+      "homepages_reported": 14,
+      "hours_reported": 13,
+      "merged_at": "2026-09-20T11:50:07Z",
+      "source_branch": "cursor/place-neigh-seoul-wave4-ac30",
+      "merge_stats": {
+        "hit_applied": 22,
+        "homepage_set": 0,
+        "phone_set": 1,
+        "hours_set": 13,
+        "dept_merged": 4,
+        "no_hit": 3,
+        "ambiguous_skip": 0,
+        "exclude_closed": 6,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
+    },
+    "gyeongbuk_neigh_wave2": {
+      "n": 61,
+      "hit": 50,
+      "no_hit": 7,
+      "ambiguous": 0,
+      "closed_exclude": 3,
+      "large_animal_exclude": 1,
+      "homepages_reported": 1,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T12:05:09Z",
+      "source_branch": "cursor/place-neigh-gyeongbuk-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 50,
+        "homepage_set": 0,
+        "phone_set": 1,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 7,
+        "ambiguous_skip": 0,
+        "exclude_closed": 3,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
+    },
+    "gyeonggi_neigh_wave3": {
+      "n": 100,
+      "hit": 86,
+      "no_hit": 3,
+      "ambiguous": 0,
+      "closed_exclude": 11,
+      "large_animal_exclude": 0,
+      "homepages_reported": 9,
+      "hours_reported": 27,
+      "merged_at": "2026-09-20T12:06:59Z",
+      "source_branch": "cursor/place-neigh-gyeonggi-w3-ac30",
+      "merge_stats": {
+        "hit_applied": 86,
+        "homepage_set": 1,
+        "phone_set": 1,
+        "hours_set": 27,
+        "dept_merged": 2,
+        "no_hit": 3,
+        "ambiguous_skip": 0,
+        "exclude_closed": 11,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "gyeongnam_neigh_wave2": {
+      "n": 30,
+      "hit": 27,
+      "no_hit": 2,
+      "ambiguous": 0,
+      "closed_exclude": 1,
+      "large_animal_exclude": 0,
+      "homepages_reported": 1,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T12:37:19Z",
+      "source_branch": "cursor/place-neigh-gyeongnam-busan-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 27,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 4,
+        "no_hit": 2,
+        "ambiguous_skip": 0,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "busan_neigh_wave2": {
+      "n": 7,
+      "hit": 6,
+      "no_hit": 0,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T12:37:19Z",
+      "source_branch": "cursor/place-neigh-gyeongnam-busan-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 6,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 3,
+        "dept_merged": 3,
+        "no_hit": 0,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "gyeonggi_neigh_wave4": {
+      "n": 79,
+      "hit": 56,
+      "no_hit": 13,
+      "ambiguous": 0,
+      "closed_exclude": 2,
+      "large_animal_exclude": 8,
+      "homepages_reported": 3,
+      "hours_reported": 15,
+      "merged_at": "2026-09-20T12:38:01Z",
+      "source_branch": "cursor/place-neigh-gyeonggi-w4-ac30",
+      "merge_stats": {
+        "hit_applied": 56,
+        "homepage_set": 1,
+        "phone_set": 7,
+        "hours_set": 15,
+        "dept_merged": 0,
+        "no_hit": 13,
+        "ambiguous_skip": 0,
+        "exclude_closed": 2,
+        "exclude_large_animal": 8,
+        "missing_id": 0
+      }
+    },
+    "chungnam_neigh_wave2": {
+      "n": 20,
+      "hit": 15,
+      "no_hit": 2,
+      "ambiguous": 0,
+      "closed_exclude": 0,
+      "large_animal_exclude": 3,
+      "homepages_reported": 0,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T12:49:20Z",
+      "source_branch": "cursor/place-neigh-chungnam-misc-ac30",
+      "merge_stats": {
+        "hit_applied": 15,
+        "homepage_set": 0,
+        "phone_set": 4,
+        "hours_set": 3,
+        "dept_merged": 3,
+        "no_hit": 2,
+        "ambiguous_skip": 0,
+        "exclude_closed": 0,
+        "exclude_large_animal": 3,
+        "missing_id": 0
+      }
+    },
+    "misc_neigh_residual": {
+      "n": 31,
+      "hit": 31,
+      "no_hit": 0,
+      "ambiguous": 0,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 7,
+      "hours_reported": 11,
+      "merged_at": "2026-09-20T12:49:20Z",
+      "source_branch": "cursor/place-neigh-chungnam-misc-ac30",
+      "merge_stats": {
+        "hit_applied": 31,
+        "homepage_set": 1,
+        "phone_set": 1,
+        "hours_set": 11,
+        "dept_merged": 0,
+        "no_hit": 0,
+        "ambiguous_skip": 0,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "primary_hours_round3": {
+      "n": 26,
+      "hit": 23,
+      "no_hit": 1,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 1,
+      "homepages_reported": 1,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T13:16:00Z",
+      "source_branch": "cursor/place-primary-hours-r3-ac30",
+      "merge_stats": {
+        "hit_applied": 23,
+        "homepage_set": 1,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 6,
+        "no_hit": 1,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
+    },
+    "secondary_hours_round3": {
+      "n": 9,
+      "hit": 2,
+      "no_hit": 0,
+      "ambiguous": 6,
+      "closed_exclude": 0,
+      "large_animal_exclude": 1,
+      "homepages_reported": 1,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T13:30:04Z",
+      "source_branch": "cursor/place-secondary-residual-ac30",
+      "merge_stats": {
+        "hit_applied": 2,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 0,
+        "ambiguous_skip": 6,
+        "exclude_closed": 0,
+        "exclude_large_animal": 1,
+        "missing_id": 0
+      }
+    },
+    "secondary_nohp_wave2": {
+      "n": 37,
+      "hit": 30,
+      "no_hit": 2,
+      "ambiguous": 5,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 7,
+      "hours_reported": 35,
+      "merged_at": "2026-09-20T13:30:05Z",
+      "source_branch": "cursor/place-secondary-residual-ac30",
+      "merge_stats": {
+        "hit_applied": 30,
+        "homepage_set": 7,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 12,
+        "no_hit": 2,
+        "ambiguous_skip": 5,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "primary_nohp_final": {
+      "n": 113,
+      "hit": 105,
+      "no_hit": 0,
+      "ambiguous": 7,
+      "closed_exclude": 1,
+      "large_animal_exclude": 0,
+      "homepages_reported": 6,
+      "hours_reported": 76,
+      "merged_at": "2026-09-20T14:21:11Z",
+      "source_branch": "cursor/place-primary-nohp-final-ac30",
+      "merge_stats": {
+        "hit_applied": 105,
+        "homepage_set": 6,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 6,
+        "no_hit": 0,
+        "ambiguous_skip": 7,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "neigh_final_wave2": {
+      "n": 100,
+      "hit": 82,
+      "no_hit": 13,
+      "ambiguous": 0,
+      "closed_exclude": 3,
+      "large_animal_exclude": 2,
+      "homepages_reported": 4,
+      "hours_reported": 1,
+      "merged_at": "2026-09-20T14:22:45Z",
+      "source_branch": "cursor/place-neigh-final-w2-ac30",
+      "merge_stats": {
+        "hit_applied": 82,
+        "homepage_set": 4,
+        "phone_set": 6,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 13,
+        "ambiguous_skip": 0,
+        "exclude_closed": 3,
+        "exclude_large_animal": 2,
+        "missing_id": 0
+      }
+    },
+    "neigh_final_wave3": {
+      "n": 56,
+      "hit": 27,
+      "no_hit": 16,
+      "ambiguous": 5,
+      "closed_exclude": 5,
+      "large_animal_exclude": 3,
+      "homepages_reported": 1,
+      "hours_reported": 1,
+      "merged_at": "2026-09-20T14:26:27Z",
+      "source_branch": "cursor/place-neigh-final-w3-ac30",
+      "merge_stats": {
+        "hit_applied": 27,
+        "homepage_set": 0,
+        "phone_set": 7,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 16,
+        "ambiguous_skip": 5,
+        "exclude_closed": 5,
+        "exclude_large_animal": 3,
+        "missing_id": 0
+      }
+    },
+    "neigh_final_wave1": {
+      "n": 100,
+      "hit": 80,
+      "no_hit": 20,
+      "ambiguous": 0,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 3,
+      "hours_reported": 11,
+      "merged_at": "2026-09-20T14:32:37Z",
+      "source_branch": "cursor/place-neigh-final-w1-ac30",
+      "merge_stats": {
+        "hit_applied": 80,
+        "homepage_set": 1,
+        "phone_set": 10,
+        "hours_set": 7,
+        "dept_merged": 0,
+        "no_hit": 20,
+        "ambiguous_skip": 0,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "secondary_final": {
+      "n": 36,
+      "hit": 23,
+      "no_hit": 1,
+      "ambiguous": 12,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 3,
+      "hours_reported": 20,
+      "merged_at": "2026-09-20T15:01:28Z",
+      "source_branch": "cursor/place-sec-special-final-ac30",
+      "merge_stats": {
+        "hit_applied": 23,
+        "homepage_set": 3,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 7,
+        "no_hit": 1,
+        "ambiguous_skip": 12,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "special_final": {
+      "n": 7,
+      "hit": 5,
+      "no_hit": 1,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 3,
+      "hours_reported": 1,
+      "merged_at": "2026-09-20T15:01:28Z",
+      "source_branch": "cursor/place-sec-special-final-ac30",
+      "merge_stats": {
+        "hit_applied": 5,
+        "homepage_set": 0,
+        "phone_set": 0,
+        "hours_set": 0,
+        "dept_merged": 1,
+        "no_hit": 1,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    },
+    "primary_hours_final": {
+      "n": 25,
+      "hit": 23,
+      "no_hit": 1,
+      "ambiguous": 1,
+      "closed_exclude": 0,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T15:01:28Z",
+      "source_branch": "cursor/place-sec-special-final-ac30",
+      "merge_stats": {
+        "hit_applied": 22,
+        "homepage_set": 1,
+        "phone_set": 0,
+        "hours_set": 2,
+        "dept_merged": 0,
+        "no_hit": 1,
+        "ambiguous_skip": 1,
+        "exclude_closed": 0,
+        "exclude_large_animal": 0,
+        "missing_id": 1
+      }
+    },
+    "neigh_final_wave4": {
+      "n": 54,
+      "hit": 10,
+      "no_hit": 39,
+      "ambiguous": 4,
+      "closed_exclude": 1,
+      "large_animal_exclude": 0,
+      "homepages_reported": 2,
+      "hours_reported": 0,
+      "merged_at": "2026-09-20T15:12:25Z",
+      "source_branch": "cursor/place-neigh-final-w4-ac30",
+      "merge_stats": {
+        "hit_applied": 10,
+        "homepage_set": 0,
+        "phone_set": 3,
+        "hours_set": 0,
+        "dept_merged": 0,
+        "no_hit": 39,
+        "ambiguous_skip": 4,
+        "exclude_closed": 1,
+        "exclude_large_animal": 0,
+        "missing_id": 0
+      }
+    }
+  },
+  "with_homepage": 1951,
+  "with_departments": 4300,
+  "sec_missing_homepage": 37,
+  "google_enrichment": {
+    "google_secondary_nohp": {
+      "n": 27,
+      "status_counts": {
+        "directory_only": 18,
+        "ambiguous": 7,
+        "hit": 2
+      },
+      "homepages_reported": 2,
+      "hours_reported": 3,
+      "merged_at": "2026-09-20T15:25:15Z",
+      "source_branch": "cursor/google-sec-prim-hrs-ac30",
+      "merge_stats": {
+        "rows": 27,
+        "homepage_set": 2,
+        "hours_set": 0,
+        "hours_upgraded": 1,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 18,
+        "ambiguous": 7,
+        "hit": 2
+      }
+    },
+    "google_primary_hours": {
+      "n": 22,
+      "status_counts": {
+        "hit": 19,
+        "ambiguous": 3
+      },
+      "homepages_reported": 1,
+      "hours_reported": 4,
+      "merged_at": "2026-09-20T15:25:15Z",
+      "source_branch": "cursor/google-sec-prim-hrs-ac30",
+      "merge_stats": {
+        "rows": 22,
+        "homepage_set": 0,
+        "hours_set": 4,
+        "hours_upgraded": 0,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 0,
+        "ambiguous": 3,
+        "hit": 19
+      }
+    },
+    "google_primary_nohp": {
+      "n": 105,
+      "status_counts": {
+        "directory_only": 95,
+        "ambiguous": 3,
+        "no_hit": 5,
+        "hit": 2
+      },
+      "homepages_reported": 2,
+      "hours_reported": 1,
+      "merged_at": "2026-09-20T15:25:37Z",
+      "source_branch": "cursor/google-primary-nohp-ac30",
+      "merge_stats": {
+        "rows": 105,
+        "homepage_set": 2,
+        "hours_set": 0,
+        "hours_upgraded": 0,
+        "phone_set": 0,
+        "skipped_no_companion": 0,
+        "skipped_reject_hp": 0,
+        "directory_only": 95,
+        "ambiguous": 3,
+        "hit": 2
+      }
+    }
+  }
+}

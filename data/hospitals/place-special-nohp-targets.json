@@ -1,0 +1,274 @@
+{
+  "as_of": "2026-09-20",
+  "n": 14,
+  "targets": [
+    {
+      "id": "nat_272deaecb96f",
+      "name": "건국대학교 서울캠퍼스부속동물병원",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "address": "서울특별시 광진구 능동로34길 120 (능동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EC%84%9C%EC%9A%B8%EC%BA%A0%ED%8D%BC%EC%8A%A4%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B4%91%EC%A7%84%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EC%84%9C%EC%9A%B8%EC%BA%A0%ED%8D%BC%EC%8A%A4%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_a144a274bdc3",
+      "name": "경북대학교수의과대학부속동물병원분원",
+      "sido": "경상북도",
+      "sigungu": "상주시",
+      "address": "경상북도 상주시 존애원로 68 (가장동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%EB%B6%84%EC%9B%90+%EC%83%81%EC%A3%BC%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B2%BD%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90%EB%B6%84%EC%9B%90+%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_1c9f3158510c",
+      "name": "대학동물병원",
+      "sido": "서울특별시",
+      "sigungu": "성북구",
+      "address": "서울특별시 성북구 화랑로 299 (장위동, 석계역 한일노벨리아시티)",
+      "phone": "02-918-3344",
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%B1%EB%B6%81%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_2cd093468b66",
+      "name": "대학동물병원",
+      "sido": "경기도",
+      "sigungu": "용인시",
+      "address": "경기도 용인시 수지구 문인로39번길 3-1 (풍덕천동)",
+      "phone": "031-261-8277",
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9A%A9%EC%9D%B8%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_ece3c3a7cbcb",
+      "name": "대학동물병원",
+      "sido": "전북특별자치도",
+      "sigungu": "익산시",
+      "address": "전북특별자치도 익산시 인북로 139 (창인동1가)",
+      "phone": "063-858-0711",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9D%B5%EC%82%B0%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_617d6c397667",
+      "name": "대학동물병원",
+      "sido": "경기도",
+      "sigungu": "안산시",
+      "address": "경기도 안산시 상록구 예술광장1로 16 (월피동)",
+      "phone": "031-482-0075",
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%95%88%EC%82%B0%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%EB%8C%80%ED%95%99%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B2%BD%EA%B8%B0%EB%8F%84",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_37e4ab0de71a",
+      "name": "서울대학교관악캠퍼스수의대부속동물병원",
+      "sido": "서울특별시",
+      "sigungu": "관악구",
+      "address": "서울특별시 관악구 관악로12길 32-14 (봉천동)",
+      "phone": "02-880-8661",
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90%EA%B4%80%EC%95%85%EC%BA%A0%ED%8D%BC%EC%8A%A4%EC%88%98%EC%9D%98%EB%8C%80%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B4%80%EC%95%85%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90%EA%B4%80%EC%95%85%EC%BA%A0%ED%8D%BC%EC%8A%A4%EC%88%98%EC%9D%98%EB%8C%80%EB%B6%80%EC%86%8D%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_642a348f5f1e",
+      "name": "전남대학교 광주캠퍼스동물병원",
+      "sido": "광주광역시",
+      "sigungu": "북구",
+      "address": "광주광역시 북구 용봉로 45 (용봉동)",
+      "phone": "062-530-2882",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%84%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EA%B4%91%EC%A3%BC%EC%BA%A0%ED%8D%BC%EC%8A%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%B6%81%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%A0%84%EB%82%A8%EB%8C%80%ED%95%99%EA%B5%90+%EA%B4%91%EC%A3%BC%EC%BA%A0%ED%8D%BC%EC%8A%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EA%B4%91%EC%A3%BC%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_a901265e2deb",
+      "name": "제주대학교 아라캠퍼스부설동물병원",
+      "sido": "부산",
+      "sigungu": "남구",
+      "address": "부산 남구 수영로13번길 6-1 1층",
+      "phone": null,
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EC%A0%9C%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90+%EC%95%84%EB%9D%BC%EC%BA%A0%ED%8D%BC%EC%8A%A4%EB%B6%80%EC%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%82%A8%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EC%A0%9C%EC%A3%BC%EB%8C%80%ED%95%99%EA%B5%90+%EC%95%84%EB%9D%BC%EC%BA%A0%ED%8D%BC%EC%8A%A4%EB%B6%80%EC%84%A4%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EB%B6%80%EC%82%B0",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_914bce1fed03",
+      "name": "한양한방동물병원",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "address": "인천광역시 중구 우현로90번길 27 (용동)",
+      "phone": "032-761-6560",
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A4%91%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "departments": [
+        "재활",
+        "한방"
+      ],
+      "care_level": "rehab_specialty"
+    },
+    {
+      "id": "nat_90d7da18c100",
+      "name": "탑스동물재활의학센터",
+      "sido": "대구",
+      "sigungu": "달서구",
+      "address": "대구 달서구 월배로 166 탑스빌딩 5층 탑스동물재활의학센터",
+      "phone": "0507-1374-7505",
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%83%91%EC%8A%A4%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%9D%98%ED%95%99%EC%84%BC%ED%84%B0+%EB%8B%AC%EC%84%9C%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%83%91%EC%8A%A4%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%9D%98%ED%95%99%EC%84%BC%ED%84%B0+%EB%8C%80%EA%B5%AC",
+      "departments": [
+        "재활",
+        "한방"
+      ],
+      "care_level": "rehab_specialty"
+    },
+    {
+      "id": "nat_da6c430d1227",
+      "name": "한양한방동물병원",
+      "sido": "인천광역시",
+      "sigungu": "중구",
+      "address": "인천광역시 중구 우현로35번길 3 (신포동)",
+      "phone": null,
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%A4%91%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%95%9C%EC%96%91%ED%95%9C%EB%B0%A9%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C",
+      "departments": [
+        "재활",
+        "한방"
+      ],
+      "care_level": "rehab_specialty"
+    },
+    {
+      "id": "nat_5b0ebb702b73",
+      "name": "건국대학교 수의과대학",
+      "sido": "서울특별시",
+      "sigungu": "광진구",
+      "address": "서울특별시 광진구 능동로34길 120 (능동)",
+      "phone": "02-450-3664",
+      "has_hours": false,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EA%B4%91%EC%A7%84%EA%B5%AC",
+      "daum_map_url": "https://map.kakao.com/?q=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90+%EC%88%98%EC%9D%98%EA%B3%BC%EB%8C%80%ED%95%99+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C",
+      "departments": [
+        "분과진료",
+        "영상(CT/MRI)",
+        "응급",
+        "내과",
+        "외과"
+      ],
+      "care_level": "university"
+    },
+    {
+      "id": "nat_917c9e7566a8",
+      "name": "행복드림동물재활센터",
+      "sido": "강원",
+      "sigungu": "원주시",
+      "address": "강원 원주시 천사로 23-15 1층",
+      "phone": "0507-1333-7587",
+      "has_hours": true,
+      "has_homepage": false,
+      "place_search_url": "https://search.naver.com/search.naver?query=%ED%96%89%EB%B3%B5%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0+%EC%9B%90%EC%A3%BC%EC%8B%9C",
+      "daum_map_url": "https://map.kakao.com/?q=%ED%96%89%EB%B3%B5%EB%93%9C%EB%A6%BC%EB%8F%99%EB%AC%BC%EC%9E%AC%ED%99%9C%EC%84%BC%ED%84%B0+%EA%B0%95%EC%9B%90",
+      "departments": [
+        "재활",
+        "한방"
+      ],
+      "care_level": "rehab_specialty"
+    }
+  ]
+}

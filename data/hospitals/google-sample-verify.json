@@ -1,0 +1,96 @@
+{
+  "as_of": "2026-09-20",
+  "n": 14,
+  "wave": "manual google sample verify Place residuals",
+  "summary": {
+    "official_homepage": 0,
+    "directory_only": 14,
+    "false_positive_similar_name": 1
+  },
+  "results": [
+    {
+      "id": "nat_509b0827cacc",
+      "name": "24시서울플러스종합동물병원",
+      "google_status": "directory_only",
+      "note": "mustarddata/aggregators only"
+    },
+    {
+      "id": "nat_4e45bb755efd",
+      "name": "25시종합동물병원",
+      "google_status": "directory_only",
+      "note": "purpleo/purina listing; homepage -"
+    },
+    {
+      "id": "nat_13ee10f5d5a0",
+      "name": "가나종합동물병원 목동",
+      "google_status": "directory_only",
+      "note": "ban-life/purpleo only"
+    },
+    {
+      "id": "nat_e9d1fcf72f34",
+      "name": "강남종합동물병원 춘천",
+      "google_status": "directory_only",
+      "note": "ban-life/onkorea only"
+    },
+    {
+      "id": "nat_1ef2b5480b25",
+      "name": "마이펫종합동물병원",
+      "google_status": "directory_only",
+      "note": "udanax/purpleo only"
+    },
+    {
+      "id": "nat_1208ffb61d8e",
+      "name": "CT종합동물병원",
+      "google_status": "directory_only",
+      "note": "hospitalk/onkorea/fitpet"
+    },
+    {
+      "id": "nat_b17c080540ee",
+      "name": "e 동물메디컬센터",
+      "google_status": "directory_only",
+      "note": "onkorea/hospitalk; no official"
+    },
+    {
+      "id": "nat_25040693fca1",
+      "name": "계양동물메디컬센터",
+      "google_status": "directory_only",
+      "note": "false_positive: skyahgy.co.kr is SKY 계양(장제로) not 계양대로 191"
+    },
+    {
+      "id": "nat_e309cc84848f",
+      "name": "전남동물의료센터",
+      "google_status": "directory_only",
+      "note": "purpleo; 전남대 hospital is different"
+    },
+    {
+      "id": "nat_adc405518f62",
+      "name": "일마레동물메디컬센터",
+      "google_status": "directory_only",
+      "note": "onkorea/purpleo; IG only not accepted"
+    },
+    {
+      "id": "nat_fe03746627c1",
+      "name": "한국동물메디컬센터",
+      "google_status": "directory_only",
+      "note": "no official homepage found"
+    },
+    {
+      "id": "nat_a42826cd2a9c",
+      "name": "이리온 동물메디컬센터",
+      "google_status": "directory_only",
+      "note": "irion2.uriweb.kr franchise; 진접 not in listed branches"
+    },
+    {
+      "id": "nat_91659eb05531",
+      "name": "창원동물CTMRI센터",
+      "google_status": "directory_only",
+      "note": "kakao channel only; reject"
+    },
+    {
+      "id": "nat_e9b46860e236",
+      "name": "세종동물의료센터",
+      "google_status": "directory_only",
+      "note": "hospitalk/onkorea; homepage empty"
+    }
+  ]
+}

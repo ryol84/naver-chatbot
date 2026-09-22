@@ -1,0 +1,120 @@
+{
+  "title": "Companion dog/cat hospitals — agent pack",
+  "version": "2026-09-20.1",
+  "as_of": "2026-09-20",
+  "source_branch": "cursor/hospital-site-data-ac30",
+  "n": 4137,
+  "stats": {
+    "n": 4137,
+    "with_homepage_reliable": 1629,
+    "with_homepage_any_url": 1951,
+    "with_phone": 3959,
+    "with_hours_raw": 3328,
+    "hours_24h_yes": 226,
+    "care_level_counts": {
+      "neighborhood": 3426,
+      "secondary": 498,
+      "primary": 180,
+      "university": 12,
+      "rehab_specialty": 21
+    },
+    "sido_top": {
+      "경기도": 1069,
+      "서울특별시": 762,
+      "부산광역시": 224,
+      "경상북도": 193,
+      "경상남도": 189,
+      "인천광역시": 183,
+      "대구광역시": 142,
+      "충청남도": 141,
+      "전라남도": 122,
+      "강원특별자치도": 103
+    }
+  },
+  "care_level_taxonomy": {
+    "university": "대학동물병원",
+    "secondary": "2차 의료센터 (메디컬·동물의료센터·분과/영상 거점)",
+    "primary": "1차 진료 (종합·24시 일반 등 1차 중심)",
+    "neighborhood": "일반 동네병원",
+    "rehab_specialty": "재활·한방 특화"
+  },
+  "enrichment_summary": {
+    "place_waves": "exhausted actionable Place enrichment for companion set",
+    "google_waves": {
+      "google_secondary_nohp": {
+        "n": 27,
+        "status_counts": {
+          "directory_only": 18,
+          "ambiguous": 7,
+          "hit": 2
+        },
+        "homepages_reported": 2,
+        "hours_reported": 3,
+        "merged_at": "2026-09-20T15:25:15Z",
+        "source_branch": "cursor/google-sec-prim-hrs-ac30",
+        "merge_stats": {
+          "rows": 27,
+          "homepage_set": 2,
+          "hours_set": 0,
+          "hours_upgraded": 1,
+          "phone_set": 0,
+          "skipped_no_companion": 0,
+          "skipped_reject_hp": 0,
+          "directory_only": 18,
+          "ambiguous": 7,
+          "hit": 2
+        }
+      },
+      "google_primary_hours": {
+        "n": 22,
+        "status_counts": {
+          "hit": 19,
+          "ambiguous": 3
+        },
+        "homepages_reported": 1,
+        "hours_reported": 4,
+        "merged_at": "2026-09-20T15:25:15Z",
+        "source_branch": "cursor/google-sec-prim-hrs-ac30",
+        "merge_stats": {
+          "rows": 22,
+          "homepage_set": 0,
+          "hours_set": 4,
+          "hours_upgraded": 0,
+          "phone_set": 0,
+          "skipped_no_companion": 0,
+          "skipped_reject_hp": 0,
+          "directory_only": 0,
+          "ambiguous": 3,
+          "hit": 19
+        }
+      },
+      "google_primary_nohp": {
+        "n": 105,
+        "status_counts": {
+          "directory_only": 95,
+          "ambiguous": 3,
+          "no_hit": 5,
+          "hit": 2
+        },
+        "homepages_reported": 2,
+        "hours_reported": 1,
+        "merged_at": "2026-09-20T15:25:37Z",
+        "source_branch": "cursor/google-primary-nohp-ac30",
+        "merge_stats": {
+          "rows": 105,
+          "homepage_set": 2,
+          "hours_set": 0,
+          "hours_upgraded": 0,
+          "phone_set": 0,
+          "skipped_no_companion": 0,
+          "skipped_reject_hp": 0,
+          "directory_only": 95,
+          "ambiguous": 3,
+          "hit": 2
+        }
+      }
+    },
+    "note": "Google rarely finds official sites beyond Place; residuals mostly directory-only"
+  },
+  "built_at": "2026-09-22T11:34:31Z"
+}
