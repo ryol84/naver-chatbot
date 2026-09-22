@@ -1,0 +1,36 @@
+{
+  "version": "2026-09-20.1",
+  "as_of": "2026-09-20",
+  "n": 4137,
+  "built_at": "2026-09-22T11:34:31Z",
+  "files": {
+    "AGENT.md": {
+      "bytes": 2350,
+      "sha256": "053431c1176e3ee55706e5ed4930766dd92a00654111794a26b6d5eb420cc04a"
+    },
+    "companion-hospitals.csv": {
+      "bytes": 2326108,
+      "sha256": "fcab879ebf6f46294e554ebec50aad56dcc35178c65b814a13fcbdd2964475f1"
+    },
+    "companion-hospitals.jsonl": {
+      "bytes": 8102044,
+      "sha256": "9c828e5855ff19a9b776406a5fbc008172e4c7c8c372c69c00a1a5658a199741"
+    },
+    "companion-meta.json": {
+      "bytes": 3392,
+      "sha256": "f2f173bc474e75f20e939a9cdd0fd1b3ef5b6aa52d4f23c5fde4c8500ce93e2a"
+    },
+    "samples.json": {
+      "bytes": 11421,
+      "sha256": "ece35e8c5c48347085ab3dfa15bc130dd219a403506885eec4bdfc98932308d4"
+    },
+    "schema.json": {
+      "bytes": 2993,
+      "sha256": "6e803699ecfe9d5d64f840d98b25287acdc522d67f7de329b739a2ef69c3077c"
+    },
+    "secondary-24h.jsonl": {
+      "bytes": 282797,
+      "sha256": "963da61e181cb32f67ad530d140c2cc48dc085682250ba9383240aa34f6990b6"
+    }
+  }
+}

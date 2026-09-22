@@ -85,3 +85,8 @@ Gwangju neigh wave1 95: Place enrich merge
 - 제외(경남 폐업): 우리수산동물병원·송하동물병원·아주동물병원·현대수산동물병원·힘참동물병원
 - 제외(충남 폐업): 참좋은동물병원·드림컨설팅동물병원·미소동물병원·한샘애견동물병원·한샘동물병원
 - 제외(충남 대동물/축산): 당진축협동물병원·세종팜스동물병원·우사랑동물병원·한길동물병원·천성가축약품병원·천안축협동물병원
+
+## Agent pack (download / handoff)
+- Folder: `data/hospitals/agent-pack/` — see `AGENT.md`
+- Zip: `data/hospitals/agent-pack/companion-hospitals-agent-pack-2026-09-20.1.zip`
+- Version `2026-09-20.1` · n=4137 · reliable homepage 1629
