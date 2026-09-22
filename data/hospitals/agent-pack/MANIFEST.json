@@ -2,11 +2,11 @@
   "version": "2026-09-20.1",
   "as_of": "2026-09-20",
   "n": 4137,
-  "built_at": "2026-09-22T11:34:31Z",
+  "built_at": "2026-09-22T11:43:42Z",
   "files": {
     "AGENT.md": {
-      "bytes": 2350,
-      "sha256": "053431c1176e3ee55706e5ed4930766dd92a00654111794a26b6d5eb420cc04a"
+      "bytes": 2570,
+      "sha256": "5dcadec9238f592e66ccb14ffcff1a537d9d9eafbe7554dcce26e90817f1aef1"
     },
     "companion-hospitals.csv": {
       "bytes": 2326108,
@@ -15,6 +15,10 @@
     "companion-hospitals.jsonl": {
       "bytes": 8102044,
       "sha256": "9c828e5855ff19a9b776406a5fbc008172e4c7c8c372c69c00a1a5658a199741"
+    },
+    "companion-hospitals.xlsx": {
+      "bytes": 1751423,
+      "sha256": "a0d453937e090c5079bf75ac8d0b1c8b5601151706f2c59646fc50c90fcc49c1"
     },
     "companion-meta.json": {
       "bytes": 3392,

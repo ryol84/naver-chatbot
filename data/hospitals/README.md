@@ -89,4 +89,5 @@ Gwangju neigh wave1 95: Place enrich merge
 ## Agent pack (download / handoff)
 - Folder: `data/hospitals/agent-pack/` — see `AGENT.md`
 - Zip: `data/hospitals/agent-pack/companion-hospitals-agent-pack-2026-09-20.1.zip`
+- Excel: `data/hospitals/agent-pack/companion-hospitals.xlsx`
 - Version `2026-09-20.1` · n=4137 · reliable homepage 1629

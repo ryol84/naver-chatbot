@@ -16,6 +16,8 @@ print(len(rows), rows[0]['name'], rows[0]['care_level'])
 PY
 ```
 
+Excel: open `companion-hospitals.xlsx` (sheets: 요약, 전체병원, 2차, 1차, 대학, 재활한방, 동네, 24시, 2차_24시).
+
 Or unzip `companion-hospitals-agent-pack-2026-09-20.1.zip` and read `AGENT.md` + `companion-hospitals.jsonl`.
 
 ## Files
@@ -28,6 +30,7 @@ Or unzip `companion-hospitals-agent-pack-2026-09-20.1.zip` and read `AGENT.md` +
 | `schema.json` | Field dictionary + rules |
 | `samples.json` | One example per care_level |
 | `secondary-24h.jsonl` | 2차 + hours_24h=yes subset (189 rows) |
+| `companion-hospitals.xlsx` | Excel workbook (요약/전체/등급별/24시 시트) |
 | `MANIFEST.json` | Checksums + paths |
 
 ## Care levels
