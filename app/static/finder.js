@@ -4,141 +4,32 @@
     lng: null,
     label: null,
     symptom: null,
-    severity: "moderate",
     need24h: false,
+    needEmergency: false,
+    careLevels: new Set(["university", "secondary", "primary", "neighborhood"]),
+    radiusKm: 8,
     busy: false,
+    hospitals: [],
+    featured: [],
+    selectedId: null,
   };
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => Array.from(document.querySelectorAll(sel));
 
   const locStatus = $("#loc-status");
-  const resultsSub = $("#results-sub");
   const resultsList = $("#results-list");
+  const featuredWrap = $("#featured-wrap");
+  const featuredList = $("#featured-list");
+  const countLabel = $("#count-label");
+  const mapHint = $("#map-hint");
+  const radiusInput = $("#radius");
+  const radiusLabel = $("#radius-label");
 
-  function setActive(groupSel, el) {
-    $$(groupSel).forEach((n) => n.classList.remove("active"));
-    if (el) el.classList.add("active");
-  }
-
-  function setLocation(lat, lng, label) {
-    state.lat = lat;
-    state.lng = lng;
-    state.label = label;
-    locStatus.textContent = label
-      ? `기준 위치: ${label} (${lat.toFixed(4)}, ${lng.toFixed(4)})`
-      : `기준 위치: ${lat.toFixed(4)}, ${lng.toFixed(4)}`;
-    maybeSearch();
-  }
-
-  function useGeolocation() {
-    if (!navigator.geolocation) {
-      locStatus.textContent = "이 브라우저는 위치 정보를 지원하지 않아요. 아래 지역을 골라 주세요.";
-      return;
-    }
-    locStatus.textContent = "위치를 확인하는 중…";
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        setLocation(pos.coords.latitude, pos.coords.longitude, "현재 위치");
-        setActive(".chip.city", null);
-      },
-      () => {
-        locStatus.textContent = "위치를 얻지 못했어요. 주요 지역 버튼을 눌러 주세요.";
-      },
-      { enableHighAccuracy: true, timeout: 12000 }
-    );
-  }
-
-  async function maybeSearch() {
-    if (state.lat == null || state.lng == null) return;
-    if (!state.symptom) {
-      resultsSub.textContent = "아픈 부위를 고르면 검색을 시작합니다.";
-      return;
-    }
-    if (state.busy) return;
-    state.busy = true;
-    resultsList.innerHTML = `<p class="loading">근처 병원을 찾는 중…</p>`;
-    resultsSub.textContent = "조건에 맞는 병원을 정렬하고 있어요.";
-
-    const params = new URLSearchParams({
-      lat: String(state.lat),
-      lng: String(state.lng),
-      symptom: state.symptom,
-      severity: state.severity || "moderate",
-      need_24h: String(state.need24h),
-      limit: "15",
-    });
-
-    try {
-      const res = await fetch(`/api/hospitals/nearby?${params.toString()}`);
-      const data = await res.json();
-      renderResults(data);
-    } catch (err) {
-      resultsList.innerHTML = `<p class="empty">검색에 실패했어요. 잠시 후 다시 시도해 주세요.</p>`;
-      resultsSub.textContent = String(err);
-    } finally {
-      state.busy = false;
-    }
-  }
-
-  function renderResults(data) {
-    const hospitals = data.hospitals || [];
-    const f = data.filters || {};
-    const bits = [];
-    if (state.label) bits.push(state.label);
-    bits.push(`반경 ${f.radius_km}km`);
-    if (f.need_24h) bits.push("24시만");
-    if (f.relaxed) bits.push("조건 완화 결과");
-    resultsSub.textContent = hospitals.length
-      ? `${hospitals.length}곳 · ${bits.join(" · ")}`
-      : `조건에 맞는 병원이 없어요. 반경을 넓히거나 24시 조건을 풀어 보세요.`;
-
-    if (!hospitals.length) {
-      resultsList.innerHTML = `<p class="empty">결과가 없습니다.</p>`;
-      return;
-    }
-
-    resultsList.innerHTML = hospitals
-      .map((h, i) => {
-        const badges = [
-          h.care_level_ko ? `<span class="badge">${escapeHtml(h.care_level_ko)}</span>` : "",
-          h.hours_24h === "yes" ? `<span class="badge hot">24시</span>` : "",
-          (h.departments || []).includes("응급") ? `<span class="badge hot">응급</span>` : "",
-          h.department_match ? `<span class="badge">증상 관련</span>` : "",
-        ]
-          .filter(Boolean)
-          .join("");
-
-        const phone = h.phone
-          ? `<a class="call" href="tel:${escapeAttr(h.phone)}">전화 ${escapeHtml(h.phone)}</a>`
-          : "";
-        const map =
-          h.daum_map_url ||
-          `https://map.kakao.com/link/map/${encodeURIComponent(h.name)},${h.lat},${h.lng}`;
-        const place = h.place_search_url
-          ? `<a href="${escapeAttr(h.place_search_url)}" target="_blank" rel="noopener">검색</a>`
-          : "";
-
-        return `
-          <article class="hospital" style="animation-delay:${i * 45}ms">
-            <div class="hospital-top">
-              <h3 class="hospital-name">${escapeHtml(h.name)}</h3>
-              <span class="hospital-dist">${h.distance_km} km</span>
-            </div>
-            <div class="badges">${badges}</div>
-            <p class="hospital-addr">${escapeHtml(h.address || "")}</p>
-            <div class="hospital-actions">
-              ${phone}
-              <a href="${escapeAttr(map)}" target="_blank" rel="noopener">지도</a>
-              ${place}
-            </div>
-          </article>
-        `;
-      })
-      .join("");
-
-    $("#results").scrollIntoView({ behavior: "smooth", block: "start" });
-  }
+  let map = null;
+  let userMarker = null;
+  let hospitalLayer = null;
+  let markersById = new Map();
 
   function escapeHtml(s) {
     return String(s ?? "")
@@ -152,11 +43,278 @@
     return escapeHtml(s).replace(/'/g, "&#39;");
   }
 
-  function hydrate(options) {
-    const stats = options.stats || {};
-    $("#hero-meta").textContent =
-      `전국 동반동물 병원 ${stats.total_with_coords ?? "—"}곳 · 24시 표기 ${stats.hours_24h_yes ?? "—"}곳`;
+  function initMap() {
+    map = L.map("map", {
+      zoomControl: true,
+      attributionControl: true,
+    }).setView([37.5665, 126.978], 12);
 
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+    }).addTo(map);
+
+    hospitalLayer = L.layerGroup().addTo(map);
+
+    map.on("click", (e) => {
+      setLocation(e.latlng.lat, e.latlng.lng, "지도에서 지정");
+      setActive(".chip.city", null);
+      if (mapHint) mapHint.classList.add("hidden");
+    });
+
+    setTimeout(() => map.invalidateSize(), 80);
+  }
+
+  function userIcon() {
+    return L.divIcon({
+      className: "pin-user",
+      html: '<div class="user-pin"></div>',
+      iconSize: [18, 18],
+      iconAnchor: [9, 9],
+    });
+  }
+
+  function hospitalIcon(h) {
+    const hot = h.is_24h || h.is_emergency || h.is_emergency_surgery;
+    const letter = hot ? "!" : "H";
+    return L.divIcon({
+      className: "pin-user",
+      html: `<div class="hospital-pin${hot ? " hot" : ""}"><span>${letter}</span></div>`,
+      iconSize: hot ? [32, 32] : [28, 28],
+      iconAnchor: hot ? [16, 28] : [14, 24],
+      popupAnchor: [0, -22],
+    });
+  }
+
+  function setActive(groupSel, el) {
+    $$(groupSel).forEach((n) => n.classList.remove("active"));
+    if (el) el.classList.add("active");
+  }
+
+  function setLocation(lat, lng, label) {
+    state.lat = lat;
+    state.lng = lng;
+    state.label = label;
+    locStatus.textContent = label
+      ? `${label} · ${lat.toFixed(4)}, ${lng.toFixed(4)}`
+      : `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
+
+    if (userMarker) {
+      userMarker.setLatLng([lat, lng]);
+    } else {
+      userMarker = L.marker([lat, lng], { icon: userIcon(), zIndexOffset: 1000 }).addTo(map);
+      userMarker.bindPopup("기준 위치");
+    }
+    map.setView([lat, lng], Math.max(map.getZoom(), 12), { animate: true });
+    maybeSearch();
+  }
+
+  function useGeolocation() {
+    if (!navigator.geolocation) {
+      locStatus.textContent = "GPS를 쓸 수 없어요. 지도를 클릭하거나 지역을 골라 주세요.";
+      return;
+    }
+    locStatus.textContent = "GPS 확인 중…";
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setLocation(pos.coords.latitude, pos.coords.longitude, "내 위치");
+        setActive(".chip.city", null);
+        if (mapHint) mapHint.classList.add("hidden");
+      },
+      () => {
+        locStatus.textContent = "위치를 얻지 못했어요. 지도를 클릭하거나 지역을 골라 주세요.";
+      },
+      { enableHighAccuracy: true, timeout: 12000 }
+    );
+  }
+
+  async function maybeSearch() {
+    if (state.lat == null || state.lng == null) return;
+    if (state.busy) return;
+    state.busy = true;
+    resultsList.innerHTML = `<p class="loading">근처 병원을 찾는 중…</p>`;
+    if (countLabel) countLabel.textContent = "";
+
+    const params = new URLSearchParams({
+      lat: String(state.lat),
+      lng: String(state.lng),
+      need_24h: String(state.need24h),
+      need_emergency: String(state.needEmergency),
+      radius_km: String(state.radiusKm),
+      limit: "50",
+    });
+    if (state.careLevels.size && state.careLevels.size < 4) {
+      params.set("care_levels", Array.from(state.careLevels).join(","));
+    }
+    if (state.symptom) params.set("symptom", state.symptom);
+
+    try {
+      const res = await fetch(`/api/hospitals/nearby?${params.toString()}`);
+      const data = await res.json();
+      state.hospitals = data.hospitals || [];
+      state.featured = data.featured || [];
+      renderResults(data);
+      renderMarkers(state.hospitals);
+    } catch (err) {
+      resultsList.innerHTML = `<p class="empty">검색에 실패했어요. 잠시 후 다시 시도해 주세요.</p>`;
+      featuredWrap.hidden = true;
+    } finally {
+      state.busy = false;
+    }
+  }
+
+  function badgeHtml(h) {
+    const badges = [];
+    if (h.care_level_short || h.care_level_ko) {
+      badges.push(`<span class="badge">${escapeHtml(h.care_level_short || h.care_level_ko)}</span>`);
+    }
+    if (h.is_24h) badges.push(`<span class="badge hot">24시</span>`);
+    if (h.is_emergency_surgery) badges.push(`<span class="badge hot">응급수술</span>`);
+    else if (h.is_emergency) badges.push(`<span class="badge hot">응급</span>`);
+    (h.equipment || []).slice(0, 4).forEach((e) => {
+      badges.push(`<span class="badge equip">${escapeHtml(e)}</span>`);
+    });
+    return badges.join("");
+  }
+
+  function deptsLine(h) {
+    const deps = (h.departments || []).slice(0, 6);
+    if (!deps.length) return "";
+    return `<p class="hospital-meta">진료: ${escapeHtml(deps.join(" · "))}</p>`;
+  }
+
+  function equipLine(h) {
+    const eq = h.equipment || [];
+    if (!eq.length) return "";
+    return `<p class="hospital-meta">장비: ${escapeHtml(eq.slice(0, 5).join(", "))}</p>`;
+  }
+
+  function actionsHtml(h) {
+    const phone = h.phone
+      ? `<a class="call" href="tel:${escapeAttr(h.phone)}" onclick="event.stopPropagation()">전화</a>`
+      : "";
+    const mapUrl =
+      h.daum_map_url ||
+      `https://map.kakao.com/link/map/${encodeURIComponent(h.name)},${h.lat},${h.lng}`;
+    return `
+      <div class="hospital-actions">
+        ${phone}
+        <a href="${escapeAttr(mapUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">길찾기</a>
+      </div>`;
+  }
+
+  function cardHtml(h, i, { priority = false } = {}) {
+    return `
+      <button type="button" class="hospital${priority ? " priority" : ""}${state.selectedId === h.id ? " selected" : ""}" data-id="${escapeAttr(h.id)}" style="animation-delay:${i * 35}ms">
+        <div class="hospital-top">
+          <h3 class="hospital-name">${escapeHtml(h.name)}</h3>
+          <span class="hospital-dist">${h.distance_km} km</span>
+        </div>
+        <div class="badges">${badgeHtml(h)}</div>
+        <p class="hospital-addr">${escapeHtml(h.address || "")}</p>
+        ${deptsLine(h)}
+        ${equipLine(h)}
+        ${actionsHtml(h)}
+      </button>`;
+  }
+
+  function bindCardClicks(root) {
+    root.querySelectorAll(".hospital").forEach((el) => {
+      el.addEventListener("click", () => {
+        const id = el.dataset.id;
+        selectHospital(id);
+      });
+    });
+  }
+
+  function renderResults(data) {
+    const featured = data.featured || [];
+    const hospitals = data.hospitals || [];
+    const f = data.filters || {};
+
+    if (countLabel) {
+      const bits = [`${hospitals.length}곳`, `반경 ${f.radius_km}km`];
+      if (f.relaxed) bits.push("조건 완화");
+      countLabel.textContent = hospitals.length ? `· ${bits.join(" · ")}` : "";
+    }
+
+    if (featured.length) {
+      featuredWrap.hidden = false;
+      featuredList.innerHTML = featured.slice(0, 8).map((h, i) => cardHtml(h, i, { priority: true })).join("");
+      bindCardClicks(featuredList);
+    } else {
+      featuredWrap.hidden = true;
+      featuredList.innerHTML = "";
+    }
+
+    if (!hospitals.length) {
+      resultsList.innerHTML = `<p class="empty">이 반경에 병원이 없어요. 지도를 옮기거나 반경을 넓혀 보세요.</p>`;
+      return;
+    }
+
+    // Full list already has featured first from API; show all for map sync
+    resultsList.innerHTML = hospitals.map((h, i) => cardHtml(h, i, { priority: h.is_24h || h.is_emergency })).join("");
+    bindCardClicks(resultsList);
+  }
+
+  function renderMarkers(hospitals) {
+    hospitalLayer.clearLayers();
+    markersById = new Map();
+    if (!hospitals.length) return;
+
+    const bounds = [];
+    if (state.lat != null) bounds.push([state.lat, state.lng]);
+
+    hospitals.forEach((h) => {
+      if (h.lat == null || h.lng == null) return;
+      const m = L.marker([h.lat, h.lng], {
+        icon: hospitalIcon(h),
+        zIndexOffset: h.is_24h || h.is_emergency ? 400 : 200,
+      });
+      const popup = `
+        <div class="popup-card">
+          <h3>${escapeHtml(h.name)}</h3>
+          <div class="badges">${badgeHtml(h)}</div>
+          <p>${escapeHtml(h.address || "")}</p>
+          ${deptsLine(h)}
+          ${equipLine(h)}
+          <p>${h.distance_km} km</p>
+        </div>`;
+      m.bindPopup(popup, { maxWidth: 280 });
+      m.on("click", () => selectHospital(h.id, { fromMap: true }));
+      m.addTo(hospitalLayer);
+      markersById.set(h.id, m);
+      bounds.push([h.lat, h.lng]);
+    });
+
+    if (bounds.length > 1) {
+      try {
+        map.fitBounds(bounds, { padding: [36, 36], maxZoom: 14 });
+      } catch (_) {
+        /* ignore */
+      }
+    }
+  }
+
+  function selectHospital(id, { fromMap = false } = {}) {
+    state.selectedId = id;
+    $$(".hospital").forEach((el) => {
+      el.classList.toggle("selected", el.dataset.id === id);
+    });
+    const marker = markersById.get(id);
+    if (marker) {
+      if (!fromMap) {
+        map.panTo(marker.getLatLng(), { animate: true });
+      }
+      marker.openPopup();
+    }
+    const card = document.querySelector(`.hospital[data-id="${CSS.escape(id)}"]`);
+    if (card && !fromMap) {
+      card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }
+
+  function hydrate(options) {
     const cityWrap = $("#city-chips");
     cityWrap.innerHTML = (options.cities || [])
       .map(
@@ -165,72 +323,107 @@
       )
       .join("");
 
-    const symptomWrap = $("#symptom-grid");
-    symptomWrap.innerHTML = (options.symptoms || [])
+    const careWrap = $("#care-chips");
+    careWrap.innerHTML = (options.care_levels || [])
       .map(
-        (s) => `
-        <button type="button" class="symptom" data-symptom="${escapeAttr(s.id)}">
-          <span class="symptom-label">${escapeHtml(s.label)}</span>
-          <span class="symptom-hint">${escapeHtml(s.hint)}</span>
-        </button>`
+        (c) =>
+          `<button type="button" class="chip care active" data-care="${escapeAttr(c.id)}" aria-pressed="true">${escapeHtml(c.label)}</button>`
       )
       .join("");
 
-    const severityWrap = $("#severity-grid");
-    severityWrap.innerHTML = (options.severities || [])
-      .map(
-        (s) => `
-        <button type="button" class="severity" data-severity="${escapeAttr(s.id)}">
-          <span class="severity-label">${escapeHtml(s.label)}</span>
-          <span class="severity-hint">${escapeHtml(s.hint)}</span>
-        </button>`
-      )
-      .join("");
+    const symptomWrap = $("#symptom-chips");
+    symptomWrap.innerHTML =
+      `<button type="button" class="chip symptom active" data-symptom="" aria-pressed="true">전체</button>` +
+      (options.symptoms || [])
+        .filter((s) => s.id !== "unknown")
+        .map(
+          (s) =>
+            `<button type="button" class="chip symptom" data-symptom="${escapeAttr(s.id)}" aria-pressed="false">${escapeHtml(s.label)}</button>`
+        )
+        .join("");
 
     $$(".chip.city").forEach((btn) => {
       btn.addEventListener("click", () => {
         setActive(".chip.city", btn);
         setLocation(Number(btn.dataset.lat), Number(btn.dataset.lng), btn.dataset.label);
+        if (mapHint) mapHint.classList.add("hidden");
       });
     });
 
-    $$(".symptom").forEach((btn) => {
+    $$(".chip.care").forEach((btn) => {
       btn.addEventListener("click", () => {
-        setActive(".symptom", btn);
-        state.symptom = btn.dataset.symptom;
+        const id = btn.dataset.care;
+        const on = btn.getAttribute("aria-pressed") !== "true";
+        btn.setAttribute("aria-pressed", String(on));
+        btn.classList.toggle("active", on);
+        if (on) state.careLevels.add(id);
+        else state.careLevels.delete(id);
+        if (state.careLevels.size === 0) {
+          // keep at least one so results aren't empty by accident
+          state.careLevels.add(id);
+          btn.setAttribute("aria-pressed", "true");
+          btn.classList.add("active");
+        }
         maybeSearch();
       });
     });
 
-    $$(".severity").forEach((btn) => {
+    $$(".chip.symptom").forEach((btn) => {
       btn.addEventListener("click", () => {
-        setActive(".severity", btn);
-        state.severity = btn.dataset.severity;
+        $$(".chip.symptom").forEach((n) => {
+          n.classList.remove("active");
+          n.setAttribute("aria-pressed", "false");
+        });
+        btn.classList.add("active");
+        btn.setAttribute("aria-pressed", "true");
+        state.symptom = btn.dataset.symptom || null;
         maybeSearch();
       });
     });
-
-    const defaultSeverity = $(`.severity[data-severity="moderate"]`);
-    if (defaultSeverity) defaultSeverity.classList.add("active");
   }
 
   $("#btn-geo")?.addEventListener("click", useGeolocation);
-  $("#btn-geo-2")?.addEventListener("click", useGeolocation);
-  $("#btn-scroll-triage")?.addEventListener("click", () => {
-    $("#triage")?.scrollIntoView({ behavior: "smooth" });
-  });
 
   const btn24 = $("#btn-24h");
   btn24?.addEventListener("click", () => {
     state.need24h = !state.need24h;
     btn24.setAttribute("aria-pressed", String(state.need24h));
+    btn24.classList.toggle("active", state.need24h);
     maybeSearch();
   });
 
+  const btnEr = $("#btn-er");
+  btnEr?.addEventListener("click", () => {
+    state.needEmergency = !state.needEmergency;
+    btnEr.setAttribute("aria-pressed", String(state.needEmergency));
+    btnEr.classList.toggle("active", state.needEmergency);
+    maybeSearch();
+  });
+
+  radiusInput?.addEventListener("input", () => {
+    state.radiusKm = Number(radiusInput.value);
+    if (radiusLabel) radiusLabel.textContent = String(state.radiusKm);
+  });
+  radiusInput?.addEventListener("change", () => {
+    state.radiusKm = Number(radiusInput.value);
+    maybeSearch();
+  });
+
+  initMap();
+
   fetch("/api/triage/options")
     .then((r) => r.json())
-    .then(hydrate)
+    .then((options) => {
+      hydrate(options);
+      // Default: Seoul City Hall so map isn't empty before GPS
+      const seoul = (options.cities || []).find((c) => /서울/.test(c.label));
+      if (seoul) {
+        setLocation(seoul.lat, seoul.lng, seoul.label);
+        const chip = $(`.chip.city[data-label="${CSS.escape(seoul.label)}"]`);
+        if (chip) setActive(".chip.city", chip);
+      }
+    })
     .catch(() => {
-      $("#hero-meta").textContent = "옵션을 불러오지 못했어요. 새로고침 해 주세요.";
+      locStatus.textContent = "옵션을 불러오지 못했어요. 새로고침 해 주세요.";
     });
 })();

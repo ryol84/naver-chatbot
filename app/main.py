@@ -7,10 +7,10 @@ from fastapi import FastAPI, Query, Request
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.hospitals import search_nearby, stats
+from app.hospitals import CARE_LABEL, search_nearby, stats
 from app.triage import CITY_PRESETS, SEVERITIES, SYMPTOMS, resolve_filters
 
-app = FastAPI(title="바로벳 — 근처 동물병원 찾기")
+app = FastAPI(title="Clowder hospital map embed")
 
 BASE_DIR = Path(__file__).resolve().parent
 STATIC_DIR = BASE_DIR / "static"
@@ -26,6 +26,7 @@ except Exception:  # pragma: no cover
 
 @app.get("/")
 async def finder_home():
+    """Embeddable map panel for Clowder (no marketing hero)."""
     return FileResponse(STATIC_DIR / "finder.html")
 
 
@@ -45,32 +46,50 @@ async def triage_options():
         "symptoms": SYMPTOMS,
         "severities": SEVERITIES,
         "cities": CITY_PRESETS,
+        "care_levels": [
+            {"id": "university", "label": CARE_LABEL["university"]},
+            {"id": "secondary", "label": CARE_LABEL["secondary"]},
+            {"id": "primary", "label": CARE_LABEL["primary"]},
+            {"id": "neighborhood", "label": CARE_LABEL["neighborhood"]},
+        ],
         "stats": stats(),
     }
 
 
 @app.get("/api/hospitals/nearby")
 async def hospitals_nearby(
-    lat: float = Query(..., description="User latitude"),
-    lng: float = Query(..., description="User longitude"),
-    symptom: str | None = Query(None, description="Symptom id from /api/triage/options"),
-    severity: str | None = Query(None, description="Severity id"),
-    need_24h: bool = Query(False, description="Require hours_24h=yes"),
+    lat: float = Query(...),
+    lng: float = Query(...),
+    symptom: str | None = Query(None),
+    severity: str | None = Query(None),
+    need_24h: bool = Query(False),
+    need_emergency: bool = Query(False),
+    care_levels: str | None = Query(
+        None,
+        description="Comma-separated: university,secondary,primary,neighborhood",
+    ),
     radius_km: float | None = Query(None, ge=0.5, le=50),
-    limit: int = Query(20, ge=1, le=50),
+    limit: int = Query(40, ge=1, le=80),
 ):
     filters = resolve_filters(symptom_id=symptom, severity_id=severity, need_24h=need_24h)
     use_radius = radius_km if radius_km is not None else filters["radius_km"]
+
+    level_list: list[str] | None = None
+    if care_levels:
+        level_list = [x.strip() for x in care_levels.split(",") if x.strip()]
+    elif severity:
+        level_list = filters["care_levels"]
 
     results = search_nearby(
         lat=lat,
         lng=lng,
         radius_km=use_radius,
         limit=limit,
-        need_24h=filters["need_24h"],
-        min_care_levels=filters["care_levels"],
-        department_keywords=filters["department_keywords"],
-        prefer_emergency_dept=filters["prefer_emergency_dept"],
+        need_24h=filters["need_24h"] or need_24h,
+        need_emergency=need_emergency,
+        care_levels=level_list,
+        department_keywords=filters["department_keywords"] if symptom else [],
+        prefer_emergency_dept=filters["prefer_emergency_dept"] or need_emergency,
     )
 
     relaxed = False
@@ -81,25 +100,30 @@ async def hospitals_nearby(
             lng=lng,
             radius_km=min(use_radius * 1.8, 30),
             limit=limit,
-            need_24h=filters["need_24h"],
-            min_care_levels=None,
-            department_keywords=filters["department_keywords"],
-            prefer_emergency_dept=filters["prefer_emergency_dept"],
+            need_24h=need_24h,
+            need_emergency=False,
+            care_levels=None,
+            department_keywords=[],
+            prefer_emergency_dept=need_emergency,
         )
+
+    featured = [h for h in results if h.get("is_24h") or h.get("is_emergency_surgery") or h.get("is_emergency")]
+    rest = [h for h in results if h not in featured]
 
     return {
         "count": len(results),
         "filters": {
             "symptom": symptom,
             "severity": severity,
-            "need_24h": filters["need_24h"],
-            "prefer_24h": filters["prefer_24h"],
+            "need_24h": need_24h or filters["need_24h"],
+            "need_emergency": need_emergency,
             "radius_km": use_radius,
-            "care_levels": filters["care_levels"],
-            "department_keywords": filters["department_keywords"],
+            "care_levels": level_list,
+            "department_keywords": filters["department_keywords"] if symptom else [],
             "relaxed": relaxed,
         },
-        "hospitals": results,
+        "featured": featured,
+        "hospitals": featured + rest,
     }
 
 
@@ -109,10 +133,7 @@ async def naver_callback(request: Request):
     message = data.get("content", "")
 
     if openai is None or not os.getenv("OPENAI_API_KEY"):
-        answer = (
-            "바로벳 근처 병원 찾기는 웹에서 이용할 수 있어요. "
-            "증상·중증도·24시 여부를 고르면 주변 병원을 바로 보여줍니다."
-        )
+        answer = "클라우더 병원 지도에서 위치·등급·24시·응급으로 근처 병원을 확인할 수 있어요."
     else:
         response = openai.ChatCompletion.create(
             model="gpt-4o",
