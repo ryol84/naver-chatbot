@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>바로벳 — 지금 필요한 동물병원</title>
+  <meta name="description" content="내 위치 기준으로 강아지·고양이 병원을 찾고, 아픈 부위·중증도·24시 여부로 바로 걸러보세요." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/finder.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="/">바로벳</a>
+    <nav>
+      <a href="#triage">찾기</a>
+      <a href="/benchmark">벤치마크</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="brand-mark">바로벳</p>
+      <h1>지금 필요한<br />동물병원을 바로.</h1>
+      <p class="lede">위치 · 아픈 곳 · 급한 정도 · 24시 — 버튼만으로 근처 병원을 좁혀줍니다.</p>
+      <div class="hero-cta">
+        <button type="button" class="btn primary" id="btn-geo">내 위치로 찾기</button>
+        <button type="button" class="btn ghost" id="btn-scroll-triage">증상부터 고르기</button>
+      </div>
+      <p class="hero-meta" id="hero-meta">전국 동반동물 병원 데이터를 불러오는 중…</p>
+    </section>
+
+    <section class="panel" id="location">
+      <h2>어디에 계신가요?</h2>
+      <p class="sub">GPS를 쓰거나, 주요 지역을 골라 주세요.</p>
+      <div class="loc-row">
+        <button type="button" class="btn primary compact" id="btn-geo-2">현재 위치 사용</button>
+        <p class="loc-status" id="loc-status" aria-live="polite">위치가 아직 없어요.</p>
+      </div>
+      <div class="chip-row" id="city-chips" role="list"></div>
+    </section>
+
+    <section class="panel" id="triage">
+      <h2>강아지가 어디가 아픈가요?</h2>
+      <p class="sub">해당하는 부위를 누르면 관련 진료과를 우선합니다.</p>
+      <div class="grid-symptoms" id="symptom-grid" role="group" aria-label="증상"></div>
+    </section>
+
+    <section class="panel" id="severity">
+      <h2>얼마나 급한가요?</h2>
+      <p class="sub">중증도에 따라 병원 급수와 검색 반경이 달라집니다.</p>
+      <div class="grid-severity" id="severity-grid" role="group" aria-label="중증도"></div>
+      <div class="toggle-24">
+        <button type="button" class="btn-24" id="btn-24h" aria-pressed="false">
+          <span class="btn-24-title">24시간 병원만</span>
+          <span class="btn-24-sub">야간·응급이 필요할 때</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="panel results-panel" id="results">
+      <div class="results-head">
+        <h2>근처 추천</h2>
+        <p class="sub" id="results-sub">위치와 조건을 고르면 여기에 나타납니다.</p>
+      </div>
+      <div id="results-list" class="results-list"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>참고용 안내입니다. 응급이 의심되면 지체 없이 전화·방문하세요.</p>
+    <a href="/benchmark">미국·유럽 유사 서비스 벤치마크</a>
+  </footer>
+
+  <script src="/static/finder.js" defer></script>
+</body>
+</html>
