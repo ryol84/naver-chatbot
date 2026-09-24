@@ -98,6 +98,37 @@ def _coords_match_sido(sido: str | None, lat: float, lng: float) -> bool:
     return lat_min <= lat <= lat_max and lng_min <= lng <= lng_max
 
 
+# City/county centroids for catching wrong coords inside a large sido (e.g. 통영 주소 + 부산 좌표)
+_SIGUNGU_CENTROID: dict[str, tuple[float, float]] = {
+    "통영시": (34.8544, 128.4331),
+    "사천시": (35.0038, 128.0642),
+    "거제시": (34.8806, 128.6211),
+    "진주시": (35.1800, 128.1076),
+    "밀양시": (35.5037, 128.7464),
+    "태백시": (37.1641, 128.9856),
+    "금산군": (36.1087, 127.4882),
+    "양평군": (37.4917, 127.4876),
+    "익산시": (35.9483, 126.9578),
+    "목포시": (34.8118, 126.3922),
+    "제천시": (37.1326, 128.1910),
+    "서귀포시": (33.2541, 126.5600),
+    "제주시": (33.4996, 126.5312),
+    "아산시": (36.7898, 127.0017),
+    "용인시": (37.2410, 127.1775),
+}
+_SIGUNGU_MAX_KM = 55.0
+
+
+def _coords_match_sigungu(sigungu: str | None, lat: float, lng: float) -> bool:
+    if not sigungu:
+        return True
+    key = sigungu.strip()
+    cen = _SIGUNGU_CENTROID.get(key)
+    if cen is None:
+        return True
+    return haversine_km(cen[0], cen[1], lat, lng) <= _SIGUNGU_MAX_KM
+
+
 def haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
     r = 6371.0
     p1, p2 = math.radians(lat1), math.radians(lat2)
@@ -195,6 +226,8 @@ def load_hospitals() -> tuple[dict[str, Any], ...]:
             lat, lng = float(row["lat"]), float(row["lng"])
             # Drop swapped/wrong geocodes (e.g. Busan coords + Gangwon address)
             if not _coords_match_sido(row.get("sido"), lat, lng):
+                continue
+            if not _coords_match_sigungu(row.get("sigungu"), lat, lng):
                 continue
             rows.append(_enrich(row))
     return tuple(rows)
