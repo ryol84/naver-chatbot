@@ -38,6 +38,65 @@ EQUIP_FROM_DEPT = [
     (re.compile(r"방사선|X-?ray|엑스레이", re.I), "X-ray"),
 ]
 
+# Rough sido bounding boxes to drop rows whose lat/lng disagree with address sido.
+# (Some companion rows have Busan-area coords but Gangwon/Jeju/Chungnam addresses.)
+_SIDO_BBOX: dict[str, tuple[float, float, float, float]] = {
+    # lat_min, lat_max, lng_min, lng_max
+    "서울": (37.40, 37.75, 126.75, 127.20),
+    "서울특별시": (37.40, 37.75, 126.75, 127.20),
+    "부산": (34.85, 35.40, 128.75, 129.35),
+    "부산광역시": (34.85, 35.40, 128.75, 129.35),
+    "대구": (35.70, 36.05, 128.40, 128.80),
+    "대구광역시": (35.70, 36.05, 128.40, 128.80),
+    "인천": (37.25, 37.85, 126.30, 126.90),
+    "인천광역시": (37.25, 37.85, 126.30, 126.90),
+    "광주": (35.05, 35.30, 126.65, 127.05),
+    "광주광역시": (35.05, 35.30, 126.65, 127.05),
+    "대전": (36.20, 36.50, 127.25, 127.55),
+    "대전광역시": (36.20, 36.50, 127.25, 127.55),
+    "울산": (35.40, 35.75, 129.05, 129.50),
+    "울산광역시": (35.40, 35.75, 129.05, 129.50),
+    "세종": (36.40, 36.65, 127.15, 127.40),
+    "세종특별자치시": (36.40, 36.65, 127.15, 127.40),
+    "경기": (36.85, 38.30, 126.35, 127.90),
+    "경기도": (36.85, 38.30, 126.35, 127.90),
+    "강원": (37.00, 38.65, 127.05, 129.40),
+    "강원도": (37.00, 38.65, 127.05, 129.40),
+    "강원특별자치도": (37.00, 38.65, 127.05, 129.40),
+    "충북": (36.00, 37.25, 127.20, 128.70),
+    "충청북도": (36.00, 37.25, 127.20, 128.70),
+    "충남": (35.95, 37.10, 125.95, 127.65),
+    "충청남도": (35.95, 37.10, 125.95, 127.65),
+    "전북": (35.30, 36.20, 126.35, 127.80),
+    "전라북도": (35.30, 36.20, 126.35, 127.80),
+    "전북특별자치도": (35.30, 36.20, 126.35, 127.80),
+    "전남": (34.20, 35.50, 125.95, 127.85),
+    "전라남도": (34.20, 35.50, 125.95, 127.85),
+    "경북": (35.55, 37.10, 128.00, 129.65),
+    "경상북도": (35.55, 37.10, 128.00, 129.65),
+    "경남": (34.50, 35.90, 127.55, 129.30),
+    "경상남도": (34.50, 35.90, 127.55, 129.30),
+    "제주": (33.10, 33.60, 126.10, 127.00),
+    "제주특별자치도": (33.10, 33.60, 126.10, 127.00),
+}
+
+
+def _coords_match_sido(sido: str | None, lat: float, lng: float) -> bool:
+    """False when address sido and coordinates clearly disagree."""
+    if not sido:
+        return True
+    key = sido.strip()
+    box = _SIDO_BBOX.get(key)
+    if box is None:
+        for name, b in _SIDO_BBOX.items():
+            if key.startswith(name[:2]):
+                box = b
+                break
+    if box is None:
+        return True
+    lat_min, lat_max, lng_min, lng_max = box
+    return lat_min <= lat <= lat_max and lng_min <= lng <= lng_max
+
 
 def haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
     r = 6371.0
@@ -132,6 +191,10 @@ def load_hospitals() -> tuple[dict[str, Any], ...]:
                 continue
             row = json.loads(line)
             if row.get("lat") is None or row.get("lng") is None:
+                continue
+            lat, lng = float(row["lat"]), float(row["lng"])
+            # Drop swapped/wrong geocodes (e.g. Busan coords + Gangwon address)
+            if not _coords_match_sido(row.get("sido"), lat, lng):
                 continue
             rows.append(_enrich(row))
     return tuple(rows)
@@ -228,6 +291,20 @@ def search_nearby(
     return out
 
 
+@lru_cache(maxsize=1)
+def _raw_coord_count() -> int:
+    n = 0
+    with DATA_PATH.open(encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            row = json.loads(line)
+            if row.get("lat") is not None and row.get("lng") is not None:
+                n += 1
+    return n
+
+
 def stats() -> dict[str, Any]:
     rows = load_hospitals()
     by_care: dict[str, int] = {}
@@ -242,8 +319,10 @@ def stats() -> dict[str, Any]:
             er_surg += 1
         if h.get("equipment"):
             with_equip += 1
+    raw = _raw_coord_count()
     return {
         "total_with_coords": len(rows),
+        "excluded_coord_mismatch": max(0, raw - len(rows)),
         "by_care_level": by_care,
         "hours_24h_yes": h24,
         "emergency": er,

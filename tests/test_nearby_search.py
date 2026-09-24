@@ -55,3 +55,19 @@ def test_stats_has_care_levels():
     s = stats()
     assert s["total_with_coords"] > 1000
     assert "university" in s["by_care_level"] or "primary" in s["by_care_level"]
+    assert s.get("excluded_coord_mismatch", 0) >= 0
+
+
+def test_busan_haeundae_excludes_remote_sido():
+    """Coords that disagree with address sido must not appear near Busan."""
+    from app.triage import CITY_PRESETS
+
+    busan = next(c for c in CITY_PRESETS if c["id"] == "busan-haeundae")
+    rows = search_nearby(lat=busan["lat"], lng=busan["lng"], radius_km=12, limit=50)
+    assert rows
+    # Only Busan-area administrative regions should remain after coord QA
+    allowed = ("부산", "울산", "경남", "경상남")
+    for h in rows:
+        sido = h.get("sido") or ""
+        assert any(sido.startswith(p) for p in allowed), (h.get("name"), sido, h.get("address"))
+    assert any((h.get("sido") or "").startswith("부산") for h in rows)
