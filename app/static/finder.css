@@ -95,6 +95,71 @@ body.embed {
   color: var(--muted);
 }
 
+.filter-label-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+
+.filter-label-row .filter-label {
+  margin: 0;
+}
+
+.linkish {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.care-guide {
+  margin-top: 0.65rem;
+  padding: 0.7rem 0.75rem;
+  border-radius: var(--radius);
+  background: rgba(13, 63, 55, 0.05);
+  border: 1px solid var(--line);
+}
+
+.care-guide[hidden] {
+  display: none;
+}
+
+.care-guide dl {
+  margin: 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.care-guide div {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  gap: 0.45rem;
+  align-items: start;
+}
+
+.care-guide dt {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.care-guide dd {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
 .btn {
   appearance: none;
   border: 0;

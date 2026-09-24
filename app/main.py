@@ -47,10 +47,26 @@ async def triage_options():
         "severities": SEVERITIES,
         "cities": CITY_PRESETS,
         "care_levels": [
-            {"id": "university", "label": CARE_LABEL["university"]},
-            {"id": "secondary", "label": CARE_LABEL["secondary"]},
-            {"id": "primary", "label": CARE_LABEL["primary"]},
-            {"id": "neighborhood", "label": CARE_LABEL["neighborhood"]},
+            {
+                "id": "university",
+                "label": CARE_LABEL["university"],
+                "hint": "대학 부속 동물병원. 난이도 높은 진료·의뢰에 적합해요.",
+            },
+            {
+                "id": "secondary",
+                "label": CARE_LABEL["secondary"],
+                "hint": "분과·영상(CT/MRI 등) 중심. 정밀 검사·수술이 필요할 때.",
+            },
+            {
+                "id": "primary",
+                "label": CARE_LABEL["primary"],
+                "hint": "내과·외과까지 보는 종합형 1차. 진료 폭이 더 넓어요.",
+            },
+            {
+                "id": "neighborhood",
+                "label": CARE_LABEL["neighborhood"],
+                "hint": "가까운 동네병원. 예방접종·가벼운 진료에 잘 맞아요.",
+            },
         ],
         "stats": stats(),
     }

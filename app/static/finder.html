@@ -24,8 +24,31 @@
       </div>
 
       <div class="filter-block">
-        <p class="filter-label">병원 등급</p>
+        <div class="filter-label-row">
+          <p class="filter-label">병원 등급</p>
+          <button type="button" class="linkish" id="btn-care-help" aria-expanded="true" aria-controls="care-guide">등급 안내</button>
+        </div>
         <div class="chip-row" id="care-chips"></div>
+        <div class="care-guide" id="care-guide">
+          <dl>
+            <div>
+              <dt>일반</dt>
+              <dd>가까운 동네 동물병원이에요. 예방접종·건강검진·가벼운 진료에 잘 맞아요.</dd>
+            </div>
+            <div>
+              <dt>1차</dt>
+              <dd>내과·외과까지 보는 종합형 1차 병원이에요. 조금 더 넓은 진료, 24시 운영도 많아요.</dd>
+            </div>
+            <div>
+              <dt>2차</dt>
+              <dd>분과·영상(CT/MRI 등) 중심의 의료센터예요. 정밀 검사나 수술이 필요할 때 찾아요.</dd>
+            </div>
+            <div>
+              <dt>대학병원</dt>
+              <dd>대학 부속 동물병원이에요. 난이도 높은 진료나 의뢰가 필요한 경우에 적합해요.</dd>
+            </div>
+          </dl>
+        </div>
       </div>
 
       <div class="filter-block">

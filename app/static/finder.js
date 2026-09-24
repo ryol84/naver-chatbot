@@ -422,6 +422,17 @@
 
   $("#btn-geo")?.addEventListener("click", useGeolocation);
 
+  const careGuide = $("#care-guide");
+  const btnCareHelp = $("#btn-care-help");
+  btnCareHelp?.addEventListener("click", () => {
+    if (!careGuide) return;
+    const open = careGuide.hasAttribute("hidden");
+    if (open) careGuide.removeAttribute("hidden");
+    else careGuide.setAttribute("hidden", "");
+    btnCareHelp.setAttribute("aria-expanded", String(open));
+    btnCareHelp.textContent = open ? "등급 안내 닫기" : "등급 안내";
+  });
+
   const btn24 = $("#btn-24h");
   btn24?.addEventListener("click", () => {
     state.need24h = !state.need24h;
