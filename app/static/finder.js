@@ -365,7 +365,7 @@
     careWrap.innerHTML = (options.care_levels || [])
       .map(
         (c) =>
-          `<button type="button" class="chip care active" data-care="${escapeAttr(c.id)}" aria-pressed="true">${escapeHtml(c.label)}</button>`
+          `<button type="button" class="chip care active" data-care="${escapeAttr(c.id)}" aria-pressed="true" title="${escapeAttr(c.hint || c.label)}">${escapeHtml(c.label)}</button>`
       )
       .join("");
 
