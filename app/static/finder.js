@@ -58,7 +58,6 @@
 
     map.on("click", (e) => {
       setLocation(e.latlng.lat, e.latlng.lng, "지도에서 지정");
-      setActive(".chip.city", null);
       if (mapHint) mapHint.classList.add("hidden");
     });
 
@@ -111,18 +110,17 @@
 
   function useGeolocation() {
     if (!navigator.geolocation) {
-      locStatus.textContent = "GPS를 쓸 수 없어요. 지도를 클릭하거나 지역을 골라 주세요.";
+      locStatus.textContent = "GPS를 쓸 수 없어요. 지도를 클릭해 위치를 지정해 주세요.";
       return;
     }
     locStatus.textContent = "GPS 확인 중…";
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         setLocation(pos.coords.latitude, pos.coords.longitude, "내 위치");
-        setActive(".chip.city", null);
         if (mapHint) mapHint.classList.add("hidden");
       },
       () => {
-        locStatus.textContent = "위치를 얻지 못했어요. 지도를 클릭하거나 지역을 골라 주세요.";
+        locStatus.textContent = "위치를 얻지 못했어요. 지도를 클릭해 위치를 지정해 주세요.";
       },
       { enableHighAccuracy: true, timeout: 12000 }
     );
