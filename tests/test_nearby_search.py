@@ -1,3 +1,4 @@
+from app.geo_qa import normalize_sido
 from app.hospitals import search_nearby, stats
 from app.triage import resolve_filters
 
@@ -65,9 +66,7 @@ def test_busan_haeundae_excludes_remote_sido():
     busan = next(c for c in CITY_PRESETS if c["id"] == "busan-haeundae")
     rows = search_nearby(lat=busan["lat"], lng=busan["lng"], radius_km=12, limit=50)
     assert rows
-    # Only Busan-area administrative regions should remain after coord QA
-    allowed = ("부산", "울산", "경남", "경상남")
+    allowed = {"부산", "울산", "경남"}
     for h in rows:
-        sido = h.get("sido") or ""
-        assert any(sido.startswith(p) for p in allowed), (h.get("name"), sido, h.get("address"))
-    assert any((h.get("sido") or "").startswith("부산") for h in rows)
+        assert normalize_sido(h.get("sido")) in allowed, (h.get("name"), h.get("sido"), h.get("address"))
+    assert any(normalize_sido(h.get("sido")) == "부산" for h in rows)
