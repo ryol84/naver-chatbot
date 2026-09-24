@@ -184,7 +184,7 @@ def search_nearby(
     prefer_emergency_dept: bool = False,
     hard_department_filter: bool = False,
 ) -> list[dict[str, Any]]:
-    """Nearby hospitals. 24h + emergency surgery float to the top."""
+    """Nearby hospitals, nearest first within the radius."""
     dept_kw = department_keywords or []
     care_allow = set(care_levels) if care_levels else None
 
@@ -206,7 +206,7 @@ def search_nearby(
             continue
 
         care = CARE_RANK.get(h.get("care_level") or "", 0)
-        priority = int(h.get("priority") or 0)  # 24h/응급 상단
+        priority = int(h.get("priority") or 0)
         emergency_boost = 1.5 if h.get("is_emergency") else 0.0
         if prefer_emergency_dept and h.get("is_emergency"):
             emergency_boost += 1.0
@@ -215,13 +215,14 @@ def search_nearby(
         dept_boost = 2.0 if dept_hit else 0.0
         fit = care + emergency_boost + h24_boost + surg_boost + dept_boost - dist * 0.12
 
-        # Sort key: priority desc, fit desc, closer
-        scored.append((priority, fit, -dist, h, dist))
+        # Nearest first; fit only breaks ties
+        scored.append((dist, -fit, -priority, h))
 
-    scored.sort(key=lambda t: (t[0], t[1], t[2]), reverse=True)
+    scored.sort(key=lambda t: (t[0], t[1], t[2]))
 
     out: list[dict[str, Any]] = []
-    for priority, fit, _neg, h, dist in scored[:limit]:
+    for dist, neg_fit, _neg_pri, h in scored[:limit]:
+        fit = -neg_fit
         out.append(
             {
                 "id": h.get("id"),
@@ -242,7 +243,8 @@ def search_nearby(
                 "is_emergency_surgery": h.get("is_emergency_surgery"),
                 "weekday_hours": h.get("weekday_hours"),
                 "weekend_hours": h.get("weekend_hours"),
-                "hours": h.get("hours") or format_hours(
+                "hours": h.get("hours")
+                or format_hours(
                     hours_24h=h.get("hours_24h"),
                     weekday_hours=h.get("weekday_hours"),
                     weekend_hours=h.get("weekend_hours"),
@@ -253,7 +255,7 @@ def search_nearby(
                 "daum_map_url": h.get("daum_map_url"),
                 "place_search_url": h.get("place_search_url"),
                 "fit_score": round(fit, 3),
-                "priority": priority,
+                "priority": int(h.get("priority") or 0),
                 "department_match": bool(dept_kw and dept_hit),
             }
         )

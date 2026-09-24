@@ -17,8 +17,8 @@ def test_gangnam_severe_24h():
     )
     assert rows
     assert all(r["is_24h"] for r in rows)
-    # 24h / emergency float to top
-    assert rows[0]["priority"] >= rows[-1]["priority"]
+    dists = [r["distance_km"] for r in rows]
+    assert dists == sorted(dists)
 
 
 def test_mild_neighborhood_possible():
@@ -43,13 +43,9 @@ def test_emergency_sorted_first():
         limit=30,
     )
     assert rows
-    featured = [r for r in rows if r["is_24h"] or r["is_emergency"]]
-    if featured:
-        assert rows[0]["priority"] >= 1
-        # featured block should precede non-featured in sort
-        first_plain = next((i for i, r in enumerate(rows) if r["priority"] == 0), None)
-        if first_plain is not None:
-            assert all(r["priority"] >= 1 for r in rows[:first_plain])
+    # Nearest-first within the result set
+    dists = [r["distance_km"] for r in rows]
+    assert dists == sorted(dists)
 
 
 def test_stats_has_care_levels():
