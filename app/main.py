@@ -123,11 +123,27 @@ async def hospitals_nearby(
             prefer_emergency_dept=need_emergency,
         )
 
-    # 24시만 상단 featured — 섹션 안에서는 항상 가까운 순
-    featured = [h for h in results if h.get("is_24h")]
-    rest = [h for h in results if not h.get("is_24h")]
-    featured.sort(key=lambda h: float(h.get("distance_km") or 9999))
-    rest.sort(key=lambda h: float(h.get("distance_km") or 9999))
+    # 24시 전용 조회 — 밀집 지역에서 limit 때문에 먼 24시가 잘리지 않게
+    if not (filters["need_24h"] or need_24h):
+        h24 = search_nearby(
+            lat=lat,
+            lng=lng,
+            radius_km=use_radius,
+            limit=min(20, limit),
+            need_24h=True,
+            need_emergency=False,
+            care_levels=level_list,
+            department_keywords=[],
+            prefer_emergency_dept=False,
+        )
+    else:
+        h24 = [h for h in results if h.get("is_24h")]
+
+    featured = sorted(h24, key=lambda h: float(h.get("distance_km") or 9999))
+    rest = sorted(
+        [h for h in results if not h.get("is_24h")],
+        key=lambda h: float(h.get("distance_km") or 9999),
+    )
 
     return {
         "count": len(results),
