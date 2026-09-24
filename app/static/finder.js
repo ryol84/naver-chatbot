@@ -189,6 +189,17 @@
     return `<p class="hospital-meta">장비: ${escapeHtml(eq.slice(0, 5).join(", "))}</p>`;
   }
 
+  function hoursLine(h) {
+    if (h.is_24h || h.hours_24h === "yes") {
+      return `<p class="hospital-meta hours">영업: <strong>24시간</strong></p>`;
+    }
+    const parts = [];
+    if (h.weekday_hours) parts.push(`평일 ${h.weekday_hours}`);
+    if (h.weekend_hours) parts.push(h.weekend_hours);
+    if (!parts.length) return "";
+    return `<p class="hospital-meta hours">영업: ${escapeHtml(parts.join(" · "))}</p>`;
+  }
+
   function actionsHtml(h) {
     const phone = h.phone
       ? `<a class="call" href="tel:${escapeAttr(h.phone)}" onclick="event.stopPropagation()">전화</a>`
@@ -212,6 +223,7 @@
         </div>
         <div class="badges">${badgeHtml(h)}</div>
         <p class="hospital-addr">${escapeHtml(h.address || "")}</p>
+        ${hoursLine(h)}
         ${deptsLine(h)}
         ${equipLine(h)}
         ${actionsHtml(h)}
@@ -231,6 +243,9 @@
     const featured = data.featured || [];
     const hospitals = data.hospitals || [];
     const f = data.filters || {};
+    const featuredIds = new Set(featured.map((h) => h.id));
+    // 24시·응급은 상단 featured에만 한 번 — 일반 목록에서는 제외
+    const rest = hospitals.filter((h) => !featuredIds.has(h.id));
 
     if (countLabel) {
       const bits = [`${hospitals.length}곳`, `반경 ${f.radius_km}km`];
@@ -240,7 +255,7 @@
 
     if (featured.length) {
       featuredWrap.hidden = false;
-      featuredList.innerHTML = featured.slice(0, 8).map((h, i) => cardHtml(h, i, { priority: true })).join("");
+      featuredList.innerHTML = featured.map((h, i) => cardHtml(h, i, { priority: true })).join("");
       bindCardClicks(featuredList);
     } else {
       featuredWrap.hidden = true;
@@ -252,11 +267,14 @@
       return;
     }
 
-    // Full list already has featured first from API; show all for map sync
-    resultsList.innerHTML = hospitals.map((h, i) => cardHtml(h, i, { priority: h.is_24h || h.is_emergency })).join("");
+    if (!rest.length) {
+      resultsList.innerHTML = `<p class="empty">일반 목록은 모두 위에 표시됐어요.</p>`;
+      return;
+    }
+
+    resultsList.innerHTML = rest.map((h, i) => cardHtml(h, i)).join("");
     bindCardClicks(resultsList);
   }
-
   function renderMarkers(hospitals) {
     hospitalLayer.clearLayers();
     markersById = new Map();
