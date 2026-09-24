@@ -243,14 +243,17 @@
     const featured = data.featured || [];
     const hospitals = data.hospitals || [];
     const f = data.filters || {};
-    const featuredIds = new Set(featured.map((h) => h.id));
-    // 24시·응급은 상단 featured에만 한 번 — 일반 목록에서는 제외
-    const rest = hospitals.filter((h) => !featuredIds.has(h.id));
+    const featuredIds = new Set(featured.map((h) => String(h.id)));
+    // 24시만 위 블록 — 그 외는 아래 섹션 (응급 포함, 중복 없음)
+    const rest = hospitals.filter((h) => !featuredIds.has(String(h.id)));
+    const restWrap = $("#rest-wrap");
 
     if (countLabel) {
-      const bits = [`${hospitals.length}곳`, `반경 ${f.radius_km}km`];
+      const bits = [`${rest.length}곳`];
+      if (featured.length) bits.unshift(`24시 ${featured.length}`);
+      bits.push(`반경 ${f.radius_km}km`);
       if (f.relaxed) bits.push("조건 완화");
-      countLabel.textContent = hospitals.length ? `· ${bits.join(" · ")}` : "";
+      countLabel.textContent = `· ${bits.join(" · ")}`;
     }
 
     if (featured.length) {
@@ -263,15 +266,18 @@
     }
 
     if (!hospitals.length) {
+      if (restWrap) restWrap.hidden = false;
       resultsList.innerHTML = `<p class="empty">이 반경에 병원이 없어요. 지도를 옮기거나 반경을 넓혀 보세요.</p>`;
       return;
     }
 
     if (!rest.length) {
-      resultsList.innerHTML = `<p class="empty">일반 목록은 모두 위에 표시됐어요.</p>`;
+      if (restWrap) restWrap.hidden = true;
+      resultsList.innerHTML = "";
       return;
     }
 
+    if (restWrap) restWrap.hidden = false;
     resultsList.innerHTML = rest.map((h, i) => cardHtml(h, i)).join("");
     bindCardClicks(resultsList);
   }

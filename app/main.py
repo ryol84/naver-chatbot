@@ -107,8 +107,18 @@ async def hospitals_nearby(
             prefer_emergency_dept=need_emergency,
         )
 
-    featured = [h for h in results if h.get("is_24h") or h.get("is_emergency_surgery") or h.get("is_emergency")]
-    rest = [h for h in results if h not in featured]
+    # 24시만 상단 featured — 응급(비24시)은 그 외 목록으로 내려 섹션이 섞이지 않게 함
+    featured = [h for h in results if h.get("is_24h")]
+    rest = [h for h in results if not h.get("is_24h")]
+    # 그 외 안에서는 응급을 앞으로
+    rest.sort(
+        key=lambda h: (
+            int(h.get("is_emergency_surgery") or h.get("is_emergency") or False),
+            -float(h.get("fit_score") or 0),
+            -float(h.get("distance_km") or 0),
+        ),
+        reverse=True,
+    )
 
     return {
         "count": len(results),

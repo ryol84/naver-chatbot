@@ -192,21 +192,9 @@ body.embed {
   border-radius: var(--radius);
   background: var(--hot-bg);
   border: 1px solid rgba(180, 58, 26, 0.22);
-  animation: featuredPulse 2.8s ease-in-out infinite;
 }
 
-@keyframes featuredPulse {
-  0%,
-  100% {
-    box-shadow: 0 0 0 0 rgba(180, 58, 26, 0);
-  }
-  50% {
-    box-shadow: 0 0 0 4px rgba(180, 58, 26, 0.08);
-  }
-}
-
-.featured h2,
-.list-wrap h2 {
+.featured h2 {
   margin: 0 0 0.65rem;
   font-size: 0.92rem;
   font-weight: 700;
@@ -214,9 +202,18 @@ body.embed {
   letter-spacing: -0.02em;
 }
 
+.list-wrap {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
 .list-wrap h2 {
+  margin: 0 0 0.65rem;
+  font-size: 0.92rem;
+  font-weight: 700;
   color: var(--brand);
-  margin-top: 1.1rem;
+  letter-spacing: -0.02em;
 }
 
 #count-label {
