@@ -324,6 +324,15 @@ body.embed {
   font-size: 0.8rem;
 }
 
+.hospital-meta.hours {
+  color: var(--ink);
+}
+
+.hospital-meta.hours strong {
+  color: var(--hot);
+  font-weight: 700;
+}
+
 .hospital-actions {
   display: flex;
   flex-wrap: wrap;

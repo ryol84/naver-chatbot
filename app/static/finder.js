@@ -294,6 +294,7 @@
           <h3>${escapeHtml(h.name)}</h3>
           <div class="badges">${badgeHtml(h)}</div>
           <p>${escapeHtml(h.address || "")}</p>
+          ${hoursLine(h)}
           ${deptsLine(h)}
           ${equipLine(h)}
           <p>${h.distance_km} km</p>
