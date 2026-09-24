@@ -353,14 +353,6 @@
   }
 
   function hydrate(options) {
-    const cityWrap = $("#city-chips");
-    cityWrap.innerHTML = (options.cities || [])
-      .map(
-        (c) =>
-          `<button type="button" class="chip city" data-lat="${c.lat}" data-lng="${c.lng}" data-label="${escapeAttr(c.label)}">${escapeHtml(c.label)}</button>`
-      )
-      .join("");
-
     const careWrap = $("#care-chips");
     careWrap.innerHTML = (options.care_levels || [])
       .map(
@@ -379,14 +371,6 @@
             `<button type="button" class="chip symptom" data-symptom="${escapeAttr(s.id)}" aria-pressed="false">${escapeHtml(s.label)}</button>`
         )
         .join("");
-
-    $$(".chip.city").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        setActive(".chip.city", btn);
-        setLocation(Number(btn.dataset.lat), Number(btn.dataset.lng), btn.dataset.label);
-        if (mapHint) mapHint.classList.add("hidden");
-      });
-    });
 
     $$(".chip.care").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -464,12 +448,23 @@
     .then((r) => r.json())
     .then((options) => {
       hydrate(options);
-      // Default: Seoul City Hall so map isn't empty before GPS
-      const seoul = (options.cities || []).find((c) => /서울/.test(c.label));
-      if (seoul) {
-        setLocation(seoul.lat, seoul.lng, seoul.label);
-        const chip = $(`.chip.city[data-label="${CSS.escape(seoul.label)}"]`);
-        if (chip) setActive(".chip.city", chip);
+      // Try GPS first; fall back to Seoul so the map isn't empty
+      if (navigator.geolocation) {
+        locStatus.textContent = "위치를 확인하는 중…";
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            setLocation(pos.coords.latitude, pos.coords.longitude, "내 위치");
+            if (mapHint) mapHint.classList.add("hidden");
+          },
+          () => {
+            setLocation(37.5665, 126.978, "서울");
+            locStatus.textContent =
+              "GPS를 쓸 수 없어요. 지도를 클릭해 위치를 지정해 주세요.";
+          },
+          { enableHighAccuracy: true, timeout: 8000 }
+        );
+      } else {
+        setLocation(37.5665, 126.978, "서울");
       }
     })
     .catch(() => {
