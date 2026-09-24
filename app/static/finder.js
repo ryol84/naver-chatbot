@@ -110,7 +110,8 @@
 
   function useGeolocation() {
     if (!navigator.geolocation) {
-      locStatus.textContent = "GPS를 쓸 수 없어요. 지도를 클릭해 위치를 지정해 주세요.";
+      locStatus.textContent =
+        "GPS를 쓸 수 없어요. 주소를 입력하거나 지도를 클릭해 주세요.";
       return;
     }
     locStatus.textContent = "GPS 확인 중…";
@@ -120,10 +121,43 @@
         if (mapHint) mapHint.classList.add("hidden");
       },
       () => {
-        locStatus.textContent = "위치를 얻지 못했어요. 지도를 클릭해 위치를 지정해 주세요.";
+        locStatus.textContent =
+          "위치를 얻지 못했어요. 주소를 입력하거나 지도를 클릭해 주세요.";
       },
       { enableHighAccuracy: true, timeout: 12000 }
     );
+  }
+
+  async function useAddress(query) {
+    const q = String(query || "").trim();
+    const input = $("#address-input");
+    const btn = $("#btn-address");
+    if (q.length < 2) {
+      locStatus.textContent = "주소를 두 글자 이상 입력해 주세요.";
+      input?.focus();
+      return;
+    }
+    if (btn) btn.disabled = true;
+    if (input) input.disabled = true;
+    locStatus.textContent = "주소를 찾는 중…";
+    try {
+      const res = await fetch(`/api/geocode?${new URLSearchParams({ q }).toString()}`);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.best) {
+        locStatus.textContent =
+          "주소를 찾지 못했어요. 구·동까지 넣어 다시 시도해 주세요.";
+        return;
+      }
+      const best = data.best;
+      setLocation(best.lat, best.lng, best.label || q);
+      if (mapHint) mapHint.classList.add("hidden");
+      if (input) input.value = best.label || q;
+    } catch (_err) {
+      locStatus.textContent = "주소 검색에 실패했어요. 잠시 후 다시 시도해 주세요.";
+    } finally {
+      if (btn) btn.disabled = false;
+      if (input) input.disabled = false;
+    }
   }
 
   async function maybeSearch() {
@@ -404,6 +438,11 @@
 
   $("#btn-geo")?.addEventListener("click", useGeolocation);
 
+  $("#address-form")?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    useAddress($("#address-input")?.value);
+  });
+
   const careGuide = $("#care-guide");
   const btnCareHelp = $("#btn-care-help");
   btnCareHelp?.addEventListener("click", () => {
@@ -457,7 +496,7 @@
           () => {
             setLocation(37.5665, 126.978, "서울");
             locStatus.textContent =
-              "GPS를 쓸 수 없어요. 지도를 클릭해 위치를 지정해 주세요.";
+              "GPS를 쓸 수 없어요. 주소를 입력하거나 지도를 클릭해 주세요.";
           },
           { enableHighAccuracy: true, timeout: 8000 }
         );

@@ -7,6 +7,7 @@ from fastapi import FastAPI, Query, Request
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
+from app.geocode import geocode_kr
 from app.hospitals import CARE_LABEL, search_nearby, stats
 from app.triage import CITY_PRESETS, SEVERITIES, SYMPTOMS, resolve_filters
 
@@ -70,6 +71,20 @@ async def triage_options():
         ],
         "stats": stats(),
     }
+
+
+@app.get("/api/geocode")
+async def geocode(
+    q: str = Query(..., min_length=2, max_length=120, description="Korean address or place name"),
+):
+    """Resolve an address string to coordinates (Korea)."""
+    results = geocode_kr(q, limit=5)
+    if not results:
+        return JSONResponse(
+            {"ok": False, "query": q.strip(), "results": [], "error": "not_found"},
+            status_code=404,
+        )
+    return {"ok": True, "query": q.strip(), "results": results, "best": results[0]}
 
 
 @app.get("/api/hospitals/nearby")

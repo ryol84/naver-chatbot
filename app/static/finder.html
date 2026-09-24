@@ -20,6 +20,18 @@
 
       <div class="toolbar">
         <button type="button" class="btn primary" id="btn-geo">내 위치 (GPS)</button>
+        <form class="address-row" id="address-form" autocomplete="off">
+          <label class="visually-hidden" for="address-input">주소</label>
+          <input
+            type="search"
+            id="address-input"
+            name="address"
+            placeholder="주소 입력 (예: 서울 마포구 합정동)"
+            enterkeyhint="search"
+            maxlength="120"
+          />
+          <button type="submit" class="btn secondary" id="btn-address">이동</button>
+        </form>
       </div>
 
       <div class="filter-block">
