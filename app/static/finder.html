@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>근처 동물병원 지도</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="/static/finder.css" />
+</head>
+<body class="embed">
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <h1>근처 병원</h1>
+        <p class="loc-status" id="loc-status">위치를 확인하세요</p>
+      </div>
+
+      <div class="toolbar">
+        <button type="button" class="btn primary" id="btn-geo">내 위치 (GPS)</button>
+        <form class="address-row" id="address-form" autocomplete="off">
+          <label class="visually-hidden" for="address-input">주소</label>
+          <input
+            type="search"
+            id="address-input"
+            name="address"
+            placeholder="주소 입력 (예: 서울 마포구 합정동)"
+            enterkeyhint="search"
+            maxlength="120"
+          />
+          <button type="submit" class="btn secondary" id="btn-address">이동</button>
+        </form>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-label-row">
+          <p class="filter-label">병원 등급</p>
+          <button type="button" class="linkish" id="btn-care-help" aria-expanded="true" aria-controls="care-guide">등급 안내</button>
+        </div>
+        <div class="chip-row" id="care-chips"></div>
+        <div class="care-guide" id="care-guide">
+          <dl>
+            <div>
+              <dt>일반</dt>
+              <dd>가까운 동네 동물병원이에요. 예방접종·건강검진·가벼운 진료에 잘 맞아요.</dd>
+            </div>
+            <div>
+              <dt>1차</dt>
+              <dd>내과·외과까지 보는 종합형 1차 병원이에요. 조금 더 넓은 진료, 24시 운영도 많아요.</dd>
+            </div>
+            <div>
+              <dt>2차</dt>
+              <dd>분과·영상(CT/MRI 등) 중심의 의료센터예요. 정밀 검사나 수술이 필요할 때 찾아요.</dd>
+            </div>
+            <div>
+              <dt>대학병원</dt>
+              <dd>대학 부속 동물병원이에요. 난이도 높은 진료나 의뢰가 필요한 경우에 적합해요.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <p class="filter-label">빠른 필터</p>
+        <div class="chip-row">
+          <button type="button" class="chip toggle" id="btn-24h" aria-pressed="false">24시</button>
+          <button type="button" class="chip toggle hot" id="btn-er" aria-pressed="false">응급·수술</button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <p class="filter-label">아픈 부위 (선택)</p>
+        <div class="chip-row wrap" id="symptom-chips"></div>
+      </div>
+
+      <div class="radius-row">
+        <label for="radius">반경 <span id="radius-label">8</span>km</label>
+        <input type="range" id="radius" min="3" max="25" step="1" value="8" />
+      </div>
+
+      <section class="featured" id="featured-wrap" hidden>
+        <h2>24시</h2>
+        <div id="featured-list"></div>
+      </section>
+
+      <section class="list-wrap" id="rest-wrap">
+        <h2>그 외 병원 <span id="count-label"></span></h2>
+        <div id="results-list" class="results-list"></div>
+      </section>
+    </aside>
+
+    <div class="map-pane">
+      <div id="map" role="application" aria-label="병원 지도"></div>
+      <div class="map-hint" id="map-hint">지도를 클릭해 기준 위치를 옮길 수 있어요</div>
+    </div>
+  </div>
+
+  <script src="/static/vendor/leaflet/leaflet.js"></script>
+  <script src="/static/finder.js" defer></script>
+</body>
+</html>
