@@ -189,15 +189,28 @@
     return `<p class="hospital-meta">장비: ${escapeHtml(eq.slice(0, 5).join(", "))}</p>`;
   }
 
-  function hoursLine(h) {
+  function hoursBlock(h) {
+    const hours = h.hours;
+    if (hours && Array.isArray(hours.lines) && hours.lines.length) {
+      const cls = hours.is_24h ? "hours-block hot" : hours.unknown ? "hours-block muted" : "hours-block";
+      const rows = hours.lines
+        .map((line) => `<li>${escapeHtml(line)}</li>`)
+        .join("");
+      return `<div class="${cls}"><p class="hours-label">영업시간</p><ul>${rows}</ul></div>`;
+    }
+    // fallback for older payloads
     if (h.is_24h || h.hours_24h === "yes") {
-      return `<p class="hospital-meta hours">영업: <strong>24시간</strong></p>`;
+      return `<div class="hours-block hot"><p class="hours-label">영업시간</p><ul><li>24시간 영업</li></ul></div>`;
     }
     const parts = [];
     if (h.weekday_hours) parts.push(`평일 ${h.weekday_hours}`);
     if (h.weekend_hours) parts.push(h.weekend_hours);
-    if (!parts.length) return "";
-    return `<p class="hospital-meta hours">영업: ${escapeHtml(parts.join(" · "))}</p>`;
+    if (!parts.length) {
+      return `<div class="hours-block muted"><p class="hours-label">영업시간</p><ul><li>정보 없음</li></ul></div>`;
+    }
+    return `<div class="hours-block"><p class="hours-label">영업시간</p><ul>${parts
+      .map((p) => `<li>${escapeHtml(p)}</li>`)
+      .join("")}</ul></div>`;
   }
 
   function actionsHtml(h) {
@@ -223,7 +236,7 @@
         </div>
         <div class="badges">${badgeHtml(h)}</div>
         <p class="hospital-addr">${escapeHtml(h.address || "")}</p>
-        ${hoursLine(h)}
+        ${hoursBlock(h)}
         ${deptsLine(h)}
         ${equipLine(h)}
         ${actionsHtml(h)}
@@ -300,7 +313,7 @@
           <h3>${escapeHtml(h.name)}</h3>
           <div class="badges">${badgeHtml(h)}</div>
           <p>${escapeHtml(h.address || "")}</p>
-          ${hoursLine(h)}
+          ${hoursBlock(h)}
           ${deptsLine(h)}
           ${equipLine(h)}
           <p>${h.distance_km} km</p>

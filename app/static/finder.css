@@ -330,6 +330,51 @@ body.embed {
   font-weight: 700;
 }
 
+.hours-block {
+  margin: 0.15rem 0 0.1rem;
+  padding: 0.45rem 0.55rem;
+  border-radius: 8px;
+  background: rgba(13, 63, 55, 0.05);
+  border: 1px solid var(--line);
+  text-align: left;
+}
+
+.hours-block.hot {
+  background: var(--hot-bg);
+  border-color: rgba(180, 58, 26, 0.22);
+}
+
+.hours-block.muted {
+  opacity: 0.75;
+}
+
+.hours-block .hours-label {
+  margin: 0 0 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.hours-block.hot .hours-label {
+  color: var(--hot);
+}
+
+.hours-block ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.12rem;
+}
+
+.hours-block li {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
 .hospital-actions {
   display: flex;
   flex-wrap: wrap;

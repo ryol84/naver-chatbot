@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from app.geo_qa import coords_plausible_for_row
+from app.hours_format import format_hours
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "hospitals" / "agent-pack" / "companion-hospitals.jsonl"
@@ -77,7 +78,7 @@ def _is_emergency_surgery(departments: list[str] | None) -> bool:
 
 @lru_cache(maxsize=1)
 def _site_equipment_index() -> dict[tuple[float, float], dict[str, Any]]:
-    """Join verified site-slim equipment onto companion rows by rounded lat/lng."""
+    """Join verified site-slim equipment/hours onto companion rows by rounded lat/lng."""
     idx: dict[tuple[float, float], dict[str, Any]] = {}
     if not SITE_SLIM_PATH.is_file():
         return idx
@@ -91,6 +92,9 @@ def _site_equipment_index() -> dict[tuple[float, float], dict[str, Any]]:
             "services": list(h.get("services") or []),
             "emergency_site": h.get("emergency"),
             "site_id": h.get("id"),
+            "weekday_hours": h.get("weekday_hours"),
+            "weekend_hours": h.get("weekend_hours"),
+            "hours_24h": h.get("hours_24h"),
         }
     return idx
 
@@ -110,17 +114,35 @@ def _enrich(row: dict[str, Any]) -> dict[str, Any]:
         equip = merged
 
     hours_24h = row.get("hours_24h")
+    weekday = row.get("weekday_hours")
+    weekend = row.get("weekend_hours")
+    if site:
+        if site.get("hours_24h") == "yes":
+            hours_24h = "yes"
+        if not weekday and site.get("weekday_hours"):
+            weekday = site.get("weekday_hours")
+        if not weekend and site.get("weekend_hours"):
+            weekend = site.get("weekend_hours")
+
     emergency = _is_emergency(deps, hours_24h)
     if site and site.get("emergency_site") == "yes":
         emergency = True
 
     out = dict(row)
     out["equipment"] = equip
+    out["weekday_hours"] = weekday
+    out["weekend_hours"] = weekend
+    out["hours_24h"] = hours_24h
     out["is_24h"] = hours_24h == "yes"
     out["is_emergency"] = emergency
     out["is_emergency_surgery"] = _is_emergency_surgery(deps)
     out["care_level_short"] = CARE_LABEL.get(row.get("care_level") or "", row.get("care_level_ko") or "")
     out["priority"] = int(out["is_24h"]) * 2 + int(out["is_emergency_surgery"] or out["is_emergency"])
+    out["hours"] = format_hours(
+        hours_24h=hours_24h,
+        weekday_hours=weekday,
+        weekend_hours=weekend,
+    )
     return out
 
 
@@ -220,6 +242,11 @@ def search_nearby(
                 "is_emergency_surgery": h.get("is_emergency_surgery"),
                 "weekday_hours": h.get("weekday_hours"),
                 "weekend_hours": h.get("weekend_hours"),
+                "hours": h.get("hours") or format_hours(
+                    hours_24h=h.get("hours_24h"),
+                    weekday_hours=h.get("weekday_hours"),
+                    weekend_hours=h.get("weekend_hours"),
+                ),
                 "departments": h.get("departments") or [],
                 "equipment": h.get("equipment") or [],
                 "distance_km": round(dist, 2),
