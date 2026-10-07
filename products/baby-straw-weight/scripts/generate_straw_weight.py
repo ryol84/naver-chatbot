@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-Baby silicone straw weight (추빨대 추) generator.
+LV-2602 baby bottle straw weight (추빨대 추)
 
-Targets
--------
-- Material: 100% silicone, specific gravity 1.8
-- Target mass: 9.0 g  ->  net volume 5.000 cm³ (5000 mm³)
-- Hose stem outer diameter: 4.5 mm (easy insert + retention ribs)
-- Cleanability: open front intake, through-bore, side flush ports
+Design goals (rev2 — keep original silhouette)
+---------------------------------------------
+- Keep the original flat oval / capsule weight shape (not a round dewdrop)
+- Bottom intake holes so milk/formula enters when the weight settles down
+- Ultra-smooth crowned exterior → low friction vs plastic bottle wall/floor
+- Very simple Ø4.5 mm hose stem (easy to clean; no multi-rib trap)
+- 100% silicone, SG 1.8 → target mass 9 g (volume 5000 mm³)
 """
 
 from __future__ import annotations
@@ -17,7 +18,7 @@ from pathlib import Path
 
 import numpy as np
 import trimesh
-from trimesh.creation import annulus, cylinder, icosphere
+from trimesh.creation import cylinder, icosphere
 
 ROOT = Path(__file__).resolve().parents[1]
 STL_DIR = ROOT / "stl"
@@ -28,28 +29,28 @@ SG = 1.8
 TARGET_MASS_G = 9.0
 TARGET_VOLUME_MM3 = TARGET_MASS_G / SG * 1000.0  # 5000
 
-# Body half-axes (mm) — tuned iteratively toward target volume
-BODY_RX = 15.4
-BODY_RY = 9.6
-BODY_RZ = 7.6
+# Original ref ≈ 35.4 × 18.6 × 8.8 mm @ ~2.93 cm³.
+# Linear scale ~1.2 keeps the same proportions while approaching 5 cm³,
+# then Y/Z are fine-tuned so stem OD stays exactly 4.5 mm.
+BODY_RX = 17.5  # half-length along straw axis (X)
+BODY_RY = 10.5  # half-width
+BODY_RZ = 5.2  # half-thickness (flat profile — low bottle friction)
 
-INTAKE_DEPTH = 8.2
-INTAKE_RY = 4.0
-INTAKE_RZ = 3.2
+# Bottom intakes (on -Z face) — milk entry when weight sits at bottle bottom
+INTAKE_R = 1.8  # Ø3.6 mm — brushable / flushable
+INTAKE_DEPTH = 6.0
+INTAKE_XY = [(-6.0, 0.0), (0.0, 3.2), (0.0, -3.2)]  # front + two sides on bottom
 
 BORE_D = 2.2
 BORE_R = BORE_D / 2.0
 
+# Simple hose stem — cleanability first (no multi-rib dirt traps)
 STEM_OD = 4.5
 STEM_R = STEM_OD / 2.0
-STEM_LEN = 11.0
-STEM_LEAD_LEN = 2.4
-STEM_LEAD_TIP_R = 1.95  # ~3.9 mm tip for easy hose start
-RIB_COUNT = 2
-RIB_OD = 5.4
-RIB_LEN = 1.05
-RIB_SPACING = 3.3
-RIB_START = 3.6
+STEM_LEN = 9.0
+STEM_LEAD_LEN = 2.0
+STEM_LEAD_TIP_R = 2.05  # soft start into silicone hose (~Ø4.1)
+# Retention = hose stretch over Ø4.5 + insertion length (no protruding beads)
 
 MESH_SUBDIV = 4
 
@@ -75,71 +76,97 @@ def _boolean(a: trimesh.Trimesh, b: trimesh.Trimesh, op: str) -> trimesh.Trimesh
 
 
 def make_body(rx: float, ry: float, rz: float) -> trimesh.Trimesh:
-    """Plump dewdrop silhouette — soft, baby-friendly, no sharp edges."""
+    """
+    Flat oval capsule matching the original weight silhouette.
+
+    Slight crown on top/bottom (rz bias via secondary spheres) so contact
+    against the plastic bottle is a small patch → lower sliding friction.
+    """
+    # Main flat ellipsoid — same family as original 35×18.6×8.8
     main = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
     main.apply_scale([rx, ry, rz])
 
-    cheek = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
-    cheek.apply_scale([rx * 0.55, ry * 1.06, rz * 1.03])
-    cheek = _translate(cheek, [-1.2, 0, 0])
-
+    # Soft nose (front = -X) so it tumbles/slides without catching
     nose = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
-    nose.apply_scale([rx * 0.40, ry * 0.70, rz * 0.76])
-    nose = _translate(nose, [-rx * 0.58, 0, 0])
+    nose.apply_scale([rx * 0.38, ry * 0.78, rz * 0.92])
+    nose = _translate(nose, [-rx * 0.62, 0.0, 0.0])
 
-    # Gentle top ridge for a prettier, less “blob” look (still fully rounded)
-    crest = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
-    crest.apply_scale([rx * 0.62, ry * 0.42, rz * 0.55])
-    crest = _translate(crest, [-0.8, 0, rz * 0.35])
+    # Mild top/bottom crown (reduces face drag on bottle floor)
+    crown_t = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
+    crown_t.apply_scale([rx * 0.72, ry * 0.72, rz * 0.55])
+    crown_t = _translate(crown_t, [-rx * 0.05, 0.0, rz * 0.28])
 
-    body = _boolean(main, cheek, "union")
-    body = _boolean(body, nose, "union")
-    body = _boolean(body, crest, "union")
+    crown_b = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
+    crown_b.apply_scale([rx * 0.72, ry * 0.72, rz * 0.55])
+    crown_b = _translate(crown_b, [-rx * 0.05, 0.0, -rz * 0.28])
+
+    # Tail blend into stem (rear = +X) — keep outer curve continuous
+    tail = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
+    tail.apply_scale([rx * 0.32, ry * 0.55, rz * 0.85])
+    tail = _translate(tail, [rx * 0.55, 0.0, 0.0])
+
+    body = _boolean(main, nose, "union")
+    body = _boolean(body, crown_t, "union")
+    body = _boolean(body, crown_b, "union")
+    body = _boolean(body, tail, "union")
     return body
 
 
-def make_intake_cutter(rx: float) -> trimesh.Trimesh:
-    cutter = icosphere(subdivisions=MESH_SUBDIV, radius=1.0)
-    cutter.apply_scale([INTAKE_DEPTH * 0.55, INTAKE_RY, INTAKE_RZ])
-    return _translate(cutter, [-rx + INTAKE_DEPTH * 0.12, 0, 0])
+def make_bottom_intakes(rx: float, rz: float) -> trimesh.Trimesh:
+    """
+    Holes on the bottom (-Z) face → milk enters when weight is at bottle bottom.
+    Vertical cylinders open the underside and meet the axial bore.
+    """
+    cutters = []
+    for x, y in INTAKE_XY:
+        c = cylinder(radius=INTAKE_R, height=INTAKE_DEPTH + rz * 1.2, sections=48)
+        # cylinder along Z by default; place so it opens the bottom face
+        z_center = -rz + INTAKE_DEPTH * 0.35
+        cutters.append(_translate(c, [x, y, z_center]))
+
+    u = cutters[0]
+    for c in cutters[1:]:
+        u = _boolean(u, c, "union")
+    return u
 
 
 def make_bore(rx: float) -> trimesh.Trimesh:
-    """Through-bore from front intake past the stem tip (must clear +X end)."""
-    x_start = -rx - 4.0
-    x_end = rx + STEM_LEN + 4.0
+    """Axial bore from intakes through body and out the stem tip."""
+    x_start = -rx - 2.0
+    x_end = rx + STEM_LEN + 3.0
     length = x_end - x_start
-    bore = cylinder(radius=BORE_R, height=length, sections=72)
+    bore = cylinder(radius=BORE_R, height=length, sections=64)
     bore.apply_transform(
         trimesh.transformations.rotation_matrix(np.pi / 2, [0, 1, 0])
     )
-    mid = (x_start + x_end) / 2.0
-    return _translate(bore, [mid, 0, 0])
+    return _translate(bore, [(x_start + x_end) / 2.0, 0.0, 0.0])
 
 
-def make_side_flush_ports(rx: float, ry: float, rz: float) -> trimesh.Trimesh:
-    """Cross ports near the mouth so rinse water exits freely."""
-    y_port = cylinder(radius=1.55, height=ry * 2.4, sections=48)
-    y_port.apply_transform(
+def make_cross_link() -> trimesh.Trimesh:
+    """Short Y-link so the three bottom holes share one flushable cavity."""
+    link = cylinder(radius=1.5, height=8.5, sections=48)
+    link.apply_transform(
         trimesh.transformations.rotation_matrix(np.pi / 2, [1, 0, 0])
     )
-    y_port = _translate(y_port, [-rx * 0.38, 0, 0])
-
-    z_port = cylinder(radius=1.45, height=rz * 2.5, sections=48)
-    z_port = _translate(z_port, [-rx * 0.38, 0, 0])
-
-    return _boolean(y_port, z_port, "union")
+    return _translate(link, [-1.0, 0.0, -1.5])
 
 
 def make_stem(rx: float) -> trimesh.Trimesh:
-    """Exact 4.5 mm OD stem + lead-in taper + retention ribs."""
-    shaft = cylinder(radius=STEM_R, height=STEM_LEN, sections=72)
+    """
+    Minimal Ø4.5 mm stem for easy cleaning:
+    - straight shaft (no ribs / beads to trap milk)
+    - soft tapered tip for easy hose insertion
+    - small smooth fillet into body only
+    Retention comes from silicone hose stretch over Ø4.5 + 9 mm engagement.
+    """
+    shaft = cylinder(radius=STEM_R, height=STEM_LEN, sections=64)
     shaft.apply_transform(
         trimesh.transformations.rotation_matrix(np.pi / 2, [0, 1, 0])
     )
-    shaft = _translate(shaft, [rx + STEM_LEN / 2, 0, 0])
+    shaft = _translate(shaft, [rx + STEM_LEN / 2.0, 0.0, 0.0])
 
-    n = 72
+    # Lead-in taper
+    n = 64
     th = np.linspace(0, 2 * np.pi, n, endpoint=False)
     tip_x = rx + STEM_LEN
     ring_base = np.column_stack(
@@ -147,7 +174,7 @@ def make_stem(rx: float) -> trimesh.Trimesh:
     )
     ring_tip = np.column_stack(
         [
-            np.full(n, tip_x + 0.2),
+            np.full(n, tip_x + 0.15),
             STEM_LEAD_TIP_R * np.cos(th),
             STEM_LEAD_TIP_R * np.sin(th),
         ]
@@ -155,37 +182,12 @@ def make_stem(rx: float) -> trimesh.Trimesh:
     cone = trimesh.convex.convex_hull(np.vstack([ring_base, ring_tip]))
     stem = _boolean(shaft, cone, "union")
 
-    for i in range(RIB_COUNT):
-        cx = rx + RIB_START + i * RIB_SPACING
-        rib = annulus(
-            r_min=STEM_R * 0.8,
-            r_max=RIB_OD / 2,
-            height=RIB_LEN,
-            sections=72,
-        )
-        rib.apply_transform(
-            trimesh.transformations.rotation_matrix(np.pi / 2, [0, 1, 0])
-        )
-        rib = _translate(rib, [cx, 0, 0])
-        soft = icosphere(subdivisions=3, radius=RIB_LEN * 0.55)
-        for ang in th[::3]:
-            s = soft.copy()
-            s.apply_translation(
-                [
-                    cx,
-                    (RIB_OD / 2 * 0.9) * np.cos(ang),
-                    (RIB_OD / 2 * 0.9) * np.sin(ang),
-                ]
-            )
-            rib = _boolean(rib, s, "union")
-        stem = _boolean(stem, rib, "union")
-
-    # Soft fillet into body
-    blend = icosphere(subdivisions=3, radius=1.3)
-    for ang in np.linspace(0, 2 * np.pi, 28, endpoint=False):
+    # Tiny smooth fillet into body (no sharp dirt step; still low profile)
+    blend = icosphere(subdivisions=3, radius=0.85)
+    for ang in np.linspace(0, 2 * np.pi, 20, endpoint=False):
         s = blend.copy()
         s.apply_translation(
-            [rx - 0.15, STEM_R * 1.05 * np.cos(ang), STEM_R * 1.05 * np.sin(ang)]
+            [rx - 0.05, STEM_R * 0.95 * np.cos(ang), STEM_R * 0.95 * np.sin(ang)]
         )
         stem = _boolean(stem, s, "union")
 
@@ -193,15 +195,13 @@ def make_stem(rx: float) -> trimesh.Trimesh:
 
 
 def measure_stem_od(mesh: trimesh.Trimesh, rx: float) -> float | None:
-    """Section the mid-shaft (between ribs) and return outer diameter."""
-    x = rx + RIB_START + RIB_SPACING * 0.5
+    x = rx + STEM_LEN * 0.72  # past bead, on plain shaft
     sec = mesh.section(plane_origin=[x, 0, 0], plane_normal=[1, 0, 0])
     if sec is None:
         return None
     planar, _ = sec.to_2D()
     if not planar.polygons_full:
         return None
-    # outermost polygon
     poly = max(planar.polygons_full, key=lambda p: abs(p.area))
     minx, miny, maxx, maxy = poly.bounds
     return float(max(maxx - minx, maxy - miny))
@@ -211,9 +211,9 @@ def assemble(rx: float, ry: float, rz: float) -> trimesh.Trimesh:
     body = make_body(rx, ry, rz)
     stem = make_stem(rx)
     solid = _boolean(body, stem, "union")
-    solid = _boolean(solid, make_intake_cutter(rx), "difference")
+    solid = _boolean(solid, make_bottom_intakes(rx, rz), "difference")
+    solid = _boolean(solid, make_cross_link(), "difference")
     solid = _boolean(solid, make_bore(rx), "difference")
-    solid = _boolean(solid, make_side_flush_ports(rx, ry, rz), "difference")
 
     comps = solid.split(only_watertight=False)
     if len(comps) > 1:
@@ -223,13 +223,10 @@ def assemble(rx: float, ry: float, rz: float) -> trimesh.Trimesh:
 
 def tune_body_to_volume(
     target: float = TARGET_VOLUME_MM3,
-    tol: float = 25.0,
+    tol: float = 30.0,
     max_iter: int = 8,
 ) -> tuple[trimesh.Trimesh, dict]:
-    """
-    Adjust body Y/Z scale only so stem OD stays exactly 4.5 mm.
-    X (length) stays fixed so stem geometry remains in absolute mm.
-    """
+    """Tune body Y/Z only — keeps stem OD at absolute 4.5 mm."""
     rx, ry, rz = BODY_RX, BODY_RY, BODY_RZ
     history = []
     mesh = assemble(rx, ry, rz)
@@ -240,12 +237,16 @@ def tune_body_to_volume(
         err = target - vol
         if abs(err) <= tol:
             break
-        # V ∝ ry * rz roughly for similar shapes; scale both equally
+        # Prefer growing width/thickness together; keep flat ratio (rz/ry)
+        flat_ratio = rz / ry
         factor = (target / vol) ** 0.5
-        # damp to avoid overshoot
-        factor = 1.0 + (factor - 1.0) * 0.85
+        factor = 1.0 + (factor - 1.0) * 0.8
         ry *= factor
-        rz *= factor
+        rz = ry * flat_ratio
+        # Cap thickness so it stays "flat weight" like original (~≤12 mm full)
+        if rz > 6.2:
+            rz = 6.2
+            ry = (ry * (target / float(assemble(rx, ry, rz).volume)) ** 0.5)
         mesh = assemble(rx, ry, rz)
 
     trimesh.repair.fix_normals(mesh)
@@ -253,6 +254,7 @@ def tune_body_to_volume(
 
     stem_od = measure_stem_od(mesh, rx)
     meta = {
+        "revision": 2,
         "target_volume_mm3": target,
         "final_volume_mm3": float(mesh.volume),
         "final_mass_g_at_sg": float(mesh.volume) / 1000.0 * SG,
@@ -266,22 +268,22 @@ def tune_body_to_volume(
         "faces": int(len(mesh.faces)),
         "stem_od_nominal_mm": STEM_OD,
         "stem_od_measured_mm": stem_od,
-        "rib_od_mm": RIB_OD,
         "stem_length_mm": STEM_LEN,
         "bore_d_mm": BORE_D,
+        "intake_d_mm": INTAKE_R * 2,
+        "intake_count": len(INTAKE_XY),
         "sg": SG,
         "tune_history": history,
         "design": {
-            "name": "Dewdrop straw weight",
-            "name_ko": "이슬방울 추빨대 추",
+            "name": "Flat oval straw weight (original silhouette)",
+            "name_ko": "납작 타원 추빨대 추 (원형 실루엣 유지)",
             "material": "100% silicone",
             "features": [
-                "soft dewdrop body",
-                "open front intake",
-                "cross flush ports",
-                "through bore",
-                "4.5mm OD hose stem with tapered tip",
-                "dual retention ribs OD 5.4mm",
+                "flat oval body close to original LV-2602 proportions",
+                "crowned faces for low friction vs plastic bottle",
+                "3 bottom intake holes for drinking when weight settles",
+                "through bore + cross link for easy flush cleaning",
+                "plain Ø4.5 mm stem + taper only (no ribs)",
             ],
         },
     }
@@ -299,29 +301,29 @@ def export_preview(mesh: trimesh.Trimesh, path: Path) -> None:
     if len(preview.faces) > 9000:
         preview = preview.simplify_quadric_decimation(face_count=9000)
 
-    fig = plt.figure(figsize=(12.5, 4.2), facecolor="#f3f6f4")
+    fig = plt.figure(figsize=(12.5, 4.2), facecolor="#f2f5f6")
     tris = preview.triangles
     configs = [
-        ("Perspective", 18, -55),
-        ("Side", 8, -90),
-        ("Top", 90, -90),
+        ("Perspective", 22, -55),
+        ("Side (shows flat profile)", 8, -90),
+        ("Bottom (intake holes)", -75, -90),
     ]
     for i, (title, elev, azim) in enumerate(configs, 1):
         ax = fig.add_subplot(1, 3, i, projection="3d")
         coll = Poly3DCollection(
             tris,
             alpha=0.96,
-            facecolor="#6fb3a4",
-            edgecolor="#2c5c52",
-            linewidths=0.04,
+            facecolor="#6aa8b8",
+            edgecolor="#2a4f59",
+            linewidths=0.035,
         )
         ax.add_collection3d(coll)
         b = preview.bounds
         ax.set_xlim(b[0, 0], b[1, 0])
         ax.set_ylim(b[0, 1], b[1, 1])
         ax.set_zlim(b[0, 2], b[1, 2])
-        ax.set_title(title, fontsize=11, color="#1e3330")
-        ax.set_facecolor("#f3f6f4")
+        ax.set_title(title, fontsize=10, color="#1e3330")
+        ax.set_facecolor("#f2f5f6")
         ax.view_init(elev=elev, azim=azim)
         try:
             ax.set_aspect("equal")
@@ -332,13 +334,56 @@ def export_preview(mesh: trimesh.Trimesh, path: Path) -> None:
         ax.set_ylabel("Y mm", fontsize=7)
         ax.set_zlabel("Z mm", fontsize=7)
     fig.suptitle(
-        "LV-2602 silicone straw weight — 9 g @ SG 1.8",
-        fontsize=13,
+        "LV-2602 rev2 — flat oval · bottom intakes · low-friction · plain Ø4.5 stem",
+        fontsize=12,
         color="#18302d",
     )
     fig.tight_layout()
     path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(path, dpi=170, bbox_inches="tight", facecolor=fig.get_facecolor())
+    plt.close(fig)
+
+
+def export_hero(mesh: trimesh.Trimesh, path: Path) -> None:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+
+    preview = mesh.copy()
+    if len(preview.faces) > 7000:
+        preview = preview.simplify_quadric_decimation(face_count=7000)
+    fig = plt.figure(figsize=(8, 5.5), facecolor="#eef3f4")
+    ax = fig.add_subplot(111, projection="3d")
+    coll = Poly3DCollection(
+        preview.triangles,
+        alpha=0.97,
+        facecolor="#5b9eae",
+        edgecolor="#1f4550",
+        linewidths=0.03,
+    )
+    ax.add_collection3d(coll)
+    b = preview.bounds
+    ax.set_xlim(b[0, 0], b[1, 0])
+    ax.set_ylim(b[0, 1], b[1, 1])
+    ax.set_zlim(b[0, 2], b[1, 2])
+    ax.view_init(elev=25, azim=-58)
+    try:
+        ax.set_aspect("equal")
+    except Exception:
+        pass
+    ax.set_facecolor("#eef3f4")
+    ax.set_title(
+        "LV-2602 flat oval straw weight\n"
+        "9g @ SG1.8 · bottom holes · low bottle friction · simple stem",
+        fontsize=11,
+    )
+    ax.set_xlabel("X mm")
+    ax.set_ylabel("Y mm")
+    ax.set_zlabel("Z mm")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(path, dpi=180, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
 
 
@@ -353,14 +398,18 @@ def main() -> None:
     mesh.export(stl_path)
 
     preview_path = RENDER_DIR / "preview_3view.png"
+    hero_path = RENDER_DIR / "hero.png"
     try:
         export_preview(mesh, preview_path)
+        export_hero(mesh, hero_path)
         meta["preview"] = str(preview_path.relative_to(ROOT))
+        meta["hero"] = str(hero_path.relative_to(ROOT))
     except Exception as e:
         meta["preview_error"] = str(e)
 
-    meta_path = DOCS_DIR / "design_metrics.json"
-    meta_path.write_text(json.dumps(meta, indent=2), encoding="utf-8")
+    (DOCS_DIR / "design_metrics.json").write_text(
+        json.dumps(meta, indent=2), encoding="utf-8"
+    )
 
     print(json.dumps({k: v for k, v in meta.items() if k != "tune_history"}, indent=2))
     print("tune_history:", json.dumps(meta["tune_history"], indent=2))
