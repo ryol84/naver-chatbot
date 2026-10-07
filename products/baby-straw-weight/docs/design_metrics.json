@@ -1,74 +1,91 @@
 {
-  "revision": 2,
+  "revision": 3,
   "target_volume_mm3": 5000.0,
-  "final_volume_mm3": 4994.998524675912,
-  "final_mass_g_at_sg": 8.990997344416643,
-  "volume_error_mm3": -5.001475324087551,
-  "body_rx_mm": 17.5,
-  "body_ry_mm": 11.782720975298023,
-  "body_rz_mm": 5.835252292528545,
+  "final_volume_mm3": 4975.575266538337,
+  "final_mass_g_at_sg": 8.956035479769007,
+  "volume_error_mm3": -24.42473346166298,
+  "body_rx_mm": 16.0,
+  "body_ry_mm": 13.06132374461102,
+  "body_rz_mm": 6.0,
   "extents_mm": [
-    44.09868812561035,
-    23.565441131591797,
-    11.670504570007324
+    41.08946418762207,
+    26.122648239135742,
+    12.0
   ],
   "bounds_mm": [
     [
-      -17.448688507080078,
-      -11.782720565795898,
-      -5.835252285003662
+      -15.939464569091797,
+      -13.061324119567871,
+      -6.0
     ],
     [
-      26.649999618530273,
-      11.782720565795898,
-      5.835252285003662
+      25.149999618530273,
+      13.061324119567871,
+      6.0
     ]
   ],
   "watertight": true,
-  "faces": 23832,
+  "faces": 35430,
   "stem_od_nominal_mm": 4.5,
   "stem_od_measured_mm": 4.5,
   "stem_length_mm": 9.0,
   "bore_d_mm": 2.2,
-  "intake_d_mm": 3.6,
-  "intake_count": 3,
+  "intake_d_mm": 3.1,
+  "intake_count": 4,
   "sg": 1.8,
   "tune_history": [
     {
       "iter": 0,
-      "ry": 10.5,
-      "rz": 5.2,
-      "volume_mm3": 3923.821585720844
+      "ry": 9.5,
+      "rz": 5.0,
+      "volume_mm3": 2926.4418068530417
     },
     {
       "iter": 1,
-      "ry": 11.582212029157848,
-      "rz": 5.735952623963887,
-      "volume_mm3": 4819.324975066574
+      "ry": 11.979984185429679,
+      "rz": 6.0,
+      "volume_mm3": 4542.102734150066
     },
     {
       "iter": 2,
-      "ry": 11.754299432759467,
-      "rz": 5.821176861938022,
-      "volume_mm3": 4969.911854958688
+      "ry": 12.480943919605375,
+      "rz": 6.0,
+      "volume_mm3": 4742.88510288304
     },
     {
       "iter": 3,
-      "ry": 11.782720975298023,
-      "rz": 5.835252292528545,
-      "volume_mm3": 4994.998524675912
+      "ry": 12.764704016923018,
+      "rz": 6.0,
+      "volume_mm3": 4856.6428007418135
+    },
+    {
+      "iter": 4,
+      "ry": 12.923673249770243,
+      "rz": 6.0,
+      "volume_mm3": 4920.380650974881
+    },
+    {
+      "iter": 5,
+      "ry": 13.012194695277834,
+      "rz": 6.0,
+      "volume_mm3": 4955.875203418594
+    },
+    {
+      "iter": 6,
+      "ry": 13.06132374461102,
+      "rz": 6.0,
+      "volume_mm3": 4975.575266538337
     }
   ],
   "design": {
-    "name": "Flat oval straw weight (original silhouette)",
-    "name_ko": "\ub0a9\uc791 \ud0c0\uc6d0 \ucd94\ube68\ub300 \ucd94 (\uc6d0\ud615 \uc2e4\ub8e8\uc5e3 \uc720\uc9c0)",
+    "name": "Classic flat weight (\ucd94)",
+    "name_ko": "\uae30\ubcf8 \ub0a9\uc791 \ucd94 \ubaa8\uc591",
     "material": "100% silicone",
     "features": [
-      "flat oval body close to original LV-2602 proportions",
-      "crowned faces for low friction vs plastic bottle",
-      "3 bottom intake holes for drinking when weight settles",
-      "through bore + cross link for easy flush cleaning",
-      "plain \u00d84.5 mm stem + taper only (no ribs)"
+      "simple flat ellipsoid weight shape",
+      "4 neat bottom intake holes",
+      "plain \u00d84.5 mm stem",
+      "smooth low-friction exterior"
     ]
   },
   "preview": "renders/preview_3view.png",
