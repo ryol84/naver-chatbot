@@ -1,0 +1,9 @@
+trimesh>=4.0
+manifold3d
+numpy
+scipy
+shapely
+networkx
+numpy-stl
+matplotlib
+fast-simplification

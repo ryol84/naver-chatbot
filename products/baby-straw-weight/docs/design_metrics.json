@@ -1,0 +1,68 @@
+{
+  "target_volume_mm3": 5000.0,
+  "final_volume_mm3": 4991.81952740204,
+  "final_mass_g_at_sg": 8.985275149323671,
+  "volume_error_mm3": -8.180472597960033,
+  "body_rx_mm": 15.4,
+  "body_ry_mm": 10.017782288644256,
+  "body_rz_mm": 7.93074431184337,
+  "extents_mm": [
+    40.75625228881836,
+    21.23769760131836,
+    16.33733367919922
+  ],
+  "bounds_mm": [
+    [
+      -14.156251907348633,
+      -10.61884880065918,
+      -8.16866683959961
+    ],
+    [
+      26.600000381469727,
+      10.61884880065918,
+      8.16866683959961
+    ]
+  ],
+  "watertight": true,
+  "faces": 66602,
+  "stem_od_nominal_mm": 4.5,
+  "stem_od_measured_mm": 4.5,
+  "rib_od_mm": 5.4,
+  "stem_length_mm": 11.0,
+  "bore_d_mm": 2.2,
+  "sg": 1.8,
+  "tune_history": [
+    {
+      "iter": 0,
+      "ry": 9.6,
+      "rz": 7.6,
+      "volume_mm3": 4578.706318791991
+    },
+    {
+      "iter": 1,
+      "ry": 9.967147329867636,
+      "rz": 7.890658302811879,
+      "volume_mm3": 4940.764684069217
+    },
+    {
+      "iter": 2,
+      "ry": 10.017782288644256,
+      "rz": 7.93074431184337,
+      "volume_mm3": 4991.81952740204
+    }
+  ],
+  "design": {
+    "name": "Dewdrop straw weight",
+    "name_ko": "\uc774\uc2ac\ubc29\uc6b8 \ucd94\ube68\ub300 \ucd94",
+    "material": "100% silicone",
+    "features": [
+      "soft dewdrop body",
+      "open front intake",
+      "cross flush ports",
+      "through bore",
+      "4.5mm OD hose stem with tapered tip",
+      "dual retention ribs OD 5.4mm"
+    ]
+  },
+  "preview": "renders/preview_3view.png"
+}
