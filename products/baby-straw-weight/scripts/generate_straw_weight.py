@@ -351,7 +351,6 @@ def main() -> None:
 
     stl_path = STL_DIR / "LV-2602-straw-weight-9g.stl"
     mesh.export(stl_path)
-    mesh.export(STL_DIR / "LV-2602-straw-weight-9g-v1.stl")
 
     preview_path = RENDER_DIR / "preview_3view.png"
     try:
