@@ -1,0 +1,1666 @@
+{
+  "meta": {
+    "db_name": "반려견_영양제_종류별_성분스택_DB",
+    "version": "1.1.0",
+    "updated": "2026-10-15",
+    "scope": [
+      "EU",
+      "US",
+      "KR",
+      "JP"
+    ],
+    "species": "dog",
+    "usage": "챗봇/상세페이지 성분 매칭 및 목적별 안내. 치료·완치 클레임 금지. 수의사 상담 우선.",
+    "source_notes": "2026 유럽·미국 시판 제품·시장 리서치 기반 표준 스택 + 2026-10-15 한국·일본 신제품(벳타제·드시모네펫·닥터퓨레원) 반영. 개별 제품 라벨 용량은 제품별로 재확인.",
+    "related_notion": "강아지 영양소·영양제 목적기관별 정리 / 성분 DB",
+    "counts": {
+      "categories": 9,
+      "ingredients": 36,
+      "formulas": 27
+    },
+    "changelog": [
+      {
+        "version": "1.1.0",
+        "date": "2026-10-15",
+        "notes": [
+          "digestive_enzymes(판크립신) 성분 추가",
+          "MOS 별도 성분 + prebiotic alias 보강",
+          "erythritol·개유래유산균(HÜGBIO) 치아 매칭",
+          "KR/JP 포뮬러·브랜드 예시 추가",
+          "치아 puree 포맷 추가"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category_id": "joint",
+      "category_ko": "관절",
+      "category_en": "Joint / Mobility",
+      "purpose": "연골·관절액·모빌리티 지원",
+      "match_keys": [
+        "관절",
+        "연골",
+        "mobility",
+        "hip",
+        "joint",
+        "glucosamine",
+        "chondroitin",
+        "msm",
+        "green lipped",
+        "uc-ii",
+        "hyaluronic"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "glucosamine",
+            "green_lipped_mussel",
+            "hyaluronic_acid",
+            "omega3",
+            "vitamin_c",
+            "vitamin_e",
+            "manganese"
+          ],
+          "premium_stack": [
+            "glucosamine",
+            "chondroitin",
+            "msm",
+            "green_lipped_mussel",
+            "hyaluronic_acid",
+            "boswellia",
+            "curcumin",
+            "uc_ii"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "tablet",
+            "capsule"
+          ],
+          "example_brands": [
+            "YuMOVE",
+            "Synoquin",
+            "Seraquin",
+            "Flexadin UC-II",
+            "NaturVet",
+            "MedPaw",
+            "iKARMEL"
+          ],
+          "stack_notes": "Vet형은 GLM+Gluco+HA, Retail soft chew는 다성분 풀스택. UC-II는 1일 1츄 체중무관.",
+          "claim_notes": "complementary feed. PARNUT 관절 대사 지원은 오메가/EPA 기준 충족 시에만 특정 문구 가능. 치료 클레임 금지."
+        },
+        "US": {
+          "core_stack": [
+            "glucosamine",
+            "chondroitin",
+            "msm",
+            "green_lipped_mussel",
+            "hyaluronic_acid",
+            "omega3"
+          ],
+          "premium_stack": [
+            "glucosamine",
+            "chondroitin",
+            "msm",
+            "green_lipped_mussel",
+            "hyaluronic_acid",
+            "uc_ii",
+            "boswellia",
+            "turmeric",
+            "eggshell_membrane"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "tablet",
+            "powder",
+            "liquid"
+          ],
+          "example_brands": [
+            "YuMOVE US",
+            "Wuffes",
+            "Native Pet",
+            "Zesty Paws",
+            "Dasuquin",
+            "Cosequin"
+          ],
+          "stack_notes": "Gluco+Chondroitin+MSM 3종이 기본. Advanced는 GLM·HA·EPA 강화. NASC Quality Seal 선호.",
+          "claim_notes": "structure/function only. NASC 권장. 질환 치료·완치 표현 금지."
+        }
+      }
+    },
+    {
+      "category_id": "dental",
+      "category_ko": "치아",
+      "category_en": "Dental / Oral",
+      "purpose": "플라크·치석·구취·잇몸 보조",
+      "match_keys": [
+        "치아",
+        "구강",
+        "dental",
+        "plaque",
+        "tartar",
+        "kelp",
+        "ascophyllum",
+        "hexametaphosphate",
+        "구취",
+        "퓨레",
+        "puree",
+        "HÜGBIO",
+        "Hugbio",
+        "에리트리톨",
+        "erythritol",
+        "개유래유산균"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "ascophyllum_nodosum"
+          ],
+          "premium_stack": [
+            "ascophyllum_nodosum",
+            "mechanical_chew_matrix",
+            "omega3",
+            "probiotic"
+          ],
+          "common_formats": [
+            "powder",
+            "dental_bone",
+            "soft_chew",
+            "puree",
+            "dental_puree"
+          ],
+          "example_brands": [
+            "ProDen PlaqueOff",
+            "NaturVet Dental Bones (EU)"
+          ],
+          "stack_notes": "Ascophyllum nodosum(A.N ProDen) 단일 액티브가 카테고리 표준. 침액 경유 작용, 3–8주.",
+          "claim_notes": "요오드 함량으로 갑상선 질환견 주의. complementary feed."
+        },
+        "US": {
+          "core_stack": [
+            "ascophyllum_nodosum",
+            "sodium_hexametaphosphate",
+            "postbiotic"
+          ],
+          "premium_stack": [
+            "ascophyllum_nodosum",
+            "sodium_hexametaphosphate",
+            "postbiotic",
+            "probiotic",
+            "erythritol"
+          ],
+          "common_formats": [
+            "powder",
+            "soft_chew",
+            "dental_bone",
+            "water_additive",
+            "puree",
+            "dental_puree"
+          ],
+          "example_brands": [
+            "ProDen PlaqueOff US",
+            "Pet Honesty Dental Powder",
+            "TropiClean",
+            "Greenies(기계적)"
+          ],
+          "stack_notes": "kelp + SHMP + 향취/포스트바이오틱 복합이 흔함. 기계적 chew와 병행.",
+          "claim_notes": "VOHC seal이 있으면 신뢰도↑. 치료 클레임 금지."
+        },
+        "JP": {
+          "core_stack": [
+            "probiotic",
+            "erythritol",
+            "sodium_hexametaphosphate"
+          ],
+          "premium_stack": [
+            "probiotic",
+            "erythritol",
+            "sodium_hexametaphosphate",
+            "ascophyllum_nodosum"
+          ],
+          "common_formats": [
+            "puree",
+            "dental_puree",
+            "soft_chew"
+          ],
+          "example_brands": [
+            "산테미나 닥터 퓨레 원 (Dr. Puree Wan)"
+          ],
+          "stack_notes": "치아 퓨레 스낵 + 개 유래 유산균(HÜGBIO) + 에리트리톨·SHMP. 양치 거부견 대응.",
+          "claim_notes": "구강 건강 지원. 치주질환 치료 클레임 금지."
+        }
+      }
+    },
+    {
+      "category_id": "brain",
+      "category_ko": "두뇌",
+      "category_en": "Brain / Cognitive",
+      "purpose": "시니어 인지·주의·학습 지원",
+      "match_keys": [
+        "두뇌",
+        "인지",
+        "brain",
+        "cognitive",
+        "cds",
+        "dha",
+        "mct",
+        "phosphatidylserine",
+        "시니어"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "dha",
+            "phosphatidylserine_or_lecithin",
+            "vitamin_e",
+            "vitamin_b6",
+            "vitamin_b12",
+            "folate",
+            "selenium"
+          ],
+          "premium_stack": [
+            "dha",
+            "phosphatidylserine",
+            "pea_um",
+            "curcumin",
+            "vitamin_e",
+            "vitamin_b6",
+            "vitamin_d3",
+            "selenomethionine"
+          ],
+          "common_formats": [
+            "tablet",
+            "capsule"
+          ],
+          "example_brands": [
+            "Aktivait",
+            "Senilife Plus"
+          ],
+          "stack_notes": "Vet 인지 라인이 강함. Aktivait=DHA+lecithin+curcumin+B군+E/Se. Senilife=PEA-um+DHA+PS.",
+          "claim_notes": "인지기능 지원 수준. CDS 진단·치료는 수의사."
+        },
+        "US": {
+          "core_stack": [
+            "mct",
+            "dha",
+            "phosphatidylserine",
+            "vitamin_e"
+          ],
+          "premium_stack": [
+            "mct",
+            "dha",
+            "phosphatidylserine",
+            "vitamin_e",
+            "resveratrol",
+            "ashwagandha",
+            "ginkgo",
+            "vitamin_b6",
+            "coq10",
+            "sam_e"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "capsule"
+          ],
+          "example_brands": [
+            "Dr. Tim's Cognitive",
+            "Neutricks",
+            "Senilife US",
+            "Purina NeuroCare(식이)"
+          ],
+          "stack_notes": "MCT+조류/어유 DHA+PS가 시니어 soft chew 표준. 아답토젠 추가 흔함.",
+          "claim_notes": "structure/function. 사람용 뇌영양제 그대로 사용 금지."
+        }
+      }
+    },
+    {
+      "category_id": "general_health",
+      "category_ko": "종합건강",
+      "category_en": "General / Multivitamin / All-in-One",
+      "purpose": "일일 비타민·미네랄·웰니스 보조",
+      "match_keys": [
+        "종합",
+        "멀티",
+        "multivitamin",
+        "all-in-one",
+        "daily",
+        "웰니스",
+        "비타민"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "vitamin_a",
+            "vitamin_d",
+            "vitamin_e",
+            "b_complex",
+            "zinc",
+            "selenium",
+            "manganese"
+          ],
+          "premium_stack": [
+            "multivitamin_mineral",
+            "omega3",
+            "probiotic",
+            "low_dose_glucosamine"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "tablet"
+          ],
+          "example_brands": [
+            "NaturVet Multivitamin (EU)",
+            "지역 멀티비타민 브랜드"
+          ],
+          "stack_notes": "목적형 SKU 분리가 흔하고 All-in-one은 상대적으로 적음. 과잉 비타민 A/D 주의.",
+          "claim_notes": "완전·균형 사료 급여견에게 필수는 아님. complementary feed."
+        },
+        "US": {
+          "core_stack": [
+            "multivitamin_mineral",
+            "omega3",
+            "probiotic"
+          ],
+          "premium_stack": [
+            "glucosamine",
+            "chondroitin",
+            "omega3_6",
+            "multivitamin_mineral",
+            "bacillus_coagulans",
+            "immune_mushroom"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "powder"
+          ],
+          "example_brands": [
+            "Nulo Advanced All-in-1",
+            "Zesty Paws Multivitamin",
+            "PetHonesty Multivitamin"
+          ],
+          "stack_notes": "관절+오메가+프로바이오틱+비타민을 한 츄에 묶는 All-in-1이 강세. NASC.",
+          "claim_notes": "구조/기능. 과량 종합비타민 주의(AKC)."
+        }
+      }
+    },
+    {
+      "category_id": "antioxidant",
+      "category_ko": "항산화",
+      "category_en": "Antioxidant / Eye-Longevity",
+      "purpose": "산화 스트레스·눈·노화 보조",
+      "match_keys": [
+        "항산화",
+        "눈",
+        "시력",
+        "antioxidant",
+        "lutein",
+        "astaxanthin",
+        "coq10",
+        "포도씨",
+        "eye",
+        "vision"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "lutein",
+            "zeaxanthin",
+            "vitamin_c",
+            "vitamin_e",
+            "omega3"
+          ],
+          "premium_stack": [
+            "lutein",
+            "zeaxanthin",
+            "astaxanthin",
+            "vitamin_c",
+            "vitamin_e",
+            "omega3",
+            "grape_seed",
+            "selenium"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "tablet",
+            "capsule"
+          ],
+          "example_brands": [
+            "눈/시니어 라인 로컬 브랜드",
+            "Aktivait(인지 내 항산화)"
+          ],
+          "stack_notes": "단독 항산화보다 눈·시니어·인지에 묶이는 경우가 많음. 클레임 절제.",
+          "claim_notes": "anti-aging/disease 과대표현 회피."
+        },
+        "US": {
+          "core_stack": [
+            "lutein",
+            "vitamin_e",
+            "omega3",
+            "vitamin_c"
+          ],
+          "premium_stack": [
+            "lutein",
+            "zeaxanthin",
+            "astaxanthin",
+            "coq10",
+            "grape_seed",
+            "green_tea",
+            "rutin",
+            "bilberry",
+            "omega3",
+            "vitamin_c",
+            "vitamin_e"
+          ],
+          "common_formats": [
+            "chewable",
+            "soft_chew",
+            "capsule"
+          ],
+          "example_brands": [
+            "Ocu-GLO",
+            "Nutrition Strength Eye",
+            "Nutra Thrive"
+          ],
+          "stack_notes": "Ocu-GLO형 Grape seed+Lutein+Omega + Astaxanthin+CoQ10이 프리미엄 표준.",
+          "claim_notes": "눈 건강 지원. 안과 질환 치료는 수의사."
+        }
+      }
+    },
+    {
+      "category_id": "gut",
+      "category_ko": "장·소화",
+      "category_en": "Gut / Digestive",
+      "purpose": "장내균·소화·면역 보조",
+      "match_keys": [
+        "유산균",
+        "장",
+        "소화",
+        "probiotic",
+        "prebiotic",
+        "postbiotic",
+        "digestive",
+        "소화효소",
+        "pancreatin",
+        "MOS",
+        "만난올리고당",
+        "효소",
+        "digestive enzyme",
+        "벳타제",
+        "드시모네"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "probiotic",
+            "prebiotic"
+          ],
+          "premium_stack": [
+            "probiotic",
+            "prebiotic",
+            "postbiotic",
+            "digestive_enzymes",
+            "mos"
+          ],
+          "common_formats": [
+            "powder",
+            "capsule",
+            "soft_chew"
+          ],
+          "example_brands": [
+            "Protexin",
+            "지역 probiotic 브랜드"
+          ],
+          "stack_notes": "프로바이오틱스가 고성장. 균주명·CFU 표기 중요.",
+          "claim_notes": "장 건강 지원. 감염 치료 클레임 금지."
+        },
+        "US": {
+          "core_stack": [
+            "probiotic",
+            "prebiotic"
+          ],
+          "premium_stack": [
+            "probiotic",
+            "prebiotic",
+            "postbiotic",
+            "digestive_enzymes",
+            "mos"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "powder",
+            "capsule"
+          ],
+          "example_brands": [
+            "Native Pet Gutwell",
+            "Vetnique Glandex",
+            "Purina FortiFlora",
+            "Nulo Probiotic"
+          ],
+          "stack_notes": "soft chew probiotic + pumpkin/enzyme 조합 흔함. 포스트바이오틱·MOS 병행 증가.",
+          "claim_notes": "NASC. 설사 치료 표현 금지."
+        },
+        "KR": {
+          "core_stack": [
+            "probiotic",
+            "prebiotic"
+          ],
+          "premium_stack": [
+            "digestive_enzymes",
+            "probiotic",
+            "mos"
+          ],
+          "common_formats": [
+            "stick_pack",
+            "powder",
+            "soft_chew"
+          ],
+          "example_brands": [
+            "VETOBE 벳타제",
+            "헥토헬스케어 드시모네펫"
+          ],
+          "stack_notes": "벳타제형=판크립신+유산균3종+MOS(동물약국). 드시모네펫형=De Simone 8종 고CFU 데일리.",
+          "claim_notes": "소화·장 건강 지원. 설사·감염 치료 표현 금지. CFU·균주명 표기 권장."
+        }
+      }
+    },
+    {
+      "category_id": "skin_coat",
+      "category_ko": "피부·피모",
+      "category_en": "Skin & Coat",
+      "purpose": "피부 장벽·피모·가려움 보조",
+      "match_keys": [
+        "피부",
+        "피모",
+        "알러지",
+        "skin",
+        "coat",
+        "omega",
+        "fish oil",
+        "biotin",
+        "itch"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "omega3_epa_dha",
+            "vitamin_e",
+            "zinc",
+            "biotin"
+          ],
+          "premium_stack": [
+            "omega3",
+            "vitamin_e",
+            "zinc",
+            "biotin",
+            "evening_primrose_or_borage",
+            "antioxidant_polyphenols"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "oil",
+            "capsule"
+          ],
+          "example_brands": [
+            "NaturVet Skin & Coat (EU)",
+            "어유 브랜드"
+          ],
+          "stack_notes": "EPA/DHA 어유가 축. soft chew로 일상화.",
+          "claim_notes": "피부 건강 지원. 아토피 치료 표현 금지."
+        },
+        "US": {
+          "core_stack": [
+            "fish_oil_epa_dha",
+            "vitamin_e",
+            "biotin",
+            "zinc"
+          ],
+          "premium_stack": [
+            "fish_oil",
+            "vitamin_e",
+            "biotin",
+            "zinc",
+            "quercetin",
+            "colostrum",
+            "hemp",
+            "antioxidants"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "oil",
+            "liquid"
+          ],
+          "example_brands": [
+            "Zesty Paws Skin & Coat",
+            "Wuffes Allergy & Itch",
+            "Nordic Naturals"
+          ],
+          "stack_notes": "Allergy & Itch 라인에 quercetin·항산화 추가 흔함.",
+          "claim_notes": "structure/function. 사람용 오메가 용량 그대로 금지."
+        }
+      }
+    },
+    {
+      "category_id": "calming",
+      "category_ko": "진정·스트레스",
+      "category_en": "Calming / Stress",
+      "purpose": "스트레스·분리불안·이동 시 진정 보조",
+      "match_keys": [
+        "진정",
+        "불안",
+        "calming",
+        "stress",
+        "anxiety",
+        "l-theanine",
+        "casozepine",
+        "chamomile"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "alpha_casozepine",
+            "l_tryptophan"
+          ],
+          "premium_stack": [
+            "alpha_casozepine",
+            "fish_hydrolysate",
+            "l_theanine",
+            "magnesium",
+            "botanicals"
+          ],
+          "common_formats": [
+            "capsule",
+            "tablet",
+            "soft_chew"
+          ],
+          "example_brands": [
+            "Zylkene",
+            "NaturVet Calming (EU)"
+          ],
+          "stack_notes": "알파-카소제핀 기반 Vet 제품이 강함.",
+          "claim_notes": "진정 지원. 향정신 약물 대체 표현 금지."
+        },
+        "US": {
+          "core_stack": [
+            "l_theanine",
+            "chamomile",
+            "l_tryptophan"
+          ],
+          "premium_stack": [
+            "alpha_casozepine",
+            "fish_hydrolysate",
+            "l_theanine",
+            "valerian",
+            "passionflower",
+            "hemp",
+            "ashwagandha"
+          ],
+          "common_formats": [
+            "soft_chew",
+            "capsule"
+          ],
+          "example_brands": [
+            "Zylkene Plus",
+            "ThunderEase",
+            "Zesty Paws Calming",
+            "DakPets Calming"
+          ],
+          "stack_notes": "soft chew 허브 블렌드 + 카제인/펩타이드 이중 작용 제품 증가.",
+          "claim_notes": "NASC. 발작·심각한 불안은 수의사."
+        }
+      }
+    },
+    {
+      "category_id": "liver",
+      "category_ko": "간",
+      "category_en": "Liver Support",
+      "purpose": "간 해독·항산화 보조",
+      "match_keys": [
+        "간",
+        "liver",
+        "sam-e",
+        "milk thistle",
+        "silybin",
+        "glutathione"
+      ],
+      "regions": {
+        "EU": {
+          "core_stack": [
+            "milk_thistle_silybin",
+            "vitamin_e"
+          ],
+          "premium_stack": [
+            "sam_e",
+            "milk_thistle",
+            "vitamin_e",
+            "b_vitamins",
+            "antioxidants"
+          ],
+          "common_formats": [
+            "tablet",
+            "capsule"
+          ],
+          "example_brands": [
+            "Vet 간 보조 라인"
+          ],
+          "stack_notes": "밀크씨슬·SAM-e 중심. Vet 채널 비중 큼.",
+          "claim_notes": "간 기능 지원. 간질환 치료는 수의사."
+        },
+        "US": {
+          "core_stack": [
+            "sam_e",
+            "milk_thistle"
+          ],
+          "premium_stack": [
+            "sam_e",
+            "milk_thistle",
+            "glutathione_support",
+            "vitamin_e",
+            "artichoke",
+            "turmeric"
+          ],
+          "common_formats": [
+            "tablet",
+            "soft_chew"
+          ],
+          "example_brands": [
+            "Denamarin",
+            "VetriScience",
+            "Milk Thistle soft chews"
+          ],
+          "stack_notes": "SAM-e + silybin 콤보가 표준(Denamarin형).",
+          "claim_notes": "공복 투여 등 제품별 지시 준수. 치료 클레임 금지."
+        }
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "glucosamine",
+      "name_ko": "글루코사민",
+      "name_en": "Glucosamine HCl",
+      "aliases": "glucosamine,글루코사민,NAG,n-acetylglucosamine",
+      "role": "연골 구성·생성 보조",
+      "synergy": "chondroitin,msm,glm",
+      "caution": "패각류 유래 시 알레르기 주의",
+      "categories": [
+        "joint",
+        "general_health"
+      ]
+    },
+    {
+      "ingredient_id": "chondroitin",
+      "name_ko": "콘드로이틴",
+      "name_en": "Chondroitin Sulfate",
+      "aliases": "chondroitin,콘드로이틴",
+      "role": "연골 완충·분해 억제 보조",
+      "synergy": "glucosamine,msm",
+      "caution": "용량·품질 편차 큼",
+      "categories": [
+        "joint"
+      ]
+    },
+    {
+      "ingredient_id": "msm",
+      "name_ko": "MSM",
+      "name_en": "Methylsulfonylmethane",
+      "aliases": "msm,메틸설포닐메탄",
+      "role": "관절 불편감·황 공급 보조",
+      "synergy": "glucosamine,boswellia",
+      "caution": "개체차",
+      "categories": [
+        "joint"
+      ]
+    },
+    {
+      "ingredient_id": "green_lipped_mussel",
+      "name_ko": "그린립홍합",
+      "name_en": "Green-lipped Mussel",
+      "aliases": "GLM,green lipped,그린립,녹입홍합,ActivEase",
+      "role": "오메가·모빌리티·염증 경로 보조",
+      "synergy": "glucosamine,ha,omega3",
+      "caution": "패각류 알레르기",
+      "categories": [
+        "joint",
+        "skin_coat"
+      ]
+    },
+    {
+      "ingredient_id": "hyaluronic_acid",
+      "name_ko": "히알루론산",
+      "name_en": "Hyaluronic Acid",
+      "aliases": "HA,hyaluronic,히알루론산",
+      "role": "관절액 윤활·완충 보조",
+      "synergy": "glucosamine,glm",
+      "caution": "-",
+      "categories": [
+        "joint"
+      ]
+    },
+    {
+      "ingredient_id": "uc_ii",
+      "name_ko": "UC-II",
+      "name_en": "Undenatured Type II Collagen",
+      "aliases": "UC-II,undenatured collagen,비변성2형콜라겐",
+      "role": "저용량 oral tolerisation 관절 지원",
+      "synergy": "omega3,vitamin_e",
+      "caution": "닭 흉골 유래 가능",
+      "categories": [
+        "joint"
+      ]
+    },
+    {
+      "ingredient_id": "boswellia",
+      "name_ko": "보스웰리아",
+      "name_en": "Boswellia Serrata",
+      "aliases": "boswellia,보스웰리아",
+      "role": "관절 불편감 경로 보조",
+      "synergy": "msm,curcumin",
+      "caution": "-",
+      "categories": [
+        "joint"
+      ]
+    },
+    {
+      "ingredient_id": "curcumin",
+      "name_ko": "커큐민/강황",
+      "name_en": "Curcumin / Turmeric",
+      "aliases": "curcumin,turmeric,강황,커큐민",
+      "role": "항산화·불편감 경로 보조",
+      "synergy": "black_pepper,boswellia",
+      "caution": "흡수율 낮음(제형 중요)",
+      "categories": [
+        "joint",
+        "brain",
+        "antioxidant"
+      ]
+    },
+    {
+      "ingredient_id": "omega3",
+      "name_ko": "오메가-3(EPA/DHA)",
+      "name_en": "Omega-3 EPA/DHA",
+      "aliases": "omega-3,fish oil,어유,EPA,DHA,조류유",
+      "role": "관절·피부·뇌·눈·심장·신장 다목적",
+      "synergy": "vitamin_e",
+      "caution": "산패·출혈성향 약물 병용 시 수의사",
+      "categories": [
+        "joint",
+        "brain",
+        "skin_coat",
+        "antioxidant",
+        "general_health"
+      ]
+    },
+    {
+      "ingredient_id": "ascophyllum_nodosum",
+      "name_ko": "아스코필럼 노도섬(켈프)",
+      "name_en": "Ascophyllum nodosum",
+      "aliases": "ProDen,A.N ProDen,kelp,해조류,아스코필럼",
+      "role": "침액 경유 플라크·치석·구취 보조",
+      "synergy": "mechanical_chew",
+      "caution": "요오드→갑상선 주의",
+      "categories": [
+        "dental"
+      ]
+    },
+    {
+      "ingredient_id": "sodium_hexametaphosphate",
+      "name_ko": "헥사메타인산나트륨",
+      "name_en": "Sodium Hexametaphosphate",
+      "aliases": "SHMP,hexametaphosphate,헥사메타인산나트륨,헥사메타인산염",
+      "role": "치석 형성 억제 보조",
+      "synergy": "kelp,mint",
+      "caution": "과량 섭취 주의",
+      "categories": [
+        "dental"
+      ]
+    },
+    {
+      "ingredient_id": "dha",
+      "name_ko": "DHA",
+      "name_en": "DHA",
+      "aliases": "dha,docosahexaenoic,조류 dha",
+      "role": "뇌·눈 막 구성·인지 보조",
+      "synergy": "mct,ps,epa",
+      "caution": "-",
+      "categories": [
+        "brain",
+        "antioxidant"
+      ]
+    },
+    {
+      "ingredient_id": "mct",
+      "name_ko": "MCT",
+      "name_en": "Medium-chain Triglycerides",
+      "aliases": "mct,중쇄지방산,코코넛 mct",
+      "role": "시니어 뇌 대체 에너지(케톤)",
+      "synergy": "dha,ps",
+      "caution": "소화 민감견 서서히",
+      "categories": [
+        "brain"
+      ]
+    },
+    {
+      "ingredient_id": "phosphatidylserine",
+      "name_ko": "포스파티딜세린",
+      "name_en": "Phosphatidylserine",
+      "aliases": "PS,phosphatidylserine,레시틴(PS공급)",
+      "role": "신경막·인지 보조",
+      "synergy": "dha,vitamin_e",
+      "caution": "-",
+      "categories": [
+        "brain"
+      ]
+    },
+    {
+      "ingredient_id": "pea_um",
+      "name_ko": "PEA(초미세)",
+      "name_en": "PEA-um (Palmitoylethanolamide)",
+      "aliases": "PEA,palmitoylethanolamide",
+      "role": "뇌 생리 균형·시니어 인지 보조(EU)",
+      "synergy": "dha,ps",
+      "caution": "-",
+      "categories": [
+        "brain"
+      ]
+    },
+    {
+      "ingredient_id": "lutein",
+      "name_ko": "루테인",
+      "name_en": "Lutein",
+      "aliases": "lutein,루테인",
+      "role": "망막·수정체 항산화",
+      "synergy": "zeaxanthin,astaxanthin,omega3",
+      "caution": "-",
+      "categories": [
+        "antioxidant"
+      ]
+    },
+    {
+      "ingredient_id": "zeaxanthin",
+      "name_ko": "제아잔틴",
+      "name_en": "Zeaxanthin",
+      "aliases": "zeaxanthin,제아잔틴",
+      "role": "황반·눈 항산화",
+      "synergy": "lutein",
+      "caution": "-",
+      "categories": [
+        "antioxidant"
+      ]
+    },
+    {
+      "ingredient_id": "astaxanthin",
+      "name_ko": "아스타잔틴",
+      "name_en": "Astaxanthin",
+      "aliases": "astaxanthin,아스타잔틴",
+      "role": "강력 항산화·눈/노화 보조",
+      "synergy": "lutein,vitamin_e",
+      "caution": "-",
+      "categories": [
+        "antioxidant"
+      ]
+    },
+    {
+      "ingredient_id": "coq10",
+      "name_ko": "코엔자임Q10",
+      "name_en": "Coenzyme Q10",
+      "aliases": "CoQ10,ubiquinone,코큐텐",
+      "role": "미토콘드리아·항산화·심장/눈 보조",
+      "synergy": "vitamin_e",
+      "caution": "근거는 보조적",
+      "categories": [
+        "antioxidant",
+        "general_health"
+      ]
+    },
+    {
+      "ingredient_id": "grape_seed",
+      "name_ko": "포도씨추출물",
+      "name_en": "Grape Seed Extract",
+      "aliases": "grape seed,포도씨",
+      "role": "폴리페놀 항산화(눈 스택)",
+      "synergy": "lutein,omega3",
+      "caution": "-",
+      "categories": [
+        "antioxidant"
+      ]
+    },
+    {
+      "ingredient_id": "vitamin_e",
+      "name_ko": "비타민E",
+      "name_en": "Vitamin E",
+      "aliases": "vitamin e,tocopherol,비타민E",
+      "role": "지용성 항산화, 오메가 보호",
+      "synergy": "omega3,selenium",
+      "caution": "과량 주의",
+      "categories": [
+        "antioxidant",
+        "skin_coat",
+        "brain",
+        "joint"
+      ]
+    },
+    {
+      "ingredient_id": "vitamin_c",
+      "name_ko": "비타민C",
+      "name_en": "Vitamin C",
+      "aliases": "vitamin c,ascorbic,비타민C",
+      "role": "항산화·콜라겐 보조",
+      "synergy": "vitamin_e",
+      "caution": "-",
+      "categories": [
+        "antioxidant",
+        "joint"
+      ]
+    },
+    {
+      "ingredient_id": "probiotic",
+      "name_ko": "프로바이오틱스",
+      "name_en": "Probiotics",
+      "aliases": "probiotic,유산균,Bacillus coagulans,lactobacillus,De Simone,드시모네,HÜGBIO,Hugbio,개유래유산균",
+      "role": "장내균·소화·면역 보조",
+      "synergy": "prebiotic,postbiotic",
+      "caution": "균주·CFU 확인",
+      "categories": [
+        "gut",
+        "general_health",
+        "dental"
+      ]
+    },
+    {
+      "ingredient_id": "prebiotic",
+      "name_ko": "프리바이오틱스",
+      "name_en": "Prebiotics",
+      "aliases": "prebiotic,FOS,MOS,inulin,이눌린,만난올리고당,fructooligosaccharide",
+      "role": "유익균 먹이(FOS/MOS/이눌린 등)",
+      "synergy": "probiotic",
+      "caution": "과량 시 가스",
+      "categories": [
+        "gut"
+      ]
+    },
+    {
+      "ingredient_id": "postbiotic",
+      "name_ko": "포스트바이오틱스",
+      "name_en": "Postbiotics",
+      "aliases": "postbiotic,포스트바이오틱,PRIOME,Priome",
+      "role": "대사산물 기반 장·구강 보조",
+      "synergy": "probiotic",
+      "caution": "-",
+      "categories": [
+        "gut",
+        "dental"
+      ]
+    },
+    {
+      "ingredient_id": "digestive_enzymes",
+      "name_ko": "소화효소(판크립신)",
+      "name_en": "Digestive Enzymes / Pancreatin",
+      "aliases": "digestive enzymes,pancreatin,판크립신,소화효소,protease,amylase,lipase",
+      "role": "단백질·탄수화물·지방 소화 보조",
+      "synergy": "probiotic,mos",
+      "caution": "췌장·질환견은 수의사. 치료 표현 금지",
+      "categories": [
+        "gut"
+      ]
+    },
+    {
+      "ingredient_id": "mos",
+      "name_ko": "MOS(만난올리고당)",
+      "name_en": "Mannan-oligosaccharides (MOS)",
+      "aliases": "MOS,만난올리고당,mannan oligosaccharide,yeast MOS",
+      "role": "프리바이오틱·장 점막/유익균 보조",
+      "synergy": "probiotic,digestive_enzymes",
+      "caution": "과량 시 가스 가능",
+      "categories": [
+        "gut"
+      ]
+    },
+    {
+      "ingredient_id": "erythritol",
+      "name_ko": "에리트리톨",
+      "name_en": "Erythritol",
+      "aliases": "erythritol,에리트리톨",
+      "role": "구강 환경·치아 케어 보조(덴탈 스낵)",
+      "synergy": "sodium_hexametaphosphate,probiotic",
+      "caution": "자일리톨과 혼동 금지(자일리톨 독성). 용량·라벨 확인",
+      "categories": [
+        "dental"
+      ]
+    },
+    {
+      "ingredient_id": "biotin",
+      "name_ko": "비오틴",
+      "name_en": "Biotin",
+      "aliases": "biotin,비타민H,비오틴",
+      "role": "피부·피모 보조",
+      "synergy": "zinc,omega3",
+      "caution": "-",
+      "categories": [
+        "skin_coat"
+      ]
+    },
+    {
+      "ingredient_id": "zinc",
+      "name_ko": "아연",
+      "name_en": "Zinc",
+      "aliases": "zinc,아연",
+      "role": "피부·면역·효소 보조",
+      "synergy": "biotin,vitamin_e",
+      "caution": "과량 독성",
+      "categories": [
+        "skin_coat",
+        "general_health"
+      ]
+    },
+    {
+      "ingredient_id": "alpha_casozepine",
+      "name_ko": "알파-카소제핀",
+      "name_en": "Alpha-casozepine",
+      "aliases": "casozepine,Zylkene,가수분해우유단백",
+      "role": "장기 진정·적응 보조",
+      "synergy": "fish_hydrolysate",
+      "caution": "우유단백 민감 주의",
+      "categories": [
+        "calming"
+      ]
+    },
+    {
+      "ingredient_id": "l_theanine",
+      "name_ko": "L-테아닌",
+      "name_en": "L-Theanine",
+      "aliases": "l-theanine,테아닌",
+      "role": "이완·스트레스 보조",
+      "synergy": "l_tryptophan",
+      "caution": "-",
+      "categories": [
+        "calming"
+      ]
+    },
+    {
+      "ingredient_id": "l_tryptophan",
+      "name_ko": "L-트립토판",
+      "name_en": "L-Tryptophan",
+      "aliases": "tryptophan,트립토판",
+      "role": "세로토닌 경로·진정 보조",
+      "synergy": "l_theanine",
+      "caution": "-",
+      "categories": [
+        "calming"
+      ]
+    },
+    {
+      "ingredient_id": "sam_e",
+      "name_ko": "SAM-e",
+      "name_en": "S-Adenosylmethionine",
+      "aliases": "SAMe,SAM-e,사메",
+      "role": "간 글루타티온·인지 보조",
+      "synergy": "milk_thistle",
+      "caution": "공복 투여 제품 많음",
+      "categories": [
+        "liver",
+        "brain"
+      ]
+    },
+    {
+      "ingredient_id": "milk_thistle",
+      "name_ko": "밀크씨슬",
+      "name_en": "Milk Thistle / Silybin",
+      "aliases": "milk thistle,silybin,실리빈,밀크시슬",
+      "role": "간 항산화·보호 보조",
+      "synergy": "sam_e,vitamin_e",
+      "caution": "-",
+      "categories": [
+        "liver",
+        "antioxidant"
+      ]
+    },
+    {
+      "ingredient_id": "multivitamin_mineral",
+      "name_ko": "종합비타민·미네랄",
+      "name_en": "Multivitamin & Minerals",
+      "aliases": "multivitamin,종합비타민,비타민미네랄",
+      "role": "결핍·시니어·홈메이드 보완",
+      "synergy": "omega3,probiotic",
+      "caution": "A/D 과잉 주의, 완전사료면 필수 아닐 수 있음",
+      "categories": [
+        "general_health"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "formula_id": "EU-JOINT-VET",
+      "region": "EU",
+      "category_id": "joint",
+      "name": "EU Vet/YuMOVE형",
+      "tier": "core",
+      "ingredients": [
+        "glucosamine",
+        "green_lipped_mussel",
+        "hyaluronic_acid",
+        "omega3",
+        "vitamin_c",
+        "vitamin_e",
+        "manganese"
+      ],
+      "example_products": "YuMOVE PLUS Max",
+      "guide_ko": "글루코사민과 그린립홍합·히알루론산으로 연골·모빌리티·관절액을 함께 돕는 유럽 수의/리테일 표준형입니다.",
+      "claim_guard": "complementary feed. PARNUT 관절 대사 지원은 오메가/EPA 기준 충족 시에만 특정 문구 가능. 치료 클레임 금지."
+    },
+    {
+      "formula_id": "EU-JOINT-FULL",
+      "region": "EU",
+      "category_id": "joint",
+      "name": "EU Retail 풀스택 soft chew",
+      "tier": "premium",
+      "ingredients": [
+        "glucosamine",
+        "chondroitin",
+        "msm",
+        "green_lipped_mussel",
+        "hyaluronic_acid",
+        "boswellia",
+        "curcumin"
+      ],
+      "example_products": "MedPaw, iKARMEL, Vitabia",
+      "guide_ko": "연골 빌딩+MSM/보스웰리아+GLM/HA를 한 soft chew에 담는 DTC형입니다.",
+      "claim_guard": "complementary feed. PARNUT 관절 대사 지원은 오메가/EPA 기준 충족 시에만 특정 문구 가능. 치료 클레임 금지."
+    },
+    {
+      "formula_id": "EU-JOINT-UCII",
+      "region": "EU",
+      "category_id": "joint",
+      "name": "EU UC-II형",
+      "tier": "premium",
+      "ingredients": [
+        "uc_ii",
+        "vitamin_e",
+        "omega3"
+      ],
+      "example_products": "Flexadin UC-II, Naturecan UC-II",
+      "guide_ko": "비변성 2형 콜라겐 저용량·체중무관 1일 1츄 포맷입니다.",
+      "claim_guard": "complementary feed. PARNUT 관절 대사 지원은 오메가/EPA 기준 충족 시에만 특정 문구 가능. 치료 클레임 금지."
+    },
+    {
+      "formula_id": "US-JOINT-CORE",
+      "region": "US",
+      "category_id": "joint",
+      "name": "US 기본 관절",
+      "tier": "core",
+      "ingredients": [
+        "glucosamine",
+        "chondroitin",
+        "msm",
+        "green_lipped_mussel",
+        "hyaluronic_acid",
+        "omega3"
+      ],
+      "example_products": "Wuffes Hip & Joint, Zesty Paws Mobility",
+      "guide_ko": "미국 시장의 기본 6성분 관절 스택입니다.",
+      "claim_guard": "structure/function only. NASC 권장. 질환 치료·완치 표현 금지."
+    },
+    {
+      "formula_id": "US-JOINT-ADV",
+      "region": "US",
+      "category_id": "joint",
+      "name": "US Advanced/Vet strength",
+      "tier": "premium",
+      "ingredients": [
+        "glucosamine",
+        "green_lipped_mussel",
+        "hyaluronic_acid",
+        "omega3",
+        "vitamin_e",
+        "uc_ii"
+      ],
+      "example_products": "YuMOVE Advanced Vet Strength US, Native Pet UC-II",
+      "guide_ko": "GLM·오메가·HA를 강화하거나 UC-II를 전면에 두는 상위 라인입니다.",
+      "claim_guard": "structure/function only. NASC 권장. 질환 치료·완치 표현 금지."
+    },
+    {
+      "formula_id": "EU-DENTAL-CORE",
+      "region": "EU",
+      "category_id": "dental",
+      "name": "EU ProDen형",
+      "tier": "core",
+      "ingredients": [
+        "ascophyllum_nodosum"
+      ],
+      "example_products": "ProDen PlaqueOff Powder",
+      "guide_ko": "아스코필럼 노도섬 단일 성분으로 침액을 통해 구강을 돕는 유럽 표준입니다.",
+      "claim_guard": "요오드 함량으로 갑상선 질환견 주의. complementary feed."
+    },
+    {
+      "formula_id": "US-DENTAL-CORE",
+      "region": "US",
+      "category_id": "dental",
+      "name": "US Kelp+SHMP형",
+      "tier": "core",
+      "ingredients": [
+        "ascophyllum_nodosum",
+        "sodium_hexametaphosphate",
+        "postbiotic"
+      ],
+      "example_products": "Pet Honesty Dental Powder",
+      "guide_ko": "켈프+헥사메타인산염+포스트바이오틱 조합의 미국형 치아 파우더입니다.",
+      "claim_guard": "VOHC seal이 있으면 신뢰도↑. 치료 클레임 금지."
+    },
+    {
+      "formula_id": "EU-BRAIN-CORE",
+      "region": "EU",
+      "category_id": "brain",
+      "name": "EU Aktivait형",
+      "tier": "core",
+      "ingredients": [
+        "dha",
+        "phosphatidylserine",
+        "curcumin",
+        "vitamin_e",
+        "vitamin_b6",
+        "vitamin_b12",
+        "folate",
+        "selenium"
+      ],
+      "example_products": "Aktivait",
+      "guide_ko": "DHA·PS(레시틴)·항산화·B군을 묶은 유럽 수의 인지 스택입니다.",
+      "claim_guard": "인지기능 지원 수준. CDS 진단·치료는 수의사."
+    },
+    {
+      "formula_id": "EU-BRAIN-PEA",
+      "region": "EU",
+      "category_id": "brain",
+      "name": "EU Senilife형",
+      "tier": "premium",
+      "ingredients": [
+        "pea_um",
+        "dha",
+        "phosphatidylserine",
+        "vitamin_b6",
+        "vitamin_e"
+      ],
+      "example_products": "Senilife Plus",
+      "guide_ko": "PEA-um과 DHA·PS를 중심으로 한 시니어 뇌 웰빙 스택입니다.",
+      "claim_guard": "인지기능 지원 수준. CDS 진단·치료는 수의사."
+    },
+    {
+      "formula_id": "US-BRAIN-CORE",
+      "region": "US",
+      "category_id": "brain",
+      "name": "US MCT Cognitive형",
+      "tier": "core",
+      "ingredients": [
+        "mct",
+        "dha",
+        "phosphatidylserine",
+        "vitamin_e"
+      ],
+      "example_products": "Dr. Tim's Cognitive Soft Chews",
+      "guide_ko": "MCT로 뇌 에너지를, DHA·PS로 막·인지, E로 항산화를 돕는 미국형입니다.",
+      "claim_guard": "structure/function. 사람용 뇌영양제 그대로 사용 금지."
+    },
+    {
+      "formula_id": "US-BRAIN-PREM",
+      "region": "US",
+      "category_id": "brain",
+      "name": "US Cognitive Premium",
+      "tier": "premium",
+      "ingredients": [
+        "mct",
+        "dha",
+        "phosphatidylserine",
+        "vitamin_e",
+        "resveratrol",
+        "ashwagandha",
+        "ginkgo",
+        "vitamin_b6"
+      ],
+      "example_products": "Dr. Tim's Cognitive (full)",
+      "guide_ko": "MCT 인지 코어에 레스베라트롤·아답토젠을 더한 프리미엄입니다.",
+      "claim_guard": "structure/function. 사람용 뇌영양제 그대로 사용 금지."
+    },
+    {
+      "formula_id": "EU-GENERAL-CORE",
+      "region": "EU",
+      "category_id": "general_health",
+      "name": "EU Multivitamin",
+      "tier": "core",
+      "ingredients": [
+        "multivitamin_mineral",
+        "omega3"
+      ],
+      "example_products": "NaturVet Multivitamin EU",
+      "guide_ko": "비타민·미네랄 중심으로 오메가를 소량 더한 유럽형 일일 보조입니다.",
+      "claim_guard": "완전·균형 사료 급여견에게 필수는 아님. complementary feed."
+    },
+    {
+      "formula_id": "US-GENERAL-AIO",
+      "region": "US",
+      "category_id": "general_health",
+      "name": "US All-in-One",
+      "tier": "premium",
+      "ingredients": [
+        "glucosamine",
+        "chondroitin",
+        "omega3",
+        "multivitamin_mineral",
+        "probiotic"
+      ],
+      "example_products": "Nulo Advanced All-in-1",
+      "guide_ko": "관절+오메가+멀티+프로바이오틱을 한 soft chew에 담는 미국형입니다.",
+      "claim_guard": "구조/기능. 과량 종합비타민 주의(AKC)."
+    },
+    {
+      "formula_id": "EU-ANTI-CORE",
+      "region": "EU",
+      "category_id": "antioxidant",
+      "name": "EU Eye/Antioxidant",
+      "tier": "core",
+      "ingredients": [
+        "lutein",
+        "zeaxanthin",
+        "vitamin_c",
+        "vitamin_e",
+        "omega3"
+      ],
+      "example_products": "EU eye support lines",
+      "guide_ko": "루테인·제아잔틴과 C/E·오메가 중심의 절제형 항산화 스택입니다.",
+      "claim_guard": "anti-aging/disease 과대표현 회피."
+    },
+    {
+      "formula_id": "US-ANTI-OCU",
+      "region": "US",
+      "category_id": "antioxidant",
+      "name": "US Ocu-GLO형",
+      "tier": "premium",
+      "ingredients": [
+        "grape_seed",
+        "lutein",
+        "omega3",
+        "vitamin_e",
+        "coq10",
+        "astaxanthin"
+      ],
+      "example_products": "Ocu-GLO",
+      "guide_ko": "포도씨+루테인+오메가에 아스타잔틴·CoQ10을 더한 미국 수의안과형 스택입니다.",
+      "claim_guard": "눈 건강 지원. 안과 질환 치료는 수의사."
+    },
+    {
+      "formula_id": "EU-GUT-CORE",
+      "region": "EU",
+      "category_id": "gut",
+      "name": "EU Probiotic",
+      "tier": "core",
+      "ingredients": [
+        "probiotic",
+        "prebiotic"
+      ],
+      "example_products": "Protexin",
+      "guide_ko": "균주+프리바이오틱 기본형입니다.",
+      "claim_guard": "장 건강 지원. 감염 치료 클레임 금지."
+    },
+    {
+      "formula_id": "US-GUT-CORE",
+      "region": "US",
+      "category_id": "gut",
+      "name": "US Digestive soft chew",
+      "tier": "core",
+      "ingredients": [
+        "probiotic",
+        "prebiotic",
+        "postbiotic"
+      ],
+      "example_products": "Native Pet Gutwell, FortiFlora",
+      "guide_ko": "프로/프리/포스트를 조합한 미국형 장 건강 스택입니다.",
+      "claim_guard": "NASC. 설사 치료 표현 금지."
+    },
+    {
+      "formula_id": "EU-SKIN-CORE",
+      "region": "EU",
+      "category_id": "skin_coat",
+      "name": "EU Skin & Coat",
+      "tier": "core",
+      "ingredients": [
+        "omega3",
+        "vitamin_e",
+        "zinc",
+        "biotin"
+      ],
+      "example_products": "NaturVet Skin & Coat EU",
+      "guide_ko": "어유 오메가와 E·아연·비오틴 조합입니다.",
+      "claim_guard": "피부 건강 지원. 아토피 치료 표현 금지."
+    },
+    {
+      "formula_id": "US-SKIN-ITCH",
+      "region": "US",
+      "category_id": "skin_coat",
+      "name": "US Allergy & Itch",
+      "tier": "premium",
+      "ingredients": [
+        "omega3",
+        "vitamin_e",
+        "biotin",
+        "zinc",
+        "quercetin"
+      ],
+      "example_products": "Wuffes Allergy & Itch",
+      "guide_ko": "오메가 피부 코어에 케르세틴 등 가려움 보조를 더한 미국형입니다.",
+      "claim_guard": "structure/function. 사람용 오메가 용량 그대로 금지."
+    },
+    {
+      "formula_id": "EU-CALM-CORE",
+      "region": "EU",
+      "category_id": "calming",
+      "name": "EU Casozepine형",
+      "tier": "core",
+      "ingredients": [
+        "alpha_casozepine"
+      ],
+      "example_products": "Zylkene",
+      "guide_ko": "가수분해 우유단백(알파-카소제핀) 기반 유럽 진정 표준입니다.",
+      "claim_guard": "진정 지원. 향정신 약물 대체 표현 금지."
+    },
+    {
+      "formula_id": "US-CALM-CORE",
+      "region": "US",
+      "category_id": "calming",
+      "name": "US Calming soft chew",
+      "tier": "core",
+      "ingredients": [
+        "l_theanine",
+        "l_tryptophan",
+        "alpha_casozepine"
+      ],
+      "example_products": "Zylkene Plus, Zesty Paws Calming",
+      "guide_ko": "테아닌·트립토판·카소제핀을 섞는 미국 soft chew형입니다.",
+      "claim_guard": "NASC. 발작·심각한 불안은 수의사."
+    },
+    {
+      "formula_id": "EU-LIVER-CORE",
+      "region": "EU",
+      "category_id": "liver",
+      "name": "EU Liver",
+      "tier": "core",
+      "ingredients": [
+        "milk_thistle",
+        "vitamin_e"
+      ],
+      "example_products": "EU vet liver supports",
+      "guide_ko": "밀크씨슬·비타민E 중심 간 보조입니다.",
+      "claim_guard": "간 기능 지원. 간질환 치료는 수의사."
+    },
+    {
+      "formula_id": "US-LIVER-CORE",
+      "region": "US",
+      "category_id": "liver",
+      "name": "US SAM-e + Milk Thistle",
+      "tier": "core",
+      "ingredients": [
+        "sam_e",
+        "milk_thistle"
+      ],
+      "example_products": "Denamarin",
+      "guide_ko": "SAM-e와 실리빈(밀크씨슬) 콤보가 미국 간 보조 표준입니다.",
+      "claim_guard": "공복 투여 등 제품별 지시 준수. 치료 클레임 금지."
+    },
+    {
+      "formula_id": "US-GUT-ENZYME",
+      "region": "US",
+      "category_id": "gut",
+      "name": "US Digestive Enzyme+Probiotic",
+      "tier": "premium",
+      "ingredients": [
+        "digestive_enzymes",
+        "probiotic",
+        "prebiotic",
+        "postbiotic"
+      ],
+      "example_products": "Native Pet Gutwell(+enzyme lines)",
+      "guide_ko": "소화효소와 프로/프리/포스트를 함께 쓰는 미국형 장·소화 프리미엄입니다.",
+      "claim_guard": "NASC. 설사·췌장염 치료 표현 금지."
+    },
+    {
+      "formula_id": "KR-GUT-ENZYME",
+      "region": "KR",
+      "category_id": "gut",
+      "name": "KR 벳타제형(효소+유산균+MOS)",
+      "tier": "premium",
+      "ingredients": [
+        "digestive_enzymes",
+        "probiotic",
+        "mos"
+      ],
+      "example_products": "VETOBE 벳타제",
+      "guide_ko": "판크립신(소화효소)+락토바실러스+MOS 스틱포. 동물약국 채널 대응용입니다.",
+      "claim_guard": "소화·장 건강 지원. 설사 치료 금지. 수의사·라벨 우선."
+    },
+    {
+      "formula_id": "KR-GUT-DESIMONE",
+      "region": "KR",
+      "category_id": "gut",
+      "name": "KR 드시모네펫형(고CFU 다균)",
+      "tier": "core",
+      "ingredients": [
+        "probiotic",
+        "prebiotic"
+      ],
+      "example_products": "헥토헬스케어 드시모네펫",
+      "guide_ko": "De Simone 8종·고CFU 데일리 프로바이오틱. CFU·균주명 안내가 핵심입니다.",
+      "claim_guard": "장 건강 지원. 치료 클레임 금지. CFU 과대 표현 주의."
+    },
+    {
+      "formula_id": "JP-DENTAL-PUREE",
+      "region": "JP",
+      "category_id": "dental",
+      "name": "JP 치아 퓨레(유산균+SHMP)",
+      "tier": "core",
+      "ingredients": [
+        "probiotic",
+        "erythritol",
+        "sodium_hexametaphosphate"
+      ],
+      "example_products": "산테미나 닥터 퓨레 원 (HÜGBIO)",
+      "guide_ko": "개 유래 유산균·에리트리톨·헥사메타인산염을 퓨레 스낵으로 급여하는 일본형 치아 케어입니다.",
+      "claim_guard": "구강 건강 지원. 치주 치료 클레임 금지. 자일리톨 혼동 주의."
+    }
+  ]
+}
