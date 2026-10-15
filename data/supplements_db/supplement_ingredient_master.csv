@@ -1,0 +1,37 @@
+ingredient_id,name_ko,name_en,aliases,role,synergy,caution,categories
+glucosamine,글루코사민,Glucosamine HCl,"glucosamine,글루코사민,NAG,n-acetylglucosamine",연골 구성·생성 보조,"chondroitin,msm,glm",패각류 유래 시 알레르기 주의,joint|general_health
+chondroitin,콘드로이틴,Chondroitin Sulfate,"chondroitin,콘드로이틴",연골 완충·분해 억제 보조,"glucosamine,msm",용량·품질 편차 큼,joint
+msm,MSM,Methylsulfonylmethane,"msm,메틸설포닐메탄",관절 불편감·황 공급 보조,"glucosamine,boswellia",개체차,joint
+green_lipped_mussel,그린립홍합,Green-lipped Mussel,"GLM,green lipped,그린립,녹입홍합,ActivEase",오메가·모빌리티·염증 경로 보조,"glucosamine,ha,omega3",패각류 알레르기,joint|skin_coat
+hyaluronic_acid,히알루론산,Hyaluronic Acid,"HA,hyaluronic,히알루론산",관절액 윤활·완충 보조,"glucosamine,glm",-,joint
+uc_ii,UC-II,Undenatured Type II Collagen,"UC-II,undenatured collagen,비변성2형콜라겐",저용량 oral tolerisation 관절 지원,"omega3,vitamin_e",닭 흉골 유래 가능,joint
+boswellia,보스웰리아,Boswellia Serrata,"boswellia,보스웰리아",관절 불편감 경로 보조,"msm,curcumin",-,joint
+curcumin,커큐민/강황,Curcumin / Turmeric,"curcumin,turmeric,강황,커큐민",항산화·불편감 경로 보조,"black_pepper,boswellia",흡수율 낮음(제형 중요),joint|brain|antioxidant
+omega3,오메가-3(EPA/DHA),Omega-3 EPA/DHA,"omega-3,fish oil,어유,EPA,DHA,조류유",관절·피부·뇌·눈·심장·신장 다목적,vitamin_e,산패·출혈성향 약물 병용 시 수의사,joint|brain|skin_coat|antioxidant|general_health
+ascophyllum_nodosum,아스코필럼 노도섬(켈프),Ascophyllum nodosum,"ProDen,A.N ProDen,kelp,해조류,아스코필럼",침액 경유 플라크·치석·구취 보조,mechanical_chew,요오드→갑상선 주의,dental
+sodium_hexametaphosphate,헥사메타인산나트륨,Sodium Hexametaphosphate,"SHMP,hexametaphosphate,헥사메타인산나트륨,헥사메타인산염",치석 형성 억제 보조,"kelp,mint",과량 섭취 주의,dental
+dha,DHA,DHA,"dha,docosahexaenoic,조류 dha",뇌·눈 막 구성·인지 보조,"mct,ps,epa",-,brain|antioxidant
+mct,MCT,Medium-chain Triglycerides,"mct,중쇄지방산,코코넛 mct",시니어 뇌 대체 에너지(케톤),"dha,ps",소화 민감견 서서히,brain
+phosphatidylserine,포스파티딜세린,Phosphatidylserine,"PS,phosphatidylserine,레시틴(PS공급)",신경막·인지 보조,"dha,vitamin_e",-,brain
+pea_um,PEA(초미세),PEA-um (Palmitoylethanolamide),"PEA,palmitoylethanolamide",뇌 생리 균형·시니어 인지 보조(EU),"dha,ps",-,brain
+lutein,루테인,Lutein,"lutein,루테인",망막·수정체 항산화,"zeaxanthin,astaxanthin,omega3",-,antioxidant
+zeaxanthin,제아잔틴,Zeaxanthin,"zeaxanthin,제아잔틴",황반·눈 항산화,lutein,-,antioxidant
+astaxanthin,아스타잔틴,Astaxanthin,"astaxanthin,아스타잔틴",강력 항산화·눈/노화 보조,"lutein,vitamin_e",-,antioxidant
+coq10,코엔자임Q10,Coenzyme Q10,"CoQ10,ubiquinone,코큐텐",미토콘드리아·항산화·심장/눈 보조,vitamin_e,근거는 보조적,antioxidant|general_health
+grape_seed,포도씨추출물,Grape Seed Extract,"grape seed,포도씨",폴리페놀 항산화(눈 스택),"lutein,omega3",-,antioxidant
+vitamin_e,비타민E,Vitamin E,"vitamin e,tocopherol,비타민E","지용성 항산화, 오메가 보호","omega3,selenium",과량 주의,antioxidant|skin_coat|brain|joint
+vitamin_c,비타민C,Vitamin C,"vitamin c,ascorbic,비타민C",항산화·콜라겐 보조,vitamin_e,-,antioxidant|joint
+probiotic,프로바이오틱스,Probiotics,"probiotic,유산균,Bacillus coagulans,lactobacillus,De Simone,드시모네,HÜGBIO,Hugbio,개유래유산균",장내균·소화·면역 보조,"prebiotic,postbiotic",균주·CFU 확인,gut|general_health|dental
+prebiotic,프리바이오틱스,Prebiotics,"prebiotic,FOS,MOS,inulin,이눌린,만난올리고당,fructooligosaccharide",유익균 먹이(FOS/MOS/이눌린 등),probiotic,과량 시 가스,gut
+postbiotic,포스트바이오틱스,Postbiotics,"postbiotic,포스트바이오틱,PRIOME,Priome",대사산물 기반 장·구강 보조,probiotic,-,gut|dental
+digestive_enzymes,소화효소(판크립신),Digestive Enzymes / Pancreatin,"digestive enzymes,pancreatin,판크립신,소화효소,protease,amylase,lipase",단백질·탄수화물·지방 소화 보조,"probiotic,mos",췌장·질환견은 수의사. 치료 표현 금지,gut
+mos,MOS(만난올리고당),Mannan-oligosaccharides (MOS),"MOS,만난올리고당,mannan oligosaccharide,yeast MOS",프리바이오틱·장 점막/유익균 보조,"probiotic,digestive_enzymes",과량 시 가스 가능,gut
+erythritol,에리트리톨,Erythritol,"erythritol,에리트리톨",구강 환경·치아 케어 보조(덴탈 스낵),"sodium_hexametaphosphate,probiotic",자일리톨과 혼동 금지(자일리톨 독성). 용량·라벨 확인,dental
+biotin,비오틴,Biotin,"biotin,비타민H,비오틴",피부·피모 보조,"zinc,omega3",-,skin_coat
+zinc,아연,Zinc,"zinc,아연",피부·면역·효소 보조,"biotin,vitamin_e",과량 독성,skin_coat|general_health
+alpha_casozepine,알파-카소제핀,Alpha-casozepine,"casozepine,Zylkene,가수분해우유단백",장기 진정·적응 보조,fish_hydrolysate,우유단백 민감 주의,calming
+l_theanine,L-테아닌,L-Theanine,"l-theanine,테아닌",이완·스트레스 보조,l_tryptophan,-,calming
+l_tryptophan,L-트립토판,L-Tryptophan,"tryptophan,트립토판",세로토닌 경로·진정 보조,l_theanine,-,calming
+sam_e,SAM-e,S-Adenosylmethionine,"SAMe,SAM-e,사메",간 글루타티온·인지 보조,milk_thistle,공복 투여 제품 많음,liver|brain
+milk_thistle,밀크씨슬,Milk Thistle / Silybin,"milk thistle,silybin,실리빈,밀크시슬",간 항산화·보호 보조,"sam_e,vitamin_e",-,liver|antioxidant
+multivitamin_mineral,종합비타민·미네랄,Multivitamin & Minerals,"multivitamin,종합비타민,비타민미네랄",결핍·시니어·홈메이드 보완,"omega3,probiotic","A/D 과잉 주의, 완전사료면 필수 아닐 수 있음",general_health
