@@ -1,0 +1,23 @@
+{
+  "source": "https://www.maruvet.com/hospital/",
+  "source_name": "쫑긋 PerkPaw by Maruvet",
+  "collected_at": "2026-10-27T07:50:00+09:00",
+  "license_data_as_of": "2026-10-17",
+  "method": "district HTML listings only, 1.25s between requests, no /api/",
+  "n": 5491,
+  "with_phone": 4173,
+  "with_hours": 2940,
+  "marked_24h_on_page": 217,
+  "district_pages": 257,
+  "bemypet": {
+    "url": "https://bemypet.kr/hospital",
+    "status": "blocked",
+    "reason": "Vercel Security Checkpoint (HTTP 429, browser verify failed). No further requests."
+  },
+  "companion_overlap": {
+    "companion_n": 4137,
+    "phone_overlap": 2381,
+    "maruvet_phones_not_in_companion": 1753,
+    "name_overlap": 2445
+  }
+}

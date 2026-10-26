@@ -86,6 +86,17 @@ Gwangju neigh wave1 95: Place enrich merge
 - 제외(충남 폐업): 참좋은동물병원·드림컨설팅동물병원·미소동물병원·한샘애견동물병원·한샘동물병원
 - 제외(충남 대동물/축산): 당진축협동물병원·세종팜스동물병원·우사랑동물병원·한길동물병원·천성가축약품병원·천안축협동물병원
 
+## Maruvet 전국 인허가 디렉터리 (2026-10-27 수집)
+
+출처: [maruvet.com/hospital](https://www.maruvet.com/hospital/) (쫑긋). 지방행정 인허가 공개 목록. 원천 기준일 2026-10-17.
+
+- 파일: `data/hospitals/sources/maruvet-hospitals.csv`, `maruvet-hospitals.jsonl`
+- 5,491곳 전부 (시·군·구 목록 257페이지, 요청 간격 1.25초, `/api/` 미사용)
+- 전화 4,173 · 진료시간 2,940 · 페이지에 24시간 표시 217
+- 기존 companion 4,137과 전화 겹침 2,381 · 마루벳에만 있는 전화 1,753
+- 상세 페이지(지번·블로그·인허가일)는 서버 부담을 피하려고 받지 않음
+- [bemypet.kr/hospital](https://bemypet.kr/hospital) 은 Vercel 브라우저 확인에서 막혀 수집하지 않음 (재시도 안 함)
+
 ## Agent pack (download / handoff)
 - Folder: `data/hospitals/agent-pack/` — see `AGENT.md`
 - Zip: `data/hospitals/agent-pack/companion-hospitals-agent-pack-2026-09-20.1.zip`
