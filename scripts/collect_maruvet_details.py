@@ -9,11 +9,14 @@ from __future__ import annotations
 
 import json
 import re
+import socket
 import time
 import urllib.error
 import urllib.request
 from html import unescape
 from pathlib import Path
+
+socket.setdefaulttimeout(25)
 
 ROOT = Path(__file__).resolve().parents[1]
 LISTING = ROOT / "data/hospitals/sources/maruvet-hospitals.jsonl"
