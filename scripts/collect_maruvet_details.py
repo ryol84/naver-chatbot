@@ -52,14 +52,36 @@ def done_ids() -> set[str]:
 
 
 def fetch(url: str) -> tuple[int, str]:
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": UA, "Accept": "text/html"},
+    import subprocess
+
+    proc = subprocess.run(
+        [
+            "curl",
+            "-sS",
+            "-L",
+            "--max-time",
+            "25",
+            "--connect-timeout",
+            "10",
+            "-A",
+            UA,
+            "-H",
+            "Accept: text/html",
+            "-w",
+            "\n%{http_code}",
+            url,
+        ],
+        capture_output=True,
+        text=True,
+        timeout=35,
     )
-    with urllib.request.urlopen(req, timeout=TIMEOUT_S) as resp:
-        raw = resp.read()
-        charset = resp.headers.get_content_charset() or "utf-8"
-        return resp.status, raw.decode(charset, errors="replace")
+    if proc.returncode != 0:
+        raise RuntimeError(proc.stderr.strip() or f"curl exit {proc.returncode}")
+    body, _, code = proc.stdout.rpartition("\n")
+    status = int(code.strip() or "0")
+    if status >= 400:
+        raise urllib.error.HTTPError(url, status, body[:180], hdrs=None, fp=None)
+    return status, body
 
 
 def ld_place(html: str) -> dict:
