@@ -304,9 +304,10 @@ def main() -> None:
             log(f"FAIL {n}/{len(todo)} {row.get('license_id')} {exc}")
             if isinstance(exc, urllib.error.HTTPError) and exc.code in (429, 503):
                 time.sleep(45)
-            if consecutive_fail >= 12:
-                log("stopping after 12 consecutive failures")
-                break
+            elif consecutive_fail >= 6:
+                log(f"pausing 30s after {consecutive_fail} consecutive failures, then continuing")
+                time.sleep(30)
+                consecutive_fail = 0
         time.sleep(DELAY_S)
     log(f"finished out_lines={sum(1 for _ in OUT.open(encoding='utf-8')) if OUT.exists() else 0}")
 
