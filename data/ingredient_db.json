@@ -1834,5 +1834,348 @@
       "Satyaraj E et al. 2021. 0.2% Arthrospira platensis for 42 weeks raised rabies vaccine response and fecal IgA in healthy dogs. Front Nutr. PMID:34124121"
     ],
     "근거수준": "관찰/리뷰"
+  },
+  {
+    "Name": "유카추출물",
+    "영문명": "Yucca schidigera extract",
+    "매칭키": "유카추출물, 유카, 유카시디게라, 모하비 유카, yucca, Yucca schidigera",
+    "분류": "기타",
+    "목적기관": [
+      "소화장"
+    ],
+    "역할_한줄": "개 분변 암모니아를 낮춘 식물 추출물. 냄새 감소는 단백질이 높은 사료의 중간 용량에서 확인",
+    "역할_상세": "모하비 유카의 추출물. 성견 비글 20마리를 조단백질 25%·34% 사료와 추출물 0·250·500·750 mg/kg 사료로 배치한 시험에서 추출물은 단백질 수준과 관계없이 분변 암모니아를 낮췄고, 250·500 mg/kg은 장내 가스도 줄였다. 사람이 평가한 분변 냄새는 조단백질 34% 사료에 500 mg/kg을 넣었을 때 줄었다. 영양소 소화율, 분변 점수, 질소 균형, 장벽 두께는 달라지지 않았다. 750 mg/kg에서는 평균적혈구혈색소와 ALT가 오르고 혈청 콜레스테롤이 오르는 경향이 있었다(Dos Reis et al., 2016, Anim Sci J; PMID 26800023). 개와 고양이 사료에 넣었을 때 사람 패널의 분변 냄새 평가가 좋아졌고, 고양이에서는 여러 휘발 성분 농도가 바뀌었다(Lowe et al., 1997, Res Vet Sci; PMID 9368959).",
+    "시너지성분": "식이섬유, 프로바이오틱스",
+    "시너지_설명": "분변 냄새를 줄이려는 사료에 섬유·유산균과 함께 들어가는 경우가 많다. 위 용량 시험은 유카 추출물만 비교했다.",
+    "주의사항": "사료 kg당 750 mg에서는 ALT가 올랐다. 고용량을 임의로 더하지 말 것. 소화율을 올리거나 질병을 치료한 결과는 이 시험에 없다.",
+    "안내문구": "유카 추출물은 개 분변의 암모니아를 낮춘 기록이 있습니다. 냄새까지 줄어든 조건은 단백질 34% 사료에 사료 kg당 500 mg이었습니다. 750 mg에서는 간 효소 ALT가 올랐습니다. 고양이에서는 분변 냄새 평가가 좋아진 옛 급여 시험이 있습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개",
+      "고양이"
+    ],
+    "논문근거": [
+      "Dos Reis JS et al. 2016. Yucca schidigera extract lowered canine fecal ammonia; odor fell at 500 mg/kg in a 34% protein diet, while 750 mg/kg raised ALT. Anim Sci J. PMID:26800023",
+      "Lowe JA et al. 1997. Yucca extract improved human-panel faecal aroma of canine and feline diets and changed several feline faecal volatiles. Res Vet Sci. PMID:9368959"
+    ],
+    "근거수준": "RCT혼재"
+  },
+  {
+    "Name": "크랜베리",
+    "영문명": "Cranberry (Vaccinium macrocarpon)",
+    "매칭키": "크랜베리, cranberry, Vaccinium macrocarpon",
+    "분류": "기타",
+    "목적기관": [
+      "신장요로"
+    ],
+    "역할_한줄": "소변에서 대장균 부착이 줄어든 실험은 있으나, 요로 감염 임상시험에서는 예방 효과가 확인되지 않음",
+    "역할_상세": "크랜베리의 A형 프로안토시아니딘이 요로병원성 대장균의 상피 부착을 방해한다는 설명이 있다. 개에게 크랜베리 사료를 먹인 뒤 소변에서 부착을 본 실험과, 고양이 6마리에 0.1%·0.3% 크랜베리 분말을 교차로 먹인 맹검 시험에서 0.3%는 여섯 마리 모두 고양이 신장세포에 대한 대장균 부착이 줄었다(Carvajal-Campos et al., 2023, J Vet Res 67:49; 2024, PMID 39776678). 재발성 요로감염이 있던 개 12마리 중 6마리는 크랜베리, 6마리는 세팔렉신을 받았고 6개월 동안 양쪽 모두 감염이 생기지 않았다. 그 개들의 소변은 개 신장세포에 대한 대장균 부착을 줄였다(Chou et al., 2016, AJVR; PMID 27027843). 척수 손상 후 세균뇨를 본 무작위 위약 시험(94마리)에서는 크랜베리 군의 세균뇨가 줄지 않았고, 중간 분석에서 크랜베리 쪽 발생이 수치상 더 많아 조기 종료됐다(Olby et al., 2017, JVIM; PMID 27914106). 2026년 체계적 문헌고찰은 개·고양이 감염성 요로질환 연구 3편(122마리)에서 통계적으로나 수치상으로 이득을 보고한 연구가 없다고 정리했다(Weese & Weese, 2026, J Vet Pharmacol Ther; PMID 41676867).",
+    "시너지성분": "수분, 프로바이오틱스",
+    "시너지_설명": "요로 처방식은 수분과 함께 설계되는 경우가 많다. 크랜베리 부착 실험은 수분·유산균과 조합해 감염 예방을 증명하지 않았다.",
+    "주의사항": "요로 감염의 치료·예방 성분으로 안내하지 말 것. 가장 큰 개 임상시험은 이득을 보이지 않았고 조기 종료됐다. 혈액뇨·배뇨 통증은 수의사 진료가 먼저다.",
+    "안내문구": "크랜베리를 먹은 개·고양이의 소변에서는 대장균이 세포에 덜 붙는 실험 결과가 있습니다. 감염 자체를 막는지 본 가장 큰 개 임상시험에서는 세균뇨가 줄지 않았고, 2026년 문헌고찰도 감염 예방·치료 효과를 뒷받침하지 않았습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개",
+      "고양이"
+    ],
+    "논문근거": [
+      "Olby NJ et al. 2017. Cranberry extract did not reduce bacteriuria after canine spinal surgery; the trial stopped early. J Vet Intern Med. PMID:27914106",
+      "Chou HI et al. 2016. No UTI in 6 cranberry dogs or 6 cephalexin dogs over 6 months; urine reduced E. coli adhesion to MDCK cells. Am J Vet Res. PMID:27027843",
+      "Carvajal-Campos A et al. 2024. 0.3% cranberry powder reduced UPEC adherence to feline uroepithelial cells in all 6 cats. J Vet Res. PMID:39776678",
+      "Carvajal-Campos A et al. 2023. UPEC adherence in dog urine after cranberry-supplemented food. J Vet Res 67:49-54. DOI:10.2478/jvetres-2023-0004",
+      "Weese JS, Weese HE. 2026. Systematic review of 3 studies (122 dogs and cats): no significant or numerical benefit for infectious urinary disease. J Vet Pharmacol Ther. PMID:41676867"
+    ],
+    "근거수준": "RCT혼재"
+  },
+  {
+    "Name": "보리지유",
+    "영문명": "Borage seed oil (gamma-linolenic acid source)",
+    "매칭키": "보리지유, 보리지, 보리지씨유, borage, borage oil, 감마리놀렌산, gamma-linolenic, GLA",
+    "분류": "지방산",
+    "목적기관": [
+      "피부피모"
+    ],
+    "역할_한줄": "개 아토피 연구에서 어유와 함께 쓴 감마리놀렌산 기름",
+    "역할_상세": "보리지씨는 감마리놀렌산(GLA) 함량이 높은 기름이다. 아토피 개 21마리를 8주 맹검한 시험에서 보리지유 176 mg/kg 또는 88 mg/kg과 어유를 함께 준 군은 올리브유 위약보다 피부 총점이 낮아졌고, 높은 용량에서는 홍반과 자해가 줄었다(Harvey, 1999, Vet Rec; PMID 10331227). 아토피 개 60마리를 12주 추적한 다기관 시험에서는 보리지유·어유와 프레드니솔론을 함께 쓴 군의 전체 기간 스테로이드 사용량이 위약과 통계적으로 다르지 않았고(P=0.32), 64일 이후 구간에서 차이가 나타났다(P=0.04). 가려움과 임상 점수는 두 군 모두 줄었고 종료 시 활성군이 더 낮았다(Saevik et al., 2004, Vet Dermatol; PMID 15214949). 두 시험 모두 보리지유 단독이 아니다.",
+    "시너지성분": "EPA, DHA, 비타민 E",
+    "시너지_설명": "확인된 개 아토피 시험은 보리지유를 어유와 한 제품으로 먹였다. 비타민 E는 불포화지방의 산화를 늦추는 영양 조합이다.",
+    "주의사항": "달맞이꽃유와 같은 GLA 계열로 보아 이 행의 결과를 그대로 옮기지 말 것. 스테로이드를 줄이는 효과는 시험 후반에만 유의했다. 가려움의 원인 치료(기생충, 음식, 이차 감염)를 대체하지 않는다.",
+    "안내문구": "보리지유는 감마리놀렌산이 많은 기름입니다. 개 아토피 연구에서는 어유와 함께 쓰였고, 피부 점수가 좋아진 소규모 시험과 스테로이드 절약 효과가 후반에 나타난 시험이 있습니다. 보리지유만 먹은 결과로 안내하지 않습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개"
+    ],
+    "논문근거": [
+      "Harvey RG. 1999. Borage seed oil plus fish oil, not borage alone, improved canine atopy scores versus olive oil over 8 weeks. Vet Rec. PMID:10331227",
+      "Saevik BK et al. 2004. Borage oil plus fish oil with prednisolone in 60 dogs with atopic dermatitis; steroid sparing was not significant over the whole study and appeared later. Vet Dermatol. PMID:15214949"
+    ],
+    "근거수준": "RCT혼재"
+  },
+  {
+    "Name": "클로렐라",
+    "영문명": "Chlorella vulgaris",
+    "매칭키": "클로렐라, 클로렌라, chlorella, Chlorella vulgaris",
+    "분류": "기타",
+    "목적기관": [
+      "소화장"
+    ],
+    "역할_한줄": "건강한 개에서 단백질 소화율이 오르고 분변 미생물이 바뀐 미세조류",
+    "역할_상세": "클로렐라 불가리스 건조물. 성견 비글에게 시판 사료와 1.5% 클로렐라 사료를 양그릇으로 비교하자 개들은 클로렐라를 넣지 않은 사료를 더 골랐다. 이어서 6마리를 0.5·1.0·1.5%로 10일씩 먹인 소화 시험에서 섭취량, 분변량, 대부분의 영양소 소화율은 유지됐고 단백질 소화율은 대조보다 올랐다. 분변에서는 Turicibacter, Peptococcus가 늘었다(Cabrita et al., 2023, Front Vet Sci; PMC10565105). 질병을 치료한 시험이 아니다.",
+    "시너지성분": "스피루리나, 프로바이오틱스",
+    "시너지_설명": "같은 미세조류인 스피루리나와 한 제품에 들어가기도 한다. 클로렐라와 스피루리나를 함께 먹은 혈액 수치 연구는 둘의 효과를 나누지 못해 이 행의 근거로 쓰지 않았다.",
+    "주의사항": "1.5%에서는 사료 선호도가 낮았다. 피부염·면역 치료 효과로 안내하지 말 것. 회사 자료의 피부염 관찰은 학술 논문으로 확인하지 않았다.",
+    "안내문구": "클로렐라는 미세조류입니다. 건강한 비글 사료에 1.5%까지 넣었을 때 단백질 소화율이 올랐고 장과 연관된 분변 세균이 늘었습니다. 그 농도에서는 사료를 덜 골랐고, 병을 치료한 결과는 아닙니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개"
+    ],
+    "논문근거": [
+      "Cabrita ARJ et al. 2023. Up to 1.5% Chlorella vulgaris in healthy Beagles raised protein digestibility and shifted fecal microbiota; dogs preferred the unsupplemented diet. Front Vet Sci 10:1245790. PMC10565105"
+    ],
+    "근거수준": "관찰/리뷰"
+  },
+  {
+    "Name": "난소화성말토덱스트린",
+    "영문명": "Resistant maltodextrin (indigestible dextrin)",
+    "매칭키": "난소화성말토덱스트린, 난소화성말토덕스트린, 난소화성 말토덱스트린, resistant maltodextrin, indigestible dextrin",
+    "분류": "식이섬유",
+    "목적기관": [
+      "소화장"
+    ],
+    "역할_한줄": "고양이 4마리에서 분변량은 늘고 단쇄지방산 농도는 그대로였던 수용성 섬유",
+    "역할_상세": "옥수수 전분에서 만든 소화 저항성 덱스트린으로, 난소화성말토덱스트린과 같은 계열이다. 중성화 수컷 고양이 4마리를 4×4 라틴방격으로 30일씩 먹이며 사료 100 g당 난소화성 덱스트린 2 g(원료 순도 40%를 보정해 계산)을 비교했다. 프락토올리고당과 마찬가지로 분변 무게가 늘었고(P<0.05), 분변 단쇄지방산 농도는 어느 소재에서도 변하지 않았다. 난소화성 덱스트린 기간에는 Catenibacterium 비율이 가장 높고 Clostridium 평균 비율은 낮았다(Itonaga et al., 2023, J Pet Anim Nutr 26:19-27).",
+    "시너지성분": "프락토올리고당, 식이섬유",
+    "시너지_설명": "같은 고양이 실험에서 프락토올리고당도 분변량을 늘렸다. 둘을 섞었을 때의 상승은 이 실험에서 보지 않았다.",
+    "주의사항": "네 마리의 건강한 고양이 자료다. 사람 혈당·배변 연구를 고양이 변비나 설사 치료로 옮기지 말 것. 단쇄지방산 농도는 오르지 않았다.",
+    "안내문구": "난소화성말토덱스트린은 장에서 잘 쪼개지지 않는 수용성 섬유입니다. 건강한 고양이 4마리에게 넣자 분변 무게는 늘고 단쇄지방산 농도는 그대로였습니다. 배변 질환을 치료한 결과는 아닙니다.",
+    "출처": [
+      "기타"
+    ],
+    "적용종": [
+      "고양이"
+    ],
+    "논문근거": [
+      "Itonaga M et al. 2023. Indigestible dextrin (resistant maltodextrin) increased fecal weight in 4 cats and did not change fecal short-chain fatty acid concentrations. J Pet Anim Nutr 26:19-27"
+    ],
+    "근거수준": "제한적"
+  },
+  {
+    "Name": "프로폴리스",
+    "영문명": "Propolis",
+    "매칭키": "프로폴리스, propolis",
+    "분류": "기타",
+    "목적기관": [
+      "면역감염"
+    ],
+    "역할_한줄": "개 치석 비스킷에서는 단독 효과가 없었고, 고양이 구강 개선은 라이소자임과 함께 나온 결과",
+    "역할_상세": "집 안 개에게 구운 비스킷을 28일 준 시험에서 프로폴리스만 넣은 비스킷의 치석 면적 감소는 무첨가 비스킷과 같은 낮은 쪽이었다. 석류 추출물 비스킷과 헥사메타인산나트륨 비스킷이 더 많이 줄었다(Santos et al., 2021, Anim Feed Sci Technol; DOI 10.1016/j.anifeedsci.2021.115056). 고양이 24마리를 위약·치료·건강 대조로 나눈 28일 시험에서는 프로폴리스 0.3%와 라이소자임 0.2%를 함께 넣은 간식에서 휘발성 황화합물 35.4%, 치태 51.2%, 치은 지수 61.0%가 줄고 Porphyromonas가 줄었다(Wang et al., 2025, Antioxidants; PMID 40563274). 이 수치는 프로폴리스만의 효과가 아니다.",
+    "시너지성분": "석류, 라이소자임",
+    "시너지_설명": "석류와 같이 넣은 개 비스킷은 석류 단독보다 치석 감소가 작았다. 고양이에서 숫자가 나온 시험은 라이소자임과의 조합이다.",
+    "주의사항": "프로폴리스만으로 입 냄새나 치석이 줄어든다고 안내하지 말 것. 오존을 넣은 오일을 잇몸에 뿌린 고양이 시험은 먹는 영양제와 다른 방법이라 이 행에 넣지 않았다.",
+    "안내문구": "프로폴리스만 넣은 개 치석 비스킷은 아무것도 넣지 않은 비스킷과 비슷한 수준이었습니다. 고양이에서 구취·치태·잇몸 지수가 낮아진 시험은 라이소자임을 함께 넣은 간식이었습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개",
+      "고양이"
+    ],
+    "논문근거": [
+      "Santos MKR et al. 2021. Propolis-only baked biscuits did not reduce canine dental calculus beyond plain biscuits; pomegranate extract did. Anim Feed Sci Technol. DOI:10.1016/j.anifeedsci.2021.115056",
+      "Wang L et al. 2025. Propolis 0.3% plus lysozyme 0.2%, not propolis alone, lowered feline halitosis, plaque and gingival index over 28 days. Antioxidants. PMID:40563274"
+    ],
+    "근거수준": "제한적"
+  },
+  {
+    "Name": "석류",
+    "영문명": "Pomegranate (Punica granatum)",
+    "매칭키": "석류, 석류추출물, pomegranate, Punica granatum",
+    "분류": "기타",
+    "목적기관": [
+      "면역감염"
+    ],
+    "역할_한줄": "개에게 구운 비스킷으로 주었을 때 치석 면적이 헥사메타인산나트륨과 비슷하게 줄어든 추출물",
+    "역할_상세": "성견에게 28일 동안 구운 비스킷을 준 시험에서 석류 추출물 0.9% 비스킷은 치석이 덮인 면적을 줄였고, 그 정도는 헥사메타인산나트륨 0.6% 비스킷과 비슷했다. 무첨가 비스킷도 씹는 작용으로 다소 도움이 됐으나 석류와 헥사메타인산나트륨이 더 많이 줄었다. 프로폴리스만 넣은 비스킷과 석류·프로폴리스를 같이 넣은 비스킷은 그 수준에 미치지 못했다(Santos et al., 2021, Anim Feed Sci Technol; DOI 10.1016/j.anifeedsci.2021.115056).",
+    "시너지성분": "프로폴리스",
+    "시너지_설명": "같은 시험에서 석류와 프로폴리스를 한 비스킷에 넣으면 석류만 넣은 비스킷보다 치석 감소가 작았다.",
+    "주의사항": "한 편의 비스킷 연구다. 잇몸 수술이나 스케일링을 대신하지 않는다. 사람 심혈관·항산화 연구를 개 전신 질환 치료로 옮기지 말 것.",
+    "안내문구": "석류 추출물을 넣은 개 비스킷은 28일 동안 치석이 덮인 면적을 줄였고, 그 정도는 헥사메타인산나트륨 비스킷과 비슷했습니다. 프로폴리스와 같이 넣은 비스킷은 그만큼 줄지 않았습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개"
+    ],
+    "논문근거": [
+      "Santos MKR et al. 2021. Pomegranate-extract biscuits reduced canine dental calculus area to a degree similar to sodium hexametaphosphate. Anim Feed Sci Technol. DOI:10.1016/j.anifeedsci.2021.115056"
+    ],
+    "근거수준": "관찰/리뷰"
+  },
+  {
+    "Name": "녹차추출물",
+    "영문명": "Green tea catechin (Camellia sinensis)",
+    "매칭키": "녹차추출물, 녹차, 녹차가루, 녹차분말, green tea, 카테킨, catechin",
+    "분류": "항산화",
+    "목적기관": [
+      "면역감염"
+    ],
+    "역할_한줄": "개·고양이 입안의 포르피로모나스와 구취를 낮춘 카테킨. 치은염 점수는 용량마다 결과가 다름",
+    "역할_상세": "녹차에서 분리한 카테킨은 시험관에서 Porphyromonas gulae와 P. gingivalis의 생존, 생물막, 황화수소·메틸머캅탄을 용량에 따라 낮췄다. 치주질환이 있는 개와 고양이에게 카테킨 0.01892% 습식 사료를 30–35일 먹이자 구취와 P. gulae 활성은 줄었고 치태와 치은염 점수는 변하지 않았다(Ohira et al., 2025, Int Immunopharmacol; PMID 39693953). 사료 회사 소속 연구자가 공저자다. 이보다 높은 0.4 mg/g과 0.8 mg/g 카테킨 사료를 치은염 고양이 29마리에게 45일 먹인 시험에서는 잇몸 염증, 구취, Porphyromonas 비율이 대조 사료보다 낮아졌다(Isogai et al., 2008, J Appl Res Vet Med 6:82-86). 강황 추출물·가수분해 콜라겐·녹차가 함께 든 2017년 관절 식이는 녹차만의 결과가 아니라 커큐민 행에 있다.",
+    "시너지성분": "프로폴리스, 비타민 C",
+    "시너지_설명": "구강 제품에 프로폴리스와 함께 들어가기도 한다. 그 조합의 상승은 위 카테킨 시험에서 분리되지 않았다.",
+    "주의사항": "0.02% 안팎의 습식 사료 한 달 급여로 치태·치은염이 사라졌다고 안내하지 말 것. 제목과 달리 그 시험의 본문은 치태·치은염 점수가 변하지 않았다고 적는다. 관절 복합 식이를 녹차 단독 근거로 쓰지 말 것.",
+    "안내문구": "녹차 카테킨은 개·고양이 입안의 포르피로모나스와 구취를 낮춘 급여 연구가 있습니다. 습식 사료에 0.01892%를 한 달 넣은 시험에서는 치태와 치은염 점수는 그대로였습니다. 더 높은 농도를 45일 먹인 고양이 시험에서는 잇몸 염증 점수도 낮아졌습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개",
+      "고양이"
+    ],
+    "논문근거": [
+      "Ohira C et al. 2025. 0.01892% green-tea catechin wet food for 30-35 days reduced halitosis and Porphyromonas gulae activity in dogs and cats, with no change in plaque or gingivitis scores. Int Immunopharmacol. PMID:39693953",
+      "Isogai et al. 2008. Catechin 0.4 or 0.8 mg/g for 45 days lowered gingival inflammation, malodor and Porphyromonas in 29 cats with gingivitis. J Appl Res Vet Med 6:82-86"
+    ],
+    "근거수준": "RCT혼재"
+  },
+  {
+    "Name": "키토산",
+    "영문명": "Chitosan",
+    "매칭키": "키토산, chitosan",
+    "분류": "식이섬유",
+    "목적기관": [
+      "소화장"
+    ],
+    "역할_한줄": "경미한 설사가 있던 집락 고양이에서 분변 수분과 점수가 낮아진 갑각 다당",
+    "역할_상세": "키틴을 탈아세틸화한 다당. 분변 점수 4–6의 경미한 설사가 있던 브리티시 숏헤어 30마리를 사료 kg당 키토산 0·500·2,000 mg에 무작위 배치해 60일 먹였다. 60일째 분변 수분과 분변 점수는 대조(수분 75.81%, 점수 4.7)보다 500 mg(70.04%, 3.1)과 2,000 mg(71.42%, 3.7)이 낮았다. 체중은 세 군이 다르지 않았고, 2,000 mg 군은 사료 섭취량이 더 많았다. 2,000 mg 군은 분변 아세트산·부티르산이 대조보다 높고 Allobaculum이 늘었다(Mo et al., 2023, Metabolites; PMID 37110186). 보호자 고양이를 맹검한 임상시험이 아니라 한 집락의 급여 연구다.",
+    "시너지성분": "프로바이오틱스, 식이섬유",
+    "시너지_설명": "장 제품에 유산균·섬유와 함께 넣기도 한다. 이 고양이 시험은 키토산 용량만 비교했다.",
+    "주의사항": "체중은 줄지 않았다. 지방을 흡착해 살 빠지는 성분으로 안내하지 말 것. 키토올리고당은 더 잘게 쪼갠 분자라 이 행의 용량을 그대로 적용하지 않는다.",
+    "안내문구": "키토산을 사료 kg당 500 mg 또는 2,000 mg 넣은 60일 연구에서, 경미한 설사가 있던 집락 고양이의 분변 수분과 점수가 대조보다 낮아졌습니다. 체중은 달라지지 않았습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "고양이"
+    ],
+    "논문근거": [
+      "Mo R et al. 2023. 500 or 2000 mg/kg dietary chitosan for 60 days lowered fecal water and fecal scores versus control in 30 colony cats with mild diarrhea; body weight did not differ. Metabolites. PMID:37110186"
+    ],
+    "근거수준": "관찰/리뷰"
+  },
+  {
+    "Name": "만난올리고당",
+    "영문명": "Mannan-oligosaccharides (MOS)",
+    "매칭키": "만난올리고당, 만난 올리고당, mannan-oligosaccharide, mannan oligosaccharide, MOS",
+    "분류": "식이섬유",
+    "목적기관": [
+      "소화장",
+      "면역감염"
+    ],
+    "역할_한줄": "나이 든 개에서 분변 비피더스균이 늘고 대장균이 줄어든 효모 세포벽 유래 프리바이오틱",
+    "역할_상세": "효모 세포벽의 만난 올리고당. 8–11세 포인터와 비글 34마리를 무첨가, 치커리 1%, MOS 1%, 둘의 조합에 나눠 4주 먹였다. MOS는 분변 비피더스균을 건물 g당 0.5 log 늘리고 대장균을 줄였다. 분변 젖은 양은 늘었으나 섭취량으로 나누면 차이가 없었다. 백혈구 수는 그대로였고 말초 림프구는 MOS에서 줄어드는 경향(P=0.06), 치커리와 함께 준 군에서는 유의하게 줄었다(P<0.05). 조합 군의 분변 점수는 다소 무른 쪽으로 이동했으나 3–3.5로 양호한 범위였다(Grieshop et al., 2004, Arch Anim Nutr; PMID 15732581). 네 마리 장루 개에서 FOS와 MOS를 함께 본 2002년 연구는 프락토올리고당 행에 이미 있어 여기 반복하지 않는다.",
+    "시너지성분": "프락토올리고당, 이눌린, 프로바이오틱스",
+    "시너지_설명": "프리바이오틱으로 FOS·이눌린·유산균과 같은 처방에 들어간다. 치커리와 MOS를 같이 넣은 군은 분변이 다소 물러졌다.",
+    "주의사항": "건강한 노령견의 분변 세균 변화다. 설사나 면역 질환의 치료 효과로 안내하지 말 것. 림프구 수가 늘어난 결과는 아니었다.",
+    "안내문구": "만난올리고당은 효모 세포벽에서 얻는 프리바이오틱입니다. 나이 든 개에게 1%를 4주 넣자 분변 비피더스균이 늘고 대장균은 줄었습니다. 병을 치료한 시험은 아니고, 림프구 수는 줄어드는 쪽이었습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개"
+    ],
+    "논문근거": [
+      "Grieshop CM et al. 2004. 1% mannan-oligosaccharide for 4 weeks raised fecal bifidobacteria and lowered E. coli in 34 senior dogs; peripheral lymphocytes tended to fall. Arch Anim Nutr. PMID:15732581"
+    ],
+    "근거수준": "관찰/리뷰"
+  },
+  {
+    "Name": "L-테아닌",
+    "영문명": "L-theanine",
+    "매칭키": "L-테아닌, 테아닌, L-theanine, theanine, 엘테아닌",
+    "분류": "아미노산",
+    "목적기관": [
+      "뇌인지"
+    ],
+    "역할_한줄": "소음·스트레스 행동 점수가 낮아진 공개 연구. 위약 대조는 없음",
+    "역할_상세": "녹차의 아미노산으로 글루탐산과 구조가 비슷하다. 천둥에 예민한 집 안 개 18마리가 L-테아닌(Anxitane)을 먹고 이후 폭풍 5회를 기록한 공개 시험에서 전체 불안 점수가 낮아졌고(P<0.0001) 평소 상태로 돌아오는 시간도 줄었다(P=0.0063). 위약 군은 없다(Pike et al., 2015, J Vet Behav 10:324-331). 소음 공포 개 20마리를 행동치료만 받은 군과 행동치료에 L-테아닌을 더한 군으로 63일 비교한 시험에서는 두 군 모두 증상이 줄었고, 헥헥거림·침 흘림·입술 핥기·하품·보호자 주의 끌기·발성·강박 행동은 테아닌 군에서만 줄었다. 혈중 코르티솔은 다르지 않았다(Michelazzi et al., 2010, J Vet Behav; DOI 10.1016/j.jveb.2009.10.020). 스트레스 관련 행동이 한 달 이상 있던 고양이 33마리에게 25 mg을 하루 두 번, 30일 준 공개 시험에서는 전체 점수 중앙값이 18에서 5로 줄고 33마리 중 30마리가 낮아졌다. 위약은 없고 제조사 연구자가 참여했다(Dramard et al., 2018, Ir Vet J; PMID 30338056).",
+    "시너지성분": "카제인 가수분해물",
+    "시너지_설명": "불안 보조제에 우유 카제인 가수분해물과 함께 들어가는 제품이 있다. 위 세 시험은 L-테아닌 제품을 단독으로 보았다.",
+    "주의사항": "위약 대조가 없어 시간 경과와 행동 교육 효과를 나누지 못한다. 분리불안·공격성의 단독 치료로 안내하지 말 것. 코르티솔이 낮아진 결과는 개 소음 시험에서 확인되지 않았다.",
+    "안내문구": "L-테아닌은 녹차 아미노산입니다. 천둥에 예민한 개와 스트레스 행동을 보이는 고양이에서 행동 점수가 낮아진 공개 연구가 있습니다. 위약을 먹은 대조는 없어서, 시간이나 행동 교육의 효과와 완전히 나누어 보기는 어렵습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개",
+      "고양이"
+    ],
+    "논문근거": [
+      "Pike AL et al. 2015. Open-label L-theanine in 18 storm-sensitive dogs lowered owner-scored global anxiety; no placebo arm. J Vet Behav 10:324-331. DOI:10.1016/j.jveb.2015.04.001",
+      "Michelazzi et al. 2010. L-theanine plus behavior therapy versus behavior therapy in 20 noise-phobic dogs; some behaviors fell only in the theanine group and cortisol did not differ. J Vet Behav. DOI:10.1016/j.jveb.2009.10.020",
+      "Dramard V et al. 2018. Open-label 25 mg L-theanine twice daily for 30 days lowered stress scores in 30 of 33 cats; no placebo. Ir Vet J. PMID:30338056"
+    ],
+    "근거수준": "제한적"
+  },
+  {
+    "Name": "홍삼",
+    "영문명": "Korean red ginseng (steamed Panax ginseng)",
+    "매칭키": "홍삼, 홍삼분말, 홍삼가루, 홍삼농축액, Korean red ginseng, red ginseng",
+    "분류": "기타",
+    "목적기관": [
+      "면역감염"
+    ],
+    "역할_한줄": "건강한 비글에서 시작 시점보다 체중과 렙틴이 낮아진 추출물. 홍삼 없는 대조 사료는 없음",
+    "역할_상세": "찐 고려인삼 추출물. 건강한 비글에게 홍삼 추출물 사료와 간식을 8주 먹이자 시작 시점보다 체중, 비만 점수, 렙틴이 낮아졌다. CT 체지방은 사료를 먹은 군에서 줄었고 간식만 먹은 군에서는 줄지 않았다. 혈액검사에서 의미 있는 변화는 없었고 이상 반응도 보고되지 않았다. 홍삼을 넣지 않은 대조 사료는 없다(Bae & Oh, 2019, Pol J Vet Sci; PMID 31269358). 간의 40%를 절제한 개 15마리에게 경구 홍삼 250 또는 500 mg/kg을 준 시험에서는 대조 절제군보다 AST·ALT가 낮고 조직의 변성 세포가 적었으며, 재생률은 수치상 높았으나 통계적으로 유의하지 않았다(PMID 12819370). 홍삼 찌꺼기에서 뽑은 식이섬유의 장내 미생물 연구(PMID 37367492)는 추출물과 다른 물질이라 이 행에 넣지 않았다.",
+    "시너지성분": "L-카르니틴",
+    "시너지_설명": "체중 관리 제품에 카르니틴과 함께 들어가기도 한다. 홍삼 개 시험은 카르니틴과 조합하지 않았다.",
+    "주의사항": "비만한 환자를 위약 사료와 비교한 체중 감량 시험이 아니다. 간 절제 모델의 효소 변화를 간 영양제 효과로 안내하지 말 것. 수삼·백삼 제품을 홍삼 결과로 매칭하지 않는다.",
+    "안내문구": "홍삼 추출물을 넣은 사료를 건강한 비글에게 8주 먹이자 시작 시점보다 체중, 비만 점수, 렙틴이 낮아졌습니다. 홍삼 없는 대조 사료와 비교한 시험은 아니고, 간식만 먹은 군은 체지방 영상이 줄지 않았습니다.",
+    "출처": [
+      "PubMed"
+    ],
+    "적용종": [
+      "개"
+    ],
+    "논문근거": [
+      "Bae S, Oh T. 2019. Korean red ginseng extract diet or snack for 8 weeks lowered body weight, body condition score and leptin versus baseline in healthy Beagles; no untreated control diet. Pol J Vet Sci. PMID:31269358",
+      "Oral Korean red ginseng after 40% hepatectomy in dogs lowered AST and ALT versus untreated hepatectomy controls; the regeneration-rate difference was not significant. PMID:12819370"
+    ],
+    "근거수준": "제한적"
+  },
+  {
+    "Name": "로즈마리 추출물",
+    "영문명": "Rosemary extract (Rosmarinus officinalis)",
+    "매칭키": "로즈마리 추출물, 로즈마리, rosemary, Rosmarinus officinalis",
+    "분류": "항산화",
+    "목적기관": [
+      "기타"
+    ],
+    "역할_한줄": "사료 기름의 산화를 늦추는 첨가제. 개·고양이 질병 치료 시험으로 확인된 성분은 아님",
+    "역할_상세": "로즈마리 잎을 아세톤 또는 에탄올로 추출한 사료 첨가제. 유럽식품안전청 사료첨가물 패널은 카르노스산·카르노솔을 지표로 한 두 추출물에 대해, 완전사료(건물 88%) kg당 개 300 mg, 고양이 50 mg까지 안전하다고 보았다. 항산화 효과는 식품에서 이미 쓰이는 기능이 사료에서도 기대된다는 판단이며, 개·고양이 질병을 치료한 임상시험은 요구하지 않았다(EFSA FEEDAP, 2022, EFSA Journal 20:6978; DOI 10.2903/j.efsa.2022.6978). 정향·로즈마리·오레가노 정유와 비타민 E를 함께 넣은 비글 사료(PMID 34445901)는 로즈마리 추출물 단독 결과가 아니라 이 행에 넣지 않았다.",
+    "시너지성분": "비타민 E, 비타민 C",
+    "시너지_설명": "사료 보존 항산화제로 토코페롤과 함께 쓰인다. 그 조합의 질병 예방 효과는 이 안전성 평가의 결론이 아니다.",
+    "주의사항": "고양이 완전사료 kg당 50 mg, 개 300 mg을 넘는 농도는 이 평가에서 안전하다고 보지 않았다. 피부·눈 자극성은 원료를 다루는 사람 기준이다. 관절·인지·면역 치료 성분으로 안내하지 말 것.",
+    "안내문구": "로즈마리 추출물은 사료가 산화되지 않게 넣는 첨가제입니다. 유럽 사료 안전 평가는 완전사료 kg당 개 300 mg, 고양이 50 mg까지를 안전한 상한으로 봤습니다. 질병을 치료하는 임상 결과는 이 행에 없습니다.",
+    "출처": [
+      "기타"
+    ],
+    "적용종": [
+      "개",
+      "고양이"
+    ],
+    "논문근거": [
+      "EFSA FEEDAP Panel. 2022. Rosemary extracts are safe up to 300 mg/kg complete feed for dogs and 50 mg/kg for cats; the antioxidant function is extrapolated from food use. EFSA Journal 20:6978. DOI:10.2903/j.efsa.2022.6978"
+    ],
+    "근거수준": "제한적"
   }
 ]

@@ -125,3 +125,27 @@
 - **요오드** (관찰/리뷰): Grossi G et al. 2019. Non-randomized trial of iodine-restricted food vs methimazole in 34 hyperthyroid cats. Open Vet J. PMID:31998612
 - **히알루론산** (제한적): Serra CI et al. 2021. Oral HA after canine TTA changed synovial biomarkers vs baseline; between-group differences were not significant. PMID:33925642
 - **스피루리나** (관찰/리뷰): Satyaraj E et al. 2021. 0.2% Arthrospira platensis for 42 weeks raised rabies vaccine response and fecal IgA in healthy dogs. Front Nutr. PMID:34124121
+- **유카추출물** (RCT혼재): Dos Reis JS et al. 2016. Yucca schidigera extract lowered canine fecal ammonia; odor fell at 500 mg/kg in a 34% protein diet, while 750 mg/kg raised ALT. Anim Sci J. PMID:26800023
+- **유카추출물** (RCT혼재): Lowe JA et al. 1997. Yucca extract improved human-panel faecal aroma of canine and feline diets and changed several feline faecal volatiles. Res Vet Sci. PMID:9368959
+- **크랜베리** (RCT혼재): Olby NJ et al. 2017. Cranberry extract did not reduce bacteriuria after canine spinal surgery; the trial stopped early. J Vet Intern Med. PMID:27914106
+- **크랜베리** (RCT혼재): Chou HI et al. 2016. No UTI in 6 cranberry dogs or 6 cephalexin dogs over 6 months; urine reduced E. coli adhesion to MDCK cells. Am J Vet Res. PMID:27027843
+- **크랜베리** (RCT혼재): Carvajal-Campos A et al. 2024. 0.3% cranberry powder reduced UPEC adherence to feline uroepithelial cells in all 6 cats. J Vet Res. PMID:39776678
+- **크랜베리** (RCT혼재): Carvajal-Campos A et al. 2023. UPEC adherence in dog urine after cranberry-supplemented food. J Vet Res 67:49-54. DOI:10.2478/jvetres-2023-0004
+- **크랜베리** (RCT혼재): Weese JS, Weese HE. 2026. Systematic review of 3 studies (122 dogs and cats): no significant or numerical benefit for infectious urinary disease. J Vet Pharmacol Ther. PMID:41676867
+- **보리지유** (RCT혼재): Harvey RG. 1999. Borage seed oil plus fish oil, not borage alone, improved canine atopy scores versus olive oil over 8 weeks. Vet Rec. PMID:10331227
+- **보리지유** (RCT혼재): Saevik BK et al. 2004. Borage oil plus fish oil with prednisolone in 60 dogs with atopic dermatitis; steroid sparing was not significant over the whole study and appeared later. Vet Dermatol. PMID:15214949
+- **클로렐라** (관찰/리뷰): Cabrita ARJ et al. 2023. Up to 1.5% Chlorella vulgaris in healthy Beagles raised protein digestibility and shifted fecal microbiota; dogs preferred the unsupplemented diet. Front Vet Sci 10:1245790. PMC10565105
+- **난소화성말토덱스트린** (제한적): Itonaga M et al. 2023. Indigestible dextrin (resistant maltodextrin) increased fecal weight in 4 cats and did not change fecal short-chain fatty acid concentrations. J Pet Anim Nutr 26:19-27
+- **프로폴리스** (제한적): Santos MKR et al. 2021. Propolis-only baked biscuits did not reduce canine dental calculus beyond plain biscuits; pomegranate extract did. Anim Feed Sci Technol. DOI:10.1016/j.anifeedsci.2021.115056
+- **프로폴리스** (제한적): Wang L et al. 2025. Propolis 0.3% plus lysozyme 0.2%, not propolis alone, lowered feline halitosis, plaque and gingival index over 28 days. Antioxidants. PMID:40563274
+- **석류** (관찰/리뷰): Santos MKR et al. 2021. Pomegranate-extract biscuits reduced canine dental calculus area to a degree similar to sodium hexametaphosphate. Anim Feed Sci Technol. DOI:10.1016/j.anifeedsci.2021.115056
+- **녹차추출물** (RCT혼재): Ohira C et al. 2025. 0.01892% green-tea catechin wet food for 30-35 days reduced halitosis and Porphyromonas gulae activity in dogs and cats, with no change in plaque or gingivitis scores. Int Immunopharmacol. PMID:39693953
+- **녹차추출물** (RCT혼재): Isogai et al. 2008. Catechin 0.4 or 0.8 mg/g for 45 days lowered gingival inflammation, malodor and Porphyromonas in 29 cats with gingivitis. J Appl Res Vet Med 6:82-86
+- **키토산** (관찰/리뷰): Mo R et al. 2023. 500 or 2000 mg/kg dietary chitosan for 60 days lowered fecal water and fecal scores versus control in 30 colony cats with mild diarrhea; body weight did not differ. Metabolites. PMID:37110186
+- **만난올리고당** (관찰/리뷰): Grieshop CM et al. 2004. 1% mannan-oligosaccharide for 4 weeks raised fecal bifidobacteria and lowered E. coli in 34 senior dogs; peripheral lymphocytes tended to fall. Arch Anim Nutr. PMID:15732581
+- **L-테아닌** (제한적): Pike AL et al. 2015. Open-label L-theanine in 18 storm-sensitive dogs lowered owner-scored global anxiety; no placebo arm. J Vet Behav 10:324-331. DOI:10.1016/j.jveb.2015.04.001
+- **L-테아닌** (제한적): Michelazzi et al. 2010. L-theanine plus behavior therapy versus behavior therapy in 20 noise-phobic dogs; some behaviors fell only in the theanine group and cortisol did not differ. J Vet Behav. DOI:10.1016/j.jveb.2009.10.020
+- **L-테아닌** (제한적): Dramard V et al. 2018. Open-label 25 mg L-theanine twice daily for 30 days lowered stress scores in 30 of 33 cats; no placebo. Ir Vet J. PMID:30338056
+- **홍삼** (제한적): Bae S, Oh T. 2019. Korean red ginseng extract diet or snack for 8 weeks lowered body weight, body condition score and leptin versus baseline in healthy Beagles; no untreated control diet. Pol J Vet Sci. PMID:31269358
+- **홍삼** (제한적): Oral Korean red ginseng after 40% hepatectomy in dogs lowered AST and ALT versus untreated hepatectomy controls; the regeneration-rate difference was not significant. PMID:12819370
+- **로즈마리 추출물** (제한적): EFSA FEEDAP Panel. 2022. Rosemary extracts are safe up to 300 mg/kg complete feed for dogs and 50 mg/kg for cats; the antioxidant function is extrapolated from food use. EFSA Journal 20:6978. DOI:10.2903/j.efsa.2022.6978
