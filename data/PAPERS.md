@@ -1,0 +1,80 @@
+# 성분별 논문·가이드라인 근거
+
+- **EPA** (RCT강함): Mehler SJ et al. 2016. EPA+DHA dog OA RCT. PMID:27269707
+- **EPA** (RCT강함): Corbee RJ et al. 2012. Omega-3 feline OA crossover. J Anim Physiol Anim Nutr
+- **EPA** (RCT강함): Blanchard et al. 2024. EPA/DHA+turmeric+collagen feline OA RCT. Animals 14:3298 / PMC11591455
+- **EPA** (RCT강함): Schäfer et al. 2024. PUFA oclacitinib-sparing in canine AD. Vet Dermatol
+- **DHA** (RCT강함): Mehler SJ et al. 2016. PMID:27269707
+- **DHA** (RCT강함): Blanchard et al. 2024. PMC11591455
+- **DHA** (RCT강함): FEDIAF Nutritional Guidelines 2024; AAFCO Dog/Cat Food Nutrient Profiles
+- **오메가-3 (어유)** (RCT강함): Mehler 2016 PMID:27269707
+- **오메가-3 (어유)** (RCT강함): Corbee 2012 feline OA
+- **오메가-3 (어유)** (RCT강함): Blanchard 2024 PMC11591455
+- **오메가-3 (어유)** (RCT강함): Schäfer 2024 Vet Dermatol; Mueller et al. 2004 JSAP atopic
+- **글루코사민** (RCT혼재): McCarthy G et al. 2007. Glu/CS dog OA RCT. PMID:16647870
+- **글루코사민** (RCT혼재): Scott RM et al. 2017. Glu/CS+ placebo RCT, no activity benefit. PMID:28763523
+- **글루코사민** (RCT혼재): Kampa N et al. 2023. Glu/CS vs marine FA vs carprofen. PMID:36816197 / PMC9929184
+- **콘드로이틴** (RCT혼재): McCarthy 2007 PMID:16647870
+- **콘드로이틴** (RCT혼재): Kampa 2023 PMID:36816197
+- **MSM** (제한적): Kampa 2023 PMID:36816197 (복합제 성분으로 포함)
+- **타우린** (생리학/필수영양): Hayes KC / Sturman JA. Taurine essential for the cat. J Nutr / classic reviews
+- **타우린** (생리학/필수영양): Fascetti AJ et al. 2003. Taurine deficiency DCM in dogs. JAVMA PMID:14584743
+- **타우린** (생리학/필수영양): Kaplan JL et al. 2018. Golden retriever taurine-DCM. PLOS ONE PMC6292607
+- **타우린** (생리학/필수영양): Wu G et al. 2023. AA nutrition cats & dogs. Amino Acids PMC9942351
+- **L-카르니틴** (관찰/리뷰): Keene BW et al. 1991. Myocardial L-carnitine deficiency DCM dogs. PMID:2019534
+- **L-카르니틴** (관찰/리뷰): Ibrahim WH et al. 2003. Carnitine/taurine feline weight loss & hepatic lipid. AJVR 64:1265
+- **L-카르니틴** (관찰/리뷰): Freeman LM. 2004? Traditional/nontraditional cardiac therapies review. PMID:15032128
+- **비타민 A** (생리학/필수영양): Merck Vet Manual: Nutritional Requirements of Small Animals
+- **비타민 A** (생리학/필수영양): FEDIAF 2024; AAFCO Cat Food Nutrient Profiles
+- **베타카로틴** (관찰/리뷰): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 C** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 E** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 D** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 K** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 B1 (티아민)** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 B2 (리보플라빈)** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 B6** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 B12** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **엽산** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **나이아신** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **판토텐산** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비오틴** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **콜린** (관찰/리뷰): J Anim Sci 2025 choline/L-carnitine lean vs obese cats metabolomics DOI:10.1093/jas/skaf298
+- **콜린** (관찰/리뷰): AAFCO nutrient profiles
+- **칼슘** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **인** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **마그네슘** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **칼륨** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **철** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **아연** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **구리** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **셀레늄** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **식이섬유** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **이눌린** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **사포닌** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **프로바이오틱스(유산균)** (RCT혼재): Scahill et al. 2024. ENOVAT CAD antimicrobials/nutraceuticals SR/MA. Vet J 106054
+- **프로바이오틱스(유산균)** (RCT혼재): White et al. 2017. Multi-strain probiotic canine IBD RCT. PMID:28678609
+- **프로바이오틱스(유산균)** (RCT혼재): Synbiotic-IgY canine CE RCT 2023 PMID:36669027
+- **프로바이오틱스(유산균)** (RCT혼재): Evidence-based biotics dogs/cats. Vet Rec 2025 DOI:10.1002/vetr.4916
+- **글루타티온** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **아스타잔틴** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **안토시아닌** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **루테인** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **단백질** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 U** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **구연산** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **SAM-e** (RCT강함): Skorupski KA et al. 2011. Denamarin CCNU hepatopathy RCT. PMID:21689156
+- **SAM-e** (RCT강함): Center SA et al. 2012? SAMe+silybin canine hepatocytes. PMID:22320165
+- **SAM-e** (RCT강함): Yilmaz Z et al. SAMe+silybin canine endotoxemia. Turk J Vet Anim Sci
+- **밀크씨슬 (실리마린/실리빈)** (RCT강함): Skorupski 2011 PMID:21689156
+- **밀크씨슬 (실리마린/실리빈)** (RCT강함): Sadowska J et al. 2021. Silybin dogs liver markers. PMC8235871
+- **밀크씨슬 (실리마린/실리빈)** (RCT강함): Center et al. PMID:22320165
+- **코엔자임 Q10** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **콜라겐** (RCT혼재): Blanchard et al. 2024. feline OA diet with hydrolysed collagen. PMC11591455
+- **그린립홍합** (RCT혼재): Kampa N et al. 2023. PCSO-524/EAB-277 dog hip OA. PMID:36816197
+- **아르기닌** (생리학/필수영양): Wu G et al. 2023. Amino acid nutrition cats & dogs. Amino Acids PMC9942351
+- **아르기닌** (생리학/필수영양): AAFCO Dog/Cat Food Nutrient Profiles; FEDIAF 2024
+- **아르기닌** (생리학/필수영양): Merck Vet Manual: cats higher arginine requirement
+- **아라키돈산** (생리학/필수영양): Essential fatty acid metabolism in dogs and cats. DOI:10.1590/s1516-35982008001300004
+- **아라키돈산** (생리학/필수영양): FEDIAF Nutritional Guidelines 2024 (feline AA minima)
+- **아라키돈산** (생리학/필수영양): Merck Vet Manual: cats require dietary arachidonic acid
