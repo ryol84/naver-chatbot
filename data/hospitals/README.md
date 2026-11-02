@@ -90,7 +90,7 @@ Gwangju neigh wave1 95: Place enrich merge
 
 출처: [maruvet.com/hospital](https://www.maruvet.com/hospital/) (쫑긋). 지방행정 인허가 공개 목록. 원천 기준일 2026-10-17. 상세 페이지 수집 완료 2026-11-02.
 
-- 엑셀: `data/hospitals/sources/maruvet-지금까지.xlsx`
+- 엑셀: `data/hospitals/sources/maruvet-hospitals-full.xlsx`
 - 5,491곳 전부. 상세 페이지 5,491곳 저장 (한 곳씩, `/api/` 미사용)
 - 지번 5,438 · 진료과목 2,844 · 공식 채널 2,688
 - 기존 companion 4,137과 전화 겹침 2,381 · 마루벳에만 있는 전화 1,753
