@@ -37,7 +37,9 @@
 - **비타민 E** (RCT혼재): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **비타민 E** (RCT혼재): Plevnik Kapun A et al. 2014. Vitamin E in canine atopic dermatitis RCT. Vet Rec. PMID:25205675
 - **비타민 E** (RCT혼재): Wang W et al. 2016. Antioxidant blend (incl. vitamin E 336 mg/d) improved canine ERG. J Nutr Sci. PMC4891559
-- **비타민 D** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 D** (RCT혼재): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **비타민 D** (RCT혼재): Klinger CJ et al. 2018. Systemic cholecalciferol vs placebo in canine atopic dermatitis, 23-dog crossover. Vet Rec. PMID:29419484
+- **비타민 D** (RCT혼재): Hypercalcaemia in two dogs from excessive dietary vitamin D. J Small Anim Pract 2005. PMID:16035450
 - **비타민 K** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **비타민 B1 (티아민)** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **비타민 B2 (리보플라빈)** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
@@ -62,7 +64,9 @@
 - **아연** (RCT혼재): Marsh KA et al. 2000. Zinc plus linoleic acid improved coat gloss and scale in dogs. Vet Dermatol. DOI:10.1046/j.1365-3164.2000.00202.x
 - **구리** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **셀레늄** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
-- **식이섬유** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **식이섬유** (관찰/리뷰): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
+- **식이섬유** (관찰/리뷰): Middelbos IS et al. 2007. Beet pulp vs FOS/yeast-cell-wall blends in ileal-cannulated dogs. J Anim Sci. DOI:10.2527/jas.2007-0080
+- **식이섬유** (관찰/리뷰): Rudinsky AJ et al. 2022. Digestible diet with or without psyllium vs metronidazole in canine acute colitis. JAVMA. PMID:36191142
 - **이눌린** (관찰/리뷰): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **이눌린** (관찰/리뷰): Garcia-Mazcorro JF et al. 2017. FOS plus inulin fecal microbiota in healthy dogs and cats. PMID:28439463
 - **사포닌** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
@@ -108,3 +112,16 @@
 - **보스웰리아** (RCT혼재): Martello E et al. 2022. Multi-ingredient OA supplement including Boswellia, placebo RCT. PMC8849458
 - **커큐민** (RCT혼재): Comblain F et al. 2017. Curcuminoids, hydrolyzed collagen, green tea diet in canine OA. PMID:29262825
 - **커큐민** (RCT혼재): Corbee RJ. 2022. Green-lipped mussel, curcumin, blackcurrant in dogs and cats with OA. PMID:35274496
+- **프락토올리고당** (관찰/리뷰): Swanson KS et al. 2002. FOS and/or MOS in four ileal-cannulated dogs. J Nutr. PMID:11983825
+- **프락토올리고당** (관찰/리뷰): Fructan supplementation of dog diets. J Anim Sci 2003. PMID:12926783
+- **프락토올리고당** (관찰/리뷰): Garcia-Mazcorro JF et al. 2017. FOS plus inulin in healthy dogs and cats. PMID:28439463
+- **아마씨** (관찰/리뷰): Dunbar BL et al. 2010. Flaxseed diet enriched canine serum ALA, EPA and DPAn-3 but not DHA. Lipids. PMID:19890671
+- **블루베리** (관찰/리뷰): Dunlap KL et al. 2006. Blueberry raised post-exercise antioxidant status in sled dogs; muscle-damage markers not clearly reduced. PMID:16520073
+- **사탕무박** (관찰/리뷰): Middelbos IS et al. 2007. Beet pulp increased fecal short-chain fatty acids vs control and cellulose in dogs. J Anim Sci. DOI:10.2527/jas.2007-0080
+- **차전자피** (RCT혼재): Rudinsky AJ et al. 2022. Psyllium-enhanced diet did not beat the digestible diet alone; both beat metronidazole in canine acute noninfectious colitis. PMID:36191142
+- **베타글루칸** (관찰/리뷰): Ferreira LG et al. 2018. 1% oat beta-glucan for 71 days lowered canine cholesterol, LDL and VLDL and reduced digestibility. PMID:30063762
+- **베타글루칸** (관찰/리뷰): Dried yeast cell walls high in beta-glucan and MOS altered canine gut microbiota. J Anim Sci 2020. PMID:32497185
+- **요오드** (관찰/리뷰): AAFCO/FEDIAF trace-mineral minima for iodine
+- **요오드** (관찰/리뷰): Grossi G et al. 2019. Non-randomized trial of iodine-restricted food vs methimazole in 34 hyperthyroid cats. Open Vet J. PMID:31998612
+- **히알루론산** (제한적): Serra CI et al. 2021. Oral HA after canine TTA changed synovial biomarkers vs baseline; between-group differences were not significant. PMID:33925642
+- **스피루리나** (관찰/리뷰): Satyaraj E et al. 2021. 0.2% Arthrospira platensis for 42 weeks raised rabies vaccine response and fecal IgA in healthy dogs. Front Nutr. PMID:34124121
