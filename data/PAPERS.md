@@ -1,7 +1,5 @@
 # 성분별 논문·가이드라인 근거
 
-v1.2에서 새로 더한 논문은 각 항목의 논문근거에 포함된다. 아래는 전 성분 목록이다.
-
 - **EPA** (RCT강함): Mehler SJ et al. 2016. EPA+DHA dog OA RCT. PMID:27269707
 - **EPA** (RCT강함): Corbee RJ et al. 2012. Omega-3 feline OA crossover. J Anim Physiol Anim Nutr
 - **EPA** (RCT강함): Blanchard et al. 2024. EPA/DHA+turmeric+collagen feline OA RCT. Animals 14:3298 / PMC11591455
@@ -52,9 +50,9 @@ v1.2에서 새로 더한 논문은 각 항목의 논문근거에 포함된다. �
 - **콜린** (관찰/리뷰): J Anim Sci 2025 choline/L-carnitine lean vs obese cats metabolomics DOI:10.1093/jas/skaf298
 - **콜린** (관찰/리뷰): AAFCO nutrient profiles
 - **칼슘** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
-- **칼슘** (생리학/필수영양): Geddes RF et al. 2021. Ca:P ratio and hypercalcemia in early feline CKD. JVIM 35:2797
+- **칼슘** (생리학/필수영양): Schauf S et al. 2021. Early feline CKD diets, protein, phosphorus and Ca:P. J Vet Intern Med 35:2797
 - **인** (관찰/리뷰): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
-- **인** (관찰/리뷰): Geddes RF et al. 2021. Early feline CKD diets varying in protein and phosphorus. J Vet Intern Med 35:2797
+- **인** (관찰/리뷰): Schauf S et al. 2021. Early feline CKD diets, protein, phosphorus and Ca:P. J Vet Intern Med 35:2797
 - **인** (관찰/리뷰): Dietary phosphorus and renal disease in cats: where are we? JFMS review. PMC11529143
 - **마그네슘** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **칼륨** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
@@ -80,7 +78,7 @@ v1.2에서 새로 더한 논문은 각 항목의 논문근거에 포함된다. �
 - **루테인** (관찰/리뷰): Wang W et al. 2016. Lutein 20 mg/d within antioxidant blend, canine ERG. PMC4891559
 - **루테인** (관찰/리뷰): Narrative review 2026. Lutein, zeaxanthin, meso-zeaxanthin in dogs, cats, horses. DOI:10.31083/ijvnr50575
 - **단백질** (관찰/리뷰): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
-- **단백질** (관찰/리뷰): Geddes RF et al. 2021. Very low protein with very low phosphorus in early feline CKD linked to hypercalcemia. JVIM 35:2797
+- **단백질** (관찰/리뷰): Schauf S et al. 2021. Early feline CKD diets, protein, phosphorus and Ca:P. J Vet Intern Med 35:2797
 - **비타민 U** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **구연산** (생리학/필수영양): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **SAM-e** (RCT강함): Skorupski KA et al. 2011. Denamarin CCNU hepatopathy RCT. PMID:21689156
@@ -91,6 +89,8 @@ v1.2에서 새로 더한 논문은 각 항목의 논문근거에 포함된다. �
 - **밀크씨슬 (실리마린/실리빈)** (RCT강함): Center et al. PMID:22320165
 - **코엔자임 Q10** (제한적): AAFCO/FEDIAF/국축원 영양 프로파일; 《강아지 영양학 사전》
 - **코엔자임 Q10** (제한적): Harker-Murray AK et al. 2000. CoQ10 in experimental canine CHF. PMID:10997750
+- **코엔자임 Q10** (제한적): Christiansen LB et al. 2021. Low myocardial CoQ10 in CKCS with CHF from MMVD. PMID:33499156
+- **코엔자임 Q10** (제한적): Druzhaeva N et al. 2021. CoQ10 200 mg/day raised plasma levels in canine MMVD CHF. PMID:33764833
 - **콜라겐** (RCT혼재): Blanchard et al. 2024. feline OA diet with hydrolysed collagen. PMC11591455
 - **콜라겐** (RCT혼재): Comblain F et al. 2017. Diet with curcuminoids, hydrolyzed collagen and green tea in canine OA. PMID:29262825 / PMC5738810
 - **그린립홍합** (RCT혼재): Kampa N et al. 2023. PCSO-524/EAB-277 dog hip OA. PMID:36816197
